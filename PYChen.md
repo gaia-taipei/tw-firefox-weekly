@@ -1,3 +1,32 @@
+## 10/06 - 10/09 ##
+### Last Week ###
+* [woodduck]
+	1. Bug 1078151 - [Comms][Contacts]After we tap "Search" in Gmail view,some contacts without picture have a circle.
+		- got r+
+	2. Bug 989704 - "visible to all' was disabled after turn off bluetooth and turn on again
+		- After investigating and discussing with Arthur and Jenny, it is by design. We decided to file `bug 1080427`, Jenny will give a full specs in the future. 
+	3. traige meeting * 1
+		- 2.0m+ 9 bugs found, 2 non-assignee, bug 1059037, 1074069.
+		- 2.0m? 9 bugs found, 1 assignee. 
+		- defects unmarked 29 bugs found.
+		- Bug 1080481 - (Woodduck_2.0_Generic) [meta][Woodduck 2.0 Generic]
+			- tracking 2.0_Generic issue but only land in 2.0m.
+			- 22 bugs found
+* [dolphin]
+	1. Bug 1069822 - unable to set wallpaper after zoom in a picture
+		- there is a dup `bug 1055805`, help to prepare `v1.4`, `v2.0` patch.
+* [Memory Profiler]
+	- We are planning to use dev-tool profiler panel, and we will find someone to help on how to integate profiler panel. I will focus on app side.
+	
+* [others]
+	1. Bug 1068540 - [camera] recording stopped by power key is not saved
+		- camera app can not receive 'storage change' event when screen passcode enabled, seems this is a gecko issue.
+	2. Bug 1071433 - [gallery]share with ringtone is seen in gallery
+		- help TAM to redirect right people to review patch.
+### This Week ###
+* [Memory Profiler]
+	- using sample logs for prototype.
+
 ## 9/29 - 10/3 ##
 
 ### Last Week ###
