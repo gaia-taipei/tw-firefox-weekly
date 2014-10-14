@@ -1,25 +1,25 @@
-## 9/29 - 10/3 ##
+## 10/6 - 10/9 ##
 
 ### Last Week ###
 
-* [Bug 1069066](http://bugzil.la/1069066) - [Woodduck][Rose][Free Test][MMS]The picture which you removed first will still in here in message attachment(5/5)
-    - investigated and closed by invalid **[Done]**
-* [Bug 1070443](http://bugzil.la/1070443) - [Woodduck][Comms][RIL][TE][Case Fail][Call]A second incoming call can't automatically turns on the device screen
-    - investigated and closed by duplicate **[Done]**
-* [Bug 1052424](http://bugzil.la/1052424) - [Messages] Cursor should be in the "to" field by default while forwarding messages
-    - refine my patch and landed **[Done]**
-* [Bug 1076733](http://bugzil.la/1076733) - [Woodduck] The screen will flicker when add duplicate contact in dialer.
-    - invetigated and redirected it to graphic team **[Done]**
-* [Bug 1058370](http://bugzil.la/1058370) - [Dolphin][v1.4][monkey test] After a few hours monkey test ,camera and video both active
-    - replied to explain my workaround **[Done]**
+* [Bug 1075412](http://bugzil.la/1075412) - [woodduck][settings] Without SD card inserted, default write storage should not be able to chose SD card
+    - clarified it as a feature request and closed by WONTFIX **[Done]**
+* [Bug 960800](http://bugzil.la/960800) - [B2G][SMS][RTSP] RTSP link doesn't appear as hyperlink when SMS is received
+    - help uplifting it to v2.0m **[Done]**
+* [Bug 1073807](http://bugzil.la/1073807) - [System] User cannot pull down the notification bar when there are several cancelled pairing requests
+    - identified the root cause and then Alexandre took this bug **[Done]**
+* [Bug 1071514](http://bugzil.la/1071514) - [Woodduck][Messages] The picture will flicker once when you take one picture as attachment
+    - experimented and provided a WIP patch but Julien took over it because he preferred refactoring **[Done]**
 * [Bug 1072858](http://bugzil.la/1072858) - [Woodduck][Streaming][RTSP] Display error screen when click power button in "https://rawgit.com is now full screen" dialog
-    - investigated and nominated as 2.0? **[WIP]**
-* DE team work flow discussion
+    - dupe to Bug 1079129 **[Done]**
+* [Bug 1079129](http://bugzil.la/1079129) - [Woodduck][Streaming][RTSP]Display error screen when click power button in "https://rawgit.com is now full screen" dialog
+    - investigated and provided another STR **[WIP]**
+* DE team work flow discussion (part II)
 * Answer Woodduck's questions via mail
 * Mentor Sean
 
 ### This Week ###
 
-* [Bug 1075412](http://bugzil.la/1075412) - [woodduck][settings] Without SD card inserted, default write storage should not be able to chose SD card
-* [Bug 960800](http://bugzil.la/960800) - [B2G][SMS][RTSP] RTSP link doesn't appear as hyperlink when SMS is received
+* [Bug 1015073](http://bugzil.la/1015073) - Gaia doesn't put the running app that occupies audiochannel in visibility background when the lockscreen shows up
+* [Bug 1079129](http://bugzil.la/1079129) - [Woodduck][Streaming][RTSP]Display error screen when click power button in "https://rawgit.com is now full screen" dialog
 * Take woodduck's bugs
