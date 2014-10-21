@@ -1,25 +1,25 @@
-## 10/6 - 10/9 ##
+## 10/13 - 10/17 ##
 
 ### Last Week ###
 
-* [Bug 1075412](http://bugzil.la/1075412) - [woodduck][settings] Without SD card inserted, default write storage should not be able to chose SD card
-    - clarified it as a feature request and closed by WONTFIX **[Done]**
-* [Bug 960800](http://bugzil.la/960800) - [B2G][SMS][RTSP] RTSP link doesn't appear as hyperlink when SMS is received
-    - help uplifting it to v2.0m **[Done]**
-* [Bug 1073807](http://bugzil.la/1073807) - [System] User cannot pull down the notification bar when there are several cancelled pairing requests
-    - identified the root cause and then Alexandre took this bug **[Done]**
-* [Bug 1071514](http://bugzil.la/1071514) - [Woodduck][Messages] The picture will flicker once when you take one picture as attachment
-    - experimented and provided a WIP patch but Julien took over it because he preferred refactoring **[Done]**
-* [Bug 1072858](http://bugzil.la/1072858) - [Woodduck][Streaming][RTSP] Display error screen when click power button in "https://rawgit.com is now full screen" dialog
-    - dupe to Bug 1079129 **[Done]**
+* [Bug 1015073](http://bugzil.la/1015073) - Gaia doesn't put the running app that occupies audiochannel in visibility background when the lockscreen shows up
+    - explained the root cause via mail **[Done]**
+* [Bug 1084174](http://bugzil.la/1084174) - [dolphin][lockscreen] open Skate Jumper game , we can't unlock the lockscreen in particular situation
+    - helped on clarifying the bug **[Done]**
 * [Bug 1079129](http://bugzil.la/1079129) - [Woodduck][Streaming][RTSP]Display error screen when click power button in "https://rawgit.com is now full screen" dialog
-    - investigated and provided another STR **[WIP]**
-* DE team work flow discussion (part II)
-* Answer Woodduck's questions via mail
-* Mentor Sean
+    - confirmed the behavior from UX and took this bug **[WIP]**
+* [Bug 1082456](http://bugzil.la/1082456) - The buttons of the fullscreen permission dialog become "Don't share / Share" abnormally after the geolocation permission dialog is shown previously
+    - r+ but waiting for gaia-try **[WIP]**
+* [Bug 1082426](http://bugzil.la/1082426) - [System] Device goes to sleep earlier than the set time
+    - r+ but waiting for gaia-try **[WIP]**
+* [Bug 1069835](http://bugzil.la/1069835) - [woodduck] When we change language then we tap Contacts icon,it will appear SIM card selected view and there are two SIM2
+    - made the first patch but got r- **[WIP]**
 
 ### This Week ###
 
-* [Bug 1015073](http://bugzil.la/1015073) - Gaia doesn't put the running app that occupies audiochannel in visibility background when the lockscreen shows up
-* [Bug 1079129](http://bugzil.la/1079129) - [Woodduck][Streaming][RTSP]Display error screen when click power button in "https://rawgit.com is now full screen" dialog
-* Take woodduck's bugs
+* [Bug 1069835](http://bugzil.la/1069835) - [woodduck] When we change language then we tap Contacts icon,it will appear SIM card selected view and there are two SIM2
+* [Bug 1082426](http://bugzil.la/1082426) - [System] Device goes to sleep earlier than the set time
+* [Bug 1082456](http://bugzil.la/1082456) - The buttons of the fullscreen permission dialog become "Don't share / Share" abnormally after the geolocation permission dialog is shown previously
+* [Bug 1079129](http://bugzil.la/1079129) - [Woodduck][Streaming] Lock screen is hidden by full screen prompt message
+* [Bug 1083053](http://bugzil.la/1083053) - [Midori][Browser]Can not launch browser after preview screenshots from status bar
+* RDSS
