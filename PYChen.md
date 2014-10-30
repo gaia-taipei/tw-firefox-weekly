@@ -1,3 +1,28 @@
+Last Week (10/20 - 10/24)
+
+* [woodduck]
+ 	- [WIP] Bug 1072064 - [Woodduck] The Data still displayed after you delete the call log from miss call Table.
+		- under review
+	- [DONE] Bug 1079647 - [Woodduck][Downloads]Stopped file can not try again.
+		-  apply v2.1 approval.
+	- [DONE] Bug 1069151 - [Woodduck][Email]The sender will be not default email account when share picture by email.
+		- Help to carify issue, seems it is by design.
+	- traige meeting * 2
+ 		- 2.0m+ `6 bugs` found, all gaia are assigned.
+ 		- 2.0m? `10 bugs` found
+ 		- defects unmarked `20 bugs` found.
+* [others]
+	- reply to partner's questions on email
+		- preload app
+		- how to hide app on homescreen via app.role
+		- how to coustomized camere config.js
+	- help on Vliu about camera and html questions.
+* [Memory Profiler]
+	- construct trace information, survey canvas library for drwaing memory analytics data.
+This week
+* [Memory Profiler]
+	- drwaing memory analytics data on canvas.
+ 
 Last Week (10/13 - 10/17)
 
 * [woodduck]
