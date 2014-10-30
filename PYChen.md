@@ -1,3 +1,29 @@
+Last Week (10/13 - 10/17)
+
+* [woodduck]
+	- [WIP] Bug 1079647 - [Woodduck][Downloads]Stopped file can not try again
+		- investigate download manager.
+		- have a patch for reviewing.
+	- [DONE] Bug 1071350 - [Woodduck][Rose][SQC1][Free Test][Call]The UI will display abnormally when we tap one call before merge to conference call successfully(5/5) 
+		-	can't be reproduced, set work for me. 
+ 	- traige meeting * 2
+ 		- 2.0m+ `9 bugs` found, all gaia are assigned.
+ 		- 2.0m? `5 bugs` found
+ 		- defects unmarked `25 bugs` found.
+* [Memory Profiler]
+	- mock memoryprofiler api	
+		- https://github.com/mpizza/memoryprofiler
+	- figure out outdata format and will implement this tool on firefox add-ons in first phase.
+* [Other]
+	- answer partner how to preload app.
+		- https://www.evernote.com/shard/s146/sh/c1d448f9-66e4-4a1d-b377-bf9082f636a0/e4b49db2934f95269900e67123d714a7 
+* [PTO] *1
+This Week
+	- [DONE] Bug 1079647 - [Woodduck][Downloads]Stopped file can not try again
+		- r+ and land in v2.0m, file follow up issue for fixing root cause, `bug 1085245`.
+* [Memory Profiler]
+	- constroct trace infromation with allocation_event and trace.
+
 ## 10/06 - 10/09 ##
 ### Last Week ###
 * [woodduck]
