@@ -1,3 +1,43 @@
+Last Week (10/28 - 10/31)
+
+* [woodduck]
+	- [done] Bug 1072064 - [Woodduck][Rose][Call log][Case Fail][SOUL35_GEMINI]The Data still displayed after you delete the call log from miss call Table.
+		- addressed reviewer's comment and got r+, landed in v2.0m
+	- [done] Bug 1087214 - [Woodduck][v2.0][Message][MGSEI]It will pop up "Camera ." and can't record video when add video attachment by selecting camera option in message. 
+		- seems it is gecko issue and dup to bug 1082442.
+	- [done] Bug 1089576 - [woodduck] Could not play youtube video on youtube
+		- POVB, codec broken, partner issue.
+	- [done] Bug 1087143 - [MGSEI][Woodduck][v2.0][Browser]Can't close tab when you tap "X" icon on the right. 
+		- worksforme
+	- [done] Bug 1090171 - [woodduck][feature] issue title [FFOS2.0][Woodduck][browser]Can't download RTSP video CRID ALPS01769548.
+		- help to clarify this is a feature request.
+	- [done] Bug 1087935 - [MGSEI][Flame][Woodduck][v2.0][Music]It switches from Playlist/Artists/Albums/Songs view to the main Music view automatically if you connect and disconnnect PC with USB storage.
+		- help to cherry-pick from v2.1, dup to bug 1043712.
+	- [done] Bug 1090911 - [FFOS2.0][Woodduck][Download]No response when select the file open in downloads.
+		- worksforme.
+	- traige meeting v2.0 x 1, v2.0m x 2
+		- 2.0m+  `11 bugs` found, 3 stk bugs. 
+		- 2.0m?  `11 bugs` found. 
+		- defects unmarked `12 bugs` found.
+* [others]
+	- [done] Bug 1079647 - [Woodduck][Downloads]Stopped file can not try again 
+		- help to apply v2.1 approval.
+	- [done] Bug 1091993 - [Dialer] ConfirmDialog broken after deleting call logs. 
+		- file a bug.
+	- [done] Bug 1085303 - [Tako][Gallery]It takes long time to remove all picture thumbnails from Gallery app when removing SD-card with numerous jpg-pictures. 
+		- help to clarify issue, seems I/O opreation is bottleneck.
+	- [done] Bug 1087842 - [Flame]Character broken on the Shift-JIS encoding type web-site.
+		- answer partner question.
+* [Memory Profiler]
+	- draw overall histogram on canvas, after discussing with Ting-yuan and Kanru, we need to draw function name tree on UI. more detail please refer to https://wiki.mozilla.org/MemoryProfiler.
+	
+This week
+
+* [woodduck]
+	- answer a lots of ni requests.
+	
+		
+
 Last Week (10/20 - 10/24)
 
 * [woodduck]
