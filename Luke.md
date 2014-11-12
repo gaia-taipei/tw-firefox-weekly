@@ -1,34 +1,28 @@
-## 10/20 - 10/24 ##
+## 11/03 - 11/07 ##
 
 ### Last Week ###
 
 * [Partner support]
-    - [Done] Bug 1082456 - The buttons of the fullscreen permission dialog become "Don't share / Share" abnormally after the geolocation permission dialog is shown previously
-        - landed on master, v2.1, v2.0
-    - [Done] Bug 1082426 - [System] Device goes to sleep earlier than the set time
-        - landed on master
-    - [Done] Bug 1069835 - [Woodduck] When we change language then we tap Contacts icon,it will appear SIM card selected view and there are two SIM2
-        - r+ and landed on v2.0m
-    - [Done] Bug 1052424 - [Messages] Cursor should be in the "to" field by default while forwarding messages
-        - helped on uplifting to v2.0m
-    - [WIP] Bug 1079129 - [Woodduck] Lock screen is hidden by full screen prompt message
-        - sent review
-    - [WIP] Bug 1083053 - [Midori][Browser]Can not launch browser after preview screenshots from status bar
-        - made a workaround patch and requested partner's feedback
-    - [WIP] Bug 1084247 - [Midori 2.0][System][Notification] Screenshot notification shouldn't be resent after restarting the device
-        - actually there are 3 issues in this bug
-        - issue 1 is marked as duplicate of bug 1075353 and issue 3 is associated with bug 1032068 and 1075353
-        - requested the approval of al the bugs above
-        - take this bug for issue 2
+    - [Done] Bug 1079129 - [Woodduck] Lock screen is hidden by full screen prompt message
+        - landed on v2.0
+    - [Done] Bug 1084300 - [Midori 2.0][Input method][Browser]Wallpaper will display when edit bookmark
+        - figured out the root cause and passed it to Rudy
+    - [Done] Bug 1090801 - Japanese character rendering is wrong for (\u304d +\u3099) unicodes combination
+        - commented that it should be a font issue
+    - [Done] Bug 1088024 - [Flame] The first activity window causes the foreground app can't be rotated to landscape
+        - resolved and landed on master and v2.1
+    - [Done] Bug 1083053 - [Midori] The screenshot preview window still overlays an app when switching apps
+        - tested on v2.1 and requested the approval of v2.1
+    - [WIP] Bug 1090853 - [woodduck][feature][USSD]Can't receive the USSR message in the lab
+        - gave partner a patch to log the message and found a possible cause
+    - Investigated a homescreen issue about upgrading FxOS from v1.0 to v1.3
+    - Prepared on-site training slides
 * [Others]
-    - RDSS sync-up and recap meetings
-    - RDSS interview (10/23 ~ 10/24)
+    - RDSS interview
 
 ### This Week ###
 
 * [Partner support]
-    - [WIP] Bug 1079129 - [Woodduck] Lock screen is hidden by full screen prompt message
-    - [WIP] Bug 1083053 - [Midori][Browser]Can not launch browser after preview screenshots from status bar
-    - [WIP] Bug 1084247 - [Midori 2.0][System][Notification] Screenshot notification shouldn't be resent after restarting the device
-    - [New] Bug 1087181 - [MGSEI][Woodduck][Flame][v2.0][Lock Screen]The screen will be black for 1s after you tap the "EMERGENCY CALL" for twice
-    - Anwser partner's training request
+    - On-site training (11/10-11/12)
+    - Bug 1090853 - [woodduck][feature][USSD]Can't receive the USSR message in the lab
+    - follow up the homescreen issue about upgrading FxOS from v1.0 to v1.3
