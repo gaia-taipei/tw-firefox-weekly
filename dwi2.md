@@ -1,42 +1,42 @@
-10/20-10/25
+10/27-10/31
 
 **[Last week]**
 
 * [Card UI]
-	* [WIP] Bug 1076706 - [Stingray][Home] Implement card listing and launching function
-		* patch is waiting for review [https://github.com/mozilla-b2g/gaia/pull/25477](https://github.com/mozilla-b2g/gaia/pull/25477)
-		* DONE: 
-			* model class for card and app
-			* read card listing from datastore
-			* display card listing onto UI
-			* fake deck before we have real deck
-			* process initial card list with build script, and load it at start-up time
-			* able to sync card listing from and to datastore
-	* [QUEUED] Bug 1076711 - [Stingray][Home] Pinning bookmark
-	* [QUEUED] Bug 1076712 - [Stingray][Home] Implement "folder" 
-
+  * [DONE] Bug 1076706 - [Stingray][Home] Implement card listing and launching function
+    - landed on master
+  * [WIP] Bug 1089464 - [Smart Screen][Home]Launch card directly from smart home
+    - Follow up bug of 1076706. Almost done (got r+ with nits).
+  * [REVIEW]
+    - Bug 1092934 - [Stingray] Create settings app for changing landing app
+  
 * [Hardware Key Event]
-	* [WIP] Bug 1014418 - Dispatching hardware button event in Gaia
-		* got r+ from system app owners, still waiting :zac's review
-		* There is an unexpected keydown/keyup event for embedder frame, see [https://bugzilla.mozilla.org/show_bug.cgi?id=1014418#c20](https://bugzilla.mozilla.org/show_bug.cgi?id=1014418#c20), that would make app-cancelled scenario not working. I will file a follow up bug for it.
-	 
+  * [WIP] Bug 1014418 - Dispatching hardware button event in Gaia
+    * got backed out because there is a plain iframe inside system app - Fx account login dialog. Add permission 'before-after-keyboard-event' in system could solve this problem. I'll send another review to timdream for relanding.
+  * [QUEUED] Bug 1094066 - VolumeUp and VolumeDown key should handled by app first then fall back to system app
+    * Follow up of bug 1014418
+    * TODO: discuss solution with Gina
+  * [QUEUED] Bug 1014405 - [Stingray] Keyboard event handling in Gaia
+    * TODO: integrate hardware key event dispatching into Card UI architecture
+   
 **[This week]**
-
 * [Card UI]
-	* [WIP] Bug 1076706 - [Stingray][Home] Implement card listing and launching function
-		* patch is waiting for review [https://github.com/mozilla-b2g/gaia/pull/25477](https://github.com/mozilla-b2g/gaia/pull/25477)
-		* DONE: 
-			* model class for card and app
-			* read card listing from datastore
-			* display card listing onto UI
-			* fake deck before we have real deck
-			* process initial card list with build script, and load it at start-up time
-			* able to sync card listing from and to datastore
-	* [WIP] Bug 1089464 - [Smart Screen][Home]Launch card directly from smart home
-	* [WIP] Bug 1076711 - [Stingray][Home] Pinning bookmark
-	* [QUEUED] Bug 1076712 - [Stingray][Home] Implement "folder" 
+  * [WIP] Bug 1089464 - [Smart Screen][Home]Launch card directly from smart home
+    - Follow up bug of 1076706. Almost done (got r+ with nits).
+  * [QUEUED] Bug 1074079 - [Stingray] Apps deck view and operations
+    * Bug 1094091 - [Stingray] Scaffolding Apps Deck of Stingray
+    * Bug 1094094 - [Stingray] Implement Navigation of Apps Deck
+  * [QUEUED] Bug 1076712 - [Stingray][Home] Implement "folder" 
+  * [REVIEW]
+    - Bug 1093436 - [Stingray][Home] move libraries to tv-shared folder
 
 * [Hardware Key Event]
-	* [WIP] Bug 1014418 - Dispatching hardware button event in Gaia
-		* got r+ from system app owners, still waiting :zac's review
-		* There is an unexpected keydown/keyup event for embedder frame, see [https://bugzilla.mozilla.org/show_bug.cgi?id=1014418#c20](https://bugzilla.mozilla.org/show_bug.cgi?id=1014418#c20), that would make app-cancelled scenario not working. I will file a follow up bug for it.
+  * [WIP] Bug 1014418 - Dispatching hardware button event in Gaia
+    * got backed out because there is a plain iframe inside system app - Fx account login dialog. Add permission 'before-after-keyboard-event' in system could solve this problem. I'll send another review to timdream for relanding.
+  * [QUEUED] Bug 1094066 - VolumeUp and VolumeDown key should handled by app first then fall back to system app
+    * Follow up of bug 1014418
+    * TODO: discuss solution with Gina
+  * [QUEUED] Bug 1014405 - [Stingray] Keyboard event handling in Gaia
+    * TODO: integrate hardware key event dispatching into Card UI architecture
+    * discuss schedule of this bug with Howie
+
