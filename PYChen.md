@@ -1,3 +1,51 @@
+Last Week (11/10 - 11/17)
+
+* [woodduck]
+	- Bug 1097494 - [FFOS2.0][Woodduck][FM][Music]Define how long it takes before prompt pops up to warn the users of hearing damage.
+		- help to answer parter issue
+	- Bug 1096743 - [FFOS2.0][Woodduck][Call]phone does not vibrate when receive a call.
+		- worksforme
+	- Bug 1095313 - [woodduck][Camera]Not possible to take videos with low size
+		- parter can resolve this issue via camera-config.js
+	- Bug 1096158 - [FFOS2.0][Woodduck][PLMN][Network]Network operator 2G and 3G display unclearly 
+		- invesigate this is a feature request, we need gecko support for imprving this issue.
+	- [done] Bug 1092962 - [FFOS2.0][Woodduck][Voicemail]There is any prompt message when dial the voicemail number by long press the "1" key.
+		- r+ and landed on v2.0m
+	- traige meeting v2.0m X 2
+		- 2.0m? `16 bugs` found
+		- 2.0m+ `24 bugs` found
+*[others]
+	- Bug 1071437 - [Gallery] [Video]Video poster image is flickering after power button pressed twice 
+		- video always play first frame before jump to current frame, ni vliu for gecko support.
+	- Bug 1098664 - [Midori 2.0][HOMO][o2 Germany] webapps.json for firefox hello(loop) is not properly configured
+		- help to answer partner how to preload `hello(loop)`. 
+* [Memory Profiler]
+	- build up basic UI and rank list view, it can run as an add-ons with simple data. 
+	- https://github.com/profiler-tools/memoryprofiler
+This week:
+* [Memory Profiler]
+	- integrate into WEBIDE with Kanru and Ting-yuan. 
+Last Week (11/03 - 11/07)
+
+* [woodduck]
+	- Bug 1091442 - [Midori 2.0][Camera][Contacts]Can add a video for contact head portrait
+		- can not reproduce.
+	Bug 1092940 - [FFOS2.0][Woodduck][Dialer]The default value of number and name match is not 7. 
+		- can not reproduce.
+	- Bug 1091996 - [FFOS2.0][Woodduck][video streaming]The icon disappear during playing video with 128*96 resolution.
+		- by design
+	- Bug 1092968 - [woodduck][Contacts][Call]It is not display contacts when input 1# in the dialer
+		- help to clarify gaia or gecko side handle this issue. 
+	- traige meeting v2.0m X 2
+		- 2.0m? `8 bugs` found
+		- 2.0m+ `31 bugs` found (using new bugzilla search filter)
+* [others]
+	- Bug 1092012 - [FFOS2.0][Woodduck][Browser][HTML5]Animation effect don't work. 
+		- help to answer issue.
+* [Memory Profiler]
+	- drawing mockup and update on wikipage 
+	 - https://wiki.mozilla.org/MemoryProfiler#User_Interface	
+
 Last Week (10/28 - 10/31)
 
 * [woodduck]
