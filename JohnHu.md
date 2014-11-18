@@ -1,3 +1,24 @@
+## 11/10 - 11/14 ##
+
+### Last Week ###
+* [TV Setting]
+  - Meta Bug: [Bug 1067793](http://bugzil.la/1067793)
+    - [Bug 1092934](http://bugzil.la/1092934) - [Stingray] Create settings app for changing landing app
+      - landed
+    - [Bug 1093436](http://bugzil.la/1093436) - [Stingray][Home] move libraries to tv-shared folder
+      - landed
+    - [Bug 1093529](http://bugzil.la/1093529) - [Stingray] link home app to settings app
+      - reviewing
+    - [Bug 1093534](http://bugzil.la/1093534) - [Stingray][Settings] add settings list to settings app
+      - landed
+
+### This Week ###
+* Partner Meeting
+  - https://wiki.mozilla.org/FirefoxOS/Stingray/SmartScreen/
+  - https://docs.google.com/a/mozilla.com/spreadsheets/d/19BPa6GCxPPoLZxy_r1tJSPG4JZVUCbpSKwSXYjJ5Jbg/edit#gid=0
+
+------------
+
 ## 11/03 - 11/07 ##
 
 ### Last Week ###
@@ -19,6 +40,7 @@
     - [Bug 1093529](http://bugzil.la/1093529) - [Stingray] link home app to settings app
     - [Bug 1093534](http://bugzil.la/1093534) - [Stingray][Settings] add settings list to settings app
 
+------------
 
 ## 10/27 - 10/31 ##
 
