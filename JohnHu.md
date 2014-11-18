@@ -1,3 +1,25 @@
+## 11/03 - 11/07 ##
+
+### Last Week ###
+* Prepare materials for the discussion with partners
+  - https://wiki.mozilla.org/FirefoxOS/Stingray/SmartScreen/
+
+* Replying partners' emails
+  - Card UI
+
+* [TV Setting]
+  - [Bug 1067793](http://bugzil.la/1067793) - [Stingray] Customization on the default landing card/deck
+    - add a standalone settings app and modify system app to support special UI for it.
+
+### This Week ###
+* [TV Setting]
+  - Meta Bug: [Bug 1067793](http://bugzil.la/1067793)
+    - [Bug 1092934](http://bugzil.la/1092934) - [Stingray] Create settings app for changing landing app
+    - [Bug 1093436](http://bugzil.la/1093436) - [Stingray][Home] move libraries to tv-shared folder
+    - [Bug 1093529](http://bugzil.la/1093529) - [Stingray] link home app to settings app
+    - [Bug 1093534](http://bugzil.la/1093534) - [Stingray][Settings] add settings list to settings app
+
+
 ## 10/27 - 10/31 ##
 
 ### Last Week ###
