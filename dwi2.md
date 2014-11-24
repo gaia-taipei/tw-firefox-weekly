@@ -1,42 +1,44 @@
-11/10-11/14
+11/17-11/21
 
 **[Last week]**
 * [Card UI]
-  * [WIP] Bug 1094091 - [Stingray] Scaffolding Apps Deck of Stingray
-    - under review
+  * [DONE] Bug 1094091 - [Stingray] Scaffolding Apps Deck of Stingray
+    - Landed on master
   * [WIP] Bug 1094094 - [Stingray] Implement Navigation of Apps Deck
-    - depends on Bug 1094091
-    - WIP is at https://github.com/dwi2/gaia/tree/bug1094094_preview
+    - WIP is at https://github.com/dwi2/gaia/tree/bug1094094
+    - TODO: add context menu and pin-to-home
+  * [QUEUED] Bug 1100213 - [Stingray] Extract logic of key event naming conversion into shared module
   * [QUEUED] Bug 1076712 - [Stingray][Home] Implement "folder" 
-  * [REVIEW]
-    - Bug 1096737 - [Settings] All unit tests of settings app are not running
+  * [REVIEW] 
+    - Bug 1094069 - [Stingray][Settings] implement option menu
+    - Bug 1101375 - [Stingray][home] the background is not transparent 
     - Bug 1098274 - [Stingray][Home] Add and remove card programitacally
 
 * [Hardware Key Event]
-  * Bug 1097814 - Sofware buttons are broken in mulet and simulator 
-    - provide information for :ochameau
-  * Bug 1096146 - No default actions of keydown event should be made if mozbrowserbeforekeydown event is defaultPrevented
-    - Investigated, will be fixed at Gecko side
   * [WIP] Bug 1014405 - [Stingray] Keyboard event handling in Gaia
-    - got r+, ready to land when Gaia-Try is grenn
-  * [QUEUED] Bug 1094066 - VolumeUp and VolumeDown key should handled by app first then fall back to system app
+    - landed
+  * [NEEDINFO] Bug 1103339 - Unable to take screenshots 
+    - Unable to reproduce, ask for more info.
+  * [WIP] Bug 1094066 - VolumeUp and VolumeDown key should handled by app first then fall back to system app
     * Follow up of bug 1014418
+    * Had a rough idea of solution: distinguish events by examining target. (https://bugzilla.mozilla.org/show_bug.cgi?id=1094066#c1)
     * TODO: discuss solution with Gina
    
 **[This week]**
 * [Card UI]
-  * [WIP] Bug 1094091 - [Stingray] Scaffolding Apps Deck of Stingray
-    - under review
   * [WIP] Bug 1094094 - [Stingray] Implement Navigation of Apps Deck
-    - depends on Bug 1094091
-    - WIP is at https://github.com/dwi2/gaia/tree/bug1094094_preview
+    - WIP is at https://github.com/dwi2/gaia/tree/bug1094094
+    - TODO: add context menu and pin-to-home
   * [QUEUED] Bug 1100213 - [Stingray] Extract logic of key event naming conversion into shared module
   * [QUEUED] Bug 1076712 - [Stingray][Home] Implement "folder" 
+  * [REVIEW]
+    - Bug 1102142 - [Stingray][home] create circle-button and use it in Home's search button
 
 * [Hardware Key Event]
-  * [WIP] Bug 1014405 - [Stingray] Keyboard event handling in Gaia
-    - got r+, ready to land when Gaia-Try is grenn
-  * [QUEUED] Bug 1094066 - VolumeUp and VolumeDown key should handled by app first then fall back to system app
+  * [NEEDINFO] Bug 1103339 - Unable to take screenshots 
+    - Unable to reproduce, ask for more info.
+  * [WIP] Bug 1094066 - VolumeUp and VolumeDown key should handled by app first then fall back to system app
     * Follow up of bug 1014418
+    * Had a rough idea of solution: distinguish events by examining target. (https://bugzilla.mozilla.org/show_bug.cgi?id=1094066#c1)
     * TODO: discuss solution with Gina
 
