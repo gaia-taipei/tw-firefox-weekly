@@ -1,3 +1,31 @@
+## 11/17 - 11/21 ##
+
+### Last Week ###
+* [TV Settings]
+  - Meta Bug: [Bug 1067793](http://bugzil.la/1067793)
+    - [Bug 1093529](http://bugzil.la/1093529) - [Stingray] link home app to settings app
+      - landed
+    - [Bug 1093530](http://bugzil.la/1093530) - [Stingray][System] make inline activity be transparent in background
+      - landed
+    - [Bug 1094069](http://bugzil.la/1094069) - [Stingray][Settings] implement option menu
+      - landed
+    - [Bug 1100282](http://bugzil.la/1100282) - [Stingray][System] only allow smart-settings app to handle configure activity
+      - landed
+* [Apply Visual to Home]
+  - Meta Bug: [Bug 1101329](http://bugzil.la/1101329)
+    - [Bug 1102142](http://bugzil.la/1102142) - [Stingray][home] create circle-button and use it in Home's search button
+      - reviewing
+
+### This Week ###
+* [Apply Visual to Home]
+  - Meta Bug: [Bug 1101329](http://bugzil.la/1101329)
+    - [Bug 1102153](http://bugzil.la/1102153) - [Stingray][home] create button-group and apply to settings button in home app
+    - [Bug 1101369](http://bugzil.la/1101369) - [Stingray][home] apply visual to information block
+    - [Bug 1101373](http://bugzil.la/1101373) - [Stingray][home] apply visual spec to filter (footer)
+    - [Bug 1101371](http://bugzil.la/1101371) - [Stingray][home] apply visual spec to card list
+  - maybe file a bug to add web component support in tv_shared folder
+----------
+
 ## 11/10 - 11/14 ##
 
 ### Last Week ###
