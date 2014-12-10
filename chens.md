@@ -1,24 +1,19 @@
-11/17-11/21
+12/07-12/05
 
 **[Last week]**
 
 * [Woodduck]
-    * [Done] [Bug 1090853] - [woodduck][feature][USSD]Can't receive the USSR message in the lab.
-    * [Done] [Bug 1071434] - [Woodduck][FTU]SIMA or SIMB pin lock is enabled,Cellular Data page will be seen in next page
-    * [Done] [Bug 1094632] - [Woodduck][Email]No attachment icon in the right of the email which has attahments in local draft folder
-        * Got r+, wait for 2.0m+ and land
-    * [Working] [Bug 1092984] - [Woodduck][v2.0][Dialer]Device will display more than 1 miss call items in Notification after you miss a call. 
-    * [Working] [Bug 1096791] - Customized ringtone not showing up
+    * [Done] [Bug 1105124] - [FFOS2.0][Woodduck][USSD]MS display the last reply content when ussd reply message come again
+    * [Working] [Bug 1105212] - [FFOS2.0][Woodduck][USSD]The USSD Notification message can't pop up in the communication interface
+    * [Duplicated] [Bug 1105213] - [FFOS2.0][Woodduck][USSD]The USSD Notification message can't pop up in the ilde interface
 * [Other]
-    * Memory profiler tree view implementation
-    * Prepare for devtools sharing
+    * Portland workweek
+    * Meet media/productivity/sysfe/comms team 
+    * Discuss memory profiler with devtools team
     
 **[This week]**
 
 * [Woodduck]
-    * [Working] [Bug 1094632] - [Woodduck][Email]No attachment icon in the right of the email which has attahments in local draft folder
-    * [Working] [Bug 1092984] - [Woodduck][v2.0][Dialer]Device will display more than 1 miss call items in Notification after you miss a call. 
-    * [Working] [Bug 1096791] - Customized ringtone not showing up
-* [Other]
-    * Memory profiler demo app
-    * Prepare for devtools sharing
+    * [Working] [Bug 1105212] - [FFOS2.0][Woodduck][USSD]The USSD Notification message can't pop up in the communication interface
+    * [Working] [Bug 1105124] - [FFOS2.0][Woodduck][USSD]MS display the last reply content when ussd reply message come again
+        - Preparing fix for master
