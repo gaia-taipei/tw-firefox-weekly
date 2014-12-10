@@ -1,3 +1,33 @@
+
+## 12/01 - 12/05 ##
+### Last Week ###
+* [Apply Visual to Home]
+  - Meta Bug: [Bug 1101329](http://bugzil.la/1101329)
+    - [Bug 1101373](http://bugzil.la/1101373) - [Stingray][home] apply visual spec to filter (footer)
+    - [Bug 1105576](http://bugzil.la/1105576) - [Stingray][home] update visual of smart home to meet visual spec v2
+* [Landing app]
+  - [Bug 1107976](http://bugzil.la/1107976) - [Stingray][System] handle app to landing app opening.
+    - landing app will be only deck in the past. But if we want to support normal app as landing app, it may be opened in app deck.
+* Discussions
+  - TV testing environment
+    - discuss with Alex and have a WIP patch which only works at Ubuntu box
+    - [Bug 1107759](http://bugzil.la/1107759) - Support resizing b2g desktop window
+  - IAC
+    - discuss with Ehsan
+      - He will work on a XHR server for service worker in the future. ETA is still undefined.
+
+### This Week ###
+* [Apply Visual to Home]
+  - Meta Bug: [Bug 1101329](http://bugzil.la/1101329)
+    - [Bug 1101371](http://bugzil.la/1101371) - Support resizing b2g desktop window
+* discuss and work on notifications
+----------
+
+## 11/24 - 11/28 ##
+
+update skipped
+----------
+
 ## 11/17 - 11/21 ##
 
 ### Last Week ###
