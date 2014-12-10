@@ -1,25 +1,23 @@
-## 11/24 - 11/28 ##
+## 12/01 - 12/05 ##
 
 ### Last Week ###
 
 * [Partner support]
-    - [Done] Bug 1101452 - [Contacts]After receiving a contact with photo by Bluetooth, the contact photo will disappear
-        - helped uplifting the patch of bug 1008987 for testing and identified it as a duplicate
-    - [Done] Bug 1098198 - [Market Custom Framework] App cannot install again and prompt install error. Should prompt proper error message
-        - helped clarifying the bug
-    - [WIP] Bug 1100271 - [Market Custom Framework]The screen will switch to landscape mode and portrait mode automatically when you back to Home screen from "Skate Jumper"
-        - still waiting for "regressionwindow-wanted"
-    - [WIP] Bug 1087946 - [Flame][Woodduck][v2.0][Window Management]The Contacts page in recent views is shown black
-        - made a WIP patch
+    - [Done] Bug 1087946 - [Flame][Woodduck][v2.0][Window Management]The Contacts page in recent views is shown black
+        - landed on v2.0m
+    - [Done] Bug 1105907 - [1.3t][Intex Cloud FX] incorrect app name appears when downloading from marketplace
+        - helped clarified the bug
     - [WIP] Bug 1102789 - [Contacts]MS freeze when import contacts from memory card to phone
-        - made a patch and waiting for reviewing
+        - helped partner to verify the patch and still waiting for reviewing
+
+* [Others]
+    - Portland Work Week
 
 ### This Week ###
 
 * [Partner support]
-    - [WIP] Bug 1100271 - [Market Custom Framework]The screen will switch to landscape mode and portrait mode automatically when you back to Home screen from "Skate Jumper"
-    - [WIP] Bug 1087946 - [Flame][Woodduck][v2.0][Window Management]The Contacts page in recent views is shown black
     - [WIP] Bug 1102789 - [Contacts]MS freeze when import contacts from memory card to phone
+    - Check woodduck's bugs
 
-* [Others]
-    - Portland Work Week
+* [Stingray]
+    - [Review] Bug 1107976 - [Stingray][System] unable to open landing app through app deck
