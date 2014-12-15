@@ -1,23 +1,27 @@
 Last Week
 
 * [TV browser]
-  - [WIP] [Bug 1081849 - [Stingray] Implement settings UI functionality on TV browser]
+  - Study select element
+    - [WIP] [Bug 1100780 - [Stingray] A button of select element does not work]
+  - Made test app
+    - [WIP] [Bug 1100807 - [Stingray] Capturing wrong screenshot by getScreenshot() at some pages]
 * [Partner support]
-  - f?, made patch for fixing transitionend missing
-    - [WIP] [Bug 1075333 - [Browser]Sometimes Top sites screen is not shown after opening more than 20 new tabs]
-  - [WIP] [Bug 1059650 - [Browser]Back button stops working after opening more than 20 new tabs]
-  - [WIP] [Bug 1071449 - pdf problem]
-  - leave it to experts
-    - [WIP] [Bug 1094032 - [B2G][GAIA][PDFViewer]Performance issues viewing PDFs with large number of pages]
-  - r+
-    - [DONE] [Bug 1095369 - [FFOS2.0][Woodduck][Browser]Wallpaper will display when edit bookmark]
-  - [WON'T FIX] [Bug 1096190 - [FFOS2.0][Woodduck][Browser][WAP]The browser displayed in the portrait mode at first when you enter browser in landscape]
+  - r?
+    - [REOPEND] [Bug 1059650 - [Browser]Back button stops working after clicking '+' icon multiple times]
+  - CSS layout error
+    - [INVALID] [Bug 1104418 - [Woodduck][FFOS2.0][Browser]Some web page display overlapped on Browser]
+  - Can't reproduce
+    - [INVALID] [Bug 1105102 - [FFOS2.0][Woodduck][wap][browser]the tabs in browser flash endless.]
+  - [WIP] [Bug 1107424 - [woodduck][data connection] At ShangHai T2M office[Browser][Interaction]2G Date connecttion fail after receive a call while browse webpage]
 
 This Week
 
+* [TV browser]
+  - Try to render pc style select element in tv
+    - [WIP] [Bug 1100780 - [Stingray] A button of select element does not work]
+  - Verify getScreenshot issue
+    - [WIP] [Bug 1100807 - [Stingray] Capturing wrong screenshot by getScreenshot() at some pages]
 * [Partner support]
-  - [WIP] [Bug 1059650 - [Browser]Back button stops working after opening more than 20 new tabs]
-  - [WIP] [Bug 1071449 - pdf problem]
-  - [WIP] [Bug 1099091 - [B2G][Flame][Browser] Browser displays white screen, address bar and add tab button are not shown]
-  - PR for master
-    - [WIP] [Bug 1092948 - [FFOS2.0][Woodduck][Browser]Can't turn to landscape mode on editing bookmark screen when add bookmark to Home screen.]
+  - r?
+    - [REOPEND] [Bug 1059650 - [Browser]Back button stops working after clicking '+' icon multiple times]
+  - [WIP] [Bug 1107424 - [woodduck][data connection] At ShangHai T2M office[Browser][Interaction]2G Date connecttion fail after receive a call while browse webpage]
