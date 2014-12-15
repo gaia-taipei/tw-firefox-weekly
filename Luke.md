@@ -1,22 +1,23 @@
-## 11/17 - 11/21 ##
+## 12/01 - 12/05 ##
 
 ### Last Week ###
 
 * [Partner support]
-    - [Done] Bug 1069262 - [dolphin]It will play the song for 2 to 4 sec while click on add call option during active call
-        - discussed with Dominic and gave partner a workaround solution
-    - [Done] Bug 1090853 - [woodduck][feature][USSD]Can't receive the USSR message in the lab
-        - helped chens to make it clear and chens' patch has been landed
-    - [Done] Bug 1096740 - [FFOS2.0][Woodduck][Contacts][FDN]The number is lost when save the FND'number within the number is more then 10 characters
-        - identified it as a gecko issue and waiting for partner's feedback
-    - [Done] Bug 960800 - [B2G][SMS][RTSP] RTSP link doesn't appear as hyperlink when SMS is received
-        - clarified that the further question is another bug and duplicate of bug 1096200
-    - [WIP] Bug 1100271 - [Market Custom Framework]The screen will switch to landscape mode and portrait mode automatically when you back to Home screen from "Skate Jumper"
-        - investigated why this bug doesn't occur with v2.1 and found it may be a gecko issue so request "regressionwindow-wanted"
+    - [Done] Bug 1087946 - [Flame][Woodduck][v2.0][Window Management]The Contacts page in recent views is shown black
+        - landed on v2.0m
+    - [Done] Bug 1105907 - [1.3t][Intex Cloud FX] incorrect app name appears when downloading from marketplace
+        - helped clarified the bug
+    - [WIP] Bug 1102789 - [Contacts]MS freeze when import contacts from memory card to phone
+        - helped partner to verify the patch and still waiting for reviewing
+
+* [Others]
+    - Portland Work Week
 
 ### This Week ###
 
 * [Partner support]
-    - [WIP] Bug 1100271 - [Market Custom Framework]The screen will switch to landscape mode and portrait mode automatically when you back to Home screen from "Skate Jumper"
-    - [New] Bug 1087946 - [Flame][Woodduck][v2.0][Window Management]The Contacts page in recent views is shown black
-    - Study engineering mode API
+    - [WIP] Bug 1102789 - [Contacts]MS freeze when import contacts from memory card to phone
+    - Check woodduck's bugs
+
+* [Stingray]
+    - [Review] Bug 1107976 - [Stingray][System] unable to open landing app through app deck
