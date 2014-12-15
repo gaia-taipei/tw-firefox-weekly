@@ -1,3 +1,13 @@
+Last Week (12/09 - 12/12)
+
+PTO
+
+This Week
+* [woodduck]
+	- clear up ni?
+* [Memory Profiler]
+	- planning futuner work such as: `filter feature`, `performance issue` etc....
+
 Last Week (11/10 - 11/17)
 
 * [woodduck]
