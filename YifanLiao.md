@@ -1,27 +1,24 @@
 Last Week
 
 * [TV browser]
-  - Study select element
+  - Provided the way to render select options in gecko
     - [WIP] [Bug 1100780 - [Stingray] A button of select element does not work]
-  - Made test app
+  - Verified getScreenshot issue
     - [WIP] [Bug 1100807 - [Stingray] Capturing wrong screenshot by getScreenshot() at some pages]
 * [Partner support]
-  - r?
+  - r+, approval-2.0?, but partner claimed there's still chance to reproduce
     - [REOPEND] [Bug 1059650 - [Browser]Back button stops working after clicking '+' icon multiple times]
-  - CSS layout error
-    - [INVALID] [Bug 1104418 - [Woodduck][FFOS2.0][Browser]Some web page display overlapped on Browser]
-  - Can't reproduce
-    - [INVALID] [Bug 1105102 - [FFOS2.0][Woodduck][wap][browser]the tabs in browser flash endless.]
-  - [WIP] [Bug 1107424 - [woodduck][data connection] At ShangHai T2M office[Browser][Interaction]2G Date connecttion fail after receive a call while browse webpage]
+  - work around patch
+    - [WIP] [Bug 1107424 - [woodduck][data connection] At ShangHai T2M office[Browser][Interaction]2G Date connecttion fail after receive a call while browse webpage]
+  - platform issue
+    - [WIP] [Bug 1107016 - [FFOS2.0][Woodduck][video streaming]It was keep loading after performed some actions when play video on browser.]
 
 This Week
 
 * [TV browser]
-  - Try to render pc style select element in tv
+  - follow up
     - [WIP] [Bug 1100780 - [Stingray] A button of select element does not work]
-  - Verify getScreenshot issue
+  - study getScreenshot implementation
     - [WIP] [Bug 1100807 - [Stingray] Capturing wrong screenshot by getScreenshot() at some pages]
 * [Partner support]
-  - r?
-    - [REOPEND] [Bug 1059650 - [Browser]Back button stops working after clicking '+' icon multiple times]
-  - [WIP] [Bug 1107424 - [woodduck][data connection] At ShangHai T2M office[Browser][Interaction]2G Date connecttion fail after receive a call while browse webpage]
+  - [WIP] [Bug 1111946 - [Flame][Homescreen]The wallpaper will be not changed successfully when user select a high-resolution image from Gallery.]
