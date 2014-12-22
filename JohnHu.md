@@ -1,4 +1,38 @@
+## 12/15 - 12/19 ##
+### Last Week ###
+* [Interactive Notifications]
+  - Meta Bug: [Bug 1109493](http://bugzil.la/1109493)
+    - [Bug 1111416](http://bugzil.la/1111416) - [Stingray] tv build unable to copy web components in tv_shared) (landed)
+  - reviewing:
+    - [Bug 1110652](http://bugzil.la/1110652) - [Stingray] use interactive notification to show desktop-notification
+    - [Bug 1111414](http://bugzil.la/1111414) - [Stingray] create UI for and apply visual to interactive notification
+* [Home as Overlay]
+  - [Bug 1107950] - [Stingray][System] homescreen app is shown as overlay on top of an alive app while press home. (reviewing)
+### This Week ###
+* [Interactive Notifications]
+  - Meta Bug: [Bug 1109493](http://bugzil.la/1109493)
+    - rebase and land code
+  - [Bug 1114397] - [Stingray] Use keyboard to move the focus between notification buttons
+* Bug:
+  - [Bug 1114399] - [Stingray][Home] settings button group isn't collapsed consistently while losting focus
 
+----------
+## 12/08 - 12/12 ##
+### Last Week ###
+* [Apply Visual to Home]
+  - Meta Bug: [Bug 1101329](http://bugzil.la/1101329)
+    - [Bug 1101371](http://bugzil.la/110371) - [Stingray][home] apply visual spec to card list
+  - Rebased and Land the Code
+    - [Bug 1105576](http://bugzil.la/1105576) - [Stingray][home] update visual of smart home to meet visual spec v2
+    - [Bug 1101373](http://bugzil.la/1101373) - [Stingray][home] apply visual spec to filter (footer
+    - [Bug 1101369](http://bugzil.la/1101369) - [Stingray][home] apply visual to information block
+### This Week ###
+* [Interactive Notifications]
+  - Meta Bug: [Bug 1109493](http://bugzil.la/1109493)
+    - [Bug 1111416](http://bugzil.la/1111416) - [Stingray] tv build unable to copy web components in tv_shared)
+    - [Bug 1110652](http://bugzil.la/1110652) - [Stingray] use interactive notification to show desktop-notification
+
+----------
 ## 12/01 - 12/05 ##
 ### Last Week ###
 * [Apply Visual to Home]
