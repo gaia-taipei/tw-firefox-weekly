@@ -1,30 +1,31 @@
-12/9-12/12
+12/15-12/19
 
 **[Last week]**
 * [Card UI]
   * [WIP] Bug 1105976 - [Stingray][Home] Add Folder structure and its data access methods
-    - under review
+    - r+, ready to land
+  * [WIP] Bug 1111466 - [Stingray]Unpin card from context menu of app deck
+    - working on it
   * [QUEUED] Bug 1076712 - [Stingray][Home] Implement "folder" 
-  * [INVALID] Bug 1100213 - [Stingray] Extract logic of key event naming conversion into shared module  
-      - already fixed in bug 1098162
-  * [REVIEW]
-      - Bug 1101373 - [Stingray][home] apply visual spec to filter (footer)
-* [Hardware Key Event]
-  * Bug 1106818 - [Video] Volume buttons do not function in app permission page of youtube video
-    - gecko bug, Gina is working on it
-  * Bug 1106844 - [Notifications] Utility tray "clear all" function causes home button to become unresponsive
-    - gecko bug, Gina is working on it
 
+* [Hardware Key Event]
+  * [DONE] Bug 1106844 - [Stingray] prevent focus stays on disabled elements in order to receive keyboard event 
+    - After Gina discussed with :smaug, they think it is a correct behavior at Gecko side. So I made a Gaia patch, to blur the focus when focus is on a disabled element.
+    - r+ and landed.
+  * [QUEUED] Bug 1113461 - Add tests of blurring focus when focus is on disabled button element in System app
+    - follow-up of bug 1106844
    
 **[This week]**
 * [Card UI]
   * [WIP] Bug 1105976 - [Stingray][Home] Add Folder structure and its data access methods
-    - under review
+    - r+, ready to land
   * [WIP] Bug 1111466 - [Stingray]Unpin card from context menu of app deck
     - working on it
-  * [QUEUED] Bug 1076712 - [Stingray][Home] Implement "folder" 
-  * [INVALID] Bug 1100213 - [Stingray] Extract logic of key event naming conversion into shared module  
-      - already fixed in bug 1098162
+  * [QUEUED] Bug 1114326 - [Stingray] Grid-view of app deck could not scroll down when app icons are out of screen
+  * [QUEUED] Bug 1112986 - [Stingray][Home] Application and AppBookmark should be merged into one class
+  * [QUEUED] Bug 1076712 - [Stingray][Home] Implement "folder"
+
 * [Hardware Key Event]
-  - stand-by
+  * [QUEUED] Bug 1113461 - Add tests of blurring focus when focus is on disabled button element in System app
+    - follow-up of bug 1106844
 
