@@ -1,3 +1,45 @@
+Last Week (12/15 - 12/19)
+
+* [woodduck] 
+	- [INVAILD] Bug 1094119 [Download Manager]There is no button which shown behind the faild file and user can tap it to download the failed file again , user only can try to download the failed file from the notification.
+		- excepted behaviour, invaild.
+	- [DONE] Bug 1104434 - PNN and SPN can not display when register onto HPLMN.
+		- fixed it and landed in v2.0m and master.
+	- [DONE] Bug 1099019 - [Settings]The notification will cover the tiltle when you tap "Terms of Service/Privacy Notice".
+		- fixed it and landed in v2.0m and master.
+	- [WORKSFORME] Bug 1100197 - [FFOS2.0][Woodduck][BT]"Searching for devices" menu display as black during searching process. 
+		- can not be reproduced.
+	- [GECKO ISSUE] Bug 1108520 - [Woodduck][Dialer]MS will ring all the time after recieve a MT call and immediately hang up it from remote device.
+		- investigate and found it should be gecko issue.
+	- [DUP] Bug 1111473 - [FFOS2.0][Woodduck][Download][DSW]BMP/WBMP image are displayed as black screen when open it after completed download.
+		- have a patch but found :djf has already fixed on other bug 1096839.
+	- [DONE] Bug 1092019 - [Woodduck][v2.0][First Time Experience]The check icon will be covered by "Mirrored English" after you change to "Mirrored English" language. 
+		- fixed it and landed in v2.0m.
+	- [INVAILD] Bug 1102817 - [FFOS2.0][Woodduck][Monitor][Contacts]The Keyboard will appear when click "Gmail" or "Outlook".
+		- clarify fxos design.
+	- [INVAILD] Bug 1112505 - FFOS2.0][Woodduck][BT]cannot accept transfer files when alarm is ringing unless stop alarm.
+		- Help to calrify this is by design.
+	- [WORKSFORME] Bug 1110081 - [ALPS01861524][G07][English/Greek/Italian/Turkish/French][BT]Several same bluetooth names showed when search for devices after change language.
+		- Can no be reproduced.
+	- [PROGRESSING] Bug 1111904 - [FFOS2.0][Woodduck][Gallery]Reaccess gallery after format SD&internal storage, image and video files will refresh for minutes then popup "no photos or videos".
+		- Seems FxOS limitation or SDCard format performance issue.
+	- [Ni?]Bug 1111490 - [FFOS2.0][Woodduck][Camera]The videos still play after lock the screen.
+		- Request help from Sotaro and Wilson page to clairfy is this by design.
+	- status
+	  - 2.0M?  unfix: 25, fixed:0
+	  - 2.0M+  unfix: 14, fixed:109
+
+This Week
+
+* [woodduck]
+	- keep cleaning ni?
+	
+* [Memory Profiler]
+	- investigate performance issue.		
+
+
+
+
 Last Week (12/09 - 12/12)
 
 PTO
