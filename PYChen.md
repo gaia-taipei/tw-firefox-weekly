@@ -1,3 +1,34 @@
+Last Two Weeks (2014-12-22 ~ 2014-12-31)
+
+* [woodduck] 
+	* [Progress] Bug 1113544 - the second push message can't be loaded.
+		- ni Gabriele for helping this issue.
+	* Bug 1115658 - [FFOS2.0][Woodduck][GCF]Device should not send CLIR register message automatically in powering on 
+		- Has a long discussion with partner, we won't change our design and let partner custmize in their code base.
+	* [Worksforme]Bug 1109564 - [woodduck][BT] Icon of switch audio path is not correct while make a call via BT headset at the first time.
+		- can not reproduce.
+	* [fixed] Bug 1115238 - The check icon will be covered by "Mirrored English" after you change to "Mirrored English" language.
+		- landed in v2.0m.
+	* [Worksforme]Bug 1114908 - [FFOS2.0][Woodduck][Gallery] MS update picture too slow when change insert SD card.
+		- HW limitation agree postpone.
+	* [fixed] Bug 1092019 - [Woodduck][v2.0][First Time Experience]The check icon will be covered by "Mirrored English" after you change to "Mirrored English" language. 
+		- landed in v2.0m.
+	* [dup] Bug 1110664 - [Notifications]You can't see update notification and music widget in notification bar.
+		- figure out the root cause and find out thr dup bug 1095856.
+	* bug statuts
+      - 2.0M?, UNFIX: 17, FIXED: 0,
+      - 2.0M+, UNFIX: 12, FIXED: 126,
+
+This Week
+* [woodduck]
+	- keep cleaning ni?
+	
+* [Memory Profiler]
+	- investigate performance issue.
+
+* [Study Group]
+	- lockscreen in v2.1 
+
 Last Week (12/15 - 12/19)
 
 * [woodduck] 
