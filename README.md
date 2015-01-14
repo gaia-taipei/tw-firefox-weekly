@@ -13,6 +13,7 @@ Members
 * Sherman Chen
 * Yi-fan Liao
 * Sean Lee
+* Sung Chiu
 
 Format
 ------
