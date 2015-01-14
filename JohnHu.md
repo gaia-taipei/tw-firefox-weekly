@@ -1,3 +1,29 @@
+## 1/5 - 1/9 ##
+### Last Week ###
+* [hash launch]
+  - [Bug 1113495](http://bugzil.la/1113495) - [Stingray][Smart-system] Accept specified URL from home on opening app (landed)
+  - [Bug 1113499](http://bugzil.la/1113499) - [Stingray][Smart-home] Open app with specified hash/URL (landed)
+* [Partner's Requirements]
+  - [Bug 1115350](http://bugzil.la/1115350) - [Stingray] no wallpaper is necessary for smart-home (fixed)
+  - [Bug 1100892](http://bugzil.la/1100892) - [Stingray] bootup with transparency background (fixed)
+  - [Bug 1115351](http://bugzil.la/1115351) - [Stingray][Home] video element is hidden by overlayed home (fixed)
+* [Search Bar]
+  - [Bug 1115273](http://bugzil.la/1115273) - [Stingray][smart-home/smart-system] Implement opening search bar (landed)
+* [Partner Meeting and Offline Supporting]
+  - Dashboard
+  - Home
+  - App start-up dialog
+    -[Bug 1119655](http://bugzil.la/1119655) - [Stingray] show a dialog while opening some apps (fixed)
+
+### This Week ###
+* [Partner Blocker]
+  - [Bug 1118641](http://bugzil.la/1118641) - [Stingray][Home] the app name in card will be moved to top-right slightly when we focus it (r+ but not landed, ETA: 1/16)
+  - [Bug 1105650](http://bugzil.la/1105650) - [Stingray] Apply visual of button on app-deck list (steal from dwi2, WIP got, ETA: 1/16)
+* Other Bugs:
+  - [Bug 1119748](http://bugzil.la/1119748) - [Stingray] use keydown to change the focus (r+, but not landed)
+  - [Bug 1120342](http://bugzil.la/1120342) - [Stingray] build failed because of jshint error- missing semicolon
+
+----------
 ## 12/15 - 12/19 ##
 ### Last Week ###
 * [Interactive Notifications]
