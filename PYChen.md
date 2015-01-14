@@ -1,3 +1,42 @@
+Last Week (01/05 - 01/09)
+
+* [woodduck]
+	* [WONTFIX]Bug 1116361-[FFOS2.0][Woodduck][Download]Display as "Save Video" when save a audio.
+		- Not gaia isssue, we won't fix on our site partner will customize on thier site.
+	* [FIXED] Bug 1113544 - [FFOS2.0][Woodduck][wap][push]the second push message can't be loaded. 
+		- Cherry-pick from bug 1041383 and bug 1044406, partner verified it.
+	* [FIXED]Bug 1115658 - [FFOS2.0][Woodduck][GCF]Device should not send CLIR register message automatically in powering on.
+		- help partner to clarify this issue and give them suggestion for passing certification.
+	* [FIXED] Bug 1100262 - [Contacts]These matching contacts are displayed without color tag in Search list when you enable "Order by last name".
+		- r+ and landed in v2.0m
+	* [FIXED] Bug 1118545 - [FFOS2.0][Woodduck][Network][data connection]can't enable data conection through shortcut.
+		- r+ then waiting v2.0m+
+	* Bug 1118587 - [Network]there should have a data roaming prompt message display when insert a orange card
+		- Consultant.
+	* Bug 1118660 - [gaia][camera][FFOS7715 v2.1]How to enable a debug mode by namespaces in Camera.
+		- Consultant.
+	* [DUP] Bug 1117489 - [Bluetooth]There is a broken highlight area in bluetooth device list.
+		-  DUPLICATE of bug 1104618
+	* bug statuts
+      - 2.0M?, UNFIX: 17, FIXED: 0.
+      - 2.0M+, UNFIX: 14, FIXED: 136.
+ * [Memory Profiler]
+	- no progess
+
+* [Study Group]
+	- no progess
+
+
+This Week
+
+* [woodduck]
+	- keep cleaning ni?
+* [Study Group]
+	- lockscreen in v2.1 
+* [Memory Profiler]
+	- investigate performance issue.
+
+
 Last Two Weeks (2014-12-22 ~ 2014-12-31)
 
 * [woodduck] 
