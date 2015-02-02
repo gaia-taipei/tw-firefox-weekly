@@ -1,3 +1,41 @@
+Last Week (01/12 - 01/16)
+
+* [woodduck]
+	- [FIXED] Bug 1118545 - [FFOS2.0][Woodduck][Network][data connection]can't enable data conection through shortcut. 
+		- prepare v2.1 patch and request v2.1 approval.
+	- [PROGRESS] Bug 1121345 - [FFOS2.0][Woodduck][BT]Music will play out from MS one second after disconnect with headset
+		- Can be reproduce after communicating with partner and Josh, will figure out how to fix it, but it isn't a blocking bug.
+	- [DONE] Bug 1117307 - [Video][dolphin][FFOS7715 v2.1] [performance] Video app first start-up spend a longer time
+		- Answer ni, it should be performance polish.
+	- [DONE] Bug 1117486 - [FFOS2.0][Woodduck][Video streaming]MS restart when play video streaming.
+		- It should be gecko issue.
+	- [WORKSFORME] Bug 1109982 - [FFOS2.0][Woodduck][Contacts]MS will display serval duplicate names when search contacts.
+		- Can not be reproduced.
+	- bug statuts
+      - 2.0M?, UNFIX: 4, FIXED: 0.
+      - 2.0M+, UNFIX: 13, FIXED: 146.
+*[Others]
+	- Set up new laptop.
+	- help VLiu's cmaera issue about porting L.
+	- Teach Sku how to preload app via WebIDE.
+	- [PROGRESS][2.2+]Bug 1123164 - [Settings]There is no SIM settings icons when you insert SIM2 only in Settings -> Cellular & Data.
+		- QA thinks it might be regression from Bug #1094129, but after invesigating, the root cause is settings root panel chnage behavior so there is a timing issue here.
+
+* [Memory Profiler]
+	- quick update with Thinker and Ting-yua, sync up our status, but we still pospone sicne stuck in woodduck proejct.
+
+* [Study Group]
+	- no progess
+
+This Week
+
+* [woodduck]
+	- keep cleaning ni?
+* [Study Group]
+	- lockscreen in v2.1 
+* [Memory Profiler]
+	- investigate performance issue.
+			
 Last Week (01/05 - 01/09)
 
 * [woodduck]
