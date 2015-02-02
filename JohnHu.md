@@ -1,3 +1,42 @@
+## 1/19 - 1/23 ##
+### Last Week ###
+* [Partner Blocker]
+  - [Bug 1123177](http://bugzil.la/1123177) - [Stingray] jshint failure in tv smart-system (ETA: 1/23)
+  - [Bug 1105650](http://bugzil.la/1105650) - [Stingray] Apply visual of button on app-deck list (r+, but gaia tree closed, ETA: 1/16)
+  - [Bug 1119713](http://bugzil.la/1119713) - [Stingray] KeyNavigationAdapter should handle both keydown and keyup event (ET
+A: 1/23)
+  - [Bug 1122360](http://bugzil.la/1122360) - [Stingray][smart-system] search app cannot be launched
+  - [Bug 1122460](http://bugzil.la/1122460) - [Stingray] when some foreground app crashed, homescreen is launched (should be landing app)
+    - not land to master, already tested at partner's device.
+* Others
+  - [Bug 1114869](http://bugzil.la/1114869) - [Stingray][System] error occurred while landing app is missing
+  - Discuss protocol of fling player and fling sender:
+    - [Bug 1123183](http://bugzil.la/1123183) - [Stingray] Receiver app for video sharing
+
+### This Week ###
+* Fling Player/Sender
+  - [Bug 1123183](http://bugzil.la/1123183) - [Stingray] Receiver app for video sharing
+  - [Bug 1125059](http://bugzil.la/1125059) - [Stingray] Sender app for video sharing
+* Partner Blocker
+  - [Bug 1123300](http://bugzil.la/1123300) - [Stingray] cannot display context menu with some decks
+  - [Bug 1124599](http://bugzil.la/1124599) - [Stingray] improve the search-bar text animation
+
+## 1/12 - 1/16 ##
+### Last Week ###
+* [Partner Blocker]
+  - [Bug 1118641](http://bugzil.la/1118641) - [Stingray][Home] the app name in card will be moved to top-right slightly when we focus it (r+ but not landed, ETA: 1/16)
+  - [Bug 1105650](http://bugzil.la/1105650) - [Stingray] Apply visual of button on app-deck list (steal from dwi2, WIP got, ETA: 1/16)
+* Other Bugs:
+  - [Bug 1119748](http://bugzil.la/1119748) - [Stingray] use keydown to change the focus (r+, but not landed)
+  - [Bug 1120342](http://bugzil.la/1120342) - [Stingray] build failed because of jshint error- missing semicolon
+
+### This Week ###
+* [Partner Blocker]
+  - [Bug 1123177](http://bugzil.la/1123177) - [Stingray] jshint failure in tv smart-system (ETA: 1/23)
+  - [Bug 1105650](http://bugzil.la/1105650) - [Stingray] Apply visual of button on app-deck list (r+, but gaia tree closed, ETA: 1/16)
+  - [Bug 1119713](http://bugzil.la/1119713) - [Stingray] KeyNavigationAdapter should handle both keydown and keyup event (ETA: 1/23)
+  - [Bug 1122360](http://bugzil.la/1122360) - [Stingray][smart-system] search app cannot be launched
+
 ## 1/5 - 1/9 ##
 ### Last Week ###
 * [hash launch]
