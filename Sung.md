@@ -1,13 +1,18 @@
-01/19-01/23
+01/26-01/30
 
 **[Last week]**
 
 * [Stingray]
-    * [Done] [Bug 1120301] - [smart-home/smart-system] change the way to call search activity
-    * [Done] [Bug 1120865] - Update weather icon on home page
-    * [Done] [Bug 1119639] - [Home] Consider device pixel ratio when fetching app icon
-    * [Done] [Bug 1121348] - [Stingray][Home] Hide filter buttons
-    * [Working] [Bug 1122421] - [Stingray] UI-Transition - Pin card to home
-    * [Working] [Bug 1122423] - [Stingray] UI-Transition - Deck launcher waving effect
-* [Study]
-    * CSS transition
+    * [Done] [Bug 1122421] - [Stingray] UI-Transition - Pin card to home (New UI Spec)
+      - landed
+    * [Done] [Bug 1122423] - [Stingray] UI-Transition - Deck launcher waving effect
+    * [Done] [Bug 1122432] - [Stingray] UI-Transition - Banner
+    * [Done] [Bug 1122429] - [Stingray] UI-Transition - Pop up option menu
+    * [Done] [Bug 1122418] - [Stingray] UI-Transition - Intro (Default/Grid views) launch / close transition
+    * [Done] [Bug 1112035] - [Stingray] change transition from fade in to flying in
+    * Five bugs above still need to be reviewedby John and Rex
+
+**[This week]**
+* [Stingray]
+    * Refactor five bugs
+    * [Bug 1122428] - [Stingray] UI-Transition - Global Activity transition enter / exit
