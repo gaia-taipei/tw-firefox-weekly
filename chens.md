@@ -1,3 +1,36 @@
+01/26-01/30
+
+**[Last week]**
+
+* [Woodduck]
+    * [Done] [Bug 1127218] - [FFOS2.0][Woodduck][screen reader]Hope to disable screen reader
+        - Answer partner questions
+* [Dolphin 512]
+    * [Done] [Bug 1094632] - [Woodduck][Email]No attachment icon in the right of the email which has attahments in local draft folder
+        - Land on master, uplift to 2.1/2.2
+    * [Done] [Bug 1112971] - Can't remove cell broadcast notification from utility tray
+        - Uplift to 2.1
+    * [Working] [Bug 1117445] - [FFOS7715 v2.1][performance] it is slow to start up by normal boot-strap or restart in FFOS2.1
+        - Provide wip patch and add some log to invstigate
+    * [Pendind] [Bug 1115493] - [FOS7715 v2.1]Setup call-forwarding for both SIM cards in DSDS, then removal one sim card and reopen the device, the status bar still shows two icons of call forwarding
+        - Got r+, QA verify and approval pending
+    * [Pending] [Bug 1117469] - [SMS][dolphin][FFOS7715 v2.1][performance] The time took for cood booting of sms app is much longer
+    * [Pending] [Bug 1117465] - [Calendar][FFOS7715 v2.1][performance] Open a background calendar app spend a longer time
+    * [Wontfix] [Bug 1119735] - [FFOS7715 v2.1]Need to added the apns in 'ril.data.cp.apns' into the settings apnlist
+* [Study]
+    * [Pending] System window management
+
+**[This week]**
+
+* [Dolphin 512]
+    * [Working] [Bug 1117445] - [FFOS7715 v2.1][performance] it is slow to start up by normal boot-strap or restart in FFOS2.1
+        - Provide wip patch and add some log to invstigate
+    * [Working] [Bug 1117450] - [Dialer][dolphin][FFOS7715 v2.1] [performance] The time spent on displaying callscreen is much longer after the dial button clicked
+        - Start profiling
+    * [Pending] [Bug 1121805] - [Dialer][dolphin][FFOS7715 v2.1] [performance] The time spent on hiding callscreen after hangup is much longer
+    * [Pending] [Bug 1117469] - [SMS][dolphin][FFOS7715 v2.1][performance] The time took for cood booting of sms app is much longer
+    * [Pending] [Bug 1117465] - [Calendar][FFOS7715 v2.1][performance] Open a background calendar app spend a longer time
+
 01/19-01/23
 
 **[Last week]**
