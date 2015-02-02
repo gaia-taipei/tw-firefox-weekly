@@ -1,37 +1,33 @@
-## 01/12 - 01/16 ##
+## 01/19 - 01/23 ##
 
 ### Last Week ###
 
 * [Partner support]
-    - [Done] Bug 1120267 - [First Time Experience] Can't join a hidden network via FTU
-        - cloned from bug 1107015
-        - landed
-    - [Done] Bug 1080799 - Connecting to/joining (hidden?) Wi-Fi fails after factory resetting phone/first run, restart required
-        - my patch from bug 1107015 is landed
-    - [Done] Bug 1100271 - [Market Custom Framework] The screen will switch to landscape mode and portrait mode automatically when you back to Home screen from "Skate Jumper"
-        - the uplifted gecko patch doesn't work
-        - closed by WONTFIX
+    - [Done] Bug 1117674 - [woodduck][feature][Lab][Call]The setup information without number the second incoming call interface donot show
+        - did some further investigations and still can't reproduce it so closed it by invalid.
     - [WIP] Bug 1119155 - [FFOS2.0][Woodduck][SMS]lauch SMS APP from Notification abnormally while view contact form Messaging
-        - found the root cause and waiting for UX feedback
+        - provided UX with more information.
 
 * [Red-tai]
-    - [Done] Meeting of "nav-dir"
-    - [WIP] Bug 1110030 - Routing hardware key events to keyboard app when an input field is focusing
-        - follow-up discussion
+    - Discussion about Spatial Navigation and Key Event flow
+    - Discussion about Routing hardware key events to keyboard app
 
 * [Stingray]
-    - [Done] Bug 1116709 - [Stingray] Improve key navigation feature
+    - [Done] Bug 1123542 - [Stingray] Remove unused context menu item in app deck
         - landed
-    - [Review] Bug 1122360 - [Stingray][smart-system] search app cannot be launched
+    - [Done] Bug 1124112 - [Stingray] Seamlessly launch search app from home
+        - worked with partner and landed
 
-* [Study]
-    - [WIP] Keyboard Manager in System app
+* [Other]
+    - EWC Year End Party planning
 
 ### This Week ###
 
 * [Partner support]
-    - [WIP] Bug 1117674 - [woodduck][feature][Lab][Call]The setup information without number the second incoming call interface donot show
     - [WIP] Bug 1119155 - [FFOS2.0][Woodduck][SMS]lauch SMS APP from Notification abnormally while view contact form Messaging
+
+* [Red-tai]
+    - Meeting with partners.
 
 * [Study]
     - [WIP] Keyboard Manager in System app
