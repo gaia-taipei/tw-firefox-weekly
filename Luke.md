@@ -1,33 +1,28 @@
-## 01/19 - 01/23 ##
+## 02/02 - 02/06 ##
 
 ### Last Week ###
 
 * [Partner support]
-    - [Done] Bug 1117674 - [woodduck][feature][Lab][Call]The setup information without number the second incoming call interface donot show
-        - did some further investigations and still can't reproduce it so closed it by invalid.
-    - [WIP] Bug 1119155 - [FFOS2.0][Woodduck][SMS]lauch SMS APP from Notification abnormally while view contact form Messaging
-        - provided UX with more information.
-
-* [Red-tai]
-    - Discussion about Spatial Navigation and Key Event flow
-    - Discussion about Routing hardware key events to keyboard app
-
-* [Stingray]
-    - [Done] Bug 1123542 - [Stingray] Remove unused context menu item in app deck
-        - landed
-    - [Done] Bug 1124112 - [Stingray] Seamlessly launch search app from home
-        - worked with partner and landed
+    - [Suspend] Bug 1128377 - [FFOS7715 v2.1][Gaia_System_WindowMgmt] after monkey test, could not back to homescreen
+        - confrimed that it should be POVB
+    - [Suspend] Bug 1119155 - [FFOS2.0][Woodduck][SMS]lauch SMS APP from Notification abnormally while view contact form Messaging
+        - discussed with UX and reached a conclusion
+        - suspend because the bug is marked backlog
+    - [WIP] Bug 1119112 - [woodduck][feature][Call]There is no incoming call interface when incoming a call during quering supplementary services on call setting
+        - under investigation
+    - Answer partner's questions via mail
 
 * [Other]
+    - Interview
     - EWC Year End Party planning
 
 ### This Week ###
 
 * [Partner support]
-    - [WIP] Bug 1119155 - [FFOS2.0][Woodduck][SMS]lauch SMS APP from Notification abnormally while view contact form Messaging
-
-* [Red-tai]
-    - Meeting with partners.
+    - [WIP] Bug 1119112 - [woodduck][feature][Call]There is no incoming call interface when incoming a call during quering supplementary services on call setting
 
 * [Study]
     - [WIP] Keyboard Manager in System app
+
+* [Other]
+    - EWC Year End Party
