@@ -1,3 +1,27 @@
+02/02-02/06
+
+**[Last week]**
+
+* [Woodduck]
+    * [Done] [Bug 1115493] - [FOS7715 v2.1]Setup call-forwarding for both SIM cards in DSDS, then removal one sim card and reopen the device, the status bar still shows two icons of call forwarding
+        - Land on master, uplift to 2.1/2.2
+
+* [Dolphin 512]
+    * [Working] [Bug 1117450] - [Dialer][dolphin][FFOS7715 v2.1] [performance] The time spent on displaying callscreen is much longer after the dial button clicked
+    * [Working] [Bug 1117445] - [FFOS7715 v2.1][performance] it is slow to start up by normal boot-strap or restart in FFOS2.1
+        - Provide wip to save system app boot up time
+    * [Invalid] [Bug 1121805] - [Dialer][dolphin][FFOS7715 v2.1] [performance] The time spent on hiding callscreen after hangup is much longer
+        - By design, should be invalid
+
+**[This week]**
+
+* [Dolphin 512]
+    * [Working] [Bug 1117450] - [Dialer][dolphin][FFOS7715 v2.1] [performance] The time spent on displaying callscreen is much longer after the dial button clicked
+    * [Working] [Bug 1117445] - [FFOS7715 v2.1][performance] it is slow to start up by normal boot-strap or restart in FFOS2.1
+        - Provide wip to save system app boot up time
+    * [Working] [Bug 1117465] - [Calendar][FFOS7715 v2.1][performance] Cold launching Calendar app spends a longer time
+        - Help on calendar app profiling with Danny
+
 01/26-01/30
 
 **[Last week]**
