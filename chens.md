@@ -1,3 +1,20 @@
+02/09-02/13
+
+**[Last week]**
+
+* [Dolphin 512]
+    * [Working] [Bug 1117450] - [Dialer][dolphin][FFOS7715 v2.1] [performance] The time spent on displaying callscreen is much longer after the dial button clicked
+    * [Working] [Bug 1117445] - [FFOS7715 v2.1][performance] it is slow to start up by normal boot-strap or restart in FFOS2.1
+        - Provide wip to save system app boot up time
+    * [Working] [Bug 1117465] - [Calendar][FFOS7715 v2.1][performance] Cold launching Calendar app spends a longer time
+        - Help on calendar app profiling with Danny
+    * [Done] [Bug 1091483] Unable to show stk dialog (e.g. user confirmation dialog) when foreground app is Callscreen
+        - Answer partner question about z-index for stk dialog and call screen
+
+* [Stingray]
+    * [Done] [Bug 1131447] - [Stingray][demo] apply visual to fling receiver
+    * [Done] [Bug 1132775] - [Stingray] Fix localizeElement in tv shared utils
+
 02/02-02/06
 
 **[Last week]**
