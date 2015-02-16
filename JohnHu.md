@@ -1,3 +1,30 @@
+## 1/26 ~ 2/6 ##
+### Last 2 Week ###
+* Fling Player/Sender
+  - [Bug 1123183](http://bugzil.la/1123183) - [Stingray] Receiver app for video sharing
+  - [Bug 1125059](http://bugzil.la/1125059) - [Stingray] Sender app for video sharing
+  - [Bug 1126667](http://bugzil.la/1126667) - [Stingray][demo] handle default remote screen at phone's system
+  - [Bug 1127749](http://bugzil.la/1127749) - [Stingray][demo] fling-player should show itself while app is opened.
+  - [Bug 1127755](http://bugzil.la/1127755) - [Stingray][demo] apply building blocks to fling-sender
+  - [Bug 1127745](http://bugzil.la/1127745) - [Stingray][demo] fling-sender doesn't listen the click event of start button
+  - [Bug 1128384](http://bugzil.la/1128384) - [Stingray][demo] fling only supports string format message and shouldn't use addEventListener
+  - [Bug 1128438](http://bugzil.la/1128438) - [Stingray][demo] add close button to fling sender app for testing
+  - [Bug 1128437](http://bugzil.la/1128437) - [Stingray][demo] handle session close in fling-player
+
+* Partner Blocker
+  - [Bug 1123300](http://bugzil.la/1123300) - [Stingray] cannot display context menu with some decks
+  - [Bug 1124599](http://bugzil.la/1124599) - [Stingray] improve the search-bar text animation
+  - [Bug 1125780](http://bugzil.la/1125780) - [Stingray] Parent app cannot get focus after inline activity child finished
+  - [Bug 1129807](http://bugzil.la/1129807) - [Stingray][demo] hide and release video while visibility is hidden
+  - [Bug 1130251](http://bugzil.la/1130251) - [Stingray][Home] unexpected movement of Card List
+* Smart Screen
+  - [Bug 1127657](http://bugzil.la/1127657) - [Stingray] Promotion list background image mismatches with focused button
+
+### This Week ###
+* Stingray Demo bugs
+* Partner Questions:
+  - How to terminate inline app from parent
+
 ## 1/19 - 1/23 ##
 ### Last Week ###
 * [Partner Blocker]
