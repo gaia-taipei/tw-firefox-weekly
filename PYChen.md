@@ -1,3 +1,37 @@
+Last Week (01/26 - 02/06)
+
+* [woodduck]
+	- [FIXED]Bug 1126677 - [FFOS2.0][Woodduck]No IMSI detach prodecure when power off.
+		- fixed it and land in v2.0m.
+	- Bug 1119112 - [woodduck][feature][Call]There is no incoming call interface when incoming a call during quering supplementary services on call setting.
+		- Help to figure out the root cause, and transfer to Luke for helping this scince I got OOO last week.
+	- Bug 1128359 - [FFOS2.0][Woodduck][Voicemail]MS go to SIM2 when set the voicemail number. 
+		- Ask Ej and clarified this issue was fixed on bug 1119696.
+	- Bug 1038846 - [Dialer] Once you get a contact suggestion, tapping on it even when empty triggers an "Invalid Number" message.
+		- help to prepare v2.0m patch.
+	- Bug 1118190 - [Dialer]Device will show an error page after user tap number suggestion panel.
+		- Check this issue was fixed on bug 1038846.
+	- Bug 1124554 - [FFOS2.0][Woodduck][3rd][File Manager]MS will display a black screen after you share a file by BT.
+		- help to invesigate this issue, should be graphic limitation.
+	- Bug 1121345 - [FFOS2.0][Woodduck][BT]Music will play out from MS one second after disconnect with headset.
+		- per comment it've already fixed in master but it won't not fix in v2.0m.
+	- Bug 1106693 - [woodduck][BT] Can't disconnect with stereo BT headset if media connection not connected.
+		- fixed it and send to review. 
+* [RTL]
+	- [dup] Bug 1128864 - [RTL][Contacts] The reset button display on the wrong position. 
+	  - Filed bug and send a patch to review, but reviewer siad this bug dup on the other bug so cancel reivew.
+	- Read the mail thread about 'RTL' from Juilen, he talks about how to patch RTL issue.
+   - bug statuts
+      - 2.0M?, UNFIX: 1
+      - 2.0M+, UNFIX: 6
+This week
+	* [woodduck]
+		- keep cleaning ni?
+	* [Study Group]
+		- lockscreen in v2.1 
+	* [Memory Profiler]
+		- investigate performance issue.
+
 Last Week (01/12 - 01/16)
 
 * [woodduck]
