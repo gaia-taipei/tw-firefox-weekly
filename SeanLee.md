@@ -1,23 +1,16 @@
 ### Last week
 
 * [Study]
-  - Dialer API - Studying CallScreen.
+  - Dialer API - Studying CallScreen and Telephony APIs called by CallScreen.
 
 * [STK]
-  - [CLOSED][Bug 1126691] Code landed. Partner tested the trial patch, and the result is PASS.
-  - [WIP][Bug 1127730] Implementing MTCALL test case.
-  - [CLOSED][Bug 1129831] Send event STK_EVENT_TYPE_BROWSER_TERMINATION with terminationCause.
-  - [WIP][Bug 1128793] I've given suggestions to the partner. Keep tracking their requirement.
+  - [CLOSE][Bug 1127730] All unit test for each event has been done.
+  - [DUP][Bug 1128793] Partner has accepted my suggestion. Fix it at Bug 1132363.
+  - [CLOSE][Bug 1132363] trail patch is provided, and partner tested PASS.
+  - Apply v2.2 and v2.1 approval to all STK bugs that I ever resolved in master. http://goo.gl/u9eyXn
 
-* [TV]
-  - [CLOSED][Bug 1120357] Implement App Removing dialog. The patch is done.
-  - [CLOSED][Bug 1129805] Add italic font-style.
-
-* [SIM Lock]
-  - [WONT FIX?][Bug 1125974] After Gecko team's help, woodduck + m-c can not boot normally.
-
-* [Data Connection]
-  - [???][Bug 1127662] This could be a data connection issue.
+* [Settings]
+  - [CLSOED][Bug 1131552] Use mozIccManager.oniccinfochange to update phone number. Partner tested PASS
 
 ### This week
 
@@ -35,5 +28,4 @@
 
 * [STK]
   - [WIP][Bug 1100218] Provide a patch to use IAC for icc.data. We still need to refactor icc.application and provide a command queue.
-  - [WIP][Bug 1126682] We suspect the icc.selectTimeout (common-settings.json) was wrong.
-  - Apply v2.2 and v2.1 approval to all STK bugs that I ever resolved in master.
+  - [WIP][Bug 1126682][v1.4] Fernando will take a look why iccLastCommand is empty.
