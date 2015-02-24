@@ -1,20 +1,18 @@
-1/26-1/30
+2/9-2/17
 
 **[Last week]**
 * [Card UI]
-  * [DONE] Bug 1125037 - [Stingray] cannot pin the first card(of TVDeck) without launching home
+  * [DONE] Bug 1130701 - [Stingray] home edit: moving card becomes slower
     - landed on master
-  * [DONE] Bug 1124989 - [Stingray][Demo] Notification Receiver app should use the same message format as sender app
+  * [DONE] Bug 1130955 - [Stingray][Demo] Orientation of Notification Sender should not be always landscape
+    - landed on master
+  * [DONE] Bug 1126158 - [Stingray][Demo] remove TV deck on home screen
+    - landed on master
+  * [DONE] Bug 1131448 - [Stingray][demo] change sender icons
+    - landed on master
+  * [DONE] Bug 1132820 - [Stingray]Hint arrows are not correctly updated when moving card from/to leftmost/rightmost position
     - landed on master
   * [WIP] Bug 1127217 - [Stingray] Add tests for fling-player
-  * [DONE] Bug 1112986 - [Stingray][Home] Application and AppBookmark should be merged into one class
-    - landed on master
-  * [DONE] Bug 1128424 - Use mozApp API to get icon blob in packaged app.
-    - landed on master
-  * [DONE] Bug 1128830 - [Demo][Stingray] "Notification Sender" and "dlnaPlayer" appear in Apps Deck Main Pag
-    - landed on master
-  * [DONE] Bug 1127216 - [Demo][Stingray] For App deck - Grid view, the left and right margin should be the same
-    - landed on master
 
 * [Hardware Key Event]
   * [QUEUED] Bug 1113461 - Add tests of blurring focus when focus is on disabled button element in System app
@@ -22,8 +20,7 @@
    
 **[This week]**
 * [Card UI]
-  * [WIP] Bug 1130701 - [Stingray] home edit: moving card becomes slower
-    - partner reported.
+  * [WIP] Bug 1115642 - [Stingray] Card name does not change when locale changes
   * [WIP] Bug 1127217 - [Stingray] Add tests for fling-player
    
 * [Hardware Key Event]
