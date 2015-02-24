@@ -1,28 +1,15 @@
-## 02/02 - 02/06 ##
+## 02/16 - 02/17 ##
 
 ### Last Week ###
 
-* [Partner support]
-    - [Suspend] Bug 1128377 - [FFOS7715 v2.1][Gaia_System_WindowMgmt] after monkey test, could not back to homescreen
-        - confrimed that it should be POVB
-    - [Suspend] Bug 1119155 - [FFOS2.0][Woodduck][SMS]lauch SMS APP from Notification abnormally while view contact form Messaging
-        - discussed with UX and reached a conclusion
-        - suspend because the bug is marked backlog
-    - [WIP] Bug 1119112 - [woodduck][feature][Call]There is no incoming call interface when incoming a call during quering supplementary services on call setting
-        - under investigation
-    - Answer partner's questions via mail
+* [Stingray]
+    - [Done] Bug 1132811 - [gecko] Move focus issue when pressing Tab or F6 keys on Keyboard
+        - found the root cause and proposed workarounding it in partner's branch
 
-* [Other]
-    - Interview
-    - EWC Year End Party planning
+* [Study]
+    - [WIP] Keyboard Manager
 
 ### This Week ###
 
-* [Partner support]
-    - [WIP] Bug 1119112 - [woodduck][feature][Call]There is no incoming call interface when incoming a call during quering supplementary services on call setting
-
 * [Study]
-    - [WIP] Keyboard Manager in System app
-
-* [Other]
-    - EWC Year End Party
+    - Prepare DE Sharing - Keyboard Architecture 101
