@@ -1,28 +1,15 @@
-## 02/09 - 02/13 ##
+## 02/16 - 02/17 ##
 
 ### Last Week ###
 
-* [Partner support]
-    - [Suspend] Bug 1119112 - [woodduck][feature][Call]There is no incoming call interface when incoming a call during quering supplementary services on call setting
-        - waiting for partner's feedback
-
 * [Stingray]
-    - [WIP] Bug 1132811 - [gecko] Move focus issue when pressing Tab or F6 keys on Keyboard
-        - investigated
+    - [Done] Bug 1132811 - [gecko] Move focus issue when pressing Tab or F6 keys on Keyboard
+        - found the root cause and proposed workarounding it in partner's branch
 
 * [Study]
-    - [WIP] Keyboard Manager in System app
-
-* [Other]
-    - EWC Year End Party
+    - [WIP] Keyboard Manager
 
 ### This Week ###
 
-* [Partner support]
-    - [Suspend] Bug 1119112 - [woodduck][feature][Call]There is no incoming call interface when incoming a call during quering supplementary services on call setting
-
-* [Stingray]
-    - [WIP] Bug 1132811 - [gecko] Move focus issue when pressing Tab or F6 keys on Keyboard
-
 * [Study]
-    - [WIP] Keyboard Manager in System app
+    - Prepare DE Sharing - Keyboard Architecture 101
