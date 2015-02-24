@@ -1,3 +1,14 @@
+02/16-02/17
+
+**[Last week]**
+
+* [Dolphin 512]
+    * [Working] [Bug 1117445] - [FFOS7715 v2.1][performance] it is slow to start up by normal boot-strap or restart in FFOS2.1
+        - Experimenting on settings cache + async storage, faster but have potential risk
+    * [Pending] [Bug 1117450] - [Dialer][dolphin][FFOS7715 v2.1] [performance] The time spent on displaying callscreen is much longer after the dial button clicked
+    * [Pending] [Bug 1117465] - [Calendar][FFOS7715 v2.1][performance] Cold launching Calendar app spends a longer time
+        - Help on calendar app profiling with Danny
+
 02/09-02/13
 
 **[Last week]**
