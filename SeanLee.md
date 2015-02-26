@@ -1,24 +1,22 @@
 ### Last week
 
+* [Mozilla Tech]
+  - [r?] The article has done. Wait for reviewing.
+  http://tech.mozilla.com.tw/wp-admin/post.php?post=6016&action=edit&message=8
+
 * [Study]
-  - Dialer API - Studying CallScreen and Telephony APIs called by CallScreen.
+  - Write the presentation for Dialer/Callscreen.
 
 * [STK]
-  - [CLOSE][Bug 1127730] All unit test for each event has been done.
-  - [DUP][Bug 1128793] Partner has accepted my suggestion. Fix it at Bug 1132363.
-  - [CLOSE][Bug 1132363] trail patch is provided, and partner tested PASS.
-  - Apply v2.2 and v2.1 approval to all STK bugs that I ever resolved in master. http://goo.gl/u9eyXn
+  - [CLOSED][Bug 1137026] Send TR for SET UP EVENT LIST command from Gaia.
 
 * [Settings]
-  - [CLSOED][Bug 1131552] Use mozIccManager.oniccinfochange to update phone number. Partner tested PASS
+  - [WIP][Bug 1131552] The patch for v2.1/v2.0m can not apply to v2.2/v3.0 because the architecture changed a lot. Implementing the patch for v2.2/v3.0.
 
 ### This week
 
 * [Study]
   - Dialer API
-
-* [Mozilla Tech]
-  - The subject would be related to Dialer and its APIs.
 
 * [Dialer]
   - [PLOW][WIP][bug 1118643][Bug 1118651] Emergency call dial tone issue (see also Bug 834530)
