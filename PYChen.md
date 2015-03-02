@@ -1,5 +1,53 @@
 Last Week (01/26 - 02/06)
 
+* [wooduck]
+	- Bug 1099019 - [Settings]The notification will cover the tiltle when you tap "Terms of Service/Privacy Notice". 
+		- QA want to uplift to v2.1, but bajaj reject approval.
+	- [fixed] Bug 1128359 - [FFOS2.0][Woodduck][Voicemail]MS go to SIM2 when set the voicemail number.
+		- fixed and landed, and double confirmed with partner, TCL code still has issue but it wasn't cause by mozilla.
+	- Bug 1130941 - [Woodduck]FTU doesn't show up after pressing "Reset Phone" in "Settings"
+		- clean ni?, it's a POVB.
+	- [fixed]Bug 1106693 - [woodduck][BT] Can't disconnect with stereo BT headset if media connection not connected
+		- fixed and landed, disable button while it still in processing. 
+	- [fxied] Bug 1129278 - [FFOS][Woodduck][Settings]Application run in clear all automaticlly after restarting MS
+		- help to provide v2.0m's patch from bug 821604.
+	- Bug 1124554 - [FFOS2.0][Woodduck][3rd][File Manager]MS will display a black screen after you share a file by BT.
+		- clean ni?, graphic and perfromance issues it won't fix in v2.0m.
+	- Bug statuts
+      - 2.0M?, UNFIX: 1
+      - 2.0M+, UNFIX: 6
+
+* [RTL]
+	- [dup] Bug 1128864 - [RTL][Contacts] The reset button display on the wrong position. 
+		- have patch for reviewing but reviewer fould it was cat set DUPLICATE of bug 1116803 .
+	- [invaild] Bug 1136466 - [RTL] Media player controls progress bar should NOT be mirrored if the rest of controls are not.
+		- Have patch but conflict with spec., pm close it and set invaild.
+	- [fixed] Bug 1135976 - [RTL][Privacy Controls] Overlapping text in Transparency Control Permissions page 
+		- fixed and landed it.
+	- [invaild] Bug 1124105 - [RTL][Camera]"More info..." is covered by underline in App Permission view after launching camera in RTL language.
+		- have patch but kgrandon(review) set invalid, per comment #8, if we have underline in LTR it sould be there in RTL as well.
+	- Bug stauts
+		- P1 & P2, UNFIX: 5 (5 Assignees).
+		
+* [Others]
+
+	- Bug 1131917 - [FFOS7715 v2.1][gaia][camera]When recording video, incoming call, answer the phone, press home button, click camera icon to restart camera, touch the screen, focus ring didn't disappear sometimes. 
+		- help to answer ni? 
+	- [fixed] Bug 1134321 - Settings app does not fire moz-app-loaded or mark fullyLoaded
+		- regression, fixed and landed it.
+	- Bug 1117485 - [Video][dolphin][FFOS7715 v2.1] [performance] Open a background Video app spend a longer time.
+		- anwser ni?, seems v2.1 has better performance than v1.4.
+* [Lockscreen]
+	- lockscreen.js, lockscreen_window.js lockscreen_window_manager.js, LockScreenInputWindow.js
+
+This Week
+	* [Lockscreen]
+		- investigate lockscreen status.
+	
+	
+
+Last Week (01/26 - 02/06)
+
 * [woodduck]
 	- [FIXED]Bug 1126677 - [FFOS2.0][Woodduck]No IMSI detach prodecure when power off.
 		- fixed it and land in v2.0m.
