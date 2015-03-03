@@ -1,3 +1,16 @@
+## 02/24 - 02/26 ##
+### Last Week ###
+* Focus Fallback Analysis
+  https://docs.google.com/a/mozilla.com/spreadsheets/d/1VCSfKJ5raw2jS_lILThMKidI4lvxueCZkPJaLPisPeM/edit?pli=1
+
+### This Week ###
+* Focus Fallback [Meta Bug](http://bugzil.la/stingray-focus-fallback)
+  - [Bug 1136590](http://bugzil.la/1136590) - [Stingray] focus fallback algorithm
+  - [Bug 1136591](http://bugzil.la/1136591) - [Meta][Stingray] expose isVisible and focus API for all modules of smart system app
+
+## 02/16 - 02/17 ##
+* PTO
+
 ## 1/26 ~ 2/6 ##
 ### Last 2 Week ###
 * Fling Player/Sender
