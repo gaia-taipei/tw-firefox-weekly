@@ -1,3 +1,43 @@
+02-24-02/26
+
+**[Last week]**
+
+* [Dolphin 512]
+    * [Working] [Bug 1117445] - [FFOS7715 v2.1][performance] it is slow to start up by normal boot-strap or restart in FFOS2.1
+        - Experimenting on settings cache + async storage, faster but have potential risk
+    * [Working] [Bug 1117465] - [Calendar][FFOS7715 v2.1][performance] Cold launching Calendar app spends a longer time
+        - Help on calendar app profiling with Danny
+    * [Pending] [Bug 1117450] - [Dialer][dolphin][FFOS7715 v2.1] [performance] The time spent on displaying callscreen is much longer after the dial button clicked
+
+* [Stingray]
+    * [Done] Create repo for tv's web component and use bower to manage them
+    * [Working] Discuss how to enable test on tpbl and how to merge tv_apps
+
+* [Study]
+    * [Working] System window management
+
+**[This week]**
+
+* [Dolphin 512]
+    * [Working] [Bug 1115304] - [FFOS7715 v2.1][AudioChannel]we can not change to speaker quickly when we hang up a call
+
+* [Stingray]
+    * [Working] Discuss how to enable test on tpbl and how to merge tv_apps
+
+* [Study]
+    * [Working] System window management
+
+02/16-02/17
+
+**[Last week]**
+
+* [Dolphin 512]
+    * [Working] [Bug 1117445] - [FFOS7715 v2.1][performance] it is slow to start up by normal boot-strap or restart in FFOS2.1
+        - Experimenting on settings cache + async storage, faster but have potential risk
+    * [Pending] [Bug 1117450] - [Dialer][dolphin][FFOS7715 v2.1] [performance] The time spent on displaying callscreen is much longer after the dial button clicked
+    * [Pending] [Bug 1117465] - [Calendar][FFOS7715 v2.1][performance] Cold launching Calendar app spends a longer time
+        - Help on calendar app profiling with Danny
+
 02/09-02/13
 
 **[Last week]**
