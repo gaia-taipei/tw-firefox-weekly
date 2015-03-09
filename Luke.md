@@ -1,22 +1,28 @@
-## 02/24 - 02/26 ##
+## 03/02 - 03/06 ##
 
 ### Last Week ###
 
-* [Stingray]
-    - Bug 1132811 - [gecko] Move focus issue when pressing Tab or F6 keys on Keyboard
-        - follow-up discussion with Marco
+* [Partner Support]
+    - [WIP] Bug 1119112 - [woodduck][feature][Call]There is no incoming call interface when incoming a call during quering supplementary services on call setting
+        - helped on checking partner-modified code and found it should be caused by themself
 
-* [Study]
-    - Prepare DE Sharing - Keyboard Architecture 101
+* [Stingray]
+    - [Review] Bug 1136606 - [Stingray] expose isVisible and focus API for permission_manager
+    - [Review] Bug 1136612 - [Stingray] expose isVisible and focus API for crash_report
+    - [Review] Bug 1136618 - [Stingray] expose isVisible and focus API for trusted ui
+    - [Review] Bug 1139314 - [Stingray] let focus manager to setTimeout, blur active and call focus of top most UI
+    - Joined the discussion about focusing issue
+
+* [Other]
+    - Two interviews
 
 ### This Week ###
 
-* [Partner Suupport]
-    - [WIP] Bug 1119112 - [woodduck][feature][Call]There is no incoming call interface when incoming a call during quering supplementary services on call setting
-
-* [Stingray]
-    - [Review] Bug 1136618 - [Stingray] expose isVisible and focus API for trusted ui
-interview
+* [Red-tai]
+    - Study partner's codebase
 
 * [Study]
-    - Prepare DE Sharing - Keyboard Architecture 101
+    - DE Sharing - Keyboard Architecture 101
+
+* [Other]
+    - Interview
