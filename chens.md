@@ -1,4 +1,41 @@
-02-24-02/26
+03/02-03/06
+
+**[Last week]**
+
+* [Dolphin 512]
+    * [Done] [Bug 1103901] - [Flame][Gallery]"Select" is not at middle of title
+    * [Done] [Bug 1133427] - [Flame][Dialer]The number will be deleted automatically when you tap on the phone number suggestion position
+    * [Working] [Bug 1117445] - [FFOS7715 v2.1][performance] it is slow to start up by normal boot-strap or restart in FFOS2.1
+        - Experimenting on settings cache + async storage, faster but have potential risk
+    * [Working] [Bug 1117465] - [Calendar][FFOS7715 v2.1][performance] Cold launching Calendar app spends a longer time
+        - Help on calendar app profiling with Danny
+
+* [Other]
+    * [Done] [Bug 1133338] - Use verticalhome for flatfish
+    * [Working] [Bug 1138800] - [OPEN II _V1.3 to V2.0] There is no appliation icon display when update by fota
+
+* [Study]
+    * [Working] System window management
+
+**[This week]**
+
+* [Dolphin 512]
+    * [Working] [Bug 1100855] - [Flame][Gallery][2.1] Can't switch picture in Gallery if you quickly slide the screen up and down while deleting a picture
+    * [Working] [Bug 1098184] - [Flame][Contacts]The linked facebook contact cannot be displayed if you enter contact from email
+    * [Working] [Bug 1117445] - [FFOS7715 v2.1][performance] it is slow to start up by normal boot-strap or restart in FFOS2.1
+        - Experimenting on settings cache + async storage, faster but have potential risk
+    * [Working] [Bug 1117465] - [Calendar][FFOS7715 v2.1][performance] Cold launching Calendar app spends a longer time
+        - Help on calendar app profiling with Danny
+
+* [Other]
+    * [Working] [Bug 1138800] - [OPEN II _V1.3 to V2.0] There is no appliation icon display when update by fota
+    * [Working] [Bug 1140348] TEST-UNEXPECTED-FAIL | /builds/slave/test/gaia/apps/findmydevice/test/marionette/findmydevice_test.js | Find My Device lock > Lock the screen through the test app
+    * [TBD] 2.2 sheriffing stuff
+
+* [Study]
+    * [Working] System window management
+
+02/24-02/26
 
 **[Last week]**
 
