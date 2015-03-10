@@ -1,11 +1,22 @@
-2/24-2/26
+3/2-3/6
 
 **[Last week]**
 * [Card UI]
-  * [DONE] Bug 1115642 - [Stingray] Card name does not change when locale changes
+  * [DONE] Bug 1106818 - [Video] Volume buttons do not function in app permission page of youtube video
+    - Prevent global focus from capturing by shell.html
+    - affect both focus issue and hardware key event
+    - landed on m-c
+  * [WIP] Bug 1138870 - [Stingray] Move content of tv_shared folder to shared folder
+  * [DONE] Bug 1139731 - [Stingray] Use bower to manage evt.js
     - landed on master
-  * [DONE] Bug 1111472 - [Stingray][Home] Same card should not be pinned twice in Home app
+    - blocks Bug 1138870
+  * [DONE] Bug 1139773 - [Stingray] Use bower to manage smart-components
     - landed on master
+    - blocks Bug 1138870
+  * [WIP] Bug 1140300 - [Stingray][Component] Reveal dependency of smart-button in smart-banner example page
+    - r?
+  * [WIP] Bug 1140280 - [Stingray] Unable to pop up app install dialog
+    - r?
   * [QUEUED] Bug 1127217 - [Stingray] Add tests for fling-player
    
 * [Hardware Key Event]
@@ -14,9 +25,11 @@
    
 **[This week]**
 * [Card UI]
-  * [WIP] Bug 1106818 - [Video] Volume buttons do not function in app permission page of youtube video
-    - Prevent global focus from capturing by shell.html
-  * [WIP] Enable unit test of tv_apps/ on Gaia-Try
+  * [WIP] Bug 1138870 - [Stingray] Move content of tv_shared folder to shared folder
+  * [WIP] Bug 1140300 - [Stingray][Component] Reveal dependency of smart-button in smart-banner example page
+    - r?
+  * [WIP] Bug 1140280 - [Stingray] Unable to pop up app install dialog
+    - r?
   * [QUEUED] Bug 1127217 - [Stingray] Add tests for fling-player
    
 * [Hardware Key Event]
