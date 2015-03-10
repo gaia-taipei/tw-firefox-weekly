@@ -1,3 +1,18 @@
+## 03/02 - 03/06 ##
+### Last Week ###
+* Focus Fallback [Meta Bug](http://bugzil.la/stingray-focus-fallback)
+  - [Bug 1136590](http://bugzil.la/1136590) - [Stingray] focus fallback algorithm
+  - [Bug 1139314](http://bugzil.la/1139314) - [Stingray] focus fallback algorithm v2 
+  - [Bug 1136591](http://bugzil.la/1136591) - [Meta][Stingray] expose isVisible and focus API for all modules of smart system app
+    - [Bug 1136603](http://bugzil.la/1136603) - [Stingray] expose isVisible and focus API for sleep_menu
+    - [Bug 1136606](http://bugzil.la/1136606) - [Stingray] expose isVisible and focus API for permission_manager
+    - [Bug 1136618](http://bugzil.la/1136618) - [Stingray] expose isVisible and focus API for trusted ui
+### This Week ###
+  - [Bug 1136591](http://bugzil.la/1136591) - [Meta][Stingray] expose isVisible and focus API for all modules of smart system app
+    - Review and Land other patches
+  - Prepare change items in smart system app
+  - Read W3C spec: WAI-ARIA 1.0 User Agent Implementation Guide
+
 ## 02/24 - 02/26 ##
 ### Last Week ###
 * Focus Fallback Analysis
