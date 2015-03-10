@@ -1,4 +1,21 @@
-Last Week (01/26 - 02/06)
+Last Week (03/02-03/06)
+* [wooduck]
+	- Bug 1138259 - [Monitor][Contacts]Some contact doesn't deleted when from dialer to contacts.
+		- have a patch for reviewing.
+	- Bug 1139238 - [FFOS2.0][Woodduck][Airplane mode]The airplane mode is invalid 
+		- have a patch for reviewing, and need to address reviewer's comment.
+	- [fixed] Bug 1121365 - [Flame][Homescreen]The text in the delete app page is shown out of the page when user delete the custom smart collection with the name more than 30 characters.
+		- fixed and land in v2.0m, v2.1s
+	- Bug statuts
+      		- 2.0M?, UNFIX: 2
+      		- 2.0M+, UNFIX: 1
+* [memory profiler]
+	- move js to shared repo, let two add-ons can use share files.
+	- fix minor bug
+	- improve canvas feature
+		- add base line and the maximum label.
+
+Last Week (02/09 - 02/26)
 
 * [wooduck]
 	- Bug 1099019 - [Settings]The notification will cover the tiltle when you tap "Terms of Service/Privacy Notice". 
