@@ -1,28 +1,30 @@
-## 03/02 - 03/06 ##
+## 03/09 - 03/13 ##
 
 ### Last Week ###
 
-* [Partner Support]
-    - [WIP] Bug 1119112 - [woodduck][feature][Call]There is no incoming call interface when incoming a call during quering supplementary services on call setting
-        - helped on checking partner-modified code and found it should be caused by themself
+* [Red-tai]
+    - Bug 1142855 - Implement softkey feature on the simple phone
+        - proposal: https://wiki.mozilla.org/WebAPI/Softkey_through_context_menu
+    - Study partner's codebase
+        - done system app part
 
 * [Stingray]
-    - [Review] Bug 1136606 - [Stingray] expose isVisible and focus API for permission_manager
-    - [Review] Bug 1136612 - [Stingray] expose isVisible and focus API for crash_report
-    - [Review] Bug 1136618 - [Stingray] expose isVisible and focus API for trusted ui
-    - [Review] Bug 1139314 - [Stingray] let focus manager to setTimeout, blur active and call focus of top most UI
-    - Joined the discussion about focusing issue
+    - [Review, WIP] Bug 1141887 - [Stingray] apply focus manager to app window related UIs
+        - discussed with John Hu and Sung
+
+* [Study]
+    - DE Sharing - Keyboard Architecture 101
+        - prepared slides and presentation
+        - discussed with John Lu and helped for documentation
 
 * [Other]
-    - Two interviews
+    - Joined the discussion about PBAP and MAP with BT team
+    - Interview
 
 ### This Week ###
 
 * [Red-tai]
     - Study partner's codebase
 
-* [Study]
-    - DE Sharing - Keyboard Architecture 101
-
-* [Other]
-    - Interview
+* [Stingray]
+    - [Review] Bug 1141887 - [Stingray] apply focus manager to app window related UIs
