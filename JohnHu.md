@@ -1,3 +1,16 @@
+## 03/09 - 03/13 ##
+### Last Week ###
+  - [Bug 1136591](http://bugzil.la/1136591) - [Meta][Stingray] expose isVisible and focus API for all modules of smart system app
+    - Review and Land other patches
+  - [Bug 1141887](http://bugzil.la/1141887) - [Stingray] apply focus manager to app window related UIs
+    - Implementing, Testing and Reviewing
+
+### This Week ###
+  -[Bug 1141887](http://bugzil.la/1141887) - [Stingray] apply focus manager to app window related UIs
+    - land the patch
+  - Prepare change items in smart system app
+  - Read W3C spec: WAI-ARIA 1.0 User Agent Implementation Guide
+
 ## 03/02 - 03/06 ##
 ### Last Week ###
 * Focus Fallback [Meta Bug](http://bugzil.la/stingray-focus-fallback)
