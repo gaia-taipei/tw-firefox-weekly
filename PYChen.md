@@ -1,3 +1,23 @@
+Last Week (03/09-03/13)
+* [woodduck]
+	- Bug 1138259 - [Monitor][Contacts]Some contact doesn't deleted when from dialer to contacts. 
+		- still has discussion with Francisco on this issue, seem mozContact API limitation or need to split contacts and dialer APPs.
+ 	- Bug 1139238 - [FFOS2.0][Woodduck][Airplane mode]The airplane mode is invalid
+ 		- got r+ and fixed test failed.
+ 	- Bug 1118676 - [E.ME][v2.0] Cannot add app to homescreen
+ 		- fixed and land in v2.0m
+ 	- Bug 1129278 - [FFOS][Woodduck]Application run in clear all automaticlly after restarting MS
+ 		- help to invesigate and wait onwer to check Whether is feature or bug?
+ 	- Bug statuts
+      		- 2.0M?, UNFIX: 2
+      		- 2.0M+, UNFIX: 2
+* [other]
+ 	- Bug 1141947 - [Camera][flame] enable ZSL (zero shutter lag)
+ 		- help Becker and answer him some camera issue.
+        - help to clarify camera performace issue with partner via email
+* [lockscreen]
+	- prepare brownbag
+        
 Last Week (03/02-03/06)
 * [wooduck]
 	- Bug 1138259 - [Monitor][Contacts]Some contact doesn't deleted when from dialer to contacts.
