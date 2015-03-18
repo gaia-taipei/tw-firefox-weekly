@@ -1,3 +1,32 @@
+03/09-03/13
+
+**[Last week]**
+
+* [Dolphin 512]
+    * [Done] [Bug 1103911] - [Flame][E.me Integration]Virtual keyboard can't be closed automatically when user goes to home screen
+    * [Working] [Bug 1098184] - [Flame][Contacts]The linked facebook contact cannot be displayed if you enter contact from email
+    * [Pending] [Bug 1100855] - [Flame][Gallery][2.1] Can't switch picture in Gallery if you quickly slide the screen up and down while deleting a picture
+    * [Pending] [Bug 1117445] - [FFOS7715 v2.1][performance] it is slow to start up by normal boot-strap or restart in FFOS2.1
+        - Experimenting on settings cache + async storage, faster but have potential risk
+    * [Pending] [Bug 1117465] - [Calendar][FFOS7715 v2.1][performance] Cold launching Calendar app spends a longer time
+        - Help on calendar app profiling with Danny
+
+* [2.2 sheriff]
+    * [Done] [Bug 1127975] - Retry marionette tests on failure to rule out harness failures
+        - Uplift es6-promise to gaia-node-modules 2.2
+        - Uplift bug 1127975 to gaia 2.2 to retry failed tests
+    * [Done] [Bug 1142377] - Un-hide Gaia JS Integration tests on mozilla-b2g37_v2_2 when they meet visibility standards
+        - https://treeherder.mozilla.org/#/jobs?repo=gaia-try&revision=44c57f8a452e
+        - https://treeherder.mozilla.org/#/jobs?repo=mozilla-b2g37_v2_2&revision=ba39673be8eb&exclusion_profile=false
+
+* [Other]
+    * [Done] [Bug 1140348] TEST-UNEXPECTED-FAIL | /builds/slave/test/gaia/apps/findmydevice/test/marionette/findmydevice_test.js | Find My Device lock > Lock the screen through the test app
+    * [Done] [Bug 1133338] - Use verticalhome for flatfish
+    * [Done] [Bug 1138800] - [OPEN II _V1.3 to V2.0] There is no appliation icon display when update by fota
+
+* [Study]
+    * [Working] System window management
+
 03/02-03/06
 
 **[Last week]**
