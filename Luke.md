@@ -1,25 +1,20 @@
-## 03/09 - 03/13 ##
+## 03/16 - 03/20 ##
 
 ### Last Week ###
 
 * [Red-tai]
     - Bug 1142855 - Implement softkey feature on the simple phone
-        - proposal: https://wiki.mozilla.org/WebAPI/Softkey_through_context_menu
+        - updated proposal
     - Study partner's codebase
-        - done system app part
+        - done callscreen, dialer, sms
 
 * [Stingray]
-    - [Review, WIP] Bug 1141887 - [Stingray] apply focus manager to app window related UIs
-        - discussed with John Hu and Sung
-
-* [Study]
-    - DE Sharing - Keyboard Architecture 101
-        - prepared slides and presentation
-        - discussed with John Lu and helped for documentation
+    - [WIP] Bug 1144069 - Keyboard isn't hidden by long pressing space key when focusing in an iframe with "designMode=On"
+        - under investigation
+    - [Review] Bug 1141887 - [Stingray] apply focus manager to app window related UIs
 
 * [Other]
-    - Joined the discussion about PBAP and MAP with BT team
-    - Interview
+    - helped BT team for file transfer issue
 
 ### This Week ###
 
@@ -27,4 +22,4 @@
     - Study partner's codebase
 
 * [Stingray]
-    - [Review] Bug 1141887 - [Stingray] apply focus manager to app window related UIs
+    - [WIP] Bug 1144069 - Keyboard isn't hidden by long pressing space key when focusing in an iframe with "designMode=On"
