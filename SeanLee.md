@@ -1,25 +1,24 @@
 ### Last week
 
 * [Study]
-  - Write the presentation for entry_point, ContactCache and AudioCompetingHelper.
+  - Prepare the follow-up presentation.
 
 * [STK]
-  - [a+2.1][Bug 1117663] Waiting for landing to v2.1 .
+  - [CLOSED][Bug 1117663] Waiting for landing to v2.1 .
   - [r?][Bug 1140971] The patch is accepted by partner.
 
-* [Status Bar]
-  - [Bug 1138272][Nexus 5] This polish issue is caused by DPPX/resolution.
-
 * [CallScreen]
-  - [WIP][Bug 1121882] Gonk team helps to figure out if it's Gecko problem.
-
-* [Storage Project]
-  - Perpare the presentation of my brownbag.
+  - [WIP][Bug 1121882] Waiting for DRS and Gonk team's feeback.
 
 * [Dialer]
-  - [CLOSED][bug 1118643][Bug 1118651] This issue closed is confirmed by parter.
+  - [WIP][Bug 1115304] 'telephony' should not be manipulated in Gaia in Dolphin. Provide a setting value to configure AudioCompetingHelper on/off.
+  - [WIP][Bug 1117450] Gaia patch has been provided and the result is improved about 600ms.
+  - [HIGH][WIP][Bug 1145040] Play dialing tone from Gaia. Gecko will send system message to enable/disable the tone. I've provided a Gaia for TCL verifiying.
 
 ### This week
+
+* [Study]
+  - Make a follow-up presentation for Dialer/Callscreen.
 
 * [STK]
   - [WIP][Bug 1100218] Provide a patch to use IAC for icc.data. We still need to refactor icc.application and provide a command queue.
