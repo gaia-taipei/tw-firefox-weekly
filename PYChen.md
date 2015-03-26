@@ -1,3 +1,14 @@
+Last Week (03/16-03/20)
+* [woodduck]
+  	 - Bug statuts
+      		- 2.0M?, UNFIX: 0
+      		- 2.0M+, UNFIX: 4
+* [lockscreen]
+	- prepare slides and brownbag
+* [others]
+	- help on camera new feature issues
+PTO*1 and team building
+
 Last Week (03/09-03/13)
 * [woodduck]
 	- Bug 1138259 - [Monitor][Contacts]Some contact doesn't deleted when from dialer to contacts. 
