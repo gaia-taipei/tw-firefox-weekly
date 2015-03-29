@@ -1,3 +1,15 @@
+## 03/16 - 03/20 ##
+### Last Week ###
+  -[Bug 1141887](http://bugzil.la/1141887) - [Stingray] apply focus manager to app window related UIs
+    - land the patch
+  - Prepare change items in smart system app
+    - http://goo.gl/cTzFJU
+
+### This Week ###
+  - Prepare change items in smart system app
+    - Read the patch one by one to finish the slides
+      - http://goo.gl/cTzFJU
+
 ## 03/09 - 03/13 ##
 ### Last Week ###
   - [Bug 1136591](http://bugzil.la/1136591) - [Meta][Stingray] expose isVisible and focus API for all modules of smart system app
