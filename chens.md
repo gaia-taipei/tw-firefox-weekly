@@ -1,3 +1,17 @@
+03/16-03/20
+
+**[Last week]**
+
+* [Dolphin 512]
+    * [Done] [Bug 1098184] - [Flame][Contacts]The linked facebook contact cannot be displayed if you enter contact from email
+    * [Working] [Bug 1100855] - [Flame][Gallery][2.1] Can't switch picture in Gallery if you quickly slide the screen up and down while deleting a picture
+    * [Working] [Bug 1143552] - [FFOS7715 v2.1] after several restart, icons of homescreen disappear and searchbar of homescreen disappear
+        - Investigate homescreen rendering and discuss with Danny
+
+* [Study]
+    * [Done] System window management
+        - https://drive.google.com/a/mozilla.com/file/d/0Bwy_OKmKMJgCbWtjczhMaXkxQlU/view?usp=sharing
+
 03/09-03/13
 
 **[Last week]**
