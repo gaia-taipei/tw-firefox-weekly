@@ -1,22 +1,18 @@
-03/23-03/27
+03/30-04/03
 
 **[Last week]**
 
 * [Stingray]
     * [Working] [Bug 1147251] - [Stingray][TvDeck] Build TvDeck App for watching TV channels
-      - Basic UI according to current spec
-      - Display content from one source and tuner
-      - Switch channels by pressing left and right
-      - Pin/Unpin TV Channel to/from home
-      - Able to remember the last channel and resume
-* [Study]
-    * TV Manager API
-    * mozbrowser API, settings API, system message, IAC, datastore, permission model
+      - Switch channels by entering numbers.
+      - Animation for switching channels.
+      - Basic animation for channel panel that displays channel number and title.
+      - Discuss with UI/UX team about this first prototype.
 
 **[This week]**
 * [Stingray]
     * [Bug 1147251] - [Stingray][TvDeck] Build TvDeck App for watching TV channels
-      - Switch channels by entering numbers
-      - Animation for switching channels
-      - Show channel programs
-    * Discuss with UI/UX team
+      - Add test case.
+      - Ask for review about this first prototype work.
+    * Waiting for style of channel icon from UI/UX team.
+      - Will file another bug to make TV channel thumbnail when a channel is pinned to home.
