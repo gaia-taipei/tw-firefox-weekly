@@ -1,18 +1,22 @@
-03/16-03/20
+03/23-03/27
 
 **[Last week]**
 
 * [Stingray]
-    * [Done] [Bug 1122431] - [Stingray] UI-Transition - Dialog box
-      - Waiting for gaia-components transfer
-    * [Done] [Bug 1122425] - [Stingray] UI-Transition - Edit mode Delete card
-      - Waiting for gaia-components transfer
-    * [Working] Prototyping Live TV App (basic UI markup and dicuss with UI/UX team)
+    * [Working] [Bug 1147251] - [Stingray][TvDeck] Build TvDeck App for watching TV channels
+      - Basic UI according to current spec
+      - Display content from one source and tuner
+      - Switch channels by pressing left and right
+      - Pin/Unpin TV Channel to/from home
+      - Able to remember the last channel and resume
 * [Study]
-    * Made more demos for Animation 101 sharing
     * TV Manager API
+    * mozbrowser API, settings API, system message, IAC, datastore, permission model
 
 **[This week]**
 * [Stingray]
-    * Prototyping Live TV App
-    * May need more complicate mock TV service
+    * [Bug 1147251] - [Stingray][TvDeck] Build TvDeck App for watching TV channels
+      - Switch channels by entering numbers
+      - Animation for switching channels
+      - Show channel programs
+    * Discuss with UI/UX team
