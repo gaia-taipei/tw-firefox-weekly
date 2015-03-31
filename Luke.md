@@ -1,20 +1,15 @@
-## 03/16 - 03/20 ##
+## 03/23 - 03/27 ##
 
 ### Last Week ###
 
 * [Red-tai]
-    - Bug 1142855 - Implement softkey feature on the simple phone
-        - updated proposal
-    - Study partner's codebase
-        - done callscreen, dialer, sms
+    - [WIP] Bug 955959 - [Settings] [User Story] System font size setting
+        - discussed via mail and helped to find out a solution
 
 * [Stingray]
     - [WIP] Bug 1144069 - Keyboard isn't hidden by long pressing space key when focusing in an iframe with "designMode=On"
-        - under investigation
-    - [Review] Bug 1141887 - [Stingray] apply focus manager to app window related UIs
-
-* [Other]
-    - helped BT team for file transfer issue
+        - looked into forms.js and did some tests
+        - waiting for feedback
 
 ### This Week ###
 
