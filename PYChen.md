@@ -1,3 +1,11 @@
+Last Week (03/23 - 03/27)
+* [other]
+	- read gaia new architecture wiki page
+	- Bug 1032441 - Swahili: Edit icons are overlapping "Auto-enhance on" footer due to long word translation.
+		- r+ but ui-review Minus
+	- v2.2 sheriff
+	- camera new features discussion.
+	
 Last Week (03/16-03/20)
 * [woodduck]
   	 - Bug statuts
@@ -7,7 +15,7 @@ Last Week (03/16-03/20)
 	- prepare slides and brownbag
 * [others]
 	- help on camera new feature issues
-PTO*1 and team building
+	- PTO*1 and team building
 
 Last Week (03/09-03/13)
 * [woodduck]
