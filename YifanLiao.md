@@ -19,12 +19,16 @@ Last Week
 
 This Week
 
+* [TV]
+  - r+
+    - [FIXED] [Bug 1149455 - [Stingray] Apply "new folder" as well as "empty folder" behavior and visual]
+  - WIP
+    - [WIP] [Bug 1149458 - [Stingray] Apply visual of card deletion in Smart Home]
+    - [WIP] [Bug 1117699 - [Stingray][Home] Allow user to move cards into folder]
 * [Partner support]
   - studying implementation approach
     - [WIP] [Bug 1088178 - When in fullscreen mode, the context menu is overlayed by the fullscreen video]
-  - r?, patch merged in partners branch
-    - [WIP] [Bug 1132846 - [FFOS2.0][Woodduck][WAP][End user] Can't input the phone number in some website.]
+  - r+
+    - [FIXED] [Bug 1132846 - [FFOS2.0][Woodduck][WAP][End user] Can't input the phone number in some website.]
 * [Study]
-  - system browser
-    - study v2.2
   - email
