@@ -1,3 +1,16 @@
+03/30-04/02
+
+**[Last week]**
+
+* [Dolphin 512]
+    * [Done] [Bug 1103911] - [Flame][E.me Integration]Virtual keyboard can't be closed automatically when user goes to home screen
+    * [Done] [Bug 1098184] - [Flame][Contacts]The linked facebook contact cannot be displayed if you enter contact from email
+        - In-tree reference issue, waiting for qa to verify
+    * [Working] [Bug 1150285] - [Settings] When signed into Firefox Account no toggle appears on Find My Device Page
+
+* [Stingray]
+    * [Working] [Bug 1150423] - [System] expose device type to system app
+
 03/23-03/27
 
 **[Last week]**
