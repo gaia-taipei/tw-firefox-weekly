@@ -1,20 +1,24 @@
-## 03/23 - 03/27 ##
+## 03/30 - 04/02 ##
 
 ### Last Week ###
 
-* [Red-tai]
-    - [WIP] Bug 955959 - [Settings] [User Story] System font size setting
-        - discussed via mail and helped to find out a solution
-
-* [Stingray]
-    - [WIP] Bug 1144069 - Keyboard isn't hidden by long pressing space key when focusing in an iframe with "designMode=On"
-        - looked into forms.js and did some tests
-        - waiting for feedback
-
-### This Week ###
+* [MultiScreen]
+    - Joined discussion
 
 * [Red-tai]
     - Study partner's codebase
+        - done email, verticalhome
+
+* [Other]
+    - Two interviews
+
+### This Week ###
+
+* [MultiScreen]
+    - Gaia spec follow up
 
 * [Stingray]
     - [WIP] Bug 1144069 - Keyboard isn't hidden by long pressing space key when focusing in an iframe with "designMode=On"
+
+* [MDN]
+    - How to get started with TV app dev
