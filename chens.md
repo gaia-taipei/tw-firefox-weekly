@@ -1,3 +1,15 @@
+03/23-03/27
+
+**[Last week]**
+
+* [Dolphin 512]
+    * [Reopen] [Bug 1103911] - [Flame][E.me Integration]Virtual keyboard can't be closed automatically when user goes to home screen
+    * [Reopen] [Bug 1098184] - [Flame][Contacts]The linked facebook contact cannot be displayed if you enter contact from email
+        - In-tree reference issue, waiting for qa to verify
+
+* [Study]
+    * [Working] System window management in master
+
 03/16-03/20
 
 **[Last week]**
