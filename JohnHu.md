@@ -1,3 +1,26 @@
+## 03/30 - 04/02 ##
+### Last Week ###
+  - Prepare change items in smart system app
+    - http://goo.gl/cTzFJU
+  - Discuss on how to merge
+  - [Bug 1150423](http://bugzil.la/1150423) - [System] expose device type to system app
+
+### This Week ###
+  - Prepare the dependency of each module
+  - File bugs for wrapping each module
+
+## 03/23 - 03/27 ##
+### Last Week ###
+  - Prepare change items in smart system app
+    - Read the patch one by one to finish the slides
+      - http://goo.gl/cTzFJU
+  - Read W3C WAI-ARIA specs
+ 
+### This Week ###
+  - Prepare change items in smart system app
+    - http://goo.gl/cTzFJU
+  - Discuss on how to merge
+ 
 ## 03/16 - 03/20 ##
 ### Last Week ###
   -[Bug 1141887](http://bugzil.la/1141887) - [Stingray] apply focus manager to app window related UIs
