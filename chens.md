@@ -1,3 +1,23 @@
+04/06-04/10
+
+**[Last week]**
+
+* [Dolphin 512]
+    * [Working] [Bug 1150285] - [Settings] When signed into Firefox Account no toggle appears on Find My Device Page
+
+* [Stingray]
+    * [Done] Build dependency parser for system app with John
+        - tool repo: https://github.com/shamenchens/dependo
+        - sample: http://shamenchens.github.io/gaia_system_dependency/system_dependency.html
+    * [Done] [Bug 1150423] - [System] expose device type to system app
+    * [Done] [Bug 1152664] - [System] JSHint for group 1: browser related
+    * [Done] [Bug 1152668] - [System] JSHint for group 4: operator variant
+    * [Done] [Bug 1152669] - [System] JSHint for group 5: logo, identity, and storage watcher
+    * [Done] [Bug 1152708] - [System] JSHint for fxaccount unit tests
+    * [Done] [Bug 1152727] - [System] JSHint for marionette tests
+    * [Working] [Bug 1152710] - [System] JSHint for unit tests: entrysheet, iac_handler, keyboard, lockscreen, mobile operator, orientation, settings, wifi
+    * [Working] [Bug 1152711] - [System] JSHint for mock objects
+
 03/30-04/02
 
 **[Last week]**
