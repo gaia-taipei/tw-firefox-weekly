@@ -1,3 +1,13 @@
+Last Week ([03/30 - 04/02)
+* [camera]
+	- planing demo goal and discuss implementation deatial, please refer to the link as below.
+	- https://taiwan.etherpad.mozilla.org/camera-new-features
+	- WIP for burst mode (continuous shot)
+* [other]
+	- [fixed] Bug 1032441 - [Gallery] Swahili: Edit icons are overlapping "Auto-enhance on" footer due to long word translation
+		- fixed it and land in v2.0
+	
+
 Last Week (03/23 - 03/27)
 * [other]
 	- read gaia new architecture wiki page
