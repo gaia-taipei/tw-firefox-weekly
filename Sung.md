@@ -1,18 +1,19 @@
-03/30-04/03
+04/07-04/10
 
 **[Last week]**
 
 * [Stingray]
-    * [Working] [Bug 1147251] - [Stingray][TvDeck] Build TvDeck App for watching TV channels
-      - Switch channels by entering numbers.
-      - Animation for switching channels.
-      - Basic animation for channel panel that displays channel number and title.
-      - Discuss with UI/UX team about this first prototype.
+    * [Done] [Bug 1147251] - [Stingray][TvDeck] Build TvDeck App for watching TV channels
+      - Write testing for tv-deck
+      - Under review
+    * [Done] [Bug 1153705] - [Stringray] [Smart-Home] Make icon for channels pinned to home
+    * [Done] [Bug 1153067] - [Stingray] [Component] Use :after element as a mask to simulate dialog opening animation
 
 **[This week]**
 * [Stingray]
-    * [Bug 1147251] - [Stingray][TvDeck] Build TvDeck App for watching TV channels
-      - Add test case.
-      - Ask for review about this first prototype work.
-    * Waiting for style of channel icon from UI/UX team.
-      - Will file another bug to make TV channel thumbnail when a channel is pinned to home.
+    * [Bug 1122425] - [Stingray] UI-Transition - Edit mode Delete card (simplified animation)
+      - Fix bug reported by John
+    * [Bug 1122431] - [Stingray] UI-Transition - Change dialog box to new UI spec
+      - Need to make a modal dialog as share components
+    * Fix bugs in TVDeck
+    * Do initial work for Animation blog
