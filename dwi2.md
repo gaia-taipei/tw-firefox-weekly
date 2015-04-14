@@ -1,15 +1,16 @@
-3/23-3/27
+4/6-4/10
 
 **[Last week]**
 * [Card UI]
-  * [DONE] Bug 1130964 - [Stingray] Enqueue card swapping request during swapping 
+  * [DONE] Bug 1150419 - [Stingray] Add data access methods to supporting folder operation
     - landed on master
-  * [WIP] Bug 1150419 - [Stingray] Add data access methods to supporting folder operation    
+  * [DONE] Bug 1153107 - [Stingray]JavaScript error: card_manager.js, line 71: TypeError: folder.cardsInFolder is undefined
+    - followup of 1150419, landed on master
+  * [DONE] Bug 1152638 - [Stingray] Rename all _test folder as test under tv_apps/
+    - landed on master
   * [QUEUED] Bug 1127217 - [Stingray] Add tests for fling-player
   * [QUEUED] Bug 1141425 - [Stingray][Component] Move smart-icons to gaia-components repository
     - Not a blocker. This need UX to refine and resize icon image files first, but they don't have resource for it yet.
-  * Discuss TODO features of smart home app with UX, Rex, and Yifan
-    - Listed as dependency of bug 1146810
 
 * [Hardware Key Event]
   * [QUEUED] Bug 1113461 - Add tests of blurring focus when focus is on disabled button element in System app
@@ -17,7 +18,7 @@
   
 **[This week]**
 * [Card UI]
-  * [WIP] Bug 1150419 - [Stingray] Add data access methods to supporting folder operation
+* * [QUEUED] Bug 1149469 - [Stingray][Home] Filtering cards by group
   * [QUEUED] Bug 1127217 - [Stingray] Add tests for fling-player
   * [QUEUED] Bug 1141425 - [Stingray][Component] Move smart-icons to gaia-components repository
     - Not a blocker. This need UX to refine and resize icon image files first, but they don't have resource for it yet.
