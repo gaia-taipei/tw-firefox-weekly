@@ -1,24 +1,23 @@
-## 03/30 - 04/02 ##
+## 04/07 - 04/10 ##
 
 ### Last Week ###
 
 * [MultiScreen]
-    - Joined discussion
+    - Studied current code base
 
-* [Red-tai]
-    - Study partner's codebase
-        - done email, verticalhome
+* [MDN]
+    - "How to get started with TV app dev"
+        - collected relevant data
+        - edited "Hello world example" and "Interact with TV remote"
 
 * [Other]
-    - Two interviews
+    - interview
 
 ### This Week ###
 
 * [MultiScreen]
-    - Gaia spec follow up
-
-* [Stingray]
-    - [WIP] Bug 1144069 - Keyboard isn't hidden by long pressing space key when focusing in an iframe with "designMode=On"
+    - Bug 1116089 - [Meta] Support "1 UA multi-screen" on FxOS
+        - Discuss with Selly and break down the tasks
 
 * [MDN]
-    - How to get started with TV app dev
+    - "How to get started with TV app dev"
