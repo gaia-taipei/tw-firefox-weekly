@@ -1,3 +1,19 @@
+## 04/07 - 04/10 ##
+### This Week ###
+  - jshint bugs [Bug 996423](http://bugzil.la/996423)
+    - [Bug 1152666](http://bugzil.la/1152666) telephony related
+  - clear review queue
+  - explore other possible changes before bug 1094759 landed.
+### Last Week ###
+  - Prepare the dependency of each module
+  - Wrapping each module
+    - [Bug 1152198](http://bugzil.la/1152198) Migrate Lockscreen to BaseModule model
+      - blocked by [Bug 1094759](http://bugzil.la/1094759), system bootstrap by alive.
+  - jshint bugs [Bug 996423](http://bugzil.la/996423)
+    - [Bug 1152665](http://bugzil.la/1152665) download manager (landed)
+    - [Bug 1152671](http://bugzil.la/1152671) value selectors (landed)
+    - [Bug 1152666](http://bugzil.la/1152666) telephony related
+
 ## 03/30 - 04/02 ##
 ### Last Week ###
   - Prepare change items in smart system app
