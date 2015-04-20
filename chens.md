@@ -1,3 +1,22 @@
+04/14-04/17
+
+**[Last week]**
+
+* [Dolphin 512]
+    * [Working] [Bug 1150285] - [Settings] When signed into Firefox Account no toggle appears on Find My Device Page
+    * [Done] [Bug 1154163] - TEST-UNEXPECTED-FAIL | communications/dialer/test/unit/suggestion_bar_test.js | suggestion Bar Suggestion Bar #update suggestions - exact match one SIM - expected false to be true
+    * [Done] [Bug 1154174] - TEST-UNEXPECTED-FAIL | communications/contacts/test/unit/contacts_test.js | Contacts Controller actions > CancelableActivity > handling an activity - expected 'Contacts' to equal 'contacts'
+    * [Done] [Bug 1154192] - TEST-UNEXPECTED-FAIL | apps/wappush/test/unit/wappush_test.js | line 7, col 1, 'MockParsedProvisioningDoc' is defined but never used.
+
+* [Stingray]
+    * [Done] [Bug 1152710] - [System] JSHint for unit tests: entrysheet, iac_handler, keyboard, lockscreen, mobile operator, orientation, settings, wifi
+    * [Done] [Bug 1152711] - [System] JSHint for mock objects
+    * [Working] [Bug 1155610] - Enable gaia integration tests for TV
+    * [Working] Discussing how to run gij on tv with John and Evan.
+
+* [Others]
+    * 4/13 PTO
+
 04/06-04/10
 
 **[Last week]**
