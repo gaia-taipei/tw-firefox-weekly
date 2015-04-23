@@ -1,3 +1,21 @@
+Last 2 Week (W15, W16 04/06 - 04/17)
+* [camera]
+	- burst mode (continuous shot) done
+		- function works fine and show shot counts on the screen.
+	- enable effects settings menu
+		- some effects got wrong, Becker and Hayden will help on it.
+* [others]
+	- Bug 1124554 MS will display a black screen after you share a file by BT.
+		- have a patch and got f+, but ui review doesn't pass, after offline discuss with Arthur, Ian, Jenny and Harly, we all agree gaia can't help more before paltform improving performance.
+	- Bug 1032441 Swahili: Edit icons are overlapping "Auto-enhance on" footer due to long word translation 
+		- help to apply 2.1 approval.
+	- Bug 1150842 - [FFOS2.0][Woodduck][SCB]CBC notification with pop up and tone alert + vibrate in CHILE.
+		- help to investigate vibrate when device screen off, Viral will provide local patch to partner for passing the certification.
+		
+	- Bug 1151710 - Format sd card from settings, Picture thumbnail can still be saw in camera but can't be opened.
+		- set as DUPLICATE to Bug 1105567.
+	- Read "New new security model" wikipage worte by Tim, https://wiki.mozilla.org/User:Timdream/New_new_security_model
+	
 Last Week ([03/30 - 04/02)
 * [camera]
 	- planing demo goal and discuss implementation deatial, please refer to the link as below.
