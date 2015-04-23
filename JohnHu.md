@@ -1,3 +1,19 @@
+## 04/13 - 04/17 ##
+### This Week ###
+  - migrate BrowserContextMenu
+    - [Bug 1154642](http://bugzil.la/1154642) [System] context menu doesn't focus to correct element and doesn't get focus while relaunch the app
+    - [Bug 1154607](http://bugzil.la/1154607) [System] make browser_context_menu as a base module
+
+### Last Week ###
+  - jshint bugs [Bug 996423](http://bugzil.la/996423)
+    - [Bug 1152666](http://bugzil.la/1152666) telephony related
+  - migrate BrowserContextMenu
+    - [Bug 1154195](http://bugzil.la/1154195) [System] split the visual from browser_context_menu.js 
+    - [Bug 1154642](http://bugzil.la/1154642) [System] context menu doesn't focus to correct element and doesn't get focus while relaunch the app (reviewing)
+    - file related bugs
+  - Discuss enabling gij-tv
+    - [Bug 1155110](http://bugzil.la/1155110) [meta] enable gij for TV
+
 ## 04/07 - 04/10 ##
 ### This Week ###
   - jshint bugs [Bug 996423](http://bugzil.la/996423)
