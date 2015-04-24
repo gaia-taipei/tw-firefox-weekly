@@ -1,23 +1,24 @@
-## 04/07 - 04/10 ##
+## 04/13 - 04/17 ##
 
 ### Last Week ###
 
 * [MultiScreen]
-    - Studied current code base
+    - Bug 1116089 - [Meta] Support "1 UA multi-screen" on FxOS
+        - discussed with Shelly and Alive about the Gaia architecture
+        - updated the status on bug
 
 * [MDN]
     - "How to get started with TV app dev"
-        - collected relevant data
-        - edited "Hello world example" and "Interact with TV remote"
-
-* [Other]
-    - interview
+        - finished the article with Rex
+        - discussed with Mash
 
 ### This Week ###
 
 * [MultiScreen]
     - Bug 1116089 - [Meta] Support "1 UA multi-screen" on FxOS
-        - Discuss with Selly and break down the tasks
+        - break down the tasks and take bugs
+        - update wiki
 
-* [MDN]
-    - "How to get started with TV app dev"
+* [Red-tai]
+    - Bug 1110030 - Routing hardware key events to keyboard app when an input field is focusing
+        - follow up
