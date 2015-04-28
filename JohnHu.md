@@ -1,3 +1,24 @@
+## 04/20 - 04/24 ##
+### This Week ###
+  - Partner issue
+    - [Bug 1148285](http://bugzil.la/1148285) Browser notification not working
+      - I am not sure the main problem here but phone may be also affected.
+  - migrate BrowserContextMenu
+    - [Bug 1154642](http://bugzil.la/1154642) [System] context menu doesn't focus to correct element and doesn't get focus while relaunch the app
+      - root cause found and set r?
+    - [Bug 1156596](http://bugzil.la/1156596) [System] Support device type in base module
+      - find a way to start this issue if alive's patch is not landed.
+
+### Last Week ###
+  - migrate BrowserContextMenu
+    - [Bug 1154642](http://bugzil.la/1154642) [System] context menu doesn't focus to correct element and doesn't get focus while relaunch the app
+      - landed, but backed out
+    - [Bug 1154607](http://bugzil.la/1154607) [System] make browser_context_menu as a base module
+      - landed
+    - [Bug 1155116](http://bugzil.la/1155116)  support keyboard event in jsmarionette
+      - discuss key event with Ghislain Aus Lacroix (A-team)
+
+
 ## 04/13 - 04/17 ##
 ### This Week ###
   - migrate BrowserContextMenu
