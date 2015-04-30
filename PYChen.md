@@ -1,3 +1,15 @@
+Last week (04/20 - 04/24)
+* [camera]
+	- take pictures while recording
+		- have a WIP, functions work fine need to implement UX spec.
+* [others]
+	- Bug 1157616 - [2.1s][camera][layerscope]Recording video, then play the video, at the end of the video, layer-compress has some problem.
+		- help Vliu to investigate the issue, seem plantform render image too slowly cause jagged.
+	- Bug 1157552 - [FFOS2.0][Woodduck][PLMN]No IMSI detach and Detach request prodecure when power off 
+		- provide a local patch to partner. 
+	- Bug 1155028 - [FFOS7715 v2.1s][Video][dolphin&flame] Some videos' dimensions are displayed improper in Video app.
+		- investigate it and find it should be gecko issue, gecko respones wrong information to gaia.
+
 Last 2 Week (W15, W16 04/06 - 04/17)
 * [camera]
 	- burst mode (continuous shot) done
