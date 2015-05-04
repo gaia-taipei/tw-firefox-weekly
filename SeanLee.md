@@ -1,17 +1,15 @@
 ### Last week
 
-* [STK]
-  - [CLOSED][Bug 1147938] The patch is landed.
-
 * [Homescreen]
-  - [WIP][Bug 1154649] I've found a solution to fix it. Discuss with Chris for better design.
+  - [CLOSED][Bug 1154649] scoped css always override app's css. The inline style can avoid this issue, so the solution is in Javascript.
 
-* [CallScreen]
-  - [CLOSED][Bug 1121882] This issue is caused by resize event. Bug 1149555 will fix this issue in Gecko way.
+* [Contacts]
+  - [PENDING][Bug 1159180] Invalid N type can not be exported as vCard v3 spec, but a vcard without Ntype is valid in vCard v4 spec. Put it into backlog.
 
 * [Cloud Storage]
-  - Investigate QuotaExceededError when loading a large MP4 video.
-  - Implement a Gaia app for file managing.
+  - [CLOSED] QuotaExceededError of MSE is caused by a non-fragmented MP4 file when appending buffer. Appenging any video fragment larger than 75MB (defined in Gecko) will throw QuotaExceededError from Gecko.
+  - [CLOSED] Create MozCloudStorage organization in Github.
+  - [WIP][CSManagerApp] Implement a Gaia app for file managing and storage managing.
 
 * [New Architecture]
   - Study Service Worker.
@@ -26,3 +24,7 @@
 
 * [FTU]
   - [WIP][Bug 1144584] I need the confirmation of Reporter's STR.
+
+* [Cloud Storage]
+  - Verify FUSE in Gecko and Cache Manager in JSM can work together and achieve the goal of Cloud Storage.
+  - [CSManagerApp] Implement the app to switch Cloud Storage and provide Access Token to gecko.
