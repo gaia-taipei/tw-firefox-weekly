@@ -1,3 +1,16 @@
+04/27-04/30
+
+**[Last week]**
+
+* [Dolphin 512]
+    * [Working] [Bug 1150285] - [Settings] When signed into Firefox Account no toggle appears on Find My Device Page
+        - r+, 2.1 approval pending
+
+* [Stingray]
+    * [Working] [Bug 1155610] - Enable gaia integration tests for TV
+        - Patches sent to gaia and marionette-js-runner, review pending
+    * [Working] [Bug 1154655] - [System] JSHint for system app after bug 1094759 landed
+
 04/20-04/24
 
 **[Last week]**
