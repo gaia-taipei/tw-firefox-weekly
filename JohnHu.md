@@ -1,3 +1,17 @@
+## 04/27 - 04/30 ##
+### This Week ###
+  - [Bug 1159660](http://bugzil.la/1159660) [System][WindowManager] check activeElement before focus or blur a mozbrowser iframe
+    - focus() too many times may cause performance issue.
+  - [Bug 1156596](http://bugzil.la/1156596) [System] Support device type in base module
+
+### Last Week ###
+  - Partner issue
+    - [Bug 1148285](http://bugzil.la/1148285) Browser notification not working
+      - It is gecko issue and already passed to tommy.
+  - migrate BrowserContextMenu
+    - [Bug 1154642](http://bugzil.la/1154642) [System] context menu doesn't focus to correct element and doesn't get focus while relaunch the app
+      - discussed and r+. I will land the patch at monday of this week.
+
 ## 04/20 - 04/24 ##
 ### This Week ###
   - Partner issue
