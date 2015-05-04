@@ -1,3 +1,15 @@
+04/20-04/24
+
+**[Last week]**
+
+* [Dolphin 512]
+    * [Working] [Bug 1150285] - [Settings] When signed into Firefox Account no toggle appears on Find My Device Page
+        - r+, 2.1 approval pending
+    * [Working] [Bug 1157133] - [FFOS7715 v2.1s][Browser][dolphin&flame] Firefox OS automatically moves to unlock screen and the YouTube video starts playing
+
+* [Stingray]
+    * [Working] [Bug 1155610] - Enable gaia integration tests for TV
+
 04/14-04/17
 
 **[Last week]**
