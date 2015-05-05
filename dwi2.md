@@ -1,11 +1,9 @@
-4/20-4/24
+4/25-4/29
 
 **[Last week]**
 * [Card UI]
-  * [DONE] Bug 1155032 - [Stingray] The card in folder should not get pinned again
+  * [DONE] Bug 1156202 - [Stingray] Unable to unpin card within folder
     - landed on master
-  * [WIP] Bug 1156202 - [Stingray] Unable to unpin card within folder
-    - under r?
   * [WIP] Bug 1149469 - [Stingray][Home] Filtering cards by group
     - functionality is OK. Need to work on animation part.
   * [QUEUED] Bug 1127217 - [Stingray] Add tests for fling-player
@@ -17,11 +15,8 @@
     - follow-up of bug 1106844
   
 **[This week]**
-* [Card UI]
-  * [DONE] Bug 1155032 - [Stingray] The card in folder should not get pinned again
+  * [DONE] Bug 1156202 - [Stingray] Unable to unpin card within folder
     - landed on master
-  * [WIP] Bug 1156202 - [Stingray] Unable to unpin card within folder
-    - under r?
   * [WIP] Bug 1149469 - [Stingray][Home] Filtering cards by group
     - functionality is OK. Need to work on animation part.
   * [QUEUED] Bug 1127217 - [Stingray] Add tests for fling-player
