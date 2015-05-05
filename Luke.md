@@ -1,28 +1,23 @@
-## 04/20 - 04/24 ##
+## 04/27 - 04/30 ##
 
 ### Last Week ###
 
 * [Partner Support]
-    - Bug 1157133 - [FFOS7715 v2.1s][Browser][dolphin&flame] Firefox OS automatically moves to unlock screen and the YouTube video starts playing
-        - discussed with Chens
-    - Answered mails
-
-* [MultiScreen]
-    - Bug 1116089 - [Meta] Support "1 UA multi-screen" on FxOS
-        - broke down tasks and filed bugs
-        - designed the internal API in gaia
-        - attended meetings
-
-* [Other]
-    - Two interviews
-
-### This Week ###
-
-* [Partner Support]
-    - Bug 1157133 - [FFOS7715 v2.1s][Browser][dolphin&flame] Firefox OS automatically moves to unlock screen and the YouTube video starts playing
+    - [Done] Bug 1157133 - Firefox OS automatically moves to unlock screen and the YouTube video starts playing
+        - fixed and landed on v2.1s
 
 * [MultiScreen]
     - Bug 1116089 - [Meta] Support "1 UA multi-screen" on FxOS
         - update wiki with flowcharts
-    - Bug 1156647 - Add multi-screen item to the developer menu in settings
-        - take this bug
+    - [Done] Bug 1156647 - Add multi-screen item to the developer menu in settings
+        - landed on master
+    - [WIP] Bug 1156650 - Show display dialog when launching app from homescreen
+        - took this bug
+
+### This Week ###
+
+* [Red-Tai]
+    - Orientation issue follow up
+
+* [MultiScreen]
+    - [WIP] Bug 1156650 - Show display dialog when launching app from homescreen
