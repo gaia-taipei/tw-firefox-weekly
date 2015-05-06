@@ -1,3 +1,17 @@
+05/04-05/08
+
+**[Last week]**
+
+* [Dolphin 512]
+    * [Done] [Bug 1160416] - [FFOS7715 v2.1][Settings] Dragging of the volume status bar inside the sound settings is not so smooth, shows abnormal behavior
+    * [Working] [Bug 1150285] - [Settings] When signed into Firefox Account no toggle appears on Find My Device Page
+        - r+, 2.1 approval pending
+
+* [Stingray]
+    * [Working] [Bug 1155610] - Enable gaia integration tests for TV
+    * [Done] [Bug 1154655] - [System] JSHint for system app after bug 1094759 landed
+    * [Done] [Bug 1162887] - (gu-tv) Support tv_apps unit test on Gu job
+
 04/27-04/30
 
 **[Last week]**
