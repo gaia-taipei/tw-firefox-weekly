@@ -1,3 +1,18 @@
+Last week 04/27 - 04/30
+* [camera]
+	- UX team provided spec and spent a while to take a look, no futher progress on this.
+* [woodduck]
+	- Bug 1157552 No IMSI detach and Detach request prodecure when power off.
+		- Provided local patch for partner passing TA, since we still need gecko implemnt API for fixing this issue.
+	- Bug 1158088 - when remove ringtones,the devices storage can't immediately release space
+		- have WIP for reviewing on Gaia side
+		- take a long time to investigae indexDB add/remove methods with Aphan, seems indexDB will not real remove on storage in v2.0, and Ben Tuner has no idea how to fix it.
+	- Bug 1159186 - The Total storage space will change after users do some operations.
+		- Dub as Bug 1158088.
+* [others]
+	- patch Spark gecko patch and flash into flame.
+	- prepare Spark lightning talk
+
 Last week (04/20 - 04/24)
 * [camera]
 	- take pictures while recording
