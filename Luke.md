@@ -1,23 +1,27 @@
-## 04/27 - 04/30 ##
+## 05/04 - 05/08 ##
 
 ### Last Week ###
 
-* [Partner Support]
-    - [Done] Bug 1157133 - Firefox OS automatically moves to unlock screen and the YouTube video starts playing
-        - fixed and landed on v2.1s
+* [Red-Tai]
+    - [Done] Discussed the orientation issue (slider mode)
+    - [WIP] Investigated the delay issue of launching Dailer app (via mail)
 
 * [MultiScreen]
-    - Bug 1116089 - [Meta] Support "1 UA multi-screen" on FxOS
-        - update wiki with flowcharts
-    - [Done] Bug 1156647 - Add multi-screen item to the developer menu in settings
-        - landed on master
     - [WIP] Bug 1156650 - Show display dialog when launching app from homescreen
-        - took this bug
+        - sent a WIP patch and got f+
+    - [New] Bug 1163914 - Expose connected external display list to gaia system app
+        - studied code base
+
+* [Other]
+    - Interview
 
 ### This Week ###
 
 * [Red-Tai]
-    - Orientation issue follow up
+    - [WIP] The delay issue of launching Dailer app
 
 * [MultiScreen]
     - [WIP] Bug 1156650 - Show display dialog when launching app from homescreen
+        - finish it with unit tests
+    - [WIP] Bug 1163914 - Expose connected external display list to gaia system app
+        - follow up
