@@ -1,3 +1,13 @@
+Last week (05/04 - 05/08)
+* [camera]
+	- add effects UI as apec and fix burst mode bug.
+	- Stauts: all demo functions are ready, but some UI need to polish.
+* [woodduck]
+	- [fix] Bug 1158088 - [Settings] app storage panel doesn't update when user add/remove storage.
+		- adress comment and land it.
+* [others]
+	- `Spark` lightning talk
+
 Last week (04/20 - 04/24)
 * [camera]
 	- take pictures while recording
