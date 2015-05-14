@@ -1,18 +1,16 @@
 ### Last week
 
-* [Homescreen]
-  - [CLOSED][Bug 1154649] scoped css always override app's css. The inline style can avoid this issue, so the solution is in Javascript.
-
-* [Contacts]
-  - [PENDING][Bug 1159180] Invalid N type can not be exported as vCard v3 spec, but a vcard without Ntype is valid in vCard v4 spec. Put it into backlog.
-
-* [Cloud Storage]
-  - [CLOSED] QuotaExceededError of MSE is caused by a non-fragmented MP4 file when appending buffer. Appenging any video fragment larger than 75MB (defined in Gecko) will throw QuotaExceededError from Gecko.
-  - [CLOSED] Create MozCloudStorage organization in Github.
-  - [WIP][CSManagerApp] Implement a Gaia app for file managing and storage managing.
+* [Cloud Storage]a
+  - Contact with filer`s contributer for discussing the js library solution of Cache feature. They are interested in my proposal of File-based cache architecture.
+  - Study the js library `filer` which provides a lot of File API in web. This can be a solution for JS library in Cloud Storage.
+  - [WIP][CSManagerApp] The APP is ready. Wait for Eden`s Gecko API.
+  - Verify FUSE in Gecko and Cache Manager in JSM can work together and achieve the goal of Cloud Storage. Waiting for Eden`s gecko FUSE implement.
 
 * [New Architecture]
-  - Study Service Worker.
+  - Study Service Worker - Study if it`s possible to provide RESTful server in Gaia. The dynamic content like JSON object can not be responsed.
+
+* [STK]
+  - [r+][Bug 1162224] Find a better way to trigger the envelope when browser is terminated.
 
 ### This week
 
@@ -25,6 +23,3 @@
 * [FTU]
   - [WIP][Bug 1144584] I need the confirmation of Reporter's STR.
 
-* [Cloud Storage]
-  - Verify FUSE in Gecko and Cache Manager in JSM can work together and achieve the goal of Cloud Storage.
-  - [CSManagerApp] Implement the app to switch Cloud Storage and provide Access Token to gecko.
