@@ -1,3 +1,16 @@
+## 05/04 ~ 05/07 ##
+### This Week ###
+  - file integration tests bug and write it
+    - app modal dialog
+    - permission dialog
+    - app install manager
+
+### Last Week ###
+  - [Bug 1159660](http://bugzil.la/1159660) [System][WindowManager] check activeElement before focus or blur a mozbrowser iframe
+    - focus() too many times may cause performance issue.
+  - [Bug 1161940](http://bugzil.la/1161940) [Stingray] Lost focus after pinning TV channel occasionally
+  - [Bug 1162349](http://bugzil.la/1162349) integration tests for context menu 
+
 ## 04/27 - 04/30 ##
 ### This Week ###
   - [Bug 1159660](http://bugzil.la/1159660) [System][WindowManager] check activeElement before focus or blur a mozbrowser iframe
