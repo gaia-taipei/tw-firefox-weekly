@@ -1,13 +1,15 @@
-## 04/27 - 04/30 ##
+## 05/04 - 05/08 ##
 ### This week ###
-  - Folder feature of Smart-home
+  - Dashboard 
+    - Discuss, breakdown and prioritize details. (https://taiwan.etherpad.mozilla.org/1260)
+      - Confirm incomplete UX specs and widget apps
+    - [Bug 1074048](http://bugzil.la/1074048) [Stingray] Dashboard view and operations (Meta)
+    - [Bug 1164341](http://bugzil.la/1164341) [Stingray][Dashboard] Skeleton of clock widget
     - Code reviewing
-    - [Bug 1160970](http://bugzil.la/1160970)[Stingray][Home] Folder move-in/move-out animation
-      - Just need small fix based on Yi-fan's work
 ### Last weeks ###
-  - (PTO on 04/27 - 05/0)
-  - Folder feature of Smart-home 
-    - Code reviewing
-    - [Bug 1152173](http://bugzil.la/1152173)[Stingray][Home] Implement folder list
+  - Folder feature of Smart-home
+    - [Bug 1117699](http://bugzil.la/1117699)[Stingray][Home] Allow user to move cards into folder
       - Landed
-    
+    - [Bug 1158665](http://bugzil.la/1158665)[Stingray][Home] [Stingray][Home] After a card is added into a folder, align the folder list to the folder card
+      - Landed
+    - Code reviewing
