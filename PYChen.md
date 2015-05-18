@@ -1,3 +1,15 @@
+Last week (05/04 - 05/08)
+* [camera]
+	- add effects UI as apec and fix burst mode bug.
+	- Stauts: all demo functions are ready, but some UI need to polish.
+* [woodduck]
+	- [fix] Bug 1158088 - [Settings] app storage panel doesn't update when user add/remove storage. 
+		- adress comment and land it.
+* [others]
+	- Spark lightning talk
+* [BT]
+	- Survey BT API, https://wiki.mozilla.org/B2G/Bluetooth/WebBluetooth-v2, and no more progress on BT side project.
+
 Last week 04/27 - 04/30
 * [camera]
 	- UX team provided spec and spent a while to take a look, no futher progress on this.
