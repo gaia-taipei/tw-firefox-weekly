@@ -1,23 +1,28 @@
-05/04-05/08
+05/11-05/15
 
 **[Last week]**
 
 * [Stingray]
-    * [Done][Bug 1161941] - [Stingray][TVDeck] Remove channel scanning logic and channel sorting
-      - Landed
-    * [Done][Bug 1161866] - [Stingray][TVDeck] Channel number should be reset back if new channel number is invalid
-      - Landed
+    * [Done][Bug 1163553] [Stingray][Smart-System] Remove escapeHTML function to prevent double sanitizing
+      - landed
+    * [Done][Bug 1165218] [Stingray][TVDeck] Only storing TV tuner ID in asyncStorage is enough
+      - landed
     * [Done][Bug 1160981] - [Stingray][EPG] Basic HTML UI mockup
-      - Need to be reviewed
+      - landed
     * [Done][Bug 1160982] - [Stingray][EPG] Fetch program information from TV API and connect with view
-      - Need to be reviewed
-    * [Bug 1161940] - [Stingray] Lost focus after pinning TV channel occasionally
-      - Help John to find the bug
-* Check app usage activation
+      - Add test cases
+    * [Working][Bug 1163493] - [Stingray][EPG] Navigation support for TV programs
+      - Need unit tests and integration tests
+    * [Working][Bug 1163492] - [Stingray][EPG] Navigation support for TV Channel
+      - Need unit tests and integration tests
+* Initial work for MDN: Web Animation
 
 
 **[This week]**
 
+* Finish first draft for MDN
 * [Stingray]
   * [Bug 1163493] - [Stingray][EPG] Navigation support for TV programs
+    - Add unit tests and integration tests
   * [Bug 1163492] - [Stingray][EPG] Navigation support for TV Channel
+    - Add unit tests and integration tests
