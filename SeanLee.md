@@ -1,16 +1,11 @@
 ### Last week
 
-* [Cloud Storage]a
-  - Contact with filer`s contributer for discussing the js library solution of Cache feature. They are interested in my proposal of File-based cache architecture.
-  - Study the js library `filer` which provides a lot of File API in web. This can be a solution for JS library in Cloud Storage.
-  - [WIP][CSManagerApp] The APP is ready. Wait for Eden`s Gecko API.
-  - Verify FUSE in Gecko and Cache Manager in JSM can work together and achieve the goal of Cloud Storage. Waiting for Eden`s gecko FUSE implement.
+* [Cloud Storage]
+  - Enable/Disable API of Cloud Storage is implemented, so we can use Storage Manager to switch Cloud Storage now.
+  - Have a presentation to introduce Cache Architecture, MSE, and the challenge of JS library in Gaia. [ https://goo.gl/Ef0uAV ]
 
-* [New Architecture]
-  - Study Service Worker - Study if it`s possible to provide RESTful server in Gaia. The dynamic content like JSON object can not be responsed.
-
-* [STK]
-  - [r+][Bug 1162224] Find a better way to trigger the envelope when browser is terminated.
+* [BLE Drone]
+  - Implement a remote controller app for Rolling Spider. [ https://github.com/weilonge/RollingSpider ]
 
 ### This week
 
