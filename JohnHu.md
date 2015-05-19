@@ -1,3 +1,24 @@
+## 05/11 ~ 05/15 ##
+### This Week ###
+  - Gij-tv
+  - Update smart-system to use latest smart-modal-dialog
+    - We can benefit from these updating issue for merge works.
+    - [Bug 1164353](http://bugzil.la/1164353) migrate browser context menu to use smart-modal-dialog
+
+### Last Week ###
+  - Contributor support:
+    - [Bug 1162428](http://bugzil.la/1162428) search bar that shows up in apps does not work, ui gets stuck in it
+      - This is confirmed as an invalid bug
+  - Gij-tv
+    - [Bug 1163460](http://bugzil.la/1163460) add more options to marionette loader to support tests not under apps/ folder
+      - let marionette loader support tv folder.
+    - [Bug 1164742](http://bugzil.la/1164742) gij-tv alternative: host all tests in tv-tests app
+      - We have a patch to run all tv app's integration tests within phone build, which smart-system is excluded.
+    - [Bug 1165160](http://bugzil.la/1165160) [Stingray] Marionette sendKeys method fails at dashboard app test
+      - marionette test runs too fast so that the testing app is not the top-most UI and focus manager blocks the keyboard event for these case.
+      - I had turned off the auto-recovery mechanism by default and partner can still turn it on through custom-settings.js
+  - a lot of reviews
+
 ## 05/04 ~ 05/07 ##
 ### This Week ###
   - file integration tests bug and write it
