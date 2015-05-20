@@ -8,7 +8,6 @@ Last week (05/11 - 05/15)
 		- https://github.com/mpizza/gaia/commits/camera-new-features
 * [BT]
 	- planing how to reverse BT package with Sean and dwi2.
-* PTO * 1
 Last week (05/04 - 05/08)
 * [camera]
 	- add effects UI as apec and fix burst mode bug.
