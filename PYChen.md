@@ -1,3 +1,14 @@
+Last week (05/11 - 05/15)
+* [camera]
+	- fixed capture and recording css style issue.
+	- Bug 1164316 - add 'effects' icon into gaia-icons. 
+		- fullfill UI Spec, I've patched gaia-icons component.
+		- fixed and landed it.
+	- status: all demo function completed, still polish UI.
+		- https://github.com/mpizza/gaia/commits/camera-new-features
+* [BT]
+	- planing how to reverse BT package with Sean and dwi2.
+* PTO * 1
 Last week (05/04 - 05/08)
 * [camera]
 	- add effects UI as apec and fix burst mode bug.
