@@ -1,3 +1,17 @@
+05/11-05/15
+
+**[Last week]**
+
+* [Dolphin 512]
+    * [Working] [Bug 1150285] - [Settings] When signed into Firefox Account no toggle appears on Find My Device Page
+        - r+, 2.1 approval pending
+
+* [Stingray]
+    * [Done] [Bug 1163466] - Fix jshint in smart-system
+    * [Done] [Bug 1163470] - Support tv_apps jshint on Linter job
+    * [Done] [Bug 1164326] - Add integration tests for app modal dialog
+    * [Working] [Bug 1155610] - Enable gaia integration tests for TV
+
 05/04-05/08
 
 **[Last week]**
