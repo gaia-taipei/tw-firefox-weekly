@@ -1,3 +1,25 @@
+Last week (05/11 - 05/15)
+* [camera]
+	- fixed capture and recording css style issue.
+	- Bug 1164316 - add 'effects' icon into gaia-icons. 
+		- fullfill UI Spec, I've patched gaia-icons component.
+		- fixed and landed it.
+	- status: all demo function completed, still polish UI.
+		- https://github.com/mpizza/gaia/commits/camera-new-features
+* [BT]
+	- planing how to reverse BT package with Sean and dwi2.
+Last week (05/04 - 05/08)
+* [camera]
+	- add effects UI as apec and fix burst mode bug.
+	- Stauts: all demo functions are ready, but some UI need to polish.
+* [woodduck]
+	- [fix] Bug 1158088 - [Settings] app storage panel doesn't update when user add/remove storage. 
+		- adress comment and land it.
+* [others]
+	- Spark lightning talk
+* [BT]
+	- Survey BT API, https://wiki.mozilla.org/B2G/Bluetooth/WebBluetooth-v2, and no more progress on BT side project.
+
 Last week 04/27 - 04/30
 * [camera]
 	- UX team provided spec and spent a while to take a look, no futher progress on this.
