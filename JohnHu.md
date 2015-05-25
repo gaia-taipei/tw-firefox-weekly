@@ -1,3 +1,16 @@
+## 05/18 ~ 05/22 ##
+### This Week ###
+  - Review other's patch
+  - [Bug 1167517](http://bugzil.la/1167517) browser context menu cannot open second time in flame but it works well in b2g-desktop
+  - writing document for MDN
+
+### Last Week ###
+  - [Bug 1164353](http://bugzil.la/1164353) migrate browser context menu to use smart-modal-dialog
+    - regression found, rework two times.
+  - [Bug 1165801](http://bugzil.la/1165801) support icon in smart-modal-dialog
+  - [Bug 1166673](http://bugzil.la/1166673) smart-modal-dialog.open() may need a reflow to have correct animation
+  - [Bug 1167117](http://bugzil.la/1167117) [building block] smart-modal-dialog should line all buttons as one line
+
 ## 05/11 ~ 05/15 ##
 ### This Week ###
   - Gij-tv
