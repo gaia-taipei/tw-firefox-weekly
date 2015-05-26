@@ -1,25 +1,38 @@
-## 05/11 - 05/15 ##
+## 05/18 - 05/22 ##
 
 ### Last Week ###
 
+* [Partner Support]
+    - [WIP] Bug 1165795 - [FFOS7715 v2.1] [dolphin] Firefox OS 2.1s version's Homescreen can not change to landscape mode.
+        - under investigation
+
 * [Red-Tai]
-    - [Done] The delay issue of launching Dailer app via mail
-        - found a major cause and suggested not to fix it
+    - Bug 1161424 - InputMethod: Introduce new API to receive keyboard event
+        - checked the current progress
+        - verified the relationship between bug 1137557 and 1162360
+    - Other minor issues synced up
 
 * [MultiScreen]
-    - [WIP] Bug 1156650 - Show display dialog when launching app from homescreen
-        - got r+ and will land it after shell.js is ready
-    - [WIP] Bug 1163914 - Expose connected external display list to gaia system app
-        - worked on a WIP patch and had landed it on Shelly's repository for testing
+    - [Done] Bug 1166214 - Make BaseModule.SUB_MODULES support subdirectory
+        - landed on master
     - [WIP] Bug 1156723 - Add "system-remote" entry to system app along with a simplified window manager
-        - wrote the first WIP patch and waiting for feedback
+        - got r+ with some nits
+
+* [Stingray]
+    - [WIP] SpatialNavigator improvement
+
+* [Other]
+    - Two interviews
 
 ### This Week ###
 
-* [Red-Tai]
-    - "Routing hardware key events to keyboard app" issue sync up
+* [Partner Support]
+    - [WIP] Bug 1129309 - [FFOS2.0][Woodduck][BT]Can't send the second file successfully after reject the first transfer request.
+        - help for gaia part
 
 * [MultiScreen]
     - [WIP] Bug 1156723 - Add "system-remote" entry to system app along with a simplified window manager
     - [New] Bug 1156727 - Build up a connection between "system" and "system-remote"
-    - [New] Bug 1166214 - Make BaseModule.SUB_MODULES support subdirectory
+
+* [Stingray]
+    - [WIP] SpatialNavigator improvement
