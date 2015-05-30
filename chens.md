@@ -1,3 +1,18 @@
+05/18-05/22
+
+**[Last week]**
+
+* [Dolphin 512]
+    * [Done] [Bug 1164827] - [FFOS7715 v2.1] [dolphin][video][Audio] Video sounds can be heard after receiving the call
+
+* [Stingray]
+    * [Done] [Bug 1155610] - Enable gaia integration tests for TV
+    * [Done] [Bug 1166148] - Bump marionette_js_runner to version 1.0.17
+    * [Done] [Bug 1167055] - Add device options to tv app modal dialog integration test
+    * [Done] [Bug 1167058] - [Stingray][Dashboard] Remove widgetPages in clock widget manifest
+    * [Working] [Bug 1159594] - Enable B and Gij test suite for TV on Treeherder
+    * [Working] [Bug 1164355] - migrate app modal dialog to use smart-modal-dialog
+
 05/11-05/15
 
 **[Last week]**
