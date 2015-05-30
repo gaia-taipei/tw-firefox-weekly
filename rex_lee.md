@@ -1,15 +1,17 @@
-## 05/04 - 05/08 ##
+## 05/18 - 05/22 ##
 ### This week ###
-  - Dashboard 
-    - Discuss, breakdown and prioritize details. (https://taiwan.etherpad.mozilla.org/1260)
-      - Confirm incomplete UX specs and widget apps
-    - [Bug 1074048](http://bugzil.la/1074048) [Stingray] Dashboard view and operations (Meta)
-    - [Bug 1164341](http://bugzil.la/1164341) [Stingray][Dashboard] Skeleton of clock widget
+  - Dashboard
+    - Open new bugs:
+      - [Bug 1168035](http://bugzil.la/1168035) [Stingray][Dashboard] Support key navigation betwen dashboard and inside widget.
+      - [Bug 1168037](http://bugzil.la/1168037) [Stingray][Dashboard] Widget expand animation for weather widget
+      - [Bug 1168039](http://bugzil.la/1168039) [Stingray][Dashboard] Fade out non-focus components when expanding widgets
+      - [Bug 1168043](http://bugzil.la/1168043) [Stingray][Dashboard] Intro launch animation for dashboard
     - Code reviewing
 ### Last weeks ###
-  - Folder feature of Smart-home
-    - [Bug 1117699](http://bugzil.la/1117699)[Stingray][Home] Allow user to move cards into folder
-      - Landed
-    - [Bug 1158665](http://bugzil.la/1158665)[Stingray][Home] [Stingray][Home] After a card is added into a folder, align the folder list to the folder card
-      - Landed
+  - Dashboard 
+    - breakdown and proritize Dashboard.
+    - [Bug 1164341](http://bugzil.la/1164341) [Stingray][Dashboard] Skeleton of clock widget
+      - Landed 
+    - [Bug 1166684](http://bugzil.la/1166684) [Stingray][Dashboard] Embed weather widget into dashboard
+      - Landed on this monday.
     - Code reviewing
