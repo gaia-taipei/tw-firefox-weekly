@@ -1,3 +1,17 @@
+05/25-05/29
+
+**[Last week]**
+
+* [Dolphin 512]
+    * [Working] [Bug 1168256] - [FFOS7715 v2.1] [dolphin&flame][music] Music UI displayed abnormal
+        - review pending
+
+* [Stingray]
+    * [Done] [Bug 1164355] - migrate app modal dialog to use smart-modal-dialog
+    * [Done] [Bug 1159594] - Enable B and Gij test suite for TV on Treeherder
+    * [Done] [Bug 1168252] - Support prompt dialog in smart-modal-dialog
+    * Review patches
+
 05/18-05/22
 
 **[Last week]**
