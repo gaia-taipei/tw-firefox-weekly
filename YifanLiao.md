@@ -1,14 +1,19 @@
 Last Week
 
 * [TV]
-  - r+
-    - [FIXED] [Bug 1162918 - [Stingray][Home] Animation of moving card down to folder list is buggy when cardManager is longer than screen]
-    - [FIXED] [Bug 1163507 - [Stingray] Style dashboard app background]
+  - r+ with nits
+    - [WIP] [Bug 1163506 - [Stingray] Display time & date on dashboard]
+  - review
+  	- [WIP] [Bug 1166684 - [Stingray][Dashboard] Embed weather widget into dashboard]
+* [woodduck]
+  - [INVALID] Bug 1167491 - [FFOS2.0][Woodduck][HOMO]PDF Document does NOT open correctly
+* email app VZW Q&A
 
 This Week
 
 * [TV]
   - dashboard
     - [WIP] [Bug 1163506 - [Stingray] Display time & date on dashboard]
-  - dashboard review
-  	- [WIP] [Bug 1166684 - [Stingray][Dashboard] Embed weather widget into dashboard]
+* [woodduck]
+  - [WIP] Bug 1168712 - Some PDF files less than 5M can not open or take long time to load
+* email app VZW Q&A
