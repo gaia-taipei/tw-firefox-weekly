@@ -1,10 +1,12 @@
 ### Last week
 
 * [Cloud Storage]
-  - [WIP][Bug 1164755] Update Cache Architecture wiki [ https://wiki.mozilla.org/Firefox_OS/Cloud_Storage#Cache_Architecture ]
+  - [DONE][Bug 1164755] Update Cache Architecture wiki [ https://wiki.mozilla.org/Firefox_OS/Cloud_Storage#Cache_Architecture ]
+  - Integrate JSM to gecko and fix some bug when retrieving file meta and file data.
+  - Implement a better priority queue with priority changing feature to improve the performance when scheduling jobs.
 
 * [BLE Drone]
-  - Implement takeoff/landing/status displaying feature. 
+  - Improve the stability.
 
 ### This week
 
@@ -17,8 +19,6 @@
 * [FTU]
   - [WIP][Bug 1144584] Did not get any feedback from QA. I will go back later.
 
-* [Cloud Storage]
-  - Help Eden to integrate the interface between FUSE and Cache architecture.
 
 * Study
   - Messages App (SMS)
