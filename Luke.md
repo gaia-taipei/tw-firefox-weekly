@@ -1,21 +1,21 @@
-## 06/01 - 06/05 ##
+## 06/15 - 06/18 ##
 
 ### Last Week ###
 
 * [MultiScreen]
-    - [WIP] Bug 1163914 - Expose connected external display list to gaia system app
-        - fixed my previous patch for adapting to latest gecko work
-    - [WIP] Bug 1156727 - Build up a connection between "system" and "system-remote"
-        - worked on the second version patch
-    - [Private Patch] Add debugging mode
-        - for testing purpose
+    - [Done] [Private Patch] Add "Open in external display" function in browser app
+        - https://github.com/luke-chang/gaia/tree/multiscreen_private
+        - for demo purpose
+
+* [SUPL NI]
+    - [WIP] Bug 853703 - [GPS] Support SUPL NI case
+        - https://github.com/luke-chang/gaia/tree/supl_handler
+        - made a prototype of Gaia
+    - Attended discussions
+
+* [Other]
+    - Interview
 
 ### This Week ###
 
-* [MultiScreen]
-    - [WIP] Bug 1156727 - Build up a connection between "system" and "system-remote"
-    - [Private Patch] Add pseudo touch panel
-    - [Private Patch] Add "Open in external display" function in browser app
-
-* [Other]
-    - SUPL NI issues discussion
+* [PTO]
