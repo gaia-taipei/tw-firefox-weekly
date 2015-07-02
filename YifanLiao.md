@@ -1,11 +1,10 @@
 Last Week
 
 * [TV]
-  - revise date string and test with l10n
+  - r?
     - [WIP] [Bug 1163506 - [Stingray] Display time & date on dashboard]
-* [woodduck]
-  - [INVALID] Bug 1167491 - [FFOS2.0][Woodduck][HOMO]PDF Document does NOT open correctly
-* email app VZW Q&A
+  - WIP
+  	- [WIP] [Bug 1169137 - [Stingray] setInterval clock implementation sometimes skips a couple seconds]
 
 This Week
 
@@ -13,3 +12,4 @@ This Week
   - dashboard
     - [WIP] [Bug 1163506 - [Stingray] Display time & date on dashboard]
     - [WIP] [Bug 1169137 - [Stingray] setInterval clock implementation sometimes skips a couple seconds]
+    - [WIP] [Bug 1174658 - [Stingray][Dashboard] Intro launch animation for dashboard - Central Clock and Background]
