@@ -1,3 +1,21 @@
+## 06/30 ~ 07/02 ##
+### This Week  ###
+  - prototype of custom command
+    - based on Vaani and Web Activities to mock the behavior of custom command
+      - Vaani: https://github.com/nullaus/fxos-voice-commands
+  - explain system merge plain
+    - https://wiki.mozilla.org/User:Johnhu/System_Merge
+
+### Last Week ###
+  - [Bug 1178689](http://bugzil.la/1178689) [gijtv] intermittent TEST-UNEXPECTED-FAIL | tv_apps/tv-epg/test/marionette/tv_epg_test.js
+    - This looks like a media stream issue. Follow-up had filed at bug 1178725
+  - Discuss Custom Command
+    - [https://wiki.mozilla.org/Firefox_OS/Vaani/Custom_Command](https://wiki.mozilla.org/Firefox_OS/Vaani/Custom_Command)
+  - File bugs for system merge: [meta bug 1147250](http://bugzil.la/1147250)
+  - 2 Firefox OS add-on:
+    - kill all active apps with one button
+    - disable context menu at 3rd party apps
+
 ## 05/18 ~ 05/22 ##
 ### This Week ###
   - Review other's patch
