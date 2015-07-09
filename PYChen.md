@@ -1,3 +1,6 @@
+BYE~~~~~~~~~
+
+
 Last week (05/11 - 05/15)
 * [camera]
 	- fixed capture and recording css style issue.
