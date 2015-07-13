@@ -1,17 +1,15 @@
 Last Week
 
 * [TV]
-  - r+
-    - [FIXED] [Bug 1163506 - [Stingray] Display time & date on dashboard]
-    - [FIXED] [Bug 1168039 - [Stingray][Dashboard] Fade out non-focus components when expanding widgets]
-  - r+
-  	- [WIP] [Bug 1169137 - [Stingray] setInterval clock implementation sometimes skips a couple seconds]
-  - WIP
+  - test fails, fixed and r?
     - [WIP] [Bug 1174658 - [Stingray][Dashboard] Intro launch animation for dashboard - Central Clock and Background]
+  - review
+  	- [WIP] [Bug 1179199 - [Stingray][Notification] Establish IAC between smart-system and notification app for notification messages.]
+  - [WIP]
+    - [WIP] [Bug 1144540 - [Stingray][Component] Unify package format for smart-button with other gaia-components]
 
 This Week
 
 * [TV]
-  - dashboard
-    - [WIP] [Bug 1174658 - [Stingray][Dashboard] Intro launch animation for dashboard - Central Clock and Background]
-    - [WIP] [Bug 1179202 - [Stingray][Notification] Make notification categorizer and widget view]
+  - building blocks
+    - [WIP] [Bug 1144540 - [Stingray][Component] Unify package format for smart-button with other gaia-components]
