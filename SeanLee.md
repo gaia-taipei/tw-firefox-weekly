@@ -1,12 +1,12 @@
 ### Last week
 
 * [Cloud Storage]
-  - Study gecko-fuse binding.
-  - Update wiki based on the new information in WW : https://wiki.mozilla.org/Firefox_OS/Cloud_Storage
+  - Prepare the demostration.
+  - Study the capability of add-on.
 
 ### This week
 
 * [Cloud Storage]
-  - Plan the next step.
-
+  - Study the authentication method of Dropbox and other storages.
+  - Plan the schedule of Cloud Storage
 
