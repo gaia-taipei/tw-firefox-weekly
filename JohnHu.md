@@ -1,3 +1,18 @@
+## 07/06 ~ 07/10 ##
+### This Week ###
+  - custom command
+    - write a slide and discuss with other devs of Vaani
+    - update wiki
+
+### Last Week  ###
+  - prototype of custom command
+    - based on Vaani and Web Activities to mock the behavior of custom command
+      - Vaani: https://github.com/john-hu/vaani/tree/custom-command
+      - Gaia: https://github.com/john-hu/gaia/tree/vaani-test-case
+      - It works well based on the design of [wiki](https://wiki.mozilla.org/Firefox_OS/Vaani/Custom_Command) and activity. 
+  - explain system merge plain
+    - https://wiki.mozilla.org/User:Johnhu/System_Merge
+
 ## 06/30 ~ 07/02 ##
 ### This Week  ###
   - prototype of custom command
