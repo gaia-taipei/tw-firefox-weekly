@@ -1,3 +1,22 @@
+## 07/13 ~ 07/17 ##
+### This Week ###
+  - Custom command
+    - rebase the prototype code
+    - prepare material for team to team discussion
+  - Write a post for mozilla hacks
+
+### Last Week ###
+  - custom command
+    - discuss with other devs of Vaani
+      - https://groups.google.com/a/mozilla.com/forum/#!topic/fxos-vaani/4i5KVaUUSZY
+      - team to team discussion will be made at 10AM of 7/23
+    - update wiki: https://wiki.mozilla.org/Firefox_OS/Vaani/Custom_Command
+  - [Bug 1183570](http://bugzil.la/1183570) [Browser]When user taps 'Share' and 'Cancel', share activity picker should animate out from the bottom.
+    - A visual regression from my previous patch. Closing animations are gone.
+  - [Bug 1182189](http://bugizl.la/1182189) Accessibility Regression in Utility tray exclusive visibility.
+    - Hierarchy Manager is bound with focus manager. We should create another module handle focus and let hierarchy manager to handle aria-hidden.
+    - transfer to Luke
+
 ## 07/06 ~ 07/10 ##
 ### This Week ###
   - custom command
