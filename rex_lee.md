@@ -1,17 +1,11 @@
-## 07/06 - 07/10 ##
+## 07/13 - 07/17 ##
 ### This week ###
   - Dashboard
-    - Bug 1179199 - [Stingray][Notification] Establish IAC between smart-system and notification app for notification
-      - Landed this week
     - Bug 1141480 - [Stingray][Home] Add Unit tests for home.js
-      - Code reviewing
-    - Bug 1144539 - [Stingray][Component] Unify package format for menu-group with other gaia-components
-      - Just started working
-    - Code review
+      - Landed
+    - Bug 1185965 - [Stingray][Home] Add Unit tests for home.js part 2
+    - Bug 1170114 - [Stingray][Dashboard] Connect to real weather service for weather widget
+      - Discussing on applying API with yahoo
 ### Last week ###
   - Dashboard 
-    - Plan Notification Widget.
-    - Bug 1179194 [Stingray][Notification] Skeleton of notification APP
-      - Landed
-    - Bug 1179199 - [Stingray][Notification] Establish IAC between smart-system and notification app for notification
-    - Code review
+    - Bug 1141480 - [Stingray][Home] Add Unit tests for home.js
