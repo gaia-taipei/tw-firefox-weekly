@@ -5,15 +5,17 @@ Device Team Gaia Weekly Report
 
 Members
 -------
-* Gary Chen
 * John Hu
 * Rex Lee
 * Luke Chang
 * Tzu-lin Huang
-* Sherman Chen
 * Yi-fan Liao
 * Sean Lee
-* Sung Chiu
+
+* Graduated
+  - Gary Chen
+  - Sherman Chen
+  - Sung Chiu
 
 Format
 ------
