@@ -1,3 +1,19 @@
+## 07/20 ~ 07/24 ##
+### This Week ###
+  - Custom command
+    - study schema.org and redesign each property correctly
+    - define data structure based on schema.org to fulfill the requirement of music.
+  - Mozilla hacks post
+    - finish it.
+### Last Week ###
+  - Custom command
+    - propose our design to them at 7/23.
+    - https://wiki.mozilla.org/Firefox_OS/Vaani/Custom_Command
+    - We will work on music [Bug 1172881](http://bugzil.la/1172881) and [Bug 1178273](http://bugzil.la/1178273)
+  - Mozilla hacks post
+    - almost finished
+    - preview can be found at tech of mozilla.
+
 ## 07/13 ~ 07/17 ##
 ### This Week ###
   - Custom command
@@ -28,7 +44,7 @@
     - based on Vaani and Web Activities to mock the behavior of custom command
       - Vaani: https://github.com/john-hu/vaani/tree/custom-command
       - Gaia: https://github.com/john-hu/gaia/tree/vaani-test-case
-      - It works well based on the design of [wiki](https://wiki.mozilla.org/Firefox_OS/Vaani/Custom_Command) and activity. 
+      - It works well based on the design of [wiki](https://wiki.mozilla.org/Firefox_OS/Vaani/Custom_Command) and activity.
   - explain system merge plain
     - https://wiki.mozilla.org/User:Johnhu/System_Merge
 
@@ -95,7 +111,7 @@
   - [Bug 1159660](http://bugzil.la/1159660) [System][WindowManager] check activeElement before focus or blur a mozbrowser iframe
     - focus() too many times may cause performance issue.
   - [Bug 1161940](http://bugzil.la/1161940) [Stingray] Lost focus after pinning TV channel occasionally
-  - [Bug 1162349](http://bugzil.la/1162349) integration tests for context menu 
+  - [Bug 1162349](http://bugzil.la/1162349) integration tests for context menu
 
 ## 04/27 - 04/30 ##
 ### This Week ###
@@ -142,7 +158,7 @@
   - jshint bugs [Bug 996423](http://bugzil.la/996423)
     - [Bug 1152666](http://bugzil.la/1152666) telephony related
   - migrate BrowserContextMenu
-    - [Bug 1154195](http://bugzil.la/1154195) [System] split the visual from browser_context_menu.js 
+    - [Bug 1154195](http://bugzil.la/1154195) [System] split the visual from browser_context_menu.js
     - [Bug 1154642](http://bugzil.la/1154642) [System] context menu doesn't focus to correct element and doesn't get focus while relaunch the app (reviewing)
     - file related bugs
   - Discuss enabling gij-tv
@@ -181,12 +197,12 @@
     - Read the patch one by one to finish the slides
       - http://goo.gl/cTzFJU
   - Read W3C WAI-ARIA specs
- 
+
 ### This Week ###
   - Prepare change items in smart system app
     - http://goo.gl/cTzFJU
   - Discuss on how to merge
- 
+
 ## 03/16 - 03/20 ##
 ### Last Week ###
   -[Bug 1141887](http://bugzil.la/1141887) - [Stingray] apply focus manager to app window related UIs
@@ -216,7 +232,7 @@
 ### Last Week ###
 * Focus Fallback [Meta Bug](http://bugzil.la/stingray-focus-fallback)
   - [Bug 1136590](http://bugzil.la/1136590) - [Stingray] focus fallback algorithm
-  - [Bug 1139314](http://bugzil.la/1139314) - [Stingray] focus fallback algorithm v2 
+  - [Bug 1139314](http://bugzil.la/1139314) - [Stingray] focus fallback algorithm v2
   - [Bug 1136591](http://bugzil.la/1136591) - [Meta][Stingray] expose isVisible and focus API for all modules of smart system app
     - [Bug 1136603](http://bugzil.la/1136603) - [Stingray] expose isVisible and focus API for sleep_menu
     - [Bug 1136606](http://bugzil.la/1136606) - [Stingray] expose isVisible and focus API for permission_manager
@@ -482,7 +498,7 @@ update skipped
   - [Bug 1090806](http://bugzil.la/1090806) - [Stingray] remove useless file from smart-system
     - touch_forwarder, secure_*, and system_dialog* had been removed
     - landed.
-  - [Bug 1090822](http://bugzil.la/1090822) - [Stingray] trusted_ui in smart system should lock screen in default mode. 
+  - [Bug 1090822](http://bugzil.la/1090822) - [Stingray] trusted_ui in smart system should lock screen in default mode.
     - landed.
   - A SettingsCache with async_storage backend gives the most improvement.
     - https://github.com/huchengtw-moz/gaia/tree/bug-1090810-local-storage
