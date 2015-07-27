@@ -1,32 +1,32 @@
-## 07/13 - 07/17 ##
+## 07/20 - 07/24 ##
 
 ### Last Week ###
 
 * [System App]
-    - discussed system merging plan and studied the slides
-
-* [MultiScreen]
-    - worked with Tommy to make it work on m-c
-    - discussed with Wesley about dual display use case
+    - [WIP] Bug 1182189 - Accessibility Regression in Utility tray exclusive visibility
+        - to separate "setFocus" from "setHierarchy" in HierarchyManager
+        - sent review
 
 * [SUPL NI]
     - [WIP] Bug 853703 - [GPS] Support SUPL NI case
-        - finished my prototype and updated the patch
-        - discussed with UX in order to land it on our branch
+        - added timeout mechanism
+        - improved the verification flow when screen is locked
 
-* [Other]
-    - Bug 1174641 - [Gaia] Mime type mismatch
-        - helped to clarify
+* [MultiScreen]
+    - added some debugging code
 
 ### This Week ###
 
 * [System App]
-    - [New] Bug 1182189 - Accessibility Regression in Utility tray exclusive visibility
+    - [WIP] Bug 1182189 - Accessibility Regression in Utility tray exclusive visibility
+        - follow up
+
+* [SUPL NI]
+    - [WIP] Bug 853703 - [GPS] Support SUPL NI case
+        - final confirm with UX
 
 * [MultiScreen]
     - worked with Tommy to make it work on m-c
 
-* [SUPL NI]
-    - [WIP] Bug 853703 - [GPS] Support SUPL NI case
-        - UX spec discussion follow up
-        - change internal API accordingly
+* [Other]
+    - MozHacks: Use remote controller to navigate in your app
