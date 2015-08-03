@@ -1,32 +1,33 @@
-## 07/20 - 07/24 ##
+## 07/27 - 07/31 ##
 
 ### Last Week ###
 
 * [System App]
-    - [WIP] Bug 1182189 - Accessibility Regression in Utility tray exclusive visibility
-        - to separate "setFocus" from "setHierarchy" in HierarchyManager
-        - sent review
+    - [Done] Bug 1182189 - Accessibility Regression in Utility tray exclusive visibility
+        - got r+ but test failed
+        - fixed the marionette test
+        - landed on master
 
 * [SUPL NI]
     - [WIP] Bug 853703 - [GPS] Support SUPL NI case
-        - added timeout mechanism
-        - improved the verification flow when screen is locked
+        - confirming spec from partner
 
 * [MultiScreen]
-    - added some debugging code
+    - helped test the boundry issue on TV
+
+* [Keyboard App]
+    - [New] Bug 1094833 - Autocorrect should not correct 'lol' to 'lil'
+        - discussed with Tim
+
+* [Other]
+    - MozHacks: Use remote controller to navigate in your app
+    - Interview
 
 ### This Week ###
 
 * [System App]
-    - [WIP] Bug 1182189 - Accessibility Regression in Utility tray exclusive visibility
-        - follow up
+    - System Merge
+    - take related bugs
 
-* [SUPL NI]
-    - [WIP] Bug 853703 - [GPS] Support SUPL NI case
-        - final confirm with UX
-
-* [MultiScreen]
-    - worked with Tommy to make it work on m-c
-
-* [Other]
-    - MozHacks: Use remote controller to navigate in your app
+* [Keyboard App]
+    - [WIP] Bug 1094833 - Autocorrect should not correct 'lol' to 'lil'
