@@ -1,3 +1,15 @@
+## 07/27 ~ 07/31 ##
+### This Week ###
+  - Custom command
+    - discuss with Kelly Davis on schema.org things.
+    - finish the IAC detail design
+### Last Week ###
+  - Custom command
+    - study schema.org and redesign each property correctly
+    - https://wiki.mozilla.org/Firefox_OS/Vaani/Music
+  - Mozilla hacks post
+    - finished
+
 ## 07/20 ~ 07/24 ##
 ### This Week ###
   - Custom command
