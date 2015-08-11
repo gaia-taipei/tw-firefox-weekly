@@ -1,33 +1,35 @@
-## 07/27 - 07/31 ##
+## 08/03 - 08/07 ##
 
 ### Last Week ###
 
-* [System App]
-    - [Done] Bug 1182189 - Accessibility Regression in Utility tray exclusive visibility
-        - got r+ but test failed
-        - fixed the marionette test
-        - landed on master
+* [System Merge]
+    - [WIP] Bug 1179606 - [System] disable mobileid related modules
+        - investigated
+    - [Done] Bug 1179605 - [System] disable telephony related modules
+        - verified and closed
+    - [Done] Bug 1179614 - [System] disable NFC related modules
+        - verified and closed
+    - [Done] Bug 1156596 - [System] Support device type in base module
+        - Ricky is working on this
+        - discussed with Ricky about its implementation
 
-* [SUPL NI]
-    - [WIP] Bug 853703 - [GPS] Support SUPL NI case
-        - confirming spec from partner
+* [System App]
+    - [Done] Bug 1191671 - clearing previous search in rocketbar should not dismiss keyboard
+        - helped identify the regression
+
+* [Keyboard App]
+    - [WIP] Bug 1094833 - Autocorrect should not correct 'lol' to 'lil'
+        - made a simple patch but got r-
 
 * [MultiScreen]
     - helped test the boundry issue on TV
-
-* [Keyboard App]
-    - [New] Bug 1094833 - Autocorrect should not correct 'lol' to 'lil'
-        - discussed with Tim
-
-* [Other]
-    - MozHacks: Use remote controller to navigate in your app
-    - Interview
+        - https://github.com/luke-chang/gaia/tree/multiscreen_private
 
 ### This Week ###
 
-* [System App]
-    - System Merge
-    - take related bugs
+* [System Merge]
+    - [WIP] Bug 1179606 - [System] disable mobileid related modules\
+    - [New] Bug 1179607 - [System] disable Firefox Account related modules
 
 * [Keyboard App]
     - [WIP] Bug 1094833 - Autocorrect should not correct 'lol' to 'lil'
