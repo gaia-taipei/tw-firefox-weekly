@@ -1,12 +1,17 @@
 de-gaia-weekly
 ==============
 
-Device Team Gaia Weekly Report
+Gaia Team Weekly Report
 
 Members
 -------
-* John Hu
+* Steve Chung
+* Fren Lin
+* Evan Tseng
+* Greg Weng
+* Ricky Chien
 * Rex Lee
+* John Hu
 * Luke Chang
 * Tzu-lin Huang
 * Yi-fan Liao
@@ -16,7 +21,7 @@ Members
   - Sherman Chen
   - Sung Chiu
 
-Format
+Suggested Format
 ------
 * [project name]
   - [status] [bug #]
