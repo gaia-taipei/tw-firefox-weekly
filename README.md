@@ -1,4 +1,4 @@
-de-gaia-weekly
+gaia-weekly
 ==============
 
 Gaia Team Weekly Report
