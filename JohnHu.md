@@ -1,3 +1,15 @@
+## 08/03 ~ 08/07 ##
+### This Week ###
+  - Custom command
+    - discuss with Kelly Davis on schema.org things.
+    - discuss with Ben Francis on JSON-LD
+### Last Week ###
+  - Custom command
+    - redesign custom command
+    - IAC protocol design
+    - https://wiki.mozilla.org/Firefox_OS/Vaani/Music
+  - Create test patch of presentation API for Sean Lin
+
 ## 07/27 ~ 07/31 ##
 ### This Week ###
   - Custom command
