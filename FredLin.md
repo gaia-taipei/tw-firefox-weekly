@@ -1,6 +1,23 @@
 [Open bugs assigned to me](https://bugzilla.mozilla.org/buglist.cgi?quicksearch=assignee%3Agasolin%40mozilla.com) (ASSIGNED = current working on; NEW = backlog)
 
-## 08/03 ~ 08/07 ##
+## 08/10 ~ 08/14
+
+* Bug 1194036 - [keyboard] syntaxs fix to generate jsdoc ghpage
+  - landed
+
+* [WIP]
+  - Bug 1166495 - [Settings][Screen lock] Passcode lock screen transition animation flows in the wrong direction
+    - add passcodeHelper and fix tests, set r?
+  - Bug 1161927 - system update API tests fix
+    - rebase and fixing tests
+
+* code review
+  - Bug 1170464 - [SMS] fix remain jsdoc error
+  - Bug 1190548 - Implement explanations inside of gaia-switch
+
+* PTO 1.5 days
+
+## 08/03 ~ 08/07
 
 Fix and Review Settings/BT related issues.
 
