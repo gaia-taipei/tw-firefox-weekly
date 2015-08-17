@@ -1,3 +1,12 @@
+## 08/10 ~ 08/14 ##
+### This Week ###
+  - prepare materials for handing over tasks.
+### Last Week ###
+  - Custom command
+    - discuss with Kelly Davis on schema.org things.
+      - He accepts the current thought as a shorten roadmap for music controlling
+      - Wiki had updated
+
 ## 08/03 ~ 08/07 ##
 ### This Week ###
   - Custom command
