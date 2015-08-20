@@ -16,6 +16,7 @@ Members
 * Tzu-lin Huang
 * Yi-fan Liao
 * Sean Lee
+* Dan Huang
 * Graduated
   - Gary Chen
   - Sherman Chen
