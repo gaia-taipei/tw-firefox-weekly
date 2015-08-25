@@ -1,3 +1,15 @@
+## 08/17 ~ 08/21 ##
+### This Week ###
+  - prepare materials for handing over tasks.
+  - sharing my previous experiences to the one who take over my tasks.
+### Last Week ###
+  - prepare materials for handing over tasks.
+  - finish handing over:
+    - Presentation API to Rex Lee and YiFan
+    - Vaani to Kevin Chen
+      - [Bug 1194601](http://bugzil.la/1194601) IAC for Vaani to update of music player widget and send commands
+      - (WIP patch made for Kevin)
+
 ## 08/10 ~ 08/14 ##
 ### This Week ###
   - prepare materials for handing over tasks.
