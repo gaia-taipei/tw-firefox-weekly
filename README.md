@@ -13,14 +13,15 @@ Members
 * Rex Lee
 * John Hu
 * Luke Chang
-* Tzu-lin Huang
 * Yi-fan Liao
 * Sean Lee
 * Dan Huang
+* Fischer Liu
 * Graduated
   - Gary Chen
   - Sherman Chen
   - Sung Chiu
+  - Tzu-lin Huang
 
 Suggested Format
 ------
