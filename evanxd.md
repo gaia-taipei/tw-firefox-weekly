@@ -1,3 +1,49 @@
+## 08/17 ~ 08/21 ##
+
+### Last week
+
+* [Audio Channel Management]
+  - [Bug 1183870](http://bugzil.la/1183870) - [B2G] Set current audio channel to "none" when there is no any audio playing
+    - Landed.
+  - [Bug 1195191](http://bugzil.la/1195191) - [Dialer] Volume Audio Channel is incorrect after a call
+    - Duplicate of Bug 1183870.
+  - [Bug 1193759](http://bugzil.la/1193759) - No sound on alerts/notifications
+    - Duplicate of Bug 1187092.
+
+* [Settings Bugs]
+  - [Bug 1170236](http://bugzil.la/1170236) - Sometimes the screen to connect to a hidden network doesn't have the OK button enabled
+    - f+
+  - [Bug 1160992](http://bugzil.la/1160992) - [Notifications]When the cell phone service goes out, the data traffic option in Notification is not available.
+    - r?(jaoo), [r+(gasolin)](https://bugzilla.mozilla.org/show_bug.cgi?id=1160992#c29), [r+(evelyn)](https://bugzilla.mozilla.org/show_bug.cgi?id=1160992#c35)
+
+* [WoT]
+  - Built a [prototype](https://github.com/evanxd/restroom-checker) for the restroom idea.
+  - Designed [architectures](https://github.com/evanxd/wot-architecture) of the IoT application.
+
+### This week
+
+* [Audio Channel Management]
+  - [Bug 1180618](http://bugzil.la/1180618) - Ringer is not managed by Audio Channel Service
+    - Still blocked by Bug 1167465, but we could try [Kan-Ru's advice](https://bugzilla.mozilla.org/show_bug.cgi?id=1167465#c15) first.
+
+* [Settings Bugs]
+  - [Bug 1170236](http://bugzil.la/1170236) - Sometimes the screen to connect to a hidden network doesn't have the OK button enabled
+    - Add tests.
+  - [Bug 1196178](http://bugzil.la/1196178) - [Settings]The "Ok" icon doesn't respond correctly, changing on the APN can't be saved.
+  - [Bug 1182924](http://bugzil.la/1182924) - Cannot add new data APN
+  - [Bug 1155995](http://bugzil.la/1155995) - WiFi certificate import lacks proper feedback to the user
+
+* [Systme 2 Refactoring]
+  - [Bug 1093516](http://bugzil.la/1093516) - [System2] Migrate AppUpdate/InstallDialog to SystemDialog
+
+* [WoT]
+  - Prepare IoT Workshop's slide: [WoT Maker Introduction](http://evanxd.github.io/wot-maker-introduction/).
+  - Give a talk about [WoT Maker Introduction](http://evanxd.github.io/wot-maker-introduction).
+
+* [BLE Test App]
+  - [Bug 1194582](http://bugzil.la/1194582) - Test App for Bluetooth Low Energy Server APIs.
+    - Review the [patch](https://github.com/fxos-bt-squad/ble-server/pull/1).
+
 ## 08/10 ~ 08/14 ##
 
 ### Last week
