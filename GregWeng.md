@@ -1,6 +1,64 @@
+## 08/17 ~ 08/21
+
+### LockScreen: fix intermittent errors on Mulet
+
+* Spent lots of time on debugging and diagnosing it
+* Bug 1198140 - [LockScreen] Fix perma red notification tests on Mulet
+  * review+; landed
+
+### LockScreen performance after rebooting
+
+* Has new strategy: using separated store to avoid tangling with mozSettings performance issue at booting
+* In order to do this, we need to change the way to access LockScreen related mozSettings
+* Since we need to change the interface, we could design and use our 'device lock' API as we have discussed long ago
+* Now I have the proposal for that. And I believe this can be done at the next week with two individual tasks
+  * Cervantes can start to implement the store in platform first
+  * I can complete the API and modify Gaia no matter whether the store is done or not
+  * Then we can combine our work to test if it really improve the performance as we thought and discovered
+* Bug 1199100 - [LockScreen] Implement DeviceLock API and use separated store to fix performance issue
+
+### Performance Tools:
+* Bug 1196085 - Intermittent apps/system/test/build/integration/raptor_transform_test.js ...
+  * review+; landed
+
+### Current task queue:
+
+#### Intermittent Errors only on TaskCluster:
+
+* Bug 1193912 - Intermittent apps/system/test/marionette/lockscreen_statusbar_test.js | LockScreen status bar should show the maximised status bar only
+* Bug 1192979 - Intermittent apps/system/test/marionette/lockscreen_mozsettings_test.js | LockScreen: ensure mozSettings API works test it can unlock ...
+  * The same failure, but still have no clue
+
+#### Mulet Errors:
+
+* Bug 1187715 - Green Mulet TaskCluster Gij 11
+  * The same failure as the previous twos, but still have no clue
+
+#### Others:
+
+* Bug 1184791 - [Aries][Lockscreen] User is able to skip lockscreen if sliding bar left or right and hitting power button twice while it's without passcode
+
+#### 2.5+
+
+* Left From Previous Spark Team
+  * Bug 1169842 - [Aries][Lockscreen] Holding down the camera button when the device is locked will break the lockscreen slider
+    * Regression of Spark feature, but I was asked to take that
+    * That's why this is definitely the last item in my task queue (since I'm not the most familiar person to their feature),
+      unless Spark team want to handle that
+
+* Performance:
+  * Bug 1171923 - [Aries] Time, date and unlock slider are sometimes loaded half a second after the rest of the screen 
+
+* Others:
+  * Bug 1195547 - [Music] Music widget is not present on lockscreen when first playing a song without skipping or re-selecting. 
+    * Regression of new bootstrapping of System app
+    * Kevin says he can handle that, but he may need others' help; so I don't know who is the final assignee
+  * Bug 1182342 - lock screen active based on time it last appeared and not time since last activity 
+    * Need regression window
+
 ## 08/10 ~ 08/14
 
-LockScreen: fix interrmitent errors on Mulet
+LockScreen: fix intermittent errors on Mulet
 
 * Bug 1194979 - Use Mulet in Gaia
   * Since I have no luck at debugging intermittent Gijs; I switch to this first.
