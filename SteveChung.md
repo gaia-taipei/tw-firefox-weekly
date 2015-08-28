@@ -1,15 +1,36 @@
-## 08/17 ~ 08/21
+## 08/24 ~ 08/28
+
+2.5 Blocker
+
+*  Bug 1198658 - MMS retrival unable to be rejected because of dataclone error
+*  Bug 1197104 - [Messages][Drafts] Threadless drafts are broken
 
 Message team NGA status
 
-* Bug 1184865 - [Messages][NG] Replace some methods in MessageManager with messaging service in conversation view
-* Bug 1167144 - [Messages] Reduce the use of Threads.active and Threads.currentId in conversation view
 * Bug 1180592 - [Messages][NG] mozMobileConnections shim Implementation
 * gaia fast list experiment
 
 Threads.js
 
+* Support DOMError instance in client/service method reject
+
+## 08/17 ~ 08/21
+
+Message team NGA status
+
+* Bug 1184865 - [Messages][NG] Replace some methods in MessageManager with messaging service in conversation view
+  * Landed.
+* Bug 1167144 - [Messages] Reduce the use of Threads.active and Threads.currentId in conversation view
+  * Landed
+* Bug 1180592 - [Messages][NG] mozMobileConnections shim Implementation
+  * Have a brief discussion about the mozMobileConnections shim.
+* gaia fast list experiment
+  * Gave another try with new fast-list implementation and the rendering works fine now. Need to figure out how the raptor profiling works in fast-list.
+
+Threads.js
+
 * Make it possible to remove timeout altogether
+  * Landed by Wilson himself since he had another thought.
 
 ## 08/10 ~ 08/14
 
