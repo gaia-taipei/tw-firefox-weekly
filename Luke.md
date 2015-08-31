@@ -1,34 +1,26 @@
-## 08/10 - 08/14 ##
+## 08/17 - 08/21 ##
 
 ### Last Week ###
 
 * [TV remote control]
-    - Proof of concept
-        - discussed with Eric
-        - identified the scenario
-        - surveyed pros and cons of Ajax and WebSocket
+    - [WIP] Bug 1197772 - [TV 2.5] Implement a client-side page for TV remote control prototyping
+        - https://github.com/luke-chang/ajax-websocket-test
+        - had a meeting with drs about FlyWeb
+        - implemented a WebSocket server and a client page for testing AJAX and WebSocket
+        - implemented a virtual touch panel
 
-* [System Merge]
-    - [Done] Bug 1156596 - [System] Support device type in base module
-        - helped on reviewing the patch
-    - [WIP] Bug 1179606 - [System] disable mobileid related modules
-        - WIP but suspended temporarily
-
-* [Keyboard App]
-    - [WIP] Bug 1094833 - Autocorrect should not correct 'lol' to 'lil'
-        - encountered an unexpected problem and waiting for feedback
+* [SUPL NI]
+    - [WIP] Bug 1195602 - [GPS] Support SUPL NI case in Gaia
+        - finished the unit test
+        - sent review and ui-review
 
 ### This Week ###
 
 * [TV remote control]
-    - Proof of concept
-        - write a demo page to test the performance between Ajax and WebSocket
+    - [WIP] Bug 1197772 - [TV 2.5] Implement a client-side page for TV remote control
+        - define the protocol
+        - optimize the code
 
 * [SUPL NI]
     - [WIP] Bug 1195602 - [GPS] Support SUPL NI case in Gaia
-
-* [System Merge]
-    - [WIP] Bug 1179606 - [System] disable mobileid related modules
-
-* [Keyboard App]
-    - [WIP] Bug 1094833 - Autocorrect should not correct 'lol' to 'lil'
+        - waiting for icons and the review
