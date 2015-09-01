@@ -1,3 +1,53 @@
+## 08/24 ~ 08/28 ##
+
+### Last week
+* [Audio Channel Management]
+  - [Bug 1180618](http://bugzil.la/1180618) - Ringer is not managed by Audio Channel Service
+    - Figured out a [new solution](https://bugzilla.mozilla.org/show_bug.cgi?id=1167465#c17) in gecko part.
+
+* [Settings Bugs]
+  - [Bug 1160992](http://bugzil.la/1160992) - Data connection can be toggled when there is no sim card
+    - Landed.
+  - [Bug 1170236](http://bugzil.la/1170236) - Sometimes the screen to connect to a hidden network doesn't have the OK button enabled
+    - f+(gasolin), f?(ehung)
+  - [Bug 1196178](http://bugzil.la/1196178) - [Settings]The "Ok" icon doesn't respond correctly, changing on the APN can't be saved.
+    - f?(gasolin) and f?(ehung)
+  - [Bug 1182924](http://bugzil.la/1182924) - Cannot add new data APN
+    - [Debugged](https://bugzilla.mozilla.org/show_bug.cgi?id=1182924#c11), but not found out the root cause.
+
+* [BLE Test App]
+  - [Bug 1194582](http://bugzil.la/1194582) - Test App for Bluetooth Low Energy Server APIs.
+    - Roughly reviewed, but not give response yet. This is a big patch, about 3.6k lines.
+
+* [WoT]
+  - Prepare IoT Workshop's slide: [WoT Maker Introduction](http://evanxd.github.io/wot-maker-introduction/).
+  - Give a talk about [WoT Maker Introduction](http://evanxd.github.io/wot-maker-introduction).
+
+### This week
+* [Audio Channel Management]
+  - [Bug 1199605](http://bugzil.la/1199605) - The sound manager doesn't work correctly if we kill a playing music app
+
+* [Settings Bugs]
+  - [Bug 1196179](http://bugzil.la/1196179) - [Settings]When canceling the roaming confirmation, the apn item is shown as unchecked/checked abnormally on the Data Settings page.
+  - [Bug 1182924](http://bugzil.la/1182924) - Cannot add new data APN
+  - [Bug 1170236](http://bugzil.la/1170236) - Sometimes the screen to connect to a hidden network doesn't have the OK button enabled
+    - f?(ehung)
+    - Add tests, if f+.
+  - [Bug 1196178](http://bugzil.la/1196178) - [Settings]The "Ok" icon doesn't respond correctly, changing on the APN can't be saved.
+    - f?(gasolin), f?(ehung)
+    - Add tests, if f+.
+
+* [BLE Test App]
+  - [Bug 1194582](http://bugzil.la/1194582) - Test App for Bluetooth Low Energy Server APIs.
+    - Review the [patch](https://github.com/fxos-bt-squad/ble-server/pull/1).
+
+* [Mozilla Academy Program in NCU]
+  - Discuss the [agenda](https://wiki.mozilla.org/Firefox_OS/AcademyNCU2015#Agenda).
+
+* [Review]
+  - [Bug 1199163](http://bugzil.la/1199163) - Port the long press key tests from Gip to Gij
+    - r+
+
 ## 08/17 ~ 08/21 ##
 
 ### Last week
