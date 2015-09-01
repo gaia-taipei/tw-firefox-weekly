@@ -1,5 +1,29 @@
 [Open bugs assigned to me](https://bugzilla.mozilla.org/buglist.cgi?quicksearch=assignee%3Agasolin%40mozilla.com) (ASSIGNED = current working on; NEW = backlog)
 
+## 08/24 ~ 08/28
+
+* [Settings]
+  - go through foxfood issues and identify good first bugs
+  - Bug 1161927 - [Settings] Migrate settings app to use new system update API 
+    - WIP, fix unit tests (38 -> 23 fail)
+    - will postpone it until fixing most of blockers
+  - Bug 1194045 - [Flame][settings]USB protocol can only be changed while USB storage is disabled
+    - WIP, discuss UI spec with harly & have HTML mock
+
+* [Bluetooth]
+  - Bug 1197711 callscreen bt receiver icon
+    - 2.5+, r?
+  - Bug 1197735 - [Bluetooth]Share contact via bluetooth, the blank view is shown
+    - 2.5+, r+ & landed
+
+* [WoT]
+  - WoT discussion & [proposal](https://docs.google.com/a/mozilla.com/presentation/d/1HNGaxYBc8bP6Ok-rn9G4CYijg8OTgmPiqs3tMr3PaNQ/edit?usp=sharing)
+
+* code review
+  * r+, Bug 1172349 [Settings] Convert remaining switches to use gaia-switch component
+  * r+, Bug 1196645 - [Settings] Show old API add-ons as "disabled" or better "obsolete"
+  * r+, Bug 994691 - [Bluetooth] Confirmation icon too small and text should be center aligned
+
 ## 08/17 ~ 08/21
 
 * [Settings]
