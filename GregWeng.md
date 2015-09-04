@@ -1,3 +1,29 @@
+## 8/31 ~ 9/4
+
+* Bug 1175623 - [FindMyDevice][Kill Switch]in the "Kill-Switch" mode, the device should be locked with a 6 digit passcode set on the website
+  * UX didn't clarify lots of potential racing cases; asked; waiting response
+
+* Bug 1199100 - [LockScreen] Implement DeviceLock API and use separated store to fix performance issue
+  * Modified some parts of the spec
+  * :pauljt said he shall be able to give some feedback this week
+
+* Bug 1169842 - [Aries][Lockscreen] Holding down the camera button when the device is locked will break the lockscreen slider
+  * Disappeared; there are great chances to mark it as RESOLVED WORKFORME after QA's verification
+
+* Review bugs and feedbacks:
+  * Bug 1187979 - Improve Lockscreen Inputpad's touch and visual feeback
+  * Bug 1175623 - [FindMyDevice][Kill Switch]in the "Kill-Switch" mode, the device should be locked with a 6 digit passcode set on the website
+
+
+#### Intermittent Errors only on TaskCluster:
+
+* Bug 1193912 - Intermittent apps/system/test/marionette/lockscreen_statusbar_test.js | LockScreen status bar should show the maximised status bar only
+* Bug 1192979 - Intermittent apps/system/test/marionette/lockscreen_mozsettings_test.js | LockScreen: ensure mozSettings API works test it can unlock ...
+  * Environment got broken after updating Gaia; fixed; testing now
+  * Debugging against some new suspects
+  * Maybe it's too slow so the screen is off
+
+
 ## 08/17 ~ 08/21
 
 ### LockScreen: fix intermittent errors on Mulet
