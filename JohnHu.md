@@ -1,3 +1,16 @@
+## 08/24 ~ 08/28 ##
+### This Week ###
+  - Help others to pick up things
+### Last Week ###
+  - prepare materials for handing over tasks.
+  - sharing my previous experiences to the one who take over my tasks.
+    - all items are done
+    - the ownership of folders had transferred to Sean Lee
+    - all files are downloaded to Rex and Luke's NB
+  - Help others to pick up things
+  - Help to keep gij TV green.
+    - [Bug 1199150](http://bugzil.la/1199150) Fix marionette test GijTV failure
+
 ## 08/17 ~ 08/21 ##
 ### This Week ###
   - prepare materials for handing over tasks.
