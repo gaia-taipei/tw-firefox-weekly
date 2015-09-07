@@ -1,18 +1,38 @@
-## 08/24 ~ 08/28
+## 08/31 ~ 09/04
 
 2.5 Blocker
 
-*  Bug 1198658 - MMS retrival unable to be rejected because of dataclone error
-*  Bug 1197104 - [Messages][Drafts] Threadless drafts are broken
+* Bug 1198658 - MMS retrival unable to be rejected because of dataclone error
+  * (Landed) Left the issue for bridge library for logn term solution.
+* Low storage scenario feature
 
 Message team NGA status
 
 * Bug 1180592 - [Messages][NG] mozMobileConnections shim Implementation
 * gaia fast list experiment
 
+## 08/24 ~ 08/28
+
+2.5 Blocker
+
+* Bug 1198658 - MMS retrival unable to be rejected because of dataclone error
+  * (In review) Had some discussion with Bevis that we might not need the DOMError for API in the future. But still need a workaround from gaia side currently.
+* Bug 1197104 - [Messages][Drafts] Threadless drafts are broken
+  * (Landed)
+* Bug 1160049 - [Messages] Attach menu should not dismiss when user cancel the replace attachment request
+  * (Closed) After more discussion with UX, we decided to close as WFM because of design consistency  
+ 
+Message team NGA status
+
+* Bug 1180592 - [Messages][NG] mozMobileConnections shim Implementation
+  * (Ongoing) More discussion about the layout for mozMobileConnections shim.
+* gaia fast list experiment
+  * Some more discussion about the lastest gaia-fast-list and profiling.
+
 Threads.js
 
 * Support DOMError instance in client/service method reject
+  * Explain why we will need this issue.
 
 ## 08/17 ~ 08/21
 
