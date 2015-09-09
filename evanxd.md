@@ -1,3 +1,47 @@
+## 08/31 ~ 09/04 ##
+
+### Last week
+* [Audio Channel Management]
+  - [Bug 1199605](http://bugzil.la/1199605) - The sound manager doesn't work correctly if we kill a playing music app
+    - r+
+
+* [Settings Bugs]
+  - [Bug 1196179](http://bugzil.la/1196179) - [Settings]When canceling the roaming confirmation, the apn item is shown as unchecked/checked abnormally on the Data Settings page.
+    - RESOLVED WORKSFORME
+  - [Bug 1170236](http://bugzil.la/1170236) - Sometimes the screen to connect to a hidden network doesn't have the OK button enabled
+    - f+(gasolin), f+(ehung)
+  - [Bug 1196178](http://bugzil.la/1196178) - [Settings]The "Ok" icon doesn't respond correctly, changing on the APN can't be saved.
+    - f+(ehung)
+    - Added tests.
+
+* [WoT]
+  - Had a meeting with 3rd party company: build a new sensor for the [restroom application](https://github.com/evanxd/restroom-checker).
+
+* [Review]
+  - [Bug 1199163](http://bugzil.la/1199163) - Port the long press key tests from Gip to Gij
+    - r+
+
+### This week
+* [Audio Channel Management]
+  - [Bug 1199605](http://bugzil.la/1199605) - The sound manager doesn't work correctly if we kill a playing music app
+    - Add tests.
+
+* [Settings Bugs]
+  - Discuss Q4 plan for Settings app with Fred.
+  - [Bug 1182924](http://bugzil.la/1182924) - Cannot add new data APN
+  - [Bug 1170236](http://bugzil.la/1170236) - Sometimes the screen to connect to a hidden network doesn't have the OK button enabled
+    - Add tests.
+  - [Bug 1196178](http://bugzil.la/1196178) - [Settings]The "Ok" icon doesn't respond correctly, changing on the APN can't be saved.
+    - Add tests.
+
+* [BLE Test App]
+  - Has a meeting for the implementation of bt test app.
+  - [Bug 1194582](http://bugzil.la/1194582) - Test App for Bluetooth Low Energy Server APIs.
+    - Review the patch.
+
+* [Add-ons Hackathon]
+  - Build the add-on [Customizable Launcher](https://etherpad.mozilla.org/fxos-addon-hackthon-taipei).
+
 ## 08/24 ~ 08/28 ##
 
 ### Last week
