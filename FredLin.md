@@ -1,5 +1,54 @@
 [Open bugs assigned to me](https://bugzilla.mozilla.org/buglist.cgi?quicksearch=assignee%3Agasolin%40mozilla.com) (ASSIGNED = current working on; NEW = backlog)
 
+## 08/07 ~ 09/11
+
+* [Settings]
+  - PR Bug 1194045 - [Flame][settings]USB protocol can only be changed while USB storage is disabled.
+  - PR Bug 1203356 - [Settings] remove C-H panel strings in HTML
+  - Bug 1202341 - [Settings] remove A-B panel strings in HTML
+    - r+ & landed
+    - clean up strings and check possible issues, file related bugs
+
+* [Add-ons Hackathon]
+  - Build the add-on [Quick Settings](https://github.com/begeeben/fxos-quick-settings)
+
+* code review
+  - r+, Bug 1202162 - [Settings] Convert find my device switchs to use web components
+  - r-, Bug 1180666 - Manage Homescreens
+  - r-, Bug 1200103 - Bluetooth address not shown in Settings App
+
+## 08/31 ~ 09/04
+
+* [Settings]
+  - file & triage good-first-bug in settings
+  - Bug 1161927 - [Settings] Migrate settings app to use new system update API
+    - postpone the work
+  - Bug 1144623 - [Shinano][Aries] Inconsistent WiFi state reported: connecting in statusbar, connected in Settings app
+    - PR with test cases
+  - Bug 1200143 - [Settings] code maintenance
+    - r+ & landed
+
+* WIP
+  - Bug 1194045 - [Flame][settings]USB protocol can only be changed while USB storage is disabled.
+    - basic skeleton
+    - add device variable to control switch and disable protocol selections
+  - Bug 1199161 - [feature] smarter copy & paster float panel to show related actions by matching patterns
+    - evaluate search action with text selection, error with window.selection()
+    - talk with tylin and he'll provide cursor api support
+
+* code review
+ - r+, Bug 1179347 - "Internet sharing" text should be more concise
+ - f-, Bug 1196178 - [Settings]The "Ok" icon doesn't respond correctly, changing on the APN can't be saved.
+ - r-, Bug 1199461 - Name for carrier / operator is not consistent
+ - r+ Bug 1179410 - Screen Lock: Enabled should say "without passcode"
+ - mentor Bug 1200103 - Bluetooth address not shown in Settings App
+ - mentor & r+, Bug 1179344 - Security "WPA2 (AES)" should be PSK
+ - r-, Bug 1172349 - [Settings] Convert remaining switches to use gaia-switch component
+ - r+, Bug 1196386 - [Settings] Update add-on "Affected apps" logic to align with new matching scheme
+ - r-, Bug 1180666 - Manage Homescreens
+ - r+, Bug 1201567 - [Settings] Convert SimPin dialog switch to use web components
+
+
 ## 08/24 ~ 08/28
 
 * [Settings]
@@ -23,6 +72,7 @@
   * r+, Bug 1172349 [Settings] Convert remaining switches to use gaia-switch component
   * r+, Bug 1196645 - [Settings] Show old API add-ons as "disabled" or better "obsolete"
   * r+, Bug 994691 - [Bluetooth] Confirmation icon too small and text should be center aligned
+
 
 ## 08/17 ~ 08/21
 
@@ -50,6 +100,7 @@
     - learn how to test system update
   - Aggregate Settings goals & tasks for 2.5 https://wiki.mozilla.org/Gaia/Settings#v2.5_Roadmap
 
+
 ## 08/10 ~ 08/14
 
 * Bug 1194036 - [keyboard] syntaxs fix to generate jsdoc ghpage
@@ -66,6 +117,7 @@
   - Bug 1190548 - Implement explanations inside of gaia-switch
 
 * PTO 1.5 days
+
 
 ## 08/03 ~ 08/07
 
@@ -89,7 +141,8 @@ Fix and Review Settings/BT related issues.
     - review and write tests
 
 - code review
- 
+
+
 ## 07/27 ~ 07/31
 
 Triage and Review Settings/BT related issues.
