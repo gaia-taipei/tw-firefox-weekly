@@ -1,15 +1,29 @@
+## 09/07 ~ 09/11
+
+2.5 Blocker
+* Bug 1190980 - [Messages] Duration of the copy paste menu triggered from "To:" field is too short to access
+
+Message team NGA status
+* Bug 1201016 - [Messages][NG] Migrate the current Message manager event handling to NGA
+* gaia fast list experiment
+
 ## 08/31 ~ 09/04
 
 2.5 Blocker
-
+* Bug 1190980 - [Messages] Duration of the copy paste menu triggered from "To:" field is too short to access
+  * (Invastigating) Kept tracking the possible gecko regression and tried to remove the blocking flag since it shouldn't be a regression after gecko issues addressed.
 * Bug 1198658 - MMS retrival unable to be rejected because of dataclone error
   * (Landed) Left the issue for bridge library for logn term solution.
 * Low storage scenario feature
+  * Get a more clear picture about the scope of 2.5, but still need UX to provide more details.
 
 Message team NGA status
 
 * Bug 1180592 - [Messages][NG] mozMobileConnections shim Implementation
-* gaia fast list experiment
+  * In review since all the peers was in PTO.
+* Bug 1201016 - [Messages][NG] Migrate the current Message manager event handling to NGA
+  * Start with some discussion about the event handling migrating to NGA
+* gaia fast list experiment - No progress, but the libraries have huge refactor. Need to figure out the new implementation.
 
 ## 08/24 ~ 08/28
 
