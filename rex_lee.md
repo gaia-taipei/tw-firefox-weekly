@@ -1,16 +1,18 @@
-## 08/24 - 08/28 ##
+## 09/07 - 09/11 ##
 
 ### This week ###
-  - Build-up Fennec and apply original MWC demo patch
-  - Read presenation API codes from John
-  - Read UX spec of Presentaion API scenario
+  - Bug 1202364 - [Stingray]Cast webpage to TV (receiver side)
+  - Bug 1202365 - Ping remote webpage to TV
+  - Confirm revised UX spec of Home app
   - code review
+  - Mentoring
 
 ### Last weeks ###
-  - Read presenation API codes
-  - Preparing Pin-to-card scenario
-  - Review Device deck UX spec (https://bugzilla.mozilla.org/show_bug.cgi?id=1192820)
-  - Team building preperation 
+  - Build-up Fennec, apply original MWC demo patch
+  - Test and debug between Fennec and B2G for a workable Presentation API environment
+  - Read UX spec of Presentaion API scenario
+  - TV Spatial navigator article (reviewing & revising)
+  - Confirm revised UX spec of Home app
+  - code review
   - Mentoring
-  - Code review
-  - QA plan review
+  - Bug 1202364 - [Stingray]Cast webpage to TV (receiver side)
