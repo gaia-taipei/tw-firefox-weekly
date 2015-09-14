@@ -1,28 +1,26 @@
-## 08/31 - 09/04 ##
+## 09/07 - 09/11 ##
 
 ### Last Week ###
 
-* [On Board]
-    - environment set up iMac and ubuntu
 * [TV]
-    - [duplicate] 1193686 - Let browser be a new deck, and add it to filter type
-    - [fixed] 1190158 - Firefox Browser app on the main home screen
-    - [fixed] 1200981 - add website.svg in smart icons
-    - [review] 1201825 - land smart icon in gaia
-    - [depend:1201825] 1196091 - Home app should have one more filter category - 'Web'
+    - [fixed] 1201825 - land smart icon in gaia
+    - [fixed] 1196091 - Home app should have one more filter category - 'Web'
+    - [doing] 1202376 - [browser] Implement Bookmark folder navigation in TV
+        * 在 awesomescreen.js完成bookmark UI操作, 但跟yi-fan討論之後, 覺得將list
+          這部分用gaia-component來改寫, 並從awesomescreen.js獨立出來已方便之後
+          history也可以共用, 同時也避免之後panassonic合併時衝突的發生.
 
 * [Study]
-	- presentation api
-		.W3C
-		.MDN
-	- IndexedDB
-		.MDN
+	- Build fennec
+		- https://wiki.mozilla.org/Mobile/Fennec/Android
+        - 
+	- Addon Hackathon (win the price of 最無俚頭獎)
+		- https://etherpad.mozilla.org/fxos-addon
 
 ### This Week ###
 
 * [TV]
-    - 1196091 - Home app should have one more filter category - 'Web'
     - 1202376 - [browser] Implement Bookmark folder navigation in TV
 
 * [Study]
-	- Build fennec
+	- gaia-component
