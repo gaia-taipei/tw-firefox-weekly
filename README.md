@@ -11,7 +11,6 @@ Members
 * Greg Weng
 * Ricky Chien
 * Rex Lee
-* John Hu
 * Luke Chang
 * Yi-fan Liao
 * Sean Lee
@@ -22,6 +21,7 @@ Members
   - Sherman Chen
   - Sung Chiu
   - Tzu-lin Huang
+  - John Hu
 
 Suggested Format
 ------
