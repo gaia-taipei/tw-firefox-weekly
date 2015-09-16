@@ -1,21 +1,53 @@
 [Open bugs assigned to me](https://bugzilla.mozilla.org/buglist.cgi?quicksearch=assignee%3Agasolin%40mozilla.com) (ASSIGNED = current working on; NEW = backlog)
 
+## 09/14 ~09/18
+
+* [Settings]
+  - Bug 1203473 - [Settings] Define AppStorage using new syntax provided by Observable
+    - r+ & landed
+
+* [Bluetooth]
+  - Bug 1202060 - show AVRCP profile in gaia
+    - discuss with shawn and tori, conclude the decision that we don't need concern that until we have video profile.
+
+* code review
+  - r+, Bug 1179343 - Security "WPA2 (AES)" is enabled but read only
+  - r+, Bug 1199872 - turning sound off in settings makes a sound
+  - r-, Bug 1199461 - Name for carrier / operator is not consistent
+  - r+, Bug 1196178 - [Settings]The "Ok" icon doesn't respond correctly, changing on the APN can't be saved.
+  - r-, Bug 1202301 - [Settings] Convert messaging switches to use web components
+  - r-, Bug 1180666 - Manage Homescreens
+
+* interview Marketplace contracter with luke
+
+* Hatch
+  - Discussion about low data storage in settings
+  - Mail to track with security settings panels status
+
 ## 08/07 ~ 09/11
 
 * [Settings]
-  - PR Bug 1194045 - [Flame][settings]USB protocol can only be changed while USB storage is disabled.
-  - PR Bug 1203356 - [Settings] remove C-H panel strings in HTML
+  - Bug 1194045 - [Flame][settings]USB protocol can only be changed while USB storage is disabled.
+    - r+, wait another review
+  - Bug 1203356 - [Settings] remove C-H panel strings in HTML
+    - r+ & landed
   - Bug 1202341 - [Settings] remove A-B panel strings in HTML
     - r+ & landed
     - clean up strings and check possible issues, file related bugs
 
 * [Add-ons Hackathon]
-  - Build the add-on [Quick Settings](https://github.com/begeeben/fxos-quick-settings)
+  - Build the add-on [Quick Settings](https://github.com/begeeben/fxos-quick-settings), [slide](https://docs.google.com/a/mozilla.com/presentation/d/1Q9F50ut5lzzkac6dh08YhlxpW1pUm73wZb6fkiwzgTc/edit?usp=sharing)
 
 * code review
   - r+, Bug 1202162 - [Settings] Convert find my device switchs to use web components
+  - r+, Bug 1200103 - Bluetooth address not shown in Settings App
   - r-, Bug 1180666 - Manage Homescreens
-  - r-, Bug 1200103 - Bluetooth address not shown in Settings App
+  - r-, Bug 1179343 - Security "WPA2 (AES)" is enabled but read only
+
+* Hatch
+  - discussion about low data storage in settings
+  - Bug 1199161
+    - discussion about cursor selection api
 
 ## 08/31 ~ 09/04
 
