@@ -1,23 +1,31 @@
-## 8-31 ~ 9-4
+## 9-07 ~ 9-11
 
 #### Intermittent Errors only on TaskCluster:
 
 * Bug 1193912 - Intermittent apps/system/test/marionette/lockscreen_statusbar_test.js | LockScreen status bar should show the maximised status bar only
 * Bug 1192979 - Intermittent apps/system/test/marionette/lockscreen_mozsettings_test.js | LockScreen: ensure mozSettings API works test it can unlock ...
-  * It now looks like caused by a mozSetting error during the test
-  * It also seems related to the Mulet error I've found
-  * Logs are available on Bug 1187715
+  * Got stuck; have no idea now; re-focus on 2.5 temporarily
+
+#### v2.5
 
 * Bug 1169842 - [Aries][Lockscreen] Holding down the camera button when the device is locked will break the lockscreen slider
-  * Finally we've found the reproducible STR
-  * Helped Scott to identify and solve this bug; WIP patch is on testing
+  * Scott got my r+; landed
 
 * Bug 1199100 - [LockScreen] Implement DeviceLock API and use separated store to fix performance issue
-  * Have some discussons on this bug with :pauljt; currently the major concern is how to pass and validate the password
-  * Will put the forming conclusions in the bug
+  * Will hold a discussion with secure team, and the implementation is the next step
 
 * Bug 1175623 - [FindMyDevice][Kill Switch]in the "Kill-Switch" mode, the device should be locked with a 6 digit passcode set on the website
-  * Repied all concerns; waiting UX's detailed spec to prevent regressions induced by undefined behaviors in the future
+  * Have a WIP patch, but still no detailed UX spec.
+
+### Reviews
+
+* Bug 1195547 - [Music] Music widget is not present on lockscreen when first playing a song without skipping or re-selecting.
+  * I have some concerns about the patch, so I NI the author
+
+* Bug 1186124 - Add "Power button locks immediately" option
+  * It's good except one possible defect; I cancel the review to get the answer
+
+**Note: we changed the way to update the weely report, so now this report only keeps the latest version, and the progress is available on git log and diffs.
 
 
 ## 8/31 ~ 9/4
