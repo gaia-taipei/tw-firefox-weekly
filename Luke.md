@@ -1,30 +1,30 @@
-## 09/07 - 09/11 ##
+## 09/14 - 09/18 ##
 
 ### Last Week ###
 
 * [TV remote control]
     - [WIP] Bug 1203045 - [TV 2.5] Dispatch input messages via mozInputMethod API in server side
-        - finished the whole functions with only two minor bugs
+        - software keyboard on TV can be used with remote control page at the same time now
+        - traced a Gecko error message but finally found that it's a long-standing issue that may not need to be addressed in this bug
     - [WIP] Bug 1197772 - [TV 2.5] Implement a client-side page for TV remote control prototyping
-        - improved the performance of the touch panel
-        - helped Eric in testing mouse events
-        - fixed bugs
-        - polish the layout
-    - had a meeting to sync up with PM, EPM and UX
+        - modified several behaviors based on demo case
+    - Spec discussion with UX
 
-* [Partner Support]
-    - [Done] Bug 1202349 - Open an app or a new activity, devices will display black screen for 1~2 seconds sometimes
+* [SUPL NI]
+    - [Done] Bug 1195602 - [GPS] Support SUPL NI case in Gaia
+        - the gaia-try on v2.2r has been fixed but one of the unit tests were still failed
+        - helped identify the root cause (bug 1204859)
+        - landed on v2.2r
         - answered partner's questions via mail
 
-* [Keyboard app]
-    - [Done] Bug 1094833 - Autocorrect should not correct 'lol' to 'lil'
-        - fixed the unit test and landed it on master
+* [Other]
+    - Reviewed the MDN article with Mash and Rex
 
 ### This Week ###
 
 * [TV remote control]
-    - [WIP] Bug 1203045 - [TV 2.5] Dispatch input messages via mozInputMethod API in server side
-    - [WIP] Bug 1197772 - [TV 2.5] Implement a client-side page for TV remote control
+    - [New] Bug 1205939 - (TV_RemoteControl_TVSide) [TV][2.5][meta][TV side] Remote Control
+        - follow up spec and break down tasks
 
 * [Metrics]
     - [New] Bug 1204759 - Back port app usage metrics to TV System
