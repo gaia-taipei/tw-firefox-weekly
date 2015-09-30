@@ -1,29 +1,21 @@
-## 9-07 ~ 9-11
+## 2015 Q4 Goals
 
-#### Intermittent Errors only on TaskCluster:
+* Stabilize LockScreen: fixed all current regressions, the current one is:
+  * Bug 1198417 - [Aries][Lockscreen] rotates with device but slider does not respond 
+    * It has new symptom looks by full-screen video
+* Implement and migrate to DeviceLock API
+  * Will start to write WebIDL and figure out the development flow first
+* After that, focus on System performance, including:
+  * Tool development
+  * Problem probing
 
-* Bug 1193912 - Intermittent apps/system/test/marionette/lockscreen_statusbar_test.js | LockScreen status bar should show the maximised status bar only
-* Bug 1192979 - Intermittent apps/system/test/marionette/lockscreen_mozsettings_test.js | LockScreen: ensure mozSettings API works test it can unlock ...
-  * Got stuck; have no idea now; re-focus on 2.5 temporarily
+## 2015 Q3 Delivered
 
-#### v2.5
-
-* Bug 1169842 - [Aries][Lockscreen] Holding down the camera button when the device is locked will break the lockscreen slider
-  * Scott got my r+; landed
-
-* Bug 1199100 - [LockScreen] Implement DeviceLock API and use separated store to fix performance issue
-  * Will hold a discussion with secure team, and the implementation is the next step
-
-* Bug 1175623 - [FindMyDevice][Kill Switch]in the "Kill-Switch" mode, the device should be locked with a 6 digit passcode set on the website
-  * Have a WIP patch, but still no detailed UX spec.
-
-### Reviews
-
-* Bug 1195547 - [Music] Music widget is not present on lockscreen when first playing a song without skipping or re-selecting.
-  * I have some concerns about the patch, so I NI the author
-
-* Bug 1186124 - Add "Power button locks immediately" option
-  * It's good except one possible defect; I cancel the review to get the answer
+* Fixed security regressions caused by new bootstrapping of System app
+* Found out and proposed solution to LockScreen performance issue at device bootstrapping
+* Planned and discussed about new DeviceLock API
+* Delivered and tested an AOP tool that can help developers to write performance tests without messing up the codebase
+* Supported Academy NCU 2015 Program - JavaScript the best pratices
 
 **Note: we changed the way to update the weely report, so now this report only keeps the latest version, and the progress is available on git log and diffs.
 
