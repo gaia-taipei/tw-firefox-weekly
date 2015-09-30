@@ -1,21 +1,41 @@
 ## 2015 Q4 Goals
 
-* Stabilize LockScreen: fixed all current regressions, the current one is:
-  * Bug 1198417 - [Aries][Lockscreen] rotates with device but slider does not respond 
-    * It has new symptom looks by full-screen video
-* Implement and migrate to DeviceLock API
-  * Will start to write WebIDL and figure out the development flow first
-* After that, focus on System performance, including:
-  * Tool development
-  * Problem probing
+1. Stabilize LockScreen: fixed all current regressions, the current one is:
+  1. Bug 1198417 - [Aries][Lockscreen] rotates with device but slider does not respond 
+    1. It has new symptom looks by full-screen video
+2. Implement and migrate to DeviceLock API
+  1. Will start to write WebIDL and figure out the development flow first
+3. After that, focus on System performance, including:
+  1. Tool development
+  2. Problem probing
 
 ## 2015 Q3 Delivered
 
-* Fixed security regressions caused by new bootstrapping of System app
-* Found out and proposed solution to LockScreen performance issue at device bootstrapping
-* Planned and discussed about new DeviceLock API
-* Delivered and tested an AOP tool that can help developers to write performance tests without messing up the codebase
-* Supported Academy NCU 2015 Program - JavaScript the best pratices
+1. Fixed security regressions caused by new bootstrapping of System app
+2. Found out and proposed solution to LockScreen performance issue at device bootstrapping
+3. Planned and discussed about new DeviceLock API
+4. Delivered and tested an AOP tool that can help developers to write performance tests without messing up the codebase
+5. Supported Academy NCU 2015 Program - JavaScript the best pratices
+
+## 9/14 ~ 9/18
+
+* Bug 1186124 - Add "Power button locks instantly" setting for lockscreen
+  * Reviewed the patch; ask UX for spec about such a late feature
+
+* Bug 1171923 - [Aries] Time, date and unlock slider are sometimes loaded half a second after the rest of the screen
+  * Try to figure out what exactly the STR is
+  * Currently it's confused but looks like it's reproducible
+
+* Bug 1175623 - [FindMyDevice][Kill Switch]in the "Kill-Switch" mode, the device should be locked with a 6 digit passcode set on the website
+  * Asked UX for specs especially for the edge cases, not got the full responses yet
+  * Asked if Alexandre was okay for the latest prototocal between Gecko and Gaia; he cleared the NI without any comment
+  * So I asked Wesley to coordinate these items
+
+* Bug 1204110 - [Window Mgmt] The device will fall asleep while watching youtube videos
+  * I suspect this is a System regression, but I need to check it with more investigations.
+
+* Bug 1195547 - [Music] Music widget is not present on lockscreen when first playing a song without skipping or re-selecting.
+  * r+ with a different patch
 
 **Note: we changed the way to update the weely report, so now this report only keeps the latest version, and the progress is available on git log and diffs.
 
