@@ -1,10 +1,12 @@
-## 09/14 ~ 09/18
+## 09/21 ~ 09/25
 
 - [Settings]
+	- [Fixed] [Bug 1203038] (https://bugzilla.mozilla.org/show_bug.cgi?id=1203038) - use dialog service to show reset-apn-warning dialog
+	- [Fixed] [Bug 1182924] (https://bugzilla.mozilla.org/show_bug.cgi?id=1182924) - Cannot add new multiple-types APN data
+	- [Fixed] [Bug 1206597] (https://bugzilla.mozilla.org/show_bug.cgi?id=1206597) - [RTL] split bar is not correctly aligned
+	- [Reviewing] [Bug 1206600](https://bugzilla.mozilla.org/show_bug.cgi?id=1206600) - APN Settings does not select the correct item when user cancelled the dialog
 	- [Reviewing] [Bug 1014442] (https://bugzilla.mozilla.org/show_bug.cgi?id=1014442) - refactor Find My Device panel with AMD pattern
-		- Refactored the settings panel and test cases
-		- Spent some time getting familiar with unit testing using spy/stub/mock
-	- [Reviewing] [Bug 1203038] (https://bugzilla.mozilla.org/show_bug.cgi?id=1203038) - use dialog service to show reset-apn-warning dialog
+		- (Put on lower-priority until other blocks have been resolved)
+ 		- Fixing test cases
+	- [WIP] [Bug 1206604] (https://bugzilla.mozilla.org/show_bug.cgi?id=1206604) - The split item is only select-able on string, but not the whole field
 
-- [System]
-	- [Fixed] [Bug 1169842](https://bugzilla.mozilla.org/show_bug.cgi?id=1169842) - Camera button breaks lockscreen slider
