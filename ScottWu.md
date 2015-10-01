@@ -10,3 +10,9 @@
  		- Fixing test cases
 	- [WIP] [Bug 1206604] (https://bugzilla.mozilla.org/show_bug.cgi?id=1206604) - The split item is only select-able on string, but not the whole field
 
+## 2015 Q4 Goals
+
+1. Remove blocker issues for the Settings app & others
+- Implement new features for the Settings app & others
+- Help increase unit/integration test coverage
+
