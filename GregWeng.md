@@ -1,22 +1,3 @@
-## 2015 Q4 Goals
-
-1. Stabilize LockScreen: fixed all current regressions, the current one is:
-  1. Bug 1198417 - [Aries][Lockscreen] rotates with device but slider does not respond 
-    1. It has new symptom looks by full-screen video
-2. Implement and migrate to DeviceLock API
-  1. Will start to write WebIDL and figure out the development flow first
-3. After that, focus on System performance, including:
-  1. Tool development
-  2. Problem probing
-
-## 2015 Q3 Delivered
-
-1. Fixed security regressions caused by new bootstrapping of System app
-2. Found out and proposed solution to LockScreen performance issue at device bootstrapping
-3. Planned and discussed about new DeviceLock API
-4. Delivered and tested an AOP tool that can help developers to write performance tests without messing up the codebase
-5. Supported Academy NCU 2015 Program - JavaScript the best pratices
-
 ## 9/14 ~ 9/18
 
 * Bug 1186124 - Add "Power button locks instantly" setting for lockscreen
@@ -36,6 +17,27 @@
 
 * Bug 1195547 - [Music] Music widget is not present on lockscreen when first playing a song without skipping or re-selecting.
   * r+ with a different patch
+
+## 2015 Q4 Goals
+
+1. Stabilize LockScreen: fixed all current regressions, the current one is:
+  1. Bug 1198417 - [Aries][Lockscreen] rotates with device but slider does not respond 
+    1. It has new symptom looks by full-screen video
+2. Implement and migrate to DeviceLock API
+  1. Will start to write WebIDL and figure out the development flow first
+3. Write more integration tests to prevent further regressions
+4. After that, I may shift my work to System performance, including:
+  1. Tool development
+  2. Problem probing
+
+## 2015 Q3 Delivered
+
+1. Fixed security regressions caused by new bootstrapping of System app
+2. Found out and proposed solution to LockScreen performance issue at device bootstrapping
+3. Planned and discussed about new DeviceLock API
+4. Delivered and tested an AOP tool that can help developers to write performance tests without messing up the codebase
+5. Supported Academy NCU 2015 Program - JavaScript the best pratices
+
 
 **Note: we changed the way to update the weely report, so now this report only keeps the latest version, and the progress is available on git log and diffs.
 
