@@ -1,26 +1,28 @@
-## 09/07 - 09/11 ##
+## 09/14 - 09/18 ##
 
 ### Last Week ###
 
 * [TV]
-    - [fixed] 1201825 - land smart icon in gaia
-    - [fixed] 1196091 - Home app should have one more filter category - 'Web'
+    - [fixed] 1205189 - update web.svg in smart icons
     - [doing] 1202376 - [browser] Implement Bookmark folder navigation in TV
-        * 在 awesomescreen.js完成bookmark UI操作, 但跟yi-fan討論之後, 覺得將list
-          這部分用gaia-component來改寫, 並從awesomescreen.js獨立出來已方便之後
-          history也可以共用, 同時也避免之後panassonic合併時衝突的發生.
 
 * [Study]
-	- Build fennec
-		- https://wiki.mozilla.org/Mobile/Fennec/Android
-        - 
-	- Addon Hackathon (win the price of 最無俚頭獎)
-		- https://etherpad.mozilla.org/fxos-addon
+  - gaia-component
+      * https://github.com/gaia-components
+          - gaia-component
+          - gaia-fast-list
+          - gaia-list
+          - gaia-button
+          - smart-button
 
 ### This Week ###
 
 * [TV]
     - 1202376 - [browser] Implement Bookmark folder navigation in TV
+      * fix js lint error of awesomescreen.js (implement by panassonic)
+      * parser for bookmark data from firefox account sync
 
-* [Study]
-	- gaia-component
+    - 1206989 - [browser] adding a Pocket link on TV browser
+    - 1205192 - [stingray] land smart icon 0.0.2 in gaia
+    - 1196091 - [Stingray] Home app should have one more filter category - 'Web'
+
