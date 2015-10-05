@@ -1,29 +1,43 @@
-## 9-07 ~ 9-11
+## 9/14 ~ 9/18
 
-#### Intermittent Errors only on TaskCluster:
+* Bug 1186124 - Add "Power button locks instantly" setting for lockscreen
+  * Reviewed the patch; ask UX for spec about such a late feature
 
-* Bug 1193912 - Intermittent apps/system/test/marionette/lockscreen_statusbar_test.js | LockScreen status bar should show the maximised status bar only
-* Bug 1192979 - Intermittent apps/system/test/marionette/lockscreen_mozsettings_test.js | LockScreen: ensure mozSettings API works test it can unlock ...
-  * Got stuck; have no idea now; re-focus on 2.5 temporarily
-
-#### v2.5
-
-* Bug 1169842 - [Aries][Lockscreen] Holding down the camera button when the device is locked will break the lockscreen slider
-  * Scott got my r+; landed
-
-* Bug 1199100 - [LockScreen] Implement DeviceLock API and use separated store to fix performance issue
-  * Will hold a discussion with secure team, and the implementation is the next step
+* Bug 1171923 - [Aries] Time, date and unlock slider are sometimes loaded half a second after the rest of the screen
+  * Try to figure out what exactly the STR is
+  * Currently it's confused but looks like it's reproducible
 
 * Bug 1175623 - [FindMyDevice][Kill Switch]in the "Kill-Switch" mode, the device should be locked with a 6 digit passcode set on the website
-  * Have a WIP patch, but still no detailed UX spec.
+  * Asked UX for specs especially for the edge cases, not got the full responses yet
+  * Asked if Alexandre was okay for the latest prototocal between Gecko and Gaia; he cleared the NI without any comment
+  * So I asked Wesley to coordinate these items
 
-### Reviews
+* Bug 1204110 - [Window Mgmt] The device will fall asleep while watching youtube videos
+  * I suspect this is a System regression, but I need to check it with more investigations.
 
 * Bug 1195547 - [Music] Music widget is not present on lockscreen when first playing a song without skipping or re-selecting.
-  * I have some concerns about the patch, so I NI the author
+  * r+ with a different patch
 
-* Bug 1186124 - Add "Power button locks immediately" option
-  * It's good except one possible defect; I cancel the review to get the answer
+## 2015 Q4 Goals
+
+1. Stabilize LockScreen: fixed all current regressions, the current one is:
+  1. Bug 1198417 - [Aries][Lockscreen] rotates with device but slider does not respond 
+    1. It has new symptom looks by full-screen video
+2. Implement and migrate to DeviceLock API
+  1. Will start to write WebIDL and figure out the development flow first
+3. Write more integration tests to prevent further regressions
+4. After that, I may shift my work to System performance, including:
+  1. Tool development
+  2. Problem probing
+
+## 2015 Q3 Delivered
+
+1. Fixed security regressions caused by new bootstrapping of System app
+2. Found out and proposed solution to LockScreen performance issue at device bootstrapping
+3. Planned and discussed about new DeviceLock API
+4. Delivered and tested an AOP tool that can help developers to write performance tests without messing up the codebase
+5. Supported Academy NCU 2015 Program - JavaScript the best pratices
+
 
 **Note: we changed the way to update the weely report, so now this report only keeps the latest version, and the progress is available on git log and diffs.
 
