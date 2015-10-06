@@ -6,11 +6,11 @@
 * Academy NCU 2015 Program - Introduced Git, Github, Bugzilla, WebIDE and DevTools
 
 ## 2015 Q4 Goals
-1. To lift the restrictions for gaia developers to use third-party NPM packages, we'll continue the plan of [refactoring build system run-time to node.js](https://wiki.mozilla.org/Gaia/Build/RefactoringToNodejs)
-2. CI machines are able to run / switch multi-version node.js in order to support new gaia build (node.js v4.x) and testing framework (node.js v0.10.x)
-3. Investigate new Gaia build 2.0 - confidant with Gareth
-4. Fix bugs of build system
-5. Fix bugs of settings app
+1. Support TV 2.5 feature - Provide an ability to preview an app on Marketplace [[TV][2.5] Preview an app on Marketplace](https://bugzilla.mozilla.org/show_bug.cgi?id=1211400)
+2. To lift the restrictions for gaia developers to use third-party NPM packages, we'll continue the plan of [refactoring build system run-time to node.js](https://wiki.mozilla.org/Gaia/Build/RefactoringToNodejs)
+3. CI machines are able to run / switch multi-version node.js in order to support new gaia build (node.js v4.x) and testing framework (node.js v0.10.x)
+4. Investigate new Gaia build 2.0 - confidant with Gareth
+5. Fix bugs of build system
 
 ## 2015 Q3 Delivered
 1. Investigated new configure of Gaia build 2.0 - confidant
