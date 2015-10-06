@@ -1,31 +1,34 @@
-## 09/21 ~ 10/25 ##
+## 09/30 ~ 10/02 ##
 
 ### Last week
 * [Audio Channel Management]
-  - Bug 1202967 - [AriesKK]Screen will be freezed if you launch camera by pressing HW camera key in Recent View.
-    - Investigate the root cause. http://bugzil.la/1202967#c16
-  - Bug 1206621 - Merge AudioChannelManager to TV System App
-    - Help to merge AudioChannelManager to TV System App. http://bugzil.la/1206621#c2
+  - Bug 1199605 - The music play icon does not disappear after we kill a playing music app
+    - hub: r+
+  - Bug 1205377 - [Notifications]The "Playing song" icon doesn't appear in status bar after finishing a voice call
+    - DUPLICATE of bug 1199605
 
 * [Settings]
   - Bug 1170236 - Sometimes the screen to connect to a hidden network doesn't have the OK button enabled
-    - evelyn: r?
-
-* [JSMarionette]
-  - Bug 1181465 - Update documentation of Integration Tests in Gaia
-    - Landed.
-
-* [BT Test App]
-  - Yong Hong would like to implement a framework.
-
-### This week
-* [Audio Channel Management]
-  - Bug 1199605 - The music play icon does not disappear after we kill a playing music app
-  - Bug 1180618 - Ringer is not managed by Audio Channel Service
-  - Bug 1206691 - Implement Media Focus in Audio Channel Service
+    - evelyn: r+
 
 * [BT Test App]
   - Discuss the interface of the framework.
+
+### This week
+* [Audio Channel Management]
+  - Bug 1180618 - Ringer is not managed by Audio Channel Service
+    - Gecko is ready, start to write patch.
+  - Bug 1190434 - Browser app stops playing audio when screen turns off
+    - Start to investigate and fix the bug.
+  - Bug 878181 - [B2G][Music] Music is playing in full blast volume after adding just one unit up
+    - Start to investigate and fix the bug.
+  - Bug 864416 - [music]Volume resets to being audible when you launch music app and play a song.
+    - Start to investigate and fix the bug.
+  - Bug 1187559 - Headphone jack stopped working until after restart
+    - Start to investigate and fix the bug.
+
+* [BT Test App]
+  - Weekly meeting.
 
 ## 2015 Q4 Goals
 1. Investigate Media Focus. http://bugzil.la/1206691
