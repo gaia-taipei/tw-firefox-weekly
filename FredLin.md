@@ -1,5 +1,32 @@
 [Open bugs assigned to me](https://bugzilla.mozilla.org/buglist.cgi?quicksearch=assignee%3Agasolin%40mozilla.com) (ASSIGNED = current working on; NEW = backlog)
 
+## 09/30 - 10/02
+
+[Settings]
+  - Bug 1203461 - [Settings] USB protocol can only be changed when device unplugged
+    - r+ & merged
+  - Bug 1145332 - [FDN] Incorrect message displayed when updating FDN contact
+    - merged
+  - Bug 1204420 - [Settings] remove I-S panel strings in HTML 
+    - r?
+  - Bug 1210679 - [Settings] remove rest panel strings in HTML and update README
+    - r?
+  - check Security Panels with UX (Bug 1207717)
+  - file Bug 1210284 - Hide Achievements panel for 2.5
+    - yzen will handle it
+
+[Review]
+  - r+, Bug 1206600 - APN Settings does not select the correct item when user cancelled the dialog
+  - r+, Bug 1207435 - Port carrier switches to use web components
+  - r+, Bug 1206604 - The split item is only select-able on string, but not the whole field
+  - r+, Bug 1170236 - Sometimes the screen to connect to a hidden network doesn't have the OK button enabled
+  - r-, Bug 1206984 - Make Debug have a lower case name
+  - r-, Bug 1202422 - [New-Homescreen] Migrate app/bookmark order from verticalhome
+
+[other]
+  - port fxos-quick-settings to new addon format
+  - foxbox with web console
+
 ## 09/21 - 09/25
 
 [Settings]
