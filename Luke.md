@@ -1,30 +1,40 @@
-## 09/14 - 09/18 ##
+## 09/30 - 10/02 ##
 
 ### Last Week ###
 
 * [TV remote control]
-    - [WIP] Bug 1203045 - [TV 2.5] Dispatch input messages via mozInputMethod API in server side
-        - software keyboard on TV can be used with remote control page at the same time now
-        - traced a Gecko error message but finally found that it's a long-standing issue that may not need to be addressed in this bug
-    - [WIP] Bug 1197772 - [TV 2.5] Implement a client-side page for TV remote control prototyping
-        - modified several behaviors based on demo case
-    - Spec discussion with UX
+    - [WIP] Bug 1207996 - [TV 2.5][meta] Provide PIN code pairing to connect TV as remote control
+        - designed the pairing flow and documented on WIKI
+        - https://wiki.mozilla.org/Firefox_OS/Remote_Control
+    - [WIP] Bug 1208006 - [TV 2.5] Implement a client-side page for TV remote control 
+        - built a standalone "remote-control" app and copied the client-side code here
+        - separated "touchPanel" module from client.js
+        - https://github.com/luke-chang/gaia/tree/tv_remote_control_page
+
+* [TV]
+    - Marketplace back button issue study
+
+* [Metrics]
+    - [Done] Bug 1204759 - Back port app usage metrics to TV System
+        - got r+ and landed on master
 
 * [SUPL NI]
-    - [Done] Bug 1195602 - [GPS] Support SUPL NI case in Gaia
-        - the gaia-try on v2.2r has been fixed but one of the unit tests were still failed
-        - helped identify the root cause (bug 1204859)
-        - landed on v2.2r
-        - answered partner's questions via mail
+    - [New] Bug 1201778 - [GPS-SUPL NI] Support for displaying notification message to user
+        - helped Alphan with testing
+        - requested UX's feedback
 
-* [Other]
-    - Reviewed the MDN article with Mash and Rex
+* [System App]
+    - [Done] Bug 1202967 - Screen will be freezed if you launch camera by pressing HW camera key in Recent View (2.5+ blocker)
+        - found out the root case and made the patch
+        - landed on master
 
 ### This Week ###
 
 * [TV remote control]
-    - [New] Bug 1205939 - (TV_RemoteControl_TVSide) [TV][2.5][meta][TV side] Remote Control
-        - follow up spec and break down tasks
+    - [WIP] Bug 1208006 - [TV 2.5] Implement a client-side page for TV remote control 
+        - develop the client-side pages with UX's final spec
+    - [WIP] Bug 1207996 - [TV 2.5][meta] Provide PIN code pairing to connect TV as remote control
+        - flowchart follow up
 
-* [Metrics]
-    - [New] Bug 1204759 - Back port app usage metrics to TV System
+* [SUPL NI]
+    - [New] Bug 1201778 - [GPS-SUPL NI] Support for displaying notification message to user
