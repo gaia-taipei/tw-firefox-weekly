@@ -1,40 +1,44 @@
-## 09/30 - 10/02 ##
+## 10/12 - 10/16 ##
 
 ### Last Week ###
 
 * [TV remote control]
-    - [WIP] Bug 1207996 - [TV 2.5][meta] Provide PIN code pairing to connect TV as remote control
-        - designed the pairing flow and documented on WIKI
-        - https://wiki.mozilla.org/Firefox_OS/Remote_Control
-    - [WIP] Bug 1208006 - [TV 2.5] Implement a client-side page for TV remote control 
-        - built a standalone "remote-control" app and copied the client-side code here
-        - separated "touchPanel" module from client.js
-        - https://github.com/luke-chang/gaia/tree/tv_remote_control_page
+    - [WIP] Bug 1212407 - [TV 2.5] Implement the functionalities of the client-side page of TV remote control
+        - updated my patch according to UX's feedback and compatibility issues
+        - helped to fix a compatibility bug when using l20n.js on Safari (Mac, iOS)
+        - waiting for reviewing
+    - [WIP] Bug 1215075 - [TV 2.5] Implement a pairing page on the client-side
+        - discussed the pairing procedure with Eric
+        - had a WIP patch
+    - [WIP] Bug 1214993 - [TV 2.5] "sendKeyEvent" doesn't work when sending "DOM_VK_HOME" to trigger homescreen
+        - finished the patch and got r+
+    - [Done] Bug 1207995 - [TV 2.5] Provide remote control service current control mode
+        - finished my patch
+        - landed on master
 
-* [TV]
-    - Marketplace back button issue study
-
-* [Metrics]
-    - [Done] Bug 1204759 - Back port app usage metrics to TV System
-        - got r+ and landed on master
+* [Audio Channel]
+    - [WIP] Bug 1206621 - Merge AudioChannelManager to TV System App
+        - updated the patch for testing
+    - [WIP] Bug 1214148 - AudioChannel API design doesn't fit into nested mozbrowser iframe case
+        - participated the discussion about the proposal
 
 * [SUPL NI]
-    - [New] Bug 1201778 - [GPS-SUPL NI] Support for displaying notification message to user
-        - helped Alphan with testing
-        - requested UX's feedback
+    - [WIP] Bug 1201778 - [GPS-SUPL NI] Support for displaying notification message to user
+        - discussed the encoding issue with Alphan
+        - updated the patch of Gaia part
 
-* [System App]
-    - [Done] Bug 1202967 - Screen will be freezed if you launch camera by pressing HW camera key in Recent View (2.5+ blocker)
-        - found out the root case and made the patch
-        - landed on master
+* [TV]
+    - Discussed the new TV marketplace workflow with Ricky
+    - Participated the meeting with the partner about the keyboard issue
+    - Bug 1210700 - Fling player control panel should hide and show based on user's key input
+        - gave a feedback
+
+* [Others]
+    - Discussed the TV optimized website workshop with Eddie
 
 ### This Week ###
 
 * [TV remote control]
-    - [WIP] Bug 1208006 - [TV 2.5] Implement a client-side page for TV remote control 
-        - develop the client-side pages with UX's final spec
-    - [WIP] Bug 1207996 - [TV 2.5][meta] Provide PIN code pairing to connect TV as remote control
-        - flowchart follow up
-
-* [SUPL NI]
-    - [New] Bug 1201778 - [GPS-SUPL NI] Support for displaying notification message to user
+    - [WIP] Bug 1215075 - [TV 2.5] Implement a pairing page on the client-side
+    - [New] Bug 1215076 - [TV 2.5] Implement the remote control pairing notification in TV system
+    - [New] Bug 1212403 - [TV 2.5] Apply visual spec to the client-side page of TV remote control
