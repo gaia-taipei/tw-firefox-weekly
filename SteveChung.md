@@ -1,24 +1,19 @@
-## This week 9/30 ~ 10/2
+## This week 10/12 ~ 10/16
 * 2.5 blocker
-  - Bug 1206678 - Outgoing MMS contains subject that was typed by user, but then hidden
-* 2.5 feature
-  - Bug 1207094 - [Messages] Disable appropriate controls when in low storage condition
-* NGA
-  - Bug 1179628 - [Messages][NG] Lay out Settings service structure
-  - Bug 1201016 - [Messages][NG] Migrate the current Message manager event handling to NGA
+  - Bug 1192263 - [Messages] We load Inbox before going to the notification conversation when app is run via notification click.
+  - Bug 1211395 - Performance regression in Message
+    - Message team will profile between 2 version and try out any possible way to shave more usage of memory and the cold launch time before FC.
 
-## Last week 9/21 ~ 9/25
-* 2.5 blocker 
-  - Bug 1203886 - The back button in sms conversation view does not always work
-    * Landed
+## Last week 10/5 ~ 10/9
+* 2.5 blocker
+  - (Landed)Bug 1206678 - Outgoing MMS contains subject that was typed by user, but then hidden
 * 2.5 feature
-  - Bug 1207094 - [Messages] Disable appropriate controls when in low storage condition
-    * Ongoing, we might need event handling ability in NGA related Bug 1201016 if we want to implement the storage as a service.
+  - (Pending)Bug 1207094 - [Messages] Disable appropriate controls when in low storage condition
+    - Patch got some feedback but the spec is still not clear enough, and low storage feature is suspended because of the lack of resource for QA testing. 
 * NGA
-  - Bug 1179628 - [Messages][NG] Lay out Settings service structure
-    * Patch created for early feedback. Waiting for feedback about the settings client layout.
-  - Bug 1201016 - [Messages][NG] Migrate the current Message manager event handling to NGA
-    * Patch created for early feedback.
+  - (Pending)Bug 1179628 - [Messages][NG] Lay out Settings service structure
+  - (Pending)Bug 1201016 - [Messages][NG] Migrate the current Message manager event handling to NGA
+    - All the NGA features reviewing are pending.
 
 ## 2015 Q4 Goals
 
