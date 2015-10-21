@@ -1,9 +1,13 @@
 ## 09/21 ~ 09/25
 [Build]
-* [Bug 1207073](http://bugzil.la/1207073) - RUN_ON_NODE=1 make is broken
+* [Bug 1211400](http://bugzil.la/1211400) - [TV][2.5] Preview an app on Marketplace
+ * WIP patch has submitted, survey preview logic including install, uninstall and child window 
 * [Bug 1146713](http://bugzil.la/1146713) - [emulator] mach mochitest-remote fails: expected to find ssltunnel at .../gaia/b2g_sdk/39.0a1-2015-03-05-16-02-02/b2g/ssltunnel
+ * Fixed. Find out problem in mochitest and let mochitest download mochitest by itself.
+ * Follow-up clean work for correct mozinstall path, remove unused build log and file another bug for support latest b2g_sdk [Bug 1215437](http://bugzil.la/1215437)
+* [Bug 1205257](http://bugzil.la/1205257) - Spark distro does not rebuild fine
+ * Fixed. This is a spark build regression but it merely appear when triggering by ./build.sh
 * Clean up review and needinfo queues
-* Academy NCU 2015 Program - Introduced Git, Github, Bugzilla, WebIDE and DevTools
 
 ## 2015 Q4 Goals
 1. Support TV 2.5 feature - Provide an ability to preview an app on Marketplace [[TV][2.5] Preview an app on Marketplace](https://bugzilla.mozilla.org/show_bug.cgi?id=1211400)
