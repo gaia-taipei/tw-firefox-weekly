@@ -28,11 +28,11 @@
   - r+, Bug 1212905 - [New-Homescreen] Make scroll-snapping optional, disabled by default
 
 ## 2015 Q4 Goals
-1. Solving Blockers and implement low storage features
-2. Support Peripherals team for Bluetooth/transfer related Blockers
-3. Improving settings including css maintainability, dialog, load time, addon hackability etc. (curated todo list http://bit.ly/settingsbacklog)
-4. Pick up unfamilar parts related to settings ex: Wifi, APN, RIL...
-5. Experiment features that make people want to use or develop FxOS
+1. Solving Blockers and implement low storage features, as measured by implementation completeness.
+2. Support Peripherals team for Bluetooth/transfer related Blockers, as measured by blocker burn down and days of blocker turnarounds.
+3. Improving settings including css maintainability, dialog, load time, addon hackability etc. (curated todo list http://bit.ly/settingsbacklog), as measured by # of issues addressed (eng plan or implementation).
+4. Pick up unfamilar parts related to settings ex: Wifi, APN, RIL..., as measured by # of parts handled (like bug addressedd)
+5. Experiment features that make people want to use or develop FxOS, as measured by featured raised and planning detail/implementation progress.
 
 
 ## 2015 Q3 Delivered

@@ -14,7 +14,7 @@
 
 ## 2015 Q4 Goals
 
-1. Remove blocker issues for the Settings app & others
-- Implement new features for the Settings app & others
-- Help increase unit/integration test coverage
+1. Remove blocker issues for the Settings app & others, as measured by blocker burn down and days of blocker turnarounds.
+- Implement new features for the Settings app & others, as measured by feature burn down and days of blocker turnarounds. (This goal need clarification if we know what feature to work on)
+- Help increase unit/integration test coverage, as measured by # of tests planned and/or written.
 

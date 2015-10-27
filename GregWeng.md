@@ -20,12 +20,12 @@
 
 ## 2015 Q4 Goals
 
-1. Stabilize LockScreen: fixed all current regressions, the current one is:
-  1. Bug 1198417 - [Aries][Lockscreen] rotates with device but slider does not respond 
+1. Stabilize LockScreen: fixed all current regressions (measured by bug fixed), the current one is:
+  1. Bug 1198417 - [Aries][Lockscreen] rotates with device but slider does not respond
     1. It has new symptom looks by full-screen video
-2. Implement and migrate to DeviceLock API
+2. Implement and migrate to DeviceLock API, as measured by progress on engineering planning and/or implementation
   1. Will start to write WebIDL and figure out the development flow first
-3. Write more integration tests to prevent further regressions
+3. Write more integration tests to prevent further regressions, as measured by # of tests planned and/or written.
 4. After that, I may shift my work to System performance, including:
   1. Tool development
   2. Problem probing
@@ -117,13 +117,13 @@
       unless Spark team want to handle that
 
 * Performance:
-  * Bug 1171923 - [Aries] Time, date and unlock slider are sometimes loaded half a second after the rest of the screen 
+  * Bug 1171923 - [Aries] Time, date and unlock slider are sometimes loaded half a second after the rest of the screen
 
 * Others:
-  * Bug 1195547 - [Music] Music widget is not present on lockscreen when first playing a song without skipping or re-selecting. 
+  * Bug 1195547 - [Music] Music widget is not present on lockscreen when first playing a song without skipping or re-selecting.
     * Regression of new bootstrapping of System app
     * Kevin says he can handle that, but he may need others' help; so I don't know who is the final assignee
-  * Bug 1182342 - lock screen active based on time it last appeared and not time since last activity 
+  * Bug 1182342 - lock screen active based on time it last appeared and not time since last activity
     * Need regression window
 
 ## 08/10 ~ 08/14

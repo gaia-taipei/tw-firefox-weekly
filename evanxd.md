@@ -12,7 +12,7 @@
     - alwu: review?
 
 * [Settings]
-  - Bug 1170236 - Sometimes the screen to connect to a hidden network doesn't have the OK button enabled 
+  - Bug 1170236 - Sometimes the screen to connect to a hidden network doesn't have the OK button enabled
     - Landed.
 
 ### This week
@@ -45,11 +45,11 @@
   - Weekly meeting.
 
 ## 2015 Q4 Goals
-1. Investigate Media Focus. http://bugzil.la/1206691
-2. Fix blocker bugs of Audio Channel Management Module.
-3. Fix blocker bugs of Settings App.
-4. Support Web of Things Project: implement FoxCount project.
-5. Mentor Bluetooth Test App.
+1. Investigate Media Focus. http://bugzil.la/1206691, as measured by (a) making a technical decision on whether or not to implement that, and (b) completeness on the implementation plan.
+2. Fix blocker bugs of Audio Channel Management Module, as measured by blocker burn down and days of blocker turnarounds.
+3. Fix blocker bugs of Settings App, as measured by blocker burn down and days of blocker turnarounds.
+4. Support Web of Things Project: implement FoxCount project, as measured by implementation completeness.
+5. Mentor Bluetooth Test App, as measured by implementation completeness.
 
 ## 2015 Q3 Delivered
 1. Fixed blocker bugs of Audio Channel Management Module.
