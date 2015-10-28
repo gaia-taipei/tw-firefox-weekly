@@ -1,22 +1,31 @@
-## 9/14 ~ 9/18
+## 10/19 ~ 10/23
 
-* Bug 1186124 - Add "Power button locks instantly" setting for lockscreen
-  * Reviewed the patch; ask UX for spec about such a late feature
+### Stabilize LockScreen (reduce regressions)
 
-* Bug 1171923 - [Aries] Time, date and unlock slider are sometimes loaded half a second after the rest of the screen
-  * Try to figure out what exactly the STR is
-  * Currently it's confused but looks like it's reproducible
+* Bug 1205578 - [lockscreen] lockscreen still milky colored even if all notifications are cleared
+  * Reviewed and have some concerns about the latest regression, so I will reply later
+
+* Bug 1215674 - If the user closes music and quickly locks the device, the music widget will still be present
+  * A very late regression that QA reported it related to NGA, but from the current bisecting result I need to do more things to pin down the root cause
+  * 2.5+
+
+* Bug 1198417 - [Aries][Lockscreen] rotates with device but slider does not respond
+  * I'm unable to reproduce it now. Set NI to see if we can get new reports about that
+
+### Write more integration tests
+
+* Bug 1218645 - [LockScreen] Re-write Gij tests that in the abandoned Gip
+  * I'm working on this to revive the integration tests of LockScreen
+  * The first WIP patch is about the unlocking behavior with passcode
+
+### DeviceLock API
+
+* (Queued after 2.5 blockers; no progress this week)
+
+### Other tasks
 
 * Bug 1175623 - [FindMyDevice][Kill Switch]in the "Kill-Switch" mode, the device should be locked with a 6 digit passcode set on the website
-  * Asked UX for specs especially for the edge cases, not got the full responses yet
-  * Asked if Alexandre was okay for the latest prototocal between Gecko and Gaia; he cleared the NI without any comment
-  * So I asked Wesley to coordinate these items
-
-* Bug 1204110 - [Window Mgmt] The device will fall asleep while watching youtube videos
-  * I suspect this is a System regression, but I need to check it with more investigations.
-
-* Bug 1195547 - [Music] Music widget is not present on lockscreen when first playing a song without skipping or re-selecting.
-  * r+ with a different patch
+  * Draft ver.2; need to fix animation according to the spec and the comment by UX
 
 ## 2015 Q4 Goals
 
