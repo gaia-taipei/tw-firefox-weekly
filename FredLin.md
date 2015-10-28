@@ -1,34 +1,30 @@
 [Open bugs assigned to me](https://bugzilla.mozilla.org/buglist.cgi?quicksearch=assignee%3Agasolin%40mozilla.com) (ASSIGNED = current working on; NEW = backlog)
 
-## 10/12 ~ 10/16
+## 10/129~ 10/23
 
 [Settings]
-  - Bug 1182129 - [PP] Back out privacy panel
-    - fix remaining conflict and landed to master
-  - Bug 1169154 - [Settings] It shows a blank area instead of the timezone when manually select a city located in the current timezone
+  - Bug 1207471 - reorganized shims in alphabet order
     - r+ & landed
-  - Bug 1205596 - [Settings]A alert "An unknown error occurred" pops up when user enters wrong PIN 2 and then changes to new PIN
-    - learn call barring and apply for the service
-    - r+ & landed
-  - Bug 1214507 - polish startup procedure
-    - r+ & landed
-  - Bug 1210668 - Convert call_barring header to gaia-header
+  - Bug 1190041 - use normal button for Firefox Account
     - landed
-  - File doable bugs of Bug 1207717 (Security Settings Panels)
-  - submit Settings and web component meetup at Orlando
   - Bug 1211341 - Remove bluetooth APIv1 code from Settings
-    - WIP
+    - fixed all tests, the performance gain is ignorable, so not tracing it during 2.5
+  - Bug 1216435 - remove RootPanelHandler from startup.js
+    - WIP, raptor shows positive result
+  - Arrange a pre-orlando meeting with UX at 11/3 for settings related discussion
 
 [Review]
-  - r+, Bug 1212864 (--/normal): [New-Homescreen] Remove pinch gesture
-  - r+, Bug 1196680 - [settings] Hotspot panel header close icon should be grey
-  - r+, Bug 1209978 - [Settings] CSS refactoring
-  - r+, Bug 1212715 - [Settings] Convert call barring settings switches to use web components
-  - r+, Bug 1208205 - [Metrics] Replace Settings Metrics checkboxes with 3 state radio button to match FTE
-  - r+, Bug 1212905 - [New-Homescreen] Make scroll-snapping optional, disabled by default
+  - r+, Bug 1206471 - Settings app's "Cellular & Data" screen lets me toggle "Data Connection" and "Data Roaming" settings even when I have no SIM inserted
+  - r+, Bug 1214533 - Move History and Cokie button down in Browsing Privacy panel
+  - r+, Bug 1193910 - check for updates : nothing happens
+  - r+, Bug 1216400 - Convert settings call sub-panels to use gaia-switch
+  - r+, Bug 1202974 - [Settings] Convert call settings switches to use web components
+    - learn & tested call related functions like FDN, call baring, call forwarding
+  - r+, Bug 1014442 - [Settings] refactor Find My Device panel with AMD pattern
+  - r+, Bug 1020699 - Follow-up to 908300: remove auto-resizing from font_size_utils.js once apps use Header Web Component
 
 ## 2015 Q4 Goals
-1. Solving Blockers and implement low storage features, as measured by implementation completeness.
+1. Solving Blockers and implement &lt;to be decided&gt; features, as measured by implementation completeness.
 2. Support Peripherals team for Bluetooth/transfer related Blockers, as measured by blocker burn down and days of blocker turnarounds.
 3. Improving settings including css maintainability, dialog, load time, addon hackability etc. (curated todo list http://bit.ly/settingsbacklog), as measured by # of issues addressed (eng plan or implementation).
 4. Pick up unfamilar parts related to settings ex: Wifi, APN, RIL..., as measured by # of parts handled (like bug addressedd)
