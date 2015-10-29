@@ -1,19 +1,18 @@
-## This week 10/12 ~ 10/16
+## This week 10/19 ~ 10/23
 * 2.5 blocker
   - Bug 1192263 - [Messages] We load Inbox before going to the notification conversation when app is run via notification click.
+    - (Feedback granted) We've decided to apply the solution even it might have an edge case that notification might not work while doing rapid removal and clicking on another notification(But it's harmless).  
   - Bug 1211395 - Performance regression in Message
-    - Message team will profile between 2 version and try out any possible way to shave more usage of memory and the cold launch time before FC.
+    - (Landed) and created another follow up to see if we can make sure the load event happens earlier.
+  - Bug 1217075 - [Messages] Both message and draft are preserved in the main app instance in case message is sent from another activity instance (until app is restarted)
+    - (Reviewing) It's known issue in message app and we have some existing event handling mechanism to solve it properly.
 
-## Last week 10/5 ~ 10/9
+## Last week 10/12 ~ 10/16
 * 2.5 blocker
-  - (Landed)Bug 1206678 - Outgoing MMS contains subject that was typed by user, but then hidden
-* 2.5 feature
-  - (Pending)Bug 1207094 - [Messages] Disable appropriate controls when in low storage condition
-    - Patch got some feedback but the spec is still not clear enough, and low storage feature is suspended because of the lack of resource for QA testing.
-* NGA
-  - (Pending)Bug 1179628 - [Messages][NG] Lay out Settings service structure
-  - (Pending)Bug 1201016 - [Messages][NG] Migrate the current Message manager event handling to NGA
-    - All the NGA features reviewing are pending.
+- Bug 1192263 - [Messages] We load Inbox before going to the notification conversation when app is run via notification click.
+  - (Requesting feedback) Since reviewer might have some concern about the race condition while startup, gave 2 different approaches for more thoughts.
+- Bug 1211395 - Performance regression in Message
+  - (Reviewing) Applied several regression fixes and further improvement. The raptor number could reach 2.2 standard now expect one concern: It might delay the loaded event because we lazyload css styles right after DOMContentLoaded event. Bug 1211853 might fix that if we can control the splash screen dismiss. 
 
 ## 2015 Q4 Goals
 
