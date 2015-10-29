@@ -1,9 +1,13 @@
 ## 09/21 ~ 09/25
-[Build]
+[TV System]
 * [Bug 1211400](http://bugzil.la/1211400) - [TV][2.5] Preview an app on Marketplace
  * Surveying how to listen back key event on preview window, but unfortunately I probably ran into key event issue which keystrokes are unable to send to preview window. I'm tracing shell.js in order to find out root cause with Chun Min.
+
+[Build]
 * [Bug 1215437](http://bugzil.la/1215437) - Upgrade b2g_sdk for supporting new gecko features
  * Try to upgrade gaia's b2g_sdk to 44.0a1 but it was backed out due to CI server issues and waiting for bug 1204800.
+
+[Other]
 * Clean up review and needinfo queues
 
 ## 2015 Q4 Goals
