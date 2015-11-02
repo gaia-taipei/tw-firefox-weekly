@@ -1,18 +1,21 @@
-## This week 10/19 ~ 10/23
+## This week 10/26 ~ 10/30
+* 2.5 blocker
+  - Bug 1215674 - If the user closes music and quickly locks the device, the music widget will still be present.
+    - (Reviewing) It's known issue since there's some race condition between music IAC and app terminated event. Created a workaround that check the music app existence before applying the playback status.
+
+* Addon migration to marketplace
+  - Help to migrate some addons in hackerplace to marketplace. Stuck in requesting permission and waiting for Andrew's reply.  
+  
+* Developer conference in Japan
+  - Have some discussion with Tomoya and Peyton about the speech topic and abstract. 
+
+## Last week 10/19 ~ 10/23
 * 2.5 blocker
   - Bug 1192263 - [Messages] We load Inbox before going to the notification conversation when app is run via notification click.
-    - (Feedback granted) We've decided to apply the solution even it might have an edge case that notification might not work while doing rapid removal and clicking on another notification(But it's harmless).  
-  - Bug 1211395 - Performance regression in Message
-    - (Landed) and created another follow up to see if we can make sure the load event happens earlier.
+    - Landed.
   - Bug 1217075 - [Messages] Both message and draft are preserved in the main app instance in case message is sent from another activity instance (until app is restarted)
-    - (Reviewing) It's known issue in message app and we have some existing event handling mechanism to solve it properly.
-
-## Last week 10/12 ~ 10/16
-* 2.5 blocker
-- Bug 1192263 - [Messages] We load Inbox before going to the notification conversation when app is run via notification click.
-  - (Requesting feedback) Since reviewer might have some concern about the race condition while startup, gave 2 different approaches for more thoughts.
-- Bug 1211395 - Performance regression in Message
-  - (Reviewing) Applied several regression fixes and further improvement. The raptor number could reach 2.2 standard now expect one concern: It might delay the loaded event because we lazyload css styles right after DOMContentLoaded event. Bug 1211853 might fix that if we can control the splash screen dismiss. 
+    - Landed.
+  - Reviewing other messages patches.
 
 ## 2015 Q4 Goals
 
