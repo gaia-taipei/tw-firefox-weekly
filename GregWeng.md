@@ -1,31 +1,40 @@
-## 10/19 ~ 10/23
+## 10/26 ~ 10/30
 
 ### Stabilize LockScreen (reduce regressions)
 
 * Bug 1205578 - [lockscreen] lockscreen still milky colored even if all notifications are cleared
-  * Reviewed and have some concerns about the latest regression, so I will reply later
+  * RESOLVED FIXED
 
 * Bug 1215674 - If the user closes music and quickly locks the device, the music widget will still be present
-  * A very late regression that QA reported it related to NGA, but from the current bisecting result I need to do more things to pin down the root cause
-  * 2.5+
+  * Review+; waiting Steve to land the workaround
 
 * Bug 1198417 - [Aries][Lockscreen] rotates with device but slider does not respond
-  * I'm unable to reproduce it now. Set NI to see if we can get new reports about that
+  * There are no new reports for that from the original reporter.
+
+* Bug 1175809 - [NFC] Unable to share URL via NFC when play video on full screen mode
+  * RESOLVED FIXED: master patch landed
+  * Debugging the 2.2 patch
 
 ### Write more integration tests
 
 * Bug 1218645 - [LockScreen] Re-write Gij tests that in the abandoned Gip
   * I'm working on this to revive the integration tests of LockScreen
-  * The first WIP patch is about the unlocking behavior with passcode
+  * Should at least port two or more this week after I solve some fundamental issues
 
 ### DeviceLock API
 
-* (Queued after 2.5 blockers; no progress this week)
+* (Queued after the Gij tests)
 
 ### Other tasks
 
 * Bug 1175623 - [FindMyDevice][Kill Switch]in the "Kill-Switch" mode, the device should be locked with a 6 digit passcode set on the website
-  * Draft ver.2; need to fix animation according to the spec and the comment by UX
+  * Patch now is waiting for Gecko to support it
+
+* Bug 942837 - [User Story] Show Alarm Time on Lock Screen 
+  * In the reviewing process; code really need to be tidied up.
+
+* Bug 1165814 - [raptor] Add an option to let user determinate when to flush the log, and add a Marionette phase for combing them together
+  * I'm trying the test method Eli mentioned; however, node-gyp failed at a compilation stage, need to figure out it first
 
 ## 2015 Q4 Goals
 
