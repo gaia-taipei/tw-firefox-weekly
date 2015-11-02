@@ -1,27 +1,38 @@
 [Open bugs assigned to me](https://bugzilla.mozilla.org/buglist.cgi?quicksearch=assignee%3Agasolin%40mozilla.com) (ASSIGNED = current working on; NEW = backlog)
 
-## 10/129~ 10/23
+## 10/26~ 10/30
+
+With landing Bug 1218271 & Bug 1218271, Settings decrease ~200ms loadtime (2.8s->2.6s).
 
 [Settings]
-  - Bug 1207471 - reorganized shims in alphabet order
+  - checking Settings blockers
+  - Bug 1214951 - addon plus button UX is inconsistent with home screens
     - r+ & landed
-  - Bug 1190041 - use normal button for Firefox Account
-    - landed
-  - Bug 1211341 - Remove bluetooth APIv1 code from Settings
-    - fixed all tests, the performance gain is ignorable, so not tracing it during 2.5
+  - Bug 1216075 - [Add-ons]there is no version information in Add-on description screen
+    - r+ & landed
+  - Bug 1218271 - panel specific styles should be defined in app.css or separated css
+    - r+ & landed
   - Bug 1216435 - remove RootPanelHandler from startup.js
-    - WIP, raptor shows positive result
-  - Arrange a pre-orlando meeting with UX at 11/3 for settings related discussion
+    - r+ & landed
+  - Bug 1213763 - Rename permission options to align with firefox desktop
+    - r+ & landed
+  Bug 1219563 - blue the 'get more addons' & 'get more homescreens' link after click
+    - r+ & landed
+  - Bug 1144426 - [Settings][Call Barring] Entering the wrong passcode in Call Barring results in ambiguous error message
+    - WIP
+  - Bug 1188082 - [Flame][Settings] Switch gets stuck in the disabled mode during turned on/off when we leave settings immediately
+    - identify issue
 
 [Review]
-  - r+, Bug 1206471 - Settings app's "Cellular & Data" screen lets me toggle "Data Connection" and "Data Roaming" settings even when I have no SIM inserted
-  - r+, Bug 1214533 - Move History and Cokie button down in Browsing Privacy panel
-  - r+, Bug 1193910 - check for updates : nothing happens
-  - r+, Bug 1216400 - Convert settings call sub-panels to use gaia-switch
-  - r+, Bug 1202974 - [Settings] Convert call settings switches to use web components
-    - learn & tested call related functions like FDN, call baring, call forwarding
-  - r+, Bug 1014442 - [Settings] refactor Find My Device panel with AMD pattern
-  - r+, Bug 1020699 - Follow-up to 908300: remove auto-resizing from font_size_utils.js once apps use Header Web Component
+  - r+, Bug 1215654 - [Metrics] Metrics may not be recorded when level set to enhanced
+  - r+, Bug 1172349 - [Settings] Convert remaining switches to use gaia-switch component
+  - r+, Bug 1217734 - Deleted duplicate home screens can be selected
+  - r+, Bug 1215654 - [Metrics] Metrics may not be recorded when level set to enhanced
+  - r+, Bug 1215546 - Fixes add-on list after installation
+  - r+, Bug 1217730 - Duplicated home screens shown as separate home screens
+  - r+, Bug 1217741 - using content_scripts that will be included in manifest by default instead of fetching manifest.json
+  - r+, Bug 1218723 - [RTL][Settings]The parenthesis in "Data Settings" view are displayed incorrectly
+
 
 ## 2015 Q4 Goals
 1. Solving Blockers and implement &lt;to be decided&gt; features, as measured by implementation completeness.
