@@ -1,46 +1,44 @@
-## 10/19 ~ 10/23 ##
+## 10/26 ~ 10/30 ##
 
 ### Last week
 * [Audio Channel Management]
-  - Bug 1180618 - Ringer is not managed by Audio Channel Service
+  - Bug 1218666 - Play icon will hide when get a notification
     - Landed.
-  - Bug 1216495 - Change audio channel type of the click sound from "normal" to "system"
+  - Bug 1217303 - Remove mozContentEvent and mozChromeEvent about controlling System's audio channel in shell.js
     - Landed.
-  - Bug 1217300 - Remove mozContentEvent and mozChromeEvent about controlling System's audio channel in Gaia.
-    - Landed.
-  - Bug 1217303 - Remove mozContentEvent and mozChromeEvent about controlling System's audio channel in shell.js 
-    - amarchesini: r+
-  - Bug 1206621 - Merge AudioChannelManager to TV System App
-    - Reviewed it and gave f+.
-
-* [Clean needinfo]
-  - https://bugzil.la/1180618#c27
-  - https://bugzil.la/1190434#c34
-  - https://bugzil.la/1216417#c2
+  - Bug 1218593 - Dialer touch tones sounds intermittently stop playing audio in Dialer.
+    - Investigated, this is a gecko bug.
+  - Bug 1213666 - No sound in videos from France 24
+    - Investigated, this is a gecko bug.
+  - Bug 1218690 - Marionette tests for play icon
+    - Already had a WIP patch, but Music app cannot be launched in local. Will fix it in next week.
+  - Bug 1218692 - [meta] Marionette tests for Audio Channel Management
+    - Listed test cases in the below bugs.
+      - Bug 1096163 - Marionette tests for audio channel competing
+      - Bug 1218690 - Marionette tests for play icon
+        - Listed 5 test cases in http://bugzil.la/1218690#c2.
+      - Bug 1218691 - Marionette tests for current volume type
+      - Bug 1220053 - Make sure audio channel management works well for 3-rd-party app
+        - Listed 2 test cases in https://bugzil.la/1220053#c1.
 
 * [Web of Things]
-  - Prepare MozFest demo.
-    - Made a list of things we need for MozFest.
-    - Discussed how to demo and present our projects.
-    - https://docs.google.com/document/d/1086qJAf4zPbyWvaEGI6Unc1gHEO9v3V-NpiI8dz2w9A/edit?ts=561b795c
+  - Recorded a demo video for Web of Things Maker.
+    - https://drive.google.com/a/mozilla.com/file/d/0B95rKL0BstcnSDRnc2gyaUxMUDg/view
 
 ### This week
 * [Audio Channel Management]
-  - Bug 1217303 - Remove mozContentEvent and mozChromeEvent about controlling System's audio channel in shell.js
-    - Fix the failures in Treeherder.
-  - Bug 1218666 - Play icon will hide when get a notification
+  - (2.5?)Bug 1220320 - [Accessibility] Screen Reader prompt no longer plays, automatically in the FTU or after toggling volume up and down several times.
     - Start to investigate and fix the bug.
   - Bug 1218690 - Marionette tests for play icon
-    - Start to write tests for Audio Channel Management.
-  - Bug 1218692 - [meta] Marionette tests for Audio Channel Management
-    - Make test plan and file bugs for it.
+    - Fix the Music app issue and continue to write tests listed in http://bugzil.la/1218690#c2.
+  - Bug 1199757 - brief sound after hang up
+    - Start to investigate and fix the bug.
+  -Bug 864416 - [music]Volume resets to being audible when you launch music app and play a song.
+    - Start to investigate and fix the bug.
 
 * [Web of Things]
-  - Record the demo video for Web of Things Maker.
-    - Need the video in MozFest 2015.
-
-* [BT Test App]
-  - Weekly meeting.
+  - Will attend MozFest 2015 during 11/4 and 11/10.
+  - Prepare for MozFest demo.
 
 ## 2015 Q4 Goals
 1. Investigate Media Focus. http://bugzil.la/1206691, as measured by (a) making a technical decision on whether or not to implement that, and (b) completeness on the implementation plan.
