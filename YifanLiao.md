@@ -43,3 +43,9 @@ This Week
   - [WIP] Bug 1214992: [Stingray][Home] Filter should also search cards inside folders
   - [WIP] Bug 1219609: Change header of bookmarks view from 'Bookmark' to 'Bookmarks'
   - [WIP] Bug 1220030: [TV Browser] The underline should be red if the passwords are less than 8 characters in length
+
+## 2015 Q4 Goals
+1. Implement Firefox Account sign in feature on TV, as measured by implementation completeness.
+2. Work with datay sync team to implement bookmarks and history sync on TV, as measured by implementation completeness.
+3. Enable the skipped GijTV marionette tests, as measured by numbers of test cases enabled.
+4. Improving TV browser including module dependency and browser dialog, as measured by numbers of issues addressed.
