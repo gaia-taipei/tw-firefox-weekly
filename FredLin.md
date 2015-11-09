@@ -1,48 +1,55 @@
 [Open bugs assigned to me](https://bugzilla.mozilla.org/buglist.cgi?quicksearch=assignee%3Agasolin%40mozilla.com) (ASSIGNED = current working on; NEW = backlog)
 
-## 10/26~ 10/30
-
-With landing Bug 1216435 & Bug 1218271, Settings decrease ~200ms loadtime (2.8s->2.6s).
+## 11/02 ~ 11/06
 
 [Settings]
-  - checking Settings blockers
-  - Bug 1214951 - addon plus button UX is inconsistent with home screens
-    - r+ & landed
-  - Bug 1216075 - [Add-ons]there is no version information in Add-on description screen
-    - r+ & landed
-  - Bug 1218271 - panel specific styles should be defined in app.css or separated css
-    - r+ & landed
-  - Bug 1216435 - remove RootPanelHandler from startup.js
-    - r+ & landed
-  - Bug 1213763 - Rename permission options to align with firefox desktop
-    - r+ & landed
-  Bug 1219563 - blue the 'get more addons' & 'get more homescreens' link after click
+  - gather current settings in-planning list from UX/engineering perspective https://public.etherpad-mozilla.org/p/settings
+  - triage settings bug lists
+    - reduce bugs number from 1403 -> 1242
+    - increase backlogs from 128 -> 162
+  - Bug 1217717 - disable the Airplane mode interaction before the wifi panel is ready
     - r+ & landed
   - Bug 1144426 - [Settings][Call Barring] Entering the wrong passcode in Call Barring results in ambiguous error message
-    - WIP
-  - Bug 1188082 - [Flame][Settings] Switch gets stuck in the disabled mode during turned on/off when we leave settings immediately
-    - identify issue
+    - r+ & landed
+  - Bug 1220515 - blur get more languages link after click
+    - r+ & landed
+  - Bug 1220046 - unobserve airplanemode when uninit,
+    - r+ & landed
+  - Discuss settings requirements with UX
+  - Bug 1211341 - Remove bluetooth APIv1 code from Settings
+
+[Bluetooth]
+  - Bug 1211342 - Remove bluetooth APIv1 code from Bluetooth
+    - r?
+
+[immediate action in Selection menu]
+  - Bug 1206572 - Add activity to support Search keyword through default provider
+    - merged
+  - support immediate actions on selection menu
+    - PR, need fix gij tests
+
+- update https://wiki.mozilla.org/Gaia/Shared/Components state
 
 [Review]
-  - r+, Bug 1215654 - [Metrics] Metrics may not be recorded when level set to enhanced
-  - r+, Bug 1172349 - [Settings] Convert remaining switches to use gaia-switch component
-  - r+, Bug 1217734 - Deleted duplicate home screens can be selected
-  - r+, Bug 1215654 - [Metrics] Metrics may not be recorded when level set to enhanced
-  - r+, Bug 1215546 - Fixes add-on list after installation
-  - r+, Bug 1217730 - Duplicated home screens shown as separate home screens
-  - r+, Bug 1217741 - using content_scripts that will be included in manifest by default instead of fetching manifest.json
-  - r+, Bug 1218723 - [RTL][Settings]The parenthesis in "Data Settings" view are displayed incorrectly
-
+  - r+, Bug 1218705 - [Settings] The descriptions of "Data Connection" and "Data Roaming" should be illustrated more precisely
+  - r+, Bug 1220978 - migrate Bluetooth to use NotificationHelper
+  - r+, Bug 808141 - Wi-Fi shows "offline" whereas it should be "Not connected"
+  - r+, Bug 1220532 - the accessible-app-icon aria string is incorrect
+  - r-, Bug 1219306 - Disable lockscreen related settings when NO_LOCK_SCREEN is 1
 
 ## 2015 Q4 Goals
 1. Solving Blockers and implement &lt;to be decided&gt; features, as measured by implementation completeness.
-  - Bug 1194045 - USB protocol can only be changed while USB storage is disabled.
-  - Bug 1203461 - USB protocol can only be changed when device unplugged
-  - Bug 1145332 - [FDN] Incorrect message displayed when updating FDN contact
-  - Bug 1145332 - [Settings]A alert "An unknown error occurred" pops up when user enters wrong PIN 2 and then changes to new PIN2
-  - Bug 1216075 - there is no version information in Add-on description screen.
-  - Bug 1217717 - Turn off airplane mode from settings, the wifi will be toggled on/off alternately
+  - Blockers
+    - Bug 1194045 - USB protocol can only be changed while USB storage is disabled.
+    - Bug 1203461 - USB protocol can only be changed when device unplugged
+    - Bug 1145332 - [FDN] Incorrect message displayed when updating FDN contact
+    - Bug 1145332 - [Settings]A alert "An unknown error occurred" pops up when user enters wrong PIN 2 and then changes to new PIN2
+    - Bug 1216075 - there is no version information in Add-on description screen.
+    - Bug 1217717 - disable the Airplane mode interaction before the wifi panel is ready
+    - Bug 1220046 - [Settings] In Settings view, the "Airplane mode" item is displayed wrongly as toggled off, but actually it is on
 2. Support Peripherals team for Bluetooth/transfer related Blockers, as measured by blocker burn down and days of blocker turnarounds.
+  - Bug 1211341 - Remove bluetooth APIv1 code from Settings
+  - Bug 1211342 - Remove bluetooth APIv1 code from Bluetooth
 3. Improving settings including css maintainability, dialog, load time, addon hackability etc. (curated todo list http://bit.ly/settingsbacklog), as measured by # of issues addressed (eng plan or implementation).
   - Bug 1214507 - polish startup procedure
   - With landing Bug 1216435 & Bug 1218271, Settings decrease ~200ms loadtime (2.8s->2.6s)
