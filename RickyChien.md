@@ -1,14 +1,19 @@
-## 09/21 ~ 09/25
+## 10/26 ~ 11/06
 [TV System]
 * [Bug 1211400](http://bugzil.la/1211400) - [TV][2.5] Preview an app on Marketplace
- * Surveying how to listen back key event on preview window, but unfortunately I probably ran into key event issue which keystrokes are unable to send to preview window. I'm tracing shell.js in order to find out root cause with Chun Min.
+ * Completed back key feature - ability to back to previous page in preview window and dismiss preview window when history is empty.
+ * Survey and understand appwindow life cycle in order to figure out where is the best place to kill preview app when it's unused by users.
 
 [Build]
 * [Bug 1215437](http://bugzil.la/1215437) - Upgrade b2g_sdk for supporting new gecko features
  * Try to upgrade gaia's b2g_sdk to 44.0a1 but it was backed out due to CI server issues and waiting for bug 1204800.
 
 [Other]
+* Attend to web summit 2015 in Dublin 11/1 - 11/7
 * Clean up review and needinfo queues
+ * [Bug 1220528](http://bugzil.la/1220528) - Configure the default build flag FIREFOX_SYNC to ENABLE in v2.5 branch, TV only
+ * [Bug 1219302](http://bugzil.la/1219302) - Support removing files using the preprocessor when a flag is enabled
+ * [Bug 1178242](http://bugzil.la/1178242) - Notes app can't sign in to Evernote
 
 ## 2015 Q4 Goals
 1. Support TV 2.5 feature - Provide an ability to preview an app on Marketplace [[TV][2.5] Preview an app on Marketplace](https://bugzilla.mozilla.org/show_bug.cgi?id=1211400), as measured by implementation (completeness and stability of the feature)
