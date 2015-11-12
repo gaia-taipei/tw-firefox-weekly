@@ -1,44 +1,39 @@
-## 10/26 ~ 10/30 ##
+## 11/02 ~ 11/06 ##
 
 ### Last week
 * [Audio Channel Management]
-  - Bug 1218666 - Play icon will hide when get a notification
-    - Landed.
-  - Bug 1217303 - Remove mozContentEvent and mozChromeEvent about controlling System's audio channel in shell.js
-    - Landed.
-  - Bug 1218593 - Dialer touch tones sounds intermittently stop playing audio in Dialer.
-    - Investigated, this is a gecko bug.
-  - Bug 1213666 - No sound in videos from France 24
-    - Investigated, this is a gecko bug.
+  - (2.5?)Bug 1220320 - [Accessibility] Screen Reader prompt no longer plays, automatically in the FTU or after toggling volume up and down several times.
+    - After invetigated, it's a gecko bug.
   - Bug 1218690 - Marionette tests for play icon
-    - Already had a WIP patch, but Music app cannot be launched in local. Will fix it in next week.
-  - Bug 1218692 - [meta] Marionette tests for Audio Channel Management
-    - Listed test cases in the below bugs.
-      - Bug 1096163 - Marionette tests for audio channel competing
-      - Bug 1218690 - Marionette tests for play icon
-        - Listed 5 test cases in http://bugzil.la/1218690#c2.
-      - Bug 1218691 - Marionette tests for current volume type
-      - Bug 1220053 - Make sure audio channel management works well for 3-rd-party app
-        - Listed 2 test cases in https://bugzil.la/1220053#c1.
+    - Fixed, the Music app can be launched correctly.
+    - Continue to write tests.
+  - Bug 1199757 - brief sound after hang up
+    - Cannot reproduce, RESOLVED WORKSFORME.
+  - Bug 864416 - [music]Volume resets to being audible when you launch music app and play a song.
+    - Cannot reproduce, RESOLVED WORKSFORME.
 
 * [Web of Things]
-  - Recorded a demo video for Web of Things Maker.
-    - https://drive.google.com/a/mozilla.com/file/d/0B95rKL0BstcnSDRnc2gyaUxMUDg/view
+  - Attended MozFest 2015 during 11/4 and 11/10.
+    - Prepared for the demonstration.
+    - Demonstrated and introduced Web of Things Maker to attendees.
 
 ### This week
 * [Audio Channel Management]
-  - (2.5?)Bug 1220320 - [Accessibility] Screen Reader prompt no longer plays, automatically in the FTU or after toggling volume up and down several times.
+  - Bug 1222300 - [B2G] "Content" channel can't be resumed after the "normal" channel ended
+    - Start to investigate and fix the bug.
+  - Bug 1214908 - music stops due to screen unlock sound
+    - Start to investigate and fix the bug.
+  - Bug 843956 - [Settings] When Music is in background, go to sound menu and select ringtone then two sounds are played at the same time
+    - Start to investigate and fix the bug.
+  - Bug 1223194 - [Aries] Ringtone and Notification volume is much quieter than the Dialer Keypad volume, despite being set by the same Ringtones & Notifications volume setting.
     - Start to investigate and fix the bug.
   - Bug 1218690 - Marionette tests for play icon
-    - Fix the Music app issue and continue to write tests listed in http://bugzil.la/1218690#c2.
-  - Bug 1199757 - brief sound after hang up
-    - Start to investigate and fix the bug.
-  -Bug 864416 - [music]Volume resets to being audible when you launch music app and play a song.
-    - Start to investigate and fix the bug.
+    - Fixed the Music app issue, and continue to write tests.
 
 * [Web of Things]
-  - Will attend MozFest 2015 during 11/4 and 11/10.
-  - Prepare for MozFest demo.
+  - Have a meeting for WoT demo in Mozlando.
+    - Discuss the features and UI design.
+    - Discuss the implementation.
 
 ## 2015 Q4 Goals
 1. Investigate Media Focus. http://bugzil.la/1206691, as measured by (a) making a technical decision on whether or not to implement that, and (b) completeness on the implementation plan.
