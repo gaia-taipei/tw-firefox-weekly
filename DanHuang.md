@@ -2,32 +2,33 @@
 ### Last Week ###
 
 * [TV]
-    - [FIXED]1216878 - [browser] export bookmarkList.js as a general list render library in tv
-    - [FIXED]1217463 - Deal with case where 'places' bookmark is missing
-    - [FIXED]1194092 - [browser] Firefox Account sync history
-    - [FIXED]1217710 - [TV Browser] Synced bookmark organization is inconsistent between bookmarks from desktop and mobile
-    - [FIXED]1218665 - [TV Browser] Removing folder icon of "Back to <folder name>"
-    - [FIXED]1219576 - [TV Browser] Failed to remove the bookmark
-
-* [Review]
-    - Bug 1218314 - Re-skin and animate UI components in the Firefox Account sign in flow
-
-### This Week ###
-
-* [TV]
-    - 1219609 - Change header of bookmarks view from 'Bookmark' to ‘Bookmarks'
-    - 1220030 - [TV Browser] The underline should be red if the passwords are less than 8 characters in length
-    - 1217709 - [TV Browser] Reading list in synced bookmarks shows nothing
-    - 1220958 - [browser] Refactor historyStore.js
-    - 1219564 - [browser] mouse cursor in bookmark and history list
-    - 1219575 - [browser] fetch favor icon from sync bookmark and history data
+    - [FIXED]1219609 - Change header of bookmarks view from 'Bookmark' to ‘Bookmarks'
+    - [FIXED]1220030 - [TV Browser] The underline should be red if the passwords are less than 8 characters in length
+    - [FIXED]1217709 - [TV Browser] Reading list in synced bookmarks shows nothing
+    - [FIXED]1219575 - [browser] fetch favor icon from sync bookmark and history data
+    - [REVIEW]1220958 - [browser] Refactor historyStore.js
+    - [REVIEW]1219564 - [browser] mouse cursor in bookmark and history list
 
 * [Review]
     - 1221472 - [TV Browser] Some histories show only URLs with blank title
 
-
 * [Presentation]
     - evaluate the presentation environment
+
+### This Week ###
+
+* [TV]
+    - 1220958 - [browser] Refactor historyStore.js
+    - 1219564 - [browser] mouse cursor in bookmark and history list
+    - 1221427 - [TV Browser] Failed to go back to one-up level after tapping the Back button in Bookmarks list
+    - 1220381 - [TV][browser] Revise TV pocket menu item from "https://getpocket.com/" to "https://getpocket.com/fxostv"
+    - 1220380 - [TV][browser] Revise pocket on TV menu item to "Pocket icon" + "Pocket"
+
+* [Probation]
+    - prepare document
+
+* [Presentation]
+    - prepare power point
 
 ## 2015 Q4 Goals
 
