@@ -1,44 +1,53 @@
-## 10/12 - 10/16 ##
+## 10/26 - 10/30 ##
 
 ### Last Week ###
 
-* [TV remote control]
-    - [WIP] Bug 1212407 - [TV 2.5] Implement the functionalities of the client-side page of TV remote control
-        - updated my patch according to UX's feedback and compatibility issues
-        - helped to fix a compatibility bug when using l20n.js on Safari (Mac, iOS)
-        - waiting for reviewing
-    - [WIP] Bug 1215075 - [TV 2.5] Implement a pairing page on the client-side
-        - discussed the pairing procedure with Eric
-        - had a WIP patch
-    - [WIP] Bug 1214993 - [TV 2.5] "sendKeyEvent" doesn't work when sending "DOM_VK_HOME" to trigger homescreen
-        - finished the patch and got r+
-    - [Done] Bug 1207995 - [TV 2.5] Provide remote control service current control mode
-        - finished my patch
+* [TV Remote Control]
+    - [Done] Bug 1215076 - [TV 2.5] Implement the remote control pairing notification in TV system
         - landed on master
+    - [Done] Bug 1203853 - Provide a QR code on the remote control app on TV
+        - landed on master
+    - [Done] Bug 1212407 - [TV 2.5] Implement the functionalities of the client-side page of TV remote control
+        - landed on master
+    - [Done] Bug 1215075 - [TV 2.5] Implement a pairing page on the client-side
+        - landed on master
+    - [Done] Bug 1218682 - [TV 2.5] Improve the input function in remote control client by one-way sync
+        - discussed the new behavior with UX
+        - made the patch and got r+
+        - landed on master
+    - [WIP] Bug 1215457 - [TV 2.5] Secure connection between remote control server and client
+        - aesigned the proposal: https://wiki.mozilla.org/Firefox_OS/Remote_Control#Secure_Connection
+        - arranged a con-call meetings with Paul Theriault
+        - futher discussion on IRC
+    - Confirmed and updated all the L10N strings with UX
 
-* [Audio Channel]
-    - [WIP] Bug 1206621 - Merge AudioChannelManager to TV System App
-        - updated the patch for testing
-    - [WIP] Bug 1214148 - AudioChannel API design doesn't fit into nested mozbrowser iframe case
-        - participated the discussion about the proposal
+* [TV App Usage Metrics]
+    - Tested it on partner's real device but found some bugs. Have written a patch to workaround it
+    - Figured out the partner's native app working flow
 
-* [SUPL NI]
-    - [WIP] Bug 1201778 - [GPS-SUPL NI] Support for displaying notification message to user
-        - discussed the encoding issue with Alphan
-        - updated the patch of Gaia part
+* [TV Audio Channel]
+    - the patch doesn't work on partner's branch
+    - dug into it with Kilik
 
-* [TV]
-    - Discussed the new TV marketplace workflow with Ricky
-    - Participated the meeting with the partner about the keyboard issue
-    - Bug 1210700 - Fling player control panel should hide and show based on user's key input
-        - gave a feedback
+* [TV Marketplace Workflow]
+    - Helped Ricky on AppWindowManager and Key Event issues
+    - Answered questions via mail
 
-* [Others]
-    - Discussed the TV optimized website workshop with Eddie
+* [Firefox Developers Conference 2015]
+    - Refined the SpatialNavigation library
+    - Prepared slides
 
 ### This Week ###
 
-* [TV remote control]
-    - [WIP] Bug 1215075 - [TV 2.5] Implement a pairing page on the client-side
-    - [New] Bug 1215076 - [TV 2.5] Implement the remote control pairing notification in TV system
-    - [New] Bug 1212403 - [TV 2.5] Apply visual spec to the client-side page of TV remote control
+* [TV Remote Control]
+    - [WIP] Bug 1215457 - [TV 2.5] Secure connection between remote control server and client
+
+* [TV App Usage Metrics]
+    - follow up porting issues
+
+* [TV Audio Channel]
+    - follow up porting issues
+
+* [Firefox Developers Conference 2015]
+    - Refined the SpatialNavigation library
+    - Prepared slides
