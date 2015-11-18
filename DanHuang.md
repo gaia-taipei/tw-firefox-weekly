@@ -2,33 +2,33 @@
 ### Last Week ###
 
 * [TV]
-    - [FIXED]1219609 - Change header of bookmarks view from 'Bookmark' to ‘Bookmarks'
-    - [FIXED]1220030 - [TV Browser] The underline should be red if the passwords are less than 8 characters in length
-    - [FIXED]1217709 - [TV Browser] Reading list in synced bookmarks shows nothing
-    - [FIXED]1219575 - [browser] fetch favor icon from sync bookmark and history data
-    - [REVIEW]1220958 - [browser] Refactor historyStore.js
-    - [REVIEW]1219564 - [browser] mouse cursor in bookmark and history list
-
-* [Review]
-    - 1221472 - [TV Browser] Some histories show only URLs with blank title
-
-* [Presentation]
-    - evaluate the presentation environment
-
-### This Week ###
-
-* [TV]
-    - 1220958 - [browser] Refactor historyStore.js
-    - 1219564 - [browser] mouse cursor in bookmark and history list
-    - 1221427 - [TV Browser] Failed to go back to one-up level after tapping the Back button in Bookmarks list
-    - 1220381 - [TV][browser] Revise TV pocket menu item from "https://getpocket.com/" to "https://getpocket.com/fxostv"
-    - 1220380 - [TV][browser] Revise pocket on TV menu item to "Pocket icon" + "Pocket"
+    - [REVIEW] -  Refactor historyStore.js
+    - [REVIEW] - mouse cursor in bookmark and history list
+    - [REVIEW] - Failed to go back to one-up level after tapping the Back button in Bookmarks list
+    - [FIXED]1220381 - Revise TV pocket menu item from "https://getpocket.com/" to "https://getpocket.com/fxostv"
+    - [WIP]1220380 - Revise pocket on TV menu item to "Pocket icon" + "Pocket"
 
 * [Probation]
     - prepare document
 
 * [Presentation]
     - prepare power point
+
+### This Week ###
+
+* [TV]
+    - 1220380 - [TV][browser] Revise pocket on TV menu item to "Pocket icon" + "Pocket"
+    - 1225431 - [TV][2.5][browser] Revise l10n string from 'Disconnect' to 'Sign Out' in setting page
+    - 1220605 - [TV Browser] The Browser Setting page disappears for a few seconds
+    - 1224255 - [TV Browser] ("Show password") The underline should be red if the passwords are less than 8 characters in length
+    - 1224427 - [TV Browser] Strange window popped up after pressing "Forgot your password"
+
+* [Presentation]
+    - prepare demo
+
+* [TV Workshop]
+    - talk and mentor arrangement
+    - testing how to install APP in Panasonic TV
 
 ## 2015 Q4 Goals
 
