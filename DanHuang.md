@@ -2,35 +2,36 @@
 ### Last Week ###
 
 * [TV]
-    - [FIXED]1216878 - [browser] export bookmarkList.js as a general list render library in tv
-    - [FIXED]1217463 - Deal with case where 'places' bookmark is missing
-    - [FIXED]1194092 - [browser] Firefox Account sync history
-    - [FIXED]1217710 - [TV Browser] Synced bookmark organization is inconsistent between bookmarks from desktop and mobile
-    - [FIXED]1218665 - [TV Browser] Removing folder icon of "Back to <folder name>"
-    - [FIXED]1219576 - [TV Browser] Failed to remove the bookmark
+    - [REVIEW] -  Refactor historyStore.js
+    - [REVIEW] - mouse cursor in bookmark and history list
+    - [REVIEW] - Failed to go back to one-up level after tapping the Back button in Bookmarks list
+    - [FIXED]1220381 - Revise TV pocket menu item from "https://getpocket.com/" to "https://getpocket.com/fxostv"
+    - [WIP]1220380 - Revise pocket on TV menu item to "Pocket icon" + "Pocket"
 
-* [Review]
-    - Bug 1218314 - Re-skin and animate UI components in the Firefox Account sign in flow
+* [Probation]
+    - prepare document
+
+* [Presentation]
+    - prepare power point
 
 ### This Week ###
 
 * [TV]
-    - 1219609 - Change header of bookmarks view from 'Bookmark' to ‘Bookmarks'
-    - 1220030 - [TV Browser] The underline should be red if the passwords are less than 8 characters in length
-    - 1217709 - [TV Browser] Reading list in synced bookmarks shows nothing
-    - 1220958 - [browser] Refactor historyStore.js
-    - 1219564 - [browser] mouse cursor in bookmark and history list
-    - 1219575 - [browser] fetch favor icon from sync bookmark and history data
-
-* [Review]
-    - 1221472 - [TV Browser] Some histories show only URLs with blank title
-
+    - 1220380 - [TV][browser] Revise pocket on TV menu item to "Pocket icon" + "Pocket"
+    - 1225431 - [TV][2.5][browser] Revise l10n string from 'Disconnect' to 'Sign Out' in setting page
+    - 1220605 - [TV Browser] The Browser Setting page disappears for a few seconds
+    - 1224255 - [TV Browser] ("Show password") The underline should be red if the passwords are less than 8 characters in length
+    - 1224427 - [TV Browser] Strange window popped up after pressing "Forgot your password"
 
 * [Presentation]
-    - evaluate the presentation environment
+    - prepare demo
+
+* [TV Workshop]
+    - talk and mentor arrangement
+    - testing how to install APP in Panasonic TV
 
 ## 2015 Q4 Goals
 
-1. Bookmark & history sync UI, as measured by displaying local/synced data and handle more than thousand of records on dom manipulating, working time in 60%.
-2. Pocket app, as measured by, as measured by link in browser menu and app in app deck, working time in 10%.
-3. FxA Sync sign in flow pages, as measured by all pages in sign in flow and settings, working time in 30%.
+1. Bookmark & history sync UI, as measured by feature completeness, working time in 60%.
+2. Pocket app, as measured by, as measured by feature completeness, working time in 10%.
+3. FxA Sync sign in flow pages, as measured by feature completeness, working time in 30%.
