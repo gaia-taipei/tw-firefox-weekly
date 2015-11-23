@@ -1,51 +1,42 @@
-## 10/26 - 10/30 ##
+## 11/02 - 11/06 ##
 
 ### Last Week ###
 
 * [TV Remote Control]
-    - [Done] Bug 1215076 - [TV 2.5] Implement the remote control pairing notification in TV system
-        - landed on master
-    - [Done] Bug 1203853 - Provide a QR code on the remote control app on TV
-        - landed on master
-    - [Done] Bug 1212407 - [TV 2.5] Implement the functionalities of the client-side page of TV remote control
-        - landed on master
-    - [Done] Bug 1215075 - [TV 2.5] Implement a pairing page on the client-side
-        - landed on master
-    - [Done] Bug 1218682 - [TV 2.5] Improve the input function in remote control client by one-way sync
-        - discussed the new behavior with UX
-        - made the patch and got r+
-        - landed on master
     - [WIP] Bug 1215457 - [TV 2.5] Secure connection between remote control server and client
-        - aesigned the proposal: https://wiki.mozilla.org/Firefox_OS/Remote_Control#Secure_Connection
-        - arranged a con-call meetings with Paul Theriault
-        - futher discussion on IRC
-    - Confirmed and updated all the L10N strings with UX
+        - further discussion via mails
+        - improved our proposal
 
 * [TV App Usage Metrics]
-    - Tested it on partner's real device but found some bugs. Have written a patch to workaround it
-    - Figured out the partner's native app working flow
-
-* [TV Audio Channel]
-    - the patch doesn't work on partner's branch
-    - dug into it with Kilik
+    - Identified the porting issues and filed related bugs
+        - Bug 1221924 - [TV] FxOS TV Metrics - Treat the smart-home as an overlay instead of an app
+        - Bug 1221929 - Track the last used app before turning the device off
+        - Bug 1221931 - [TV] FxOS TV Metrics - Track the apps installed from partner's marketplace
+        - Bug 1221933 - [TV] FxOS TV Metrics - Track the downloadable browser app on partner's TV build
 
 * [TV Marketplace Workflow]
-    - Helped Ricky on AppWindowManager and Key Event issues
-    - Answered questions via mail
+    - Answered questions via mails
+
+* [TV Audio Channel]
+    - Worked with Kilik on further issues
 
 * [Firefox Developers Conference 2015]
     - Refined the SpatialNavigation library
     - Prepared slides
 
+* [Review]
+    - Bug 1202542 - [Stingray] Security limitation to presentation API requests
+    - Bug 1220576 - [TV] FTE for Home app
+    - Bug 1220589 - [TV] FTE for Pin-to-home context menu button
+
 ### This Week ###
 
 * [TV Remote Control]
+    - [New] Bug 1212403 - [TV 2.5] Apply visual spec to the client-side page of TV remote control
+    - [New] Bug 1212402 - [TV 2.5] Apply visual spec to the TV remote control app
     - [WIP] Bug 1215457 - [TV 2.5] Secure connection between remote control server and client
 
 * [TV App Usage Metrics]
-    - follow up porting issues
-
-* [TV Audio Channel]
     - follow up porting issues
 
 * [Firefox Developers Conference 2015]
