@@ -1,53 +1,59 @@
-## 10/26 - 10/30 ##
+## 11/09 - 11/13 ##
 
 ### Last Week ###
 
 * [TV Remote Control]
-    - [Done] Bug 1215076 - [TV 2.5] Implement the remote control pairing notification in TV system
-        - landed on master
-    - [Done] Bug 1203853 - Provide a QR code on the remote control app on TV
-        - landed on master
-    - [Done] Bug 1212407 - [TV 2.5] Implement the functionalities of the client-side page of TV remote control
-        - landed on master
-    - [Done] Bug 1215075 - [TV 2.5] Implement a pairing page on the client-side
-        - landed on master
-    - [Done] Bug 1218682 - [TV 2.5] Improve the input function in remote control client by one-way sync
-        - discussed the new behavior with UX
-        - made the patch and got r+
-        - landed on master
     - [WIP] Bug 1215457 - [TV 2.5] Secure connection between remote control server and client
-        - aesigned the proposal: https://wiki.mozilla.org/Firefox_OS/Remote_Control#Secure_Connection
-        - arranged a con-call meetings with Paul Theriault
-        - futher discussion on IRC
-    - Confirmed and updated all the L10N strings with UX
+        - got the positive feedback from Paul Theriault
+        - finalized our proposal
+    - [Done] Bug 1212403 - [TV 2.5] Apply visual spec to the client-side page of TV remote control
+        - wrote the patch and got r+
+        - landed on master
+        - requesting the approval for v2.5
+    - [WIP] Bug 1212402 - [TV 2.5] Apply visual spec to the TV remote control app
+        - worte the patch and got r+
+        - visual designer would like to change the icon so suspended
+    - [WIP] Bug 1223387 - [TV 2.5][meta] Revise Remote Control string base on copy review result
+        - confirmed the final strings with UX and EPM
+    - [WIP] Bug 1197751 - [TV 2.5] Write a event shuttle in Gecko
+        - helped clarifying the idea of our proposal
 
 * [TV App Usage Metrics]
-    - Tested it on partner's real device but found some bugs. Have written a patch to workaround it
-    - Figured out the partner's native app working flow
-
-* [TV Audio Channel]
-    - the patch doesn't work on partner's branch
-    - dug into it with Kilik
+    - [New] Bug 1218327 - "installs" in payload of app usage metric is not recorded when installing packaged app from Marketplace
+        - helped on porting the patch to TV build
+        - couldn't pass QA's test
+        - handed over to Rex
 
 * [TV Marketplace Workflow]
-    - Helped Ricky on AppWindowManager and Key Event issues
-    - Answered questions via mail
+    - Attended the meetings due to partner's request
+    - Keep helping Ricky on implementing this feature
+
+* [TV System]
+    - Attended the meetings Related to partner's porting issues
 
 * [Firefox Developers Conference 2015]
-    - Refined the SpatialNavigation library
+    - https://github.com/luke-chang/js-spatial-navigation
+    - Removed the dependency of jQuery from the library and Refactored the library
     - Prepared slides
+    - Presented a Brown bag
 
 ### This Week ###
 
-* [TV Remote Control]
-    - [WIP] Bug 1215457 - [TV 2.5] Secure connection between remote control server and client
-
-* [TV App Usage Metrics]
-    - follow up porting issues
-
-* [TV Audio Channel]
-    - follow up porting issues
-
 * [Firefox Developers Conference 2015]
-    - Refined the SpatialNavigation library
-    - Prepared slides
+    - Give a presentation about TV Optimized Web App
+    - http://www.mozilla.jp/events/devcon/2015/tokyo/
+
+* [TV Remote Control]
+    - [WIP] Bug 1212402 - [TV 2.5] Apply visual spec to the TV remote control app
+
+* [PTO]
+    - 11/17 - 11/19
+
+## 2015 Q4 Goals ##
+
+1. TV Remote Control implementation, as measured by implementation completeness. 60%
+2. TV partner support, as measured by number of issues handled. 10%
+3. TV Marketplace Workflow mentoring, as measured by number of issues handled. 10%
+4. TV optimized library (a.k.a. Spatial Navigation) implementation and presentation, as measured by implementation completeness. 10%
+5. TV App Usage Metrics porting, as measured by blockers burn down. 5%
+6. SUPL NI implementation, as measured by implementation completeness. 5%
