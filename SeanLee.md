@@ -1,19 +1,21 @@
 ### Last week
 
 * [Data Sync]
-  - [CLOSED][Bug 1211370] After verifying the patch at bug 1216394, it does fix the issue.
-  - [r?][Bug 1215436] Unit test of data adapter for converting data from Places/Bookmarks store to TV IndexedDB
-  - [CLOSED][Bug 1220528] Add device.mk for each form factor to configure FIREFOX_SYNC flag.
-  - [CLOSED][Bug 1221472] Show URL as title for an empty-title record.
+  - [CLOSED][Bug 1215436] Unit test of data adapter for converting data from Places/Bookmarks store to TV IndexedDB
+  - [CLOSED][Bug 1225017] Refactor smartlist and fix the empty title issue for bookmarks.
+  - [CLOSED][Bug 1225700] Fix the issue that build command can not override FIREFOX_SYNC flag.
+  - Review couple bugs for DataSync in TV.
 
 * [Cloud Storage]
-  - Test FileSystemProviderAPI in Gaia part. The API is still not avalible. Kershaw is investgating this issue.
-  - [Bug 1210338] Implement the test app for demo purpose.
+  - [Bug 1210338] Integrate Dropbox and MyJson service to Storage Manager app and verify FileSystemProvider API.
 
 * [MAP]
   - [Bug 1218685] Implement three notification event for MAP request.
 
 ### This week
+* [Cloud Storage]
+  - [Bug 1210338] Implement storage removing feature.
+
 * [Data Sync]
   - [Bug 1205901]  Two-way Synchronization History Data Adapter.
 
@@ -23,6 +25,11 @@
 * [Cloud Storage]
   - Thinking the next steps of Cloud Storage.
   - Plan the implementation of read-write cloud storage.
+
+## Mozlando WW Plan [schedule](https://mozlando2015.sched.org/seanlee)
+* Cloud Storage and DataSync next steps discussion - Preeti Sanketh, PM
+* Join Cloud Storage Demo session and get the feedback from Service team - alexis, natim
+* Follow Service Worker's plan and have brain storming with SW team - Andrew Overholt, ferjm
 
 ## 2015 Q4 Goals
 * [Cloud Storage] Help to write Gaia app to retrieve the files from Dropbox.
