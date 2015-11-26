@@ -1,22 +1,15 @@
-## This week 11/2 ~ 11/6
+## This week 11/16 ~ 11/20
+* CSS/JS conference Asia 2015
+
 * Bug 1221457 - [Messages]Apply gaia-fast-list for inbox list rendering
-  - Resume the gaia fast list experiment since the libraries changed a lot. 
+  - Got feedbacks and will polish the styles.
+
+## Last week 11/9 ~ 11/13
+* Bug 1221457 - [Messages]Apply gaia-fast-list for inbox list rendering
+  - Update the fast-list patch based on latest version of modules, requesting feedback.
   
 * Developer conference in Japan
-  - Working on the slides for NGA introduction.
-
-* Review the patch for optimizing the NGA related libraries.
-
-## Last week 10/26 ~ 10/30
-* 2.5 blocker
-  - Bug 1215674 - If the user closes music and quickly locks the device, the music widget will still be present.
-    - Landed. Applied a workaround that check the music app existence.
-
-* Addon migration to marketplace
-  - Got some reply from addon author and he merged the patch in his branch.  
-  
-* Developer conference in Japan
-  - Provide the profile and abstract to Tomoya and Peyton. Start to prepare for the slides.
+  - Still working on the slides for NGA introduction.
 
 ## 2015 Q4 Goals
 
