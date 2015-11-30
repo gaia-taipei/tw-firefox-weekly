@@ -1,47 +1,36 @@
 [Open bugs assigned to me](https://bugzilla.mozilla.org/buglist.cgi?quicksearch=assignee%3Agasolin%40mozilla.com) (ASSIGNED = current working on; NEW = backlog)
 
-## 11/16 ~ 11/20
-- check settings need for TV/smart feature phone
-  - TV has extra functions, different panel organization, and visuals,
-    with FE/BE may not sufficient to solve these problem. [More detail](https://groups.google.com/d/msg/mozilla.dev.fxos/ShLgJpsmxZo/iD4mbwFdAgAJ)
-- Attending CSSConf/JSConf in singapore
-- propose [new preprocessor syntax](https://groups.google.com/forum/#!searchin/mozilla.dev.fxos/propose/mozilla.dev.fxos/pJpzClI-5R8/28-PngIFAwAJ) and use 3rd party implementation
-- release [postcss-bidirection](https://github.com/gasolin/postcss-bidirection) for web developer to adopt our LTR/RTL syntax
+## 11/23 ~ 11/27
+- [start discussion of using node instead of xpcshell](https://groups.google.com/forum/#!topic/mozilla.dev.fxos/RS7YVDb9SHE)
+
+Bluetooth
+- Bug 1227893 - reflect Bluetooth rtl css to Settings counter part
+- Discuss [requirements from Peripherals team](https://docs.google.com/spreadsheets/d/1KnWw888bX6SnsMvBZye-rqpytL44CwHGcE7MfHfO_bQ/edit#gid=0)
+  - check current progress of request, and TV teams
+
+Settings
+- triage settings bug 1234 -> 1201, backlog 159 -> 166
+- Bug 1228252 - move openDialog from util.js to panel_utils
+  - r+ & landed
+- Bug 1159657 - [Settings] remove utils.js and integrate API in SettingsUtils
+  - in review
+- Bug 1228276 - move showFormatedSize to a separate module
+  - WIP
+- Bug 1163205 - remove the focus when user open an external link
+  - in review
+- prepare the proposal of settings panel modulization
+  - https://github.com/gasolin/nsa
 
 [Review]
-  - r+, Bug 1164790 - [RTL][Settings]The "+" symbol is shown at wrong side of number in Authorized numbers list of FDN
-  - r+, Bug 1161455 - [RTL][Settings]The ellipsis of long LTR Wi-Fi name is located at wrong side of name in Settings.
-  - f+, Bug 1179425 - Time remaining to full charge is not displayed in battery settings
-
-## 11/09 ~ 11/13
-
-[Settings]
-  - post [settings change for 2.5](https://groups.google.com/forum/#!searchin/mozilla.dev.fxos/settings$20change/mozilla.dev.fxos/q1zqwKFAIps/eE7oeWbQAAAJ) on dev-fxos mail list
-  - Bug 1207472 - reorganized reusable file in modules in alphabet order
-    - r+ & landed
-  - Bug 1221876 - wifi description Disabled is now Not connected
-    - fixing gij tests
-  - Bug 1220524 - wrap match_pattern as AMD module
-    - r+ & landed
-
-
-[Bluetooth]
-  - Bug 1211342 - Remove bluetooth APIv1 code from Bluetooth
-    - r+ & landed
-  - Bug 1211357 - Remove bluetooth APIv1 code from System
-    - r+ & landed
-  - Bug 1222484 - Pairing doesn't work with enter key
-    - r+ & landed
-
-[Review]
-  - r+, [Bug 916097] [settings] don't share 'never' string between display and battery options/dropdowns
-  - r+, Bug 1179666 - Wi-Fi settings should sort network names alphabetically within each signal bar level
-  - r+, Bug 1223295 - [preload-app-toolkit] Make packageEtag optional
-  - r-,  Bug 1204095 - Bluetooth toggle in quick settings does not enable bluetooth functions
-  - r+, Bug 1211433 - [Metrics] Increase thresholds for reflows
-  - r+, Bug 1222117 - Settings-> Cellular & Data, confirmation dialog does not show the detailed description
-  - r+, Bug 1224223 - Remove add-on renaming functionality until we have a better UX
-  - r+, Bug 1074906 - [Accessibility] Enable screen reader section in accessibility settings
+  - r+, Bug 1224510 - [Settings]The "Cancel" button on the action menu does not appear as an oval button
+  - r+, Bug 1204095 - Bluetooth toggle in quick settings does not enable bluetooth functions
+  - r+, Bug 1219693 - Implement *test_settings_usb_storage.py* as an integration test in JavaScript
+  - r+, Bug 1224499 - remove Settings.mozSettings dependency
+  - r+, Bug 1015377 - [settings] All sub-headers should be title case not sentence case
+  - r+, Bug 1217761 - [RTL][Dialer]The Edit button on call log page is not mirrored
+  - r+, Bug 1210680 - use dialog service to show wifi dialog
+  - r-, Bug 1217761 - [RTL][Dialer]The Edit button on call log page is not mirrored
+  - r-, Bug 1014440 - [Settings] refactor Firefox Accounts panel with AMD pattern
 
 ## 2015 Q4 Goals
 1. Solving Blockers and implement &lt;to be decided&gt; features, as measured by implementation completeness.
@@ -65,6 +54,7 @@
   - Bug 1214951 - addon plus button UX is inconsistent with home screens
   - Bug 1203473 - [Settings] Define AppStorage using new syntax provided by Observable
   - Bug 1182129 - [PP] Back out privacy panel
+  - conclude [settings change for 2.5](https://groups.google.com/forum/#!searchin/mozilla.dev.fxos/settings$20change/mozilla.dev.fxos/q1zqwKFAIps/eE7oeWbQAAAJ)
 4. Pick up unfamilar parts related to settings ex: Wifi, APN, RIL..., as measured by # of parts handled (like bug addressedd)
   - [Call Barring] Bug 1205596 - [Settings]A alert "An unknown error occurred" pops up when user enters wrong PIN 2 and then changes to new PIN
   - learning through review & tests
@@ -76,6 +66,7 @@
 5. Experiment features that make people want to use or develop FxOS, as measured by featured raised and planning detail/implementation progress.
    - release [postcss-bidirection](https://github.com/gasolin/postcss-bidirection) for web developer to adopt our LTR/RTL syntax
    - [propose new preprocessor syntax and use 3rd party implementation ](https://groups.google.com/forum/#!searchin/mozilla.dev.fxos/propose/mozilla.dev.fxos/pJpzClI-5R8/28-PngIFAwAJ)
+   - [start discussion of using node instead of xpcshell](https://groups.google.com/forum/#!topic/mozilla.dev.fxos/RS7YVDb9SHE)
 
 ## 2015 Q3 Delivered
 1. Take over and tracking gaia settings/bluetooth remaining & future works https://wiki.mozilla.org/Gaia/Settings, https://wiki.mozilla.org/Gaia/Settings
