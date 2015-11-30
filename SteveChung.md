@@ -1,22 +1,26 @@
-## This week 11/2 ~ 11/6
+## This week 11/9 ~ 11/13
 * Bug 1221457 - [Messages]Apply gaia-fast-list for inbox list rendering
-  - Resume the gaia fast list experiment since the libraries changed a lot. 
-  
+  - Continuing the work for first runnable version.
+
 * Developer conference in Japan
-  - Working on the slides for NGA introduction.
+  - Slides polishing and rehearsal.
 
-* Review the patch for optimizing the NGA related libraries.
+* Bug 1224045 - Pasting something ther than text into a message can prevent SMS from accepting input fro the keyboard
+  - Should be fixed in 2.5 because rich text copy/paste would be disabled on 2.5. Pinging Boris for more information.
 
-## Last week 10/26 ~ 10/30
-* 2.5 blocker
-  - Bug 1215674 - If the user closes music and quickly locks the device, the music widget will still be present.
-    - Landed. Applied a workaround that check the music app existence.
+* Bug 1223280 - Migrate network-alerts to use NotificationHelper api
+  - Reviewing the patch about utilizing NotificationHelper.
 
-* Addon migration to marketplace
-  - Got some reply from addon author and he merged the patch in his branch.  
-  
+* Review the patch about NGA module splitting.
+
+## Last week 11/2 ~ 11/6
+* Bug 1221457 - [Messages]Apply gaia-fast-list for inbox list rendering
+  - Rebased on master with latest fast-list module. working on the first runnable version on device.
+
 * Developer conference in Japan
-  - Provide the profile and abstract to Tomoya and Peyton. Start to prepare for the slides.
+  - Working on the slides for NGA introduction and polishing.
+
+* NGA related libraries optimization landed. Reviewing the idea about the further service/client module splitting.
 
 ## 2015 Q4 Goals
 
