@@ -1,34 +1,17 @@
 [Open bugs assigned to me](https://bugzilla.mozilla.org/buglist.cgi?quicksearch=assignee%3Agasolin%40mozilla.com) (ASSIGNED = current working on; NEW = backlog)
 
-## 11/09 ~ 11/13
-
-[Settings]
-  - post [settings change for 2.5](https://groups.google.com/forum/#!searchin/mozilla.dev.fxos/settings$20change/mozilla.dev.fxos/q1zqwKFAIps/eE7oeWbQAAAJ) on dev-fxos mail list
-  - Bug 1207472 - reorganized reusable file in modules in alphabet order
-    - r+ & landed
-  - Bug 1221876 - wifi description Disabled is now Not connected
-    - fixing gij tests
-  - Bug 1220524 - wrap match_pattern as AMD module
-    - r+ & landed
-
-
-[Bluetooth]
-  - Bug 1211342 - Remove bluetooth APIv1 code from Bluetooth
-    - r+ & landed
-  - Bug 1211357 - Remove bluetooth APIv1 code from System
-    - r+ & landed
-  - Bug 1222484 - Pairing doesn't work with enter key
-    - r+ & landed
+## 11/16 ~ 11/20
+- check settings need for TV/smart feature phone
+  - TV has extra functions, different panel organization, and visuals,
+    with FE/BE may not sufficient to solve these problem. [More detail](https://groups.google.com/d/msg/mozilla.dev.fxos/ShLgJpsmxZo/iD4mbwFdAgAJ)
+- Attending CSSConf/JSConf in singapore
+- propose [new preprocessor syntax](https://groups.google.com/forum/#!searchin/mozilla.dev.fxos/propose/mozilla.dev.fxos/pJpzClI-5R8/28-PngIFAwAJ) and use 3rd party implementation
+- release [postcss-bidirection](https://github.com/gasolin/postcss-bidirection) for web developer to adopt our LTR/RTL syntax
 
 [Review]
-  - r+, [Bug 916097] [settings] don't share 'never' string between display and battery options/dropdowns
-  - r+, Bug 1179666 - Wi-Fi settings should sort network names alphabetically within each signal bar level
-  - r+, Bug 1223295 - [preload-app-toolkit] Make packageEtag optional
-  - r-,  Bug 1204095 - Bluetooth toggle in quick settings does not enable bluetooth functions
-  - r+, Bug 1211433 - [Metrics] Increase thresholds for reflows
-  - r+, Bug 1222117 - Settings-> Cellular & Data, confirmation dialog does not show the detailed description
-  - r+, Bug 1224223 - Remove add-on renaming functionality until we have a better UX
-  - r+, Bug 1074906 - [Accessibility] Enable screen reader section in accessibility settings
+  - r+, Bug 1164790 - [RTL][Settings]The "+" symbol is shown at wrong side of number in Authorized numbers list of FDN
+  - r+, Bug 1161455 - [RTL][Settings]The ellipsis of long LTR Wi-Fi name is located at wrong side of name in Settings.
+  - f+, Bug 1179425 - Time remaining to full charge is not displayed in battery settings
 
 ## 2015 Q4 Goals
 1. Solving Blockers and implement &lt;to be decided&gt; features, as measured by implementation completeness.
