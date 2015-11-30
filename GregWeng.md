@@ -1,56 +1,38 @@
-## 11/02 ~ 11/06
+## 11/16 ~ 11/20, 11/23 ~ 11/27
 
 ### Stabilize LockScreen (reduce regressions)
 
-* Bug 1215674 - If the user closes music and quickly locks the device, the music widget will still be present
-  * RESOLVE FIXED
-
-* Bug 1175809 - [NFC] Unable to share URL via NFC when play video on full screen mode
-  * Will raise approval for 2.5
+* (Currently there were no newly urgent regressions; will solve old ones after the Raptor demo project get stabilized enough)
 
 ### Write more integration tests
 
-* Bug 1218645 - [LockScreen] Re-write Gij tests that in the abandoned Gip
-  * Will do some work in this week
-  * Delayed because of the unexpected drilling down of Raptor tool
+* Bug 1219681 - Implement *test_lockscreen_unlock_to_homescreen_with_passcode.py* as an integration test in JavaScript
+  * Landed
+
+* Bug 1219692 - Implement *test_settings_passcode.py* as an integration test in JavaScript (by Scott)
+  * Review+; landed
 
 ### DeviceLock API
 
 * (Queued after the Gij tests)
 
 ### Other tasks
-* Bug 942837 - [User Story] Show Alarm Time on Lock Screen 
-  * After lots of rounds of reviewing, patch is ready to land
+* Bug 942837 - [User Story] Show Alarm Time on Lock Screen (by Prateek)
+  * Review+; landed
 
 * Bug 1165814 - [raptor] Add an option to let user determinate when to flush the log, and add a Marionette phase for combing them together
-  * This week I've focused on this bug, because the issue is more complicated than what I had thought. See:
+  * My first priority these 2 weeks since there would be a demo at Mozlando
+  * I fired another bug more close to the case I'm dealing with now; see below
 
-### The Progress of Raptor Improvement
+* Bug 1228492 - [PerformanceTool] (Tracking bug) Workable prototype to measure microbehaviors
+  * There are lots of issues now listed on the bug pages.
+  * I now have two available demos
+  * Another one is ongoing
+  * Still encountered some serious instabilities on devices
+  * Need to find out a way to verify this method
 
-#### Issues
-
-  1. The existing phases in Raptor don't support to only measure from one to another mark, so I need to implement it
-  2. [https://github.com/mozilla-raptor/raptor-cli/blob/master/lib/phases/reboot.js#L109](The hack in Raptor) in fact makes inaccurate measure
-    * I fixed that in my own phase by disabling it
-    * But I worry it in fact affects **all** the existing measures, including our daily reports
-  3. Without a customized phase, Raptor will only execute Marionette actions **after** the logging finished (that's why it's named as `afterEach`), so it is impossible to log marks **while** Marionette actions are performing
-  4. Raptor in fact allow to specify the target phase via file path, but it's not an documented API or option. So I need to hack the patch to make it runs correctly, including:
-    1. The way it was implemented to require an external phase (as module) will screw the loading paths of its dependencies. I need to wrap the official `require` to workaround that
-    2. It's necessary to fetch the path of customized phase via an environment variable, since there is no such option
-
-#### Results
-
-  1. The first usable workflow for testing performance on app microbehaviors in Gaia, and **there is no need to patch Raptor**
-     1. `RAPTOR_TRANSFORM_RULES=/Users/snowmantw/Projects/gaia/apps/system/test/raptor make raptor-transformer`
-     2. `RUNNING_PHASE=<where the phase is> raptor test /Users/snowmantw/Projects/gaia/apps/system/test/raptor/lockscreen-lock2unlock-test.js`
-  2. Immediately captured one performance issue of screen lock (it costs 500ms from lock to unlock), although a double check is necessary to see if my testing method is reliable
-     * Bug 1222901 - [LockScreen] From |LockScreen#lock| to |LockScreenWindowManager#respondUnlock|, Z3C takes more than 500ms to complete the action
-
-#### Future work:
-  1. Find someone can cowork with me to verify if the method is correct and accurate
-  2. Start a discussion about how to measure what kinds of microbehaviors in Gaia
-  3. Implement more tests to improve the tool, and start to raise the test coverage
-  4. Discuss with performance and Gaia team to see how to use this on Gaia components
+* From 11/17 to 11/21 we attended JSConf.Asia in Singapore
+  * Will hold a Brown Bag after Mozlando
 
 ## 2015 Q4 Goals
 
