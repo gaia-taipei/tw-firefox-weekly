@@ -1,28 +1,42 @@
-## 11/16 ~ 11/20 ##
+## 11/23 ~ 11/27 ##
 
 ### Last week
 * [Audio Channel Management]
-  - Bug 1222185 - music app audio playback gets interrupted
-    - After investigated, this is not a bug.
+  - Filed bugs to test all audio channel competitions.
+    - Bug 1227824 - Normal audio channels compete with all kinds of audio channels.
+    - Bug 1227825 - Content audio channel competes with all kinds of audio channels.
+    - Bug 1227826 - Alarm audio channel competes with all kinds of audio channels.
+    - Bug 1227827 - System audio channel competes with all kinds of audio channels.
+    - Bug 1227828 - Ringer audio channel competes with all kinds of audio channels.
+    - Bug 1227829 - Telephony audio channel competes with all kinds of audio channels.
+    - Bug 1227830 - Notification audio channel competes with all kinds of audio channels.
+    - Bug 1227831 - Public Notification audio channel competes with all kinds of audio channels.
+  - Bug 1227824 - Normal audio channels compete with all kinds of audio channels.
+    - Implemented test cased for normal v.s. normal, normal v.s. content, normal v.s. alarm, normal v.s. system, normal v.s. ringer, and normal v.s. telephony. 
 
-* [Web of Things]
-  - Implemented the prototype for WoT demo in Mozlando.
-    - https://github.com/evanxd/gaia/commits/wot-for-restaurant
+* [Others]
+  - Give a talk in Mozilla Academy Program.
+    - http://evanxd.github.io/wot-introduction
+  - Discussed with Eddie, Gred, and Fred how to present our add-ons works in all-hands meeting in Mozlando.
 
 ### This week
 * [Audio Channel Management]
-  - Invetigate how to test audio channel competition.
   - Bug 1227824 - Normal audio channels compete with all kinds of audio channels.
-    - Write tests to test normal audio channel compete with all kinds of audio channels.
+    - Update patch to fix some nits, and send review request.
+  - Bug 1228925 - Fix marionette tests of normal audio channel competes notification and public notification audio channels.
+    - Start to investigate and fix the bug.
+  - Bug 1227825 - Content audio channel competes with all kinds of audio channels.
+    - Start to implement all test cases.
 
-* [Others]
-  - Discuss with Eddie, Gred, and Fred how to present our add-ons works in all-hands meeting in Mozlando.
+* [Web of Things]
+  - Implement the prototype for WoT demo in Mozlando.
+    - Implement the notification feature.
 
 ## 2015 Q4 Goals
-1. Investigate Media Focus. http://bugzil.la/1206691, as measured by (a) making a technical decision on whether or not to implement that, and (b) completeness on the implementation plan.
-2. Fix blocker bugs of Audio Channel Management Module, as measured by blocker burn down and days of blocker turnarounds.
-3. Fix blocker bugs of Settings App, as measured by blocker burn down and days of blocker turnarounds.
-4. Support Web of Things Project: implement FoxCount project, as measured by implementation completeness.
+1. Support Web of Things Project: implement FoxCount project, as measured by implementation completeness.
+2. Define UI test cases for audio channel management and write the tests for audio channel competitions. http://bugzil.la/1096163, as measured by implementation completeness.
+3. Fix blocker bugs of Audio Channel Management Module, as measured by blocker burn down and days of blocker turnarounds.
+4. Fix blocker bugs of Settings App, as measured by blocker burn down and days of blocker turnarounds.
 5. Mentor Bluetooth Test App, as measured by implementation completeness.
 
 ## 2015 Q3 Delivered
