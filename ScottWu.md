@@ -1,10 +1,12 @@
-## 11/16 ~ 11/20
+## 11/23 ~ 11/27
 
 - [Settings]
-	- [WIP] [Bug 1014440](https://bugzilla.mozilla.org/show_bug.cgi?id=1014440) - [Settings] refactor Firefox Accounts panel with AMD pattern
+	- [WIP] [Bug 973458](https://bugzilla.mozilla.org/show_bug.cgi?id=973458) - [settings] refactor Downloads panel with AMD pattern
+	- [WIP] [Bug 835497](https://bugzilla.mozilla.org/show_bug.cgi?id=835497) - [B2G][Settings] Display: Brightness does not adjust as the slider is being moved
+	- [Duplicate] [Bug 1227898](https://bugzilla.mozilla.org/show_bug.cgi?id=1227898) - [Settings]Tap cancel button at Clear history confirmation view, then try to toggle on Data Connection, it displays Clear history confirmation text at ''Turn ON data connection? ''view
+	- [Reviewing] [Bug 1014440](https://bugzilla.mozilla.org/show_bug.cgi?id=1014440) - [Settings] refactor Firefox Accounts panel with AMD pattern
 	- [WIP] [Bug 1222117](https://bugzilla.mozilla.org/show_bug.cgi?id=1222117) - Settings-> Cellular & Data, confirmation dialog does not show the detailed description
-	- [Fixed] [Bug 1219693](https://bugzilla.mozilla.org/show_bug.cgi?id=1219693) - Implement \*test\_settings\_usb\_storage.py\* as an integration test in JavaScript
-	- [Reviewing] [Bug 1219692](https://bugzilla.mozilla.org/show_bug.cgi?id=1219692) - Implement \*test\_settings\_passcode.py\* as an integration test in JavaScript
+	- [Fixed] [Bug 1219692](https://bugzilla.mozilla.org/show_bug.cgi?id=1219692) - Implement \*test\_settings\_passcode.py\* as an integration test in JavaScript
 	- [WIP] [Bug 1208893] (https://bugzilla.mozilla.org/show_bug.cgi?id=1208893) - Add a warning text in Low Storage mode to the storage panels
 		- Raised a question on [Bug 1204618] (https://bugzilla.mozilla.org/show_bug.cgi?id=1204618), now waiting for a response
 
