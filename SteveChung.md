@@ -1,26 +1,23 @@
-## This week 11/9 ~ 11/13
+## This week 11/16 ~ 11/20
+* CSS/JS conference Asia 2015
+
 * Bug 1221457 - [Messages]Apply gaia-fast-list for inbox list rendering
-  - Continuing the work for first runnable version.
+  - Got feedbacks and will polish the styles.
+
+## Last week 11/9 ~ 11/13
+* Bug 1221457 - [Messages]Apply gaia-fast-list for inbox list rendering
+  - Update the fast-list patch based on latest version of modules, requesting feedback.
 
 * Developer conference in Japan
   - Slides polishing and rehearsal.
 
 * Bug 1224045 - Pasting something ther than text into a message can prevent SMS from accepting input fro the keyboard
-  - Should be fixed in 2.5 because rich text copy/paste would be disabled on 2.5. Pinging Boris for more information.
+  - Boris disabled the rich text in 2.5, so it became 2.6 blocker.
 
 * Bug 1223280 - Migrate network-alerts to use NotificationHelper api
-  - Reviewing the patch about utilizing NotificationHelper.
+  - Patch review with some suggestions.
 
-* Review the patch about NGA module splitting.
-
-## Last week 11/2 ~ 11/6
-* Bug 1221457 - [Messages]Apply gaia-fast-list for inbox list rendering
-  - Rebased on master with latest fast-list module. working on the first runnable version on device.
-
-* Developer conference in Japan
-  - Working on the slides for NGA introduction and polishing.
-
-* NGA related libraries optimization landed. Reviewing the idea about the further service/client module splitting.
+* NGA module splitting landed.
 
 ## 2015 Q4 Goals
 
