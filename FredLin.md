@@ -1,41 +1,34 @@
 [Open bugs assigned to me](https://bugzilla.mozilla.org/buglist.cgi?quicksearch=assignee%3Agasolin%40mozilla.com) (ASSIGNED = current working on; NEW = backlog)
 
-## 11/02 ~ 11/06
+## 11/09 ~ 11/13
 
 [Settings]
-  - gather current settings in-planning list from UX/engineering perspective https://public.etherpad-mozilla.org/p/settings
-  - triage settings bug lists
-    - reduce bugs number from 1403 -> 1242
-    - increase backlogs from 128 -> 162
-  - Bug 1217717 - disable the Airplane mode interaction before the wifi panel is ready
+  - post [settings change for 2.5](https://groups.google.com/forum/#!searchin/mozilla.dev.fxos/settings$20change/mozilla.dev.fxos/q1zqwKFAIps/eE7oeWbQAAAJ) on dev-fxos mail list
+  - Bug 1207472 - reorganized reusable file in modules in alphabet order
     - r+ & landed
-  - Bug 1144426 - [Settings][Call Barring] Entering the wrong passcode in Call Barring results in ambiguous error message
+  - Bug 1221876 - wifi description Disabled is now Not connected
+    - fixing gij tests
+  - Bug 1220524 - wrap match_pattern as AMD module
     - r+ & landed
-  - Bug 1220515 - blur get more languages link after click
-    - r+ & landed
-  - Bug 1220046 - unobserve airplanemode when uninit,
-    - r+ & landed
-  - Discuss settings requirements with UX
-  - Bug 1211341 - Remove bluetooth APIv1 code from Settings
+
 
 [Bluetooth]
   - Bug 1211342 - Remove bluetooth APIv1 code from Bluetooth
-    - r?
-
-[immediate action in Selection menu]
-  - Bug 1206572 - Add activity to support Search keyword through default provider
-    - merged
-  - support immediate actions on selection menu
-    - PR, need fix gij tests
-
-- update https://wiki.mozilla.org/Gaia/Shared/Components state
+    - r+ & landed
+  - Bug 1211357 - Remove bluetooth APIv1 code from System
+    - r+ & landed
+  - Bug 1222484 - Pairing doesn't work with enter key
+    - r+ & landed
 
 [Review]
-  - r+, Bug 1218705 - [Settings] The descriptions of "Data Connection" and "Data Roaming" should be illustrated more precisely
-  - r+, Bug 1220978 - migrate Bluetooth to use NotificationHelper
-  - r+, Bug 808141 - Wi-Fi shows "offline" whereas it should be "Not connected"
-  - r+, Bug 1220532 - the accessible-app-icon aria string is incorrect
-  - r-, Bug 1219306 - Disable lockscreen related settings when NO_LOCK_SCREEN is 1
+  - r+, [Bug 916097] [settings] don't share 'never' string between display and battery options/dropdowns
+  - r+, Bug 1179666 - Wi-Fi settings should sort network names alphabetically within each signal bar level
+  - r+, Bug 1223295 - [preload-app-toolkit] Make packageEtag optional
+  - r-,  Bug 1204095 - Bluetooth toggle in quick settings does not enable bluetooth functions
+  - r+, Bug 1211433 - [Metrics] Increase thresholds for reflows
+  - r+, Bug 1222117 - Settings-> Cellular & Data, confirmation dialog does not show the detailed description
+  - r+, Bug 1224223 - Remove add-on renaming functionality until we have a better UX
+  - r+, Bug 1074906 - [Accessibility] Enable screen reader section in accessibility settings
 
 ## 2015 Q4 Goals
 1. Solving Blockers and implement &lt;to be decided&gt; features, as measured by implementation completeness.
