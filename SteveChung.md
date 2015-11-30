@@ -1,23 +1,14 @@
-## This week 11/16 ~ 11/20
+## This week 11/25 ~ 11/27
+* Bug 1224497 - [Dialer] The emergency number can't be dialed from contact detail page
+  - 2.5 blocker, start investigation
+
+* Bug 1221457 - [Messages]Apply gaia-fast-list for inbox list rendering
+  - Start to work on the feedbacks and discuss with UX about the general list styling.
+
+## Last week 11/16 ~ 11/20
 * CSS/JS conference Asia 2015
-
-* Bug 1221457 - [Messages]Apply gaia-fast-list for inbox list rendering
-  - Got feedbacks and will polish the styles.
-
-## Last week 11/9 ~ 11/13
-* Bug 1221457 - [Messages]Apply gaia-fast-list for inbox list rendering
-  - Update the fast-list patch based on latest version of modules, requesting feedback.
-
-* Developer conference in Japan
-  - Slides polishing and rehearsal.
-
-* Bug 1224045 - Pasting something ther than text into a message can prevent SMS from accepting input fro the keyboard
-  - Boris disabled the rich text in 2.5, so it became 2.6 blocker.
-
-* Bug 1223280 - Migrate network-alerts to use NotificationHelper api
-  - Patch review with some suggestions.
-
-* NGA module splitting landed.
+  - Checkout all the slides here: https://github.com/devfestasia/talks and They might release the video later.
+  - IMO CSS sessions are better than JS. Recommend the The End of Global CSS/The Rise of Modular Style for another alternative ideas about the CSS modulize/scoping. Some topics like postCSS or performance might be helpful in our codebase. For the JS conf, some topics like The real story behind JS performance/Modular vs Monolith/Overboard.js/Reactive JavaScript might worth a glance.
 
 ## 2015 Q4 Goals
 
