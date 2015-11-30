@@ -1,21 +1,15 @@
-## This week 10/26 ~ 10/30
-* 2.5 blocker
-  - Bug 1215674 - If the user closes music and quickly locks the device, the music widget will still be present.
-    - (Reviewing) It's known issue since there's some race condition between music IAC and app terminated event. Created a workaround that check the music app existence before applying the playback status.
+## This week 11/16 ~ 11/20
+* CSS/JS conference Asia 2015
 
-* Addon migration to marketplace
-  - Help to migrate some addons in hackerplace to marketplace. Stuck in requesting permission and waiting for Andrew's reply.  
+* Bug 1221457 - [Messages]Apply gaia-fast-list for inbox list rendering
+  - Got feedbacks and will polish the styles.
+
+## Last week 11/9 ~ 11/13
+* Bug 1221457 - [Messages]Apply gaia-fast-list for inbox list rendering
+  - Update the fast-list patch based on latest version of modules, requesting feedback.
   
 * Developer conference in Japan
-  - Have some discussion with Tomoya and Peyton about the speech topic and abstract. 
-
-## Last week 10/19 ~ 10/23
-* 2.5 blocker
-  - Bug 1192263 - [Messages] We load Inbox before going to the notification conversation when app is run via notification click.
-    - Landed.
-  - Bug 1217075 - [Messages] Both message and draft are preserved in the main app instance in case message is sent from another activity instance (until app is restarted)
-    - Landed.
-  - Reviewing other messages patches.
+  - Still working on the slides for NGA introduction.
 
 ## 2015 Q4 Goals
 
