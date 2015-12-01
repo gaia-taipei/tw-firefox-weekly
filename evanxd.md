@@ -1,45 +1,42 @@
-## 11/02 ~ 11/06 ##
+## 11/23 ~ 11/27 ##
 
 ### Last week
 * [Audio Channel Management]
-  - (2.5?)Bug 1220320 - [Accessibility] Screen Reader prompt no longer plays, automatically in the FTU or after toggling volume up and down several times.
-    - After invetigated, it's a gecko bug.
-  - Bug 1218690 - Marionette tests for play icon
-    - Fixed, the Music app can be launched correctly.
-    - Continue to write tests.
-  - Bug 1199757 - brief sound after hang up
-    - Cannot reproduce, RESOLVED WORKSFORME.
-  - Bug 864416 - [music]Volume resets to being audible when you launch music app and play a song.
-    - Cannot reproduce, RESOLVED WORKSFORME.
+  - Filed bugs to test all audio channel competitions.
+    - Bug 1227824 - Normal audio channels compete with all kinds of audio channels.
+    - Bug 1227825 - Content audio channel competes with all kinds of audio channels.
+    - Bug 1227826 - Alarm audio channel competes with all kinds of audio channels.
+    - Bug 1227827 - System audio channel competes with all kinds of audio channels.
+    - Bug 1227828 - Ringer audio channel competes with all kinds of audio channels.
+    - Bug 1227829 - Telephony audio channel competes with all kinds of audio channels.
+    - Bug 1227830 - Notification audio channel competes with all kinds of audio channels.
+    - Bug 1227831 - Public Notification audio channel competes with all kinds of audio channels.
+  - Bug 1227824 - Normal audio channels compete with all kinds of audio channels.
+    - Implemented test cased for normal v.s. normal, normal v.s. content, normal v.s. alarm, normal v.s. system, normal v.s. ringer, and normal v.s. telephony. 
 
-* [Web of Things]
-  - Attended MozFest 2015 during 11/4 and 11/10.
-    - Prepared for the demonstration.
-    - Demonstrated and introduced Web of Things Maker to attendees.
+* [Others]
+  - Give a talk in Mozilla Academy Program.
+    - http://evanxd.github.io/wot-introduction
+  - Discussed with Eddie, Gred, and Fred how to present our add-ons works in all-hands meeting in Mozlando.
 
 ### This week
 * [Audio Channel Management]
-  - Bug 1222300 - [B2G] "Content" channel can't be resumed after the "normal" channel ended
+  - Bug 1227824 - Normal audio channels compete with all kinds of audio channels.
+    - Update patch to fix some nits, and send review request.
+  - Bug 1228925 - Fix marionette tests of normal audio channel competes notification and public notification audio channels.
     - Start to investigate and fix the bug.
-  - Bug 1214908 - music stops due to screen unlock sound
-    - Start to investigate and fix the bug.
-  - Bug 843956 - [Settings] When Music is in background, go to sound menu and select ringtone then two sounds are played at the same time
-    - Start to investigate and fix the bug.
-  - Bug 1223194 - [Aries] Ringtone and Notification volume is much quieter than the Dialer Keypad volume, despite being set by the same Ringtones & Notifications volume setting.
-    - Start to investigate and fix the bug.
-  - Bug 1218690 - Marionette tests for play icon
-    - Fixed the Music app issue, and continue to write tests.
+  - Bug 1227825 - Content audio channel competes with all kinds of audio channels.
+    - Start to implement all test cases.
 
 * [Web of Things]
-  - Have a meeting for WoT demo in Mozlando.
-    - Discuss the features and UI design.
-    - Discuss the implementation.
+  - Implement the prototype for WoT demo in Mozlando.
+    - Implement the notification feature.
 
 ## 2015 Q4 Goals
-1. Investigate Media Focus. http://bugzil.la/1206691, as measured by (a) making a technical decision on whether or not to implement that, and (b) completeness on the implementation plan.
-2. Fix blocker bugs of Audio Channel Management Module, as measured by blocker burn down and days of blocker turnarounds.
-3. Fix blocker bugs of Settings App, as measured by blocker burn down and days of blocker turnarounds.
-4. Support Web of Things Project: implement FoxCount project, as measured by implementation completeness.
+1. Support Web of Things Project: implement FoxCount project, as measured by implementation completeness.
+2. Define UI test cases for audio channel management and write the tests for audio channel competitions. http://bugzil.la/1096163, as measured by implementation completeness.
+3. Fix blocker bugs of Audio Channel Management Module, as measured by blocker burn down and days of blocker turnarounds.
+4. Fix blocker bugs of Settings App, as measured by blocker burn down and days of blocker turnarounds.
 5. Mentor Bluetooth Test App, as measured by implementation completeness.
 
 ## 2015 Q3 Delivered
