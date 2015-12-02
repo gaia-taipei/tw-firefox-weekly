@@ -1,21 +1,14 @@
-## This week 10/26 ~ 10/30
-* 2.5 blocker
-  - Bug 1215674 - If the user closes music and quickly locks the device, the music widget will still be present.
-    - (Reviewing) It's known issue since there's some race condition between music IAC and app terminated event. Created a workaround that check the music app existence before applying the playback status.
+## This week 11/25 ~ 11/27
+* Bug 1224497 - [Dialer] The emergency number can't be dialed from contact detail page
+  - 2.5 blocker, start investigation
 
-* Addon migration to marketplace
-  - Help to migrate some addons in hackerplace to marketplace. Stuck in requesting permission and waiting for Andrew's reply.  
-  
-* Developer conference in Japan
-  - Have some discussion with Tomoya and Peyton about the speech topic and abstract. 
+* Bug 1221457 - [Messages]Apply gaia-fast-list for inbox list rendering
+  - Start to work on the feedbacks and discuss with UX about the general list styling.
 
-## Last week 10/19 ~ 10/23
-* 2.5 blocker
-  - Bug 1192263 - [Messages] We load Inbox before going to the notification conversation when app is run via notification click.
-    - Landed.
-  - Bug 1217075 - [Messages] Both message and draft are preserved in the main app instance in case message is sent from another activity instance (until app is restarted)
-    - Landed.
-  - Reviewing other messages patches.
+## Last week 11/16 ~ 11/20
+* CSS/JS conference Asia 2015
+  - Checkout all the slides here: https://github.com/devfestasia/talks and They might release the video later.
+  - IMO CSS sessions are better than JS. Recommend the The End of Global CSS/The Rise of Modular Style for another alternative ideas about the CSS modulize/scoping. Some topics like postCSS or performance might be helpful in our codebase. For the JS conf, some topics like The real story behind JS performance/Modular vs Monolith/Overboard.js/Reactive JavaScript might worth a glance.
 
 ## 2015 Q4 Goals
 
