@@ -2,19 +2,20 @@
 ### Last Week ###
 
 * [TV]
-    - [REVIEW] - mouse cursor in bookmark and history list
-    - [REVIEW] - Failed to go back to one-up level after tapping the Back button in Bookmarks list
-    - [FIXED] 1220380 - Revise pocket on TV menu item to "Pocket icon" + "Pocket"
-    - [REVIEW] 1224255 - The underline should be red if the passwords are less than 8 characters in length
+    - [FIXED] - mouse cursor in bookmark and history list
+    - [FIXED] - Failed to go back to one-up level after tapping the Back button in Bookmarks list
+    - [FIXED]  1224255 - The underline should be red if the passwords are less than 8 characters in length
+    - [REVIEW] 1225431 - Revise l10n string from 'Disconnect' to 'Sign Out' in setting page
+    - [REVIEW] 1226078 - Revise l10n string from 'Firefox Account | Sign In' to 'Firefox Account' in the password page
+    - [REVIEW] 1224430 - Revise browser FTE page style
 
 
 ### This Week ###
 
 * [TV]
-    - 1224255 - The underline should be red if the passwords are less than 8 characters in length
-    - 1225431 - Revise l10n string from 'Disconnect' to 'Sign Out' in setting page
-    - 1226078 - Revise l10n string from 'Firefox Account | Sign In' to 'Firefox Account' in the password page
-    - 1224430 - Revise browser FTE page style
+    1227836 - compress pocket menu icon
+    1223273 - Revise i10n string of fxa offline error message
+    1226527 - Not allow user to press save when the bookmark title is empty.
 
 ## Orlando Workweeks
 1. Web Component
