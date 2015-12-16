@@ -1,36 +1,32 @@
 [Open bugs assigned to me](https://bugzilla.mozilla.org/buglist.cgi?quicksearch=assignee%3Agasolin%40mozilla.com) (ASSIGNED = current working on; NEW = backlog)
 
-## 11/23 ~ 11/27
-- [start discussion of using node instead of xpcshell](https://groups.google.com/forum/#!topic/mozilla.dev.fxos/RS7YVDb9SHE)
+## 11/30 ~ 12/04
 
-Bluetooth
-- Bug 1227893 - reflect Bluetooth rtl css to Settings counter part
-- Discuss [requirements from Peripherals team](https://docs.google.com/spreadsheets/d/1KnWw888bX6SnsMvBZye-rqpytL44CwHGcE7MfHfO_bQ/edit#gid=0)
-  - check current progress of request, and TV teams
+General
+ - Bug 1223725 - apply preset eslint rules
+   - in review
+ - Bug 1205650 - [feature] support immediate actions on selection menu
+   - f?
 
 Settings
-- triage settings bug 1234 -> 1201, backlog 159 -> 166
-- Bug 1228252 - move openDialog from util.js to panel_utils
-  - r+ & landed
-- Bug 1159657 - [Settings] remove utils.js and integrate API in SettingsUtils
-  - in review
-- Bug 1228276 - move showFormatedSize to a separate module
-  - WIP
 - Bug 1163205 - remove the focus when user open an external link
-  - in review
-- prepare the proposal of settings panel modulization
-  - https://github.com/gasolin/nsa
+  - r+ & landed
+- Bug 1228276 - move showFormatedSize to a separate module
+  - r+ & landed
+- Bug 1229239 - Storage.umsMasterSettingChanged function is not exist in media_storage.js
+  - r+ & landed
+- Bug 1221876 - Intermittent root_settings_test.js | check root panel settings common tests airplane mode enable airplane mode
+  - r+ & landed
+- Bug 1229263 - move getSupportedNetworkInfo into module
+  - WIP
+- Bugs 1201 -> 1183
+
 
 [Review]
-  - r+, Bug 1224510 - [Settings]The "Cancel" button on the action menu does not appear as an oval button
-  - r+, Bug 1204095 - Bluetooth toggle in quick settings does not enable bluetooth functions
-  - r+, Bug 1219693 - Implement *test_settings_usb_storage.py* as an integration test in JavaScript
-  - r+, Bug 1224499 - remove Settings.mozSettings dependency
-  - r+, Bug 1015377 - [settings] All sub-headers should be title case not sentence case
-  - r+, Bug 1217761 - [RTL][Dialer]The Edit button on call log page is not mirrored
-  - r+, Bug 1210680 - use dialog service to show wifi dialog
-  - r-, Bug 1217761 - [RTL][Dialer]The Edit button on call log page is not mirrored
-  - r-, Bug 1014440 - [Settings] refactor Firefox Accounts panel with AMD pattern
+  - r+, Bug 1227295 - Unable to modify password after entering an incorrect password for a WiFi network
+  - r+, Bug 1210673 - use dialog service to show media storage dialogs
+  - r+, Bug 1179425 - Time remaining to full charge is not displayed in battery settings
+  - r+, Bug 1014440 - [Settings] refactor Firefox Accounts panel with AMD pattern
 
 ## 2015 Q4 Goals
 1. Solving Blockers and implement &lt;to be decided&gt; features, as measured by implementation completeness.
@@ -49,7 +45,8 @@ Settings
   - Bug 1222484 - Pairing doesn't work with enter key
 3. Improving settings including css maintainability, dialog, load time, addon hackability etc. (curated todo list http://bit.ly/settingsbacklog), as measured by # of issues addressed (eng plan or implementation).
   - Bug 1214507 - polish startup procedure
-  - With landing Bug 1216435 & Bug 1218271, Settings decrease ~200ms loadtime (2.8s->2.6s)
+  - [2.5] With landing Bug 1216435 & Bug 1218271, Settings decrease ~200ms loadtime (2.8s->2.6s)
+  - With landing Bug 1228252, 1228265 & 1228276, Settings decrease ~300ms loadtime (2.6s->2.3s)
   - Bug 1205588 - [Settings] Define MediaStorage using new syntax provided by Observable
   - Bug 1214951 - addon plus button UX is inconsistent with home screens
   - Bug 1203473 - [Settings] Define AppStorage using new syntax provided by Observable
