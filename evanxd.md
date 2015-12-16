@@ -1,36 +1,22 @@
-## 11/23 ~ 11/27 ##
+## 12/07 ~ 12/11 ##
 
 ### Last week
 * [Audio Channel Management]
-  - Filed bugs to test all audio channel competitions.
-    - Bug 1227824 - Normal audio channels compete with all kinds of audio channels.
-    - Bug 1227825 - Content audio channel competes with all kinds of audio channels.
-    - Bug 1227826 - Alarm audio channel competes with all kinds of audio channels.
-    - Bug 1227827 - System audio channel competes with all kinds of audio channels.
-    - Bug 1227828 - Ringer audio channel competes with all kinds of audio channels.
-    - Bug 1227829 - Telephony audio channel competes with all kinds of audio channels.
-    - Bug 1227830 - Notification audio channel competes with all kinds of audio channels.
-    - Bug 1227831 - Public Notification audio channel competes with all kinds of audio channels.
-  - Bug 1227824 - Normal audio channels compete with all kinds of audio channels.
-    - Implemented test cased for normal v.s. normal, normal v.s. content, normal v.s. alarm, normal v.s. system, normal v.s. ringer, and normal v.s. telephony. 
-
-* [Others]
-  - Give a talk in Mozilla Academy Program.
-    - http://evanxd.github.io/wot-introduction
-  - Discussed with Eddie, Gred, and Fred how to present our add-ons works in all-hands meeting in Mozlando.
+  - Bug 1227825 - Marionette tests for audio channels compete each other
+    - r+
+    - Implemented tests for all auido channels compete each other.
 
 ### This week
 * [Audio Channel Management]
-  - Bug 1227824 - Normal audio channels compete with all kinds of audio channels.
-    - Update patch to fix some nits, and send review request.
-  - Bug 1228925 - Fix marionette tests of normal audio channel competes notification and public notification audio channels.
+  - Bug 1230074 - Fix test cases of content v.s. publicnotification, alarm v.s. ringer, and alarm v.s. telephony.
     - Start to investigate and fix the bug.
-  - Bug 1227825 - Content audio channel competes with all kinds of audio channels.
-    - Start to implement all test cases.
+  - Bug 1230069 - Fix test cases of public notification v.s normal and public notification v.s content.
+    - Start to investigate and fix the bug.
+  - Bug 1230061 - Fix the test case of ringer v.s. ringer.
+    - Start to investigate and fix the bug.
 
-* [Web of Things]
-  - Implement the prototype for WoT demo in Mozlando.
-    - Implement the notification feature.
+* [Academy Program]
+  - Review the rating criteria of NCU class.
 
 ## 2015 Q4 Goals
 1. Support Web of Things Project: implement FoxCount project, as measured by implementation completeness.
