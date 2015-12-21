@@ -1,4 +1,9 @@
-## 11/16 ~ 11/20, 11/23 ~ 11/27
+## 12/14 ~ 12/18
+
+## Workweek
+
+* Made an agreement with APZ team, which is about how to improve APZ scrolling quality for UX
+* Met Eli and have some discussions about the roadmap of Raptor tools and my tasks
 
 ### Stabilize LockScreen (reduce regressions)
 
@@ -6,30 +11,28 @@
 
 ### Write more integration tests
 
-* Bug 1219681 - Implement *test_lockscreen_unlock_to_homescreen_with_passcode.py* as an integration test in JavaScript
-  * Landed
+* Bug 1232281 - Implement test_home_button.py (in Lockscreen) as an Integration test in JavaScript 
+  * r?=Tim
 
-* Bug 1219692 - Implement *test_settings_passcode.py* as an integration test in JavaScript (by Scott)
-  * Review+; landed
+* Bug 1219682 - Implement *test_lockscreen_wake_with_notification.py* as an integration test in JavaScript
+ * r?=Tim
+
+* Bug 1219680 - Implement *test_lockscreen_unlock_to_homescreen.py* as an integration test in JavaScript
+  * r?=Tim
+
+* Bug 1219679 - Implement *test_lockscreen_time_check.py* as an integration test in JavaScript 
+  * Need to clarify the test case; waiting NI reply
 
 ### DeviceLock API
 
 * (Queued after the Gij tests)
 
 ### Other tasks
-* Bug 942837 - [User Story] Show Alarm Time on Lock Screen (by Prateek)
-  * Review+; landed
-
-* Bug 1165814 - [raptor] Add an option to let user determinate when to flush the log, and add a Marionette phase for combing them together
-  * My first priority these 2 weeks since there would be a demo at Mozlando
-  * I fired another bug more close to the case I'm dealing with now; see below
 
 * Bug 1228492 - [PerformanceTool] (Tracking bug) Workable prototype to measure microbehaviors
-  * There are lots of issues now listed on the bug pages.
-  * I now have two available demos
-  * Another one is ongoing
-  * Still encountered some serious instabilities on devices
-  * Need to find out a way to verify this method
+  * I now work on writing a driver to control all relevant tasks at once
+  * Current requirements: screenrecords, code weaving, raptor test, logcat, etc.
+  * Will update on the bug
 
 * From 11/17 to 11/21 we attended JSConf.Asia in Singapore
   * Will hold a Brown Bag after Mozlando
@@ -37,8 +40,6 @@
 ## 2015 Q4 Goals
 
 1. Stabilize LockScreen: fixed all current regressions (measured by bug fixed), the current one is:
-  1. Bug 1198417 - [Aries][Lockscreen] rotates with device but slider does not respond
-    1. It has new symptom looks by full-screen video
 2. Implement and migrate to DeviceLock API, as measured by progress on engineering planning and/or implementation
   1. Will start to write WebIDL and figure out the development flow first
 3. Write more integration tests to prevent further regressions, as measured by # of tests planned and/or written.
