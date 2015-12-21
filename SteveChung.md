@@ -1,13 +1,15 @@
-## This week 11/30 ~ 12/2
-* Bug 1221457 - [Messages]Apply gaia-fast-list for inbox list rendering
-  - Requesting feedback to other message peers.
-
-## Last week 11/25 ~ 11/27
-* Bug 1224497 - [Dialer] The emergency number can't be dialed from contact detail page
-  - (Landed) 2.5 blocker
+## This week 12/7 ~ 12/11
+* Mozlando work week. Here's the list of the main sessions(for me):
+  - NGA future work discussion
+  - Web component session
+  - Message API v2.0 discussion
 
 * Bug 1221457 - [Messages]Apply gaia-fast-list for inbox list rendering
-  - Create a new WIP and discuss will Wilson about the fast-list limitation.
+  - Waiting for review.
+
+## Last week 11/30 ~ 12/2
+* Bug 1221457 - [Messages]Apply gaia-fast-list for inbox list rendering
+  - Waiting for review.
 
 ## 2015 Q4 Goals
 
