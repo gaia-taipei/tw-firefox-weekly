@@ -1,18 +1,17 @@
-## This week 11/25 ~ 11/27
+## This week 11/30 ~ 12/2
+* Bug 1221457 - [Messages]Apply gaia-fast-list for inbox list rendering
+  - Requesting feedback to other message peers.
+
+## Last week 11/25 ~ 11/27
 * Bug 1224497 - [Dialer] The emergency number can't be dialed from contact detail page
-  - 2.5 blocker, start investigation
+  - (Landed) 2.5 blocker
 
 * Bug 1221457 - [Messages]Apply gaia-fast-list for inbox list rendering
-  - Start to work on the feedbacks and discuss with UX about the general list styling.
-
-## Last week 11/16 ~ 11/20
-* CSS/JS conference Asia 2015
-  - Checkout all the slides here: https://github.com/devfestasia/talks and They might release the video later.
-  - IMO CSS sessions are better than JS. Recommend the The End of Global CSS/The Rise of Modular Style for another alternative ideas about the CSS modulize/scoping. Some topics like postCSS or performance might be helpful in our codebase. For the JS conf, some topics like The real story behind JS performance/Modular vs Monolith/Overboard.js/Reactive JavaScript might worth a glance.
+  - Create a new WIP and discuss will Wilson about the fast-list limitation.
 
 ## 2015 Q4 Goals
 
-1. 2.5: Complete low storage feature in message app.
+1. 2.5: Complete low storage feature in message app(Pending because it might move to 2.6 or later release).
 2. 2.5: Blockers fixing(Message or other apps).
 3. NGA in Message app: Complete client/service architecture and utilize navigation API for real split views.
 4. NGA in Message app: Keep track of the serviceworker status and plan for serviceworker related NGA features.
