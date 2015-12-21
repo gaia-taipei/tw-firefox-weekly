@@ -3,20 +3,27 @@
 ### Last week
 * [Audio Channel Management]
   - Bug 1227825 - Marionette tests for audio channels compete each other
-    - r+
-    - Implemented tests for all auido channels compete each other.
+    - Added test cases for normal audio channel competes with all other audio channels.
+    - Landed.
+  - Bug 1230069 - Fix test cases of public notification v.s normal and public notification v.s content.
+    - review? (lchang)
+  - Bug 1230061 - Fix the test case of ringer v.s. ringer.
+    - review? (lchang)
 
 ### This week
 * [Audio Channel Management]
-  - Bug 1230074 - Fix test cases of content v.s. publicnotification, alarm v.s. ringer, and alarm v.s. telephony.
+  - Bug 1227805 - Marionette test to ensure content audio channel can be played in background.
+    - Start to write the test cases.
+  - Bug 1227804 - Marionette test to ensure normal audio channel cannot be played in background.
+    - Start to write the test cases.
+  - Bug 1228475 - Ensure System's audio channels are controlled by Audio Channel Service. 
+    - Start to write the test cases.
+  - Bug 1233565 - Intermittent TEST-UNEXPECTED-FAIL | apps/system/test/marionette/audio_channel_competing_test.js | Audio channel competing Notification audio channel competes with audio channels Notification
     - Start to investigate and fix the bug.
-  - Bug 1230069 - Fix test cases of public notification v.s normal and public notification v.s content.
+  - Bug 1232892 - Normal audio channel competes with all kinds of audio channels in one test app
     - Start to investigate and fix the bug.
-  - Bug 1230061 - Fix the test case of ringer v.s. ringer.
-    - Start to investigate and fix the bug.
-
-* [Academy Program]
-  - Review the rating criteria of NCU class.
+  - Bug 1232363 - No audible sound coming from Alarm audio channel.
+    - Help to review the patch.
 
 ## 2015 Q4 Goals
 1. Support Web of Things Project: implement FoxCount project, as measured by implementation completeness.
