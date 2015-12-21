@@ -1,15 +1,20 @@
-## This week 12/7 ~ 12/11
+## This week 12/14 ~ 12/18
+* Bug 1221457 - [Messages]Apply gaia-fast-list for inbox list rendering
+  - Got some feedback. Replying the questions.
+
+* Bug 1224514 - [Messages][NG] We should shutdown MessagingService when app goes to background
+  - Reviewing the WIP and gave some thoughts.
+
+## Last week 12/7 ~ 12/11
 * Mozlando work week. Here's the list of the main sessions(for me):
-  - NGA future work discussion
-  - Web component session
-  - Message API v2.0 discussion
+  - NGA future work discussion: Review benefits brought by NGA and current progress in each apps
+  - Web component session: Some progress update from gecko
+  - Message API v2.0 discussion: Have some discussion with RIL team with new API interface and possible message DB migration to gaia.
+  - Internal discussion with message peers and contributors about the future of the message app.
+  - Other sessions: academic/medical program, new security model, RTL, ...
 
 * Bug 1221457 - [Messages]Apply gaia-fast-list for inbox list rendering
-  - Waiting for review.
-
-## Last week 11/30 ~ 12/2
-* Bug 1221457 - [Messages]Apply gaia-fast-list for inbox list rendering
-  - Waiting for review.
+  - Discuss with peers about the necessity to land fast-list in the near future.
 
 ## 2015 Q4 Goals
 
