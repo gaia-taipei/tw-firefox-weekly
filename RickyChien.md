@@ -1,10 +1,10 @@
-## 10/26 ~ 11/06
+## 12/07 ~ 12/18
 [TV System]
 * [Bug 1211400](http://bugzil.la/1211400) - [TV][2.5] Preview an app on Marketplace
- * [Resolved Fix] [Bug 1225081](http://bugzil.la/1225081) - Open, close and navigate marketplace hosted/packaged app by preview window
- * [WIP] [Bug 1225090](http://bugzil.la/1225090) - WIP feature is submitted on [Bug 1211400](http://bugzil.la/1211400)
- * [WIP] [Bug 1225085](http://bugzil.la/1225085) - WIP feature is submitted on [Bug 1211400](http://bugzil.la/1211400)
-
+ * [Landed] [Bug 1225085](http://bugzil.la/1225085) - [TV][2.5] Press option will ask to add webapp to Apps when user is navigating in preview content
+ * [Landed] [Bug 1225086](http://bugzil.la/1225086) - [TV][2.5] Press option will ask to add webapp to Apps when user is focusing on a webapp icon in marketplace
+ * [Landed] [Bug 1225090](http://bugzil.la/1225090) - [TV][2.5] Remind user to add content to Apps if webapp has been opened over X times
+ 
 [Other]
 * [Review History](https://bugzilla.mozilla.org/page.cgi?id=review_history.html&requestee=rchien%40mozilla.com)
 
