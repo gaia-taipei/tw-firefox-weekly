@@ -1,18 +1,24 @@
-## This week 11/25 ~ 11/27
-* Bug 1224497 - [Dialer] The emergency number can't be dialed from contact detail page
-  - 2.5 blocker, start investigation
+## This week 12/14 ~ 12/18
+* Bug 1221457 - [Messages]Apply gaia-fast-list for inbox list rendering
+  - Got some feedback. Replying the questions.
+
+* Bug 1224514 - [Messages][NG] We should shutdown MessagingService when app goes to background
+  - Reviewing the WIP and gave some thoughts.
+
+## Last week 12/7 ~ 12/11
+* Mozlando work week. Here's the list of the main sessions(for me):
+  - NGA future work discussion: Review benefits brought by NGA and current progress in each apps
+  - Web component session: Some progress update from gecko
+  - Message API v2.0 discussion: Have some discussion with RIL team with new API interface and possible message DB migration to gaia.
+  - Internal discussion with message peers and contributors about the future of the message app.
+  - Other sessions: academic/medical program, new security model, RTL, ...
 
 * Bug 1221457 - [Messages]Apply gaia-fast-list for inbox list rendering
-  - Start to work on the feedbacks and discuss with UX about the general list styling.
-
-## Last week 11/16 ~ 11/20
-* CSS/JS conference Asia 2015
-  - Checkout all the slides here: https://github.com/devfestasia/talks and They might release the video later.
-  - IMO CSS sessions are better than JS. Recommend the The End of Global CSS/The Rise of Modular Style for another alternative ideas about the CSS modulize/scoping. Some topics like postCSS or performance might be helpful in our codebase. For the JS conf, some topics like The real story behind JS performance/Modular vs Monolith/Overboard.js/Reactive JavaScript might worth a glance.
+  - Discuss with peers about the necessity to land fast-list in the near future.
 
 ## 2015 Q4 Goals
 
-1. 2.5: Complete low storage feature in message app.
+1. 2.5: Complete low storage feature in message app(Pending because it might move to 2.6 or later release).
 2. 2.5: Blockers fixing(Message or other apps).
 3. NGA in Message app: Complete client/service architecture and utilize navigation API for real split views.
 4. NGA in Message app: Keep track of the serviceworker status and plan for serviceworker related NGA features.
