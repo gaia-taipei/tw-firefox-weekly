@@ -1,32 +1,21 @@
 [Open bugs assigned to me](https://bugzilla.mozilla.org/buglist.cgi?quicksearch=assignee%3Agasolin%40mozilla.com) (ASSIGNED = current working on; NEW = backlog)
 
-## 11/30 ~ 12/04
+## 12/07 ~ 12/11
 
 General
- - Bug 1223725 - apply preset eslint rules
-   - in review
- - Bug 1205650 - [feature] support immediate actions on selection menu
-   - f?
+ - Workweek
+ - All Around Settings
+ - lightening talk - What can be done by defining thoughtful Addon hookpoints
+   - https://docs.google.com/a/mozilla.com/presentation/d/1k83Hdb2EuBqhBldxpKrSjfvdQBU7tN6nOn498XQK2X8/edit?usp=sharing
+ - Moonbar/Webiquity idea discussion with  Mark & Dietrich
 
 Settings
-- Bug 1163205 - remove the focus when user open an external link
-  - r+ & landed
-- Bug 1228276 - move showFormatedSize to a separate module
-  - r+ & landed
-- Bug 1229239 - Storage.umsMasterSettingChanged function is not exist in media_storage.js
-  - r+ & landed
-- Bug 1221876 - Intermittent root_settings_test.js | check root panel settings common tests airplane mode enable airplane mode
-  - r+ & landed
-- Bug 1229263 - move getSupportedNetworkInfo into module
-  - WIP
-- Bugs 1201 -> 1183
-
+- settings NGA discussion with francisco Jordano
 
 [Review]
-  - r+, Bug 1227295 - Unable to modify password after entering an incorrect password for a WiFi network
-  - r+, Bug 1210673 - use dialog service to show media storage dialogs
-  - r+, Bug 1179425 - Time remaining to full charge is not displayed in battery settings
-  - r+, Bug 1014440 - [Settings] refactor Firefox Accounts panel with AMD pattern
+  - r+, Bug 1230874 - The FDN numbers "Cancel" button will show as a rectangular button
+  - r+, Bug 1229221 - Migrate Settings to l20n.js
+  - r+, Bug 1226020 - NotificationHelper closeOnClick regression
 
 ## 2015 Q4 Goals
 1. Solving Blockers and implement &lt;to be decided&gt; features, as measured by implementation completeness.
@@ -64,6 +53,8 @@ Settings
    - release [postcss-bidirection](https://github.com/gasolin/postcss-bidirection) for web developer to adopt our LTR/RTL syntax
    - [propose new preprocessor syntax and use 3rd party implementation ](https://groups.google.com/forum/#!searchin/mozilla.dev.fxos/propose/mozilla.dev.fxos/pJpzClI-5R8/28-PngIFAwAJ)
    - [start discussion of using node instead of xpcshell](https://groups.google.com/forum/#!topic/mozilla.dev.fxos/RS7YVDb9SHE)
+   - lightening talk - What can be done by defining thoughtful Addon hookpoints
+     - https://docs.google.com/a/mozilla.com/presentation/d/1k83Hdb2EuBqhBldxpKrSjfvdQBU7tN6nOn498XQK2X8/edit?usp=sharing
 
 ## 2015 Q3 Delivered
 1. Take over and tracking gaia settings/bluetooth remaining & future works https://wiki.mozilla.org/Gaia/Settings, https://wiki.mozilla.org/Gaia/Settings
