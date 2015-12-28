@@ -1,23 +1,25 @@
 [Open bugs assigned to me](https://bugzilla.mozilla.org/buglist.cgi?quicksearch=assignee%3Agasolin%40mozilla.com) (ASSIGNED = current working on; NEW = backlog)
 
-## 12/14 ~ 12/18
+## 12/21 ~ 12/25
+
+General
+ - Bug 1229635 - Gaia README integration test instruction is different from testclustor instructions
+
+Bluetooth
+ - Bug 1227893 - reflect Bluetooth rtl css to Settings counter part
+   - r+ & landed
+ - BLE and HID api time line are still undetermined
 
 Settings
- - Bug 1232588 - wrap Media Storage panel into AMD module
-   - r+ & landed
- - Bug 1232589 - wrap Cellular And Data panel into AMD module
-   - r+ & landed
- - Bug 1232531 - reorder settings panels
-   - WIP
+ - Bug 1221876  - fix root panel test intermittent
+   - landed
+ - Bug 1229263 - move getSupportedNetworkInfo into module
+   - r?
 
 [Review]
-  - r+, Bug 1210674 - use dialog service to show improve_browser_os_send_feedback dialogs
-  - r+, Bug 1110640 - [Flame][Settings]Some last button has bottom line, and some last check box does not have bottom line
-  - r+, Bug 835257 - [OPEN_][WIFI] Setting a custom AP which ssid name is over 32 characters also can be saved
-  - r+, Bug 1232448 - Wifi connection shows placeholder status if device is not connected to any AP
-  - r+, Bug 1232788 - add missing SIM Pin warning string
-  - r+, Bug 1232947 - Fix pin change body l10nid
-  - r-, Bug 1179415 - Entering an invalid passcode match presents a warning but does not clear the codes
+  - r+, Bug 1232797 - The 2nd 'Enter PUK code' dialog (if 1st PUK dialog is skipped) lacks labeling on fields
+  - r+, Bug 1202945 - [settings] separate openIncompatibleSettingsDialog with DialogService
+  - r+, Bug 1234784 - [Settings]User can't delete wifi certificate from certificate list
 
 
 ## 2015 Q4 Goals
@@ -56,6 +58,7 @@ Settings
     - r+ [Call Barring] Bug 1212715 - [Settings] Convert call barring settings switches to use web components
     - r+ [FDN] Bug 1216400 - Convert settings call sub-panels to use gaia-switch
     - r+ [Call Forwarding] Bug 1202974 - [Settings] Convert call settings switches to use web web components
+    - r+, Bug 1234784 - [Settings]User can't delete wifi certificate from certificate list
 5. Experiment features that make people want to use or develop FxOS, as measured by featured raised and planning detail/implementation progress.
    - release [postcss-bidirection](https://github.com/gasolin/postcss-bidirection) for web developer to adopt our LTR/RTL syntax
    - [propose new preprocessor syntax and use 3rd party implementation ](https://groups.google.com/forum/#!searchin/mozilla.dev.fxos/propose/mozilla.dev.fxos/pJpzClI-5R8/28-PngIFAwAJ)
