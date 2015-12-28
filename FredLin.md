@@ -1,21 +1,24 @@
 [Open bugs assigned to me](https://bugzilla.mozilla.org/buglist.cgi?quicksearch=assignee%3Agasolin%40mozilla.com) (ASSIGNED = current working on; NEW = backlog)
 
-## 12/07 ~ 12/11
-
-General
- - Workweek
- - All Around Settings
- - lightening talk - What can be done by defining thoughtful Addon hookpoints
-   - https://docs.google.com/a/mozilla.com/presentation/d/1k83Hdb2EuBqhBldxpKrSjfvdQBU7tN6nOn498XQK2X8/edit?usp=sharing
- - Moonbar/Webiquity idea discussion with  Mark & Dietrich
+## 12/14 ~ 12/18
 
 Settings
-- settings NGA discussion with francisco Jordano
+ - Bug 1232588 - wrap Media Storage panel into AMD module
+   - r+ & landed
+ - Bug 1232589 - wrap Cellular And Data panel into AMD module
+   - r+ & landed
+ - Bug 1232531 - reorder settings panels
+   - WIP
 
 [Review]
-  - r+, Bug 1230874 - The FDN numbers "Cancel" button will show as a rectangular button
-  - r+, Bug 1229221 - Migrate Settings to l20n.js
-  - r+, Bug 1226020 - NotificationHelper closeOnClick regression
+  - r+, Bug 1210674 - use dialog service to show improve_browser_os_send_feedback dialogs
+  - r+, Bug 1110640 - [Flame][Settings]Some last button has bottom line, and some last check box does not have bottom line
+  - r+, Bug 835257 - [OPEN_][WIFI] Setting a custom AP which ssid name is over 32 characters also can be saved
+  - r+, Bug 1232448 - Wifi connection shows placeholder status if device is not connected to any AP
+  - r+, Bug 1232788 - add missing SIM Pin warning string
+  - r+, Bug 1232947 - Fix pin change body l10nid
+  - r-, Bug 1179415 - Entering an invalid passcode match presents a warning but does not clear the codes
+
 
 ## 2015 Q4 Goals
 1. Solving Blockers and implement &lt;to be decided&gt; features, as measured by implementation completeness.
@@ -27,11 +30,13 @@ Settings
     - Bug 1216075 - there is no version information in Add-on description screen.
     - Bug 1217717 - disable the Airplane mode interaction before the wifi panel is ready
     - Bug 1220046 - [Settings] In Settings view, the "Airplane mode" item is displayed wrongly as toggled off, but actually it is on
+    - Bug 1221876  - fix root panel test intermittent
 2. Support Peripherals team for Bluetooth/transfer related Blockers, as measured by blocker burn down and days of blocker turnarounds.
   - Bug 1211341 - Remove bluetooth APIv1 code from Settings
   - Bug 1211342 - Remove bluetooth APIv1 code from Bluetooth
   - Bug 1211357 - Remove bluetooth APIv1 code from System
   - Bug 1222484 - Pairing doesn't work with enter key
+  - Bug 1227893 - reflect Bluetooth rtl css to Settings counter part
 3. Improving settings including css maintainability, dialog, load time, addon hackability etc. (curated todo list http://bit.ly/settingsbacklog), as measured by # of issues addressed (eng plan or implementation).
   - Bug 1214507 - polish startup procedure
   - [2.5] With landing Bug 1216435 & Bug 1218271, Settings decrease ~200ms loadtime (2.8s->2.6s)
@@ -41,6 +46,8 @@ Settings
   - Bug 1203473 - [Settings] Define AppStorage using new syntax provided by Observable
   - Bug 1182129 - [PP] Back out privacy panel
   - conclude [settings change for 2.5](https://groups.google.com/forum/#!searchin/mozilla.dev.fxos/settings$20change/mozilla.dev.fxos/q1zqwKFAIps/eE7oeWbQAAAJ)
+  - Bug 1232588 - wrap Media Storage panel into AMD module
+  - Bug 1232589 - wrap Cellular And Data panel into AMD module
 4. Pick up unfamilar parts related to settings ex: Wifi, APN, RIL..., as measured by # of parts handled (like bug addressedd)
   - [Call Barring] Bug 1205596 - [Settings]A alert "An unknown error occurred" pops up when user enters wrong PIN 2 and then changes to new PIN
   - learning through review & tests
@@ -55,6 +62,7 @@ Settings
    - [start discussion of using node instead of xpcshell](https://groups.google.com/forum/#!topic/mozilla.dev.fxos/RS7YVDb9SHE)
    - lightening talk - What can be done by defining thoughtful Addon hookpoints
      - https://docs.google.com/a/mozilla.com/presentation/d/1k83Hdb2EuBqhBldxpKrSjfvdQBU7tN6nOn498XQK2X8/edit?usp=sharing
+   - moonbar prototype https://github.com/gasolin/moonbar
 
 ## 2015 Q3 Delivered
 1. Take over and tracking gaia settings/bluetooth remaining & future works https://wiki.mozilla.org/Gaia/Settings, https://wiki.mozilla.org/Gaia/Settings
