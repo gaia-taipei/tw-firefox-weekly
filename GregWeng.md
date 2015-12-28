@@ -1,4 +1,4 @@
-## 11/16 ~ 11/20, 11/23 ~ 11/27
+## 12/21 ~ 12/25 
 
 ### Stabilize LockScreen (reduce regressions)
 
@@ -6,30 +6,35 @@
 
 ### Write more integration tests
 
-* Bug 1219681 - Implement *test_lockscreen_unlock_to_homescreen_with_passcode.py* as an integration test in JavaScript
+* Bug 1235106 - Add integration test: |lockscreen_notification_tapping_test.js|
+  * Review+
+
+* Bug 1219682 - Implement *test_lockscreen_wake_with_notification.py* as an integration test in JavaScript
+  * Reopen to invite QA verify it to prevent missing features
+
+* Bug 1235105 - Add integration test: |lockscreen_unlock_handler_test.js| 
   * Landed
 
-* Bug 1219692 - Implement *test_settings_passcode.py* as an integration test in JavaScript (by Scott)
-  * Review+; landed
+* Bug 1235048 - Add integration test: |lockscreen_camera_handler_test.js|
+  * Landed
+
+* Bug 1235007 - Add integration test: |lockscreen_camera_button_test.js|
+  * Landed
+
+* Bug 1232281 - Implement test_home_button.py (in Lockscreen) as an Integration test in JavaScript
+  * Landed
 
 ### DeviceLock API
 
 * (Queued after the Gij tests)
 
 ### Other tasks
-* Bug 942837 - [User Story] Show Alarm Time on Lock Screen (by Prateek)
-  * Review+; landed
-
-* Bug 1165814 - [raptor] Add an option to let user determinate when to flush the log, and add a Marionette phase for combing them together
-  * My first priority these 2 weeks since there would be a demo at Mozlando
-  * I fired another bug more close to the case I'm dealing with now; see below
+* Bug 1234731 - Update lockscreen clock when screen turns on in a more direct manner
+  * Performance issue
+  * Landed
 
 * Bug 1228492 - [PerformanceTool] (Tracking bug) Workable prototype to measure microbehaviors
-  * There are lots of issues now listed on the bug pages.
-  * I now have two available demos
-  * Another one is ongoing
-  * Still encountered some serious instabilities on devices
-  * Need to find out a way to verify this method
+  * Plan to write the driver in these two weeks
 
 * From 11/17 to 11/21 we attended JSConf.Asia in Singapore
   * Will hold a Brown Bag after Mozlando
