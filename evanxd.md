@@ -1,29 +1,39 @@
-## 12/07 ~ 12/11 ##
+## 12/21 ~ 12/25 ##
 
 ### Last week
 * [Audio Channel Management]
-  - Bug 1227825 - Marionette tests for audio channels compete each other
-    - Added test cases for normal audio channel competes with all other audio channels.
-    - Landed.
-  - Bug 1230069 - Fix test cases of public notification v.s normal and public notification v.s content.
-    - review? (lchang)
-  - Bug 1230061 - Fix the test case of ringer v.s. ringer.
-    - review? (lchang)
+  - Bug 1227804 - Marionette test to ensure all audio channels can be played in foreground and background.
+    - r?
+  - Bug 1227805 - Marionette test to ensure content audio channel can be played in background.
+    - Fixed this in Bug 1227804.
+    - RESOLVED DUPLICATE of bug 1227804
+  - Bug 1228475 - Ensure System's audio channels are controlled by Audio Channel Service. 
+    - r?
+  - Bug 1233565 - Intermittent TEST-UNEXPECTED-FAIL | apps/system/test/marionette/audio_channel_competing_test.js | Audio channel competing Notification audio channel competes with audio channels Notification
+    - The failure is about crash of FxOS. Looks like it is more about Gecko issue. Already call for help from Alastor.
+  - Bug 1232363 - No audible sound coming from Alarm audio channel.
+    - Help to review the patch and r+.
+
+* [Bluetooth Test App]
+  - Rehearsal with Hong Yong for presenting his work in demo day.
 
 ### This week
 * [Audio Channel Management]
-  - Bug 1227805 - Marionette test to ensure content audio channel can be played in background.
-    - Start to write the test cases.
-  - Bug 1227804 - Marionette test to ensure normal audio channel cannot be played in background.
-    - Start to write the test cases.
-  - Bug 1228475 - Ensure System's audio channels are controlled by Audio Channel Service. 
-    - Start to write the test cases.
-  - Bug 1233565 - Intermittent TEST-UNEXPECTED-FAIL | apps/system/test/marionette/audio_channel_competing_test.js | Audio channel competing Notification audio channel competes with audio channels Notification
-    - Start to investigate and fix the bug.
   - Bug 1232892 - Normal audio channel competes with all kinds of audio channels in one test app
     - Start to investigate and fix the bug.
-  - Bug 1232363 - No audible sound coming from Alarm audio channel.
-    - Help to review the patch.
+  - Bug 1233565 - Intermittent TEST-UNEXPECTED-FAIL | apps/system/test/marionette/audio_channel_competing_test.js | Audio channel competing Notification audio channel competes with audio channels Notification
+    - Figure out the crash issue with Alastor.
+  - Bug 1218690 - Marionette tests for play icon
+    - Start to write test cases.
+  Bug 1235335 - Video cannot be played in background.
+    - Start to write test cases.
+
+* [Web of Things]
+  - Meeting for WebEverywhere Architecture Open Discussion
+  - Meeting for the next step of WebEverywhere
+
+* [Others]
+  - Plan 2016 Q1.
 
 ## 2015 Q4 Goals
 1. Support Web of Things Project: implement FoxCount project, as measured by implementation completeness.
