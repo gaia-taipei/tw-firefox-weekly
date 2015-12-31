@@ -1,24 +1,17 @@
 ### Last week
 
 * [Marketplace]
-  - [FIXED] Bug 1225354 - [TV][2.5] Showing a list of apps as a row
-  - [FIXED] Bug 1225356 - [TV][2.5] Showing app’s detail in the preview area when navigating to an app
-  - [FIXED] Bug 1225358 - [TV][2.5] Highlight the icon of the app when navigating to an app
-  - [FIXED] Bug 1225393 - [TV][2.5] Open app when pressing enter on an app
-  - [FIXED] Bug 1225394 - [TV][2.5] Check the app is installed or not when navigating to an app
-  - [FIXED] Bug 1228204 - [TV][2.5] Press option on app's icon will inform system app of which app is focuesd
-  - [FIXED] Bug 1228210 - [TV][2.5] Package as hosted app
-  - [FIXED] Bug 1227929 - [TV][2.5] Reskin marketplace with Marketplace visual spec
-  - [FIXED] Bug 1227492 - [TV][2.5] Navigating vertically - Content scrolls up
-  - [DUPLICATE] Bug 1227505 - [TV][2.5] Navigating vertically - Content scrolls down
 
 ### This Week
 
 * [Marketplace]
-  - [WIP] Bug 1223346 - [TV] FTE for Marketplace
-  - [WIP] Bug 1221784 - [user story] As a user, I want to be able to see that Content has been featured by seeing a flag on the Icon View of such Content
+  - [r?] Bug 1223346 - [TV] FTE for Marketplace
+  - [r?] Bug 1221784 - [user story] As a user, I want to be able to see that Content has been featured by seeing a flag on the Icon View of such Content
 
-  - [ASSIGNED] Bug 1232619 - [TV][2.5] Update preview area's background color
-  - [ASSIGNED] Bug 1235113 - [TV][2.5] Showing installed icon in preview area when the app is installed
-  - [ASSIGNED] Bug 1233681 - [TV][2.5] Update contextmenu id to the top element
-  - [ASSIGNED] Bug 1235116 - [TV][2.5] Open or press option key on website
+  - [r?] Bug 1232619 - [TV][2.5] Update preview area's background color
+  - [r?] Bug 1235113 - [TV][2.5] Showing installed icon in preview area when the app is installed
+
+  - [r?] Bug 1233681 - [TV][2.5] Update contextmenu id to the top element
+  - [r?] Bug 1235116 - [TV][2.5] Open or press option key on website
+
+  - [ASSIGNED] Bug 1232051 - [TV][2.5] Marketplace UI should show strings (not just API data) localized for the user
