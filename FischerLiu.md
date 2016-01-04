@@ -1,11 +1,15 @@
-## 12/07 - 12/11 ##
+## 12/14 - 12/18 ##
 
 ### This Week ###
 
 * [GijTV]
 
+  - [WIP] Bug 1235300 - [GijTV] Smart system has to set the ready-state attribute to let JSMarionette know ready to test
   - [WIP] Bug 1234482 - [GijTV] Re-enable smart-system app_modal_dialog test
-  - [WIP] Bug 1234484 - [GijTV] Re-enable smart-system app_install_dialog test
+  - [WIP] Bug 1234484 - [GijTV] Re-enable smart-system app_install_dialog and browser_context_menu test
+    - Duplicate bug: Bug 1231460 - [GijTV] Smart-system browser context menu marionette test failure
+
+### Last Week ###
 
 * [Other]
 
@@ -23,15 +27,3 @@
 
   - [WIP] Bug 1232584 - [TV] FTE for usage metrics specs update for the new legal approved terms
     - Complete one local update based on the new draft spec first but wiating for the final legal approved terms
-
-### Last Week ###
-
-* [ TV Marketplace ]
-
-  - [FIXED] Bug 1230091 - ReferenceError on using not defined aApp variable in OfflineCacheInstaller.jsm
-  - [FIXED] Bug 1228974 - [TV][2.5] Preloaded hosted app offline support did not work
-
-* [ Gijtv ]
-
-  - [FIXED] Bug 1207453 - [gatt] GijTV tests fail due to test environment issue
-    - Work with Gareth and Aus to fix the dulpllicated bug 1231680
