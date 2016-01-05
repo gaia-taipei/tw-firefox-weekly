@@ -1,39 +1,41 @@
-## 12/21 ~ 12/25 ##
+## 12/28 ~ 12/31 ##
 
 ### Last week
 * [Audio Channel Management]
   - Bug 1227804 - Marionette test to ensure all audio channels can be played in foreground and background.
-    - r?
-  - Bug 1227805 - Marionette test to ensure content audio channel can be played in background.
-    - Fixed this in Bug 1227804.
-    - RESOLVED DUPLICATE of bug 1227804
-  - Bug 1228475 - Ensure System's audio channels are controlled by Audio Channel Service. 
-    - r?
+    - Landed.
+  - Bug 1235335 - Video cannot be played in background.
+    - WIP patch: https://github.com/evanxd/gaia/commit/2e6f4bad8c84005df291765ffd8a158ee9a8b0db
+    - Found out a issue, test video cannot be played in the test. Continue to fix it next week.
   - Bug 1233565 - Intermittent TEST-UNEXPECTED-FAIL | apps/system/test/marionette/audio_channel_competing_test.js | Audio channel competing Notification audio channel competes with audio channels Notification
-    - The failure is about crash of FxOS. Looks like it is more about Gecko issue. Already call for help from Alastor.
-  - Bug 1232363 - No audible sound coming from Alarm audio channel.
+    - The crash issue might be caused by Bug 1175116. Continue to fix this bug next week.
+  - Bug 1235538 - Intermittent TEST-UNEXPECTED-FAIL | apps/music/test/marionette/Player_test.js | Music player tests Status bar Check the play icon is in the status bar. moztrap:9742
     - Help to review the patch and r+.
 
-* [Bluetooth Test App]
-  - Rehearsal with Hong Yong for presenting his work in demo day.
+* [Web of Things]
+  - After discussion, we have a tech architecture. We'll introduce that in a brownbag next week.
+  - Next step, we need to find out good use cases to help WebEverwhere group pass Gate 0.
+  - I'll host a brownbag and brainstorming events to get more good ideas.
+
+* [Brief Idea about 2016 Q1 Plan]
+  - Help WebEverwhere group pass Gate 0. We'll need showcase ideas, tech architecture, and prototypes of showcases.
+  - Help System merge things. Merge audio channel management module.
+  - Marionette tests for audio channel management. See Bug 1218692.
 
 ### This week
 * [Audio Channel Management]
-  - Bug 1232892 - Normal audio channel competes with all kinds of audio channels in one test app
-    - Start to investigate and fix the bug.
   - Bug 1233565 - Intermittent TEST-UNEXPECTED-FAIL | apps/system/test/marionette/audio_channel_competing_test.js | Audio channel competing Notification audio channel competes with audio channels Notification
-    - Figure out the crash issue with Alastor.
+    - Change a new and stable way to assert states of audio channels. It can fix this failure https://tools.taskcluster.net/task-inspector/#Anxgl-A_TE6kW-0ecGICxw/3.
+  - Bug 1235335 - Video cannot be played in background.
+    - Fix the issue test video cannot be played in the test.
   - Bug 1218690 - Marionette tests for play icon
-    - Start to write test cases.
-  Bug 1235335 - Video cannot be played in background.
     - Start to write test cases.
 
 * [Web of Things]
-  - Meeting for WebEverywhere Architecture Open Discussion
-  - Meeting for the next step of WebEverywhere
+  - Prepare stuffs for the brownbag.
 
-* [Others]
-  - Plan 2016 Q1.
+* [2016 Q1 Plan]
+  - Discuss 2016 Q1's goals with manager.
 
 ## 2015 Q4 Goals
 1. Support Web of Things Project: implement FoxCount project, as measured by implementation completeness.
