@@ -1,22 +1,34 @@
-## 12/15 - 12/18 ##
+## 12/21 - 12/25 ##
 
 ### Last Week ###
 
-* [TV Marketplace]
-    - [WIP] Bug 1232345 - [TV][2.5] Preview Website in Preview window
-        - work in progress
-    - [WIP] Bug 1233682 - [TV][2.5] Make TV support window.open() with "remote=true"
-        - had a patch and sent the review request
-    - Answer partner's question via mail
+* [TV Remote Control]
+    - [WIP] Bug 1228262 - [TV 2.5] Implement secure connection on remote control client side
+        - Secure follow-up discussion with Paul
+        - Identified the TO-DO tasks with Eric
 
-* [Others]
-    - Interview
+* [TV Marketplace]
+    - [Done] Bug 1232345 - [TV][2.5] Preview Website in Preview window
+        - landed on master
+    - [Done] Bug 1233682 - [TV][2.5] Make TV support window.open() with "remote=true"
+        - landed on master
+    - [Review] Bug 1217771 - [TV][2.5] Add Website to the apps folder
+
+* [TV General]
+    - [Review] Bug 1161440 - [Presentation WebAPI] trusted UI for device selection on Firefox OS
+    - [Review] Bug 1201013 - [TV 2.5][Home] The "window.confirm()" and "window.prompt()" dialog shows two "OK" buttons on TV incorrectly
+
+* [Audio Channel]
+    - [Review] Bug 1230069 - Fix test cases of public notification v.s normal and public notification v.s content
+    - [Review] Bug 1230061 - Fix the test case of ringer v.s. ringer
 
 ### This Week ###
 
+* [TV Remote Control]
+    - [WIP] Bug 1228262 - [TV 2.5] Implement secure connection on remote control client side
+
 * [TV Marketplace]
-    - [WIP] Bug 1232345 - [TV][2.5] Preview Website in Preview window
-    - [WIP] Bug 1233682 - [TV][2.5] Make TV support window.open() with "remote=true"
+    - review patches
 
 ## 2015 Q4 Goals ##
 
