@@ -1,32 +1,22 @@
-## 12/07 - 12/11 ##
+## 12/15 - 12/18 ##
 
 ### Last Week ###
 
-* [Mozlando]
-    - Presented at the session "FxOS TV - Orlando hands on workshop"
-    - Discussed the plan of System Merge with Michael and Alberto
-    - Attended the sessions of FlyWeb
-
 * [TV Marketplace]
-    - Bug 1225085 - [TV][2.5] Press option will ask to add webapp to Apps when user is navigating in preview content
-        - reviewed
-    - Bug 1225086 - [TV][2.5] Press option will ask to add webapp to Apps when user is focusing on a webapp icon in marketplace
-        - reviewed
-    - Bug 1225090 - [TV][2.5] Remind user to add content to Apps if webapp has been opened over X times
-        - reviewed
+    - [WIP] Bug 1232345 - [TV][2.5] Preview Website in Preview window
+        - work in progress
+    - [WIP] Bug 1233682 - [TV][2.5] Make TV support window.open() with "remote=true"
+        - had a patch and sent the review request
+    - Answer partner's question via mail
 
-* [Audio Channel]
-    - Bug 1227825 - Content, alarm, system, ringer, telephony, notification, and public notification audio channels competes with all kinds of audio channels
-        - reviewed
-
-* [System]
-    - Bug 1231548 - [TV][2.5] Layout to sign-in dialog of Firefox account is broken
-        - reviewed
+* [Others]
+    - Interview
 
 ### This Week ###
 
 * [TV Marketplace]
-    - Follow up
+    - [WIP] Bug 1232345 - [TV][2.5] Preview Website in Preview window
+    - [WIP] Bug 1233682 - [TV][2.5] Make TV support window.open() with "remote=true"
 
 ## 2015 Q4 Goals ##
 
