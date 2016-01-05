@@ -1,32 +1,32 @@
-## 11/30 - 12/04 ##
+## 12/07 - 12/11 ##
 
 ### Last Week ###
 
-* [TV Remote Control]
-    - [WIP] Bug 1228365 - [TV][Remote Control] For TV deck, the option menu doesn't be pop out on screen after pressing "Option"
-        - investigated
-    - [WIP] Bug 1228395 - [TV][Remote Control] Failed to connect iPhone to TV while pairing code - ON
-        - clarified
+* [Mozlando]
+    - Presented at the session "FxOS TV - Orlando hands on workshop"
+    - Discussed the plan of System Merge with Michael and Alberto
+    - Attended the sessions of FlyWeb
 
-* [Audio Channel]
-    - Bug 1227824 - Normal audio channels compete with all kinds of audio channels
-        - discussed about Evan's patch
-    - Bug 1161440 - [Presentation WebAPI] trusted UI for device selection on Firefox OS
+* [TV Marketplace]
+    - Bug 1225085 - [TV][2.5] Press option will ask to add webapp to Apps when user is navigating in preview content
+        - reviewed
+    - Bug 1225086 - [TV][2.5] Press option will ask to add webapp to Apps when user is focusing on a webapp icon in marketplace
+        - reviewed
+    - Bug 1225090 - [TV][2.5] Remind user to add content to Apps if webapp has been opened over X times
         - reviewed
 
-* [Others]
-    - Review partner's cherry-picked code
-    - Confirm TO-DO tasks on partner's side
+* [Audio Channel]
+    - Bug 1227825 - Content, alarm, system, ringer, telephony, notification, and public notification audio channels competes with all kinds of audio channels
+        - reviewed
 
-* [PTO]
-    - 12/02 - 12/04
+* [System]
+    - Bug 1231548 - [TV][2.5] Layout to sign-in dialog of Firefox account is broken
+        - reviewed
 
 ### This Week ###
 
-* [Mozlando]
-    - System Merge / Etienne Segonzac, Michael Henretty
-    - FlyWeb / Douglas Sherk
-    - TV Marketplace / David Almstrom, Lindsay Saunders
+* [TV Marketplace]
+    - Follow up
 
 ## 2015 Q4 Goals ##
 
