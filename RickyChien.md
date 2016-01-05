@@ -1,9 +1,9 @@
-## 12/07 ~ 12/18
+## 12/21 ~ 12/31
 [TV System]
 * [Bug 1211400](http://bugzil.la/1211400) - [TV][2.5] Preview an app on Marketplace
- * [Landed] [Bug 1225085](http://bugzil.la/1225085) - [TV][2.5] Press option will ask to add webapp to Apps when user is navigating in preview content
- * [Landed] [Bug 1225086](http://bugzil.la/1225086) - [TV][2.5] Press option will ask to add webapp to Apps when user is focusing on a webapp icon in marketplace
- * [Landed] [Bug 1225090](http://bugzil.la/1225090) - [TV][2.5] Remind user to add content to Apps if webapp has been opened over X times
+ * [r?] [Bug 1235128](http://bugzil.la/1235128) - [TV][2.5] System banner supports icon and title 
+ * [WIP] [Bug 1236443](http://bugzil.la/1236443) - [TV][2.5] App window & preview window support back navigation
+ * [r?] [Bug 1227537](http://bugzil.la/1227537) - [TV][2.5] Failed to navigate back
  
 [Other]
 * [Review History](https://bugzilla.mozilla.org/page.cgi?id=review_history.html&requestee=rchien%40mozilla.com)
