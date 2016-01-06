@@ -1,26 +1,31 @@
-## 12/21 - 12/25 ##
+## 12/28 - 12/31 ##
 
 ### Last Week ###
 
 * [TV Remote Control]
     - [WIP] Bug 1228262 - [TV 2.5] Implement secure connection on remote control client side
-        - Secure follow-up discussion with Paul
-        - Identified the TO-DO tasks with Eric
+        - "secure.html/secure.js" had been implemented with "crypto.subtle"
+        - integrated with Eric's gecko code
+    - [Done] Bug 1235511 - [TV 2.5] Add the permission to let web components work correctly in the remote control app
+        - figured out the problem and made the patch
+        - landed on master
 
 * [TV Marketplace]
-    - [Done] Bug 1232345 - [TV][2.5] Preview Website in Preview window
-        - landed on master
-    - [Done] Bug 1233682 - [TV][2.5] Make TV support window.open() with "remote=true"
-        - landed on master
-    - [Review] Bug 1217771 - [TV][2.5] Add Website to the apps folder
+    - [WIP] Bug 1235977 - [TV][2.5] Video can't be played in the preview mode
+        - found the root cause and made a quick patch for demo
+        - worked out a formal patch and waiting for review
+    - [Review] Bug 1234163 - [TV][2.5] Add Website to smart home
+    - [Review] Bug 1233681 - [TV][2.5] Update contextmenu id to the top element
+    - [Review] Bug 1235116 - [TV][2.5] Open or press option key on website
+    - [Review] Bug 1232619 - [TV][2.5] Update preview area's background color
+    - [Review] Bug 1235518 - [TV][2.5][AppDeck] Show a confirm screen before deleting bookmark
 
 * [TV General]
-    - [Review] Bug 1161440 - [Presentation WebAPI] trusted UI for device selection on Firefox OS
-    - [Review] Bug 1201013 - [TV 2.5][Home] The "window.confirm()" and "window.prompt()" dialog shows two "OK" buttons on TV incorrectly
+    - [Review] Bug 1235300 - [GijTV] Smart system has to set the ready-state attribute to let JSMarionette know ready to test
 
-* [Audio Channel]
-    - [Review] Bug 1230069 - Fix test cases of public notification v.s normal and public notification v.s content
-    - [Review] Bug 1230061 - Fix the test case of ringer v.s. ringer
+* [Keyboard]
+    - Bug 1110030 - Routing hardware key events to keyboard app when an input field is focusing
+        - participated in the discussion with Tim and Chun-min
 
 ### This Week ###
 
@@ -28,7 +33,11 @@
     - [WIP] Bug 1228262 - [TV 2.5] Implement secure connection on remote control client side
 
 * [TV Marketplace]
+    - [WIP] Bug 1235977 - [TV][2.5] Video can't be played in the preview mode
     - review patches
+
+* [On-site Meeting]
+    - Prepare anwsers to partner's questions
 
 ## 2015 Q4 Goals ##
 
