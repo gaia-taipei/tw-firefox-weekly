@@ -1,24 +1,29 @@
-## This week 12/21 ~ 12/25
+## This week 12/28 ~ 12/30
 * Bug 1221457 - [Messages]Apply gaia-fast-list for inbox list rendering
   - Still waiting for feedback
 
 * Bug 1179628 - [Messages][NG] Lay out Settings service structure
-  - Patch was ready and in review
+  - Got some suggestion from reviewer.
+
+* Bug 1085764	- Be able to input Simplified-Chinese in SMS subject after reaching maxium length
+  - Have some discussion with UX, will propose a simpler solution.
+ 
+* Ni? TingYu about some copy/paste regression.
+
+* Review some intermittent failed fixing patches.
+
+## Last week 12/21 ~ 12/25
+* Bug 1221457 - [Messages]Apply gaia-fast-list for inbox list rendering
+  - Still waiting for feedback
+
+* Bug 1179628 - [Messages][NG] Lay out Settings service structure
+  - In review
 
 * Reviewed some patches from contributors.
 
 * Annual bug clean up and un-assign the pending features.
-
-## Last week 12/14 ~ 12/18
-* Bug 1221457 - [Messages]Apply gaia-fast-list for inbox list rendering
-  - (feedback?)Still waiting for feedbacks from another peer.
-
-* Bug 1224514 - [Messages][NG] We should shutdown MessagingService when app goes to background
-  - Reviewed.
-
-* Bug 1179628 - [Messages][NG] Lay out Settings service structure
-  - (ongoing)Got some late feedback, resume the WIP and added unit tests.
-  
+  - Unassign the features like creation mode, message received notification.
+  - Revisit legacy like copy patse issues and subject legnth limitation issue with Chinese IME/word suggestion.
 
 ## 2015 Q4 Goals
 
