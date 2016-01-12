@@ -1,42 +1,33 @@
+## This week 1/4 ~ 1/8
+* Bug 1221457 - [Messages]Apply gaia-fast-list for inbox list rendering
+  - Got some feedbacks, move to low priority background work.
+
+* Bug 1179628 - [Messages][NG] Lay out Settings service structure
+  - Still have some concerns in the last review, move to low priority background work.
+
+* Investigate more intermittent failed issues(Bug 1235842, Bug 1236418) with docker and MozITP tool.
+
 ## This week 12/28 ~ 12/30
 * Bug 1221457 - [Messages]Apply gaia-fast-list for inbox list rendering
   - Still waiting for feedback
 
 * Bug 1179628 - [Messages][NG] Lay out Settings service structure
-  - Got some suggestion from reviewer.
+  - Polished the patch and asked for another review.
 
 * Bug 1085764	- Be able to input Simplified-Chinese in SMS subject after reaching maxium length
-  - Have some discussion with UX, will propose a simpler solution.
- 
-* Ni? TingYu about some copy/paste regression.
+  - No progress, move to background work.
 
-* Review some intermittent failed fixing patches.
+* Review some intermittent failed fixing patches(bug 1179604).
 
-## Last week 12/21 ~ 12/25
-* Bug 1221457 - [Messages]Apply gaia-fast-list for inbox list rendering
-  - Still waiting for feedback
+## 2016 Q1 Goals
 
-* Bug 1179628 - [Messages][NG] Lay out Settings service structure
-  - In review
+* Goals updated on Workday
 
-* Reviewed some patches from contributors.
 
-* Annual bug clean up and un-assign the pending features.
-  - Unassign the features like creation mode, message received notification.
-  - Revisit legacy like copy patse issues and subject legnth limitation issue with Chinese IME/word suggestion.
+## 2015 Q4 delivered
 
-## 2015 Q4 Goals
-
-1. 2.5: Complete low storage feature in message app(Pending because it might move to 2.6 or later release).
-2. 2.5: Blockers fixing(Message or other apps).
-3. NGA in Message app: Complete client/service architecture and utilize navigation API for real split views.
-4. NGA in Message app: Keep track of the serviceworker status and plan for serviceworker related NGA features.
-5. Apply fast list module in message app when libraries are stabilized.
-
-## 2015 Q3 delivered
-
-1. NGA in Message app: Separate the original architecture into different views with independent markup/script/css/asset. Basically it's completed but we can still split more view in the future. Will be measured by progress made on Message app views splits.
-2. NGA in Message app: Client/service architecture based on bridge library. We have implemented most of the back-end service layout and trying to connect/test with service methods gradually, still ongoing because of the performance issue and workaround is not trivial process. Will be measured by progress made on landing NGA Message app bits.
-3. 2.5: blockers and other regression fixing, as measured by blocker burn down and days of blocker turnarounds.
-4. 2.5: feature (low storage) discussion and preparation, as measured by feature burn down and days of blocker turnarounds.
-5. Fast list(including Gaia component/dom scheduler module) experiment in message app(https://github.com/steveck-chung/gaia/tree/new-message-fast-list), as measured by outcome of the experiment and applicability to Gaia.
+1. 2.5: Complete low storage feature in message app, pending because it moved to 2.6 or later release.
+2. 2.5: Blockers fixing(Message or other apps), as measured by blocker burn down and days of blocker turnarounds.
+3. NGA in Message app: Complete client/service architecture and utilize navigation API for real split views, as measured by progress made on landing NGA Message app.
+4. NGA in Message app: Keep track of the serviceworker status and plan for serviceworker related NGA features, as measured by task break down for serviceworker related features or any other experiment for it.
+5. Apply fast list module in message app when libraries are stabilized, as measured by the progress of the experimental WIP.  
