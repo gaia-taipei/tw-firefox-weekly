@@ -1,31 +1,22 @@
 [Open bugs assigned to me](https://bugzilla.mozilla.org/buglist.cgi?quicksearch=assignee%3Agasolin%40mozilla.com) (ASSIGNED = current working on; NEW = backlog)
 
-## 12/28 ~ 12/31
+## 1/4 ~ 1/8
 
 General
- - Bug 1235202 - The selector field height is narrow when value is blank
-   - create reproducable demo
- - Bug 1206474 - Inconsistent terminology: "SIM" vs "SIM card" and "No SIM inserted" vs "No SIM card"
-   - mentor bug
-
-Bluetooth
- - verify reported bugs
+ - Extend moonbar to browser's new tab extension for easier evaluation
+ - Prototyping the search + ubiquity tool https://github.com/gasolin/webby
+ - prepare for gate 0
 
 Settings
- - Bug 1179415 - Entering an invalid passcode match presents a warning but does not clear the codes
-   - landed
- - Bug 1229263 - move getSupportedNetworkInfo into module
-   - r+ & landed
- - Bug 1159657 - remove golbal openlink method
-   - r+ & landed
+ - triage Settings bugs from 1210 -> 1123
+   - complete checked all settings bugs and put 219 backlog bugs
  - Bug 1235337 - Manage STK in js/panel/icc
-   - r?
- - Bug 1235310 - Move telephony items into root panel
+   - r+ & landed
+ - Check intermittent of airplaneMode gij test
    - WIP
 
 [Review]
-  - r+, Bug 835497 - [B2G][Settings] Display: Brightness does not adjust as the slider is being moved
-
+  - f+ Bug 973458 - [settings] refactor Downloads panel with AMD pattern
 
 ## 2015 Q4 Goals
 1. Solving Blockers and implement &lt;to be decided&gt; features, as measured by implementation completeness.
@@ -56,6 +47,7 @@ Settings
   - Bug 1232588 - wrap Media Storage panel into AMD module
   - Bug 1232589 - wrap Cellular And Data panel into AMD module
   - Bug 1159657 - [Meta] remove utils.js and move all it's functionality to related modules
+  - triage all bugs in settings category
 4. Pick up unfamilar parts related to settings ex: Wifi, APN, RIL..., as measured by # of parts handled (like bug addressedd)
   - [Call Barring] Bug 1205596 - [Settings]A alert "An unknown error occurred" pops up when user enters wrong PIN 2 and then changes to new PIN
   - learning through review & tests
