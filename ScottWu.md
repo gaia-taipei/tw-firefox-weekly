@@ -1,17 +1,19 @@
-## 12/28 ~ 12/31
+## 1/4 ~ 1/7
 
 - [Settings]
+	- [WIP] [Bug 981560](https://bugzilla.mozilla.org/show_bug.cgi?id=981560) - [settings] add marionette test for device information - More information panel
 	- [WIP] [Bug 1232818](https://bugzilla.mozilla.org/show_bug.cgi?id=1232818) - The SIM PIN was incorrect screen disappears if the user enters 9 incorrect digits because the number of digits is not capped
 		- PR for fxos-component accepted. Need to update the component in gaia.
-	- [WIP] [Bug 973458](https://bugzilla.mozilla.org/show_bug.cgi?id=973458) - [settings] refactor Downloads panel with AMD pattern
-		- Fixing unit tests
+	- [Reviewing] [Bug 973458](https://bugzilla.mozilla.org/show_bug.cgi?id=973458) - [settings] refactor Downloads panel with AMD pattern
 	- [WIP] [Bug 1208893] (https://bugzilla.mozilla.org/show_bug.cgi?id=1208893) - Add a warning text in Low Storage mode to the storage panels
 		- Raised a question on [Bug 1204618] (https://bugzilla.mozilla.org/show_bug.cgi?id=1204618), now waiting for a response
+
+- [Build]
+	- [Reviewing] [Bug 1131514](https://bugzilla.mozilla.org/show_bug.cgi?id=1131514) - Remove deprecated watcher.js and monitor.js
 
 - Planned Tasks
 	- Testing
 		- Fix [intermittent tests](https://github.com/mozilla-b2g/gaia/blob/master/shared/test/integration/tbpl-manifest.json#L54) for Settings
-			- `airplane_mode_settings_test`
 			- `app_permission_settings_test`
 			- `hotspot_wifi_settings_test`
 			- `message_settings_test`
@@ -22,8 +24,8 @@
 		- [Bug 973432](https://bugzilla.mozilla.org/show_bug.cgi?id=973432) - [Settings][meta] panel refactor with AMD pattern
 
 - Reviewed
-	- [r+] [Bug 1229263](https://bugzilla.mozilla.org/show_bug.cgi?id=1229263) - move getSupportedNetworkInfo into module
-	- [r+] [Bug 1159657](https://bugzilla.mozilla.org/show_bug.cgi?id=1159657) - [Meta] remove utils.js and move all it's functionality to related modules
+	- [r+] [Bug 1235337](https://bugzilla.mozilla.org/show_bug.cgi?id=1235337) - Manage STK in js/panel/icc
+	- [r+] [Bug 1207073](https://bugzilla.mozilla.org/show_bug.cgi?id=1207073) - RUN\_ON\_NODE=1 make is broken
 
 ## 2015 Q4 Goals
 
