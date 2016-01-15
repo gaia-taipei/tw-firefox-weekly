@@ -1,41 +1,38 @@
-## 12/28 ~ 12/31 ##
+## 01/04 ~ 01/08 ##
 
 ### Last week
 * [Audio Channel Management]
-  - Bug 1227804 - Marionette test to ensure all audio channels can be played in foreground and background.
+  - Bug 1228475 - Ensure System's audio channels are controlled by Audio Channel Service.
     - Landed.
-  - Bug 1235335 - Video cannot be played in background.
-    - WIP patch: https://github.com/evanxd/gaia/commit/2e6f4bad8c84005df291765ffd8a158ee9a8b0db
-    - Found out a issue, test video cannot be played in the test. Continue to fix it next week.
   - Bug 1233565 - Intermittent TEST-UNEXPECTED-FAIL | apps/system/test/marionette/audio_channel_competing_test.js | Audio channel competing Notification audio channel competes with audio channels Notification
-    - The crash issue might be caused by Bug 1175116. Continue to fix this bug next week.
-  - Bug 1235538 - Intermittent TEST-UNEXPECTED-FAIL | apps/music/test/marionette/Player_test.js | Music player tests Status bar Check the play icon is in the status bar. moztrap:9742
-    - Help to review the patch and r+.
+    - Landed.
+  - Bug 1236307 - Intermittent apps/system/test/marionette/audio_channel_played_in_foreground_and_background_test.js | Audio channel played in foreground and background alarm audio channel alarm audio channel can be played in background
+    - We also fixed it in Bug 1233565.
 
-* [Web of Things]
-  - After discussion, we have a tech architecture. We'll introduce that in a brownbag next week.
-  - Next step, we need to find out good use cases to help WebEverwhere group pass Gate 0.
-  - I'll host a brownbag and brainstorming events to get more good ideas.
+* [WebEverywhere]
+  - Discussed the brief architecture.
+  - Prepared brownbag: http://evanxd.github.io/introduction-to-webeverywhere
 
-* [Brief Idea about 2016 Q1 Plan]
-  - Help WebEverwhere group pass Gate 0. We'll need showcase ideas, tech architecture, and prototypes of showcases.
-  - Help System merge things. Merge audio channel management module.
-  - Marionette tests for audio channel management. See Bug 1218692.
+* [2016 Q1 Plan]
+  - Discussed 2016 Q1's goals with manager.
+
+* [Other]
+  - Help UX team(Carol and Morpheus) to evaulate their ideas.
 
 ### This week
 * [Audio Channel Management]
-  - Bug 1233565 - Intermittent TEST-UNEXPECTED-FAIL | apps/system/test/marionette/audio_channel_competing_test.js | Audio channel competing Notification audio channel competes with audio channels Notification
-    - Change a new and stable way to assert states of audio channels. It can fix this failure https://tools.taskcluster.net/task-inspector/#Anxgl-A_TE6kW-0ecGICxw/3.
+  - Bug 1235300 - [GijTV] Smart system has to set the ready-state attribute to let JSMarionette know ready to test
+    - Help to review the patch.
   - Bug 1235335 - Video cannot be played in background.
     - Fix the issue test video cannot be played in the test.
   - Bug 1218690 - Marionette tests for play icon
     - Start to write test cases.
 
-* [Web of Things]
-  - Prepare stuffs for the brownbag.
-
-* [2016 Q1 Plan]
-  - Discuss 2016 Q1's goals with manager.
+* [WebEverywhere]
+  - Host a brownbag.
+  - Review the UI and prototype design.
+  - Host two brainstorming sessions.
+  - Discuss a robust architecture.
 
 ## 2015 Q4 Goals
 1. Support Web of Things Project: implement FoxCount project, as measured by implementation completeness.
