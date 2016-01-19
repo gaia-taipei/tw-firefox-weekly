@@ -1,23 +1,24 @@
+## This week 1/11 ~ 1/15
+* Investigate more intermittent failed issues
+  - Bug 1235842 - new activity test intermittent failed: Remove aria-hidden: true property if we need to test the element.
+  - Bug 1236418 - Postpone the investigation due to the low rate and unrelated error message
+
+* Revisit some serious copy/paste issues:
+  - Bug 1127587 - Revisit select all broken case within master. There might be some regression about user-select inheritance.
+  
+* Medical Platform Project discussion:
+  - Notes: https://docs.google.com/document/d/1TQRfJYBNp8qO8oLx5gsah2Fy4dlapBXWXur2KzxXa84/edit
+
 ## This week 1/4 ~ 1/8
 * Bug 1221457 - [Messages]Apply gaia-fast-list for inbox list rendering
-  - Got some feedbacks, move to low priority background work.
+  - Moved to low priority background work.
 
 * Bug 1179628 - [Messages][NG] Lay out Settings service structure
-  - Still have some concerns in the last review, move to low priority background work.
+  - Moved to low priority background work.
 
 * Investigate more intermittent failed issues(Bug 1235842, Bug 1236418) with docker and MozITP tool.
-
-## This week 12/28 ~ 12/30
-* Bug 1221457 - [Messages]Apply gaia-fast-list for inbox list rendering
-  - Still waiting for feedback
-
-* Bug 1179628 - [Messages][NG] Lay out Settings service structure
-  - Polished the patch and asked for another review.
-
-* Bug 1085764	- Be able to input Simplified-Chinese in SMS subject after reaching maxium length
-  - No progress, move to background work.
-
-* Review some intermittent failed fixing patches(bug 1179604).
+ - Bug 1235842 - new activity test intermittent failed: Found some regression in a11y test framework changes.
+ - Bug 1236418 - attachment test intermittent failed: Can't find the root cause because of extremely low reproduce rate.
 
 ## 2016 Q1 Goals
 
