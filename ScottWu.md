@@ -1,15 +1,17 @@
-## 1/4 ~ 1/7
+## 1/11 ~ 1/15
 
 - [Settings]
-	- [WIP] [Bug 981560](https://bugzilla.mozilla.org/show_bug.cgi?id=981560) - [settings] add marionette test for device information - More information panel
+	- [WIP] [Bug 1004348](https://bugzilla.mozilla.org/show_bug.cgi?id=1004348) - Intermittent failing test, manipulate app permissions set geolocation of first app to Grant
+	- [Reviewing] [Bug 981560](https://bugzilla.mozilla.org/show_bug.cgi?id=981560) - [settings] add marionette test for device information - More information panel
 	- [WIP] [Bug 1232818](https://bugzilla.mozilla.org/show_bug.cgi?id=1232818) - The SIM PIN was incorrect screen disappears if the user enters 9 incorrect digits because the number of digits is not capped
-		- PR for fxos-component accepted. Need to update the component in gaia.
-	- [Reviewing] [Bug 973458](https://bugzilla.mozilla.org/show_bug.cgi?id=973458) - [settings] refactor Downloads panel with AMD pattern
+		- Sent another PR, to fix inputmode issue. Waiting for review.
+	- [Fixed] [Bug 973458](https://bugzilla.mozilla.org/show_bug.cgi?id=973458) - [settings] refactor Downloads panel with AMD pattern
 	- [WIP] [Bug 1208893] (https://bugzilla.mozilla.org/show_bug.cgi?id=1208893) - Add a warning text in Low Storage mode to the storage panels
 		- Raised a question on [Bug 1204618] (https://bugzilla.mozilla.org/show_bug.cgi?id=1204618), now waiting for a response
 
 - [Build]
-	- [Reviewing] [Bug 1131514](https://bugzilla.mozilla.org/show_bug.cgi?id=1131514) - Remove deprecated watcher.js and monitor.js
+	- [WIP] [Bug 1131497](https://bugzilla.mozilla.org/show_bug.cgi?id=1131497) - Running build-test.js on node.js
+	- [Fixed] [Bug 1131514](https://bugzilla.mozilla.org/show_bug.cgi?id=1131514) - Remove deprecated watcher.js and monitor.js
 
 - Planned Tasks
 	- Testing
@@ -17,15 +19,16 @@
 			- `app_permission_settings_test`
 			- `hotspot_wifi_settings_test`
 			- `message_settings_test`
-			- `screen_lock_settings_test`
 		- [Bug 1218698](https://bugzilla.mozilla.org/show_bug.cgi?id=1218698) - [Settings][Add-On] Add integration test for add-on install and removal
 	- Refactoring
 		- [Bug 1178156](https://bugzilla.mozilla.org/show_bug.cgi?id=1178156) - [Settings][meta] Define modules using new syntax provided by Observable
-		- [Bug 973432](https://bugzilla.mozilla.org/show_bug.cgi?id=973432) - [Settings][meta] panel refactor with AMD pattern
 
 - Reviewed
-	- [r+] [Bug 1235337](https://bugzilla.mozilla.org/show_bug.cgi?id=1235337) - Manage STK in js/panel/icc
-	- [r+] [Bug 1207073](https://bugzilla.mozilla.org/show_bug.cgi?id=1207073) - RUN\_ON\_NODE=1 make is broken
+	- [r+] [Bug 1131519](https://bugzilla.mozilla.org/show_bug.cgi?id=1131519) - Running push-to-device.js on node.js
+	- [r+] [Bug 1131524](https://bugzilla.mozilla.org/show_bug.cgi?id=1131524) - Running shared-utils.js on node.js
+	- [r+] [Bug 1131505](https://bugzilla.mozilla.org/show_bug.cgi?id=1131505) - Running homescreen-manager.js on node.js
+	- [r+] [Bug 1227796](https://bugzilla.mozilla.org/show_bug.cgi?id=1227796) - Intermittent screen\_lock\_settings\_test.js | manipulate screenLock settings passcode is enabled and won't get disabled if you tap back button when we try to disable passcode directly
+	- [r-] [Bug 1238445](https://bugzilla.mozilla.org/show_bug.cgi?id=1238445) - enable apps/settings/test/marionette/tests/airplane\_mode\_settings\_test.js
 
 ## 2015 Q4 Goals
 
