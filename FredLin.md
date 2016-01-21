@@ -1,22 +1,29 @@
 [Open bugs assigned to me](https://bugzilla.mozilla.org/buglist.cgi?quicksearch=assignee%3Agasolin%40mozilla.com) (ASSIGNED = current working on; NEW = backlog)
 
-## 1/4 ~ 1/8
+## 1/11 ~ 1/14
 
 General
- - Extend moonbar to browser's new tab extension for easier evaluation
- - Prototyping the search + ubiquity tool https://github.com/gasolin/webby
- - prepare for gate 0
+ - validate & feedback Bluetooth related issues
+ - setup duo key
+ - Watch Ubiquity Dev summit keynote https://www.youtube.com/watch?v=SZLp2cidEB0
+
+webby
+
+Plan to introduce webby initiative to CD_allstaff next week
+
+ - Make slide https://docs.google.com/presentation/d/1JlwYH7UG8fiYAcbey7ziEjLIVxP9-q4LzkCQVqJccPY/
+ - prepare meeting material with Cindy (PM)
+ - Firefox addon https://addons.mozilla.org/en-US/firefox/addon/tabwebby/
+ - fix prototype usage issues https://github.com/gasolin/webby/commits/master
 
 Settings
- - triage Settings bugs from 1210 -> 1123
-   - complete checked all settings bugs and put 219 backlog bugs
- - Bug 1235337 - Manage STK in js/panel/icc
+ - Bug 1227796 - re-enable screen_lock_settings_test.js
    - r+ & landed
  - Check intermittent of airplaneMode gij test
-   - WIP
+   - r?
 
 [Review]
-  - f+ Bug 973458 - [settings] refactor Downloads panel with AMD pattern
+  - r+ Bug 973458 - [settings] refactor Downloads panel with AMD pattern
 
 ## 2015 Q4 Goals
 1. Solving Blockers and implement &lt;to be decided&gt; features, as measured by implementation completeness.
