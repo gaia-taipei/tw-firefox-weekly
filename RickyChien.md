@@ -1,9 +1,11 @@
 ## 12/21 ~ 12/31
 [TV System]
 * [Bug 1211400](http://bugzil.la/1211400) - [TV][2.5] Preview an app on Marketplace
- * [r?] [Bug 1235128](http://bugzil.la/1235128) - [TV][2.5] System banner supports icon and title 
- * [WIP] [Bug 1236443](http://bugzil.la/1236443) - [TV][2.5] App window & preview window support back navigation
- * [r?] [Bug 1227537](http://bugzil.la/1227537) - [TV][2.5] Failed to navigate back
+ * [Landed] [Bug 1235128](http://bugzil.la/1235128) - [TV][2.5] System banner supports icon and title 
+ * [Landed] [Bug 1236443](http://bugzil.la/1236443) - [TV][2.5] App window & preview window support back navigation
+ * [Landed] [Bug 1227537](http://bugzil.la/1227537) - [TV][2.5] Failed to navigate back
+ * [r?] [Bug 1207073](http://bugzil.la/1207073) - RUN_ON_NODE=1 make is broken
+ * [Wiki Refactoring to Node.js](https://wiki.mozilla.org/Gaia/Build/RefactoringToNodejs) - refine and mark priority for M1 modules
  
 [Other]
 * [Review History](https://bugzilla.mozilla.org/page.cgi?id=review_history.html&requestee=rchien%40mozilla.com)
