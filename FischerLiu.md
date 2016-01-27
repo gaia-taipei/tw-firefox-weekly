@@ -1,4 +1,4 @@
-## 12/21 - 12/31 ##
+## 01/04 - 01/08 ##
 
 ### This Week ###
 
@@ -9,27 +9,30 @@
      - Modify smart-system core.js to use Promise API when starting
      - Modify smart-system marionette tests based on other phone Gij test examples
 
+* [FTU]
+
+  - [REVIEW] Bug 1232584 - [TV] FTE for usage metrics specs update for the new legal approved terms
+  - [WIP] Bug 1237923 - [TV][2.5][Marketplace][FTE] Key's text is not center aligned
+
+* [Fling Player]
+
+  - [FIXED] Bug 1238817 - [fling-player][TV][2.5] Display confirm dialog and kill fling app if user confirm close
+  - [WIP] Bug 1238862 - [TV][Seamless experience] The total length of video should not be 00:00
+
+
+### Last Week ###
+* [GijTV]
   - Bug 1236723 - [gatt] GijTV chunks not working
     - Bug identifying and test verification
 
 * [FTU]
 
-  - [REVIEW] Bug 1237181 - [TV][2.5][Marketplace] Revise l10n string for Tutorial
-  - [REVIEW] Bug 1237507 - [TV][2.5][Marketplace][FTE] The default highlight will be at Next button or Done button
-  - [WIP] Bug 1232584 - [TV] FTE for usage metrics specs update for the new legal approved terms
+  - [FIXED] Bug 1237181 - [TV][2.5][Marketplace] Revise l10n string for Tutorial
+  - [FIXED] Bug 1237507 - [TV][2.5][Marketplace][FTE] The default highlight will be at Next button or Done button
 
 * [Other]
 
-  - [REVIEW] Bug 1236808 - [TV][2.5] Remove remote control apps from both engineering and production building lists on TV 2.5 branch
-
-### Last Week ###
-
-* [GijTV]
-
-  - [WIP] Bug 1235300 - [GijTV] Smart system has to set the ready-state attribute to let JSMarionette know ready to test
-  - [WIP] Bug 1234482 - [GijTV] Re-enable smart-system app_modal_dialog test
-  - [WIP] Bug 1234484 - [GijTV] Re-enable smart-system app_install_dialog and browser_context_menu test
-    - Duplicate bug: Bug 1231460 - [GijTV] Smart-system browser context menu marionette test failure
+  - [FIXED] Bug 1236808 - [TV][2.5] Remove remote control apps from both engineering and production building lists on TV 2.5 branch
 
 ### 2015 Q4 Goal ###
 1. Improve the fling player UI and User experience, as measured by the number of improvements (should be around 2~4), working time in 15%
