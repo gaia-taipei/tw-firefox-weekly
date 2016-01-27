@@ -1,10 +1,11 @@
 ### Last week
 
 * [Data Sync]
-  - [Bug 1205901] The Syncto patch works for me. The record can be synced-up to service now. I am keeping implementing the remain works.
-  - [Bug 1237568] Memory Profiler is used to see the memory consumption. We need to discuss Kanru how to read these vaules.
-  - Help to investigate the browser code merging issue.
-  - [Bug 1230558] The issue can not be reproduced in master and v2.5 branch now. Close it after discussing with QA.
+  - [Bug 1205901] Since create object for Syncto service is fixed, new history records can be uploaded to sync service. There is another modifying record issue to block this bug.
+  - [CLOSE][Bug 1237568] Close this since we don`t there is any memory-leak cause OOM.
+  - [Bug 1200256] Provide a quick patch to connect Mozilla Guest SSID.
+  - Study spatial navigation plugin and apply it to Settings app for TV.
+  - Discuss how to support multi-formfactor design for Settings app.a
 
 ### This week
 * [Data Sync]
