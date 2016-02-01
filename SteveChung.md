@@ -1,24 +1,26 @@
-## This week 1/11 ~ 1/15
+## This week 1/18 ~ 1/22
 * Investigate more intermittent failed issues
-  - Bug 1235842 - new activity test intermittent failed: Remove aria-hidden: true property if we need to test the element.
-  - Bug 1236418 - Postpone the investigation due to the low rate and unrelated error message
+  - Bug 1236274 - Intermittent apps/sms/test/marionette/conversation_test.js | Conversation Panel Tests Forward message Forwarding a MMS.
 
 * Revisit some serious copy/paste issues:
-  - Bug 1127587 - Revisit select all broken case within master. There might be some regression about user-select inheritance.
+  - Bug 1127587 - Tried to find other possible element that would ignore select style inheritance.
   
 * Medical Platform Project discussion:
-  - Notes: https://docs.google.com/document/d/1TQRfJYBNp8qO8oLx5gsah2Fy4dlapBXWXur2KzxXa84/edit
+  - Open mhealth and possible medical device survey.
 
-## This week 1/4 ~ 1/8
-* Bug 1221457 - [Messages]Apply gaia-fast-list for inbox list rendering
-  - Moved to low priority background work.
+* System migration
+  - Have some discussion with TV team, tried to figure out if I could give help from phone system side.
 
-* Bug 1179628 - [Messages][NG] Lay out Settings service structure
-  - Moved to low priority background work.
+## This week 1/11 ~ 1/15
+* Investigate more intermittent failed issues
+  - Bug 1235842 - Landed. Remove target element's aria-hidden property.
+  - Bug 1236418 - Unassign the bug due to the ultra low rate
 
-* Investigate more intermittent failed issues(Bug 1235842, Bug 1236418) with docker and MozITP tool.
- - Bug 1235842 - new activity test intermittent failed: Found some regression in a11y test framework changes.
- - Bug 1236418 - attachment test intermittent failed: Can't find the root cause because of extremely low reproduce rate.
+* Revisit some serious copy/paste issues:
+  - Bug 1127587 - Found the contentEditable element selection style inheritance issue.
+  
+* Medical Platform Project discussion:
+  - We found another similar open source medical data handling(http://openmhealth.org/) that could help us convert/store/process data easily.
 
 ## 2016 Q1 Goals
 
