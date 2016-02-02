@@ -1,49 +1,24 @@
-## 01/04 ~ 01/08 ##
+## 01/25 ~ 01/29 ##
 
 ### Last week
-* [Audio Channel Management]
-  - Bug 1228475 - Ensure System's audio channels are controlled by Audio Channel Service.
-    - Landed.
-  - Bug 1233565 - Intermittent TEST-UNEXPECTED-FAIL | apps/system/test/marionette/audio_channel_competing_test.js | Audio channel competing Notification audio channel competes with audio channels Notification
-    - Landed.
-  - Bug 1236307 - Intermittent apps/system/test/marionette/audio_channel_played_in_foreground_and_background_test.js | Audio channel played in foreground and background alarm audio channel alarm audio channel can be played in background
-    - We also fixed it in Bug 1233565.
-
 * [WebEverywhere]
-  - Discussed the brief architecture.
-  - Prepared brownbag: http://evanxd.github.io/introduction-to-webeverywhere
-
-* [2016 Q1 Plan]
-  - Discussed 2016 Q1's goals with manager.
-
-* [Other]
-  - Help UX team(Carol and Morpheus) to evaulate their ideas.
+  - Implemented the router module and the module architecture for the prototype.
+    - Check it in https://github.com/evanxd/sensorweb-portal/blob/master/app.js and https://github.com/evanxd/sensorweb-portal/tree/master/lib.
+  - Defined data schema and restful APIs for the data service prototype.
+    - Check it in https://github.com/evanxd/sensorweb-portal/blob/master/todo.md#restful-apis.
+  - Listed the pages we need in the data service.
+    - Check it in https://github.com/evanxd/sensorweb-portal/blob/master/todo.md#restful-apis.
+    - It also helps designers think about the design of the prototype.
+  - Discussed prototype design with designers and product manager.
+    - Check it in https://github.com/evanxd/sensorweb-portal/blob/master/todo.md#draft-for-sensorweb-portal.
+  - Shortly discussed security issues with Paul Theriault.
+    - There is no big issue for open data.
+  - Shortly discussed community things with Brian King.
+    - He will help community things if we need. Keep in touch.
 
 ### This week
-* [Audio Channel Management]
-  - Bug 1235300 - [GijTV] Smart system has to set the ready-state attribute to let JSMarionette know ready to test
-    - Help to review the patch.
-  - Bug 1235335 - Video cannot be played in background.
-    - Fix the issue test video cannot be played in the test.
-  - Bug 1218690 - Marionette tests for play icon
-    - Start to write test cases.
-
 * [WebEverywhere]
-  - Host a brownbag.
-  - Review the UI and prototype design.
-  - Host two brainstorming sessions.
-  - Discuss a robust architecture.
-
-## 2015 Q4 Goals
-1. Support Web of Things Project: implement FoxCount project, as measured by implementation completeness.
-2. Define UI test cases for audio channel management and write the tests for audio channel competitions. http://bugzil.la/1096163, as measured by implementation completeness.
-3. Fix blocker bugs of Audio Channel Management Module, as measured by blocker burn down and days of blocker turnarounds.
-4. Fix blocker bugs of Settings App, as measured by blocker burn down and days of blocker turnarounds.
-5. Mentor Bluetooth Test App, as measured by implementation completeness.
-
-## 2015 Q3 Delivered
-1. Fixed blocker bugs of Audio Channel Management Module.
-2. Fixed blocker bugs of Settings App.
-3. Supported Web of Things Project: did prototyping(People Counter), built Web of Things Maker and presented it to Web of Things Group.
-4. Supported Academy Program: plan the courses.
-5. Made an addon(Robot Jan) and won the Best Design Award. It also can help UX Team do user experimentation.
+  - Start to implement the restful APIs.
+    - The API to get sensor list by `coordinates`, `radius`, and `profileId`.
+    - The API allowed to push data by devices.
+    - The repository: https://github.com/evanxd/sensorweb-portal
