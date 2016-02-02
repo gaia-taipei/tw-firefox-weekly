@@ -1,29 +1,26 @@
 [Open bugs assigned to me](https://bugzilla.mozilla.org/buglist.cgi?quicksearch=assignee%3Agasolin%40mozilla.com) (ASSIGNED = current working on; NEW = backlog)
 
-## 1/18 ~ 1/22
+## 1/25 ~ 1/29
 
 General
 
 webby
 
-introduce webby initiative
-- introduce webby to cindy  https://trello.com/c/XhMPxCSS/17-3rd-meeting-notes
-- wiki page and tech arch https://wiki.mozilla.org/Webby
-- prototype able to add/remove search provider
+- Present webby to Sandip at Wednesday & Friday
+- revise slides https://docs.google.com/presentation/d/17ADgFyf1BfX9lj14hFgSOSNdjQxaLLH8ajOUBSW6ckQ/edit#slide=id.g107f4f2cdc_1_21
+- implement verb addon version overwrite
+- support IFTTT action
+- exploring competitor & segment
+- node-red on respberry pi 2
+- One page intro Ari Slide https://docs.google.com/presentation/d/1mNaPqrdfBWLZKgtw-0Pj3fXvVdi2wRAZgMc5tieJU2M/edit#slide=id.g82a0a52a7_3_190
 
 Settings
- - Bug 1236781 - move 'Connect with WPS' to Advanced settings section
-   - r+ & landed
- - create Bug 1241778 - [META] panel modulization
+ - help Sean Lee for settings integration & keyboard
  - Bug 1241780 - bluetooth panel modulization
-   - r?
-
-Bluetooth
- - Bug 1238898 - retrieve BT address with correct bind target
    - r+ & landed
+ - Bug 1242860 - Root panel modulization
+   - WIP
 
-[Review]
-  - r+ Bug 981560 - [settings] add marionette test for device information - More information panel
 
 ## 2015 Q4 Goals
 1. Solving Blockers and implement &lt;to be decided&gt; features, as measured by implementation completeness.
