@@ -1,29 +1,29 @@
 [Open bugs assigned to me](https://bugzilla.mozilla.org/buglist.cgi?quicksearch=assignee%3Agasolin%40mozilla.com) (ASSIGNED = current working on; NEW = backlog)
 
-## 1/11 ~ 1/14
+## 1/18 ~ 1/22
 
 General
- - validate & feedback Bluetooth related issues
- - setup duo key
- - Watch Ubiquity Dev summit keynote https://www.youtube.com/watch?v=SZLp2cidEB0
 
 webby
 
-Plan to introduce webby initiative to CD_allstaff next week
-
- - Make slide https://docs.google.com/presentation/d/1JlwYH7UG8fiYAcbey7ziEjLIVxP9-q4LzkCQVqJccPY/
- - prepare meeting material with Cindy (PM)
- - Firefox addon https://addons.mozilla.org/en-US/firefox/addon/tabwebby/
- - fix prototype usage issues https://github.com/gasolin/webby/commits/master
+introduce webby initiative
+- introduce webby to cindy  https://trello.com/c/XhMPxCSS/17-3rd-meeting-notes
+- wiki page and tech arch https://wiki.mozilla.org/Webby
+- prototype able to add/remove search provider
 
 Settings
- - Bug 1227796 - re-enable screen_lock_settings_test.js
+ - Bug 1236781 - move 'Connect with WPS' to Advanced settings section
    - r+ & landed
- - Check intermittent of airplaneMode gij test
+ - create Bug 1241778 - [META] panel modulization
+ - Bug 1241780 - bluetooth panel modulization
    - r?
 
+Bluetooth
+ - Bug 1238898 - retrieve BT address with correct bind target
+   - r+ & landed
+
 [Review]
-  - r+ Bug 973458 - [settings] refactor Downloads panel with AMD pattern
+  - r+ Bug 981560 - [settings] add marionette test for device information - More information panel
 
 ## 2015 Q4 Goals
 1. Solving Blockers and implement &lt;to be decided&gt; features, as measured by implementation completeness.
