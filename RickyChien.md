@@ -1,18 +1,15 @@
 ## 01/11 ~ 01/22
 [TV System]
-* [Landed] [Bug 1237541](http://bugzil.la/1237541) - [TV][2.5] Preview window back key also trigger on parent app window
-* [Landed] [Bug 1239907](http://bugzil.la/1239907) - [TV][2.5] Improve and make l10n strings consistent for preview experience
-* [Landed] [Bug 1239914](http://bugzil.la/1239914) - [TV][2.5] Fallback to old system banner
+* [Landed] [Bug 1242361](http://bugzil.la/1242361) - Navigating back from a video does not redirect correctly
+* [Landed] [Bug 1238870](http://bugzil.la/1238870) - [TV][2.5]Listen to Backspace not esc key for back function
+* [Landed] [Bug 1241422](http://bugzil.la/1241422) - [TV][2.5][Web Apps] Press option key to show notification
+* [Landed] [Bug 1244048](http://bugzil.la/1244048) - [TV][2.5] Webapp is unable to be opened after adding from marketplace website
 
 [Build System] [RefactoringToNodejs#Milestone_1](https://wiki.mozilla.org/Gaia/Build/RefactoringToNodejs#Milestone_1)
-* [Landed] [Bug 1207073](http://bugzil.la/1207073) - RUN_ON_NODE=1 make is broken
-* [Landed] [Bug 1131519](http://bugzil.la/1131519) - Running push-to-device.js on node.js
-* [Landed] [Bug 1131524](http://bugzil.la/1131524) - Running shared-utils.js on node.js
-* [Landed] [Bug 1131505](http://bugzil.la/1131505) - Running homescreen-manager.js on node.js
-* [Landed] [Bug 1131522](http://bugzil.la/1131522) - Running rebuild.js on node.js
-* [Landed] [Bug 955998](http://bugzil.la/955998) - Running webapp-optimize.js on node.js
-* [Landed] [Bug 1131521](http://bugzil.la/1131521) - Running r-wrapper.js on node.js
-* [r?] [Bug 1131516](http://bugzil.la/1131516) - Running post-app.js on node.js
+* [Landed] [Bug 1131516](http://bugzil.la/1131516) - Running post-app.js on node.js
+* [Landed] [Bug 1242327](http://bugzil.la/1242327) - Running operatorvariant build.js on node.js
+* [Landed] [Bug 1242326](http://bugzil.la/1242326) - Running keyboard build.js on node.js
+* [Landed] [Bug 1240740](http://bugzil.la/1240740) - Running all app's build.js on node.js
  
 [Other]
 * Mentor Scott Wu to refactor [Bug 1131497](http://bugzil.la/1131497) - Running build-test.js on node.js
