@@ -15,11 +15,14 @@ webby
 - One page intro Ari Slide https://docs.google.com/presentation/d/1mNaPqrdfBWLZKgtw-0Pj3fXvVdi2wRAZgMc5tieJU2M/edit#slide=id.g82a0a52a7_3_190
 
 Settings
- - help Sean Lee for settings integration & keyboard
+ - help Sean Lee for TV settings integration & keyboard navigation
  - Bug 1241780 - bluetooth panel modulization
    - r+ & landed
  - Bug 1242860 - Root panel modulization
    - WIP
+
+Bluetooth
+ - Discussion with Jack Lin (UX) & Bruce Sun(BT Eng) to clarify the requirement and come out UI spec for GATT getDevice API
 
 
 ## 2015 Q4 Goals
