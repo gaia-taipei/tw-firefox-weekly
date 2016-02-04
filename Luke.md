@@ -1,35 +1,32 @@
-## 01/04 - 01/08 ##
+## 01/11 - 01/15 ##
 
 ### Last Week ###
 
-* [TV Marketplace]
-    - [Done] Bug 1235977 - [TV][2.5] Video can't be played in the preview mode
-        - landed on master & v2.5
-    - [Review] Bug 1235128 - [TV][2.5] System banner supports icon and title
-    - [Review] Bug 1236443 - [TV][2.5] App window & preview window support back navigation
-    - [Review] Bug 1227537 - [TV][2.5] Failed to navigate back
+* [On-site Meeting (1/11 - 1/15)]
+    - Fixed several POVB bugs
 
-* [TV Metrics]
-    - Surveyed if the metrics works well with preview window and website
+* [TV Marketplace]
+    - [Review] Bug 1237541 - [TV][2.5] Preview window back key also trigger on parent app window
 
 * [TV Remote Control]
     - [WIP] Bug 1228262 - [TV 2.5] Implement secure connection on remote control client side
-        - implemented the first version of Gaia part
-        - helped Eric for integrating and testing
+        - Followed up the security discussion
 
 * [TV General]
-    - Helped to identify the "ner error" issues
-    - [Review] Bug 1236004 - The "Allow debug connection" confirmation dialog doesn't support keyboard
-    - [Review] Bug 1236808 - [TV][2.5] Remove remote control apps from both engineering and production building lists on TV 2.5 branch
-    - [Feedback] Bug 1235124 - [Presentation WebAPI] Start multi-screen by Presentation API
-
-* [Audio Channel]
-    - [Review] Bug 1228475 - Ensure System's audio channels are controlled by Audio Channel Service.
-
-* [On-site Meeting]
-    - Prepared materials
+    - [WIP] Bug 1238887 - [TV][2.5] Browser_contextmenu is not killed correctly when its app window is killed
+        - identified the root case
+        - wrote the patch and waiting for reviewing
+    - [Done] Bug 1230055 - [Stingray] unexpected API changed in shared JS library on stingray-gaia
+        - helped investigating
+    - [Review] Bug 1237553 - [TV][System] Focuses of permission windows moves back to default target when notification appears
+    - [Review] Bug 1238494 - [TV Browser] Remove fullscreen permission request dialog
+    - [Review] Bug 1235300 - [GijTV] Smart system has to set the ready-state attribute to let JSMarionette know ready to test
+    - [Review] Bug 1238870 - [TV][2.5]Listen to Backspace not esc key for back function
 
 ### This Week ###
 
-* [On-site Meeting]
-    - 1/11 - 1/15
+* [TV Remote Control]
+    - [WIP] Bug 1228262 - [TV 2.5] Implement secure connection on remote control client side
+
+* [TV General]
+    - [WIP] Bug 1238887 - [TV][2.5] Browser_contextmenu is not killed correctly when its app window is killed
