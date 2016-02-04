@@ -1,11 +1,10 @@
 ### Last week
 
 * [Data Sync]
-  - [Bug 1205901] Since create object for Syncto service is fixed, new history records can be uploaded to sync service. There is another modifying record issue to block this bug.
-  - [CLOSE][Bug 1237568] Close this since we don`t there is any memory-leak cause OOM.
-  - [Bug 1200256] Provide a quick patch to connect Mozilla Guest SSID.
-  - Study spatial navigation plugin and apply it to Settings app for TV.
-  - Discuss how to support multi-formfactor design for Settings app.a
+  - [Bug 1205901] Still block by the syncto service.
+  - [Bug 1200256] After applying Spatial Navigation plugin, settings app can use arrow-keys and backspace key to browse items. I will do review process after system-select component with SN support.
+  - [Bug 1242314] New created issue to implement key navigation for TV form-factor.
+  - [Bug 1242394] Clarify that clear all browsing content feature won`t remove remote content.
 
 ### This week
 * [Data Sync]
