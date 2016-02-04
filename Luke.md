@@ -1,32 +1,32 @@
-## 01/11 - 01/15 ##
+## 01/18 - 01/22 ##
 
 ### Last Week ###
 
-* [On-site Meeting (1/11 - 1/15)]
-    - Fixed several POVB bugs
+* [System Merge]
+    - Participated the first weekly meeting and came out what to do next
+    - Discussed with Alberto about the TV boot-up sequence
+    - Identified TV features that need to be protected by integration tests
 
 * [TV Marketplace]
-    - [Review] Bug 1237541 - [TV][2.5] Preview window back key also trigger on parent app window
+    - [Review] Bug 1239907 - [TV][2.5] Improve and make l10n strings consistent for preview experience
 
-* [TV Remote Control]
-    - [WIP] Bug 1228262 - [TV 2.5] Implement secure connection on remote control client side
-        - Followed up the security discussion
+* [TV Metrics]
+    - [Done] Bug 1221933 - [TV][POVB] FxOS TV Metrics - Track the downloadable browser app on partner's TV build
+        - provided a patch for the partner
+    - [Review] Bug 1237221 - [TV] FxOS TV Metrics - The hard-coded marketplace origins need to be adjusted for TV
 
 * [TV General]
-    - [WIP] Bug 1238887 - [TV][2.5] Browser_contextmenu is not killed correctly when its app window is killed
-        - identified the root case
-        - wrote the patch and waiting for reviewing
-    - [Done] Bug 1230055 - [Stingray] unexpected API changed in shared JS library on stingray-gaia
-        - helped investigating
-    - [Review] Bug 1237553 - [TV][System] Focuses of permission windows moves back to default target when notification appears
-    - [Review] Bug 1238494 - [TV Browser] Remove fullscreen permission request dialog
-    - [Review] Bug 1235300 - [GijTV] Smart system has to set the ready-state attribute to let JSMarionette know ready to test
-    - [Review] Bug 1238870 - [TV][2.5]Listen to Backspace not esc key for back function
+    - [WIP] Bug 1238870 - [TV][2.5]Listen to Backspace not esc key for back function
+        - discussed a better solution with Ricky
+    - [Done] Bug 1238887 - [TV][2.5] Browser_contextmenu is not killed correctly when its app window is killed
+        - landed on master & v2.5
+    - [Review] Bug 1239971 - [TV] FTE for Pin-to-home context menu button corrupts if we cancel the menu immediately
+    - [Review] Bug 1240415 - [TV][FTE] Remove 'Home intro' and 'Pin to home' from TV FTE
 
 ### This Week ###
 
-* [TV Remote Control]
-    - [WIP] Bug 1228262 - [TV 2.5] Implement secure connection on remote control client side
+* [System Merge]
+    - Help to test Alberto's patch about the boot-up sequence
 
-* [TV General]
-    - [WIP] Bug 1238887 - [TV][2.5] Browser_contextmenu is not killed correctly when its app window is killed
+* [TV Metrics]
+    - [New] Bug 1237223 - [TV] FxOS TV Metrics - The usage of the preview windows and webistes from Marketplace are not recorded by metrics
