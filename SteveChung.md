@@ -1,17 +1,16 @@
-## This week 2/1 ~ 2/5
+## This week 2/15 ~ 2/19
 * Medical Platform Project discussion:
+  - Platform architecture discussion: https://docs.google.com/document/d/1Pk6FwmCsja6ymZfFnWucCw7HLj05_Y6Wldt-O7PWGtg/edit
+  - Setup the enviroment for shimmer. Having some problem in 3rd party API's credantial.
+  - Review gating slide.
+
+## The week before Chiness new year 2/1 ~ 2/5
+* Medical Platform Project:
   - Setup the enviroment for shimmer.
   - Create a public access on AWS for other developer.
 
 * System migration
-  - No progress
-
-## This week 1/25 ~ 1/29
-* Medical Platform Project discussion:
-  - Installed the mhealth docker on AWS. Create another docker machine for shimmer for 3rd party data integration(ongoing).
-
-* System migration
-  - Provide the graph (https://coggle.it/diagram/VqCn40oyECJ84OCn/8042c22f0b4129efc6a1856727cdd21c3c593416ee5663b4a974e80e68de247f) to TV team. Not much feedback yet.
+  - Suspend the investigation since TV team might change/minimize the scope for migration.
 
 ## 2016 Q1 Goals
 
