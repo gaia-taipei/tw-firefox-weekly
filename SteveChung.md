@@ -1,26 +1,16 @@
-## This week 1/18 ~ 1/22
-* Investigate more intermittent failed issues
-  - Bug 1236274 - Intermittent apps/sms/test/marionette/conversation_test.js | Conversation Panel Tests Forward message Forwarding a MMS.
-
-* Revisit some serious copy/paste issues:
-  - Bug 1127587 - Tried to find other possible element that would ignore select style inheritance.
-  
+## This week 2/15 ~ 2/19
 * Medical Platform Project discussion:
-  - Open mhealth and possible medical device survey.
+  - Platform architecture discussion: https://docs.google.com/document/d/1Pk6FwmCsja6ymZfFnWucCw7HLj05_Y6Wldt-O7PWGtg/edit
+  - Setup the enviroment for shimmer. Having some problem in 3rd party API's credantial.
+  - Review gating slide.
+
+## The week before Chiness new year 2/1 ~ 2/5
+* Medical Platform Project:
+  - Setup the enviroment for shimmer.
+  - Create a public access on AWS for other developer.
 
 * System migration
-  - Have some discussion with TV team, tried to figure out if I could give help from phone system side.
-
-## This week 1/11 ~ 1/15
-* Investigate more intermittent failed issues
-  - Bug 1235842 - Landed. Remove target element's aria-hidden property.
-  - Bug 1236418 - Unassign the bug due to the ultra low rate
-
-* Revisit some serious copy/paste issues:
-  - Bug 1127587 - Found the contentEditable element selection style inheritance issue.
-  
-* Medical Platform Project discussion:
-  - We found another similar open source medical data handling(http://openmhealth.org/) that could help us convert/store/process data easily.
+  - Suspend the investigation since TV team might change/minimize the scope for migration.
 
 ## 2016 Q1 Goals
 
