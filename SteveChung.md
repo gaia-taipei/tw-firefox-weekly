@@ -1,22 +1,17 @@
+## This week 2/1 ~ 2/5
+* Medical Platform Project discussion:
+  - Setup the enviroment for shimmer.
+  - Create a public access on AWS for other developer.
+
+* System migration
+  - No progress
+
 ## This week 1/25 ~ 1/29
 * Medical Platform Project discussion:
-  - Installed the mhealth docker on AWS. Trying to figure out the setup for shimmer to intergrate data from 3rd party data service like google fit.
+  - Installed the mhealth docker on AWS. Create another docker machine for shimmer for 3rd party data integration(ongoing).
 
 * System migration
-  - First draft for graph in  https://coggle.it/diagram/VqCn40oyECJ84OCn/8042c22f0b4129efc6a1856727cdd21c3c593416ee5663b4a974e80e68de247f. Need more discussion with TV team.
-
-## This week 1/18 ~ 1/22
-* Bug 1236274 - Intermittent apps/sms/test/marionette/conversation_test.js | Conversation Panel Tests Forward message Forwarding a MMS.
-  - No progress, suspended.
-
-* Bug 1127587 - Tried to find other possible element that would ignore select style inheritance.
-  - No progress, suspended.
-  
-* Medical Platform Project discussion:
-  - Some survey for setup open mhealth on cloud service for testing.
-
-* System migration
-  - Have some discussion with TV team, started with a map for system module hierarchy.
+  - Provide the graph (https://coggle.it/diagram/VqCn40oyECJ84OCn/8042c22f0b4129efc6a1856727cdd21c3c593416ee5663b4a974e80e68de247f) to TV team. Not much feedback yet.
 
 ## 2016 Q1 Goals
 
