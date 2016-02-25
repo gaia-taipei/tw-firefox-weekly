@@ -1,25 +1,17 @@
 [Open bugs assigned to me](https://bugzilla.mozilla.org/buglist.cgi?quicksearch=assignee%3Agasolin%40mozilla.com) (ASSIGNED = current working on; NEW = backlog)
 
-## 2/1 ~ 2/5
-
-General
+## 2/15 ~ 2/19
 
 webby
 
-Sandip will present for us
+Since I got bad cough, Sandip & Mark present the webby slide to the board at Friday
 
-- 2rd webby slide review with Sandip at Wednesday
-https://docs.google.com/presentation/d/1MNKTF0PLpDQbn7ne2iwFvszK4aUdPyCEtZTxMMEYybc/edit#slide=id.g82b81aaa3_2_127
-  - add new tech arch
-  - add competitor circle
-  - add messaging trend evidence
-  - come out storyboard for keynote animation
+- Keep polish slide
+- make hubot port with es6 https://github.com/gasolin/webbybot/ to learn more about chatbot
+  - compile to es6 with Babel & webpack
+  - travis CI test integration
+  - style check with eslint
 
-Settings
- - help Contributor make wifi static-ip panel
-
-Review
- - r+, Bug 1245817 - The short-status-authenticating string doesn't have a corresponding entry in the locale properties file
 
 ## 2015 Q4 Goals
 1. Solving Blockers and implement &lt;to be decided&gt; features, as measured by implementation completeness.
