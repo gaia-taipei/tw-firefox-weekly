@@ -1,28 +1,16 @@
 [Open bugs assigned to me](https://bugzilla.mozilla.org/buglist.cgi?quicksearch=assignee%3Agasolin%40mozilla.com) (ASSIGNED = current working on; NEW = backlog)
 
-## 1/25 ~ 1/29
-
-General
+## 2/15 ~ 2/19
 
 webby
 
-- Present webby to Sandip at Wednesday & Friday
-- revise slides https://docs.google.com/presentation/d/17ADgFyf1BfX9lj14hFgSOSNdjQxaLLH8ajOUBSW6ckQ/edit#slide=id.g107f4f2cdc_1_21
-- implement verb addon version overwrite
-- support IFTTT action
-- exploring competitor & segment
-- node-red on respberry pi 2
-- One page intro Ari Slide https://docs.google.com/presentation/d/1mNaPqrdfBWLZKgtw-0Pj3fXvVdi2wRAZgMc5tieJU2M/edit#slide=id.g82a0a52a7_3_190
+Since I got bad cough, Sandip & Mark present the webby slide to the board at Friday
 
-Settings
- - help Sean Lee for TV settings integration & keyboard navigation
- - Bug 1241780 - bluetooth panel modulization
-   - r+ & landed
- - Bug 1242860 - Root panel modulization
-   - WIP
-
-Bluetooth
- - Discussion with Jack Lin (UX) & Bruce Sun(BT Eng) to clarify the requirement and come out UI spec for GATT getDevice API
+- Keep polish slide
+- make hubot port with es6 https://github.com/gasolin/webbybot/ to learn more about chatbot
+  - compile to es6 with Babel & webpack
+  - travis CI test integration
+  - style check with eslint
 
 
 ## 2015 Q4 Goals
