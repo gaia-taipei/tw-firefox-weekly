@@ -1,13 +1,21 @@
 # This Week
+- [Study]
+  - XUL
+    - XUL tutorials on MDN
+  - Browser
+    - Look over browser codebase about front-end
+- [Webby]
+  - Port Hubot to Webby / Coffeescript to ES6
+    - listener
+    - middleware
+    - response
 - [Keyboard]
-  - Study
-    - System
-    - Build Script
-  - Bug 1184342 - Downloaded keyboards associated to a locale are not enabled by default when switching locale
-    - REVIEW? r=apastor
-  - Bug 1180607 - Remove pre-v2.x keyboard settings migration 
+  - Bug 1137970 - Generate Ukrainian (uk) wordlist/dictionary
+    - RESOLVED FIXED
+    - Help out build test
+  - Bug 1250030 - Don't throw in PromiseStorage if indexedDB is not available
     - WIP
 
 - [Settings]
-  - Bug 947019 - [B2G][Keyboard Settings] Keyboard Settings supports orientation changes. 
   - Bug 1217750 - bluetooth 'rename my device' dialog looks inconsistent with other ui
+    - Invalid
