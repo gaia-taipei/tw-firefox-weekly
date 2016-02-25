@@ -1,24 +1,32 @@
-## 01/25 ~ 01/29 ##
+## 02/15 ~ 02/19 ##
 
 ### Last week
 * [WebEverywhere]
-  - Implemented the router module and the module architecture for the prototype.
-    - Check it in https://github.com/evanxd/sensorweb-portal/blob/master/app.js and https://github.com/evanxd/sensorweb-portal/tree/master/lib.
-  - Defined data schema and restful APIs for the data service prototype.
-    - Check it in https://github.com/evanxd/sensorweb-portal/blob/master/todo.md#restful-apis.
-  - Listed the pages we need in the data service.
-    - Check it in https://github.com/evanxd/sensorweb-portal/blob/master/todo.md#restful-apis.
-    - It also helps designers think about the design of the prototype.
-  - Discussed prototype design with designers and product manager.
-    - Check it in https://github.com/evanxd/sensorweb-portal/blob/master/todo.md#draft-for-sensorweb-portal.
-  - Shortly discussed security issues with Paul Theriault.
-    - There is no big issue for open data.
-  - Shortly discussed community things with Brian King.
-    - He will help community things if we need. Keep in touch.
+  - Discussed Sensor Web Project Scope with the team.
+    - Defined three projects in SensorWeb
+      - Cloud data service for IoT devices
+      - A website helps people understand PM2.5 problems, and encourage them to fix it with the air pollution program in SensorWeb.
+      - Mobile apps in iOS and Android built by Web tech.
+  - Discussed SensorWeb with 3rd-party developer created a popular PM2.5 app(台灣即時霾害) via email.
+    - Got suggestions for developing SensorWeb and fixing the PM2.5 problems.
+  - Learned PM2.5 knowledge from a documentary(穹頂之下).
+    - What is PM2.5?
+    - Where is PM2.5 from?
+    - What can people do for PM2.5?
+      - https://youtu.be/xbK4KeD2ajI
+  - Had a vacation from Mon to Wed.
 
 ### This week
 * [WebEverywhere]
-  - Start to implement the restful APIs.
-    - The API to get sensor list by `coordinates`, `radius`, and `profileId`.
-    - The API allowed to push data by devices.
-    - The repository: https://github.com/evanxd/sensorweb-portal
+  - File bugs for the tech works.
+  - Discussed the features of PM2.5 program website and SensorWeb portal.
+  - Discussed the features of PM2.5 mobile app.
+  - Learn PM2.5 knowledge
+    - WTO air quality guidelines
+      - http://www.who.int/phe/health_topics/outdoorair/outdoorair_aqg/en/
+    - Open data API for PM2.5 index in Taiwan government
+      - http://data.gov.tw/node/6074
+    - PM2.5 guidelines in Taiwan
+      - http://taqm.epa.gov.tw/taqm/tw/fpmi.htm
+* [FoxGaming]
+  - Discuss FoxGaming pitch.
