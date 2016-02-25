@@ -1,18 +1,16 @@
-## 01/11 ~ 01/22
+## 02/01 ~ 02/24
 [TV System]
-* [Landed] [Bug 1242361](http://bugzil.la/1242361) - Navigating back from a video does not redirect correctly
-* [Landed] [Bug 1238870](http://bugzil.la/1238870) - [TV][2.5]Listen to Backspace not esc key for back function
-* [Landed] [Bug 1241422](http://bugzil.la/1241422) - [TV][2.5][Web Apps] Press option key to show notification
-* [Landed] [Bug 1244048](http://bugzil.la/1244048) - [TV][2.5] Webapp is unable to be opened after adding from marketplace website
+* [Landed] [Bug 1250032](http://bugzil.la/1250032) - [Marketplace] Hint should show after the app finish loading
+* [Landed] [Bug 1249533](http://bugzil.la/1249533) - Add to apps confirm dialog focus on cancel button by default
+* [WIP] [Bug 1250798](http://bugzil.la/1250798) - [System Merge] A fake marketplace website for running integration test
 
 [Build System] [RefactoringToNodejs#Milestone_1](https://wiki.mozilla.org/Gaia/Build/RefactoringToNodejs#Milestone_1)
-* [Landed] [Bug 1131516](http://bugzil.la/1131516) - Running post-app.js on node.js
-* [Landed] [Bug 1242327](http://bugzil.la/1242327) - Running operatorvariant build.js on node.js
-* [Landed] [Bug 1242326](http://bugzil.la/1242326) - Running keyboard build.js on node.js
-* [Landed] [Bug 1240740](http://bugzil.la/1240740) - Running all app's build.js on node.js
+* See above link, Scott and I finished almost all build scripts refactoring during this month.
+* However, we encountered performance issue since requirejs and spawn process on node are slower than xpcshell. (~2.5 slower)
+* Node is able to be turned on by default once we solve performance problem.
  
 [Other]
-* Mentor Scott Wu to refactor [Bug 1131497](http://bugzil.la/1131497) - Running build-test.js on node.js
+* Mentor Scott Wu to refactor [Bug 1243351](http://bugzil.la/1243351) - Running scan-appdir.js on node.js
 * [Review History](https://bugzilla.mozilla.org/page.cgi?id=review_history.html&requestee=rchien%40mozilla.com)
 
 ## 2015 Q4 Goals
