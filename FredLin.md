@@ -1,29 +1,25 @@
 [Open bugs assigned to me](https://bugzilla.mozilla.org/buglist.cgi?quicksearch=assignee%3Agasolin%40mozilla.com) (ASSIGNED = current working on; NEW = backlog)
 
-## 1/25 ~ 1/29
+## 2/1 ~ 2/5
 
 General
 
 webby
 
-- Present webby to Sandip at Wednesday & Friday
-- revise slides https://docs.google.com/presentation/d/17ADgFyf1BfX9lj14hFgSOSNdjQxaLLH8ajOUBSW6ckQ/edit#slide=id.g107f4f2cdc_1_21
-- implement verb addon version overwrite
-- support IFTTT action
-- exploring competitor & segment
-- node-red on respberry pi 2
-- One page intro Ari Slide https://docs.google.com/presentation/d/1mNaPqrdfBWLZKgtw-0Pj3fXvVdi2wRAZgMc5tieJU2M/edit#slide=id.g82a0a52a7_3_190
+Sandip will present for us
+
+- 2rd webby slide review with Sandip at Wednesday
+https://docs.google.com/presentation/d/1MNKTF0PLpDQbn7ne2iwFvszK4aUdPyCEtZTxMMEYybc/edit#slide=id.g82b81aaa3_2_127
+  - add new tech arch
+  - add competitor circle
+  - add messaging trend evidence
+  - come out storyboard for keynote animation
 
 Settings
- - help Sean Lee for TV settings integration & keyboard navigation
- - Bug 1241780 - bluetooth panel modulization
-   - r+ & landed
- - Bug 1242860 - Root panel modulization
-   - WIP
+ - help Contributor make wifi static-ip panel
 
-Bluetooth
- - Discussion with Jack Lin (UX) & Bruce Sun(BT Eng) to clarify the requirement and come out UI spec for GATT getDevice API
-
+Review
+ - r+, Bug 1245817 - The short-status-authenticating string doesn't have a corresponding entry in the locale properties file
 
 ## 2015 Q4 Goals
 1. Solving Blockers and implement &lt;to be decided&gt; features, as measured by implementation completeness.
