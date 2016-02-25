@@ -1,24 +1,32 @@
-## 02/01 - 02/05 ##
+## 02/15 - 02/19 ##
 
 ### Last Week ###
 
 * [System Merge]
     - Classified the test cases on MozTrap
-    - [Review] Bug 1235300 - [GijTV] Smart system has to set the ready-state attribute to let JSMarionette know ready to test
+    - [Review] Bug 1234484 - [GijTV] Re-enable smart-system app_install_dialog and browser_context_menu test
+    - [Review] Bug 1248376 - Create integration test for moztrap #17924
+    - [Review] Bug 1236490 - Run the tv system app in the system domain
+    - [Review] Bug 1248612 - Create integraton test for Moztrap #16645
+    - [Review] Bug 1244682 - Base-modularize homescreenLauncher and landingappLauncher
 
 * [TV Marketplace]
-    - [Done] Bug 1244028 - [TV][2.5] bookmark is not opened from HOME
-        - fixed and landed on master and v2.5
-    - [Review] Bug 1244048 - [TV] Webapp is unable to be opened after adding from marketplace website
-    - [Review] Bug 1244020 - [TV][2.5] Reset and no longer count "open times" after app was added
+    - [Review] Bug 1246090 - [TV][2.5] bookmark card is not removed when the website is uninstalled from WebApps
+
+* [TV Metrics]
+    - [Done] Bug 1249243 - [TV 2.5] Turn on App Usage Metrics by default
+        - fixed and land
 
 * [TV General]
-    - [Review] Bug 1240434 - [TV Browser] The screen is incomplete when playing a video in full-screen mode
+    - [Review] Bug 1246092 - [TV] Circle animation during app transition dosen't close properly
+    - [Review] Bug 1235124 - [Presentation WebAPI] Start multi-screen by Presentation API
+
 
 ### This Week ###
 
 * [System Merge]
-    - Write the tests about HomescreenManager
+    - [New] Bug 1250061 - [gij-tv-system][test case] switch between underlay app and home
+    - Review patches
 
 * [TV General]
     - Review patches
