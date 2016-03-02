@@ -1,32 +1,34 @@
-## 02/15 ~ 02/19 ##
+## 02/22 ~ 02/26 ##
 
 ### Last week
 * [WebEverywhere]
-  - Discussed Sensor Web Project Scope with the team.
-    - Defined three projects in SensorWeb
-      - Cloud data service for IoT devices
-      - A website helps people understand PM2.5 problems, and encourage them to fix it with the air pollution program in SensorWeb.
-      - Mobile apps in iOS and Android built by Web tech.
-  - Discussed SensorWeb with 3rd-party developer created a popular PM2.5 app(台灣即時霾害) via email.
-    - Got suggestions for developing SensorWeb and fixing the PM2.5 problems.
-  - Learned PM2.5 knowledge from a documentary(穹頂之下).
-    - What is PM2.5?
-    - Where is PM2.5 from?
-    - What can people do for PM2.5?
-      - https://youtu.be/xbK4KeD2ajI
-  - Had a vacation from Mon to Wed.
-
-### This week
-* [WebEverywhere]
-  - File bugs for the tech works.
-  - Discussed the features of PM2.5 program website and SensorWeb portal.
-  - Discussed the features of PM2.5 mobile app.
-  - Learn PM2.5 knowledge
+  - Filed bugs for the project.
+    - The bug tree: https://bugzilla.mozilla.org/showdependencytree.cgi?id=1252350
+  - Discussed the features of PM2.5 program website, SensorWeb portal, and mobile app.
+    - https://docs.google.com/document/d/1iCypUoxaizlgN9-PdQz1rd9wMH0aFqx38_rX2JRobAc
+  - Learned PM2.5 knowledge
     - WTO air quality guidelines
       - http://www.who.int/phe/health_topics/outdoorair/outdoorair_aqg/en/
     - Open data API for PM2.5 index in Taiwan government
       - http://data.gov.tw/node/6074
     - PM2.5 guidelines in Taiwan
       - http://taqm.epa.gov.tw/taqm/tw/fpmi.htm
+
 * [FoxGaming]
-  - Discuss FoxGaming pitch.
+  - Discussed FoxGaming pitch.
+    - Maybe we can try to create the Web game store, it can help
+      - 3rd-party developers can get users more easily.
+      - Users can find good Web games more easily.
+
+### This week
+* [WebEverywhere]
+  - Discuss the UX specs of PM2.5 program website and SensorWeb portal.
+  - Find a suitable blog system for SensorWeb.
+    - We should start to write blog about air pollution(PM2.5) to get potential users.
+  - Implement the data uploading API.
+    - https://github.com/evanxd/sensorweb-portal/blob/master/todo.md#restful-apis
+
+* [Firefox]
+  - Study Firefox.
+    - Engineering Onboarding: Bugzilla
+      - https://air.mozilla.org/engineering-onboarding-bugzilla
