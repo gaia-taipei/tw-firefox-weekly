@@ -1,19 +1,19 @@
 [Open bugs assigned to me](https://bugzilla.mozilla.org/buglist.cgi?quicksearch=assignee%3Agasolin%40mozilla.com) (ASSIGNED = current working on; NEW = backlog)
 
-## 2/15 ~ 2/19
+## 2/22 ~ 2/26
 
 webby
 
-Since I got bad cough, Sandip & Mark present the webby slide to the board at Friday
+Board announce webby is the last 3 candidates in gate-0 process, need answer questions and add more support materials
 
-- Keep polish slide
-- make hubot port with es6 https://github.com/gasolin/webbybot/ to learn more about chatbot
-  - compile to es6 with Babel & webpack
-  - travis CI test integration
-  - style check with eslint
+- ported Webbybot & webby-calculator plugin
+- fix webbybot callback not found issue
+- hold meeting for next webby action
+
+Watch onboarding Architecture & Product video
 
 
-## 2015 Q4 Goals
+## 2015 Q4 Delivered
 1. Solving Blockers and implement &lt;to be decided&gt; features, as measured by implementation completeness.
   - Blockers
     - Bug 1194045 - USB protocol can only be changed while USB storage is disabled.
