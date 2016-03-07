@@ -1,16 +1,13 @@
-## This week 2/15 ~ 2/19
+## This week 2/22 ~ 2/25
+* Medical Platform Project discussion:
+  - Complete the first phase of the medical data storage and data shimmer on AWS with some know issues.
+  - Discussion about the possible demo scenario for London work week.
+
+## Last week 2/15 ~ 2/19
 * Medical Platform Project discussion:
   - Platform architecture discussion: https://docs.google.com/document/d/1Pk6FwmCsja6ymZfFnWucCw7HLj05_Y6Wldt-O7PWGtg/edit
   - Setup the enviroment for shimmer. Having some problem in 3rd party API's credantial.
   - Review gating slide.
-
-## The week before Chiness new year 2/1 ~ 2/5
-* Medical Platform Project:
-  - Setup the enviroment for shimmer.
-  - Create a public access on AWS for other developer.
-
-* System migration
-  - Suspend the investigation since TV team might change/minimize the scope for migration.
 
 ## 2016 Q1 Goals
 
