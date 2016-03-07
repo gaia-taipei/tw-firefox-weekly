@@ -1,16 +1,19 @@
-## This week 2/15 ~ 2/19
+## This week 3/1 ~ 3/4
 * Medical Platform Project discussion:
-  - Platform architecture discussion: https://docs.google.com/document/d/1Pk6FwmCsja6ymZfFnWucCw7HLj05_Y6Wldt-O7PWGtg/edit
-  - Setup the enviroment for shimmer. Having some problem in 3rd party API's credantial.
-  - Review gating slide.
+  - Some discussion with doctor about the dome scenario.
+  - Some discussion with Greg about where to expose the platform entry for contributors.
 
-## The week before Chiness new year 2/1 ~ 2/5
-* Medical Platform Project:
-  - Setup the enviroment for shimmer.
-  - Create a public access on AWS for other developer.
+* Replied the Evan's request about joining sensor web.
 
-* System migration
-  - Suspend the investigation since TV team might change/minimize the scope for migration.
+* Engineering onboarding study group: Plan for study group with Fred and prepare for Telemetry part.
+
+## Last week 2/22 ~ 2/25
+* Medical Platform Project discussion:
+  - Complete the first phase of experiment and sent out result on medical project mailing list.
+  - Discussion about the possible demo scenario for London work week and confirm the scope.
+
+* Some discussion with Evan about the sensor web.
+  
 
 ## 2016 Q1 Goals
 
