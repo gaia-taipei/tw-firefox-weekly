@@ -1,34 +1,36 @@
-## 02/22 ~ 02/26 ##
+## 03/01 ~ 03/04 ##
 
 ### Last week
 * [WebEverywhere]
-  - Filed bugs for the project.
-    - The bug tree: https://bugzilla.mozilla.org/showdependencytree.cgi?id=1252350
-  - Discussed the features of PM2.5 program website, SensorWeb portal, and mobile app.
-    - https://docs.google.com/document/d/1iCypUoxaizlgN9-PdQz1rd9wMH0aFqx38_rX2JRobAc
-  - Learned PM2.5 knowledge
-    - WTO air quality guidelines
-      - http://www.who.int/phe/health_topics/outdoorair/outdoorair_aqg/en/
-    - Open data API for PM2.5 index in Taiwan government
-      - http://data.gov.tw/node/6074
-    - PM2.5 guidelines in Taiwan
-      - http://taqm.epa.gov.tw/taqm/tw/fpmi.htm
+  - Discussed the UX specs of SensorWeb portal with Mark.
+    - https://drive.google.com/a/mozilla.com/folderview?id=0BxxsmFUluI_SRGpRVjFyUjF6N2M
+  - Finded a suitable CMS and themes for blog and PM2.5 program Website.
+    - We'll use Wordpress.
+    - Theme for Website:
+      - 1. https://wordpress.org/themes/onepirate
+      - 2. https://wordpress.org/themes/accesspress-parallax
+    - Theme for Website:
+      - 1.https://wordpress.org/themes/shaped-blog
+      - 2.https://wordpress.org/themes/pro-blogg
+      - 3.https://wordpress.org/themes/pblog
+  - Started to implement the frontend part of SensorWeb Website.
+    - Landing page: https://github.com/evanxd/sensorweb-frontend/commit/14d7b012a79fb9abd93aba2f05b98dfe421fe637
 
-* [FoxGaming]
-  - Discussed FoxGaming pitch.
-    - Maybe we can try to create the Web game store, it can help
-      - 3rd-party developers can get users more easily.
-      - Users can find good Web games more easily.
+* [Firefox]
+  - Studied Firefox.
+    - Engineering Onboarding: Bugzilla
+      - The video is only about using Bugzilla for beginners.
 
 ### This week
 * [WebEverywhere]
-  - Discuss the UX specs of PM2.5 program website and SensorWeb portal.
-  - Find a suitable blog system for SensorWeb.
-    - We should start to write blog about air pollution(PM2.5) to get potential users.
-  - Implement the data uploading API.
-    - https://github.com/evanxd/sensorweb-portal/blob/master/todo.md#restful-apis
-
-* [Firefox]
-  - Study Firefox.
-    - Engineering Onboarding: Bugzilla
-      - https://air.mozilla.org/engineering-onboarding-bugzilla
+  - Implement the fontend module of SensorWeb.
+    - Programs pages
+    - Devices management pages
+  - Follow up the domain name and AWS things.
+    - Hopefully we can have our domain name and an AWS instance.
+  - Setup the blog on AWS and start to post info.
+    - Add Google Analytics into our blog.
+    - The posts will be about:
+      - SensorWeb
+      - PM2.5
+      - Setup your own PM2.5 sensor
