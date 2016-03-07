@@ -1,25 +1,27 @@
-## 02/15 - 02/19 ##
+## 02/22 - 02/26 ##
 
 ### Last Week ###
 
 * [System Merge]
-    - Classified the test cases on MozTrap
-    - [Review] Bug 1234484 - [GijTV] Re-enable smart-system app_install_dialog and browser_context_menu test
-    - [Review] Bug 1248376 - Create integration test for moztrap #17924
-    - [Review] Bug 1236490 - Run the tv system app in the system domain
-    - [Review] Bug 1248612 - Create integraton test for Moztrap #16645
-    - [Review] Bug 1244682 - Base-modularize homescreenLauncher and landingappLauncher
+    - [Review] Bug 1244682 - Base Modularize HomescreenLauncher and LandingLauncher
+    - [Review] Bug 1244686 - Base-modularize homescreenWindowManager
+    - [Review] Bug 1250780 - [GijTV] Add interactive_notifications_test.js in smart-system
+    - [Review] Bug 1250913 - TEST-UNEXPECTED-FAIL | tv_apps/smart-system/test/marionette/pin_to_home_test.js | Test Pin to homescreen pin to homescreen
+    - [Review] Bug 1245045 - Base-modularize appWindowManager
+
+* [TV Remote Control]
+    - Discussed the remote control security issue
 
 * [TV Marketplace]
-    - [Review] Bug 1246090 - [TV][2.5] bookmark card is not removed when the website is uninstalled from WebApps
+    - [Review] Bug 1250032 - [Marketplace] Hint should show after the app finish loading
+    - [Review] Bug 1249533 - Add to apps confirm dialog focus on cancel button by default
 
 * [TV Metrics]
-    - [Done] Bug 1249243 - [TV 2.5] Turn on App Usage Metrics by default
-        - fixed and land
+    - Handled issues via mails
 
 * [TV General]
-    - [Review] Bug 1246092 - [TV] Circle animation during app transition dosen't close properly
-    - [Review] Bug 1235124 - [Presentation WebAPI] Start multi-screen by Presentation API
+    - [Review] Bug 1250395 - The OK button cannot be pressed in the error dialog in fx account sign in flow
+    - [Review] Bug 1250815 - Enable tv build preference: network.offline-mirrors-connectivity
 
 
 ### This Week ###
@@ -28,5 +30,5 @@
     - [New] Bug 1250061 - [gij-tv-system][test case] switch between underlay app and home
     - Review patches
 
-* [TV General]
-    - Review patches
+* [TV Remote Control]
+    - Test CROS and mixed content issues
