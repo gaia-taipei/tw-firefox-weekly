@@ -1,16 +1,17 @@
 [Open bugs assigned to me](https://bugzilla.mozilla.org/buglist.cgi?quicksearch=assignee%3Agasolin%40mozilla.com) (ASSIGNED = current working on; NEW = backlog)
 
-## 2/22 ~ 2/26
+## 3/1 ~ 3/4
+
+- organize onboarding studygroup with Steve
+- Watch onboarding JS & DOM video
 
 webby
 
-Board announce webby is the last 3 candidates in gate-0 process, need answer questions and add more support materials
-
-- ported Webbybot & webby-calculator plugin
-- fix webbybot callback not found issue
-- hold meeting for next webby action
-
-Watch onboarding Architecture & Product video
+- fully ported hubot to webbybot with Ray https://github.com/gasolin/webbybot
+- prepare new slides
+- discussion and do related research for demo cases
+- wrote mail to CD_allstaff about why we propose webby project
+- Vidyo with Sandip to discuss about recent works
 
 
 ## 2015 Q4 Delivered
