@@ -1,21 +1,9 @@
 # This Week
-- [Study]
-  - XUL
-    - XUL tutorials on MDN
-  - Browser
-    - Look over browser codebase about front-end
-- [Webby]
-  - Port Hubot to Webby / Coffeescript to ES6
-    - listener
-    - middleware
-    - response
-- [Keyboard]
-  - Bug 1137970 - Generate Ukrainian (uk) wordlist/dictionary
-    - RESOLVED FIXED
-    - Help out build test
-  - Bug 1250030 - Don't throw in PromiseStorage if indexedDB is not available
-    - WIP
 
-- [Settings]
-  - Bug 1217750 - bluetooth 'rename my device' dialog looks inconsistent with other ui
-    - Invalid
+- [Video]
+  - Firefox Architecture & Product
+- [AcademyNCU2016]
+  - Prepare lecture
+  - Build slide with reveal.js
+- [Webby]
+  - Review && Discussion with Fred
