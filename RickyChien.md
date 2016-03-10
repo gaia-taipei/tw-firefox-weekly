@@ -1,16 +1,12 @@
-## 02/01 ~ 02/24
-[TV System]
-* [Landed] [Bug 1250032](http://bugzil.la/1250032) - [Marketplace] Hint should show after the app finish loading
-* [Landed] [Bug 1249533](http://bugzil.la/1249533) - Add to apps confirm dialog focus on cancel button by default
-* [WIP] [Bug 1250798](http://bugzil.la/1250798) - [System Merge] A fake marketplace website for running integration test
+## 03/01 ~ 03/04
+[Sharing]
+* Firefox Architecture Video sharing
+* Prepare and revise NCUAcademy course materials (2 courses on 03/07 and 03/14)
+ * See detials at [AcademyNCU2016](https://wiki.mozilla.org/Firefox_OS/AcademyNCU2016#Agenda)
 
-[Build System] [RefactoringToNodejs#Milestone_1](https://wiki.mozilla.org/Gaia/Build/RefactoringToNodejs#Milestone_1)
-* See above link, Scott and I finished almost all build scripts refactoring during this month.
-* However, we encountered performance issue since requirejs and spawn process on node are slower than xpcshell. (~2.5 slower)
-* Node is able to be turned on by default once we solve performance problem.
- 
 [Other]
-* Mentor Scott Wu to refactor [Bug 1243351](http://bugzil.la/1243351) - Running scan-appdir.js on node.js
+* Mentor Scott Wu with backed out issue [Bug 1243351](http://bugzil.la/1243351) - Running scan-appdir.js on node.js
+* Mentor Joseph for fixing smart-system feature.
 * [Review History](https://bugzilla.mozilla.org/page.cgi?id=review_history.html&requestee=rchien%40mozilla.com)
 
 ## 2015 Q4 Goals
