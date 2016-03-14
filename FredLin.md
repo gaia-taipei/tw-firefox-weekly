@@ -1,18 +1,21 @@
 [Open bugs assigned to me](https://bugzilla.mozilla.org/buglist.cgi?quicksearch=assignee%3Agasolin%40mozilla.com) (ASSIGNED = current working on; NEW = backlog)
 
-## 3/1 ~ 3/4
+## 3/7 ~ 3/11
 
 - organize onboarding studygroup with Steve
-- Watch onboarding JS & DOM video
+- present Firefox browser test framework for JS & DOM at Friday
 
 webby
 
-- fully ported hubot to webbybot with Ray https://github.com/gasolin/webbybot
-- prepare new slides
+- organize demo case brain storming
+- meeting with UX(Mark & Carol to prepare present slides
 - discussion and do related research for demo cases
-- wrote mail to CD_allstaff about why we propose webby project
-- Vidyo with Sandip to discuss about recent works
+- Can run on telegram https://github.com/gasolin/webbybot#how-to-replace-hubot-to-webbybot
+- Wrote home demo cases (Turn on/off door/oven, show home states)
 
+Settings
+
+- r+, Bug 1242314 - [TV][Settings] Implement key navigation feature for supporting TV form-factor.
 
 ## 2015 Q4 Delivered
 1. Solving Blockers and implement &lt;to be decided&gt; features, as measured by implementation completeness.
