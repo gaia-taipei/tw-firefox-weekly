@@ -1,4 +1,15 @@
-## This week 3/1 ~ 3/4
+## This week 3/7 ~ 3/11
+* Engineering onboarding study group:
+  - Watch the telemetry and other onboarding video and give a short introduction about telemetry.
+
+* Medical Platform Project discussion:
+  - Study for other backend solution(StrongLoop).
+
+* SensorWeb:
+  - Discussion for more details about 4/18 milestone.
+  - Survey for backend solution, might reuse the same idea as Medical Platform.
+
+## Last week 3/1 ~ 3/4
 * Medical Platform Project discussion:
   - Some discussion with doctor about the dome scenario.
   - Some discussion with Greg about where to expose the platform entry for contributors.
@@ -6,13 +17,6 @@
 * Replied the Evan's request about joining sensor web.
 
 * Engineering onboarding study group: Plan for study group with Fred and prepare for Telemetry part.
-
-## Last week 2/22 ~ 2/25
-* Medical Platform Project discussion:
-  - Complete the first phase of experiment and sent out result on medical project mailing list.
-  - Discussion about the possible demo scenario for London work week and confirm the scope.
-
-* Some discussion with Evan about the sensor web.
   
 
 ## 2016 Q1 Goals
