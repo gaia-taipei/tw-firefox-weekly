@@ -1,14 +1,14 @@
 ### Last week
 
 * [Data Sync]
-  - [Bug 1242314] gaia-components is fixed. Implementing SN support for dialog pattern.
-  - [CLOSED][Bug 1244169] Tabs Sync Data Adapter.
-  - [CLOSED][Bug 1245426] Patch landed.
-  - [Partner] Discuss sqlite size increasing issue.
+  - [Bug 1242314] Writing unit-tests and preparing the patch for landing. Added SN support for Dialog Pattern.
+  - [Bug 1251153] Implement Settings UI for tab sync feature in TV Browser.
+  - [r?][Bug 1250834] Data Adapter for TV Browser is waiting for review.
 
 ### This week
 * [Data Sync]
   - [Bug 1205901] Two-way Synchronization History Data Adapter.
-  - [Bug 1226076] There is still a polish issue reported by UX.
-  - [Bug 1242314] Keep finishing the rest works of SN support for dialog pattern and value selector.
+  - [Bug 1242314] Implement the basic SN support.
+  - [BT HID] Implement BT HID feature in Settings.
+  - [Bug 1251153] Implement Settings UI for tab sync feature in TV Browser.
 
