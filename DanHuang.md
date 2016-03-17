@@ -6,14 +6,15 @@
 ### This Week ###
 
 * [TV]
-    Bug 1250815 - Enable tv build preference: network.offline-mirrors-connectivity
-    Bug 1249549 - [TV][2.5] browser FTE shows "Welcome to Firefox”
-    Bug 1251525 - Remove Pocket from menu items
     Bug 1244174 - Sync tabs UI
+    Bug 1226539 - Bookmark and history not at the center position when open TV channel in the sidebar
+    Bug 1255325 - The OK button is disabled and not work after clearing the homepage and then restore to default.
 
     REVIEW
-      Bug 1241775 - [TV][2.6] Can't leave the bookmark name input field
+      Bug 1240448 - Use fxos-tv-modal-dialog for delete cookie and clear history dialogs
 
     Verify
-      Bug 1244016 - [TV][2.5] The strings in error page is wrong when browsing a page without network connection.
+      Bug 1256202 - The offline message cannot show properly when browsing website without network connection.
+      Bug 1256203 - The offline message cannot show properly when launching WebApps without network connection.
+      Bug 1256204 - The error message cannot show properly when browsing an invalid website.
 
