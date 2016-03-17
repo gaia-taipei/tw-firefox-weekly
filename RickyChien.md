@@ -1,12 +1,11 @@
 ## 03/01 ~ 03/04
 [Sharing]
-* Firefox Architecture Video sharing
 * Prepare and revise NCUAcademy course materials (2 courses on 03/07 and 03/14)
  * See detials at [AcademyNCU2016](https://wiki.mozilla.org/Firefox_OS/AcademyNCU2016#Agenda)
 
 [Other]
-* Mentor Scott Wu with backed out issue [Bug 1243351](http://bugzil.la/1243351) - Running scan-appdir.js on node.js
-* Mentor Joseph for fixing smart-system feature.
+* I was investigating about building Firefox and dig into Firefox source code as well as trying to find out interesting good first bugs.
+* [Fixed] [Bug 1255780] (http://bugzil.la/1255780) - [TV][2.5] gaia build error doesn't happen with xulrunner 41 or later
 * [Review History](https://bugzilla.mozilla.org/page.cgi?id=review_history.html&requestee=rchien%40mozilla.com)
 
 ## 2015 Q4 Goals
