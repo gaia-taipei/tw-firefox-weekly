@@ -1,38 +1,34 @@
-## 03/07 ~ 03/11 ##
+## 03/14 ~ 03/18 ##
 
 ### Last week
 * [WebEverywhere]
-  - Implemented the fontend module of SensorWeb.
-    - Programs pages
-      - https://github.com/evanxd/sensorweb-frontend/commit/5c55976af95901fcd004ba45e406eb615035cbde
-    - Devices management pages
-      https://github.com/evanxd/sensorweb-frontend/commit/02399eefa0f2dc1cffcbd5bdcdef8f6127044503
-    - Documentation page
-      - https://github.com/evanxd/sensorweb-frontend/commit/76f93b8108258089cf0604e03599c76ceb77b2bd
-  - Continute to break down SensorWeb prototype for Gate 0 into bugzilla bugs.
-    - https://bugzilla.mozilla.org/showdependencytree.cgi?id=1252350&hide_resolved=1
-    - Currently, we have 54 bugs.
-  - Follow up the domain name and AWS things.
-    - Purchased the domain name(sensorweb.io), and applyed for the AWS account.
+  - Release the landing page of SensorWeb service.
+    - Created two versions of the landing page.
+      - https://github.com/evanxd/sensorweb-frontend/tree/landing-page-v0.2
+      - https://github.com/evanxd/sensorweb-frontend/tree/landing-page-v0.1
+    - Need to negotiate with MKT team before release it online. Will work on this next week.
+  - Setup a web server for SensorWeb website.
+    - Currently can not show the URL in public before negotiate with MKT team.
+  - Did market survey.
+    - Interviewed two teachers.
+  - Designed and defined the product concept and features of SensorWeb.
+    - What is SensorWeb slide: http://evanxd.github.io/what-is-sensorweb
+  - Planed the plan of delivering the products to users.
   - SensorWeb weekly meeting.
-    - We'll done our tech works of the first version of SensorWeb and PM2.5 stuffs.
-      - It includes SensorWeb service, PM2.5 website, and PM2.5 device.
-    - For the first version, what bugs are P1 priority?
-      - We will discuss this next week.
-  - Setup communication tools for SensorWeb's community
-    - Bug 1255664: Create a mailing list
-    - Bug 1255681: Setup a IRC channel for SensorWeb
-      - #sensorweb
-  - Updated SensorWeb's wiki.
-    - Contributors can get info of how to contribute.
-    - Trace the flow rate of links in wiki with goo.gl to understand what info is interesting for users.
+    - The meeting's record: https://public.etherpad-mozilla.org/p/sensorebweb#lineNumber=91
 
 ### This week
 * [WebEverywhere]
+  - Release the landing page online.
+    - Fix wording issues.
+    - Fix visual issues.
+    - Add feedback functions.
   - Implement the back-end module.
-  - Plan the plan of delivering the products to users.
   - SensorWeb weekly meeting.
-    List the P1 bugs for discussion.
-    Design the market survey form for discussion.
-  - Release the landing page of SensorWeb service.
-    - Start to get contact info of potential users.
+    - The agenda: https://public.etherpad-mozilla.org/p/sensorebweb#lineNumber=38
+  - Market survey.
+    - Interview teachers for PM2.5 issues in school.
+    - Help contributor build the survey form.
+      - Check the bug: https://bugzil.la/1256140
+  - Negotiate with MKT team for release things.
+  - Share SensorWeb project with MozTW community.
