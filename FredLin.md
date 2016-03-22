@@ -1,21 +1,19 @@
 [Open bugs assigned to me](https://bugzilla.mozilla.org/buglist.cgi?quicksearch=assignee%3Agasolin%40mozilla.com) (ASSIGNED = current working on; NEW = backlog)
 
-## 3/7 ~ 3/11
+## 3/14 ~ 3/18
 
-- organize onboarding studygroup with Steve
-- present Firefox browser test framework for JS & DOM at Friday
+Webby
 
-webby
-
-- organize demo case brain storming
-- meeting with UX(Mark & Carol to prepare present slides
-- discussion and do related research for demo cases
-- Can run on telegram https://github.com/gasolin/webbybot#how-to-replace-hubot-to-webbybot
-- Wrote home demo cases (Turn on/off door/oven, show home states)
+- webbybot add coverage report, package require with es6 import
+- webbybot can run on telegram and facebook messenger
+- create template for quick evaluation https://github.com/gasolin/webby_template
+- Meeting with Sandip at Tuesday & Friday
+- polish slide, wrote pitch deck scripts, wrote command suggestion script
 
 Settings
 
-- r+, Bug 1242314 - [TV][Settings] Implement key navigation feature for supporting TV form-factor.
+- r+, Bug 1254815 - [TV][Settings] BT HID support for Nexus Remote in TV/Phone Settings
+- r+, Bug 1257282 - [TV][Settings] Fix gaia-theme.css url for both Phone and TV form factor
 
 ## 2015 Q4 Delivered
 1. Solving Blockers and implement &lt;to be decided&gt; features, as measured by implementation completeness.
