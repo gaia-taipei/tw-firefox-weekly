@@ -1,4 +1,11 @@
-## This week 3/7 ~ 3/11
+## This week 3/14 ~ 3/18
+* Medical Platform Project discussion:
+  - (Ongoing) Migrate the existing open mhealth dockers to the new created aws ec2 and setup.
+
+* SensorWeb:
+  - Focus on the first version of landing page(http://sensorweb.io/) for 3/18
+
+## Last week 3/7 ~ 3/11
 * Engineering onboarding study group:
   - Watch the telemetry and other onboarding video and give a short introduction about telemetry.
 
@@ -8,15 +15,6 @@
 * SensorWeb:
   - Discussion for more details about 4/18 milestone.
   - Survey for backend solution, might reuse the same idea as Medical Platform.
-
-## Last week 3/1 ~ 3/4
-* Medical Platform Project discussion:
-  - Some discussion with doctor about the dome scenario.
-  - Some discussion with Greg about where to expose the platform entry for contributors.
-
-* Replied the Evan's request about joining sensor web.
-
-* Engineering onboarding study group: Plan for study group with Fred and prepare for Telemetry part.
   
 
 ## 2016 Q1 Goals
