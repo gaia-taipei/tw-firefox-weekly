@@ -1,19 +1,20 @@
 [Open bugs assigned to me](https://bugzilla.mozilla.org/buglist.cgi?quicksearch=assignee%3Agasolin%40mozilla.com) (ASSIGNED = current working on; NEW = backlog)
 
-## 3/14 ~ 3/18
+## 3/21 ~ 3/24
+
+- [activity stream] help connect l20n team with activity stream team
+https://github.com/mozilla/activity-streams/issues/136
 
 Webby
 
-- webbybot add coverage report, package require with es6 import
-- webbybot can run on telegram and facebook messenger
-- create template for quick evaluation https://github.com/gasolin/webby_template
-- Meeting with Sandip at Tuesday & Friday
-- polish slide, wrote pitch deck scripts, wrote command suggestion script
+- 2nd webby presentation to board
+- Install webbybot and the demo plugin onto Respberry Pi 3. The prototype can control and monitor LED state by Telegram or Facebook messenger.
+- full source code and the instruction
+https://github.com/gasolin/webby-grove-demo
 
-Settings
+- write wiolink review https://github.com/mozilla/connected-devices-experiments/issues/28
 
-- r+, Bug 1254815 - [TV][Settings] BT HID support for Nexus Remote in TV/Phone Settings
-- r+, Bug 1257282 - [TV][Settings] Fix gaia-theme.css url for both Phone and TV form factor
+- Birthday off at 3/25
 
 ## 2015 Q4 Delivered
 1. Solving Blockers and implement &lt;to be decided&gt; features, as measured by implementation completeness.
