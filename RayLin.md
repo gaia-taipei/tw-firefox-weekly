@@ -1,16 +1,13 @@
-# 03/07 ~ 03/18
-
-- [Study Group]
-  - Firefox Architecture & Product sharing
+# 03/21 ~ 03/25
 
 - [Firefox for Android]
-  - Bug 1065076 - Update icons for video controls
-    - RESOLVED FIXED
-    - No friendly development tool for Android front end, rebuild and reinstall are needed for every change.
   - Bug 1250741 - Update video player spec
     - WIP
-  - Environment setup
-    - Restore Z3C to stock ROM
-    - git-cinnabar
-    - Andriod Studio integration
-
+    - feedback? Margaret
+- [Firefox for Desktop]
+  - Build Firefox Desktop
+  - Setup seperated build script/config
+    - Build Fennec and Firefox within the same folder
+- [AcademyNCU2016]
+  - Prepare lecture
+    - HTTP protocol related topics
