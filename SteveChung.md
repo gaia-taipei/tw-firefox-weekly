@@ -1,21 +1,18 @@
-## This week 3/14 ~ 3/18
+## This week 3/21 ~ 3/25
 * Medical Platform Project discussion:
-  - (Ongoing) Migrate the existing open mhealth dockers to the new created aws ec2 and setup.
+  - (Ongoing) Migrate the existing open mhealth shimmer to the new account and setup.
 
 * SensorWeb:
-  - Focus on the first version of landing page(http://sensorweb.io/) for 3/18
+  - Polish the landing page and Chinese version.
+  - Setup wordpress for blog.
+  - Survey map API and chart library for rendering sensor data.
 
-## Last week 3/7 ~ 3/11
-* Engineering onboarding study group:
-  - Watch the telemetry and other onboarding video and give a short introduction about telemetry.
-
+## Last week 3/14 ~ 3/18
 * Medical Platform Project discussion:
-  - Study for other backend solution(StrongLoop).
+  - (Ongoing) Migrate open mhealth dockers (database and authentication part).
 
 * SensorWeb:
-  - Discussion for more details about 4/18 milestone.
-  - Survey for backend solution, might reuse the same idea as Medical Platform.
-  
+  - First version of landing page(http://sensorweb.io/) with ongoing Chinese version website.
 
 ## 2016 Q1 Goals
 
