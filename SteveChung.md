@@ -1,18 +1,14 @@
-## This week 3/21 ~ 3/25
-* Medical Platform Project discussion:
-  - (Ongoing) Migrate the existing open mhealth shimmer to the new account and setup.
+## This week 3/28 ~ 4/1
+* SensorWeb:
+  - Discussion with UX about the rest of the user stories(including sensor setup/information, user information and login)
+  - Utilize Google map API and ChartJS library for rendering the map and data chart.
+  - Prototype for sensor/project information page and test with real data.
 
+## Last week 3/21 ~ 3/25
 * SensorWeb:
   - Polish the landing page and Chinese version.
   - Setup wordpress for blog.
   - Survey map API and chart library for rendering sensor data.
-
-## Last week 3/14 ~ 3/18
-* Medical Platform Project discussion:
-  - (Ongoing) Migrate open mhealth dockers (database and authentication part).
-
-* SensorWeb:
-  - First version of landing page(http://sensorweb.io/) with ongoing Chinese version website.
 
 ## 2016 Q1 Goals
 
