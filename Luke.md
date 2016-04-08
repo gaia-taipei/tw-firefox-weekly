@@ -1,20 +1,20 @@
-## 03/14 - 03/18 ##
+## 03/21 - 03/25 ##
 
 ### Last Week ###
 
-* [TV Homescreen]
-    - [Done] Bug 1254040 - [TV][Home] Remove expanding/shrinking motion for filters
-        - landed on master
+* [TV Marketplace]
+    - [Review] Bug 1257767 - [TV][2.5] Showing app icon under preview window splash screen's spinner
+        - mentored Joseph
 
 * [TV General]
-    - [Review] Bug 1250801 - [GijTV] Add permission_manager_test.js in smart-system
-    - [Review] Bug 1252413 - [TV][2.5] Login UI for Sign-In can't be closed when other app was launched
+    - [WIP] Bug 1223860 - [TV][UX] remove app crash dialog
+        - wrote a patch and waiting for review
 
 * [Spatial Navigation]
-    - [WIP] Add documents
+    - [Done] Added the documents and improved the library
         - https://github.com/luke-chang/js-spatial-navigation
 
 ### This Week ###
 
-* [Spatial Navigation]
-    - Add documents
+* [Mozilla Hacks]
+    - Write an article
