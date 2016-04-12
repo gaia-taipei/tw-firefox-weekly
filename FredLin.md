@@ -1,21 +1,18 @@
 [Open bugs assigned to me](https://bugzilla.mozilla.org/buglist.cgi?quicksearch=assignee%3Agasolin%40mozilla.com) (ASSIGNED = current working on; NEW = backlog)
 
-## 3/28 ~ 4/1
+## 4/6 ~ 4/8
 
 Firefox
 
-- reactivate gecko try access
-- setup git-cinnarbar & mozreview environment
+This week
 
-- Bug 1240727 - Capital letters keywords are not recognized when showing which of the search engine will be used in the next search
-  - matching keyword in lowercase
-  - r+ & landed
-- Bug 969443 - Update CustomizableUI tests to yield on CustomizeMode.reset instead of gCustomizeMode.resetting
-  - update tests
-  - r+ & landed
+- learn try syntax
+
 - Bug 1219495 - about:addons renders with huge "Server not found" page if you're offline, instead of placeholder content
+  - r+ & landed
+- Bug 1260718 - use plain promise in panelUI.js;
   - r+
-
-Webby
-
-- Not tracing for gate review anymore. Turn it as my side project
+- Bug 1260718 - use plain promise in CustomizableUI.jsm and ScrollbarSampler.jsm;
+  - r+
+- Bug 1256772 - eslint fix for devtools/client/webconsole/jsterm.js
+  - r?
