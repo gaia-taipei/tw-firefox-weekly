@@ -1,15 +1,16 @@
 ### Last week
 
 * [Firefox]
-  - [r?][Bug 1191092] The test timing issue is related to e10s, and I submit a new patch to fix the problem.
-  - [r-][Bug 1261234] Still investigating the better solution to fix the localhost issue.
+  - [CLOSED][Bug 1191092] The patch is landed!
   - [ContentHandling] Help UX to finish their spec from RD prespective.
-  - [ContentHandling] Study Application Tab for configuring Content Handler.
-  - [Sharing] Prepare Firefox Workflow for Git and add MozReview part.
+  - [ContentHandling] Study Preference service for Application Tab and the entry point of Download dialog
+  - [DONE][Sharing] quick sharing of Firefox Workflow for Git.
+
+* [DataSync]
+  - [CLOSED][Bug 1263504] User Agent for TV build is allowed to access FxA, and it's verified by partner.
 
 ### This week
 * [Firefox]
-  - [Bug 1191092] Fix the timing issue on try server.
   - [Bug 1261234] Implement a better solution.
 
 * [Settings]
