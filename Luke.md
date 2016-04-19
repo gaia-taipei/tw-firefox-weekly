@@ -1,29 +1,24 @@
-## 04/06 - 04/08 ##
+## 04/11 - 04/15 ##
 
 ### Last Week ###
 
 * [TV Homescreen]
-    - [Done] Bug 1254051 - [TV][Home] Filters should become effective once cursor moved there
+    - [Done] Bug 1254052 - [TV][Home] Folders should show small icons for its containing cards
         - landed on master
-    - [Done] Bug 1254043 - [TV][Home] Remember cursor position for filter tabs
-        - landed on master
-    - [WIP] Bug 1254052 - [TV][Home] Folders should show small icons for its containing cards
-        - wrote a patch and waiting for reviewing
-    - [Review] Bug 1256261 - [TV][Home] Implement "add new folder" view if user selects to add a new folder
-    - [Review] Bug 1256259 - [TV][Home] Make Grid-view dialog multiple-selectable
-    - [Review] Bug 1254045 - [TV][Home] Make a grid view dialog for folder editing
+    - [Done] Bug 1264544 - [TV][Home] Fix the icon style of TV Channels and Bookmarks in Folder Icon and CardPicker
+        - made the patch and landed on master
+    - [New] Bug 1262394 - [TV][Home] Sort cards by group-alphabet order in card-picker
+        - wrote a patch and waiting for review
+    - [Review] Bug 1263840 - [TV][Home] Move card description text to outside the text
 
 * [TV Marketplace]
-    - [New] Bug 1257432 - It CANNOT cancel loading and return to Web Apps home when pressing "Back" key on remote control before content loading finished
-        - under investigation
+    - [Done] Bug 1257432 - It CANNOT cancel loading and return to Web Apps home when pressing "Back" key on remote control before content loading finished
+        - made the patch and landed on master
 
 * [Firefox]
-    - No progress
+    - Built up Firefox Workflow
 
 ### This Week ###
 
 * [TV Homescreen]
-    - [WIP] Bug 1254052 - [TV][Home] Folders should show small icons for its containing cards
-
-* [TV Marketplace]
-    - [WIP] Bug 1257432 - It CANNOT cancel loading and return to Web Apps home when pressing "Back" key on remote control before content loading finished
+    - [WIP] Bug 1262394 - [TV][Home] Sort cards by group-alphabet order in card-picker
