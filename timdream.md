@@ -17,7 +17,7 @@
  * Follow-up to tests for bug 1243729. May pick up to dive into TabBrowser.
 * [Bug 1243729](https://bugzil.la/1243729) - Username is overwritten with a blank one when updating the password for a Twitter account
  * FIXED
- * Preparing mozilla-central patch
+ * Preparing patch for beta uplift
 * [Bug 1243722](https://bugzil.la/1243722) - Wrong doorhanger when updating password on Facebook
  * FIXED
- * Preparing mozilla-central patch
+ * Preparing patch for beta uplift
