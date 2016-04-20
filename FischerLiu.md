@@ -1,17 +1,17 @@
-## 04/06 - 04/08 ##
+## 04/11 - 04/15 ##
 
 ### This Week ###
 
 * [Smart Home]
 
-  - [WIP] Bug 1254039 - [TV][Home] Move rename, rearrange, and delete from edit mode to context menu.
+  - [r?] Bug 1254039 - [TV][Home] Move rename, rearrange, and delete from edit mode to context menu.
 
 ### Last Week ###
 
-* [FTU]
+* [Smart Home]
 
-  - [FIXED] Bug 1261341 - Fling tutorial needs multi lang support from SPEC.
+  - [FIXED] Bug 1264167 - [TV][Home] Renaming card under folder does not take effect immediately after inputing new name.
 
 ### Firefox ###
-- Environment setup: config git-cinnaber for mozilla central hg
+- Plan to try the 1st Bug 1259355 for practicing mozreview
 
