@@ -14,7 +14,8 @@
 ## Firefox
 
 * [Bug 1263760](https://bugzil.la/1263760) - TabSwitchDone does not fire when a dialog is opened
- * Stop at MozLayerTreeCleared event. May not be a tabbrowser issue (and may not be addressable from front-end).
+ * bug caused by quirky behavior of nested event loop 
+ * r+'d, to be checked in when Try turns green.
 * [Bug 1243729](https://bugzil.la/1243729) - Username is overwritten with a blank one when updating the password for a Twitter account
  * FIXED
  * Preparing patch for beta uplift
