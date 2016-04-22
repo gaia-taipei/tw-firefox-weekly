@@ -4,6 +4,8 @@
 
 ## Firefox QX
 
+* [Bug 1266372](https://bugzil.la/1266372) - The close reader mode button on page should behave the same as bug 1184950
+ * Proposed a patch to share code. Likely to be depend on bug 1264805.
 * [Bug 1264805](https://bugzil.la/1264805) - Leaving Reader Mode should not reload on Fennec
  * r+'d, need to figure out test situration before landing
 * [Bug 1184950](https://bugzil.la/1184950) - Leaving Reader Mode should not reload
