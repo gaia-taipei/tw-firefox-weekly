@@ -5,7 +5,7 @@
 ## Firefox QX
 
 * [Bug 1264805](https://bugzil.la/1264805) - Leaving Reader Mode should not reload on Fennec
- * r?, need to figure out what test to run (or if new tests are needed)
+ * r+'d, need to figure out test situration before landing
 * [Bug 1184950](https://bugzil.la/1184950) - Leaving Reader Mode should not reload
  * FIXED
 * [Bug 1229727](https://bugzil.la/1229727) - Mac OS X full screen warning
