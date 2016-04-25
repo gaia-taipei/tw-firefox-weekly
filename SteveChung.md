@@ -1,12 +1,13 @@
-## This week 4/11 ~ 4/14
+## This week 4/20 ~ 4/22
+* SensorWeb:
+  - Polish the views and fix bugs.
+  - Add project list page.
+  - Discuss the implemetaion of pm2.5 mobile app.
+
+## Last week 4/11 ~ 4/14
 * SensorWeb:
   - Implement google OAuth for user login to SensorWeb.
   - Sensor web API integration and test with real data.
-
-## Last week 4/6 ~ 4/8
-* SensorWeb:
-  - Polish the map and chart.
-  - Sensor web API integration.
 
 ## 2016 Q2 Goals
 * Goals updated on Workday
