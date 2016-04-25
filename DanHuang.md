@@ -1,25 +1,25 @@
 
 ### Last Weeks ###
 * [TV]
-    - browser enhancement
-        + verify the possibility of focusing on search bar but keyboard should't
-          pop up with spatial navigation
-    - Sync Tab
-        + [DUP] Bug 1263547 - Firefox Account unable to connect after resumed internet connection
+    - Bug 1264883 - [TV] Tab sync last updated is wrong
+        + r?
+    - Bug 1265303 - [TV] Tab sync do not update after resync
+        + verify as sync server issue
+    - Bug 1265305 - [TV] Tab sync list create clones when pressed
+        + r?
 
 * [Firefox]
-    - window & linux build environment set up
     - Bug 920956 - DevTools touch emulation: suppress regular mouse events, emulate
       300ms delay
-        + wait for feedback
+        + patch_v1 f+
+        + patch_v2 f+
 
 ### This Week ###
 * [TV]
-    - Sync Tab
-        + Bug 1264880 - [TV] Browser settings is missing privacy notice
-        + Bug 1264883 - [TV] Tab sync last updated is wrong
-        + Bug 1264886 - [TV] Tab sync text is not highlighted/bold when selected
+    - Bug 1267133 - Remove the new tab button from toolbar
+    - Bug 1267159 - use spatial navigation to navigate toolbar and top sites
 
 * [Firefox]
-    - window & linux build environment set up
-    - Bug 734326 - Use Australis button styling for bookmarks toolbar items
+    - Bug 920956 - DevTools touch emulation: suppress regular mouse events, emulate
+      300ms delay
+        + patch_v3 for test case
