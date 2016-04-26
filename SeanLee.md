@@ -1,13 +1,13 @@
 ### Last week
 
 * [Firefox]
-  - [CLOSED][Bug 1191092] The patch is landed!
-  - [ContentHandling] Help UX to finish their spec from RD prespective.
-  - [ContentHandling] Study Preference service for Application Tab and the entry point of Download dialog
-  - [DONE][Sharing] quick sharing of Firefox Workflow for Git.
+  - [ContentHandling] Study Applications Panel, Preferences Service. Did a slide for notes or brown-bag later.
+  - [ContentHandling] Discuss Content Handling panel with UX to refine the spec.
+  - [TrialPatch][Bug 1257182] Propose a trial patch. However, Unfocused is working on that too.
+  - [f?][Bug 1261234] Waiting for the feedback of reviewer.
 
 * [DataSync]
-  - [CLOSED][Bug 1263504] User Agent for TV build is allowed to access FxA, and it's verified by partner.
+  - [Bug 1266686] Fired a bug to trace the status of Syncto Production server deployment.
 
 ### This week
 * [Firefox]
