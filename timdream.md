@@ -1,13 +1,13 @@
-# Week of Apr 19, 2016
+# Week of Apr 25, 2016
 
 (Excluding management-related tasks)
 
 ## Firefox QX
 
 * [Bug 1266372](https://bugzil.la/1266372) - The close reader mode button on page should behave the same as bug 1184950
- * Proposed a patch to share code. Likely to be depend on bug 1264805.
+ * FIXED
 * [Bug 1264805](https://bugzil.la/1264805) - Leaving Reader Mode should not reload on Fennec
- * r+'d, need to figure out test situration before landing
+ * FIXED
 * [Bug 1184950](https://bugzil.la/1184950) - Leaving Reader Mode should not reload
  * FIXED
 * [Bug 1229727](https://bugzil.la/1229727) - Mac OS X full screen warning
@@ -15,9 +15,11 @@
 
 ## Firefox
 
+* [Bug 1153393](https://bugzil.la/1153393) - Session restore should restore about:reader page scrolling
+ * Patch proposed, need to figure out how to write tests.
+ * Probably need to fork another bug for PDF.JS viewer.
 * [Bug 1263760](https://bugzil.la/1263760) - TabSwitchDone does not fire when a dialog is opened
- * bug caused by quirky behavior of nested event loop 
- * r+'d, to be checked in when Try turns green.
+ * FIXED
 * [Bug 1243729](https://bugzil.la/1243729) - Username is overwritten with a blank one when updating the password for a Twitter account
  * FIXED
  * Preparing patch for beta uplift
