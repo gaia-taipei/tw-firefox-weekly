@@ -1,24 +1,31 @@
-## 04/11 - 04/15 ##
+## 04/18 - 04/22 ##
 
 ### Last Week ###
 
 * [TV Homescreen]
-    - [Done] Bug 1254052 - [TV][Home] Folders should show small icons for its containing cards
+    - [Done] Bug 1262394 - [TV][Home] Sort cards by group-alphabet order in card-picker
         - landed on master
-    - [Done] Bug 1264544 - [TV][Home] Fix the icon style of TV Channels and Bookmarks in Folder Icon and CardPicker
-        - made the patch and landed on master
-    - [New] Bug 1262394 - [TV][Home] Sort cards by group-alphabet order in card-picker
-        - wrote a patch and waiting for review
-    - [Review] Bug 1263840 - [TV][Home] Move card description text to outside the text
+    - [Done] Bug 1265331 - [TV][Home] Deck might disappear when moving it out of a folder
+        - made a patch and landed on master
+    - [Done] Bug 1264848 - [TV][Home] Implement "remove folder" button in folder card picker
+        - made a patch and landed on master
+    - [Done] Bug 1265653 - [TV][Home] Press BACK key to dismiss CardPicker
+        - made a patch and landed on master
+    - [New] Bug 1261322 - [TV][Home] Move up the main card list and the folder list when focusing on cards inside folder
+        - under development
+    - [Review] Bug 1264877 - [TV][Home] "All" filter wrongly puts all contents inside folders to main card list
 
-* [TV Marketplace]
-    - [Done] Bug 1257432 - It CANNOT cancel loading and return to Web Apps home when pressing "Back" key on remote control before content loading finished
-        - made the patch and landed on master
+* [TV General]
+    - [New] Bug 1266659 - [TV] Use a shared library to determine what the BACK key is on the remote control
+        - under development
 
 * [Firefox]
-    - Built up Firefox Workflow
+    - No progress
 
 ### This Week ###
 
 * [TV Homescreen]
-    - [WIP] Bug 1262394 - [TV][Home] Sort cards by group-alphabet order in card-picker
+    - [WIP] Bug 1261322 - [TV][Home] Move up the main card list and the folder list when focusing on cards inside folder
+
+* [TV General]
+    - [WIP] Bug 1266659 - [TV] Use a shared library to determine what the BACK key is on the remote control
