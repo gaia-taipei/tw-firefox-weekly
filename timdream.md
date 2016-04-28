@@ -4,8 +4,11 @@
 
 ## Firefox QX
 
+* [Bug 1231701](https://bugzil.la/1231701) - Ship an Emoji font in Firefox
+ * Patch ready, need UX/Visual/Product conformation on commitment of the Firefox Emoji font.
 * [Bug 1266372](https://bugzil.la/1266372) - The close reader mode button on page should behave the same as bug 1184950
  * FIXED
+ * Need uplift -- waiting for a few more days.
 * [Bug 1264805](https://bugzil.la/1264805) - Leaving Reader Mode should not reload on Fennec
  * FIXED
 * [Bug 1184950](https://bugzil.la/1184950) - Leaving Reader Mode should not reload
