@@ -1,31 +1,34 @@
-## 04/18 - 04/22 ##
+## 04/25 - 04/29 ##
 
 ### Last Week ###
 
 * [TV Homescreen]
-    - [Done] Bug 1262394 - [TV][Home] Sort cards by group-alphabet order in card-picker
-        - landed on master
-    - [Done] Bug 1265331 - [TV][Home] Deck might disappear when moving it out of a folder
-        - made a patch and landed on master
-    - [Done] Bug 1264848 - [TV][Home] Implement "remove folder" button in folder card picker
-        - made a patch and landed on master
-    - [Done] Bug 1265653 - [TV][Home] Press BACK key to dismiss CardPicker
-        - made a patch and landed on master
-    - [New] Bug 1261322 - [TV][Home] Move up the main card list and the folder list when focusing on cards inside folder
+    - [Done] Bug 1268384 - [TV][Home] Device deck doesn't have name
+        - investigated and closed as WONTFIX
+    - [WIP] Bug 1261322 - [TV][Home] Move up the main card list and the folder list when focusing on cards inside folder
+        - wrote a patch and waiting for review
+    - [New] Bug 1268417 - [TV][Home] Support pinning the same card multiple times to homescreen
         - under development
-    - [Review] Bug 1264877 - [TV][Home] "All" filter wrongly puts all contents inside folders to main card list
+    - [Review] Bug 1254039 - [TV][Home] Move rename, rearrange, and delete from edit mode to context menu
+    - [Review] Bug 1265656 - [TV][Home] Change folder name in CardPicker
 
 * [TV General]
-    - [New] Bug 1266659 - [TV] Use a shared library to determine what the BACK key is on the remote control
-        - under development
+    - [Done] Bug 1266659 - [TV] Use a shared library to determine what the BACK key is on the remote control
+        - r+ and landed
+    - [Done] Bug 1267522 - [Stingray] memory leak in b2g process
+        - helped Kershaw to investigate
+
+* [Presentation API]
+    - [Review] Bug 1267134 - [Presentation WebAPI] Corresponding changes to align the new architecture of shell_remote.js for multi-screen
 
 * [Firefox]
     - No progress
+
+* [Others]
+    - Proofread the MozHack article
 
 ### This Week ###
 
 * [TV Homescreen]
     - [WIP] Bug 1261322 - [TV][Home] Move up the main card list and the folder list when focusing on cards inside folder
-
-* [TV General]
-    - [WIP] Bug 1266659 - [TV] Use a shared library to determine what the BACK key is on the remote control
+    - [WIP] Bug 1268417 - [TV][Home] Support pinning the same card multiple times to homescreen
