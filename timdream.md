@@ -1,11 +1,12 @@
-# Week of Apr 25, 2016
+# Week of May 4, 2016
 
 (Excluding management-related tasks)
 
 ## Firefox QX
 
 * [Bug 1231701](https://bugzil.la/1231701) - Ship an Emoji font in Firefox
- * Patch ready, need UX/Visual/Product conformation on commitment of the Firefox Emoji font.
+ * Patch ready, UX/Visual/Product conformed their commitment of the Firefox Emoji font.
+ * Crashed on Win8 debug builds on a assertion failure. Will seek help and try to reproduce locally.
 * [Bug 1266372](https://bugzil.la/1266372) - The close reader mode button on page should behave the same as bug 1184950
  * FIXED
  * Need uplift -- waiting for a few more days.
