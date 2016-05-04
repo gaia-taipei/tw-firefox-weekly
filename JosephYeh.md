@@ -1,17 +1,21 @@
 ### Last week
 
-* [Firefox]
-  - [FIXED] Bug 530999 - Login manager UI should show site favicons
+* [Marketplace]
+  - [WONTFIX] Bug 1253240 - [TV] Adding "Category" feature for TV Web Apps Discovery Portal
+    * Web Apps descoped from TV 2.6
+
+* [Academy NCU 2016]
+  - Preparing slides and exercise.
 
 ### This Week
 
 * [Marketplace]
-  - [NEW] Bug 1253240 - [TV] Adding "Category" feature for TV Web Apps Discovery Portal
-  - [NEW] Bug 1265664 - [TV][Marketplace] Move card description text to outside the text.
-  - Brown Bag Marketplace slides
+  - [WIP] Bug 1265664 - [TV][Marketplace] Move card description text to outside the text.
+    * Waiting for Marketplace visual spec update, will use Home Screen's visual spec as reference first.
+
+  - [WIP] Bug 1269702 - [TV] Add multi language support
+
+  - [Brownbag] Marketplace Frontend
 
 * [Firefox]
-  - No progress.
-
-* [Academy NCU 2016]
-  - Preparing slides and exercise.
+  - Looking for another bug to work on.
