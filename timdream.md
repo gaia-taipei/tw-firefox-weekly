@@ -1,4 +1,4 @@
-# Week of May 4, 2016
+# Week of May 9, 2016
 
 (Excluding management-related tasks)
 
@@ -6,7 +6,9 @@
 
 * [Bug 1231701](https://bugzil.la/1231701) - Ship an Emoji font in Firefox
  * Patch ready, UX/Visual/Product conformed their commitment of the Firefox Emoji font.
- * Crashed on Win8 debug builds on a assertion failure. Will seek help and try to reproduce locally.
+ * Crashed on Win8 debug builds on a assertion failure. Will seek help and try to reproduce locally -- this is now bug 1270878.
+* [Bug 1270878](https://bugzil.la/1270878) - Crash on Win8 debug with `MOZ_BOUNDLE_FONTS` turned on.
+ * Reproduced locally on a borrowed machine; will try to debug with the locally built.
 * [Bug 1266372](https://bugzil.la/1266372) - The close reader mode button on page should behave the same as bug 1184950
  * FIXED in Fx49.
  * Uplifted to Fx48.
@@ -20,8 +22,11 @@
 ## Firefox
 
 * [Bug 1153393](https://bugzil.la/1153393) - Session restore should restore about:reader page scrolling
- * Patch proposed, need to figure out how to write tests.
- * Probably need to fork another bug for PDF.JS viewer.
+ * r+'d, did not land due to intermittent
+ * Proposed a new patch with problem fixed (and proven on try)
+* [Bug 1269996](https://bugzil.la/1269996) - Reader mode page scroll position should be remembered
+ * quick patch to remove unload listener and restore bfcache
+ * FIXED in Fx49
 * [Bug 1263760](https://bugzil.la/1263760) - TabSwitchDone does not fire when a dialog is opened
  * FIXED in Fx48
 * [Bug 1243729](https://bugzil.la/1243729) - Username is overwritten with a blank one when updating the password for a Twitter account
