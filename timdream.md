@@ -8,8 +8,10 @@
  * Patch ready, UX/Visual/Product conformed their commitment of the Firefox Emoji font.
  * Crashed on Win8 debug builds on a assertion failure. Will seek help and try to reproduce locally -- this is now bug 1270878.
 * [Bug 1270878](https://bugzil.la/1270878) - Crash on Win8 debug with `MOZ_BOUNDLE_FONTS` turned on.
- * Reproduced locally on a borrowed machine; will try to debug with the locally built.
- * Filed two dependent bugs -- assertion is being fixed and CMAP issue is under investigation.
+ * Reproduced locally on a borrowed machine; johathan give out a fix.
+ * Font don't show up even if the app stops crashing -- this is bug 1271536.
+* [Bug 1271536](https://bugzil.la/1271536) - CMAP parsing problem for FirefoxEmoji.ttf
+ * Different `cmapLen` when loaded locally or remotely. Need time to figure out the root cause.
 * [Bug 1266372](https://bugzil.la/1266372) - The close reader mode button on page should behave the same as bug 1184950
  * FIXED in Fx49.
  * Uplifted to Fx48.
