@@ -9,6 +9,7 @@
  * Crashed on Win8 debug builds on a assertion failure. Will seek help and try to reproduce locally -- this is now bug 1270878.
 * [Bug 1270878](https://bugzil.la/1270878) - Crash on Win8 debug with `MOZ_BOUNDLE_FONTS` turned on.
  * Reproduced locally on a borrowed machine; will try to debug with the locally built.
+ * Filed two dependent bugs -- assertion is being fixed and CMAP issue is under investigation.
 * [Bug 1266372](https://bugzil.la/1266372) - The close reader mode button on page should behave the same as bug 1184950
  * FIXED in Fx49.
  * Uplifted to Fx48.
@@ -22,8 +23,7 @@
 ## Firefox
 
 * [Bug 1153393](https://bugzil.la/1153393) - Session restore should restore about:reader page scrolling
- * r+'d, did not land due to intermittent
- * Proposed a new patch with problem fixed (and proven on try)
+ * FIXED in Fx49
 * [Bug 1269996](https://bugzil.la/1269996) - Reader mode page scroll position should be remembered
  * quick patch to remove unload listener and restore bfcache
  * FIXED in Fx49
