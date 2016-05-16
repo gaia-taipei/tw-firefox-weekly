@@ -1,47 +1,46 @@
 [Open bugs assigned to me](https://bugzilla.mozilla.org/buglist.cgi?quicksearch=assignee%3Agasolin%40mozilla.com) (ASSIGNED = current working on; NEW = backlog)
 
-## 5/3 ~ 5/6
+## 5/9 ~ 5/13
+
+- Organize offsite meeting (5/13) at Fred's cafe
+- WebVR workshop will be hold at 5/28 moz community space
 
 Firefox
 
-- Bug 1228258 - search aliases should be trimmed
-  - update test to directly test engine.alias
-  - r + & landed
-
 - Bug 1217134 - Replace show password placeholder with conventional show password checkbox
-  - r?
-  - reviewer back from PTO, fix by feedback.
-  - Solving intermittent
+  - r+ & landed
+
+- Bug 1271201 - Convert xpcshell-tests in toolkit/..bookmarks/test_384228.js to Bookmarks.jsm API
+  - r+ & landed
+
+- Bug 1271502 - list does not align well in private browsing new tab page with locale lang
+  - r+ & landed
 
 - Bug 1174900 - Capture doorhanger password field should stay disabled for master password users
-  - WIP, depends on bug 1217134
+  - WIP
+
+- Bug 1188355 [meta]- Site Permissions on main panel
+  - check current status of related bugs and ni people to get more info
+  - send the related bug status
 
 - Bug 1193006 - Show icons next to non-default permissions in the Permissions section of the Control Center
-  - check related bugs and ni Brian to get more information
+  - find out reproducable steps
+  - ni for UX requirement
+  - trace related code
 
-- Bug 1232679 - Improve the Firefox start menu tile on Windows 8/10
-  - find solution/reference and needinfo UX https://bugzilla.mozilla.org/show_bug.cgi?id=1232679#c16
+- Bug 1271868 - hide 'set cookies', 'install add-ons' and 'load images' permissions in the Permissions section of the Control Center
+  - file the bug based on Bug 1193006 UX feedback and UI spec
+  - r?
+
+- Bug 814565 - UI glitch with clear recent history dialog
+  - share experiment result
 
 - Bug 1094903 - Convert xpcshell-tests in toolkit/components/places/tests/unit to Bookmarks.jsm API
-  - WIP
+  - pending, wait for reviewer's response
 
 
 WebVR
 
-- Daosheng will check workshop date with Bob
-
-- Make demos for workshop
-  - cardboard camera demo http://gasolin.github.io/webvrdemo/cardboardcam
-
-- aframe-href-component 0.2 with anchor and new example
-
-- update packages and use shx for cross platform npm script https://github.com/ngokevin/aframe-component-boilerplate/pull/15
-
-
-Activity Stream
-- use rimraf and mkdirp instead of shell
-  - https://github.com/mozilla/activity-streams/pull/619
-
-Android
-
-- Help Tommy setup ChromeCast RemoteDisplay demo https://github.com/googlecast/CastRemoteDisplay-android
+- aframe-href-component with target attribute support to open link in a new window
+- updated demo with hover cursor effect
+https://gasolin.github.io/aframe-href-component/basic/link.html
