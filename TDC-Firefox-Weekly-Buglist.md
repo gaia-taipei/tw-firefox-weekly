@@ -7,6 +7,9 @@
 - **_Private Browsing_**
   - **Done**
       - [Bug 1259340](http://bugzil.la/1259340) - New Private Browsing Window update - **_Ricky Chien_**
+      - [Bug 1267434](http://bugzil.la/1267434) - Unnecessary whitespace displayed after aboutPrivateBrowsing.info.saved.emphasize in about:privatebrowing - **_Ricky Chien_**
+      - [Bug 1267499](http://bugzil.la/1267499) - New Private Browsing start-page overflows off the window bottom (triggering a scrollbar) for totally-reasonable window sizes - **_Ricky Chien_**
+      - [Bug 1269485](http://bugzil.la/1269485) - New Private Browsing start-page has white/gray-text-on-white-background, in overflowed area off the right side of the window - **_Ricky Chien_**
 
 - **_Quality of Experience_**
   - **Done**
@@ -14,24 +17,47 @@
       - [Bug 1229727](https://bugzil.la/1229727) - Mac OS X full screen warning - **_Tim Chien_**
       - [Bug 1243722](https://bugzil.la/1243722) - Wrong doorhanger when updating password on Facebook - **_Tim Chien_**
       - [Bug 1243729](https://bugzil.la/1243729) - Username is overwritten with a blank one when updating the password for a Twitter account - **_Tim Chien_**
-      	- [Bug 1266372](https://bugzil.la/1266372) - Regression - The close reader mode button on page should behave the same as bug 1184950 - **_Tim Chien_**
+      - [Bug 1266372](https://bugzil.la/1266372) - Regression - The close reader mode button on page should behave the same as bug 1184950 - **_Tim Chien_**
       - [Bug 1184950](https://bugzil.la/1184950) - Leaving Reader Mode should not reload - **_Tim Chien_**
       - [Bug 1264805](https://bugzil.la/1264805) - Leaving Reader Mode should not reload on Fennec - **_Tim Chien_**
+      - [Bug 1151200](https://bugzil.la/1151200) - User should be able to set margins widths in Reader mode **_Dan Huang_**
+      - [Bug 1269521](https://bugzil.la/1269521) -  User should be able to set line height in Reader mode - **_Dan Huang_**
+      - [Bug 1271536](https://bugzilla.mozilla.org/show_bug.cgi?id=1271536) - gfxDWriteFontEntry::CopyFontTable() produce different CMAP table for FirefoxEmoji.ttf when loaded as a bundle or remotely - **_Tim Chien_**
+      - [Bug 1153393](https://bugzil.la/1153393) - Session restore should restore about:reader page scrolling - **_Tim Chien_**
+      - [Bug 1269996](https://bugzil.la/1269996) - Reader mode page scroll position should be remembered - **_Tim Chien_**
 
   - **Next**  
-	  - [Bug 1203481](https://bugzilla.mozilla.org/show_bug.cgi?id=1203481) - All dividers in the URL bar should have the same style - **_Ray Lin_**
-
+	    - [Bug 1203481](https://bugzilla.mozilla.org/show_bug.cgi?id=1203481) - All dividers in the URL bar should have the same style - **_Ray Lin_**
+      - [Bug 1231701](https://bugzilla.mozilla.org/show_bug.cgi?id=1231701) - Ship an emoji font on Windows XP - **_Tim Chien_**
+      - [Bug 1270878](https://bugzilla.mozilla.org/show_bug.cgi?id=1270878) - Assertion failure at gfx/thebes/gfxDWriteFontList.cpp:1730 on Windows 8 debug - **_Tim Chien_**
 
 - **_Good First Bug/Mentor Bug/Good Next Bug_**
 	- **Done**
 	    - [Bug 969443](https://bugzilla.mozilla.org/show_bug.cgi?id=969443) - Update CustomizableUI tests to yield on CustomizeMode.reset instead of gCustomizeMode.resetting - **_Fred Lin_**
       - [Bug 1240727](https://bugzilla.mozilla.org/show_bug.cgi?id=1240727) - Capital letters keywords are not recognized when showing which of the search engine will be used in the next search - **_Fred Lin_**  
-      - [Bug 920956](https://bugzilla.mozilla.org/show_bug.cgi?id=920956) - DevTools touch emulation: suppress regular mouse events, emulate 300ms delay - **_Dan Huang_**
       - [Bug 1219495](https://bugzilla.mozilla.org/show_bug.cgi?id=1219495) - about:addons renders with huge "Server not found" page if you're offline, instead of placeholder content - **_Fred Lin_**
       - [Bug 1011023](https://bugzilla.mozilla.org/show_bug.cgi?id=1011023) - Simplify test_bookmarks_restore_notification.js to use add_task - **_Fred Lin_**
       - [Bug 1191092](https://bugzilla.mozilla.org/show_bug.cgi?id=1191092) - InsecurePasswordUtils should handle |input type=password| outside of a form element - **_Sean Lee_**
       - [Bug 1251863](http://bugzil.la/1251863) - Browser Console focuses wrong window when I close it after openning from Scratchpad - **_Ricky Chien_**
       - [Bug 1256772](https://bugzilla.mozilla.org/show_bug.cgi?id=1256772) - Fix ESLint issues in devtools/client/webconsole/jsterm.js - **_Fred Lin_**
+      - [Bug 1126967](https://bugzilla.mozilla.org/show_bug.cgi?id=1126967) - Improve the loading transition - **_Dan Huang_**
+      - [Bug 1228258](https://bugzilla.mozilla.org/show_bug.cgi?id=1228258) - One click search aliases should be trimmed - **_Fred Lin_**
+
+
+  - **Next**
+      - [Bug 920956](https://bugzilla.mozilla.org/show_bug.cgi?id=920956) - DevTools touch emulation: suppress regular mouse events, emulate 300ms delay - **_Dan Huang_**
+      - [Bug 1174900](https://bugzilla.mozilla.org/show_bug.cgi?id=920956) - Capture doorhanger password field should stay disabled for master password users - **_Fred Lin_**
+      - [Bug 1232679](https://bugzilla.mozilla.org/show_bug.cgi?id=1232679) - Improve the Firefox start menu tile on Windows 8/10 - **_Fren Lin_**
+      - [Bug 285836](https://bugzilla.mozilla.org/show_bug.cgi?id=285836) - Make "Remove All Cookies Now" undoable - **_Scott Wu_**
+
+
+
+- **_Notification_**
+  - **Next**
+      - [Bug 1193006](https://bugzilla.mozilla.org/show_bug.cgi?id=1193006) - Show icons next to non-default permissions in the Permissions section of the Control Center
+
+      
+
 
 - **_Others_**
   - **Done**
@@ -39,12 +65,15 @@
       - [Bug 1263760](https://bugzil.la/1263760) - TabSwitch[Done] does not fire when a dialog is opened bug caused by quirky behavior of nested event loop - **_Tim Chien_**
       - [Bug 1260718](https://bugzilla.mozilla.org/show_bug.cgi?id=1260718) - Switch to using plain promises instead of Promise.jsm in CustomizableUI code - **_Fred Lin_**
       - [Bug 1263557](https://bugzilla.mozilla.org/show_bug.cgi?id=1263557) -  Switch to use plain promise in CustomizeMode.jsm - **_Fred Lin_**
+      - [Bug 1217134](https://bugzilla.mozilla.org/show_bug.cgi?id=1217134) - Replace show password placeholder with conventional show password checkbox - **_Fred Lin_**
+      - [Bug 925101](https://bugzilla.mozilla.org/show_bug.cgi?id=925101) - Remove legacy signons.txt files - **_Ray Lin_**
+      - [Bug 1261234](https://bugzilla.mozilla.org/show_bug.cgi?id=1261234) - Insecure form action password form warning appears for trustworthy action URLs using HTTP - **_Sean Lee_**
 
   - **Next**    
-      - [Bug 925101](https://bugzilla.mozilla.org/show_bug.cgi?id=925101) - Remove legacy signons.txt files - **_Ray Lin_**
-      - [Bug 1217134](https://bugzilla.mozilla.org/show_bug.cgi?id=1217134) - Replace show password placeholder with conventional show password checkbox - **_Fred Lin_**
-      - [Bug 1261234](https://bugzilla.mozilla.org/show_bug.cgi?id=1261234) - Insecure form action password form warning appears for trustworthy action URLs using HTTP - **_Sean Lee_**
       - [Bug 446171](https://bugzilla.mozilla.org/show_bug.cgi?id=446171) - Name field of bookmarks saved via "Bookmark All Tabs" has "(null)" value if history is disabled or just in private browsing mode - **_Scott Wu_**
+      - [Bug 1094903](https://bugzilla.mozilla.org/show_bug.cgi?id=1094903) - Convert xpcshell-tests in toolkit/components/places/tests/unit to Bookmarks.jsm API - **_Fred Lin_**
+      - [Bug 887934](https://bugzilla.mozilla.org/show_bug.cgi?id=887934) - [webvtt] Update video controls to include options for closed captioning - **_Fred Lin_**
+
 
 # Fennec #
 
@@ -58,3 +87,4 @@
   - **Done**
       - [Bug 1065076](https://bugzilla.mozilla.org/show_bug.cgi?id=1065076) - Update icons for video controls - **_Ray Lin_**
       - [Bug 1250741](https://bugzilla.mozilla.org/show_bug.cgi?id=1250741) - Update video player spec - **_Ray Lin_**
+      - [Bug 1267905](https://bugzilla.mozilla.org/show_bug.cgi?id=1267905) -  Video controls are not correctly scaled for several video types - **_Ray Lin_**
