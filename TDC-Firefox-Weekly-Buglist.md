@@ -3,6 +3,9 @@
 
 # TDC Bug list by Firefox Programs: #
 
+ - [TDC Resolved-Fixed for 49](http://mzl.la/22eipYE)
+ - [TDC Resolved-Fixed for 48](http://mzl.la/22eiVpB)
+
 # Firefox #
 - **_Private Browsing_**
   - **Done**
