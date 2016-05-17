@@ -1,7 +1,10 @@
-# Week of Apr 18, 2016
+# Week of May 9, 2016
 
 ## Firefox
 
-* Study downloads panel
-* Study places organizer
-* Notes: https://onedrive.live.com/edit.aspx?resid=B9166883E915A272!453&ithint=onenote%2c&app=OneNote&authkey=!AHiYMf0WEL2sOmg
+* Bug 1270014 - Show an alert icon on the downloads button when a download fails
+** Working on a patch without new design. Need visual updates.
+* Bug 1269954 - Pop out download starting notification when a new download request is triggered.
+** UX in discussion.
+* Bug 1269957 - Change the number of maximum download items displayed
+** Study implementation feasibility of changing the number dynamically. Need visual updates.
