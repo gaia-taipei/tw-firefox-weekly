@@ -1,17 +1,15 @@
-# Week of May 9, 2016
+# Week of May 23, 2016
 
 (Excluding management-related tasks)
 
 ## Firefox QX
 
 * [Bug 1231701](https://bugzil.la/1231701) - Ship an Emoji font in Firefox
- * Patch ready, UX/Visual/Product conformed their commitment of the Firefox Emoji font.
- * Crashed on Win8 debug builds on a assertion failure. Will seek help and try to reproduce locally -- this is now bug 1270878.
-* [Bug 1270878](https://bugzil.la/1270878) - Crash on Win8 debug with `MOZ_BOUNDLE_FONTS` turned on.
- * Reproduced locally on a borrowed machine; johathan give out a fix.
- * Font don't show up even if the app stops crashing -- this is bug 1271536.
-* [Bug 1271536](https://bugzil.la/1271536) - CMAP parsing problem for FirefoxEmoji.ttf
- * Different `cmapLen` when loaded locally or remotely. Need time to figure out the root cause.
+ * Preparing the EmojiOne font in https://github.com/mozilla/emojione-colr
+ * [Bug 1270878](https://bugzil.la/1270878) - Crash on Win8 debug with `MOZ_BOUNDLE_FONTS` turned on.
+  * FIXED by jkew
+ * [Bug 1271536](https://bugzil.la/1271536) - CMAP parsing problem for FirefoxEmoji.ttf
+  * FIXED by jkew
 * [Bug 1266372](https://bugzil.la/1266372) - The close reader mode button on page should behave the same as bug 1184950
  * FIXED in Fx49.
  * Uplifted to Fx48.
@@ -24,6 +22,8 @@
 
 ## Firefox
 
+* [Bug 1266611](https://bugzil.la/1266611) - Tab modal prompt should not overlap
+ * r+'d, running try on test revision.
 * [Bug 1153393](https://bugzil.la/1153393) - Session restore should restore about:reader page scrolling
  * FIXED in Fx49
 * [Bug 1269996](https://bugzil.la/1269996) - Reader mode page scroll position should be remembered
