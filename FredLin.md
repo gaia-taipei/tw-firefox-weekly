@@ -2,8 +2,13 @@
 
 ## 5/16 ~ 5/20
 
-- brown bag control center 2 related works
+[Site permissions]
+- 5/18 brown bag control center 2 related works
 Quick glance of Control Center 2 related works (bug 1188355) and tool tips to work on popup menu
+- currently bug 1193006(Fred) and bug 1204007(Ricky) are workable
+- reviewer are working on related CSS refactor in Bug 1147981 - Cleanup doorhanger notification anchor ID & class duplication. Other review will pending after it land
+- new svg sprite is provided and will work in bug 1274480, other bugs should work after it land
+
 
 Firefox
 
