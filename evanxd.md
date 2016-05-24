@@ -1,21 +1,16 @@
-## 05/09 ~ 05/13 ##
+## 05/16 ~ 05/20 ##
 
 ### Last week
 * [SensorWeb]
-  - Bug 1271541 - Implement the Web widget
-    - Landed.
-  - Fire bugs for [all Q2 goals][Q2 Goals].
-    - Bug 1271206 - [meta] Implement SensorWeb for Q2
-      - Bug 1271214 - [meta] Implement the new design of landing page
-      - Bug 1271226 - [meta] Refactor SensorWeb back-end
-      - Bug 1271227 - [meta] Refactor SensorWeb front-end
-      - Bug 1271228 - [meta] Polish SensorWeb front-end
-      - Bug 1271229 - [meta] Implement the PM2.5 mobile app for schools
-      - Bug 1271230 - [meta] Fix blog issues 
-      - Bug 1271231 - [meta] Documentation for SensorWeb project
-      - Bug 1271232 - [meta] Deliver Product to Market
-      - Bug 1271235 - Survey how to make a PM2.5 station with SIM card connection
-  - Made a new PM2.5 station for Particle demo.
+  - Mentored contributors
+    - Bug 1273519 - Run JS Station on LinkIt 7688
+    - Bug 1273782 - Run JS Station on Raspberry Pi
+  - Prepared London Workweek session
+    - http://sensor-web.github.io/sensorweb-london
+  - Created SensorWeb community
+    - Created a Telegram group
+    - We have 31 members now
+  - Plan 5/31 workshop with Bob
 
 ### This week
   - Start to implement the [new design][New Design] of landing page.
