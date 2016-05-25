@@ -11,6 +11,7 @@
   - **Next**
       - [Bug 1193006](https://bugzil.la/1193006) - Show icons next to non-default permissions in the Permissions section of the Control Center - **_Fred Lin_** 
       - [Bug 1203292](https://bugzilla.mozilla.org/show_bug.cgi?id=1203292) - Replace permissions dropdown with 'x' icon in Permissions main view in Control Center - **_Ricky Chien_** 
+      - [Bug 1274480](https://bugzilla.mozilla.org/show_bug.cgi?id=1274480) - replace permission icons to svg sprite - **_Fred Lin_** 
 
 - **_DevTools_**
   - **Done**
@@ -73,11 +74,6 @@
       - [Bug 1232679](https://bugzilla.mozilla.org/show_bug.cgi?id=1232679) - Improve the Firefox start menu tile on Windows 8/10 - **_Fren Lin_**
       - [Bug 285836](https://bugzilla.mozilla.org/show_bug.cgi?id=285836) - Make "Remove All Cookies Now" undoable - **_Scott Wu_**
       - [Bug 754623](https://bugzilla.mozilla.org/show_bug.cgi?id=754623) - Name field of bookmarks saved via "Bookmark All Tabs" is empty when loading the tab is deferred - **_Scott Wu_**
-
-- **_Notification_**
-  - **Next**
-      - [Bug 1193006](https://bugzilla.mozilla.org/show_bug.cgi?id=1193006) - Show icons next to non-default permissions in the Permissions section of the Control Center - **_Fred Lin_**
-      - [Bug 1274480](https://bugzilla.mozilla.org/show_bug.cgi?id=1274480) - replace permission icons to svg sprite - **_Fred Lin_** 
 
 - **_Others_**
   - **Done**
