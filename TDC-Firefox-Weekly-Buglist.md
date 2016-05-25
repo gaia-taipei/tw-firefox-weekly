@@ -22,7 +22,7 @@
 
 - **_Video controls_**
   - **Next**
-      - [Bug 887934](https://bugzilla.mozilla.org/show_bug.cgi?id=887934) - [webvtt] Update video controls to include options for closed captioning - **_Fred Lin_**
+      - [Bug 887934](https://bugzilla.mozilla.org/show_bug.cgi?id=887934) - [webvtt] Update video controls to include options for closed captioning - **_Ray Lin_**
 
 - **_Private Browsing_**
   - **Done**
