@@ -23,7 +23,7 @@
 ## Firefox
 
 * [Bug 1266611](https://bugzil.la/1266611) - Tab modal prompt should not overlap
- * r+'d, running try on test revision.
+ * FIXED in Fx49
 * [Bug 1153393](https://bugzil.la/1153393) - Session restore should restore about:reader page scrolling
  * FIXED in Fx49
 * [Bug 1269996](https://bugzil.la/1269996) - Reader mode page scroll position should be remembered
