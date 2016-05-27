@@ -97,7 +97,6 @@
 - **_Fennec Video Control_**
   - **Done**
       - [Bug 1260304](https://bugzilla.mozilla.org/show_bug.cgi?id=1260304) - mediasource: prepended to the context menu of MSE videos - **_Ray Lin_**
-      - [Bug 1267935](https://bugzilla.mozilla.org/show_bug.cgi?id=1267935) - Video controls are not correctly scaled for several video types - **_Ray Lin_**
       - [Bug 1065076](https://bugzilla.mozilla.org/show_bug.cgi?id=1065076) - Update icons for video controls - **_Ray Lin_**
       - [Bug 1250741](https://bugzilla.mozilla.org/show_bug.cgi?id=1250741) - Update video player spec - **_Ray Lin_**
       - [Bug 1267935](https://bugzilla.mozilla.org/show_bug.cgi?id=1267935) -  Video controls are not correctly scaled for several video types - **_Ray Lin_**
