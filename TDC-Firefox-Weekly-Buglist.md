@@ -15,8 +15,11 @@
 
 - **_DevTools_**
   - **Done**
+      - [Bug 967493](https://bugzilla.mozilla.org/show_bug.cgi?id=967493) - DevTools Inspector should display HTML Entities not evaluate them - **_Joseph Yeh_**
       - [Bug 1268107](https://bugzilla.mozilla.org/show_bug.cgi?id=1268107) - Cannot use back in about:debugging after entering an invalid hash - **_Ricky Chien_**
   - **Next**
+      - [Bug 1261133](https://bugzilla.mozilla.org/show_bug.cgi?id=1261133) - Style editor doesn't remove ".moz-styleeditor-transitioning" if I close it in the middle of transition, so there're infinite transitions - **_KM Lee_** 
+      - [Bug 1268073](https://bugzilla.mozilla.org/show_bug.cgi?id=1268073) - Misleading error if you click "Debug" twice - **_Joseph Yeh_**
       - [Bug 1273076](https://bugzilla.mozilla.org/show_bug.cgi?id=1273076) - Show more details in about:debugging#invalid-hash - **_Ricky Chien_**
       - [Bug 1266415](https://bugzilla.mozilla.org/show_bug.cgi?id=1266415) - about:debugging should display a warning if service workers are disabled - **_Fred Lin_**
 
@@ -69,6 +72,7 @@
       - [Bug 1228258](https://bugzilla.mozilla.org/show_bug.cgi?id=1228258) - One click search aliases should be trimmed - **_Fred Lin_**
 
   - **Next**
+      - [Bug 1229927](https://bugzilla.mozilla.org/show_bug.cgi?id=1229927) - Allow showHeartbeat to change the icon - **_Fischer Liu_**
       - [Bug 920956](https://bugzilla.mozilla.org/show_bug.cgi?id=920956) - DevTools touch emulation: suppress regular mouse events, emulate 300ms delay - **_Dan Huang_**
       - [Bug 1174900](https://bugzilla.mozilla.org/show_bug.cgi?id=920956) - Capture doorhanger password field should stay disabled for master password users - **_Fred Lin_**
       - [Bug 1232679](https://bugzilla.mozilla.org/show_bug.cgi?id=1232679) - Improve the Firefox start menu tile on Windows 8/10 - **_Fren Lin_**
