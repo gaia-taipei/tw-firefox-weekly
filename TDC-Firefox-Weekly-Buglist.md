@@ -70,12 +70,12 @@
       - [Bug 1256772](https://bugzilla.mozilla.org/show_bug.cgi?id=1256772) - Fix ESLint issues in devtools/client/webconsole/jsterm.js - **_Fred Lin_**
       - [Bug 1126967](https://bugzilla.mozilla.org/show_bug.cgi?id=1126967) - Improve the loading transition - **_Dan Huang_**
       - [Bug 1228258](https://bugzilla.mozilla.org/show_bug.cgi?id=1228258) - One click search aliases should be trimmed - **_Fred Lin_**
+      - [Bug 920956](https://bugzilla.mozilla.org/show_bug.cgi?id=920956) - DevTools touch emulation: suppress regular mouse events, emulate 300ms delay - **_Dan Huang_**
 
   - **Next**
       - [Bug 1229927](https://bugzilla.mozilla.org/show_bug.cgi?id=1229927) - Allow showHeartbeat to change the icon - **_Fischer Liu_**
-      - [Bug 920956](https://bugzilla.mozilla.org/show_bug.cgi?id=920956) - DevTools touch emulation: suppress regular mouse events, emulate 300ms delay - **_Dan Huang_**
-      - [Bug 1174900](https://bugzilla.mozilla.org/show_bug.cgi?id=920956) - Capture doorhanger password field should stay disabled for master password users - **_Fred Lin_**
-      - [Bug 1232679](https://bugzilla.mozilla.org/show_bug.cgi?id=1232679) - Improve the Firefox start menu tile on Windows 8/10 - **_Fren Lin_**
+
+      - [Bug 1174900](https://bugzilla.mozilla.org/show_bug.cgi?id=1174900) - Capture doorhanger password field should stay disabled for master password users - **_Fred Lin_**
       - [Bug 285836](https://bugzilla.mozilla.org/show_bug.cgi?id=285836) - Make "Remove All Cookies Now" undoable - **_Scott Wu_**
       - [Bug 754623](https://bugzilla.mozilla.org/show_bug.cgi?id=754623) - Name field of bookmarks saved via "Bookmark All Tabs" is empty when loading the tab is deferred - **_Scott Wu_**
 
@@ -93,7 +93,6 @@
 # Fennec #
 - **_Fennec Audio Control_**
   - **Next**
-      - [Bug 1264901](https://bugzilla.mozilla.org/show_bug.cgi?id=1264901) - Implement the remote media-control front-end - **_Scott Wu_**
 
 - **_Fennec Video Control_**
   - **Done**
@@ -101,11 +100,14 @@
       - [Bug 1267935](https://bugzilla.mozilla.org/show_bug.cgi?id=1267935) - Video controls are not correctly scaled for several video types - **_Ray Lin_**
       - [Bug 1065076](https://bugzilla.mozilla.org/show_bug.cgi?id=1065076) - Update icons for video controls - **_Ray Lin_**
       - [Bug 1250741](https://bugzilla.mozilla.org/show_bug.cgi?id=1250741) - Update video player spec - **_Ray Lin_**
-      - [Bug 1267905](https://bugzilla.mozilla.org/show_bug.cgi?id=1267905) -  Video controls are not correctly scaled for several video types - **_Ray Lin_**
+      - [Bug 1267935](https://bugzilla.mozilla.org/show_bug.cgi?id=1267935) -  Video controls are not correctly scaled for several video types - **_Ray Lin_**
 
 - **_Fennec about: pages_**
   - **Next**
-      - [Bug 1198935](https://bugzilla.mozilla.org/show_bug.cgi?id=1198935) - Set about: pages header height to 48px - **_Ray Lin_**
+
       - [Bug 1086911](https://bugzilla.mozilla.org/show_bug.cgi?id=1086911) - Update style of about:firefox - **_Ray Lin_**
-      - [Bug 1091241](https://bugzilla.mozilla.org/show_bug.cgi?id=1091241) - Make add-on detail page look more like a detail page - **_Ray Lin_**
+
       - [Bug 1091237](https://bugzilla.mozilla.org/show_bug.cgi?id=1091237) - Show more information in add-ons detail view in about:addons - **_Scott Wu_**
+  - **Done**
+       - [Bug 1198935](https://bugzilla.mozilla.org/show_bug.cgi?id=1198935) - Set about: pages header height to 48px - **_Ray Lin_**
+       - [Bug 1091241](https://bugzilla.mozilla.org/show_bug.cgi?id=1091241) - Make add-on detail page look more like a detail page - **_Ray Lin_**
