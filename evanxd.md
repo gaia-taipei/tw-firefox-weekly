@@ -2,17 +2,18 @@
 
 ### Last week
 * [SensorWeb]
-  - Mentored contributors
-    - Bug 1273519 - Run JS Station on LinkIt 7688
-    - Bug 1273782 - Run JS Station on Raspberry Pi
-  - Prepared London Workweek session
-    - http://sensor-web.github.io/sensorweb-london
-  - Created SensorWeb community
-    - Created a Telegram group
-    - We have 31 members now
-  - Plan 5/31 workshop with Bob
+  - Bug 1277142 - Add session key feature in front-end
+  - Bug 1277143 - Add session key feature in back-end
+  - Bug 1277145 - Update contributor list
+  - Bug 1277146 - Implement NodeMCU firmware
+  - Make a slide and discuss it for London Workweek session
+    - http://evanxd.io/sensorweb-london
 
 ### This week
+  - Prepare the SensorWeb workshop.
+  - Rehearsal the London workweek session.
+  - Make draft plan and hypothesis for Gate 0 and Gate 1.
+    - After discussed with team, we need the plan and hypothesis for leading us.
   - Start to implement the [new design][New Design] of landing page.
     - Bug 1271215 - Add the SensorWeb video on the landing page
     - Bug 1271216 - Integrate PM2.5 sensors map in the landing page
