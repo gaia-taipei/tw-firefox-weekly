@@ -11,17 +11,19 @@
   - **Next**
       - [Bug 1193006](https://bugzil.la/1193006) - Show icons next to non-default permissions in the Permissions section of the Control Center - **_Fred Lin_** 
       - [Bug 1203292](https://bugzilla.mozilla.org/show_bug.cgi?id=1203292) - Replace permissions dropdown with 'x' icon in Permissions main view in Control Center - **_Ricky Chien_** 
-      - [Bug 1274480](https://bugzilla.mozilla.org/show_bug.cgi?id=1274480) - replace permission icons to svg sprite - **_Fred Lin_** 
 
 - **_DevTools_**
   - **Done**
+      - [Bug 1256767](https://bugzilla.mozilla.org/show_bug.cgi?id=1256767) - [ESLint] Fix ESLint errors/warnings in devtools/client/webconsole/console-commands.js - **_Fred Lin_**
+      - [Bug 1266415](https://bugzilla.mozilla.org/show_bug.cgi?id=1266415) - about:debugging should display a warning if service workers are disabled - **_Fred Lin_**
+      - [Bug 1273076](https://bugzilla.mozilla.org/show_bug.cgi?id=1273076) - Show more details in about:debugging#invalid-hash - **_Ricky Chien_**
       - [Bug 967493](https://bugzilla.mozilla.org/show_bug.cgi?id=967493) - DevTools Inspector should display HTML Entities not evaluate them - **_Joseph Yeh_**
       - [Bug 1268107](https://bugzilla.mozilla.org/show_bug.cgi?id=1268107) - Cannot use back in about:debugging after entering an invalid hash - **_Ricky Chien_**
+
   - **Next**
+      - [Bug 1229340](https://bugzilla.mozilla.org/show_bug.cgi?id=1229340) - Overflow scrollbar causes an offset between animations and the time header in the animation timeline - **_Ricky Chien_** 
       - [Bug 1261133](https://bugzilla.mozilla.org/show_bug.cgi?id=1261133) - Style editor doesn't remove ".moz-styleeditor-transitioning" if I close it in the middle of transition, so there're infinite transitions - **_KM Lee_** 
       - [Bug 1268073](https://bugzilla.mozilla.org/show_bug.cgi?id=1268073) - Misleading error if you click "Debug" twice - **_Joseph Yeh_**
-      - [Bug 1273076](https://bugzilla.mozilla.org/show_bug.cgi?id=1273076) - Show more details in about:debugging#invalid-hash - **_Ricky Chien_**
-      - [Bug 1266415](https://bugzilla.mozilla.org/show_bug.cgi?id=1266415) - about:debugging should display a warning if service workers are disabled - **_Fred Lin_**
 
 - **_Video controls_**
   - **Next**
@@ -51,7 +53,6 @@
       - [Bug 1203481](https://bugzilla.mozilla.org/show_bug.cgi?id=1203481) - All dividers in the URL bar should have the same style - **_Ray Lin_**
       - [Bug 1231701](https://bugzilla.mozilla.org/show_bug.cgi?id=1231701) - Ship an emoji font on Windows XP - **_Tim Chien_**
 
-
 - **_Good First Bug/Mentor Bug/Good Next Bug_**
   - **Done**
       - [Bug 446171](https://bugzilla.mozilla.org/show_bug.cgi?id=446171) - Name field of bookmarks saved via "Bookmark All Tabs" has "(null)" value if history is disabled or just in private browsing mode - **_Scott Wu_**
@@ -74,19 +75,20 @@
 
   - **Next**
       - [Bug 1229927](https://bugzilla.mozilla.org/show_bug.cgi?id=1229927) - Allow showHeartbeat to change the icon - **_Fischer Liu_**
-
       - [Bug 1174900](https://bugzilla.mozilla.org/show_bug.cgi?id=1174900) - Capture doorhanger password field should stay disabled for master password users - **_Fred Lin_**
       - [Bug 285836](https://bugzilla.mozilla.org/show_bug.cgi?id=285836) - Make "Remove All Cookies Now" undoable - **_Scott Wu_**
       - [Bug 754623](https://bugzilla.mozilla.org/show_bug.cgi?id=754623) - Name field of bookmarks saved via "Bookmark All Tabs" is empty when loading the tab is deferred - **_Scott Wu_**
 
 - **_Others_**
   - **Done**
+      - [Bug 1266611](https://bugzilla.mozilla.org/show_bug.cgi?id=1266611) - Tab prompts can overlap in the same tab - **_Tim Chien_**
+      - [Bug 1273023](https://bugzilla.mozilla.org/show_bug.cgi?id=1273023) - Convert xpcshell-tests in toolkit/components/places/tests/bookmarks/test_385829.js to Bookmarks.jsm API - **_Fred Lin_**
+      - [Bug 1275100](https://bugzilla.mozilla.org/show_bug.cgi?id=1275100) - browser_notifications_2.js is going to permafail when Gecko 49 merges to Aurora - **_Fred Lin_**
       - [Bug 1271201](https://bugzilla.mozilla.org/show_bug.cgi?id=1271201) - Convert xpcshell-tests in toolkit/components/places/tests/bookmarks/test_384228.js to Bookmarks.jsm API - **_Fred Lin_**
       - [Bug 1260718](https://bugzilla.mozilla.org/show_bug.cgi?id=1260718) - Switch to using plain promises instead of Promise.jsm in CustomizableUI code - **_Fred Lin_**
       - [Bug 1263557](https://bugzilla.mozilla.org/show_bug.cgi?id=1263557) -  Switch to use plain promise in CustomizeMode.jsm - **_Fred Lin_**
 
   - **Next**
-      - [Bug 1266611](https://bugzilla.mozilla.org/show_bug.cgi?id=1266611) - Tab prompts can overlap in the same tab - **_Tim Chien_**
       - [Bug 1094903](https://bugzilla.mozilla.org/show_bug.cgi?id=1094903) - Convert xpcshell-tests in toolkit/components/places/tests/unit to Bookmarks.jsm API - **_Fred Lin_**
       - [Bug 1000700](https://bugzilla.mozilla.org/show_bug.cgi?id=1000700) - menu-button dropmarkers aren't inverted with dark LWT - **_Scott Wu_**
 
@@ -103,10 +105,9 @@
 
 - **_Fennec about: pages_**
   - **Next**
-
       - [Bug 1086911](https://bugzilla.mozilla.org/show_bug.cgi?id=1086911) - Update style of about:firefox - **_Ray Lin_**
-
       - [Bug 1091237](https://bugzilla.mozilla.org/show_bug.cgi?id=1091237) - Show more information in add-ons detail view in about:addons - **_Scott Wu_**
+  
   - **Done**
        - [Bug 1198935](https://bugzilla.mozilla.org/show_bug.cgi?id=1198935) - Set about: pages header height to 48px - **_Ray Lin_**
        - [Bug 1091241](https://bugzilla.mozilla.org/show_bug.cgi?id=1091241) - Make add-on detail page look more like a detail page - **_Ray Lin_**
