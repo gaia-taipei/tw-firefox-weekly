@@ -1,28 +1,18 @@
 ### Last week
 
 * [Firefox]
-  - [Bug 1269956] Go through all FE bugs and discuss the dependency with UX.
-  - [Bug 1257078] Discuss the solution with the reviwer and study the code of Passowrd Manager.
+  - [Sharing] Study Applications Pane codes and prepare the sildes for Applications Panel.
+  - Discuss workflow with Tim - We will wait for the spec discuss and then see the analysis of enginner work for making a workflow decision
+  - Read Content Handler spec.
+  - Attend the bi-weekly meeting and introduce what I am working on. Have a quick chat with Paolo about Downloads Panel and workflow.
 
 * [DownloadPanel]
-  - [Bug 1269958] Wait for the discussion with UX and reviwer.
-  - [Bug 1269962] Wait for the discussion with UX and reviwer.
-  - [Bug 1269964] Study all download status and provide these information to UX for refining the spec.
-  - [Bug 1270006] Study the possible solution for the downloading animation/icon.
-    - solution 1: Reference: https://priteshgupta.com/2011/07/filling-a-glass-with-water-using-html5/
-    - solution 2: one css sprite image to indicate the different precentage.
+- [Bug 1269964] Study the downloading status and provide these information to UX.
 
 * [DataSync]
-  - [Bug 1274457] Create this bug to modify the production URL configuration. However, the new URL can not be resolved. Still wait for the response of JP at Bug 1226453.
-
-* [Settings]
-  - [CLOSED][Bug 1260649] Add one checkbox for toggling mouse cursor. This bug depends on Bug 1082892.
+  - [CLOSED][Bug 1274457] The patch is landed to master, v2.5, and v2.6. Partner is working on the patch as well.
 
 ### This week
-* [Firefox]
-  - [Sharing] Write the sildes for Applications Panel.
-
 * [DownloadPanel]
   - [Bug 1269958] Wait for the discussion.
   - [Bug 1269962] Wait for the discussion.
-
