@@ -1,4 +1,4 @@
-## 05/16 - 05/20 ##
+## 05/23 - 05/27 ##
 
 ### This week ###
 [TV]
@@ -16,7 +16,7 @@
 
 [firefox]
  - Basic study
+ - Project status follow-up
+ - Study of download panel & find first bug
  - Working bugs:
    - Bug 1261133 - Style editor doesn't remove ".moz-styleeditor-transitioning" if I close it in the middle of transition, so there're infinite transitions
- - Finished bugs:
-   - Bug 1228291 - [Stingray][TV] Handle fling webpage through HTTP://
