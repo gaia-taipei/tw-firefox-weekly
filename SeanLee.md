@@ -1,18 +1,25 @@
 ### Last week
 
 * [Firefox]
-  - [Sharing] Study Applications Pane codes and prepare the sildes for Applications Panel.
-  - Discuss workflow with Tim - We will wait for the spec discuss and then see the analysis of enginner work for making a workflow decision
-  - Read Content Handler spec.
-  - Attend the bi-weekly meeting and introduce what I am working on. Have a quick chat with Paolo about Downloads Panel and workflow.
+  - [CLOSED][Sharing] The sharing for Applications Panel is done.
+  - Read Content Handler/Downloads Panel spec and report some questions to UX.
+  - Study the following items and feedback to UX.
+     - Why Firefox can't estimate the downloading time is caused by leaking of Content-length.
+     - network.http.max-persistent-connections-per-server is for controlling the connection number for each server.
 
 * [DownloadPanel]
-- [Bug 1269964] Study the downloading status and provide these information to UX.
+  - Discuss 'Always save file option' with UX. This might be a reduntant option for users if we want to simplify the downloading process.
 
-* [DataSync]
-  - [CLOSED][Bug 1274457] The patch is landed to master, v2.5, and v2.6. Partner is working on the patch as well.
+* [ContentHandler]
+  - Study how to distinguish the file types from all handlers.
+
+* [Miscs.]
+  - [6/1] Team Building
 
 ### This week
-* [DownloadPanel]
-  - [Bug 1269958] Wait for the discussion.
-  - [Bug 1269962] Wait for the discussion.
+
+* [London WW]
+  - Meet Paolo in person.
+
+* [Miscs.]
+  - [6/7~6/8] PTO
