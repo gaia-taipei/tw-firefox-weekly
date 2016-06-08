@@ -30,6 +30,7 @@
 
 - **_Video controls_**
   - **Next**
+      - [Bug 985915](https://bugzilla.mozilla.org/show_bug.cgi?id=985915) - [webvtt] The two rows subtitles are overlapped with video controls on mouse hover - **_Ray Lin_**
       - [Bug 887934](https://bugzilla.mozilla.org/show_bug.cgi?id=887934) - [webvtt] Update video controls to include options for closed captioning - **_Ray Lin_**
 
 - **_Private Browsing_**
@@ -43,6 +44,7 @@
   - **Done**
       - [Bug 1151200](https://bugzil.la/1151200) - User should be able to set margins widths in Reader mode **_Dan Huang_**
       - [Bug 1269521](https://bugzil.la/1269521) -  User should be able to set line height in Reader mode - **_Dan Huang_**
+      - [Bug 1203481](https://bugzilla.mozilla.org/show_bug.cgi?id=1203481) - All dividers in the URL bar should have the same style - **_Ray Lin_**
       - [Bug 995758](https://bugzilla.mozilla.org/show_bug.cgi?id=995758) - Address bar doesn't capture focus if a new tab is created via Ctrl+T shortcut while in Customization mode - **_Ray Lin_**
       - [Bug 1269996](https://bugzil.la/1269996) - Reader mode page scroll position should be remembered - **_Tim Chien_**      
       - [Bug 1263760](https://bugzil.la/1263760) - TabSwitch[Done] does not fire when a dialog is opened bug caused by quirky behavior of nested event loop - **_Tim Chien_**
@@ -53,7 +55,6 @@
       - [Bug 1153393](https://bugzil.la/1153393) - Session restore should restore about:reader page scrolling - **_Tim Chien_**
 
   - **Next**  
-      - [Bug 1203481](https://bugzilla.mozilla.org/show_bug.cgi?id=1203481) - All dividers in the URL bar should have the same style - **_Ray Lin_**
       - [Bug 1231701](https://bugzilla.mozilla.org/show_bug.cgi?id=1231701) - Ship an emoji font on Windows XP - **_Tim Chien_**
 
 - **_Good First Bug/Mentor Bug/Good Next Bug_**
@@ -89,6 +90,7 @@
       - [Bug 1271201](https://bugzilla.mozilla.org/show_bug.cgi?id=1271201) - Convert xpcshell-tests in toolkit/components/places/tests/bookmarks/test_384228.js to Bookmarks.jsm API - **_Fred Lin_**
       - [Bug 1260718](https://bugzilla.mozilla.org/show_bug.cgi?id=1260718) - Switch to using plain promises instead of Promise.jsm in CustomizableUI code - **_Fred Lin_**
       - [Bug 1263557](https://bugzilla.mozilla.org/show_bug.cgi?id=1263557) -  Switch to use plain promise in CustomizeMode.jsm - **_Fred Lin_**
+      - [Bug 1277747](https://bugzilla.mozilla.org/show_bug.cgi?id=1277747) - Firefox freezes before restarting when I clicked the [Restart to Update...] button in about dialog - **_Tim Chien_**
       - [Bug 1266611](https://bugzilla.mozilla.org/show_bug.cgi?id=1266611) - Tab prompts can overlap in the same tab - **_Tim Chien_**
 
   - **Next**
@@ -115,3 +117,4 @@
 - **_Fennec Reader View_**
   - **Done**
        - [Bug 1272677](https://bugzilla.mozilla.org/show_bug.cgi?id=1272677) - Two parallel lines are displayed in "Aa" floating layout button in reader view - **_Dan Huang_**
+       - [Bug 1276686](https://bugzilla.mozilla.org/show_bug.cgi?id=1276686) - Selection handles are displayed when tapping on the reader view toolbar - **_Ray Lin_**
