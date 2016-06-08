@@ -2,7 +2,7 @@
 
 
 # TDC Bug list by Firefox Programs: #
-
+ - [TDC Resolved-Fixed for 50](http://mzl.la/1Ye2Sbk)
  - [TDC Resolved-Fixed for 49](http://mzl.la/22eipYE)
  - [TDC Resolved-Fixed for 48](http://mzl.la/22eiVpB)
 
