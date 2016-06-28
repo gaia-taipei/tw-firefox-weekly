@@ -1,17 +1,22 @@
-## 05/30 - 06/03 ##
+## 06/21 - 06/24 ##
 
 ### Last Week ###
 
-* [Firefox]
-    - [WIP] Bug 1265686 - Add PgUp+PgDown+Home+End navigation in Performance Profiler treeview?
-        - Confirmed details with the mentor
-    - [New] Bug 1263104 - Ctrl+F in Storage Inspector should open search
-        - Wrote a WIP patch
+* [Remote Control]
+    - [Done] Bug 1276875 - [Remote Control] In browser exit confirm page, cannot move focus between OK and Cancel button
+        - investigated
 
-* [PTO]
-    - 1.5 days
+* [TV General]
+    - [Review] Bug 1278141 - [TV][Browser] Toolbar focus style shows when using mouse to click it
+
+* [Firefox]
+    - [WIP] Bug 1263104 - Ctrl+F in Storage Inspector should open search
+        - wrote mochitests
 
 ### This Week ###
 
-* [PTO]
-    - a week
+* [Remote Control]
+    - Bug 1276878 - [Remote Control] Using input box to type password in browser sign-in page will show whole password
+
+* [Firefox]
+    - [WIP] Bug 1263104 - Ctrl+F in Storage Inspector should open search
