@@ -1,18 +1,27 @@
-# 05/30 ~ 06/03
+# 06/06 ~ 06/24
 
 - [Firefox for Android]
   - Bug 1086911 - Update style of about:firefox
-    - feedback-
-    - issues: blurry logo and distorted icon
-  - Bug 1267935 - Video controls are not correctly scaled for several video types
-    - uplift to mozilla-beta? next week
-  - Bug 1276686 - Selection handles are displayed when tapping on the reader view toolbar
-    - checkin-needed
+    - wait :antlam reply
+  - Bug 1079504 - Improve about:addons if user has no add-ons installed
+    - feedback? :antlam
+  - Bug 1027535 - Addon Manager doesn't provide enough details in case of blocklisted addons
+    - provided screenshot but blocked by add-ons signing meta bug: Bug 1170113
+  - Bug 1282678 - [webvtt] Consider adding closed caption button to mobile video control
+    - NI Margaret
 - [Firefox]
   - Bug 887934 - [webvtt] Update \<video\> controls to include options for closed captioning
-    - r+
-    - will update patch and ask for checkin once got new icon from :shorlander
+    - FIXED
   - Bug Bug 985915 - [webvtt] The two rows subtitles are overlapped with video controls on mouse hover
-    - WIP
+    - r+
+    - addressing try failures
   - Bug 1203481 - All dividers in the URL bar should have the same style
-    - small tweak and ask for review again
+    - backed out for the reason "should aim for pixel-perfection"
+    - might put this bug's priority behind others
+  - Bug 1281414 - [webvtt] Update the design of closed caption button icon
+    - NI :shorlander
+- [London WW]
+  - Future of Gecko Embedding: grab some thoughts about how Gecko work on trendy embedded boards.
+  - Devtools - hack session: how to debug and where to contribute
+  - MozReview Hacking: django + ember.js + docker. Get to know how to host mozreview and how front-end resources structured.
+  - Firefox for Android hack session: free talk about Firefox iOS
