@@ -1,7 +1,7 @@
-gaia-weekly
+Taipei Frontend weekly
 ==============
 
-Gaia Team Weekly Report
+Taipei Frontend Team Weekly Report
 
 Members
 -------
@@ -22,7 +22,6 @@ Members
   - Sung Chiu
   - Tzu-lin Huang
   - John Hu
-  - Greg Weng
   - Yi-fan Liao
 
 Suggested Format
