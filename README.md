@@ -8,11 +8,11 @@ Members
 * Steve Chung
 * Fren Lin
 * Evan Tseng
-* Greg Weng
+* Scott Wu
+* Ray Lin
 * Ricky Chien
 * Rex Lee
 * Luke Chang
-* Yi-fan Liao
 * Sean Lee
 * Dan Huang
 * Fischer Liu
@@ -22,6 +22,8 @@ Members
   - Sung Chiu
   - Tzu-lin Huang
   - John Hu
+  - Greg Weng
+  - Yi-fan Liao
 
 Suggested Format
 ------
