@@ -1,4 +1,4 @@
-# 06/06 ~ 06/24
+# 06/27 ~ 07/01
 
 - [Firefox for Android]
   - Bug 1086911 - Update style of about:firefox
@@ -8,20 +8,13 @@
   - Bug 1027535 - Addon Manager doesn't provide enough details in case of blocklisted addons
     - provided screenshot but blocked by add-ons signing meta bug: Bug 1170113
   - Bug 1282678 - [webvtt] Consider adding closed caption button to mobile video control
-    - NI Margaret
+    - redirected to Barbara to prioritize
 - [Firefox]
-  - Bug 887934 - [webvtt] Update \<video\> controls to include options for closed captioning
-    - FIXED
   - Bug Bug 985915 - [webvtt] The two rows subtitles are overlapped with video controls on mouse hover
-    - r+
-    - addressing try failures
-  - Bug 1203481 - All dividers in the URL bar should have the same style
-    - backed out for the reason "should aim for pixel-perfection"
-    - might put this bug's priority behind others
+    - FIXED
   - Bug 1281414 - [webvtt] Update the design of closed caption button icon
     - NI :shorlander
-- [London WW]
-  - Future of Gecko Embedding: grab some thoughts about how Gecko work on trendy embedded boards.
-  - Devtools - hack session: how to debug and where to contribute
-  - MozReview Hacking: django + ember.js + docker. Get to know how to host mozreview and how front-end resources structured.
-  - Firefox for Android hack session: free talk about Firefox iOS
+  - Bug 1198279 - Closing Find Toolbar should clear all highlighted matches
+    - feedback+
+- [Misc]
+  - Current works seem to be somewhat blocked by UX's response on Fennec about page refinement and refreshing media control. Turn to studying Control Center or Dev Tools.
