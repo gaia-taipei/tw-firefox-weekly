@@ -1,22 +1,34 @@
-## 06/21 - 06/24 ##
+## 06/27 - 07/01 ##
 
 ### Last Week ###
 
+* [TV Homescreen]
+    - [Done] Bug 1282703 - [TV][Home] Unpin card shouldn't show confirmation page
+        - took the bug, wrote the patch and landed on v2.6
+
 * [Remote Control]
-    - [Done] Bug 1276875 - [Remote Control] In browser exit confirm page, cannot move focus between OK and Cancel button
-        - investigated
+    - [WIP] Bug 1276878 - [Remote Control] Using input box to type password in browser sign-in page will show whole password
+        - investigated and did some tests
 
 * [TV General]
-    - [Review] Bug 1278141 - [TV][Browser] Toolbar focus style shows when using mouse to click it
+    - [Review] Bug 1282361 - [TV] [Browser] Spatial navigation search bar back key not working
 
 * [Firefox]
     - [WIP] Bug 1263104 - Ctrl+F in Storage Inspector should open search
-        - wrote mochitests
+        - got the feedback from the mentor and run it on try server
+        - waiting for the review
+    - [WIP] Bug 1265686 - Add PgUp+PgDown+Home+End navigation in Performance Profiler treeview?
+        - wrote the first version patch
+        - waiting for the feedback
 
 ### This Week ###
 
 * [Remote Control]
-    - Bug 1276878 - [Remote Control] Using input box to type password in browser sign-in page will show whole password
+    - [WIP] Bug 1276878 - [Remote Control] Using input box to type password in browser sign-in page will show whole password
 
 * [Firefox]
     - [WIP] Bug 1263104 - Ctrl+F in Storage Inspector should open search
+    - [WIP] Bug 1265686 - Add PgUp+PgDown+Home+End navigation in Performance Profiler treeview?
+
+* [PDF.js]
+    - Study the codebase
