@@ -1,25 +1,26 @@
-## 05/30 - 06/03 ##
+## 06/27 - 07/01 ##
 
 ### Last week
 * [SensorWeb]
-  - SensorWeb workshop.
-    - Now we have new 13 data contributors.
-    - http://sensorweb.io/project.html
-  - Made the slide for London workweek session.
-    - https://docs.google.com/presentation/d/1i5fc5Uk5PKEphjXJaFlO7Ak8jNTVGe9hd_URywsA-oM/edit#slide=id.g144e0f937e_21_44
-  - Made draft Q3 goals.
-    - https://sensorweb.hackpad.com/2016-Q3-Goals-POcmN7XpPBe
-  - Attened [Design for Change event](https://www.facebook.com/events/970862726368358) for promoting SensorWeb
-    - A school in Changhua would like to cooperate with us for finding the useful usage of real-time PM2.5 data.
-  - Bug 1272601 - Laser cutter file for PM2.5 station case
-    - Updated the laser cutter file and made the case.
+  - Implement landing page's new design.
+    - Bug 1271215 - Add the SensorWeb video on the landing page
+    - Bug 1271216 - Integrate PM2.5 sensors map in the landing page
+  - Refactor and polish the backend-module
+    - Bug 1271213 - Refactor the `http://api.sensorweb.io/sensors/${SENSOR_ID}` API
+    - Bug 1282032 - Fix JSHint issues
+    - Bug 1282033 - Add comments for REST API routers
 
 ### This week
-  - Make draft plan and hypothesis for Gate 0 and Gate 1.
-    - After discussed with team, we need the plan and hypothesis for leading us.
-  - Rehearsal the London workweek session one more time.
-    - We should re-organize the slide after we did rehearsal with Jacob and Dylan.
-  - Then go to London workweek.
+* [SensorWeb]
+  - Bug 1284744 - Hide name in the `api.sensorweb.io/users/${userId}` REST API
+  - Bug 1284746 - Setup Travis CI to check JSHint for sensorweb-backend module
+  - Do integration test to test the REST APIs.
+    - Bug 1284748 - Survey for finding a good test framework to test the REST APIs
+    - Bug 1284751 - Write a hello world test and let it run on Travis CI
+* [Firefox]
+  - Learn the Firefox workflow.
+    - https://docs.google.com/presentation/d/1dRDeNVsGS8mPzVx2Ma97q9lUyDeVWMezbXsauVAtEzc
+  - Setup the development environment.
 
 [New Design]: https://github.com/sensor-web/sensorweb-design/blob/master/Screens/Home.png
 [Q2 Goals]: https://bugzilla.mozilla.org/show_bug.cgi?id=1271205#c1
