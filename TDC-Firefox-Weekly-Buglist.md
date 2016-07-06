@@ -16,17 +16,18 @@
   - **Done**
       - [Bug 1274704](https://bugzilla.mozilla.org/show_bug.cgi?id=1274704) - Intermittent browser_responsiveui_touch.js | 300ms delay between touch events and mouse events should work - Got false, expected true | should not work - Got true, expected false - **_Dan Huang_**
       - [Bug 1273376](https://bugzilla.mozilla.org/show_bug.cgi?id=1273376) - Intermittent browser_responsiveui_touch.js | end event should work Got translate(20px, 10px), expected none - **_Dan Huang_**
-      - [Bug 1264582](https://bugzilla.mozilla.org/show_bug.cgi?id=1264582) - Table headers are not removed when selecting an empty storage - **_Fischer Liu_**
       - [Bug 1256767](https://bugzilla.mozilla.org/show_bug.cgi?id=1256767) - [ESLint] Fix ESLint errors/warnings in devtools/client/webconsole/console-commands.js - **_Fred Lin_**
       - [Bug 1266415](https://bugzilla.mozilla.org/show_bug.cgi?id=1266415) - about:debugging should display a warning if service workers are disabled - **_Fred Lin_**
+      - [Bug 1279651](https://bugzilla.mozilla.org/show_bug.cgi?id=1279651) - The show-all button overlaps on inspector-breadcrumbs-toolbar - **_Joseph Yeh_**
+      - [Bug 1268073](https://bugzilla.mozilla.org/show_bug.cgi?id=1268073) - Misleading error if you click "Debug" twice - **_Joseph Yeh_**
       - [Bug 967493](https://bugzilla.mozilla.org/show_bug.cgi?id=967493) - DevTools Inspector should display HTML Entities not evaluate them - **_Joseph Yeh_**
       - [Bug 1273076](https://bugzilla.mozilla.org/show_bug.cgi?id=1273076) - Show more details in about:debugging#invalid-hash - **_Ricky Chien_**
       - [Bug 1268107](https://bugzilla.mozilla.org/show_bug.cgi?id=1268107) - Cannot use back in about:debugging after entering an invalid hash - **_Ricky Chien_**
 
   - **Next**
-      - [Bug 1268073](https://bugzilla.mozilla.org/show_bug.cgi?id=1268073) - Misleading error if you click "Debug" twice - **_Joseph Yeh_**
+      - [Bug 1264582](https://bugzilla.mozilla.org/show_bug.cgi?id=1264582) - Table headers are not removed when selecting an empty storage - **_Fischer Liu_**
+      - [Bug 1236283](https://bugzilla.mozilla.org/show_bug.cgi?id=1236283) - <object> and <embed> nodes in markup-view can always be expanded, even if they don't contain other nodes - **_Joseph Yeh_**
       - [Bug 1260225](https://bugzilla.mozilla.org/show_bug.cgi?id=1260225) - Move inspector-related command buttons (eyedropper, rulers, screenshot, measurement) to the Inspector panel and enable them by default - **_Joseph Yeh_**
-      - [Bug 1279651](https://bugzilla.mozilla.org/show_bug.cgi?id=1279651) - The show-all button overlaps on inspector-breadcrumbs-toolbar - **_Joseph Yeh_**
       - [Bug 1261133](https://bugzilla.mozilla.org/show_bug.cgi?id=1261133) - Style editor doesn't remove ".moz-styleeditor-transitioning" if I close it in the middle of transition, so there're infinite transitions - **_KM Lee_** 
       - [Bug 1265686](https://bugzilla.mozilla.org/show_bug.cgi?id=1265686) - Add PgUp+PgDown+Home+End navigation in Performance Profiler treeview? - **_Luke Chang_**
       - [Bug 1263104](https://bugzilla.mozilla.org/show_bug.cgi?id=1263104) - Ctrl+F in Storage Inspector should open search - **_Luke Chang_**
@@ -43,6 +44,13 @@
       - [Bug 1267434](http://bugzil.la/1267434) - Unnecessary whitespace displayed after aboutPrivateBrowsing.info.saved.emphasize in about:privatebrowing - **_Ricky Chien_**
       - [Bug 1267499](http://bugzil.la/1267499) - New Private Browsing start-page overflows off the window bottom (triggering a scrollbar) for totally-reasonable window sizes - **_Ricky Chien_**
       - [Bug 1269485](http://bugzil.la/1269485) - New Private Browsing start-page has white/gray-text-on-white-background, in overflowed area off the right side of the window - **_Ricky Chien_**
+
+- **_Content Handling_**
+  - **Next**
+      - [Bug 1269962](https://bugzilla.mozilla.org/show_bug.cgi?id=1269962) - Implement the new features at "Show All Downloads" in Downloads panel. - **_Sean Lee_**
+      - [Bug 1269957](https://bugzilla.mozilla.org/show_bug.cgi?id=1269957) - Change the number of maximum download items displayed - **_Sean Lee_**
+      - [Bug 1270012](https://bugzilla.mozilla.org/show_bug.cgi?id=1270012) - Show download complete animation on downloads button whenever a download is completed - **_KM Lee_**
+      - [Bug 1270006](https://bugzilla.mozilla.org/show_bug.cgi?id=1270006) - Replace the downloads remaining time on the downloads button with a downloading icon - **_KM Lee_**
 
 - **_Quality of Experience_**
   - **Done**
