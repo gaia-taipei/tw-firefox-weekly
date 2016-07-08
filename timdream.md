@@ -1,18 +1,11 @@
-# Week of May 30, 2016
+# Week of Jul 11, 2016
 
 (Excluding management-related tasks)
 
 ## Firefox QX
 
 * [Bug 1231701](https://bugzil.la/1231701) - Ship an Emoji font in Firefox
- * Created a test suite for EmojiOne Mozilla font in https://github.com/mozilla/emojione-colr; all release-blocking defects are found and fixed.
- * r+'d from all parties, blocked on bug 1276594 currently. Try passed.
- * (dependency; not my bug) Found [Bug 1270878](https://bugzil.la/1270878) - Crash on Win8 debug with `MOZ_BOUNDLE_FONTS` turned on.
-  * FIXED by jkew
- * (dependency; not my bug) Found [Bug 1271536](https://bugzil.la/1271536) - CMAP parsing problem for FirefoxEmoji.ttf
-  * FIXED by jkew
- * (dependency; not my bug) Found [Bug 1276594](https://bugzil.la/1276594) - FontConfig backend can't find characters on EmojiOne Mozilla font because there isn't b/w glyths encoded.
-  * jkew's patch is waiting for review.
+ * FIXED in Fx50
 * [Bug 1266372](https://bugzil.la/1266372) - The close reader mode button on page should behave the same as bug 1184950
  * FIXED in Fx49.
  * Uplifted to Fx48.
