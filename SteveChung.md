@@ -1,21 +1,22 @@
-## This week 5/30 ~ 6/3
+## This week 6/27 ~ 7/1
 * SensorWeb:
-  - [Mobile app] Adjust all sensors list view per ux comment.
-  - [Web site] Adjust the form to fit legal requirement.
-  - [Web site] Resume the feedback dialog and apply Term of use provided by legal.
-  - [Web site] Project view bug fixing
-  - [Workshop] First pre-Workshop in Moz community.
+  - Privacy issue: Bug 1282379 - remove user name from website
+  - Privacy page ifxing: Remove the unnecessary file loading in privacy page
+  - Bug 1282402 - [FE] Make the code more readable
+  - Bug 1282400 - [FE] Remove unused code in html/css/js
+  - Team discussion about the hypothesis experiment
 
-## Last week 5/23 ~ 5/27
+## Last week(work week and after) 6/13 ~ 6/24
 * SensorWeb:
-  - [Mobile app] Add all sensors list view.
-  - [Web site] License checking with legal.
-  - [Web site] Resume the feedback dialog and apply Term of use provided by legal.
-  - [Workshop] Workshop preparation with a small internal study.
+  - Prepare and demo for the Sensorweb open session
+  - Team internal discussion(with board and Taipei only)
+  - CD team hackthon support
+  - Communication with other CD teams
 
-## 2016 Q2 Goals
-* Goals updated on Workday
 
-## 2016 Q1 delivered
+## 2016 Q3 Goals
+* Goals TBD
+
+## 2016 Q2 delivered
 
 * Goals updated on Workday
