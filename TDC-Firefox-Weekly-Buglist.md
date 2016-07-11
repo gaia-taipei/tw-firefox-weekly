@@ -1,6 +1,5 @@
 
 
-
 # TDC Bug list by Firefox Programs: #
  - [TDC Resolved-Fixed for 50](http://mzl.la/1Ye2Sbk)
  - [TDC Resolved-Fixed for 49](http://mzl.la/22eipYE)
@@ -26,14 +25,6 @@
   - **Done**
       - [Bug 1283382](https://bugzilla.mozilla.org/show_bug.cgi?id=1283382) - Implement UI for <input type="month"> - **_Scott Wu_**
 
-- **_Video Controls_**
-  - **Next**
-      - [Bug 887934](https://bugzilla.mozilla.org/show_bug.cgi?id=887934) - [webvtt] Update video controls to include options for closed captioning - **_Ray Lin_**
-      - [Bug 1281414](https://bugzilla.mozilla.org/show_bug.cgi?id=1281414) - [webvtt] Update the design of closed caption button icon - **_Ray Lin_**
-
-  - **Done**
-      - [Bug 985915](https://bugzilla.mozilla.org/show_bug.cgi?id=985915) - [webvtt] The two rows subtitles are overlapped with video controls on mouse hover - **_Ray Lin_**
-
 - **_DevTools_**
   - **Done**
       - [Bug 1274704](https://bugzilla.mozilla.org/show_bug.cgi?id=1274704) - Intermittent browser_responsiveui_touch.js | 300ms delay between touch events and mouse events should work - Got false, expected true | should not work - Got true, expected false - **_Dan Huang_**
@@ -49,12 +40,12 @@
 
   - **Next**
       - [Bug 1264582](https://bugzilla.mozilla.org/show_bug.cgi?id=1264582) - Table headers are not removed when selecting an empty storage - **_Fischer Liu_**
-      - [Bug 1236283](https://bugzilla.mozilla.org/show_bug.cgi?id=1236283) - <object> and <embed> nodes in markup-view can always be expanded, even if they don't contain other nodes - **_Joseph Yeh_**
       - [Bug 1260225](https://bugzilla.mozilla.org/show_bug.cgi?id=1260225) - Move inspector-related command buttons (eyedropper, rulers, screenshot, measurement) to the Inspector panel and enable them by default - **_Joseph Yeh_**
+      - [Bug 1236283](https://bugzilla.mozilla.org/show_bug.cgi?id=1236283) - "object" and "embed" nodes in markup-view can always be expanded, even if they don't contain other nodes - **_Joseph Yeh_**
       - [Bug 1261133](https://bugzilla.mozilla.org/show_bug.cgi?id=1261133) - Style editor doesn't remove ".moz-styleeditor-transitioning" if I close it in the middle of transition, so there're infinite transitions - **_KM Lee_** 
       - [Bug 1265686](https://bugzilla.mozilla.org/show_bug.cgi?id=1265686) - Add PgUp+PgDown+Home+End navigation in Performance Profiler treeview? - **_Luke Chang_**
       - [Bug 1263104](https://bugzilla.mozilla.org/show_bug.cgi?id=1263104) - Ctrl+F in Storage Inspector should open search - **_Luke Chang_**
-      - [Bug 1229340](https://bugzilla.mozilla.org/show_bug.cgi?id=1229340) - Overflow scrollbar causes an offset between animations and the time header in the animation timeline - **_Ricky Chien_** 
+      - [Bug 1229340](https://bugzilla.mozilla.org/show_bug.cgi?id=1229340) - Overflow scrollbar causes an offset between animations and the time header in the animation timeline - **_Ricky Chien_**
 
 - **_Private Browsing_**
   - **Done**
@@ -79,6 +70,14 @@
 
   - **Next**  
       - [Bug 1231701](https://bugzilla.mozilla.org/show_bug.cgi?id=1231701) - Ship an emoji font on Windows XP - **_Tim Chien_**
+
+- **_Video Controls_**
+  - **Next**
+      - [Bug 887934](https://bugzilla.mozilla.org/show_bug.cgi?id=887934) - [webvtt] Update video controls to include options for closed captioning - **_Ray Lin_**
+      - [Bug 1281414](https://bugzilla.mozilla.org/show_bug.cgi?id=1281414) - [webvtt] Update the design of closed caption button icon - **_Ray Lin_**
+
+  - **Done**
+      - [Bug 985915](https://bugzilla.mozilla.org/show_bug.cgi?id=985915) - [webvtt] The two rows subtitles are overlapped with video controls on mouse hover - **_Ray Lin_**
 
 - **_Good First Bug/Mentor Bug/Good Next Bug_**
   - **Done**
