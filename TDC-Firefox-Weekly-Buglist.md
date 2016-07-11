@@ -7,15 +7,38 @@
  - [TDC Resolved-Fixed for 48](http://mzl.la/22eiVpB)
 
 # Firefox #
-- **_Control center_**
+- **_Content Handling_**
   - **Next**
-      - [Bug 1193006](https://bugzil.la/1193006) - Show icons next to non-default permissions in the Permissions section of the Control Center - **_Fred Lin_** 
+      - [Bug 1269962](https://bugzilla.mozilla.org/show_bug.cgi?id=1269962) - Implement the new features at "Show All Downloads" in Downloads panel. - **_Sean Lee_**
+      - [Bug 1269957](https://bugzilla.mozilla.org/show_bug.cgi?id=1269957) - Change the number of maximum download items displayed - **_Sean Lee_**
+      - [Bug 1270012](https://bugzilla.mozilla.org/show_bug.cgi?id=1270012) - Show download complete animation on downloads button whenever a download is completed - **_KM Lee_**
+      - [Bug 1270006](https://bugzilla.mozilla.org/show_bug.cgi?id=1270006) - Replace the downloads remaining time on the downloads button with a downloading icon - **_KM Lee_**
+
+- **_Control Center_**
+  - **Done** 
+      - [Bug 1204007](https://bugzilla.mozilla.org/show_bug.cgi?id=1204007) - Cross out permission icons in the control center when they have been blocked - **_Fred Lin_**
+      - [Bug 1193006](https://bugzil.la/1193006) - Show icons next to non-default permissions in the Permissions section of the Control Center - **_Fred Lin_**
+ 
+  - **Next**
       - [Bug 1203292](https://bugzilla.mozilla.org/show_bug.cgi?id=1203292) - Replace permissions dropdown with 'x' icon in Permissions main view in Control Center - **_Ricky Chien_** 
+
+- **_Date-time Picker_**
+  - **Done**
+      - [Bug 1283382](https://bugzilla.mozilla.org/show_bug.cgi?id=1283382) - Implement UI for <input type="month"> - **_Scott Wu_**
+
+- **_Video Controls_**
+  - **Next**
+      - [Bug 887934](https://bugzilla.mozilla.org/show_bug.cgi?id=887934) - [webvtt] Update video controls to include options for closed captioning - **_Ray Lin_**
+      - [Bug 1281414](https://bugzilla.mozilla.org/show_bug.cgi?id=1281414) - [webvtt] Update the design of closed caption button icon - **_Ray Lin_**
+
+  - **Done**
+      - [Bug 985915](https://bugzilla.mozilla.org/show_bug.cgi?id=985915) - [webvtt] The two rows subtitles are overlapped with video controls on mouse hover - **_Ray Lin_**
 
 - **_DevTools_**
   - **Done**
       - [Bug 1274704](https://bugzilla.mozilla.org/show_bug.cgi?id=1274704) - Intermittent browser_responsiveui_touch.js | 300ms delay between touch events and mouse events should work - Got false, expected true | should not work - Got true, expected false - **_Dan Huang_**
       - [Bug 1273376](https://bugzilla.mozilla.org/show_bug.cgi?id=1273376) - Intermittent browser_responsiveui_touch.js | end event should work Got translate(20px, 10px), expected none - **_Dan Huang_**
+      - [Bug 1272774](https://bugzilla.mozilla.org/show_bug.cgi?id=1272774) - some favicons are missing on about:debugging / tabs - **_Fred Lin_**
       - [Bug 1256767](https://bugzilla.mozilla.org/show_bug.cgi?id=1256767) - [ESLint] Fix ESLint errors/warnings in devtools/client/webconsole/console-commands.js - **_Fred Lin_**
       - [Bug 1266415](https://bugzilla.mozilla.org/show_bug.cgi?id=1266415) - about:debugging should display a warning if service workers are disabled - **_Fred Lin_**
       - [Bug 1279651](https://bugzilla.mozilla.org/show_bug.cgi?id=1279651) - The show-all button overlaps on inspector-breadcrumbs-toolbar - **_Joseph Yeh_**
@@ -33,24 +56,12 @@
       - [Bug 1263104](https://bugzilla.mozilla.org/show_bug.cgi?id=1263104) - Ctrl+F in Storage Inspector should open search - **_Luke Chang_**
       - [Bug 1229340](https://bugzilla.mozilla.org/show_bug.cgi?id=1229340) - Overflow scrollbar causes an offset between animations and the time header in the animation timeline - **_Ricky Chien_** 
 
-- **_Video controls_**
-  - **Next**
-      - [Bug 985915](https://bugzilla.mozilla.org/show_bug.cgi?id=985915) - [webvtt] The two rows subtitles are overlapped with video controls on mouse hover - **_Ray Lin_**
-      - [Bug 887934](https://bugzilla.mozilla.org/show_bug.cgi?id=887934) - [webvtt] Update video controls to include options for closed captioning - **_Ray Lin_**
-
 - **_Private Browsing_**
   - **Done**
       - [Bug 1259340](http://bugzil.la/1259340) - New Private Browsing Window update - **_Ricky Chien_**
       - [Bug 1267434](http://bugzil.la/1267434) - Unnecessary whitespace displayed after aboutPrivateBrowsing.info.saved.emphasize in about:privatebrowing - **_Ricky Chien_**
       - [Bug 1267499](http://bugzil.la/1267499) - New Private Browsing start-page overflows off the window bottom (triggering a scrollbar) for totally-reasonable window sizes - **_Ricky Chien_**
       - [Bug 1269485](http://bugzil.la/1269485) - New Private Browsing start-page has white/gray-text-on-white-background, in overflowed area off the right side of the window - **_Ricky Chien_**
-
-- **_Content Handling_**
-  - **Next**
-      - [Bug 1269962](https://bugzilla.mozilla.org/show_bug.cgi?id=1269962) - Implement the new features at "Show All Downloads" in Downloads panel. - **_Sean Lee_**
-      - [Bug 1269957](https://bugzilla.mozilla.org/show_bug.cgi?id=1269957) - Change the number of maximum download items displayed - **_Sean Lee_**
-      - [Bug 1270012](https://bugzilla.mozilla.org/show_bug.cgi?id=1270012) - Show download complete animation on downloads button whenever a download is completed - **_KM Lee_**
-      - [Bug 1270006](https://bugzilla.mozilla.org/show_bug.cgi?id=1270006) - Replace the downloads remaining time on the downloads button with a downloading icon - **_KM Lee_**
 
 - **_Quality of Experience_**
   - **Done**
@@ -102,6 +113,7 @@
       - [Bug 1271201](https://bugzilla.mozilla.org/show_bug.cgi?id=1271201) - Convert xpcshell-tests in toolkit/components/places/tests/bookmarks/test_384228.js to Bookmarks.jsm API - **_Fred Lin_**
       - [Bug 1260718](https://bugzilla.mozilla.org/show_bug.cgi?id=1260718) - Switch to using plain promises instead of Promise.jsm in CustomizableUI code - **_Fred Lin_**
       - [Bug 1263557](https://bugzilla.mozilla.org/show_bug.cgi?id=1263557) -  Switch to use plain promise in CustomizeMode.jsm - **_Fred Lin_**
+      - [Bug 1198279](https://bugzilla.mozilla.org/show_bug.cgi?id=1198279) - Closing Find Toolbar should clear all highlighted matches - **_Ray Lin_**
       - [Bug 1277747](https://bugzilla.mozilla.org/show_bug.cgi?id=1277747) - Firefox freezes before restarting when I clicked the [Restart to Update...] button in about dialog - **_Tim Chien_**
       - [Bug 1266611](https://bugzilla.mozilla.org/show_bug.cgi?id=1266611) - Tab prompts can overlap in the same tab - **_Tim Chien_**
 
@@ -110,6 +122,11 @@
       - [Bug 1257078](https://bugzilla.mozilla.org/show_bug.cgi?id=1257078) - Toggle selected password visibility in the manager with a button - **_Sean Lee_**
 
 # Fennec #
+
+- **_Add-on Manager_**
+  - **Next**
+      - [Bug 1079504](https://bugzilla.mozilla.org/show_bug.cgi?id=1079504) - Improve about:addons if user has no add-ons installed - **_Ray Lin_**
+
 - **_Fennec Video Control_**
   - **Done**
       - [Bug 1260304](https://bugzilla.mozilla.org/show_bug.cgi?id=1260304) - mediasource: prepended to the context menu of MSE videos - **_Ray Lin_**
