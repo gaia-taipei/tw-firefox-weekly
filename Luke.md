@@ -1,33 +1,35 @@
-## 06/27 - 07/01 ##
+## 07/04 - 07/08 ##
 
 ### Last Week ###
 
 * [TV Homescreen]
-    - [Done] Bug 1282703 - [TV][Home] Unpin card shouldn't show confirmation page
-        - took the bug, wrote the patch and landed on v2.6
+    - [New] Bug 1285129 - Moving card out from folder cannot make add folder icon appear
+        - wrote the patch and waiting for review
+    - [Done] Bug 1284234 - [TV][Home] Big folder icon doesn't show when opening the folder in the editing mode
+        - landed
+    - [Done] Bug 1284174 - [TV][Home] Main decks can not be moved to folders
+        - landed
+    - [Done] Bug 1284175 - [TV][Home] When pin a card to home, the card should be added to the last of the main line
+        - discussed with UX and decided not to fix it
+    - [Review] Bug 1284413 - [TV Home Filter Option] Suggest to change "Websites" to "Web"
 
 * [Remote Control]
-    - [WIP] Bug 1276878 - [Remote Control] Using input box to type password in browser sign-in page will show whole password
-        - investigated and did some tests
-
-* [TV General]
-    - [Review] Bug 1282361 - [TV] [Browser] Spatial navigation search bar back key not working
+    - [Done] Bug 1276878 - [Remote Control] Using input box to type password in browser sign-in page will show whole password
+        - helped investigation with Chun-Min
 
 * [Firefox]
-    - [WIP] Bug 1263104 - Ctrl+F in Storage Inspector should open search
-        - got the feedback from the mentor and run it on try server
-        - waiting for the review
+    - [Done] Bug 1263104 - Ctrl+F in Storage Inspector should open search
+        - got r+ but encountered conflicts when checking-in
+        - resolved the conflicts and successfully landed
     - [WIP] Bug 1265686 - Add PgUp+PgDown+Home+End navigation in Performance Profiler treeview?
-        - wrote the first version patch
-        - waiting for the feedback
+        - got the feedback and fixed bugs in my v1 patch
 
 ### This Week ###
 
-* [Remote Control]
-    - [WIP] Bug 1276878 - [Remote Control] Using input box to type password in browser sign-in page will show whole password
+* [TV Homescreen]
+    - [WIP] Bug 1285129 - Moving card out from folder cannot make add folder icon appear
 
 * [Firefox]
-    - [WIP] Bug 1263104 - Ctrl+F in Storage Inspector should open search
     - [WIP] Bug 1265686 - Add PgUp+PgDown+Home+End navigation in Performance Profiler treeview?
 
 * [PDF.js]
