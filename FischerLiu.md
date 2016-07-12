@@ -1,25 +1,22 @@
-## 6/27 - 7/1 ##
+## 7/4 - 7/8 ##
 
 ### This Week ###
-
-* [TV]
-  - [FIXED] Bug 1283400 - [TV][2.6][FTE] Remove 'Home intro' and 'Pin to home' from TV FTE
 
 * [Devtool]
   - [f?] Bug 1264582 - Table headers are not removed when selecting an empty storage
     - Ask :miker for some advice on the solution patch
 
+  - [WIP] Bug 1260382 - Storage inspector incorrectly tries to parse invalid localStorage JSON values
+
+* [TV]
+  - Bug 1276157 - [TV][2.5] mozilla disclaimer(tv-ftu) shows very big string
+    - Investgating issue and provide the partner the test patch for testing.
+
 
 ### Last Week ###
 
-* [Firefox]
-  - [FIXED] Bug 1229927 - Allow `showHeartbeat` to change the icon
-    - Get the feedback from :MattN, modifying according to the feedback.
+* [TV]
+  - [FIXED] Bug 1283400 - [TV][2.6][FTE] Remove 'Home intro' and 'Pin to home' from TV FTE
 
-### London Workweek ###
-  - Devtool session: Get the basic knowledge on the Devtool code stucture and debugging.
-  - Firefox for Android and iOS: Talk to Android team and iOS team for future planning.
-  - Activity Stream: Get the baisc knowledge of Activity Stream repo and current status.
-  - Future of Gecko Embedding: Get some picture about Gecko plan for embedding.
-  - WebVR: Experience WebVR.
-  - Firefox onboarding: Q&A discussion about Firefox onboarding
+* [Fennec]
+  - Set up enviroment and basic study
