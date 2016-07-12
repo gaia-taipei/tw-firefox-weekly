@@ -16,6 +16,7 @@ Members
 * Sean Lee
 * Dan Huang
 * Fischer Liu
+* Joseph Yeh
 * Graduated
   - Gary Chen
   - Sherman Chen
