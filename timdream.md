@@ -18,8 +18,10 @@
 
 ## Firefox
 
+* [Bug 1260276](https://bugzil.la/1260276) - Dead reader mode page in session history
+ * r+'d, checkin-needed
 * [Bug 1277747](https://bugzil.la/1277747) - "Restarting..." label on the about dialog
- * checkin-needed
+ * FIXED in Fx50
 * [Bug 1266611](https://bugzil.la/1266611) - Tab modal prompt should not overlap
  * FIXED in Fx49
 * [Bug 1153393](https://bugzil.la/1153393) - Session restore should restore about:reader page scrolling
