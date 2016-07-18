@@ -23,7 +23,7 @@
 
 - **_Date-time Picker_**
   - **Next**
-      - [Bug 1283382](https://bugzilla.mozilla.org/show_bug.cgi?id=1283382) - Implement UI for <input type="month"> - **_Scott Wu_**
+      - [Bug 1283382](https://bugzilla.mozilla.org/show_bug.cgi?id=1283382) - Implement UI for `<input type="month">` - **_Scott Wu_**
 
 - **_DevTools_**
   - **Done**
