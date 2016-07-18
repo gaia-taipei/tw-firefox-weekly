@@ -1,4 +1,4 @@
-# Week of Jul 11, 2016
+# Week of Jul 18, 2016
 
 (Excluding management-related tasks)
 
@@ -19,7 +19,7 @@
 ## Firefox
 
 * [Bug 1260276](https://bugzil.la/1260276) - Dead reader mode page in session history
- * r+'d, checkin-needed
+ * FIXED in Fx50
 * [Bug 1277747](https://bugzil.la/1277747) - "Restarting..." label on the about dialog
  * FIXED in Fx50
 * [Bug 1266611](https://bugzil.la/1266611) - Tab modal prompt should not overlap
