@@ -1,22 +1,35 @@
 [Open bugs assigned to me](https://bugzilla.mozilla.org/buglist.cgi?quicksearch=assignee%3Agasolin%40mozilla.com) (ASSIGNED = current working on; NEW = backlog)
 
-## 7/4 ~ 7/8
-
-Firefox
-
-- [CC] Bug 1204007 - Show blocked icons in the control center when they have been blocked
-  - resize svg with inkscape
-  - r+ & landed
-
-- [CC]Bug 1284172 - the indexedDB icon style shows a strange icon on Linux
-  - r+ & landed
+## 7/11 ~ 7/15
 
 Devtools
 
-- Contact and Meet with devtool team, will start taking track #2 tasks https://wiki.mozilla.org/DevTools/devtools-html#Track_.233_-_De-Chrome
-- learn redux
-- trace devtool client source
-- Arrange devtools animation sharing from UX
+- Bug 1284673 - Reps: add a cropLimit property to string rep
+  - r+ & landed
+
+- Bug 1264701 - Move url utils to rep-utils.js
+  - r+ & landed
+
+- Bug 1282427 - Reps: handle userDisplayName property on Function grips
+  - r+ & landed
+
+- Bug 1285878 - Firebug Theme: XHR inspector style broken
+  - analysis and invalid it
 
 - Bug 1278774 - Breadcrumbs overlaps on the element hiding helper button
+  - r?
+
+- Bug 1285449 - Firebug theme - Don't apply inverted filter for sidebar-toggle, rewind-timeline, pause-resume-timeline in Inspector
+  - r?
+
+- Bug 1279526 - Firebug theme: fix CSS for rule view property
+  - r?
+
+- Bug 1286259 - Reps: grip-array rep should support limited preview
+  - WIP
+
+
+Firefox
+
+- [CC] Bug 1206233 - Indicator for devices actively streaming or permissions being used
   - WIP
