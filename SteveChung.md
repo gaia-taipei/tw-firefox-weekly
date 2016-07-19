@@ -1,4 +1,12 @@
-## This week 7/4 ~ 7/8
+## This week 7/11 ~ 7/15
+* Firefox front-end:
+  - Devtool
+    - Joined the daily stand up meeting.
+    - (Resolved)[Bug 1283522](https://bugzilla.mozilla.org/show_bug.cgi?id=1283522) - Reps: support -0 grip in number rep => Patch reviewed and merged in central.
+    - (R+)[Bug 1285530](https://bugzilla.mozilla.org/show_bug.cgi?id=1285530) - Reps: Off by one error in grip-array max length => Patch reviewed but need to rebased on another ongoing patch that might need to change test.
+    - (ni?)[Bug 1284855](https://bugzilla.mozilla.org/show_bug.cgi?id=1284855) -  Reps: match spacing and brace placement in nested objects/arrays => Need more infor to the owner to clarify some questions.
+
+## Last week 7/4 ~ 7/8
 * SensorWeb:
   - Experiment about using github page as staging server with [subcomponent](https://github.com/sensor-web/sensorweb-frontend/tree/a3f3f51698590bee9340d8d7c8c9bf65a83654ca)
   
@@ -13,11 +21,3 @@
       - [Bug 752197](https://bugzilla.mozilla.org/show_bug.cgi?id=752197) - Make all prefs dialogs windows in-content => Some dialogs in advanced page need to be moved to in-content style, but all of them might need further communication for UX spec.
   - Devtool
     - [Bug 1283522](https://bugzilla.mozilla.org/show_bug.cgi?id=1283522) - Reps: support -0 grip in number rep => Study & submit a simple patch for first feedback.
-
-## Last week 6/27 ~ 7/1
-* SensorWeb:
-  - Privacy issue: Bug 1282379 - remove user name from website
-  - Privacy page fixng: Remove the unnecessary file loading in privacy page
-  - Bug 1282402 - [FE] Make the code more readable
-  - Bug 1282400 - [FE] Remove unused code in html/css/js
-  - Team discussion about the hypothesis experiment
