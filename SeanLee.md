@@ -1,19 +1,16 @@
 ### Last week
 
 * [Firefox]
-  - [r?][Bug 1257078] Wait for reviewer's feedback.
+  - [r?][Bug 1257078] The reviwer doesn't feedback yet. I will contact him on IRC.
 
 * [Content Handling]
-  - [Bug 1269962] Try to find a solution for dropdown menu and button and discuss the detail visual.
-  - [Bug 1269957] Wait for reviewer's feedback about the feature scope.
-
-* [Data Sync for TV]
-  - [Bug 1284403] Review.
+  - [Bug 1269962] Implement all features including the buttons of clear downloads and open download folder. Adjust menu-button suggested by reviwer.
+  - [Bug 1269957] Wait for discussing the refactoring scope should be included or not.
 
 ### This week
 
 * [Firefox]
-  - [Bug 1257078] Wait for reviewer's feedback.
+- [Bug 1257078] The reviwer doesn't feedback yet. I will contact him on IRC.
 
 * [Content Handling]
   - [Bug 1269962] working on this bug.
