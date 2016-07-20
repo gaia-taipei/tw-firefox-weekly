@@ -1,36 +1,32 @@
-## 07/04 - 07/08 ##
+## 07/11 - 07/15 ##
 
 ### Last Week ###
 
 * [TV Homescreen]
-    - [New] Bug 1285129 - Moving card out from folder cannot make add folder icon appear
-        - wrote the patch and waiting for review
-    - [Done] Bug 1284234 - [TV][Home] Big folder icon doesn't show when opening the folder in the editing mode
+    - [Done] Bug 1285087 - Hide browser app from Apps Deck
+        - wrote the patch and landed
+    - [Done] Bug 1285129 - Moving card out from folder cannot make add folder icon appear
         - landed
-    - [Done] Bug 1284174 - [TV][Home] Main decks can not be moved to folders
-        - landed
-    - [Done] Bug 1284175 - [TV][Home] When pin a card to home, the card should be added to the last of the main line
-        - discussed with UX and decided not to fix it
-    - [Review] Bug 1284413 - [TV Home Filter Option] Suggest to change "Websites" to "Web"
+    - [Review] Bug 1286507 - [TV][HOME] Smart home should focus on TV APP when first time opened
 
-* [Remote Control]
-    - [Done] Bug 1276878 - [Remote Control] Using input box to type password in browser sign-in page will show whole password
-        - helped investigation with Chun-Min
+* [TV General]
+    - [Review] Bug 1285144 - Spatial navigation to top sites and pressing OK key, the blue square won't zoom together
+    - [Review] Bug 1285156 - Too short interval of pressing OK key down and up will cause failed to open top sites' web page
+    - [Review] Bug 1284793 - Cannot add/switch/delete tab from tab list
 
 * [Firefox]
-    - [Done] Bug 1263104 - Ctrl+F in Storage Inspector should open search
-        - got r+ but encountered conflicts when checking-in
-        - resolved the conflicts and successfully landed
     - [WIP] Bug 1265686 - Add PgUp+PgDown+Home+End navigation in Performance Profiler treeview?
-        - got the feedback and fixed bugs in my v1 patch
+        - requested review and got r+ with a few feedback
+        - altered my patch accordingly but encountered tests failed
+        - fixed the tests and requesting review again
+
+* [PDF.js]
+    - Studied UI code flow
 
 ### This Week ###
-
-* [TV Homescreen]
-    - [WIP] Bug 1285129 - Moving card out from folder cannot make add folder icon appear
 
 * [Firefox]
     - [WIP] Bug 1265686 - Add PgUp+PgDown+Home+End navigation in Performance Profiler treeview?
 
 * [PDF.js]
-    - Study the codebase
+    - Study UI code flow and figure out how it could be implemented in the new architecture
