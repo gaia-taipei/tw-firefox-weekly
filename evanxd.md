@@ -1,41 +1,23 @@
-## 07/11 - 07/15 ##
+## 07/18 - 07/22 ##
 
 ### Last week
 * [Firefox]
-  - Setup development environment
-    - Fixed the try problems: cannot push try
-      - Bug 1286200 - Request hg access be restored
-    - Made a new repo[1] to share documents and config files for new guys
-  - Watch Location Bar module
-    - Bug 647162 - Location Bar does not update
-      - RESOLVED WORKSFORME
   - Dev Tools
-    - Bug 1282791 - Reps: uninteresting props algorithm is wrong
-      - Fixed the uninteresting props issue
-      - Fixed the max number issue
-    - Rep Tester[2]
-      - Be a collaborator of Rep Tester
-      - Issue 1 for prototypes - Add config file to config mozilla-central and devtools paths[3], landed
-      - Issue 1 for rep-tester - Remove Source Directory Structure section[4], landed
-      - Filed new bugs
-        - Issue 2 - Need to run `npm install` twice to install all dependency modules
-        - Issue 3 - Improve the process of running Rep Tester
-
-* [SensorWeb]
-  - Bug 1286142 - Update contributor list
+    - Helped Taipei Dev Tools members understand how to use Rep Tester
+      - Currently Taipei Dev Tools members can use Rep Tester.
+    - Bug 1282791 - Reps: uninteresting props algorithm is wrong, review+
+    - Bug 1276376 - Reps: uninteresting props are not filtered correctly
+      - Fixed this in Bug 1282791
+    - Bug 1284838 - Reps: render events more uniformly, feedback?
 
 ### This week
 * [Firefox]
   - Dev Tools
-    - Help taipei members understand how to use Rep Tester
-    - Bug 1282791 - Reps: uninteresting props algorithm is wrong
-      - Fix the order issue[5]
-    - Bug 1276376 - Reps: uninteresting props are not filtered correctly
-  - Watch Location Bar module and look for bugs to fix
-  - Bug 1277105 - Intermittent e10s browser_capture_doorhanger.js | Check the password changed - Got pass2, expected notifyp1 or Should only have 1 login - Got 0, expected 1
-
-[1]: https://github.com/evanxd/firefox-newbie
-[2]: https://github.com/janodvarko/rep-tester
-[3]: https://github.com/janodvarko/prototypes/pull/2
-[4]: https://github.com/janodvarko/rep-tester/pull/4
-[5]: https://bugzilla.mozilla.org/show_bug.cgi?id=1282791#c2
+    - Bug 1284838 - Reps: render events more uniformly, review?
+      - Update patch for the comments
+    - Bug 1286892 - Inspector sidebar tabs now have a bigger font-size
+    - Bug 1282465 - Reps: fix or remove recursive handling in ArrayRep and Obj rep
+      - Investigate this bug first. It's blocked by Bug 1286864(the patch is on reviewing).
+    - Bug 1289369 - [rep tests] Add tests for the order of grip rep properties
+    - Research the refactor works with Taipei Dev Tools members: how to refactor Inspector's sidebar panel with React
+      - The thought: https://public.etherpad-mozilla.org/p/dev-tools-study-group#lineNumber=56
