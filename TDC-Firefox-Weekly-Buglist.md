@@ -29,6 +29,8 @@
   - **Done**
       - [Bug 1274704](https://bugzilla.mozilla.org/show_bug.cgi?id=1274704) - Intermittent browser_responsiveui_touch.js | 300ms delay between touch events and mouse events should work - Got false, expected true | should not work - Got true, expected false - **_Dan Huang_**
       - [Bug 1273376](https://bugzilla.mozilla.org/show_bug.cgi?id=1273376) - Intermittent browser_responsiveui_touch.js | end event should work Got translate(20px, 10px), expected none - **_Dan Huang_**
+      - [Bug 1264686](https://bugzilla.mozilla.org/show_bug.cgi?id=1264686) - Reps: Use grip-array rep to display NamedNodeMap - **_Fred Lin_**
+      - [Bug 1285528](https://bugzilla.mozilla.org/show_bug.cgi?id=1285528) - [RTL] Collapse/Expand pane button is not properly displayed - **_Fred Lin_**
       - [Bug 1279526](https://bugzilla.mozilla.org/show_bug.cgi?id=1279526) - Firebug theme: fix CSS for rule view property - **_Fred Lin_**
       - [Bug 1285449](https://bugzilla.mozilla.org/show_bug.cgi?id=1285449) - Firebug theme - Don't apply inverted filter for sidebar-toggle, rewind-timeline, pause-resume-timeline in Inspector - **_Fred Lin_**
       - [Bug 1282427](https://bugzilla.mozilla.org/show_bug.cgi?id=1282427) - Reps: handle userDisplayName property on Function grips - **_Fred Lin_**
@@ -48,17 +50,25 @@
       - [Bug 1280791](https://bugzilla.mozilla.org/show_bug.cgi?id=1280791) - Don't apply min-width to the command-button-frames checkbox in firebug theme - **_Ricky Chien_**
       - [Bug 1273076](https://bugzilla.mozilla.org/show_bug.cgi?id=1273076) - Show more details in about:debugging#invalid-hash - **_Ricky Chien_**
       - [Bug 1268107](https://bugzilla.mozilla.org/show_bug.cgi?id=1268107) - Cannot use back in about:debugging after entering an invalid hash - **_Ricky Chien_**
+      - [Bug 1287391](https://bugzilla.mozilla.org/show_bug.cgi?id=1287391) - Wrong sidebar tabs direction in RTL locales with Firebug theme - **_Steve Chung_**
+      - [Bug 1287371](https://bugzilla.mozilla.org/show_bug.cgi?id=1287371) - Tabs hover style was changed in firebug theme - **_Steve Chung_**
       - [Bug 1283522](https://bugzilla.mozilla.org/show_bug.cgi?id=1283522) - Reps: support -0 grip in number rep - **_Steve Chung_**
       - [Bug 1285530](https://bugzilla.mozilla.org/show_bug.cgi?id=1285530) - Reps: Off by one error in grip-array max length - **_Steve Chung_**
 
   - **Next**
+      - [Bug 1284838](https://bugzilla.mozilla.org/show_bug.cgi?id=1284838) - Reps: render events more uniformly - **_Evan Tseng_**
+      - [Bug 1286892](https://bugzilla.mozilla.org/show_bug.cgi?id=1286892) - Inspector sidebar tabs now have a bigger font-size - **_Evan Tseng_**
+      - [Bug 1289369](https://bugzilla.mozilla.org/show_bug.cgi?id=1289369) - [rep tests] Add tests for the order of grip rep properties - **_Evan Tseng_**
       - [Bug 1282791](https://bugzilla.mozilla.org/show_bug.cgi?id=1282791) - Reps: uninteresting props algorithm is wrong - **_Evan Tseng_**
       - [Bug 1260382](https://bugzilla.mozilla.org/show_bug.cgi?id=1260382) - Storage inspector incorrectly tries to parse invalid localStorage JSON values - **_Fischer Liu_**
       - [Bug 1264582](https://bugzilla.mozilla.org/show_bug.cgi?id=1264582) - Table headers are not removed when selecting an empty storage - **_Fischer Liu_**
+      - [Bug 1265759](https://bugzilla.mozilla.org/show_bug.cgi?id=1265759) - Create an HTML replacement for Search Box - **_Fred Lin_**
       - [Bug 1286259](https://bugzilla.mozilla.org/show_bug.cgi?id=1286259) - Reps: grip-array rep should support limited preview- **_Fred Lin_**
       - [Bug 1278774](https://bugzilla.mozilla.org/show_bug.cgi?id=1278774) - Breadcrumbs overlaps on the element hiding helper button - **_Fred Lin_**
       - [Bug 1260225](https://bugzilla.mozilla.org/show_bug.cgi?id=1260225) - Move inspector-related command buttons (eyedropper, rulers, screenshot, measurement) to the Inspector panel and enable them by default - **_Joseph Yeh_**
       - [Bug 1265686](https://bugzilla.mozilla.org/show_bug.cgi?id=1265686) - Add PgUp+PgDown+Home+End navigation in Performance Profiler treeview? - **_Luke Chang_**
+      - [Bug 1286283](https://bugzilla.mozilla.org/show_bug.cgi?id=1286283) - HTML ToolSidebar should support ARIA - **_Ricky Chien_**
+      - [Bug 1287422](https://bugzilla.mozilla.org/show_bug.cgi?id=1287422) - Don't overlap font-showall button and scrollbar in the Font Inspector - **_Steve Chung_**
       - [Bug 1284855](https://bugzilla.mozilla.org/show_bug.cgi?id=1284855) - Reps: match spacing and brace placement in nested objects/arrays - **_Steve Chung_**
 
 - **_Preferences_**
@@ -95,6 +105,7 @@
 
   - **Next**
       - [Bug 1281414](https://bugzilla.mozilla.org/show_bug.cgi?id=1281414) - [webvtt] Update the design of closed caption button icon - **_Ray Lin_**
+      - [Bug 1222273](https://bugzilla.mozilla.org/show_bug.cgi?id=1222273) - Convert HTML <video>/<audio> controls to be (mostly?) HTML instead of XUL - **_Ray Lin_**
 
 - **_Good First Bug/Mentor Bug/Good Next Bug_**
   - **Done**
@@ -124,6 +135,7 @@
 
 - **_Others_**
   - **Done**
+      - [Bug 1272849](https://bugzilla.mozilla.org/show_bug.cgi?id=1272849) - Intermittent browser_notifications_2.js | Main action button is disabled - false == true - JS frame :: chrome://mochitests/content/browser/toolkit/components/passwordmgr/test/browser/browser_notifications_2.js :: test_empty_password/< :: line 36 etc. - **_Fred Lin_**
       - [Bug 1273023](https://bugzilla.mozilla.org/show_bug.cgi?id=1273023) - Convert xpcshell-tests in toolkit/components/places/tests/bookmarks/test_385829.js to Bookmarks.jsm API - **_Fred Lin_**
       - [Bug 1275100](https://bugzilla.mozilla.org/show_bug.cgi?id=1275100) - browser_notifications_2.js is going to permafail when Gecko 49 merges to Aurora - **_Fred Lin_**
       - [Bug 1271201](https://bugzilla.mozilla.org/show_bug.cgi?id=1271201) - Convert xpcshell-tests in toolkit/components/places/tests/bookmarks/test_384228.js to Bookmarks.jsm API - **_Fred Lin_**
