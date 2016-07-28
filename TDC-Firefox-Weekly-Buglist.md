@@ -29,6 +29,8 @@
   - **Done**
       - [Bug 1274704](https://bugzilla.mozilla.org/show_bug.cgi?id=1274704) - Intermittent browser_responsiveui_touch.js | 300ms delay between touch events and mouse events should work - Got false, expected true | should not work - Got true, expected false - **_Dan Huang_**
       - [Bug 1273376](https://bugzilla.mozilla.org/show_bug.cgi?id=1273376) - Intermittent browser_responsiveui_touch.js | end event should work Got translate(20px, 10px), expected none - **_Dan Huang_**
+      - [Bug 1260382](https://bugzilla.mozilla.org/show_bug.cgi?id=1260382) - Storage inspector incorrectly tries to parse invalid localStorage JSON values - **_Fischer Liu_**
+      - [Bug 1264582](https://bugzilla.mozilla.org/show_bug.cgi?id=1264582) - Table headers are not removed when selecting an empty storage - **_Fischer Liu_**
       - [Bug 1264686](https://bugzilla.mozilla.org/show_bug.cgi?id=1264686) - Reps: Use grip-array rep to display NamedNodeMap - **_Fred Lin_**
       - [Bug 1285528](https://bugzilla.mozilla.org/show_bug.cgi?id=1285528) - [RTL] Collapse/Expand pane button is not properly displayed - **_Fred Lin_**
       - [Bug 1279526](https://bugzilla.mozilla.org/show_bug.cgi?id=1279526) - Firebug theme: fix CSS for rule view property - **_Fred Lin_**
@@ -45,6 +47,7 @@
       - [Bug 967493](https://bugzilla.mozilla.org/show_bug.cgi?id=967493) - DevTools Inspector should display HTML Entities not evaluate them - **_Joseph Yeh_**
       - [Bug 1236283](https://bugzilla.mozilla.org/show_bug.cgi?id=1236283) - "object" and "embed" nodes in markup-view can always be expanded, even if they don't contain other nodes - **_Joseph Yeh_**
       - [Bug 1261133](https://bugzilla.mozilla.org/show_bug.cgi?id=1261133) - Style editor doesn't remove ".moz-styleeditor-transitioning" if I close it in the middle of transition, so there're infinite transitions - **_KM Lee_**
+      - [Bug 1265686](https://bugzilla.mozilla.org/show_bug.cgi?id=1265686) - Add PgUp+PgDown+Home+End navigation in Performance Profiler treeview? - **_Luke Chang_**
       - [Bug 1263104](https://bugzilla.mozilla.org/show_bug.cgi?id=1263104) - Ctrl+F in Storage Inspector should open search - **_Luke Chang_**
       - [Bug 1229340](https://bugzilla.mozilla.org/show_bug.cgi?id=1229340) - Overflow scrollbar causes an offset between animations and the time header in the animation timeline - **_Ricky Chien_**
       - [Bug 1280791](https://bugzilla.mozilla.org/show_bug.cgi?id=1280791) - Don't apply min-width to the command-button-frames checkbox in firebug theme - **_Ricky Chien_**
@@ -60,19 +63,17 @@
       - [Bug 1286892](https://bugzilla.mozilla.org/show_bug.cgi?id=1286892) - Inspector sidebar tabs now have a bigger font-size - **_Evan Tseng_**
       - [Bug 1289369](https://bugzilla.mozilla.org/show_bug.cgi?id=1289369) - [rep tests] Add tests for the order of grip rep properties - **_Evan Tseng_**
       - [Bug 1282791](https://bugzilla.mozilla.org/show_bug.cgi?id=1282791) - Reps: uninteresting props algorithm is wrong - **_Evan Tseng_**
-      - [Bug 1260382](https://bugzilla.mozilla.org/show_bug.cgi?id=1260382) - Storage inspector incorrectly tries to parse invalid localStorage JSON values - **_Fischer Liu_**
-      - [Bug 1264582](https://bugzilla.mozilla.org/show_bug.cgi?id=1264582) - Table headers are not removed when selecting an empty storage - **_Fischer Liu_**
       - [Bug 1265759](https://bugzilla.mozilla.org/show_bug.cgi?id=1265759) - Create an HTML replacement for Search Box - **_Fred Lin_**
       - [Bug 1286259](https://bugzilla.mozilla.org/show_bug.cgi?id=1286259) - Reps: grip-array rep should support limited preview- **_Fred Lin_**
       - [Bug 1278774](https://bugzilla.mozilla.org/show_bug.cgi?id=1278774) - Breadcrumbs overlaps on the element hiding helper button - **_Fred Lin_**
       - [Bug 1260225](https://bugzilla.mozilla.org/show_bug.cgi?id=1260225) - Move inspector-related command buttons (eyedropper, rulers, screenshot, measurement) to the Inspector panel and enable them by default - **_Joseph Yeh_**
-      - [Bug 1265686](https://bugzilla.mozilla.org/show_bug.cgi?id=1265686) - Add PgUp+PgDown+Home+End navigation in Performance Profiler treeview? - **_Luke Chang_**
       - [Bug 1286283](https://bugzilla.mozilla.org/show_bug.cgi?id=1286283) - HTML ToolSidebar should support ARIA - **_Ricky Chien_**
       - [Bug 1287422](https://bugzilla.mozilla.org/show_bug.cgi?id=1287422) - Don't overlap font-showall button and scrollbar in the Font Inspector - **_Steve Chung_**
       - [Bug 1284855](https://bugzilla.mozilla.org/show_bug.cgi?id=1284855) - Reps: match spacing and brace placement in nested objects/arrays - **_Steve Chung_**
 
 - **_Preferences_**
   - **Next**
+      - [Bug 1169704](https://bugzilla.mozilla.org/show_bug.cgi?id=1169704) - In-content preferences - Search tab - "One-click search engines" table remains highlighted after clicking elsewhere on the page - **_Fischer Liu_**
       - [Bug 1271779](https://bugzilla.mozilla.org/show_bug.cgi?id=1271779) - [QX cluster] Consider improvements to in-content preferences - **_Fischer Liu_**
       - [Bug 1036595](https://bugzilla.mozilla.org/show_bug.cgi?id=1036595) - Convert the "Clear recent history" dialog on privacy page to be in-content - **_Joseph Yeh_**
 
@@ -150,6 +151,7 @@
 
   - **Next**
       - [Bug 1277105](https://bugzilla.mozilla.org/show_bug.cgi?id=1277105) - Intermittent e10s browser_capture_doorhanger.js | Check the password changed - Got pass2, expected notifyp1 or Should only have 1 login - Got 0, expected 1 - **_Evan Tseng_**
+      - [Bug 1113581](https://bugzilla.mozilla.org/show_bug.cgi?id=1113581) - Artifact when editing a keyword, the keyword is displayed under the text-area - **_Fischer Liu_**
       - [Bug 1000700](https://bugzilla.mozilla.org/show_bug.cgi?id=1000700) - menu-button dropmarkers aren't inverted with dark LWT - **_Scott Wu_**
       - [Bug 1257078](https://bugzilla.mozilla.org/show_bug.cgi?id=1257078) - Toggle selected password visibility in the manager with a button - **_Sean Lee_**
 
