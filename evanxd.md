@@ -3,21 +3,16 @@
 ### Last week
 * [Firefox]
   - Dev Tools
-    - Helped Taipei Dev Tools members understand how to use Rep Tester
-      - Currently Taipei Dev Tools members can use Rep Tester.
-    - Bug 1282791 - Reps: uninteresting props algorithm is wrong, review+
-    - Bug 1276376 - Reps: uninteresting props are not filtered correctly
-      - Fixed this in Bug 1282791
-    - Bug 1284838 - Reps: render events more uniformly, feedback?
+    - Bug 1286892 - Inspector sidebar tabs now have a bigger font-size, r+ and landed
+    - Bug 1282791 - Reps: uninteresting props algorithm is wrong, landed
+    - Bug 1284838 - Reps: render events more uniformly, review?
+    - Bug 1289912 - Can't scroll in JSON Viewer in Nightly, review?
 
 ### This week
 * [Firefox]
+  - Location Bar
+    - Bug 1271094 - Long autocomplete suggestions are clipped in the middle of popup in some cases
   - Dev Tools
-    - Bug 1284838 - Reps: render events more uniformly, review?
-      - Update patch for the comments
-    - Bug 1286892 - Inspector sidebar tabs now have a bigger font-size
     - Bug 1282465 - Reps: fix or remove recursive handling in ArrayRep and Obj rep
-      - Investigate this bug first. It's blocked by Bug 1286864(the patch is on reviewing).
     - Bug 1289369 - [rep tests] Add tests for the order of grip rep properties
-    - Research the refactor works with Taipei Dev Tools members: how to refactor Inspector's sidebar panel with React
-      - The thought: https://public.etherpad-mozilla.org/p/dev-tools-study-group#lineNumber=56
+    - Bug 1288854 - Pressing "escape" to cancel the eye dropper does not always cancel it
