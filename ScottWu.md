@@ -1,4 +1,4 @@
-## 7/18 ~ 7/22
+## 7/25 ~ 7/29
 
 - [Firefox]
 	- [r-] [Bug 1000700](https://bugzilla.mozilla.org/show_bug.cgi?id=1000700) - menu-button dropmarkers aren't inverted with dark LWT
@@ -8,23 +8,22 @@
 
 - [Date-time Picker]
 	- [Bug 1283381](https://bugzilla.mozilla.org/show_bug.cgi?id=1283381) - [meta] Implement UI for date time input types
-		- [Bug 1283382](https://bugzilla.mozilla.org/show_bug.cgi?id=1283382) - Implement UI for \<input type="month"\>
+		- [Bug 1283384](https://bugzilla.mozilla.org/show_bug.cgi?id=1283384) - Implement UI for \<input type="time"\>
+			- Shifting focus to work on time picker first to align with Jessica and the master schedule
 	- [Tracking] [Bug 1280654](https://bugzilla.mozilla.org/show_bug.cgi?id=1280654) - Expose a generic API for polling data out of CLDR
 	- [Tracking] [Bug 1287677](https://bugzilla.mozilla.org/show_bug.cgi?id=1287677) - Expose an API to provide display names for calendar terms
-		- Gave Zibi feedback on the APIs
 
 #### Date Time Pickers Tasks:
 
 - General features
 	- [WIP] Passing data between input field and pickers
-		- Able to pass data to and from picker using events
+		- Implementing xul:panel + picker in iframe
 	- Two way communication to reflect changes immediately
 - Month picker
-	- [WIP] Spinner component
-		- Replaced requestAnimationFrame with CSS scroll-snap for animating spinner transition
-		- Improved structure with more commonly used constructor pattern
+	- [Done] Spinner component (basic functionalities)
 	- Spinners are combined when indivisible step is used
 - Time picker
+	- [WIP] AM/PM component
 	- Spinner cycle feature
 - Date picker
 	- Calendar component
