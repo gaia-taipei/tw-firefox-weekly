@@ -37,3 +37,8 @@
 * [Bug 1243722](https://bugzil.la/1243722) - Wrong doorhanger when updating password on Facebook
  * FIXED in Fx48
  * Uplifted to Fx45/46/47
+
+## Build
+
+* [Bug 1292407](https://bugzilla.mozilla.org/show_bug.cgi?id=1292407) - Make sure artifact build founds topsrcdir
+ * drive-by fix, checkin-needed
