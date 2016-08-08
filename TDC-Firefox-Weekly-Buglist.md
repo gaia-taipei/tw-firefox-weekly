@@ -17,18 +17,23 @@
   - **Done** 
       - [Bug 1204007](https://bugzilla.mozilla.org/show_bug.cgi?id=1204007) - Cross out permission icons in the control center when they have been blocked - **_Fred Lin_**
       - [Bug 1193006](https://bugzil.la/1193006) - Show icons next to non-default permissions in the Permissions section of the Control Center - **_Fred Lin_**
+      - [Bug 1203292](https://bugzilla.mozilla.org/show_bug.cgi?id=1203292) - Replace permissions dropdown with 'x' icon in Permissions main view in Control Center - **_Ricky Chien_**
  
   - **Next**
-      - [Bug 1203292](https://bugzilla.mozilla.org/show_bug.cgi?id=1203292) - Replace permissions dropdown with 'x' icon in Permissions main view in Control Center - **_Ricky Chien_** 
+ 
 
 - **_Date-time Picker_**
   - **Next**
+      - [Bug 1283384](https://bugzilla.mozilla.org/show_bug.cgi?id=1283384) - Implement UI for `<input type="time">` - **_Scott Wu_**
       - [Bug 1283382](https://bugzilla.mozilla.org/show_bug.cgi?id=1283382) - Implement UI for `<input type="month">` - **_Scott Wu_**
 
 - **_DevTools_**
   - **Done**
       - [Bug 1274704](https://bugzilla.mozilla.org/show_bug.cgi?id=1274704) - Intermittent browser_responsiveui_touch.js | 300ms delay between touch events and mouse events should work - Got false, expected true | should not work - Got true, expected false - **_Dan Huang_**
       - [Bug 1273376](https://bugzilla.mozilla.org/show_bug.cgi?id=1273376) - Intermittent browser_responsiveui_touch.js | end event should work Got translate(20px, 10px), expected none - **_Dan Huang_**
+      - [Bug 1289912](https://bugzilla.mozilla.org/show_bug.cgi?id=1289912) - Can't scroll in JSON Viewer in Nightly - **_Evan Tseng_**
+      - [Bug 1282791](https://bugzilla.mozilla.org/show_bug.cgi?id=1282791) - Reps: uninteresting props algorithm is wrong - **_Evan Tseng_**
+      - [Bug 1286892](https://bugzilla.mozilla.org/show_bug.cgi?id=1286892) - Inspector sidebar tabs now have a bigger font-size - **_Evan Tseng_**
       - [Bug 1260382](https://bugzilla.mozilla.org/show_bug.cgi?id=1260382) - Storage inspector incorrectly tries to parse invalid localStorage JSON values - **_Fischer Liu_**
       - [Bug 1264582](https://bugzilla.mozilla.org/show_bug.cgi?id=1264582) - Table headers are not removed when selecting an empty storage - **_Fischer Liu_**
       - [Bug 1264686](https://bugzilla.mozilla.org/show_bug.cgi?id=1264686) - Reps: Use grip-array rep to display NamedNodeMap - **_Fred Lin_**
@@ -49,10 +54,15 @@
       - [Bug 1261133](https://bugzilla.mozilla.org/show_bug.cgi?id=1261133) - Style editor doesn't remove ".moz-styleeditor-transitioning" if I close it in the middle of transition, so there're infinite transitions - **_KM Lee_**
       - [Bug 1265686](https://bugzilla.mozilla.org/show_bug.cgi?id=1265686) - Add PgUp+PgDown+Home+End navigation in Performance Profiler treeview? - **_Luke Chang_**
       - [Bug 1263104](https://bugzilla.mozilla.org/show_bug.cgi?id=1263104) - Ctrl+F in Storage Inspector should open search - **_Luke Chang_**
+      - [Bug 1286283](https://bugzilla.mozilla.org/show_bug.cgi?id=1286283) - HTML ToolSidebar should support ARIA - **_Ricky Chien_**
       - [Bug 1229340](https://bugzilla.mozilla.org/show_bug.cgi?id=1229340) - Overflow scrollbar causes an offset between animations and the time header in the animation timeline - **_Ricky Chien_**
       - [Bug 1280791](https://bugzilla.mozilla.org/show_bug.cgi?id=1280791) - Don't apply min-width to the command-button-frames checkbox in firebug theme - **_Ricky Chien_**
       - [Bug 1273076](https://bugzilla.mozilla.org/show_bug.cgi?id=1273076) - Show more details in about:debugging#invalid-hash - **_Ricky Chien_**
       - [Bug 1268107](https://bugzilla.mozilla.org/show_bug.cgi?id=1268107) - Cannot use back in about:debugging after entering an invalid hash - **_Ricky Chien_**
+      - [Bug 1288401](https://bugzilla.mozilla.org/show_bug.cgi?id=1288401) - Inspector sidebar tabs are missing the :active styling - **_Steve Chung_**
+      - [Bug 1287422](https://bugzilla.mozilla.org/show_bug.cgi?id=1287422) - Don't overlap font-showall button and scrollbar in the Font Inspector - **_Steve Chung_**
+      - [Bug 1288996](https://bugzilla.mozilla.org/show_bug.cgi?id=1288996) - Replace float: inline-start before core fully support - **_Steve Chung_**
+      - [Bug 1289827](https://bugzilla.mozilla.org/show_bug.cgi?id=1289827) - Waiting in netmonitor -> timings isn't visible on dark theme - **_Steve Chung_**
       - [Bug 1287391](https://bugzilla.mozilla.org/show_bug.cgi?id=1287391) - Wrong sidebar tabs direction in RTL locales with Firebug theme - **_Steve Chung_**
       - [Bug 1287371](https://bugzilla.mozilla.org/show_bug.cgi?id=1287371) - Tabs hover style was changed in firebug theme - **_Steve Chung_**
       - [Bug 1283522](https://bugzilla.mozilla.org/show_bug.cgi?id=1283522) - Reps: support -0 grip in number rep - **_Steve Chung_**
@@ -60,15 +70,11 @@
 
   - **Next**
       - [Bug 1284838](https://bugzilla.mozilla.org/show_bug.cgi?id=1284838) - Reps: render events more uniformly - **_Evan Tseng_**
-      - [Bug 1286892](https://bugzilla.mozilla.org/show_bug.cgi?id=1286892) - Inspector sidebar tabs now have a bigger font-size - **_Evan Tseng_**
       - [Bug 1289369](https://bugzilla.mozilla.org/show_bug.cgi?id=1289369) - [rep tests] Add tests for the order of grip rep properties - **_Evan Tseng_**
-      - [Bug 1282791](https://bugzilla.mozilla.org/show_bug.cgi?id=1282791) - Reps: uninteresting props algorithm is wrong - **_Evan Tseng_**
       - [Bug 1265759](https://bugzilla.mozilla.org/show_bug.cgi?id=1265759) - Create an HTML replacement for Search Box - **_Fred Lin_**
       - [Bug 1286259](https://bugzilla.mozilla.org/show_bug.cgi?id=1286259) - Reps: grip-array rep should support limited preview- **_Fred Lin_**
       - [Bug 1278774](https://bugzilla.mozilla.org/show_bug.cgi?id=1278774) - Breadcrumbs overlaps on the element hiding helper button - **_Fred Lin_**
       - [Bug 1260225](https://bugzilla.mozilla.org/show_bug.cgi?id=1260225) - Move inspector-related command buttons (eyedropper, rulers, screenshot, measurement) to the Inspector panel and enable them by default - **_Joseph Yeh_**
-      - [Bug 1286283](https://bugzilla.mozilla.org/show_bug.cgi?id=1286283) - HTML ToolSidebar should support ARIA - **_Ricky Chien_**
-      - [Bug 1287422](https://bugzilla.mozilla.org/show_bug.cgi?id=1287422) - Don't overlap font-showall button and scrollbar in the Font Inspector - **_Steve Chung_**
       - [Bug 1284855](https://bugzilla.mozilla.org/show_bug.cgi?id=1284855) - Reps: match spacing and brace placement in nested objects/arrays - **_Steve Chung_**
 
 - **_Preferences_**
