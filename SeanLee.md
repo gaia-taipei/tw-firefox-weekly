@@ -1,10 +1,11 @@
 ### Last week
 
 * [Content Handling]
-  - [r?][f+][Bug 1269962] MacOSX/Linux/Windows styles are confirmed. Submit the patch for review.
-  - [Bug 1269957] The scope is changed for Bug 1289139 and Bug 950058 (Bug 1289142).
-  - [Bug 1287384] Try to find a solution for this bug is blocked by Bug 1269958.
-  - [Bug 1269958] Study the download icon change commits which are all relative.
+  - [Bug 1269962] Working on integration test based on reviewer's suggestion.
+  - [Bug 1292345] Fire a new bug which would block bug 1269958 .
+  - [f-][Bug 1287384] After verifying the latest codes, the symptom is changed. The patch got a f-. I will keep investigate this.
+  - [Bug 1269958] Bug 1287384 blocks this. The local patch is rebased again since there are some changes for Downloads Panel.
+  - [Bug 1289139] Discuss with visual designer that how these new SVG icons/CSS can be implemented.
 
 ### This week
 
@@ -14,3 +15,4 @@
 * [Content Handling]
   - [Bug 1269962] working on this bug.
   - [Bug 1269958] working on this bug.
+  - [Bug 1287384] working on this bug.
