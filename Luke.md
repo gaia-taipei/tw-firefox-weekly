@@ -1,17 +1,25 @@
-## 07/25 - 07/29 ##
+## 08/01 - 08/05 ##
 
 ### Last Week ###
 
 * [Mortar/PDF]
-    - [Done] Updated the protocols used in the latest Chromium
-        - doc: https://goo.gl/dai9wt
-    - [Done] Studied the architecture of PDF's UI in Chromium
-    - [Done] Studied the printing flow and launching sequence of PDF.js
-    - [WIP] Studied the architecture of Flapper
+    - [Done] Studied the architecture of Flapper
+    - [Done] Discuss UI architecture with Tim
+        - We've decided to leverage PDF.js' style only and adapt it to our current architecture.
+    - [Done] Discussed UI feature set with Vance
+        - Listed the differences between our feature set and theirs.
+        - Vance will help to communicate with UX afterwards.
+    - [WIP] Applying PDF.js' style to Flapper
+        - Toolbar is rendered fine, but the drop menu doesn't work
+    - [WIP] Implemented scroll bar to Flapper
+        - The basic function works, but the performance is a bit slow.
 
 ### This Week ###
 
 * [Mortar/PDF]
-    - [WIP] Study the architecture of Flapper
-    - [New] Discuss UI feature set
-    - [New] Discuss UI architecture
+    - [WIP] Applying PDF.js' style to Flapper
+        - Try to figure out the problem with the drop menu.
+    - [WIP] Implement scroll bar to Flapper
+        - Will look into the performance issue.
+    - [New] Redesign the viewport
+        - We need a better DOM structure to manipulate canvas.
