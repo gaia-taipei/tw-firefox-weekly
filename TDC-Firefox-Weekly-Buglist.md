@@ -9,7 +9,7 @@
 - **_Content Handling_**
   - **Next**
       - [Bug 1269962](https://bugzilla.mozilla.org/show_bug.cgi?id=1269962) - Implement the new features at "Show All Downloads" in Downloads panel. - **_Sean Lee_**
-      - [Bug 1269957](https://bugzilla.mozilla.org/show_bug.cgi?id=1269957) - Change the number of maximum download items displayed - **_Sean Lee_**
+      - [Bug 1269958](https://bugzilla.mozilla.org/show_bug.cgi?id=1269958) -  Change the summary section for Multiple Files information in Downloads Panel - **_Sean Lee_**
       - [Bug 1270006](https://bugzilla.mozilla.org/show_bug.cgi?id=1270006) - Replace the downloads remaining time on the downloads button with a downloading icon - **_KM Lee_**
       - [Bug 1282689](https://bugzilla.mozilla.org/show_bug.cgi?id=1282689) - Show an alert mark on badges if there are exceptional status to download files. - **_KM Lee_**
 
@@ -78,9 +78,13 @@
       - [Bug 1284855](https://bugzilla.mozilla.org/show_bug.cgi?id=1284855) - Reps: match spacing and brace placement in nested objects/arrays - **_Steve Chung_**
 
 - **_Preferences_**
-  - **Next**
+  - **Done**
       - [Bug 1169704](https://bugzilla.mozilla.org/show_bug.cgi?id=1169704) - In-content preferences - Search tab - "One-click search engines" table remains highlighted after clicking elsewhere on the page - **_Fischer Liu_**
+
+  - **Next**
+      - [Bug 1037166](https://bugzilla.mozilla.org/show_bug.cgi?id=1037166) - Convert the "Show Update History" dialog on advanced pane to be in-content - **_Fischer Liu_**
       - [Bug 1271779](https://bugzilla.mozilla.org/show_bug.cgi?id=1271779) - [QX cluster] Consider improvements to in-content preferences - **_Fischer Liu_**
+      - [Bug 1036815](https://bugzilla.mozilla.org/show_bug.cgi?id=1036815) - Convert Advanced pane dialogs to be in-content - **_Joseph Yeh_**
       - [Bug 1036595](https://bugzilla.mozilla.org/show_bug.cgi?id=1036595) - Convert the "Clear recent history" dialog on privacy page to be in-content - **_Joseph Yeh_**
 
 - **_Private Browsing_**
