@@ -1,33 +1,27 @@
-# 07/25 ~ 07/29
+# 08/01 ~ 08/05
 
 - [Video Control]
+  - Bug 1291013 - Closed-caption button spacing is asymetric
+    - review cancelled, :jaws is overloaded
+    - ask again after flag removed
+  - Bug 1291009 - Closed-caption button fuzzy in hidpi mode
+    - r+, :jaws
+  - Bug 1291268 - HiDPI image are missing from video controls on Windows and Linux
+    - code review, granted and landed
+  - Bug 1292083 - Split mobile/desktop video control and make them inherited from a minimal base binding
+    - WIP
+    - :jaws agrees with this idea.
   - Bug 1271765 - Visual refresh of media controls
-    - Prefer design 01
-    - Consider special cases:
-      - Play audio with \<video\> (no video frame presents)
-      - Video without audio track
-      - Extreme small size video
-      - Error message refresh
+    - Stephen reviewed the concept and mainly agreed
+    - Peko will offer icons in SVG format first and then spec
   - Bug 1222273 - Convert HTML \<video\>/\<audio\> controls to be (mostly?) HTML instead of XUL
-    - Struggle with mobile UI and XBL inheritance problem.
-    - Conversion progress:
-      - Desktop:
-        - Mostly XUL converted, except \<xul:stack\> and \<xul:scale\>
-        - All functions and interface work fine in normal/large size video.
-        - In small size, e.g. 120px, audio button mis-align...need a subtle CSS adjustment.
-      - Mobile:
-        - Like desktop, xul tag mostly removed
-        - Timeline bar's height could not sized as expected
-        - Abnormal touch event on \<xul:scale\> after de-xul (some hack suppress events in original impl)
+    - Depends on: 1292083
 
 ### Video Control Planning ###
 
-After two weeks struggled with De-XUL, I realized the pain point of video control refactoring.
-Old interface has tricky layouts which heavily leverage XUL features, such as thumb overhang timeline or volume control. Both of them inherited from \<xul:scale\> and shared between Desktop and Mobile layout. \<xul:scale\> interferes box model badly and also increases the complication.
-
-With new visual design, we could get rid of \<xul:scale\> perfectly. I beleive it will be more convincing if we could deliver a new interface and then take a fairly easy path to go on further de-xul process. Besides, I plan to add cleanup and refactor bug for video control afterwards.
-
 - [~ late Aug, about 1 month]
+  - Split mobile/desktop bindings - bug 1292083
+    - For better maintenance in the future and is also about to fairly reduce the hacks of de-xul process.
   - Visul refresh of media controls - bug 1271765
     - Iteration of Impl and get feedback from Peko
 - [~ late Sep, about 1 month]
