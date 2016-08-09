@@ -16,14 +16,13 @@
 #### Date Time Pickers Tasks:
 
 - General features
-	- [WIP] Passing data between input field and pickers
-		- Implementing xul:panel + picker in iframe
-	- Two way communication to reflect changes immediately
+	- [feedback?] Passing data between input field and pickers
+	- Keyboard Controls
 - Month picker
 	- [Done] Spinner component (basic functionalities)
-	- Spinners are combined when indivisible step is used
+	- [WIP] Spinners are combined when indivisible step is used
 - Time picker
-	- [WIP] AM/PM component
+	- [Done] AM/PM component
 	- Spinner cycle feature
 - Date picker
 	- Calendar component
@@ -38,7 +37,6 @@
 	- Get calendar info with Intl API
 	- Spinner orders depend on locale
 - Full a11y support
-	- Keyboard control
 	- Tab focus
 	- Alt text & ARIA
 
