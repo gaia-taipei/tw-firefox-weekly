@@ -93,6 +93,7 @@
   - **Next**
       - [Bug 1037166](https://bugzilla.mozilla.org/show_bug.cgi?id=1037166) - Convert the "Show Update History" dialog on advanced pane to be in-content - **_Fischer Liu_**
       - [Bug 1271779](https://bugzilla.mozilla.org/show_bug.cgi?id=1271779) - [QX cluster] Consider improvements to in-content preferences - **_Fischer Liu_**
+      - [Bug 1184989](https://bugzilla.mozilla.org/show_bug.cgi?id=1184989) - Flipping preference through keyboard scrolls the tab as well - **_Joseph Yeh_**
       - [Bug 1036815](https://bugzilla.mozilla.org/show_bug.cgi?id=1036815) - Convert Advanced pane dialogs to be in-content - **_Joseph Yeh_**
       - [Bug 1036595](https://bugzilla.mozilla.org/show_bug.cgi?id=1036595) - Convert the "Clear recent history" dialog on privacy page to be in-content - **_Joseph Yeh_**
 
