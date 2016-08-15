@@ -1,29 +1,26 @@
-# 08/01 ~ 08/05
+# 08/08 ~ 08/12
 
 - [Video Control]
   - Bug 1291013 - Closed-caption button spacing is asymetric
-    - review cancelled, :jaws is overloaded
-    - ask again after flag removed
+    - FIXED
   - Bug 1291009 - Closed-caption button fuzzy in hidpi mode
-    - r+, :jaws
-  - Bug 1291268 - HiDPI image are missing from video controls on Windows and Linux
-    - code review, granted and landed
-  - Bug 1292083 - Split mobile/desktop video control and make them inherited from a minimal base binding
-    - WIP
-    - :jaws agrees with this idea.
+    - FIXED
+  - Bug 1293601 - \[Fennec\] The video controls are missing the time slider and show a random number at the start of video playback on YouTube
+    - r+, checkin-needed
   - Bug 1271765 - Visual refresh of media controls
-    - Stephen reviewed the concept and mainly agreed
-    - Peko will offer icons in SVG format first and then spec
-  - Bug 1222273 - Convert HTML \<video\>/\<audio\> controls to be (mostly?) HTML instead of XUL
-    - Depends on: 1292083
+    - WIP
+    - :dolske and :jaws gave some feedback.
+    - Got a spec draft from Peko.
+  - Bug 1292083 - Split mobile/desktop video control and make them inherited from a minimal base binding
+    - Deferred
 
 ### Video Control Planning ###
 
 - [~ late Aug, about 1 month]
+  - Visul refresh of media controls - bug 1271765
+    - Iteration of Implementation and getting feedback from Peko
   - Split mobile/desktop bindings - bug 1292083
     - For better maintenance in the future and is also about to fairly reduce the hacks of de-xul process.
-  - Visul refresh of media controls - bug 1271765
-    - Iteration of Impl and get feedback from Peko
 - [~ late Sep, about 1 month]
   - [De-XUL] Desktop - bug 726240
   - [De-XUL] Andriod - bug 726240
