@@ -1,19 +1,22 @@
-## 08/01 ~ 08/05 ##
+## 08/08 ~ 08/12 ##
 
 * [Firefox]
   - Dev Tools
-    - Bug 1289912 - Can't scroll in JSON Viewer in Nightly, landed
-    - Bug 1284838 - Reps: render events more uniformly, review?
-      - Updated patch for the review comments, still on review process.
-    - Bug 1288854 - Pressing "escape" to cancel the eye dropper does not always cancel it
-      - Duplicate of Bug 1289433.
+    - Bug 1284838 - Reps: render events more uniformly
+      - review+
+    - Bug 1282465 - Reps: fix or remove recursive handling in ArrayRep and Obj rep
+      - review+
     - Bug 1289062 - Order the Event's properties
-      - Discussed the interesting Event rep's properties with reviewer(Honza).
+      - feedback+
   - Location Bar
     - Bug 1256074 - Always present a 'search' option, even location bar's contents are detected as URLs
-      - Traced code to prepare write patch for the bug. Will write patch this week.
-    - Bug 1282367 - Location bar detects anything with a dot as a URL
-      - Duplicate of bug 1256074
+      - Looking for the code determine location bar treat the string as an URL or a keyword.
   - Password Manager
     - Bug 1277105 - Intermittent e10s browser_capture_doorhanger.js | Check the password changed - Got pass2, expected notifyp1 or Should only have 1 login - Got 0, expected 1
-      - Sent try pushes and get some test failures. Will figure out it this week.
+      - Re-triggered the browser_capture_doorhanger.js test for 10 times. If they are all good, let's close the bug.
+  - Form Autofill
+    - Survey works
+      - Read UX spec to understand what we want to do in the feature.
+      - Can learn related tech knowledge from [Autofill Forms][autofill-forms].
+
+[autofill-forms]: https://github.com/sarahavilov/Autofill-Forms
