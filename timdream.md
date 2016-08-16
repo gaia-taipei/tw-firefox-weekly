@@ -40,7 +40,7 @@
 
 ## Build
 
-* [Bug 1292407](https://bugzilla.mozilla.org/show_bug.cgi?id=1292407) - Make sure artifact build founds topsrcdir
+* [Bug 1292407](https://bugzilla.mozilla.org/show_bug.cgi?id=1292407) - Make sure artifact build finds topsrcdir
  * drive-by fix
  * FIXED in Fx51
 * [Bug 1252976](https://bugzil.la/1252976) - Offer desktop artifact build in |mach bootstrap|
