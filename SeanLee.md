@@ -1,11 +1,10 @@
 ### Last week
 
 * [Content Handling]
-  - [Bug 1269962] Working on integration test based on reviewer's suggestion.
-  - [Bug 1292345] Fire a new bug which would block bug 1269958 .
-  - [f-][Bug 1287384] After verifying the latest codes, the symptom is changed. The patch got a f-. I will keep investigate this.
-  - [Bug 1269958] Bug 1287384 blocks this. The local patch is rebased again since there are some changes for Downloads Panel.
-  - [Bug 1289139] Discuss with visual designer that how these new SVG icons/CSS can be implemented.
+  - [Bug 1269962] Mochitest is implemented. Working on the first review feedback from reviewer.
+  - [Bug 1292345] :adw has taken this. Just keep tracking this bug.
+  - [f-][Bug 1287384] Get a feedback for another patch. However, :paolo provided a full patch to resolve this issue.
+  - [Bug 1269958] Investigate a way to switch summary section and downloads button when the cursor is in the summary section. It depends a lot of codes on Bug 1269962. The patch will be provided later.
 
 ### This week
 
@@ -15,4 +14,3 @@
 * [Content Handling]
   - [Bug 1269962] working on this bug.
   - [Bug 1269958] working on this bug.
-  - [Bug 1287384] working on this bug.
