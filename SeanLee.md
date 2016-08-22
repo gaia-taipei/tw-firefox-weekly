@@ -1,10 +1,8 @@
 ### Last week
 
 * [Content Handling]
-  - [Bug 1269962] Mochitest is implemented. Working on the first review feedback from reviewer.
-  - [Bug 1292345] :adw has taken this. Just keep tracking this bug.
-  - [f-][Bug 1287384] Get a feedback for another patch. However, :paolo provided a full patch to resolve this issue.
-  - [Bug 1269958] Investigate a way to switch summary section and downloads button when the cursor is in the summary section. It depends a lot of codes on Bug 1269962. The patch will be provided later.
+  - [r+][Bug 1269962] Got r+ from reviewer. Going to have a offline discussion if the patch can be landed separately.
+  - [Bug 1269958] Rebase codes to the latest patch in bug 1269962.
 
 ### This week
 
@@ -12,5 +10,4 @@
 - [Bug 1257078] Try to investigate the issue reported by reviewer.
 
 * [Content Handling]
-  - [Bug 1269962] working on this bug.
   - [Bug 1269958] working on this bug.
