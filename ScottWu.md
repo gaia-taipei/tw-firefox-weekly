@@ -1,4 +1,4 @@
-## 8/8 ~ 8/12
+## 8/15 ~ 8/19
 
 - [Firefox]
 	- [r-] [Bug 1000700](https://bugzilla.mozilla.org/show_bug.cgi?id=1000700) - menu-button dropmarkers aren't inverted with dark LWT
@@ -16,21 +16,21 @@
 
 - General features
 	- [feedback?] Passing data between input field and pickers
-	- Keyboard Controls
-		- Jessica will handle keyboard events, UI only receives changes made
+	- [WIP] Keyboard Controls
+		- Input box handles keyboard events most of the time, until user triggers shifting "visual focus" to picker
 - Month picker
 	- [Done] Spinner component (basic functionalities)
 	- [Hold] Spinners are combined when indivisible step is used
 		- UX considering removing this from the spec
 - Time picker
 	- [Done] AM/PM component
-	- [WIP] Spinner cycle feature
+	- [Done] Spinner cycle feature
 	- [Done] Spinner scroll snap even with few items
 	- [Done] Extract time state handling into a module
-		- Fixed step with min & max
-		- Could be used by input box too, will discuss detail with Jessica
 - Date picker
-	- Calendar component
+	- [WIP] Calendar component
+	- [WIP] Month picker
+		- Transition for opening picker
 	- First day of the week & weekends configurable
 - Week picker
 	- Calendar week feature
