@@ -1,27 +1,22 @@
-## 08/08 - 08/12 ##
+## 08/15 - 08/19 ##
 
 ### Last Week ###
 
 * [Mortar/PDF]
-    - Held a meeting to prioritize the API implementation
-        - https://goo.gl/ZWgCSa
+    - [Done] bug 1296569 - [jsplugins] Support adding canvases to a graphics container rather than body
+    - Updated WIP branch based on the latest master branch and Bruce's patch
+    - Helped to identify the multiple canvases issue (bug 1296510)
 
 * [Form Autofill]
-    - Attended the meeting to sync up the current status
-    - Studied the UX spec and PRD
-    - Discussed project and technical details with Vance and Tim
+    - Discussed technical details with Steve and MattN
+    - Discussed schedule planing with Tim and Vance
+    - Clarified some questions about the scope
 
 ### This Week ###
 
 * [Mortar/PDF]
-    - [Suspend] Applying PDF.js' style to Flapper
-        - Try to figure out the problem with the drop menu.
-    - [Suspend] Implement scroll bar to Flapper
-        - Will look into the performance issue.
-    - [New] Redesign the viewport
-        - We need a better DOM structure to manipulate canvas.
+    - Implement scrolling feature
 
 * [Form Autofill]
-    - Study the limitation of test pilot and add-ons
-    - Break down engineering tasks
-    - Sync up with members
+    - Study "nsAutoCompleteController.cpp"
+    - Identify the scope from Gecko side.
