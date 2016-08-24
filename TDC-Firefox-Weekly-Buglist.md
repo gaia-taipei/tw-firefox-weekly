@@ -21,7 +21,7 @@
       - [Bug 1203292](https://bugzilla.mozilla.org/show_bug.cgi?id=1203292) - Replace permissions dropdown with 'x' icon in Permissions main view in Control Center - **_Ricky Chien_**
  
   - **Next**
- 
+      - [Bug 1206229](http://bugzil.la/1206229) - Inform the user that changes may require a page reload - **_Ricky Chien_**
 
 - **_Date-time Picker_**
   - **Next**
@@ -32,11 +32,21 @@
   - **Done**
       - [Bug 1274704](https://bugzilla.mozilla.org/show_bug.cgi?id=1274704) - Intermittent browser_responsiveui_touch.js | 300ms delay between touch events and mouse events should work - Got false, expected true | should not work - Got true, expected false - **_Dan Huang_**
       - [Bug 1273376](https://bugzilla.mozilla.org/show_bug.cgi?id=1273376) - Intermittent browser_responsiveui_touch.js | end event should work Got translate(20px, 10px), expected none - **_Dan Huang_**
+      - [Bug 1295491](https://bugzilla.mozilla.org/show_bug.cgi?id=1295491) - Remove Reference() component in grip-array.js - **_Evan Tseng_**
+      - [Bug 1289062](https://bugzilla.mozilla.org/show_bug.cgi?id=1289062) - Order the Event's properties - **_Evan Tseng_**
+      - [Bug 1282465](https://bugzilla.mozilla.org/show_bug.cgi?id=1282465) - Reps: fix or remove recursive handling in ArrayRep and Obj rep - **_Evan Tseng_**
+      - [Bug 1284838](https://bugzilla.mozilla.org/show_bug.cgi?id=1284838) - Reps: render events more uniformly - **_Evan Tseng_**
       - [Bug 1289912](https://bugzilla.mozilla.org/show_bug.cgi?id=1289912) - Can't scroll in JSON Viewer in Nightly - **_Evan Tseng_**
       - [Bug 1282791](https://bugzilla.mozilla.org/show_bug.cgi?id=1282791) - Reps: uninteresting props algorithm is wrong - **_Evan Tseng_**
       - [Bug 1286892](https://bugzilla.mozilla.org/show_bug.cgi?id=1286892) - Inspector sidebar tabs now have a bigger font-size - **_Evan Tseng_**
       - [Bug 1260382](https://bugzilla.mozilla.org/show_bug.cgi?id=1260382) - Storage inspector incorrectly tries to parse invalid localStorage JSON values - **_Fischer Liu_**
       - [Bug 1264582](https://bugzilla.mozilla.org/show_bug.cgi?id=1264582) - Table headers are not removed when selecting an empty storage - **_Fischer Liu_**
+      - [Bug 1294937](https://bugzilla.mozilla.org/show_bug.cgi?id=1294937) - The context menu does not appear when right-click on the inspector-searchbox - **_Fred Lin_**
+      - [Bug 1294929](https://bugzilla.mozilla.org/show_bug.cgi?id=1294929) - Don't hold "No matches" style, after clearing the "No matches" result using inspector-searchinput-clear - **_Fred Lin_**
+      - [Bug 1294486](https://bugzilla.mozilla.org/show_bug.cgi?id=1294486) - Fix inspector textbox-search-clear position in RTL locales - **_Fred Lin_**
+      - [Bug 1293591](https://bugzilla.mozilla.org/show_bug.cgi?id=1293591) - remove devtools/client/inspector/inspector.css - **_Fred Lin_**
+      - [Bug 1286259](https://bugzilla.mozilla.org/show_bug.cgi?id=1286259) - Reps: grip-array rep should support limited preview - **_Fred Lin_**
+      - [Bug 1265759](https://bugzilla.mozilla.org/show_bug.cgi?id=1265759) - Create an HTML replacement for Search Box - **_Fred Lin_**
       - [Bug 1264686](https://bugzilla.mozilla.org/show_bug.cgi?id=1264686) - Reps: Use grip-array rep to display NamedNodeMap - **_Fred Lin_**
       - [Bug 1285528](https://bugzilla.mozilla.org/show_bug.cgi?id=1285528) - [RTL] Collapse/Expand pane button is not properly displayed - **_Fred Lin_**
       - [Bug 1279526](https://bugzilla.mozilla.org/show_bug.cgi?id=1279526) - Firebug theme: fix CSS for rule view property - **_Fred Lin_**
@@ -55,6 +65,7 @@
       - [Bug 1261133](https://bugzilla.mozilla.org/show_bug.cgi?id=1261133) - Style editor doesn't remove ".moz-styleeditor-transitioning" if I close it in the middle of transition, so there're infinite transitions - **_KM Lee_**
       - [Bug 1265686](https://bugzilla.mozilla.org/show_bug.cgi?id=1265686) - Add PgUp+PgDown+Home+End navigation in Performance Profiler treeview? - **_Luke Chang_**
       - [Bug 1263104](https://bugzilla.mozilla.org/show_bug.cgi?id=1263104) - Ctrl+F in Storage Inspector should open search - **_Luke Chang_**
+      - [Bug 1278923](https://bugzilla.mozilla.org/show_bug.cgi?id=1278923) - Exported HAR format is missing Content-Type and Content-Length headers - **_Ricky Chien_**
       - [Bug 1291618](https://bugzilla.mozilla.org/show_bug.cgi?id=1291618) - Fix dropmarker position of command-button-frames in RTL locales - **_Ricky Chien_**
       - [Bug 1102269](https://bugzilla.mozilla.org/show_bug.cgi?id=1102269) - [highlighter] infobar can be outside visible area - **_Ricky Chien_**
       - [Bug 1286283](https://bugzilla.mozilla.org/show_bug.cgi?id=1286283) - HTML ToolSidebar should support ARIA - **_Ricky Chien_**
@@ -62,6 +73,13 @@
       - [Bug 1280791](https://bugzilla.mozilla.org/show_bug.cgi?id=1280791) - Don't apply min-width to the command-button-frames checkbox in firebug theme - **_Ricky Chien_**
       - [Bug 1273076](https://bugzilla.mozilla.org/show_bug.cgi?id=1273076) - Show more details in about:debugging#invalid-hash - **_Ricky Chien_**
       - [Bug 1268107](https://bugzilla.mozilla.org/show_bug.cgi?id=1268107) - Cannot use back in about:debugging after entering an invalid hash - **_Ricky Chien_**
+      - [Bug 1294464](https://bugzilla.mozilla.org/show_bug.cgi?id=1294464) - Don't overlap inspector-search and eyedropper, pane-toggle - **_Steve Chung_**
+      - [Bug 1253327](https://bugzilla.mozilla.org/show_bug.cgi?id=1253327) - Fix direction of children-pointer in RTL - **_Steve Chung_**
+      - [Bug 1295390](https://bugzilla.mozilla.org/show_bug.cgi?id=1295390) - Don't hold search result after clearing inspector-searchbox by inspector-searchinput-clear - **_Steve Chung_**
+      - [Bug 1253323](https://bugzilla.mozilla.org/show_bug.cgi?id=1253323) - Fix direction of heap-tree-number in RTL - **_Steve Chung_**
+      - [Bug 1294059](https://bugzilla.mozilla.org/show_bug.cgi?id=1294059) - Remove devtools/client/styleeditor/styleeditor.css and merge with devtools/client/themes/styleeditor.css - **_Steve Chung_**
+      - [Bug 1205590](https://bugzilla.mozilla.org/show_bug.cgi?id=1205590) - [RTL] Waterfall twisty direction is wrong in RTL locales - **_Steve Chung_**
+      - [Bug 1253330](https://bugzilla.mozilla.org/show_bug.cgi?id=1253330) - Fix heap-tree-item-field heap-tree-item-name inline style (margin-left) in RTL - **_Steve Chung_**
       - [Bug 1288341](https://bugzilla.mozilla.org/show_bug.cgi?id=1288341) - Don't overlap layout-expander in RTL Locales - **_Steve Chung_**
       - [Bug 1288401](https://bugzilla.mozilla.org/show_bug.cgi?id=1288401) - Inspector sidebar tabs are missing the :active styling - **_Steve Chung_**
       - [Bug 1287422](https://bugzilla.mozilla.org/show_bug.cgi?id=1287422) - Don't overlap font-showall button and scrollbar in the Font Inspector - **_Steve Chung_**
@@ -73,17 +91,10 @@
       - [Bug 1285530](https://bugzilla.mozilla.org/show_bug.cgi?id=1285530) - Reps: Off by one error in grip-array max length - **_Steve Chung_**
 
   - **Next**
-      - [Bug 1289062](https://bugzilla.mozilla.org/show_bug.cgi?id=1289062) - Order the Event's properties - **_Evan Tseng_**
-      - [Bug 1284838](https://bugzilla.mozilla.org/show_bug.cgi?id=1284838) - Reps: render events more uniformly - **_Evan Tseng_**
-      - [Bug 1289369](https://bugzilla.mozilla.org/show_bug.cgi?id=1289369) - [rep tests] Add tests for the order of grip rep properties - **_Evan Tseng_**
       - [Bug 1291638](https://bugzilla.mozilla.org/show_bug.cgi?id=1291638) - change color theme of box-model view - **_Fred Lin_**
-      - [Bug 1265759](https://bugzilla.mozilla.org/show_bug.cgi?id=1265759) - Create an HTML replacement for Search Box - **_Fred Lin_**
-      - [Bug 1286259](https://bugzilla.mozilla.org/show_bug.cgi?id=1286259) - Reps: grip-array rep should support limited preview- **_Fred Lin_**
-      - [Bug 1278774](https://bugzilla.mozilla.org/show_bug.cgi?id=1278774) - Breadcrumbs overlaps on the element hiding helper button - **_Fred Lin_**
-      - [Bug 1278923](https://bugzilla.mozilla.org/show_bug.cgi?id=1278923) - Exported HAR format is missing Content-Type and Content-Length headers - **_Ricky Chien_**
       - [Bug 1260225](https://bugzilla.mozilla.org/show_bug.cgi?id=1260225) - Move inspector-related command buttons (eyedropper, rulers, screenshot, measurement) to the Inspector panel and enable them by default - **_Joseph Yeh_**
-      - [Bug 1205590](https://bugzilla.mozilla.org/show_bug.cgi?id=1205590) - [RTL] Waterfall twisty direction is wrong in RTL locales - **_Steve Chung_**
-      - [Bug 1253330](https://bugzilla.mozilla.org/show_bug.cgi?id=1253330) - Fix heap-tree-item-field heap-tree-item-name inline style (margin-left) in RTL - **_Steve Chung_**
+      - [Bug 1290437](http://bugzil.la/1290437) - Fix and land the console netlogging tests - **_Ricky Chien_**
+      - [Bug 1296187](https://bugzilla.mozilla.org/show_bug.cgi?id=1296187) - Don't overlap inspector-searchinput-clear with text - **_Steve Chung_**
       - [Bug 1284855](https://bugzilla.mozilla.org/show_bug.cgi?id=1284855) - Reps: match spacing and brace placement in nested objects/arrays - **_Steve Chung_**
 
 - **_Preferences_**
@@ -121,14 +132,14 @@
 
 - **_Video Controls_**
   - **Done**
+      - [Bug 1293601](https://bugzilla.mozilla.org/show_bug.cgi?id=1293601) - [Fennec] The video controls are missing the time slider and show a random number at the start of video playback on YouTube - **_Ray Lin_**
+      - [Bug 1291013](https://bugzilla.mozilla.org/show_bug.cgi?id=1291013) - Closed-caption button spacing is asymetric - **_Ray Lin_**
       - [Bug 1291009](https://bugzilla.mozilla.org/show_bug.cgi?id=1291009) - Closed-caption button fuzzy in hidpi mode - **_Ray Lin_**
       - [Bug 985915](https://bugzilla.mozilla.org/show_bug.cgi?id=985915) - [webvtt] The two rows subtitles are overlapped with video controls on mouse hover - **_Ray Lin_**
       - [Bug 887934](https://bugzilla.mozilla.org/show_bug.cgi?id=887934) - [webvtt] Update video controls to include options for closed captioning - **_Ray Lin_**
 
   - **Next**
-      - [Bug 1281414](https://bugzilla.mozilla.org/show_bug.cgi?id=1281414) - [webvtt] Update the design of closed caption button icon - **_Ray Lin_**
       - [Bug 1292083](https://bugzilla.mozilla.org/show_bug.cgi?id=1292083) - Split mobile/desktop video control and make them inherited from a minimal base binding - **_Ray Lin_**
-      - [Bug 1291013](https://bugzilla.mozilla.org/show_bug.cgi?id=1291013) - Closed-caption button spacing is asymetric - **_Ray Lin_**
       - [Bug 1271765](https://bugzilla.mozilla.org/show_bug.cgi?id=1271765) - Visual refresh of media controls - **_Ray Lin_**
       - [Bug 1222273](https://bugzilla.mozilla.org/show_bug.cgi?id=1222273) - Convert HTML <video>/<audio> controls to be (mostly?) HTML instead of XUL - **_Ray Lin_**
 
@@ -160,7 +171,7 @@
 
 - **_Others_**
   - **Done**
-      - [Bug 1272849](https://bugzilla.mozilla.org/show_bug.cgi?id=1272849) - Intermittent browser_notifications_2.js | Main action button is disabled - false == true - JS frame :: chrome://mochitests/content/browser/toolkit/components/passwordmgr/test/browser/browser_notifications_2.js :: test_empty_password/< :: line 36 etc. - **_Fred Lin_**
+      - [Bug 1270321](https://bugzilla.mozilla.org/show_bug.cgi?id=1270321) - Ship remember password doorhanger visibility toggle - **_Fred Lin_**
       - [Bug 1273023](https://bugzilla.mozilla.org/show_bug.cgi?id=1273023) - Convert xpcshell-tests in toolkit/components/places/tests/bookmarks/test_385829.js to Bookmarks.jsm API - **_Fred Lin_**
       - [Bug 1275100](https://bugzilla.mozilla.org/show_bug.cgi?id=1275100) - browser_notifications_2.js is going to permafail when Gecko 49 merges to Aurora - **_Fred Lin_**
       - [Bug 1271201](https://bugzilla.mozilla.org/show_bug.cgi?id=1271201) - Convert xpcshell-tests in toolkit/components/places/tests/bookmarks/test_384228.js to Bookmarks.jsm API - **_Fred Lin_**
@@ -174,8 +185,11 @@
       - [Bug 1266611](https://bugzilla.mozilla.org/show_bug.cgi?id=1266611) - Tab prompts can overlap in the same tab - **_Tim Chien_**
 
   - **Next**
+      - [Bug 1256074](https://bugzilla.mozilla.org/show_bug.cgi?id=1256074) - Always present a 'search' option, even location bar's contents are detected as URLs - **_Evan Tseng_**
       - [Bug 1277105](https://bugzilla.mozilla.org/show_bug.cgi?id=1277105) - Intermittent e10s browser_capture_doorhanger.js | Check the password changed - Got pass2, expected notifyp1 or Should only have 1 login - Got 0, expected 1 - **_Evan Tseng_**
       - [Bug 1113581](https://bugzilla.mozilla.org/show_bug.cgi?id=1113581) - Artifact when editing a keyword, the keyword is displayed under the text-area - **_Fischer Liu_**
+      - [Bug 1272849](https://bugzilla.mozilla.org/show_bug.cgi?id=1272849) - Intermittent browser_notifications_2.js | Main action button is disabled - false == true - JS frame :: chrome://mochitests/content/browser/toolkit/components/passwordmgr/test/browser/browser_notifications_2.js :: test_empty_password/< :: line 36 etc. - **_Fred Lin_**
+      - [Bug 1296128](http://bugzil.la/1296128) - (X) icon to remove permissions in control center doesn't have any indication its focused - **_Ricky Chien_**
       - [Bug 1000700](https://bugzilla.mozilla.org/show_bug.cgi?id=1000700) - menu-button dropmarkers aren't inverted with dark LWT - **_Scott Wu_**
       - [Bug 1257078](https://bugzilla.mozilla.org/show_bug.cgi?id=1257078) - Toggle selected password visibility in the manager with a button - **_Sean Lee_**
 
