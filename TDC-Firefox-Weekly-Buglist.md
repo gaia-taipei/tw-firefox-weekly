@@ -7,9 +7,12 @@
 
 # Firefox #
 - **_Content Handling_**
-  - **Next**
+  - **Done**
       - [Bug 1269962](https://bugzilla.mozilla.org/show_bug.cgi?id=1269962) - Implement the new features at "Show All Downloads" in Downloads panel. - **_Sean Lee_**
+
+  - **Next**
       - [Bug 1269958](https://bugzilla.mozilla.org/show_bug.cgi?id=1269958) -  Change the summary section for Multiple Files information in Downloads Panel - **_Sean Lee_**
+      - [Bug 950058](https://bugzilla.mozilla.org/show_bug.cgi?id=950058) - Split each download item so that all of the right part of it activates the action - **_KM Lee_**
       - [Bug 1270006](https://bugzilla.mozilla.org/show_bug.cgi?id=1270006) - Replace the downloads remaining time on the downloads button with a downloading icon - **_KM Lee_**
       - [Bug 1282689](https://bugzilla.mozilla.org/show_bug.cgi?id=1282689) - Show an alert mark on badges if there are exceptional status to download files. - **_KM Lee_**
 
@@ -99,13 +102,15 @@
 
 - **_Preferences_**
   - **Done**
+      - [Bug 1037166](https://bugzilla.mozilla.org/show_bug.cgi?id=1037166) - Convert the "Show Update History" dialog on advanced pane to be in-content - **_Fischer Liu_**
       - [Bug 1169704](https://bugzilla.mozilla.org/show_bug.cgi?id=1169704) - In-content preferences - Search tab - "One-click search engines" table remains highlighted after clicking elsewhere on the page - **_Fischer Liu_**
+      - [Bug 1036815](https://bugzilla.mozilla.org/show_bug.cgi?id=1036815) - Convert Advanced pane dialogs to be in-content - **_Joseph Yeh_**
 
   - **Next**
-      - [Bug 1037166](https://bugzilla.mozilla.org/show_bug.cgi?id=1037166) - Convert the "Show Update History" dialog on advanced pane to be in-content - **_Fischer Liu_**
+      - [Bug 1028029](https://bugzilla.mozilla.org/show_bug.cgi?id=1028029) - Improve accesskeys in Sync pane of in-content preferences - **_Fischer Liu_**
+      - [Bug 1120967](https://bugzilla.mozilla.org/show_bug.cgi?id=1120967) - Broken middle/right click on links via about:preferences pages - **_Fischer Liu_**
       - [Bug 1271779](https://bugzilla.mozilla.org/show_bug.cgi?id=1271779) - [QX cluster] Consider improvements to in-content preferences - **_Fischer Liu_**
       - [Bug 1184989](https://bugzilla.mozilla.org/show_bug.cgi?id=1184989) - Flipping preference through keyboard scrolls the tab as well - **_Joseph Yeh_**
-      - [Bug 1036815](https://bugzilla.mozilla.org/show_bug.cgi?id=1036815) - Convert Advanced pane dialogs to be in-content - **_Joseph Yeh_**
       - [Bug 1036595](https://bugzilla.mozilla.org/show_bug.cgi?id=1036595) - Convert the "Clear recent history" dialog on privacy page to be in-content - **_Joseph Yeh_**
 
 - **_Private Browsing_**
@@ -166,9 +171,6 @@
       - [Bug 1243722](https://bugzil.la/1243722) - Wrong doorhanger when updating password on Facebook - **_Tim Chien_**
       - [Bug 1243729](https://bugzil.la/1243729) - Username is overwritten with a blank one when updating the password for a Twitter account - **_Tim Chien_**
 
-  - **Next**
-      - [Bug 285836](https://bugzilla.mozilla.org/show_bug.cgi?id=285836) - Make "Remove All Cookies Now" undoable - **_Scott Wu_**
-
 - **_Others_**
   - **Done**
       - [Bug 1270321](https://bugzilla.mozilla.org/show_bug.cgi?id=1270321) - Ship remember password doorhanger visibility toggle - **_Fred Lin_**
@@ -190,7 +192,6 @@
       - [Bug 1113581](https://bugzilla.mozilla.org/show_bug.cgi?id=1113581) - Artifact when editing a keyword, the keyword is displayed under the text-area - **_Fischer Liu_**
       - [Bug 1272849](https://bugzilla.mozilla.org/show_bug.cgi?id=1272849) - Intermittent browser_notifications_2.js | Main action button is disabled - false == true - JS frame :: chrome://mochitests/content/browser/toolkit/components/passwordmgr/test/browser/browser_notifications_2.js :: test_empty_password/< :: line 36 etc. - **_Fred Lin_**
       - [Bug 1296128](http://bugzil.la/1296128) - (X) icon to remove permissions in control center doesn't have any indication its focused - **_Ricky Chien_**
-      - [Bug 1000700](https://bugzilla.mozilla.org/show_bug.cgi?id=1000700) - menu-button dropmarkers aren't inverted with dark LWT - **_Scott Wu_**
       - [Bug 1257078](https://bugzilla.mozilla.org/show_bug.cgi?id=1257078) - Toggle selected password visibility in the manager with a button - **_Sean Lee_**
 
 # Fennec #
@@ -213,13 +214,8 @@
 
   - **Next**
       - [Bug 1086911](https://bugzilla.mozilla.org/show_bug.cgi?id=1086911) - Update style of about:firefox - **_Ray Lin_**
-      - [Bug 1091237](https://bugzilla.mozilla.org/show_bug.cgi?id=1091237) - Show more information in add-ons detail view in about:addons - **_Scott Wu_**
 
 - **_Fennec Reader View_**
   - **Done**
        - [Bug 1272677](https://bugzilla.mozilla.org/show_bug.cgi?id=1272677) - Two parallel lines are displayed in "Aa" floating layout button in reader view - **_Dan Huang_**
        - [Bug 1276686](https://bugzilla.mozilla.org/show_bug.cgi?id=1276686) - Selection handles are displayed when tapping on the reader view toolbar - **_Ray Lin_**
-
-- **_Others_**
-  - **Next**
-       - [Bug 1188271](https://bugzilla.mozilla.org/show_bug.cgi?id=1188271) - "Import bookmarks and history" should be disabled or warn if no data is available - **_Dan Huang_**
