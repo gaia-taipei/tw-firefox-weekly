@@ -1,20 +1,32 @@
-# 08/15 ~ 08/19
+# 08/22 ~ 08/26
 
 - [Video Control]
-  - Bug 1291013 - Closed-caption button spacing is asymetric
-    - Uplifted -> Aurora
-  - Bug 1291009 - Closed-caption button fuzzy in hidpi mode
-    - Uplifted -> Aurora
-  - Bug 1293601 - \[Fennec\] The video controls are missing the time slider and show a random number at the start of video playback on YouTube
-    - Uplifted -> Aurora
   - Bug 1271765 - Visual refresh of media controls
-    - WIP. New interface are mostly implemented (100% xhtml + css)
-    - TODO:
-      - Error page layout
-      - Adjust breakpoints for different video size
+    - WIP, will ask :jaws for review early next week(W35)
+    - Adjust breakpoints
+      - video: (control resize)[https://drive.google.com/open?id=0B6XCugEDFBX8dUctM3VzNGluTjQ]
+    - Width problem
+      - sent the video and explain our intent to Stephen.
+      - It's about 4 lines of code which calc width before adjustment. We can quickly respond to the decision.
+    - Test & Fix:
+      - audio only / no audio
+      - closed caption button
+      - fullscreen unavailable
+      - all Fennec functionality
+    - TODO
+      - refine patch
+      - final check with UI/UX
 
 - [Sharing]
-  - think of topic and scope
+
+below is my outline draft:
+
+  - Write and Test XUL/XBL without rebuilding firefox
+  - Basic XBL concept
+  - Namespce
+  - Inspect XBL binding/anonymous content in content
+  - Inheritance
+  - De-XUL
 
 
 ### Video Control Planning ###
