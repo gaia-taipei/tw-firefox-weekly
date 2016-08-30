@@ -1,4 +1,4 @@
-## 8/15 ~ 8/19
+## 8/22 ~ 8/25
 
 - [Firefox]
 	- [r-] [Bug 1000700](https://bugzilla.mozilla.org/show_bug.cgi?id=1000700) - menu-button dropmarkers aren't inverted with dark LWT
@@ -9,13 +9,13 @@
 - [Date-time Picker]
 	- [Bug 1283381](https://bugzilla.mozilla.org/show_bug.cgi?id=1283381) - [meta] Implement UI for date time input types
 		- [Bug 1283384](https://bugzilla.mozilla.org/show_bug.cgi?id=1283384) - Implement UI for \<input type="time"\>
-	- [Tracking] [Bug 1280654](https://bugzilla.mozilla.org/show_bug.cgi?id=1280654) - Expose a generic API for polling data out of CLDR
-	- [Tracking] [Bug 1287677](https://bugzilla.mozilla.org/show_bug.cgi?id=1287677) - Expose an API to provide display names for calendar terms
 
 #### Date Time Pickers Tasks:
 
 - General features
 	- [feedback?] Passing data between input field and pickers
+		- Cleaned up code so reviewer can better understand it
+		- Added more comments
 	- [WIP] Keyboard Controls
 		- Input box handles keyboard events most of the time, until user triggers shifting "visual focus" to picker
 - Month picker
@@ -27,6 +27,8 @@
 	- [Done] Spinner cycle feature
 	- [Done] Spinner scroll snap even with few items
 	- [Done] Extract time state handling into a module
+	- [Done] Changed how updates are handled to make sure it works for years
+	- [WIP] Integrate with input boxes
 - Date picker
 	- [WIP] Calendar component
 	- [WIP] Month picker
