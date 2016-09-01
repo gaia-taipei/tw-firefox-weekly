@@ -14,7 +14,6 @@ Members
 * Rex Lee
 * Luke Chang
 * Sean Lee
-* Dan Huang
 * Fischer Liu
 * Joseph Yeh
 * Graduated
@@ -24,6 +23,7 @@ Members
   - Tzu-lin Huang
   - John Hu
   - Yi-fan Liao
+  - Dan Huang
 
 Suggested Format
 ------
