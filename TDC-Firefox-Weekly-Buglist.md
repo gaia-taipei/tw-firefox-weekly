@@ -9,13 +9,18 @@
 # Firefox #
 - **_Content Handling_**
   - **Done**
+      - [Bug 1298276](https://bugzilla.mozilla.org/show_bug.cgi?id=1298276) - Change the hover behavior in summary section with downloading file - **_Sean Lee_**
+      - [Bug 1297657](https://bugzilla.mozilla.org/show_bug.cgi?id=1297657) - Correct the dropmarker design in Downloads Panel for RTL and plain style - **_Sean Lee_**
       - [Bug 1269962](https://bugzilla.mozilla.org/show_bug.cgi?id=1269962) - Implement the new features at "Show All Downloads" in Downloads panel. - **_Sean Lee_**
+      - [Bug 1297039](https://bugzilla.mozilla.org/show_bug.cgi?id=1297039) - Implement the preference for showing dropmarker or not in Downloads Panel - **_Sean Lee_**
+      - [Bug 1282689](https://bugzilla.mozilla.org/show_bug.cgi?id=1282689) - Show an alert mark on badges if there are exceptional status to download files. - **_KM Lee_**
 
   - **Next**
       - [Bug 1269958](https://bugzilla.mozilla.org/show_bug.cgi?id=1269958) -  Change the summary section for Multiple Files information in Downloads Panel - **_Sean Lee_**
+      - [Bug 1270012](https://bugzilla.mozilla.org/show_bug.cgi?id=1270012) - Show download complete animation on downloads button whenever a download is completed - **_KM Lee_**
       - [Bug 950058](https://bugzilla.mozilla.org/show_bug.cgi?id=950058) - Split each download item so that all of the right part of it activates the action - **_KM Lee_**
       - [Bug 1270006](https://bugzilla.mozilla.org/show_bug.cgi?id=1270006) - Replace the downloads remaining time on the downloads button with a downloading icon - **_KM Lee_**
-      - [Bug 1282689](https://bugzilla.mozilla.org/show_bug.cgi?id=1282689) - Show an alert mark on badges if there are exceptional status to download files. - **_KM Lee_**
+
 
 - **_Control Center_**
   - **Done** 
@@ -176,6 +181,7 @@
 
 - **_Others_**
   - **Done**
+      - [Bug 1113581](https://bugzilla.mozilla.org/show_bug.cgi?id=1113581) - Artifact when editing a keyword, the keyword is displayed under the text-area - **_Fischer Liu_**
       - [Bug 1270321](https://bugzilla.mozilla.org/show_bug.cgi?id=1270321) - Ship remember password doorhanger visibility toggle - **_Fred Lin_**
       - [Bug 1273023](https://bugzilla.mozilla.org/show_bug.cgi?id=1273023) - Convert xpcshell-tests in toolkit/components/places/tests/bookmarks/test_385829.js to Bookmarks.jsm API - **_Fred Lin_**
       - [Bug 1275100](https://bugzilla.mozilla.org/show_bug.cgi?id=1275100) - browser_notifications_2.js is going to permafail when Gecko 49 merges to Aurora - **_Fred Lin_**
@@ -193,7 +199,6 @@
   - **Next**
       - [Bug 1256074](https://bugzilla.mozilla.org/show_bug.cgi?id=1256074) - Always present a 'search' option, even location bar's contents are detected as URLs - **_Evan Tseng_**
       - [Bug 1277105](https://bugzilla.mozilla.org/show_bug.cgi?id=1277105) - Intermittent e10s browser_capture_doorhanger.js | Check the password changed - Got pass2, expected notifyp1 or Should only have 1 login - Got 0, expected 1 - **_Evan Tseng_**
-      - [Bug 1113581](https://bugzilla.mozilla.org/show_bug.cgi?id=1113581) - Artifact when editing a keyword, the keyword is displayed under the text-area - **_Fischer Liu_**
       - [Bug 1272849](https://bugzilla.mozilla.org/show_bug.cgi?id=1272849) - Intermittent browser_notifications_2.js | Main action button is disabled - false == true - JS frame :: chrome://mochitests/content/browser/toolkit/components/passwordmgr/test/browser/browser_notifications_2.js :: test_empty_password/< :: line 36 etc. - **_Fred Lin_**
       - [Bug 1257078](https://bugzilla.mozilla.org/show_bug.cgi?id=1257078) - Toggle selected password visibility in the manager with a button - **_Sean Lee_**
 
