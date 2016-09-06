@@ -1,4 +1,4 @@
-## 8/22 ~ 8/25
+## 8/29~ 9/2
 
 - [Firefox]
 	- [r-] [Bug 1000700](https://bugzilla.mozilla.org/show_bug.cgi?id=1000700) - menu-button dropmarkers aren't inverted with dark LWT
@@ -16,7 +16,8 @@
 	- [feedback?] Passing data between input field and pickers
 		- Cleaned up code so reviewer can better understand it
 		- Added more comments
-	- [WIP] Keyboard Controls
+	- [Hold] Keyboard Controls
+		- To be implemented in follow up bugs
 		- Input box handles keyboard events most of the time, until user triggers shifting "visual focus" to picker
 - Month picker
 	- [Done] Spinner component (basic functionalities)
@@ -28,7 +29,9 @@
 	- [Done] Spinner scroll snap even with few items
 	- [Done] Extract time state handling into a module
 	- [Done] Changed how updates are handled to make sure it works for years
-	- [WIP] Integrate with input boxes
+	- [Done] Integrate with input boxes
+	- [Done] Out of range items are displayed but greyed out
+	- [WIP] Fix panel arrow position
 - Date picker
 	- [WIP] Calendar component
 	- [WIP] Month picker
