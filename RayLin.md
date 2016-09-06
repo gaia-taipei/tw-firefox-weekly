@@ -1,33 +1,15 @@
-# 08/22 ~ 08/26
+# 08/29 ~ 09/02
 
 - [Video Control]
   - Bug 1271765 - Visual refresh of media controls
-    - WIP, will ask :jaws for review early next week(W35)
-    - Adjust breakpoints
-      - video: (control resize)[https://drive.google.com/open?id=0B6XCugEDFBX8dUctM3VzNGluTjQ]
-    - Width problem
-      - sent the video and explain our intent to Stephen.
-      - It's about 4 lines of code which calc width before adjustment. We can quickly respond to the decision.
-    - Test & Fix:
-      - audio only / no audio
-      - closed caption button
-      - fullscreen unavailable
-      - all Fennec functionality
-    - TODO
-      - refine patch
-      - final check with UI/UX
+    - r?jaws
+    - Locale: position/duration time string not localizer friendly.
+      - revised and retain original behavior.
+  - Try/Study video testing
 
 - [Sharing]
 
-below is my outline draft:
-
-  - Write and Test XUL/XBL without rebuilding firefox
-  - Basic XBL concept
-  - Namespce
-  - Inspect XBL binding/anonymous content in content
-  - Inheritance
-  - De-XUL
-
+  Prepare slide in W36
 
 ### Video Control Planning ###
 
