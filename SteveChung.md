@@ -1,14 +1,13 @@
-## This week 8/22 ~ 8/26
+## This week 8/29 ~ 9/2
 * Devtool:
     - [Bug 1261154](https://bugzilla.mozilla.org/show_bug.cgi?id=1261154) - Use "formatAbbreviatedBytes" utility from tree map in sidebar.
-        - F+ after long discussion that we should apply decimal base prefixes in the CLDR.
-    - [Bug 1295390](https://bugzilla.mozilla.org/show_bug.cgi?id=1295390) - Don't hold search result after clearing inspector-searchbox by inspector-searchinput-clear.
-        - Landed
+        - No progress last week.
     - [Bug 1296187](https://bugzilla.mozilla.org/show_bug.cgi?id=1296187) - Don't overlap inspector-searchinput-clear with text.
-        - Review canceled because of a small regression, need rebase since the layout refactored.
-    - New box model view is somehow pended because it's not top priority yet. Devtool team prefer to finish 2 ongoning panels(console/debugger) first:
+        - In review. Got some positive feedback after proposing several methods since the stlye applied to both new HTML elements and original xul element might have some unexpected results.
+    - New console panel:
         - [new console issue 195](https://github.com/devtools-html/gecko-dev/issues/195) - Implement network event consle message.
-            - Raised some questions and created a WIP for some early feedbacks.
+            - Land the first patch for showing part of network event message. Will work with Ricky to finish this item.
 * Autofill
-    - Had a meeting with MattN and he will create some follow up bugs for autofill prerequisite.
     - Surveyed the code to figure out the paths for form data saving and the timing to trigger autofill event.
+    - [Bug 1288557](https://bugzilla.mozilla.org/show_bug.cgi?id=1288557) - Replace custom exceptions dialog (passwordManagerExceptions.xul) with usage of permissions.xul
+        - Landed the issue as MattN suggested, and will work on the follow up [Bug 1288558](https://bugzilla.mozilla.org/show_bug.cgi?id=1288558)
