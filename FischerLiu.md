@@ -1,18 +1,14 @@
-## 08/22 ~ 08/26 ##
+## 08/29 ~ 09/02 ##
 
 ### This Week ###
 
 * [Firefox Preference QX]
-  - [f+] Bug 1120967 - Broken middle/right click on links via about:preferences pages
-    - Confirm the direction with :jaws
+  - [r?] Bug 1120967 - Broken middle/right click on links via about:preferences pages
 
-  - Bug 282220 - Sort domain lists (cookies, exceptions, saved passwords, etc) in reverse DNS order (optionally?)
-    - Plan to confirm the action item on this bug with UX
+  - [WIP] Bug 1037859 - Applications tree column and children is not aligned
 
 ### Last Week ###
 
 * [Firefox Preference QX]
-  - [FIXED] Bug 1113581 - Artifact when editing a keyword, the keyword is displayed under the text-areas
-
-* [Storage Management]
-  - Front-end review discussion
+  - Bug 1120967 - Broken middle/right click on links via about:preferences pages
+    - Add the test and update the patch based on the reviewer's feedback
