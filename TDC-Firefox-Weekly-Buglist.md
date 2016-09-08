@@ -51,6 +51,7 @@
       - [Bug 1286892](https://bugzilla.mozilla.org/show_bug.cgi?id=1286892) - Inspector sidebar tabs now have a bigger font-size - **_Evan Tseng_**
       - [Bug 1260382](https://bugzilla.mozilla.org/show_bug.cgi?id=1260382) - Storage inspector incorrectly tries to parse invalid localStorage JSON values - **_Fischer Liu_**
       - [Bug 1264582](https://bugzilla.mozilla.org/show_bug.cgi?id=1264582) - Table headers are not removed when selecting an empty storage - **_Fischer Liu_**
+      - [Bug 1272364](https://bugzilla.mozilla.org/show_bug.cgi?id=1272364) - [rep tests] Ensure that ARIA presentation role is handled correctly in reps - **_Fred Lin_**
       - [Bug 1295161](https://bugzilla.mozilla.org/show_bug.cgi?id=1295161) - [RTL][networkmonitor] Collapse/Expand pane button is not properly displayed - **_Fred Lin_**
       - [Bug 1295081](https://bugzilla.mozilla.org/show_bug.cgi?id=1295081) - Fix inspector-searchinput-clear display behavior - **_Fred Lin_**
       - [Bug 1294937](https://bugzilla.mozilla.org/show_bug.cgi?id=1294937) - The context menu does not appear when right-click on the inspector-searchbox - **_Fred Lin_**
@@ -192,6 +193,7 @@
       - [Bug 1280525](https://bugzilla.mozilla.org/show_bug.cgi?id=1280525) - Search highlight (Ctrl + F) does not work properly when text is erased - **_Joseph Yeh_**
       - [Bug 1198279](https://bugzilla.mozilla.org/show_bug.cgi?id=1198279) - Closing Find Toolbar should clear all highlighted matches - **_Ray Lin_**
       - [Bug 1296128](http://bugzil.la/1296128) - (X) icon to remove permissions in control center doesn't have any indication its focused - **_Ricky Chien_**
+      - [Bug 1288557](https://bugzilla.mozilla.org/show_bug.cgi?id=1288557) - Replace custom exceptions dialog (passwordManagerExceptions.xul) with usage of permissions.xul - **_Steve Chung_**
       - [Bug 1260276](https://bugzilla.mozilla.org/show_bug.cgi?id=1260276) - Reader mode messes with tab history when I navigate to article in reader mode (on facebook articles) - **_Tim Chien_**
       - [Bug 1277747](https://bugzilla.mozilla.org/show_bug.cgi?id=1277747) - Firefox freezes before restarting when I clicked the [Restart to Update...] button in about dialog - **_Tim Chien_**
       - [Bug 1266611](https://bugzilla.mozilla.org/show_bug.cgi?id=1266611) - Tab prompts can overlap in the same tab - **_Tim Chien_**
@@ -201,6 +203,7 @@
       - [Bug 1277105](https://bugzilla.mozilla.org/show_bug.cgi?id=1277105) - Intermittent e10s browser_capture_doorhanger.js | Check the password changed - Got pass2, expected notifyp1 or Should only have 1 login - Got 0, expected 1 - **_Evan Tseng_**
       - [Bug 1272849](https://bugzilla.mozilla.org/show_bug.cgi?id=1272849) - Intermittent browser_notifications_2.js | Main action button is disabled - false == true - JS frame :: chrome://mochitests/content/browser/toolkit/components/passwordmgr/test/browser/browser_notifications_2.js :: test_empty_password/< :: line 36 etc. - **_Fred Lin_**
       - [Bug 1257078](https://bugzilla.mozilla.org/show_bug.cgi?id=1257078) - Toggle selected password visibility in the manager with a button - **_Sean Lee_**
+      - [Bug 1288558](https://bugzilla.mozilla.org/show_bug.cgi?id=1288558) - Merge passwordManagerCommon.js into passwordManager.js - **_Steve Chung_**
 
 # Fennec #
 
