@@ -1,25 +1,16 @@
 [Open bugs assigned to me](https://bugzilla.mozilla.org/buglist.cgi?quicksearch=assignee%3Agasolin%40mozilla.com) (ASSIGNED = current working on; NEW = backlog)
 
-## 8/29 ~ 9/2
-
-- present Modern Web 2016 experience https://hackmd.io/p/Sk1vUY6q#/
-- study network monitor
+## 9/5 ~ 9/9
 
 Devtools
 
-- Bug 1272364 - [rep tests] Ensure that ARIA presentation role is handled correctly in reps
+- Bug 1291638 - change color theme of box-model view
   - r+ & landed
 
-- Bug 1291638 - change color theme of box-model view
-  - update text position
-  - ui-review+
-  - r?
-
 - Bug 1292592 - sourceeditor uses xul
-  - f?
+  - find out inject JS/CSS to XUL not work
+  - find out style works without iframe
+  - propose new approach at comment 41
 
-- Bug 1292054 - Polish sidebar style
-  - feedback+
-
-- Bug 1296985 - select input element does not show blue border on windows
-  - neddinfo jmethes for native theming
+- Bug 1297412 - Implement HTML Popup Menu
+  - survey and find additional menu ref
