@@ -1,14 +1,16 @@
-## 08/29 ~ 09/02 ##
+## 09/05 ~ 09/09 ##
 
 ### This Week ###
 
 * [Firefox Preference QX]
-  - [r?] Bug 1120967 - Broken middle/right click on links via about:preferences pages
+  - Bug 1028029 - Improve accesskeys in Sync pane of in-content preferences
 
-  - [WIP] Bug 1037859 - Applications tree column and children is not aligned
+* [Storgae Management]
+  - Discuss the required internal API with DOM team
+  - Study codes about receiving notification from DOM storage and handling doorhanger
 
 ### Last Week ###
 
 * [Firefox Preference QX]
-  - Bug 1120967 - Broken middle/right click on links via about:preferences pages
-    - Add the test and update the patch based on the reviewer's feedback
+  - [r+] Bug 1301813 - "Change preferences for search engine suggestions..." doesn't respond to secondary mouse clicking in about:preferences, Privacy pane
+  - [r+] Bug 1120967 - Broken middle/right click on links via about:preferences pages
