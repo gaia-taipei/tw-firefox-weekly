@@ -34,7 +34,6 @@
  
   - **Next**
 
-
 - **_Date-time Picker_**
   - **Next**
       - [Bug 1283384](https://bugzilla.mozilla.org/show_bug.cgi?id=1283384) - Implement UI for `<input type="time">` - **_Scott Wu_**
@@ -53,6 +52,7 @@
       - [Bug 1286892](https://bugzilla.mozilla.org/show_bug.cgi?id=1286892) - Inspector sidebar tabs now have a bigger font-size - **_Evan Tseng_**
       - [Bug 1260382](https://bugzilla.mozilla.org/show_bug.cgi?id=1260382) - Storage inspector incorrectly tries to parse invalid localStorage JSON values - **_Fischer Liu_**
       - [Bug 1264582](https://bugzilla.mozilla.org/show_bug.cgi?id=1264582) - Table headers are not removed when selecting an empty storage - **_Fischer Liu_**
+      - [Bug 1291638](https://bugzilla.mozilla.org/show_bug.cgi?id=1291638) - change color theme of box-model view - **_Fred Lin_**
       - [Bug 1272364](https://bugzilla.mozilla.org/show_bug.cgi?id=1272364) - [rep tests] Ensure that ARIA presentation role is handled correctly in reps - **_Fred Lin_**
       - [Bug 1295161](https://bugzilla.mozilla.org/show_bug.cgi?id=1295161) - [RTL][networkmonitor] Collapse/Expand pane button is not properly displayed - **_Fred Lin_**
       - [Bug 1295081](https://bugzilla.mozilla.org/show_bug.cgi?id=1295081) - Fix inspector-searchinput-clear display behavior - **_Fred Lin_**
@@ -89,6 +89,8 @@
       - [Bug 1280791](https://bugzilla.mozilla.org/show_bug.cgi?id=1280791) - Don't apply min-width to the command-button-frames checkbox in firebug theme - **_Ricky Chien_**
       - [Bug 1273076](https://bugzilla.mozilla.org/show_bug.cgi?id=1273076) - Show more details in about:debugging#invalid-hash - **_Ricky Chien_**
       - [Bug 1268107](https://bugzilla.mozilla.org/show_bug.cgi?id=1268107) - Cannot use back in about:debugging after entering an invalid hash - **_Ricky Chien_**
+      - [Bug 1296187](https://bugzilla.mozilla.org/show_bug.cgi?id=1296187) - Don't overlap inspector-searchinput-clear with text - **_Steve Chung_**
+      - [Bug 1284855](https://bugzilla.mozilla.org/show_bug.cgi?id=1284855) - Reps: match spacing and brace placement in nested objects/arrays - **_Steve Chung_**
       - [Bug 1294464](https://bugzilla.mozilla.org/show_bug.cgi?id=1294464) - Don't overlap inspector-search and eyedropper, pane-toggle - **_Steve Chung_**
       - [Bug 1253327](https://bugzilla.mozilla.org/show_bug.cgi?id=1253327) - Fix direction of children-pointer in RTL - **_Steve Chung_**
       - [Bug 1295390](https://bugzilla.mozilla.org/show_bug.cgi?id=1295390) - Don't hold search result after clearing inspector-searchbox by inspector-searchinput-clear - **_Steve Chung_**
@@ -108,9 +110,6 @@
 
   - **Next**
       - [Bug 1292592](https://bugzilla.mozilla.org/show_bug.cgi?id=1292592) - sourceeditor uses xul - **_Fred Lin_**
-      - [Bug 1291638](https://bugzilla.mozilla.org/show_bug.cgi?id=1291638) - change color theme of box-model view - **_Fred Lin_**
-      - [Bug 1296187](https://bugzilla.mozilla.org/show_bug.cgi?id=1296187) - Don't overlap inspector-searchinput-clear with text - **_Steve Chung_**
-      - [Bug 1284855](https://bugzilla.mozilla.org/show_bug.cgi?id=1284855) - Reps: match spacing and brace placement in nested objects/arrays - **_Steve Chung_**
 
 - **_Preferences_**
   - **Done**
@@ -157,6 +156,7 @@
       - [Bug 887934](https://bugzilla.mozilla.org/show_bug.cgi?id=887934) - [webvtt] Update video controls to include options for closed captioning - **_Ray Lin_**
 
   - **Next**
+      - [Bug 1300805](https://bugzilla.mozilla.org/show_bug.cgi?id=1300805) - Disable WebVTT breaks some controls of the native media player - **_Ray Lin_**
       - [Bug 1292083](https://bugzilla.mozilla.org/show_bug.cgi?id=1292083) - Split mobile/desktop video control and make them inherited from a minimal base binding - **_Ray Lin_**
       - [Bug 1271765](https://bugzilla.mozilla.org/show_bug.cgi?id=1271765) - Visual refresh of media controls - **_Ray Lin_**
       - [Bug 1222273](https://bugzilla.mozilla.org/show_bug.cgi?id=1222273) - Convert HTML <video>/<audio> controls to be (mostly?) HTML instead of XUL - **_Ray Lin_**
@@ -197,17 +197,20 @@
       - [Bug 1280525](https://bugzilla.mozilla.org/show_bug.cgi?id=1280525) - Search highlight (Ctrl + F) does not work properly when text is erased - **_Joseph Yeh_**
       - [Bug 1198279](https://bugzilla.mozilla.org/show_bug.cgi?id=1198279) - Closing Find Toolbar should clear all highlighted matches - **_Ray Lin_**
       - [Bug 1296128](http://bugzil.la/1296128) - (X) icon to remove permissions in control center doesn't have any indication its focused - **_Ricky Chien_**
+      - [Bug 1288558](https://bugzilla.mozilla.org/show_bug.cgi?id=1288558) - Merge passwordManagerCommon.js into passwordManager.js - **_Steve Chung_**
       - [Bug 1288557](https://bugzilla.mozilla.org/show_bug.cgi?id=1288557) - Replace custom exceptions dialog (passwordManagerExceptions.xul) with usage of permissions.xul - **_Steve Chung_**
       - [Bug 1260276](https://bugzilla.mozilla.org/show_bug.cgi?id=1260276) - Reader mode messes with tab history when I navigate to article in reader mode (on facebook articles) - **_Tim Chien_**
       - [Bug 1277747](https://bugzilla.mozilla.org/show_bug.cgi?id=1277747) - Firefox freezes before restarting when I clicked the [Restart to Update...] button in about dialog - **_Tim Chien_**
       - [Bug 1266611](https://bugzilla.mozilla.org/show_bug.cgi?id=1266611) - Tab prompts can overlap in the same tab - **_Tim Chien_**
 
   - **Next**
+      - [Bug 565567](https://bugzilla.mozilla.org/show_bug.cgi?id=565567) - FF should ask for confirmation before quitting with Cmd-Q (only on Mac) - **_Evan Tseng_**
+      - [Bug 612228](https://bugzilla.mozilla.org/show_bug.cgi?id=612228) - Move Reload/Bookmark All Tabs to the List All Tabs menu - **_Evan Tseng_**
       - [Bug 1256074](https://bugzilla.mozilla.org/show_bug.cgi?id=1256074) - Always present a 'search' option, even location bar's contents are detected as URLs - **_Evan Tseng_**
       - [Bug 1277105](https://bugzilla.mozilla.org/show_bug.cgi?id=1277105) - Intermittent e10s browser_capture_doorhanger.js | Check the password changed - Got pass2, expected notifyp1 or Should only have 1 login - Got 0, expected 1 - **_Evan Tseng_**
       - [Bug 1272849](https://bugzilla.mozilla.org/show_bug.cgi?id=1272849) - Intermittent browser_notifications_2.js | Main action button is disabled - false == true - JS frame :: chrome://mochitests/content/browser/toolkit/components/passwordmgr/test/browser/browser_notifications_2.js :: test_empty_password/< :: line 36 etc. - **_Fred Lin_**
+      - [Bug 1000700](https://bugzilla.mozilla.org/show_bug.cgi?id=1000700) - menu-button dropmarkers aren't inverted with dark LWT - **_Scott Wu**
       - [Bug 1257078](https://bugzilla.mozilla.org/show_bug.cgi?id=1257078) - Toggle selected password visibility in the manager with a button - **_Sean Lee_**
-      - [Bug 1288558](https://bugzilla.mozilla.org/show_bug.cgi?id=1288558) - Merge passwordManagerCommon.js into passwordManager.js - **_Steve Chung_**
 
 # Fennec #
 
