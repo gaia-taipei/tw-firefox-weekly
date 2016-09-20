@@ -1,4 +1,4 @@
-## 9/5~ 9/9
+## 9/12~ 9/14
 
 - [Firefox]
 	- [r-] [Bug 1000700](https://bugzilla.mozilla.org/show_bug.cgi?id=1000700) - menu-button dropmarkers aren't inverted with dark LWT
@@ -14,9 +14,9 @@
 
 - General features
 	- [feedback] Passing data between input field and pickers
-		- Preparing for review
-		- Address review issues
-		- Document each function in more detail
+		- Addressed review issues
+		- Submitted a new patch
+		- Arranging a Vidyo chat with Mike to speed up the review process
 	- [Hold] Keyboard Controls
 		- To be implemented in follow up bugs
 		- Input box handles keyboard events most of the time, until user triggers shifting "visual focus" to picker
