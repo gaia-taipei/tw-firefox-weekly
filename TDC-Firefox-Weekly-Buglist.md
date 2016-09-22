@@ -130,13 +130,13 @@
       - [Bug 1120967](https://bugzilla.mozilla.org/show_bug.cgi?id=1120967) - Broken middle/right click on links via about:preferences pages - **_Fischer Liu_**
       - [Bug 1037166](https://bugzilla.mozilla.org/show_bug.cgi?id=1037166) - Convert the "Show Update History" dialog on advanced pane to be in-content - **_Fischer Liu_**
       - [Bug 1169704](https://bugzilla.mozilla.org/show_bug.cgi?id=1169704) - In-content preferences - Search tab - "One-click search engines" table remains highlighted after clicking elsewhere on the page - **_Fischer Liu_**
+      - [Bug 1298872](https://bugzilla.mozilla.org/show_bug.cgi?id=1298872) - Text cropped and overflowed in advanced pane in-content dialogs - **_Joseph Yeh_**
+      - [Bug 1049001](https://bugzilla.mozilla.org/show_bug.cgi?id=1049001) - Convert the certManager dialog to in-content - **_Joseph Yeh_**
       - [Bug 1184989](https://bugzilla.mozilla.org/show_bug.cgi?id=1184989) - Flipping preference through keyboard scrolls the tab as well - **_Joseph Yeh_**
       - [Bug 1036815](https://bugzilla.mozilla.org/show_bug.cgi?id=1036815) - Convert Advanced pane dialogs to be in-content - **_Joseph Yeh_**
 
   - **Next**
       - [Bug 1028029](https://bugzilla.mozilla.org/show_bug.cgi?id=1028029) - Improve accesskeys in Sync pane of in-content preferences - **_Fischer Liu_**
-      - [Bug 1298872](https://bugzilla.mozilla.org/show_bug.cgi?id=1298872) - Text cropped and overflowed in advanced pane in-content dialogs - **_Joseph Yeh_**
-      - [Bug 1049001](https://bugzilla.mozilla.org/show_bug.cgi?id=1049001) - Convert the certManager dialog to in-content - **_Joseph Yeh_**
       - [Bug 1036595](https://bugzilla.mozilla.org/show_bug.cgi?id=1036595) - Convert the "Clear recent history" dialog on privacy page to be in-content - **_Joseph Yeh_**
 
 - **_Private Browsing_**
