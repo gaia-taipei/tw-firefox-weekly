@@ -114,6 +114,17 @@
   - **Next**
      - [Bug 1301544](https://bugzilla.mozilla.org/show_bug.cgi?id=1301544) - Define a schema and storage method for Form Autofill / Web Payment address profiles - **_Luke Chang_**
 
+- **_Password Manager_**
+  - **Done**
+      - [Bug 1302352](https://bugzilla.mozilla.org/show_bug.cgi?id=1302352) - browser_context_menu_iframe.js is skipped in e10s - **_Evan Tseng_**
+      - [Bug 1277105](https://bugzilla.mozilla.org/show_bug.cgi?id=1277105) - Intermittent e10s browser_capture_doorhanger.js | Check the password changed - Got pass2, expected notifyp1 or Should only have 1 login - Got 0, expected 1 - **_Evan Tseng_**
+      - [Bug 1288558](https://bugzilla.mozilla.org/show_bug.cgi?id=1288558) - Merge passwordManagerCommon.js into passwordManager.js - **_Steve Chung_**
+
+  - **Next**
+      - [Bug 1192800](https://bugzilla.mozilla.org/show_bug.cgi?id=1192800) - Intermittent browser_context_menu.js | Uncaught exception - at :0 - Error: operation not possible on dead CPOW - **_Evan Tseng_**
+      - [Bug 1272849](https://bugzilla.mozilla.org/show_bug.cgi?id=1272849) - Intermittent browser_notifications_2.js | Main action button is disabled - false == true - JS frame :: chrome://mochitests/content/browser/toolkit/components/passwordmgr/test/browser/browser_notifications_2.js :: test_empty_password/< :: line 36 etc. - **_Fred Lin_**
+      - [Bug 1257078](https://bugzilla.mozilla.org/show_bug.cgi?id=1257078) - Toggle selected password visibility in the manager with a button - **_Sean Lee_**
+
 - **_Preferences_**
   - **Done**
       - [Bug 1120967](https://bugzilla.mozilla.org/show_bug.cgi?id=1120967) - Broken middle/right click on links via about:preferences pages - **_Fischer Liu_**
@@ -152,6 +163,7 @@
 
 - **_Video Controls_**
   - **Done**
+      - [Bug 1300805](https://bugzilla.mozilla.org/show_bug.cgi?id=1300805) - Disable WebVTT breaks some controls of the native media player - **_Ray Lin_**
       - [Bug 1293601](https://bugzilla.mozilla.org/show_bug.cgi?id=1293601) - [Fennec] The video controls are missing the time slider and show a random number at the start of video playback on YouTube - **_Ray Lin_**
       - [Bug 1291013](https://bugzilla.mozilla.org/show_bug.cgi?id=1291013) - Closed-caption button spacing is asymetric - **_Ray Lin_**
       - [Bug 1291009](https://bugzilla.mozilla.org/show_bug.cgi?id=1291009) - Closed-caption button fuzzy in hidpi mode - **_Ray Lin_**
@@ -159,7 +171,7 @@
       - [Bug 887934](https://bugzilla.mozilla.org/show_bug.cgi?id=887934) - [webvtt] Update video controls to include options for closed captioning - **_Ray Lin_**
 
   - **Next**
-      - [Bug 1300805](https://bugzilla.mozilla.org/show_bug.cgi?id=1300805) - Disable WebVTT breaks some controls of the native media player - **_Ray Lin_**
+      - [Bug 1303245](https://bugzilla.mozilla.org/show_bug.cgi?id=1303245) - add a test to confirm that video control show closed caption button when video has supported text track - **_Ray Lin_**
       - [Bug 1292083](https://bugzilla.mozilla.org/show_bug.cgi?id=1292083) - Split mobile/desktop video control and make them inherited from a minimal base binding - **_Ray Lin_**
       - [Bug 1271765](https://bugzilla.mozilla.org/show_bug.cgi?id=1271765) - Visual refresh of media controls - **_Ray Lin_**
       - [Bug 1222273](https://bugzilla.mozilla.org/show_bug.cgi?id=1222273) - Convert HTML <video>/<audio> controls to be (mostly?) HTML instead of XUL - **_Ray Lin_**
@@ -200,7 +212,6 @@
       - [Bug 1280525](https://bugzilla.mozilla.org/show_bug.cgi?id=1280525) - Search highlight (Ctrl + F) does not work properly when text is erased - **_Joseph Yeh_**
       - [Bug 1198279](https://bugzilla.mozilla.org/show_bug.cgi?id=1198279) - Closing Find Toolbar should clear all highlighted matches - **_Ray Lin_**
       - [Bug 1296128](http://bugzil.la/1296128) - (X) icon to remove permissions in control center doesn't have any indication its focused - **_Ricky Chien_**
-      - [Bug 1288558](https://bugzilla.mozilla.org/show_bug.cgi?id=1288558) - Merge passwordManagerCommon.js into passwordManager.js - **_Steve Chung_**
       - [Bug 1288557](https://bugzilla.mozilla.org/show_bug.cgi?id=1288557) - Replace custom exceptions dialog (passwordManagerExceptions.xul) with usage of permissions.xul - **_Steve Chung_**
       - [Bug 1260276](https://bugzilla.mozilla.org/show_bug.cgi?id=1260276) - Reader mode messes with tab history when I navigate to article in reader mode (on facebook articles) - **_Tim Chien_**
       - [Bug 1277747](https://bugzilla.mozilla.org/show_bug.cgi?id=1277747) - Firefox freezes before restarting when I clicked the [Restart to Update...] button in about dialog - **_Tim Chien_**
@@ -208,12 +219,8 @@
 
   - **Next**
       - [Bug 565567](https://bugzilla.mozilla.org/show_bug.cgi?id=565567) - FF should ask for confirmation before quitting with Cmd-Q (only on Mac) - **_Evan Tseng_**
-      - [Bug 612228](https://bugzilla.mozilla.org/show_bug.cgi?id=612228) - Move Reload/Bookmark All Tabs to the List All Tabs menu - **_Evan Tseng_**
       - [Bug 1256074](https://bugzilla.mozilla.org/show_bug.cgi?id=1256074) - Always present a 'search' option, even location bar's contents are detected as URLs - **_Evan Tseng_**
-      - [Bug 1277105](https://bugzilla.mozilla.org/show_bug.cgi?id=1277105) - Intermittent e10s browser_capture_doorhanger.js | Check the password changed - Got pass2, expected notifyp1 or Should only have 1 login - Got 0, expected 1 - **_Evan Tseng_**
-      - [Bug 1272849](https://bugzilla.mozilla.org/show_bug.cgi?id=1272849) - Intermittent browser_notifications_2.js | Main action button is disabled - false == true - JS frame :: chrome://mochitests/content/browser/toolkit/components/passwordmgr/test/browser/browser_notifications_2.js :: test_empty_password/< :: line 36 etc. - **_Fred Lin_**
       - [Bug 1000700](https://bugzilla.mozilla.org/show_bug.cgi?id=1000700) - menu-button dropmarkers aren't inverted with dark LWT - **_Scott Wu**
-      - [Bug 1257078](https://bugzilla.mozilla.org/show_bug.cgi?id=1257078) - Toggle selected password visibility in the manager with a button - **_Sean Lee_**
 
 # Fennec #
 
