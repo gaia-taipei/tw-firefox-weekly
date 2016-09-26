@@ -1,31 +1,29 @@
-## 09/12 - 09/14 ##
+## 09/19 - 09/23 ##
 
 ### Last Week ###
 
 * [Mortar/PDF]
-    - [Done] Bug 1299397 - [jsplugins][UI] Apply the visual assets of PDF.js to viewer.html
+    - [Done] Bug 1299409 - [jsplugins][UI] Implement loading progress bar
         - landed
     - [WIP] Bug 1299399 - [jsplugins][UI] Implement scrolling feature
-        - got review comments and will update it accordingly
-    - [WIP] Bug 1299409 - [jsplugins][UI] Implement loading progress bar
-        - wrote the patch and got r+
-    - [New] Bug 1302335 - [jsplugins][UI] Implement a polyfill for drop-down menus
-        - under development
+        - modified the patch according to comments
 
 * [Form Autofill]
-    - [WIP] Bug 1301544 - Define a schema and storage method for Form Autofill / Web Payment address profiles
-        - followed up on http://goo.gl/Dm7zW5
-    - Broke down the tasks of the door hanger
-        - Meta: Bug 990185
+    - Work week
+        - confirmed the scope of milestone 1
+        - clarified technical decisions
+    - [Done] Bug 1301544 - Define a schema and storage method for Form Autofill / Web Payment address profiles
+        - followed up on http://goo.gl/Dm7zW5 and updated status on bug
+        - discussed with Sync team via mail
+    - [WIP] Bug 1016733 - Implement form auto-fill profile storage
+        - wrote the first patch and requested the review
 
 ### This Week ###
 
 * [Mortar/PDF]
-    - [Suspend] Bug 1299399 - [jsplugins][UI] Implement scrolling feature
-    - [Suspend] Bug 1299409 - [jsplugins][UI] Implement loading progress bar
-    - [Suspend] Bug 1302335 - [jsplugins][UI] Implement a polyfill for drop-down menus
+    - [WIP] Bug 1299399 - [jsplugins][UI] Implement scrolling feature
+    - [WIP] Bug 1302335 - [jsplugins][UI] Implement a polyfill for drop-down menus
 
 * [Form Autofill]
-    - Work week
-    - [WIP] Bug 1301544 - Define a schema and storage method for Form Autofill / Web Payment address profiles
+    - [WIP] Bug 1016733 - Implement form auto-fill profile storage
     - [New] Bug 1016733 - Implement form auto-fill profile storage
