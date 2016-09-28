@@ -1,20 +1,16 @@
-# 09/12 ~ 09/14
+# 09/19 ~ 09/23
 
 - [Video Control]
   - Bug 1271765 - Visual refresh of media controls
-    - r+jaws
-    - found a few test failures. (3 files)
-      - fixed 2 of 3
-      - We did a hack to determine whether plaform is mobile or desktop by deferring initialization process. Unfortunately, it conceptually opposes to SimpleTest's framework, and breaks one of the test cases. Need a workaround here.
-  - Bug 1300805 - Disable WebVTT breaks some controls of the native media player\<Paste\>
-		- file another bug: Bug 1303245
+    - try to fix & survey possible layout problem
+    - ask :astley for help with layout problem
+    - notice potential issues about a11y-media test, study a11y test and its libs
   - Bug 1303245 - add a test to confirm that video control show closed caption button when video has supported text track
+    - landed
+  - Bug 1302320 - add a test to confirm that video control show "noaudio" icon when video has no audio
     - WIP
-  - Study testing
-    - better understanding of mochitest
-
-- [Sharing]
-	- Video Control - XBL & De-XUL
+  - Bug 1303993 - "Save audio" option displayed when long tapping a video
+    - help with finding causes
 
 ### Video Control Planning ###
 
