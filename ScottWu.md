@@ -1,4 +1,4 @@
-## 9/12~ 9/14
+## 9/19 ~ 9/20 & 9/26 ~ 9/30
 
 - [Firefox]
 	- [r-] [Bug 1000700](https://bugzilla.mozilla.org/show_bug.cgi?id=1000700) - menu-button dropmarkers aren't inverted with dark LWT
@@ -9,14 +9,16 @@
 - [Date-time Picker]
 	- [Bug 1283381](https://bugzilla.mozilla.org/show_bug.cgi?id=1283381) - [meta] Implement UI for date time input types
 		- [Bug 1283384](https://bugzilla.mozilla.org/show_bug.cgi?id=1283384) - Implement UI for \<input type="time"\>
+		- [r?] [Bug 1306251](https://bugzilla.mozilla.org/show_bug.cgi?id=1306251) - Rename form validation anchor to a more generic name for better reuse
+			- Blocks bug 1283384
 
 #### Date Time Pickers Tasks:
 
 - General features
 	- [feedback] Passing data between input field and pickers
-		- Addressed review issues
-		- Submitted a new patch
-		- Arranging a Vidyo chat with Mike to speed up the review process
+		- Submitted a new patch for review that addresses more issues based on feedback
+		- Had a Vidyo chat with Mike to discuss about the issues
+			- Got more feedback and resources on writing browser tests
 	- [Hold] Keyboard Controls
 		- To be implemented in follow up bugs
 		- Input box handles keyboard events most of the time, until user triggers shifting "visual focus" to picker
