@@ -1,7 +1,7 @@
 
 
 # TDC Bug list by Firefox Programs: #
- - [TDC Resolved-Fixed for 51](https://mzl.la/2c6nX6V) 
+ - [TDC Resolved-Fixed for 51](https://mzl.la/2c6nX6V)
  - [TDC Resolved-Fixed for 50](http://mzl.la/1Ye2Sbk)
  - [TDC Resolved-Fixed for 49](http://mzl.la/22eipYE)
  - [TDC Resolved-Fixed for 48](http://mzl.la/22eiVpB)
@@ -35,6 +35,7 @@
 
 - **_Date-time Picker_**
   - **Next**
+      - [Bug 1306251](https://bugzilla.mozilla.org/show_bug.cgi?id=1306251) - Rename form validation anchor to a more generic name for better reuse - **_Scott Wu_**
       - [Bug 1283384](https://bugzilla.mozilla.org/show_bug.cgi?id=1283384) - Implement UI for `<input type="time">` - **_Scott Wu_**
       - [Bug 1283382](https://bugzilla.mozilla.org/show_bug.cgi?id=1283382) - Implement UI for `<input type="month">` - **_Scott Wu_**
 
@@ -51,6 +52,7 @@
       - [Bug 1286892](https://bugzilla.mozilla.org/show_bug.cgi?id=1286892) - Inspector sidebar tabs now have a bigger font-size - **_Evan Tseng_**
       - [Bug 1260382](https://bugzilla.mozilla.org/show_bug.cgi?id=1260382) - Storage inspector incorrectly tries to parse invalid localStorage JSON values - **_Fischer Liu_**
       - [Bug 1264582](https://bugzilla.mozilla.org/show_bug.cgi?id=1264582) - Table headers are not removed when selecting an empty storage - **_Fischer Liu_**
+      - [Bug 1304262](https://bugzilla.mozilla.org/show_bug.cgi?id=1304262) - Codemirror dialog does not work in inspector and scratchpad  - **_Fred Lin_**
       - [Bug 1291638](https://bugzilla.mozilla.org/show_bug.cgi?id=1291638) - change color theme of box-model view - **_Fred Lin_**
       - [Bug 1272364](https://bugzilla.mozilla.org/show_bug.cgi?id=1272364) - [rep tests] Ensure that ARIA presentation role is handled correctly in reps - **_Fred Lin_**
       - [Bug 1295161](https://bugzilla.mozilla.org/show_bug.cgi?id=1295161) - [RTL][networkmonitor] Collapse/Expand pane button is not properly displayed - **_Fred Lin_**
@@ -114,6 +116,7 @@
   - **Next**
      - [Bug 1016733](https://bugzilla.mozilla.org/show_bug.cgi?id=1016733) - Implement form auto-fill profile storage - **_Luke Chang_**
      - [Bug 1301544](https://bugzilla.mozilla.org/show_bug.cgi?id=1301544) - Define a schema and storage method for Form Autofill / Web Payment address profiles - **_Luke Chang_**
+     - [Bug 1300988](https://bugzilla.mozilla.org/show_bug.cgi?id=1300988) - Implement an API in the content process to fill a form with a specific form autofill profile using @autocomplete
 
 - **_Password Manager_**
   - **Done**
@@ -166,6 +169,7 @@
 
 - **_Video Controls_**
   - **Done**
+      - [Bug 1303245](https://bugzilla.mozilla.org/show_bug.cgi?id=1303245) - add a test to confirm that video control show closed caption button when video has supported text track - **_Ray Lin_**
       - [Bug 1300805](https://bugzilla.mozilla.org/show_bug.cgi?id=1300805) - Disable WebVTT breaks some controls of the native media player - **_Ray Lin_**
       - [Bug 1293601](https://bugzilla.mozilla.org/show_bug.cgi?id=1293601) - [Fennec] The video controls are missing the time slider and show a random number at the start of video playback on YouTube - **_Ray Lin_**
       - [Bug 1291013](https://bugzilla.mozilla.org/show_bug.cgi?id=1291013) - Closed-caption button spacing is asymetric - **_Ray Lin_**
@@ -174,7 +178,7 @@
       - [Bug 887934](https://bugzilla.mozilla.org/show_bug.cgi?id=887934) - [webvtt] Update video controls to include options for closed captioning - **_Ray Lin_**
 
   - **Next**
-      - [Bug 1303245](https://bugzilla.mozilla.org/show_bug.cgi?id=1303245) - add a test to confirm that video control show closed caption button when video has supported text track - **_Ray Lin_**
+      - [Bug 1302320](https://bugzilla.mozilla.org/show_bug.cgi?id=1302320) - add a test to confirm that video control show "noaudio" icon when video has no audio - **_Ray Lin_**
       - [Bug 1292083](https://bugzilla.mozilla.org/show_bug.cgi?id=1292083) - Split mobile/desktop video control and make them inherited from a minimal base binding - **_Ray Lin_**
       - [Bug 1271765](https://bugzilla.mozilla.org/show_bug.cgi?id=1271765) - Visual refresh of media controls - **_Ray Lin_**
       - [Bug 1222273](https://bugzilla.mozilla.org/show_bug.cgi?id=1222273) - Convert HTML <video>/<audio> controls to be (mostly?) HTML instead of XUL - **_Ray Lin_**
@@ -205,6 +209,7 @@
 - **_Others_**
   - **Done**
       - [Bug 1113581](https://bugzilla.mozilla.org/show_bug.cgi?id=1113581) - Artifact when editing a keyword, the keyword is displayed under the text-area - **_Fischer Liu_**
+      - [Bug 1295151](https://bugzilla.mozilla.org/show_bug.cgi?id=1295151) - Install add-on should not show as a permission in the control center - **_Fred Lin_**
       - [Bug 1270321](https://bugzilla.mozilla.org/show_bug.cgi?id=1270321) - Ship remember password doorhanger visibility toggle - **_Fred Lin_**
       - [Bug 1273023](https://bugzilla.mozilla.org/show_bug.cgi?id=1273023) - Convert xpcshell-tests in toolkit/components/places/tests/bookmarks/test_385829.js to Bookmarks.jsm API - **_Fred Lin_**
       - [Bug 1275100](https://bugzilla.mozilla.org/show_bug.cgi?id=1275100) - browser_notifications_2.js is going to permafail when Gecko 49 merges to Aurora - **_Fred Lin_**
@@ -221,6 +226,7 @@
       - [Bug 1266611](https://bugzilla.mozilla.org/show_bug.cgi?id=1266611) - Tab prompts can overlap in the same tab - **_Tim Chien_**
 
   - **Next**
+      - [Bug 1167568](https://bugzilla.mozilla.org/show_bug.cgi?id=1167568) - Reader View displays only the first part of specific articles from ehow.com - **_Evan Tseng_**
       - [Bug 565567](https://bugzilla.mozilla.org/show_bug.cgi?id=565567) - FF should ask for confirmation before quitting with Cmd-Q (only on Mac) - **_Evan Tseng_**
       - [Bug 1256074](https://bugzilla.mozilla.org/show_bug.cgi?id=1256074) - Always present a 'search' option, even location bar's contents are detected as URLs - **_Evan Tseng_**
       - [Bug 1000700](https://bugzilla.mozilla.org/show_bug.cgi?id=1000700) - menu-button dropmarkers aren't inverted with dark LWT - **_Scott Wu**
