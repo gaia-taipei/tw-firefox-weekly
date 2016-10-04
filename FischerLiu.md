@@ -1,18 +1,15 @@
-## 09/19 ~ 09/23 ##
+## 09/26 ~ 09/30 ##
 
 ### This Week ###
 
 * [Firefox Preference QX]
-  - Bug 1305407 - Rename accesskeys in sync.dtd as .accesskey instead of .label.accesskey
+  - [r?] Bug 1305407 - Rename accesskeys in sync.dtd as .accesskey instead of .label.accesskey
   - [r+] Bug 1130447 - in-content preferences dialog boxes are too small
-    - Need to update test case before landing
+    - The test case is updated and ready to land but unable to push because of the mozreview issue.
+      Contacting the mozreview team, :mcote, to fix the mozreview issue.
+  - Bug 1044586 - F5 key breaks about:preferences
 
 ### Last Week ###
-* [Firefox Preference QX]
-  - [r+] Bug 1028029 - Improve accesskeys in Sync pane of in-content preferences
-
 * [Storgae Management]
-  - Study codes about receiving notification from DOM storage and handling doorhanger
-    - Figure out how permission notification is created in gecko and received in front-end
-    - Successfully enable receiving storage permission notification from DOM
-    - Plan to study how to modify notification popup UI to meet the specs
+  - Bug 1286717 - Expose persist() method to StorageManager
+    - Provide the test patch to the DOM team for testing
