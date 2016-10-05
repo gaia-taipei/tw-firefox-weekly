@@ -1,29 +1,29 @@
-## 09/19 - 09/23 ##
+## 09/26 - 09/30 ##
 
 ### Last Week ###
 
 * [Mortar/PDF]
-    - [Done] Bug 1299409 - [jsplugins][UI] Implement loading progress bar
+    - Work week
+        - demo current progress of PDF
+        - discussed "requestFullscreen" problem with Peter
+    - [Done] Bug 1299399 - [jsplugins][UI] Implement scrolling feature
         - landed
-    - [WIP] Bug 1299399 - [jsplugins][UI] Implement scrolling feature
-        - modified the patch according to comments
+    - [WIP] Bug 1302335 - [jsplugins][UI] Implement a polyfill for drop-down menus
+        - the first patch is waiting for review
+    - [WIP] Bug 1299402 - [jsplugins][UI] Implement zooming feature
+        - the first patch is waiting for review
 
 * [Form Autofill]
-    - Work week
-        - confirmed the scope of milestone 1
-        - clarified technical decisions
-    - [Done] Bug 1301544 - Define a schema and storage method for Form Autofill / Web Payment address profiles
-        - followed up on http://goo.gl/Dm7zW5 and updated status on bug
-        - discussed with Sync team via mail
     - [WIP] Bug 1016733 - Implement form auto-fill profile storage
-        - wrote the first patch and requested the review
+        - modified the patch according to review comments
+    - [New] Bug 1016733 - Implement form auto-fill profile storage
+        - under development
 
 ### This Week ###
 
 * [Mortar/PDF]
-    - [WIP] Bug 1299399 - [jsplugins][UI] Implement scrolling feature
     - [WIP] Bug 1302335 - [jsplugins][UI] Implement a polyfill for drop-down menus
+    - [WIP] Bug 1299402 - [jsplugins][UI] Implement zooming feature
 
 * [Form Autofill]
     - [WIP] Bug 1016733 - Implement form auto-fill profile storage
-    - [New] Bug 1016733 - Implement form auto-fill profile storage
