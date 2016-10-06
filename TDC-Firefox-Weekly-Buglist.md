@@ -38,7 +38,6 @@
   - **Next**
       - [Bug 1306251](https://bugzilla.mozilla.org/show_bug.cgi?id=1306251) - Rename form validation anchor to a more generic name for better reuse - **_Scott Wu_**
       - [Bug 1283384](https://bugzilla.mozilla.org/show_bug.cgi?id=1283384) - Implement UI for `<input type="time">` - **_Scott Wu_**
-      - [Bug 1283382](https://bugzilla.mozilla.org/show_bug.cgi?id=1283382) - Implement UI for `<input type="month">` - **_Scott Wu_**
 
 - **_DevTools_**
   - **Done**
@@ -53,6 +52,7 @@
       - [Bug 1286892](https://bugzilla.mozilla.org/show_bug.cgi?id=1286892) - Inspector sidebar tabs now have a bigger font-size - **_Evan Tseng_**
       - [Bug 1260382](https://bugzilla.mozilla.org/show_bug.cgi?id=1260382) - Storage inspector incorrectly tries to parse invalid localStorage JSON values - **_Fischer Liu_**
       - [Bug 1264582](https://bugzilla.mozilla.org/show_bug.cgi?id=1264582) - Table headers are not removed when selecting an empty storage - **_Fischer Liu_**
+      - [Bug 1292592](https://bugzilla.mozilla.org/show_bug.cgi?id=1292592) - sourceeditor uses xul - **_Fred Lin_**
       - [Bug 1304262](https://bugzilla.mozilla.org/show_bug.cgi?id=1304262) - Codemirror dialog does not work in inspector and scratchpad  - **_Fred Lin_**
       - [Bug 1291638](https://bugzilla.mozilla.org/show_bug.cgi?id=1291638) - change color theme of box-model view - **_Fred Lin_**
       - [Bug 1272364](https://bugzilla.mozilla.org/show_bug.cgi?id=1272364) - [rep tests] Ensure that ARIA presentation role is handled correctly in reps - **_Fred Lin_**
@@ -111,13 +111,13 @@
       - [Bug 1285530](https://bugzilla.mozilla.org/show_bug.cgi?id=1285530) - Reps: Off by one error in grip-array max length - **_Steve Chung_**
 
   - **Next**
-      - [Bug 1292592](https://bugzilla.mozilla.org/show_bug.cgi?id=1292592) - sourceeditor uses xul - **_Fred Lin_**
-
+      - [Bug 1301042](https://bugzilla.mozilla.org/show_bug.cgi?id=1301042) - Firebug Theme - Make differences between checked style and unchecked style for toolbox-buttons - **_Steve Chung_**
+      
 - **_Form Autofill_**
   - **Next**
      - [Bug 1016733](https://bugzilla.mozilla.org/show_bug.cgi?id=1016733) - Implement form auto-fill profile storage - **_Luke Chang_**
      - [Bug 1301544](https://bugzilla.mozilla.org/show_bug.cgi?id=1301544) - Define a schema and storage method for Form Autofill / Web Payment address profiles - **_Luke Chang_**
-     - [Bug 1300988](https://bugzilla.mozilla.org/show_bug.cgi?id=1300988) - Implement an API in the content process to fill a form with a specific form autofill profile using @autocomplete - **_Steve Chuang_**
+     - [Bug 1300988](https://bugzilla.mozilla.org/show_bug.cgi?id=1300988) - Implement an API in the content process to fill a form with a specific form autofill profile using @autocomplete - **_Steve Chung_**
 
 - **_Mortar/PDF_**
   - **Done**
@@ -134,8 +134,7 @@
       - [Bug 1288558](https://bugzilla.mozilla.org/show_bug.cgi?id=1288558) - Merge passwordManagerCommon.js into passwordManager.js - **_Steve Chung_**
 
   - **Next**
-      - [Bug 1192800](https://bugzilla.mozilla.org/show_bug.cgi?id=1192800) - Intermittent browser_context_menu.js | Uncaught exception - at :0 - Error: operation not possible on dead CPOW - **_Evan Tseng_**
-      - [Bug 1272849](https://bugzilla.mozilla.org/show_bug.cgi?id=1272849) - Intermittent browser_notifications_2.js | Main action button is disabled - false == true - JS frame :: chrome://mochitests/content/browser/toolkit/components/passwordmgr/test/browser/browser_notifications_2.js :: test_empty_password/< :: line 36 etc. - **_Fred Lin_**
+      - [Bug 1273871](https://bugzilla.mozilla.org/show_bug.cgi?id=1273871) - Intermittent passwordmgr/test/browser/browser_capture_doorhanger.js | This test exceeded the timeout threshold. It should be rewritten or split up. If that's not possible, use requestLongerTimeout(N), but only as a last resort. - **_Evan Tseng_**
       - [Bug 1257078](https://bugzilla.mozilla.org/show_bug.cgi?id=1257078) - Toggle selected password visibility in the manager with a button - **_Sean Lee_**
 
 - **_Preferences_**
@@ -188,9 +187,7 @@
 
   - **Next**
       - [Bug 1302320](https://bugzilla.mozilla.org/show_bug.cgi?id=1302320) - add a test to confirm that video control show "noaudio" icon when video has no audio - **_Ray Lin_**
-      - [Bug 1292083](https://bugzilla.mozilla.org/show_bug.cgi?id=1292083) - Split mobile/desktop video control and make them inherited from a minimal base binding - **_Ray Lin_**
       - [Bug 1271765](https://bugzilla.mozilla.org/show_bug.cgi?id=1271765) - Visual refresh of media controls - **_Ray Lin_**
-      - [Bug 1222273](https://bugzilla.mozilla.org/show_bug.cgi?id=1222273) - Convert HTML <video>/<audio> controls to be (mostly?) HTML instead of XUL - **_Ray Lin_**
 
 - **_Good First Bug/Mentor Bug/Good Next Bug_**
   - **Done**
@@ -236,7 +233,6 @@
 
   - **Next**
       - [Bug 1167568](https://bugzilla.mozilla.org/show_bug.cgi?id=1167568) - Reader View displays only the first part of specific articles from ehow.com - **_Evan Tseng_**
-      - [Bug 565567](https://bugzilla.mozilla.org/show_bug.cgi?id=565567) - FF should ask for confirmation before quitting with Cmd-Q (only on Mac) - **_Evan Tseng_**
       - [Bug 1256074](https://bugzilla.mozilla.org/show_bug.cgi?id=1256074) - Always present a 'search' option, even location bar's contents are detected as URLs - **_Evan Tseng_**
       - [Bug 1000700](https://bugzilla.mozilla.org/show_bug.cgi?id=1000700) - menu-button dropmarkers aren't inverted with dark LWT - **_Scott Wu**
 
