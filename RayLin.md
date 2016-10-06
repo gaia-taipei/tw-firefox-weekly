@@ -1,16 +1,12 @@
-# 09/19 ~ 09/23
+# 09/26 ~ 09/30
 
 - [Video Control]
   - Bug 1271765 - Visual refresh of media controls
-    - try to fix & survey possible layout problem
     - ask :astley for help with layout problem
-    - notice potential issues about a11y-media test, study a11y test and its libs
-  - Bug 1303245 - add a test to confirm that video control show closed caption button when video has supported text track
-    - landed
+    - fix some mochitests and a11y tests, but still try to make them green on all platforms.
+    - a11y accessible tree is different from original XUL version. Get to tweak it in optimal way.
   - Bug 1302320 - add a test to confirm that video control show "noaudio" icon when video has no audio
     - WIP
-  - Bug 1303993 - "Save audio" option displayed when long tapping a video
-    - help with finding causes
 
 ### Video Control Planning ###
 
