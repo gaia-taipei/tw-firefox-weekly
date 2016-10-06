@@ -9,6 +9,7 @@
 # Firefox #
 - **_Content Handling_**
   - **Done**
+      - [Bug 1304680](https://bugzilla.mozilla.org/show_bug.cgi?id=1304680) - browser_downloads_panel_footer.js | Test timed out - after beta uplift simulation - **_Sean Lee_**
       - [Bug 1299712](https://bugzilla.mozilla.org/show_bug.cgi?id=1299712) - Use a new downloadTypeIcon in Summary Section of Downloads Panel - **_Sean Lee_**
       - [Bug 1298276](https://bugzilla.mozilla.org/show_bug.cgi?id=1298276) - Change the hover behavior in summary section with downloading file - **_Sean Lee_**
       - [Bug 1297657](https://bugzilla.mozilla.org/show_bug.cgi?id=1297657) - Correct the dropmarker design in Downloads Panel for RTL and plain style - **_Sean Lee_**
@@ -19,8 +20,8 @@
   - **Next**
       - [Bug 1289139](https://bugzilla.mozilla.org/show_bug.cgi?id=1289139) - Use SVG for the button icons in the Downloads Panel - **_Sean Lee_**
       - [Bug 1269958](https://bugzilla.mozilla.org/show_bug.cgi?id=1269958) -  Change the summary section for Multiple Files information in Downloads Panel - **_Sean Lee_**
+      - [Bug 1269954](https://bugzilla.mozilla.org/show_bug.cgi?id=1269954) - Pop out download starting notification when a new download request is triggered**_KM Lee_**
       - [Bug 950058](https://bugzilla.mozilla.org/show_bug.cgi?id=950058) - Split each download item so that all of the right part of it activates the action - **_KM Lee_**
-      - [Bug 1270012](https://bugzilla.mozilla.org/show_bug.cgi?id=1270012) - Show download complete animation on downloads button whenever a download is completed - **_KM Lee_**
       - [Bug 1270006](https://bugzilla.mozilla.org/show_bug.cgi?id=1270006) - Replace the downloads remaining time on the downloads button with a downloading icon - **_KM Lee_**
 
 - **_Control Center_**
@@ -116,7 +117,15 @@
   - **Next**
      - [Bug 1016733](https://bugzilla.mozilla.org/show_bug.cgi?id=1016733) - Implement form auto-fill profile storage - **_Luke Chang_**
      - [Bug 1301544](https://bugzilla.mozilla.org/show_bug.cgi?id=1301544) - Define a schema and storage method for Form Autofill / Web Payment address profiles - **_Luke Chang_**
-     - [Bug 1300988](https://bugzilla.mozilla.org/show_bug.cgi?id=1300988) - Implement an API in the content process to fill a form with a specific form autofill profile using @autocomplete
+     - [Bug 1300988](https://bugzilla.mozilla.org/show_bug.cgi?id=1300988) - Implement an API in the content process to fill a form with a specific form autofill profile using @autocomplete - **_Steve Chuang_**
+
+- **_Mortar/PDF_**
+  - **Done**
+      - [Bug 1299399](https://bugzilla.mozilla.org/show_bug.cgi?id=1299399) - [jsplugins][UI] Implement scrolling feature - **_Luke Chang_**
+      - [Bug 1299402](https://bugzilla.mozilla.org/show_bug.cgi?id=1299402) - [jsplugins][UI] Implement zoom-in and zoom-out buttons - **_Luke Chang_**
+
+  - **Next**
+      - [Bug 1302335](https://bugzilla.mozilla.org/show_bug.cgi?id=1302335) - [jsplugins][UI] Implement a polyfill for drop-down menus - **_Luke Chang_**
 
 - **_Password Manager_**
   - **Done**
@@ -131,6 +140,7 @@
 
 - **_Preferences_**
   - **Done**
+      - [Bug 1130447](https://bugzilla.mozilla.org/show_bug.cgi?id=1130447) - Hide the password manager timeLastUsed column by default - **_Fischer Liu_**
       - [Bug 1028029](https://bugzilla.mozilla.org/show_bug.cgi?id=1028029) - Improve accesskeys in Sync pane of in-content preferences - **_Fischer Liu_**
       - [Bug 1120967](https://bugzilla.mozilla.org/show_bug.cgi?id=1120967) - Broken middle/right click on links via about:preferences pages - **_Fischer Liu_**
       - [Bug 1037166](https://bugzilla.mozilla.org/show_bug.cgi?id=1037166) - Convert the "Show Update History" dialog on advanced pane to be in-content - **_Fischer Liu_**
@@ -142,7 +152,6 @@
 
   - **Next**
       - [Bug 1305407](https://bugzilla.mozilla.org/show_bug.cgi?id=1305407) - Rename accesskeys in sync.dtd as .accesskey instead of .label.accesskey - **_Fischer Liu_**
-      - [Bug 1130447](https://bugzilla.mozilla.org/show_bug.cgi?id=1130447) - Hide the password manager timeLastUsed column by default - **_Fischer Liu_**
       - [Bug 1036595](https://bugzilla.mozilla.org/show_bug.cgi?id=1036595) - Convert the "Clear recent history" dialog on privacy page to be in-content - **_Joseph Yeh_**
 
 - **_Private Browsing_**
