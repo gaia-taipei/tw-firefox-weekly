@@ -1,11 +1,14 @@
-## 09/26 - 09/30
+## 10/03 - 10/07
 
 ###DevTools
 * [#196](https://github.com/devtools-html/gecko-dev/issues/196) - Support network event update messages
- * r+ but need to rebase again since there are many updates landed recently.
-* [#213](https://github.com/devtools-html/gecko-dev/issues/213) - Incorporate HTTP inspector
- * Investigate how to integrate network-message-event and net-info-body components and work in a WIP patch
- * After discussing with Lin Clark, this issue will be deprioritize due to potential performance issues.
-* de-xul network monitor planning
- * Code tracing for network monitor & webconsole network
+ * r? new issue fixed because of missing stubPacket keys for enzyme testing.
+* Netmonitor.html planning 
+ * There was a lots of discussion and great progress has been made during last week, and came out with a high level goal and a roadmap for [Netmonitor.html].
+ * Architecture analysis and task breakdown and most of the breakdown is complete [Netmonitor.html].
+ * Bugs and followups are filed [Bug 1307743 - Migrate Net panel to HTML]
+ * We'll have two triage meetings (on Tue and Wed) with Devtools EPM Marco on this week to figure out the schedule and the prioritize.
  * See updates and more details at https://hackmd.io/CYQw7ATArAnAjMAtAFgAxjigHAMyomMVLRAUymTgjAGMAjCEGYIA?view
+
+[Netmonitor.html]: https://docs.google.com/document/d/1NUiCCwDutuuNQhKXYnBFt28LX0qFIylgXwmxHeuRKtY/edit#
+[Bug 1307743 - Migrate Net panel to HTML]: https://bugzilla.mozilla.org/show_bug.cgi?id=1307743
