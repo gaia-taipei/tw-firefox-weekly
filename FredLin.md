@@ -1,18 +1,27 @@
 [Open bugs assigned to me](https://bugzilla.mozilla.org/buglist.cgi?quicksearch=assignee%3Agasolin%40mozilla.com) (ASSIGNED = current working on; NEW = backlog)
 
-## (Worth to track in Taipei mana board) deXUL NetMonitor
-As part of previous devtools project oppertunity seeking result, in Q4 devtools team agreed we(Fred, Ricky, Yarda(Full time), Honza, Steve(Partial time)) could start working on deXUL Devtools NetMonitor. Besides finish the rest work of Devtools track #2, from the first week of October, we start the planning phase to break down tasks and estimate the scope.
-
-Project overview and details are keeping updated in https://hackmd.io/s/Skz4wvbo#overview
-
-
-## 9/26 ~ 9/30
-
-Typhoon at 9/27, 28
+## 10/03 - 10/07
 
 Devtools
 
 - Bug 1292592 - sourceeditor uses xul
-  - identify key shortcut test fail on mac
-  - convert test_browser_editor_goto_line to generator based test
-  - integrate shared-header.js in sourceeditor's test
+  - r+ & landed
+
+- netmonitor.html(deXUL netmonitor)
+  - Project summary in [Project document]
+    - We'll refactor Net panel code base in steps while keeping TryHerder green(as opposed to the Console and Debugger panel which are being replaced by new versions).
+    - We'll use Bugzilla for bug tracking, follow standard review process, use Marco’s project management process
+    - Project Q4 goal will be
+      - Replace XUL by HTML
+      - Use React/Redux libraries for the infrastructure
+      - Use existing HTTP Inspector code (Console panel)
+      - Remove Chrome privileged API
+      - Better harness for tests (React/Redux)
+  - Daily meetings to share architecture analysis and breakdown tasks, see [Meeting Notes].  
+  - Most of the [Task breakdown] process is complete, Bugs and followups are filed [Bug 1307743 - Migrate Net panel to HTML]
+  - We'll meet with marco next week to setup the project management process
+
+[Meeting Notes]: https://docs.google.com/document/d/1FneFiHkLMJjWFhFYI13IWlr02W5mCRsEqZQPUJHWmSU/edit#
+[Project document]: https://docs.google.com/document/d/19lyV04YtfX9X5ev2rhFeIuQPaVApgl8qdFpe4Rw4Np4/edit
+[Task breakdown]: https://docs.google.com/document/d/1NUiCCwDutuuNQhKXYnBFt28LX0qFIylgXwmxHeuRKtY/edit#
+[Bug 1307743 - Migrate Net panel to HTML]: https://bugzilla.mozilla.org/show_bug.cgi?id=1307743
