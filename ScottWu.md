@@ -1,4 +1,4 @@
-## 9/19 ~ 9/20 & 9/26 ~ 9/30
+## 10/3 ~ 10/7
 
 - [Firefox]
 	- [r-] [Bug 1000700](https://bugzilla.mozilla.org/show_bug.cgi?id=1000700) - menu-button dropmarkers aren't inverted with dark LWT
@@ -8,9 +8,10 @@
 
 - [Date-time Picker]
 	- [Bug 1283381](https://bugzilla.mozilla.org/show_bug.cgi?id=1283381) - [meta] Implement UI for date time input types
-		- [Bug 1283384](https://bugzilla.mozilla.org/show_bug.cgi?id=1283384) - Implement UI for \<input type="time"\>
-		- [r?] [Bug 1306251](https://bugzilla.mozilla.org/show_bug.cgi?id=1306251) - Rename form validation anchor to a more generic name for better reuse
-			- Blocks bug 1283384
+		- [r+] [Bug 1283384](https://bugzilla.mozilla.org/show_bug.cgi?id=1283384) - Implement UI for \<input type="time"\>
+			- Mike has given an early r+, with some minor issues that should be fixed
+		- [landed] [r+] [Bug 1306251](https://bugzilla.mozilla.org/show_bug.cgi?id=1306251) - Rename form validation anchor to a more generic name for better reuse
+		- [WIP] [Bug 1309471](https://bugzilla.mozilla.org/show_bug.cgi?id=1309471) - [DateTimePicker] Add browser chrome test for time picker
 
 #### Date Time Pickers Tasks:
 
