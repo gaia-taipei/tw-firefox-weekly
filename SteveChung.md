@@ -1,9 +1,9 @@
-## This week 10/3 ~ 10/7
+## This week 10/11 ~ 10/14
 * Devtool:
-    - [Bug 1301042](https://bugzilla.mozilla.org/show_bug.cgi?id=1301042) - Firebug Theme - Make differences between checked style and unchecked style for toolbox-buttons.
-        - Landed.
-    - [Bug 1307743](https://bugzilla.mozilla.org/show_bug.cgi?id=1307743) - (netmonitor-html) [meta] Migrate Net panel to HTML
-        - Discuss with other team members with overall tasks and create subitems for Net panel refactoring meta.
+    - [Bug 1308697](https://bugzilla.mozilla.org/show_bug.cgi?id=1308697) - Implement UI for performance statistics
+        - Discuss with Honza about the possible way to start the refactoring for performance statistic view. Will start bug 1308425 first.
 * Autofill
     - [Bug 1300988](https://bugzilla.mozilla.org/show_bug.cgi?id=1300988) - Implement an API in the content process to fill a form with a specific form autofill profile using @autocomplete
-        - Update the patch for review, but still stuck in some problems while running XPCshell test for extension.
+        - R+ with some small nits that need to be addressed.
+    - [Bug 1300989](https://bugzilla.mozilla.org/show_bug.cgi?id=1300989) - Fill the selected autofill profile when an autocomplete entry is chosen
+        - Investigate the proper way to connect with the autofill drop down menu and call the API created in Bug 1300988.
