@@ -1,6 +1,7 @@
 
 
 # TDC Bug list by Firefox Programs: #
+ - [TDC Resolved-Fixed for 52](https://mzl.la/2egjTCj)
  - [TDC Resolved-Fixed for 51](https://mzl.la/2c6nX6V)
  - [TDC Resolved-Fixed for 50](http://mzl.la/1Ye2Sbk)
  - [TDC Resolved-Fixed for 49](http://mzl.la/22eipYE)
@@ -21,7 +22,7 @@
       - [Bug 1289139](https://bugzilla.mozilla.org/show_bug.cgi?id=1289139) - Use SVG for the button icons in the Downloads Panel - **_Sean Lee_**
       - [Bug 1282664](https://bugzilla.mozilla.org/show_bug.cgi?id=1282664) - Redesign the right-click menu for each item in downloads panel - **_Sean Lee_**
       - [Bug 1269958](https://bugzilla.mozilla.org/show_bug.cgi?id=1269958) -  Change the summary section for Multiple Files information in Downloads Panel - **_Sean Lee_**
-      - [Bug 1269954](https://bugzilla.mozilla.org/show_bug.cgi?id=1269954) - Pop out download starting notification when a new download request is triggered**_KM Lee_**
+      - [Bug 1269954](https://bugzilla.mozilla.org/show_bug.cgi?id=1269954) - Pop out download starting notification when a new download request is triggered - **_KM Lee_**
       - [Bug 950058](https://bugzilla.mozilla.org/show_bug.cgi?id=950058) - Split each download item so that all of the right part of it activates the action - **_KM Lee_**
 
 - **_Control Center_**
@@ -39,6 +40,7 @@
       - [Bug 1306251](https://bugzilla.mozilla.org/show_bug.cgi?id=1306251) - Rename form validation anchor to a more generic name for better reuse - **_Scott Wu_**
 
   - **Next**
+      - [Bug 1301284](https://bugzilla.mozilla.org/show_bug.cgi?id=1301284) - Update picker style to match the visual spec for 'input type=time' - **_Scott Wu_**
       - [Bug 1309471](https://bugzilla.mozilla.org/show_bug.cgi?id=1309471) - [DateTimePicker] Add browser chrome test for time picker - **_Scott Wu_**
       - [Bug 1283384](https://bugzilla.mozilla.org/show_bug.cgi?id=1283384) - Implement UI for `<input type="time">` - **_Scott Wu_**
 
@@ -55,6 +57,9 @@
       - [Bug 1286892](https://bugzilla.mozilla.org/show_bug.cgi?id=1286892) - Inspector sidebar tabs now have a bigger font-size - **_Evan Tseng_**
       - [Bug 1260382](https://bugzilla.mozilla.org/show_bug.cgi?id=1260382) - Storage inspector incorrectly tries to parse invalid localStorage JSON values - **_Fischer Liu_**
       - [Bug 1264582](https://bugzilla.mozilla.org/show_bug.cgi?id=1264582) - Table headers are not removed when selecting an empty storage - **_Fischer Liu_**
+      - [Bug 1308500](https://bugzilla.mozilla.org/show_bug.cgi?id=1308500) - Migrate localization strings away from netmonitor.dtd - **_Fred Lin_**
+      - [Bug 1309796](https://bugzilla.mozilla.org/show_bug.cgi?id=1309796) - add eslint support for netmonitor - **_Fred Lin_**
+      - [Bug 1308503](https://bugzilla.mozilla.org/show_bug.cgi?id=1308503) - Migrate localization strings away from certManager.dtd - **_Fred Lin_**
       - [Bug 1292592](https://bugzilla.mozilla.org/show_bug.cgi?id=1292592) - sourceeditor uses xul - **_Fred Lin_**
       - [Bug 1304262](https://bugzilla.mozilla.org/show_bug.cgi?id=1304262) - Codemirror dialog does not work in inspector and scratchpad  - **_Fred Lin_**
       - [Bug 1291638](https://bugzilla.mozilla.org/show_bug.cgi?id=1291638) - change color theme of box-model view - **_Fred Lin_**
@@ -85,6 +90,7 @@
       - [Bug 1261133](https://bugzilla.mozilla.org/show_bug.cgi?id=1261133) - Style editor doesn't remove ".moz-styleeditor-transitioning" if I close it in the middle of transition, so there're infinite transitions - **_KM Lee_**
       - [Bug 1265686](https://bugzilla.mozilla.org/show_bug.cgi?id=1265686) - Add PgUp+PgDown+Home+End navigation in Performance Profiler treeview? - **_Luke Chang_**
       - [Bug 1263104](https://bugzilla.mozilla.org/show_bug.cgi?id=1263104) - Ctrl+F in Storage Inspector should open search - **_Luke Chang_**
+      - [Bug 1308878](https://bugzilla.mozilla.org/show_bug.cgi?id=1308878) - Implement minimal Redux store for Net panel - **_Ricky Chien_**
       - [Bug 1290437](http://bugzil.la/1290437) - Fix and land the console netlogging tests - **_Ricky Chien_**
       - [Bug 1278923](https://bugzilla.mozilla.org/show_bug.cgi?id=1278923) - Exported HAR format is missing Content-Type and Content-Length headers - **_Ricky Chien_**
       - [Bug 1291618](https://bugzilla.mozilla.org/show_bug.cgi?id=1291618) - Fix dropmarker position of command-button-frames in RTL locales - **_Ricky Chien_**
@@ -94,6 +100,7 @@
       - [Bug 1280791](https://bugzilla.mozilla.org/show_bug.cgi?id=1280791) - Don't apply min-width to the command-button-frames checkbox in firebug theme - **_Ricky Chien_**
       - [Bug 1273076](https://bugzilla.mozilla.org/show_bug.cgi?id=1273076) - Show more details in about:debugging#invalid-hash - **_Ricky Chien_**
       - [Bug 1268107](https://bugzilla.mozilla.org/show_bug.cgi?id=1268107) - Cannot use back in about:debugging after entering an invalid hash - **_Ricky Chien_**
+      - [Bug 1301042](https://bugzilla.mozilla.org/show_bug.cgi?id=1301042) - Firebug Theme - Make differences between checked style and unchecked style for toolbox-buttons - **_Steve Chung_**
       - [Bug 1296187](https://bugzilla.mozilla.org/show_bug.cgi?id=1296187) - Don't overlap inspector-searchinput-clear with text - **_Steve Chung_**
       - [Bug 1284855](https://bugzilla.mozilla.org/show_bug.cgi?id=1284855) - Reps: match spacing and brace placement in nested objects/arrays - **_Steve Chung_**
       - [Bug 1294464](https://bugzilla.mozilla.org/show_bug.cgi?id=1294464) - Don't overlap inspector-search and eyedropper, pane-toggle - **_Steve Chung_**
@@ -114,7 +121,8 @@
       - [Bug 1285530](https://bugzilla.mozilla.org/show_bug.cgi?id=1285530) - Reps: Off by one error in grip-array max length - **_Steve Chung_**
 
   - **Next**
-      - [Bug 1301042](https://bugzilla.mozilla.org/show_bug.cgi?id=1301042) - Firebug Theme - Make differences between checked style and unchecked style for toolbox-buttons - **_Steve Chung_**
+      - [Bug 1308440](https://bugzilla.mozilla.org/show_bug.cgi?id=1308440) - Migrate Net Panel Context Menu with framework/menu API in NetMonitor panel - **_Fred Lin_**
+      - [Bug 1273871](https://bugzilla.mozilla.org/show_bug.cgi?id=1273871) - Intermittent passwordmgr/test/browser/browser_capture_doorhanger.js | This test exceeded the timeout threshold. It should be rewritten or split up. If that's not possible, use requestLongerTimeout(N), but only as a last resort.  - **_Steve Chung_**
       
 - **_Form Autofill_**
   - **Done**
@@ -125,6 +133,11 @@
      - [Bug 1016733](https://bugzilla.mozilla.org/show_bug.cgi?id=1016733) - Implement form auto-fill profile storage - **_Luke Chang_**
      - [Bug 1301544](https://bugzilla.mozilla.org/show_bug.cgi?id=1301544) - Define a schema and storage method for Form Autofill / Web Payment address profiles - **_Luke Chang_**
      - [Bug 1300988](https://bugzilla.mozilla.org/show_bug.cgi?id=1300988) - Implement an API in the content process to fill a form with a specific form autofill profile using @autocomplete - **_Steve Chung_**
+
+- **_Location Bar_**
+  - **Next**
+      - [Bug 1273871](https://bugzilla.mozilla.org/show_bug.cgi?id=1273871) - Intermittent passwordmgr/test/browser/browser_capture_doorhanger.js | This test exceeded the timeout threshold. It should be rewritten or split up. If that's not possible, use requestLongerTimeout(N), but only as a last resort. - **_Evan Tseng_**
+      - [Bug 1256074](https://bugzilla.mozilla.org/show_bug.cgi?id=1256074) - Always present a 'search' option when the location bar search is "fixed" to an URL - **_Evan Tseng_**
 
 - **_Mortar/PDF_**
   - **Done**
@@ -189,6 +202,7 @@
       - [Bug 1231701](https://bugzilla.mozilla.org/show_bug.cgi?id=1231701) - Ship an emoji font on Windows XP - **_Tim Chien_**
 
   - **Next**
+      - [Bug 1310075](https://bugzilla.mozilla.org/show_bug.cgi?id=1310075) - Tests for qq.com - **_Evan Tseng_**
       - [Bug 1177619](https://bugzilla.mozilla.org/show_bug.cgi?id=1177619) - Reader mode isn't offered on Blogger/Blogspot based blogs - **_Evan Tseng_**
       - [Bug 1167568](https://bugzilla.mozilla.org/show_bug.cgi?id=1167568) - Reader View displays only the first part of specific articles from ehow.com - **_Evan Tseng_**
 
@@ -254,10 +268,6 @@
 
 # Fennec #
 
-- **_Add-on Manager_**
-  - **Next**
-      - [Bug 1079504](https://bugzilla.mozilla.org/show_bug.cgi?id=1079504) - Improve about:addons if user has no add-ons installed - **_Ray Lin_**
-
 - **_Fennec Video Control_**
   - **Done**
       - [Bug 1260304](https://bugzilla.mozilla.org/show_bug.cgi?id=1260304) - mediasource: prepended to the context menu of MSE videos - **_Ray Lin_**
@@ -269,9 +279,6 @@
   - **Done**
        - [Bug 1198935](https://bugzilla.mozilla.org/show_bug.cgi?id=1198935) - Set about: pages header height to 48px - **_Ray Lin_**
        - [Bug 1091241](https://bugzilla.mozilla.org/show_bug.cgi?id=1091241) - Make add-on detail page look more like a detail page - **_Ray Lin_**
-
-  - **Next**
-      - [Bug 1086911](https://bugzilla.mozilla.org/show_bug.cgi?id=1086911) - Update style of about:firefox - **_Ray Lin_**
 
 - **_Fennec Reader View_**
   - **Done**
