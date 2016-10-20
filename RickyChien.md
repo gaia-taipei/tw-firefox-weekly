@@ -1,15 +1,17 @@
-## 10/10 - 10/14
+## 10/17 - 10/20
+
+I'll be PTO for Tour de Taiwan by cycling in Oct 21 ~ Nov 3.
 
 ###DevTools
 * [Bug 1307892](https://bugzilla.mozilla.org/show_bug.cgi?id=1307892) - Support network event update messages 
  * Move [#196](https://github.com/devtools-html/gecko-dev/issues/196) from github to bugzilla
  * new issue fixed because of missing stubPacket keys for enzyme testing.
  * r?
-* [Bug 1308878](https://bugzilla.mozilla.org/show_bug.cgi?id=1308878) - Implement minimal Redux store for Net panel
- * I kicked off and landed an initial patch for introducing redux into netmonitor.
- * Fixed
-* [Bug 1308426](https://bugzilla.mozilla.org/show_bug.cgi?id=1308426) - Migrate Net Panel Toolbar to shared component in NetMonitor panel
- * Toolbar was identified as a standalone place to start react redux refactor.
+* [Bug 1309191](https://bugzilla.mozilla.org/show_bug.cgi?id=1309191) - Implement filter buttons in Net Panel Toolbar
+ * This bug is a vital best practice for introducing react + redux into filter buttons. Following reactoring will depend on & reference this one.
+ * r+
+* [Bug 1309192](https://bugzilla.mozilla.org/show_bug.cgi?id=1309192) - Implement search filter in Net Panel Toolbar
+ * Migration is completed and I'm addressing tests
  * WIP
 * Netmonitor.html planning
  * High level plan overview [Overview]
