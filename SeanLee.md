@@ -1,12 +1,12 @@
 ### Last week
 
 * [Downloads Panel]
-  - [Landed][Bug 1289139] Submit the patch to review and it's landed.
-  - [Bug 1301708] Discuss the mouse event with :stone, and he is working on this.
-  - [Bug 1301658] I can reproduce this bug, and it seems a widget issue. Wait for jmathies' response.
+  - [Bug 1301708] Discuss the mouse event with :stone, and he thinks this issue is more complex. Need more time to fix and verify on Windows 7.
+  - Have a discussion with UX to confirm we can land the partial design into m-c.
 
 * [Contextual Feedback]
-  - [Bug 1217162] Discuss the priority with reviewers in both mail and bugzilla.
+  - [Bug 1217162] Implement a new patch with richlistitem. Wait for reviewer's feedback.
+  - [Bug 1289913] Study the auto complete popup code and try to implement a similar design for password. 
 
 ### This week
 
