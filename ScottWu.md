@@ -9,19 +9,17 @@
 - [Date-time Picker]
 	- [Bug 1283381](https://bugzilla.mozilla.org/show_bug.cgi?id=1283381) - [meta] Implement UI for date time input types
 		- [r+] [Bug 1283384](https://bugzilla.mozilla.org/show_bug.cgi?id=1283384) - Implement UI for \<input type="time"\>
-			- Fixed issues Mike raised, asked him to take a look before doing checkin-needed
-		- [WIP] [Bug 1301284](https://bugzilla.mozilla.org/show_bug.cgi?id=1301284) - Update picker style to match the visual spec for \<input type="time"\>
+			- Followed up on the issue
+		- [Bug 1301284](https://bugzilla.mozilla.org/show_bug.cgi?id=1301284) - Update picker style to match the visual spec for \<input type="time"\>
 			- Patch is on mozreview, ready for review once Bug 1283384 lands
 		- [WIP] [Bug 1309471](https://bugzilla.mozilla.org/show_bug.cgi?id=1309471) - [DateTimePicker] Add browser chrome test for time picker
 			- WIP is on mozreview
+		- [WIP] [Bug 1283385](https://bugzilla.mozilla.org/show_bug.cgi?id=1283385) -  Implement UI for \<input type="date"\>
 
 #### Date Time Pickers Tasks:
 
 - General features
-	- [feedback] Passing data between input field and pickers
-		- Submitted a new patch for review that addresses more issues based on feedback
-		- Had a Vidyo chat with Mike to discuss about the issues
-			- Got more feedback and resources on writing browser tests
+	- [Done] Passing data between input field and pickers
 	- [Hold] Keyboard Controls
 		- To be implemented in follow up bugs
 		- Input box handles keyboard events most of the time, until user triggers shifting "visual focus" to picker
@@ -39,10 +37,18 @@
 	- [Done] Out of range items are displayed but greyed out
 	- [Done] Fix panel arrow position
 - Date picker
-	- [WIP] Calendar component
-	- [WIP] Month picker
-		- Transition for opening picker
-	- First day of the week & weekends configurable
+	- [WIP] Basic calendar component
+		- Display calendar in 6 week rows
+		- First day of the week & weekends configurable
+		- Apply basic styling
+	- Add max and min features
+		- Dates earlier than min or later than max are greyed out
+		- Out of range years are not displayed, and months are greyed out
+	- Add step features
+		- Off step items are greyed out
+	- Transition animation
+		- Animation for previous and next month
+		- Animation for opening picker
 - Week picker
 	- Calendar week feature
 - Datetime picker
