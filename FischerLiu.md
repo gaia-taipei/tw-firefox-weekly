@@ -1,13 +1,21 @@
-## 10/11 ~ 10/14 ##
+## 10/17 ~ 10/21 ##
 
 ### This Week ###
 * [Storgae Management]
-  - Study how to remove HTTP cache per origin. Currently no API could achieve this directly.
-  - Study hot to filter target permissions per origin and list them out.
+  - Create, organize and prioritize bugs list
+    - The front-end meta bug: Bug 1309118 - [Meta] Implement Storage management
+
+  - Plan to discuss and settle down with the reviewers(:jaws, :gijs) on
+    - feature turn-on/off strategy
+    - Landing strategy: directly into Central or working on branch
+
+  - Study and refactor cookie parts inside about:preference
+    - The Privacy section and the Storage Management section inside about:preference both handles cookie so need to refactor code part to let cookie handling more organized.
 
 ### Last Week ###
-  - Study how to add storage permssion into the contorl center
-  - Discuss about some spec unclear points with UX team and Front-end reviewer(:Gijs and :Jared), including
-    - Disk usage warning message
-    - Policy of removal of website storage
-    - Site storage info display
+* [Storgae Management]
+  - Study how to remove HTTP cache per origin.
+    - Successfully use nsICacheStorage::asyncVisitStorage and nsICacheStorage::asyncDoomURI to remove HTTP cache per origin.
+
+  - Study how to filter target permissions per origin and list them out.
+    - Successfully enum, filter and remove permision
