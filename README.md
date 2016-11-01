@@ -1,7 +1,7 @@
-Taipei Frontend weekly
+Taipei Firefox weekly
 ==============
 
-Taipei Frontend Team Weekly Report
+Taipei Firefox Team Weekly Report
 
 Members
 -------
@@ -11,11 +11,11 @@ Members
 * Scott Wu
 * Ray Lin
 * Ricky Chien
+* Nevin Chen
 * Rex Lee
 * Luke Chang
 * Sean Lee
 * Fischer Liu
-* Joseph Yeh
 * Graduated
   - Gary Chen
   - Sherman Chen
@@ -24,6 +24,7 @@ Members
   - John Hu
   - Yi-fan Liao
   - Dan Huang
+  - Joseph Yeh
 
 Suggested Format
 ------
@@ -36,6 +37,5 @@ Suggested Format
 
 * Others
   - meeting
-  - partner issues in mail
   - other team support
   - ...
