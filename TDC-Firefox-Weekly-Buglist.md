@@ -139,6 +139,7 @@
      - [Bug 1304322](https://bugzilla.mozilla.org/show_bug.cgi?id=1304322) - Refactor LoginStore.jsm to make it reusable for Form Autofill - **_Luke Chang_**
 
   - **Next**
+     - [Bug 1019471](https://bugzilla.mozilla.org/show_bug.cgi?id=1019471) - (fx-autofill-profile-edit) Dialog to add/edit/view an autofill profile - **_Luke Chang_**
      - [Bug 1309481](https://bugzilla.mozilla.org/show_bug.cgi?id=1309481) - Remove leftover code specific to Logins from JSONFile.jsm and add tests - **_Luke Chang_**
      - [Bug 1300990](https://bugzilla.mozilla.org/show_bug.cgi?id=1300990) - Implement an API in the parent process to decide which values of an autofill profile would be filled in which field - **_Luke Chang_**
      - [Bug 1016733](https://bugzilla.mozilla.org/show_bug.cgi?id=1016733) - Implement form auto-fill profile storage - **_Luke Chang_**
@@ -156,6 +157,7 @@
       - [Bug 1299402](https://bugzilla.mozilla.org/show_bug.cgi?id=1299402) - [jsplugins][UI] Implement zoom-in and zoom-out buttons - **_Luke Chang_**
 
   - **Next**
+      - [Bug 1311256](https://bugzilla.mozilla.org/show_bug.cgi?id=1311256) - [jsplugins] requestFullscreen doesn't work in the plugin window - **_Luke Chang_**
       - [Bug 1299405](https://bugzilla.mozilla.org/show_bug.cgi?id=1299405) - [jsplugins][UI] Implement presentation mode - **_Luke Chang_**
       - [Bug 1306221](https://bugzilla.mozilla.org/show_bug.cgi?id=1306221) - [jsplugins][UI] Implement fitting types and the scaling drop-down menu - **_Luke Chang_**
       - [Bug 1299401](https://bugzilla.mozilla.org/show_bug.cgi?id=1299401) - [jsplugins][UI] Implement paging features - **_Luke Chang_**
