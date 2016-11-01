@@ -20,7 +20,7 @@
 * Followed the document and prepared for development environment. [Taipei Mobile Team notes]
 
 * Bug 1310621 - Null Pointer exception while setting suggestion for search engines 
- * Provied another fix according to the reviewer's suggestion.
+ * Provided another fix according to the reviewer's suggestion.
  * WIP
 
 
