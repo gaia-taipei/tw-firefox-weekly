@@ -1,12 +1,13 @@
 ### Last week
 
 * [Downloads Panel]
-  - [Bug 1301708] Discuss the mouse event with :stone, and he thinks this issue is more complex. Need more time to fix and verify on Windows 7.
-  - Have a discussion with UX to confirm we can land the partial design into m-c.
+  - Go through https://public.etherpad-mozilla.org/p/download-panel and clarify if these bugs are caused by the new design.
+  - [Bug 1022550] Submit a patch for review.
 
 * [Contextual Feedback]
-  - [Bug 1217162] Implement a new patch with richlistitem. Wait for reviewer's feedback.
-  - [Bug 1289913] Study the auto complete popup code and try to implement a similar design for password. 
+  - [Bug 1217162] Submit couple patches for review. Wait for reviewer's feedback.
+  - [Bug 1289913] Study the code path of autocomplete for user field.
+    - https://docs.google.com/document/d/1kvswhmtyxRGBPepAQmQcDnk8LAKKbp2seZ510rMR-ps/edit
 
 ### This week
 
