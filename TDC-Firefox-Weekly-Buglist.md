@@ -122,12 +122,12 @@
       
 - **_Form Autofill_**
   - **Done**
+     - [Bug 1309481](https://bugzilla.mozilla.org/show_bug.cgi?id=1309481) - Remove leftover code specific to Logins from JSONFile.jsm and add tests - **_Luke Chang_**
      - [Bug 1300988](https://bugzilla.mozilla.org/show_bug.cgi?id=1300988) - Implement an API in the content process to fill a form with a specific form autofill profile using @autocomplete - **_Steve Chung_**
      - [Bug 1304322](https://bugzilla.mozilla.org/show_bug.cgi?id=1304322) - Refactor LoginStore.jsm to make it reusable for Form Autofill - **_Luke Chang_**
 
   - **Next**
      - [Bug 1019471](https://bugzilla.mozilla.org/show_bug.cgi?id=1019471) - (fx-autofill-profile-edit) Dialog to add/edit/view an autofill profile - **_Luke Chang_**
-     - [Bug 1309481](https://bugzilla.mozilla.org/show_bug.cgi?id=1309481) - Remove leftover code specific to Logins from JSONFile.jsm and add tests - **_Luke Chang_**
      - [Bug 1300990](https://bugzilla.mozilla.org/show_bug.cgi?id=1300990) - Implement an API in the parent process to decide which values of an autofill profile would be filled in which field - **_Luke Chang_**
      - [Bug 1016733](https://bugzilla.mozilla.org/show_bug.cgi?id=1016733) - Implement form auto-fill profile storage - **_Luke Chang_**
      - [Bug 1301544](https://bugzilla.mozilla.org/show_bug.cgi?id=1301544) - Define a schema and storage method for Form Autofill / Web Payment address profiles - **_Luke Chang_**
@@ -138,6 +138,7 @@
 
 - **_Mortar/PDF_**
   - **Done**
+      - [Bug 1299401](https://bugzilla.mozilla.org/show_bug.cgi?id=1299401) - [jsplugins][UI] Implement paging features - **_Luke Chang_**  
       - [Bug 1302335](https://bugzilla.mozilla.org/show_bug.cgi?id=1302335) - [jsplugins][UI] Implement a polyfill for drop-down menus - **_Luke Chang_**
       - [Bug 1287017](https://bugzilla.mozilla.org/show_bug.cgi?id=1287017) - [jsplugins][UI] Implement function of rotating PDF document clockwise/counterclockwise - **_Luke Chang_**
       - [Bug 1299399](https://bugzilla.mozilla.org/show_bug.cgi?id=1299399) - [jsplugins][UI] Implement scrolling feature - **_Luke Chang_**
@@ -147,7 +148,6 @@
       - [Bug 1311256](https://bugzilla.mozilla.org/show_bug.cgi?id=1311256) - [jsplugins] requestFullscreen doesn't work in the plugin window - **_Luke Chang_**
       - [Bug 1299405](https://bugzilla.mozilla.org/show_bug.cgi?id=1299405) - [jsplugins][UI] Implement presentation mode - **_Luke Chang_**
       - [Bug 1306221](https://bugzilla.mozilla.org/show_bug.cgi?id=1306221) - [jsplugins][UI] Implement fitting types and the scaling drop-down menu - **_Luke Chang_**
-      - [Bug 1299401](https://bugzilla.mozilla.org/show_bug.cgi?id=1299401) - [jsplugins][UI] Implement paging features - **_Luke Chang_**
 
 - **_NetMonitor_**
   - **Done**
@@ -225,6 +225,10 @@
   - **Next**
       - [Bug 1310075](https://bugzilla.mozilla.org/show_bug.cgi?id=1310075) - Tests for qq.com - **_Evan Tseng_**
 
+- **_Storage Management_**
+  - **Next**
+      - [Bug 1309123](https://bugzilla.mozilla.org/show_bug.cgi?id=1309123) - Show persist-storage permission request notification - **_Fischer Liu_**
+
 - **_Video Controls_**
   - **Done**
       - [Bug 1312324](https://bugzilla.mozilla.org/show_bug.cgi?id=1312324) - Add test to confirm that fullscreen should(not) be available accordingly when video in an iframe - **_Ray Lin_**
@@ -284,6 +288,7 @@
 
   - **Next**
       - [Bug 1000700](https://bugzilla.mozilla.org/show_bug.cgi?id=1000700) - menu-button dropmarkers aren't inverted with dark LWT - **_Scott Wu_**
+      - [Bug 1289913](https://bugzilla.mozilla.org/show_bug.cgi?id=1289913) - Show autocomplete UI on password fields - **_Sean Lee_**
       - [Bug 1217162](https://bugzilla.mozilla.org/show_bug.cgi?id=1217162) - Implement Contextual Feedback on Insecure Passwords - **_Sean Lee_**
 
 # Fennec #
