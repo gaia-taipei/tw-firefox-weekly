@@ -13,6 +13,8 @@
 
 - [WIP] Completed "Main" part of [http://learngitbranching.js.org/](http://learngitbranching.js.org/)
 
+- [r+] [Bug 1310621](https://bugzilla.mozilla.org/show_bug.cgi?id=1310621) - Null Pointer exception while setting suggestion for search engines 
+    - Reviewed and merged into Central
 
 
 ## 10/26 - 10/28
