@@ -1,6 +1,4 @@
-## 10/17 - 10/20
-
-I'll be PTO for Tour de Taiwan by cycling in Oct 21 ~ Nov 3.
+## 11/03 - 11/07
 
 ###DevTools
 * [Bug 1307892](https://bugzilla.mozilla.org/show_bug.cgi?id=1307892) - Support network event update messages 
@@ -9,10 +7,11 @@ I'll be PTO for Tour de Taiwan by cycling in Oct 21 ~ Nov 3.
  * r?
 * [Bug 1309191](https://bugzilla.mozilla.org/show_bug.cgi?id=1309191) - Implement filter buttons in Net Panel Toolbar
  * This bug is a vital best practice for introducing react + redux into filter buttons. Following reactoring will depend on & reference this one.
- * r+
-* [Bug 1309192](https://bugzilla.mozilla.org/show_bug.cgi?id=1309192) - Implement search filter in Net Panel Toolbar
- * Migration is completed and I'm addressing tests
+ * landed
+* [Bug 1309194](https://bugzilla.mozilla.org/show_bug.cgi?id=1309194) - Implement summary info in Net Panel Toolbar
  * WIP
+* [Bug 1308507](https://bugzilla.mozilla.org/show_bug.cgi?id=1308507) - Remove all usages of nsIURL and NetworkHelper
+ * r-
 * Netmonitor.html planning
  * High level plan overview [Overview]
  * Refactoring works will stick to bugzilla and replace xul to react component piece by piece
