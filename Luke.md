@@ -1,36 +1,36 @@
-## 10/24 - 10/28 ##
+## 11/01 - 11/04 ##
 
 ### Last Week ###
 
 * [Mortar/PDF]
-    - [WIP] Bug 1299401 - [jsplugins][UI] Implement paging features
-        - got r+, but found it might be better to refactor it prior to further implementations
-        - refactored the patch and requested the review again
+    - [Done] Bug 1299401 - [jsplugins][UI] Implement paging features
+        - updated the patch according to the comments and landed
+    - [Done] Bug 1314253 - [jsplugins][UI] Make polyfill-dropdown support keyboard
+        - wrote the patch, r+ and landed
     - [WIP] Bug 1306221 - [jsplugins][UI] Implement fitting types and the scaling drop-down menu
-        - finished the patch and requested the review
+        - waiting for review
     - [WIP] Bug 1311256 - [jsplugins] requestFullscreen doesn't work in the plugin window
         - waiting for review
     - [WIP] Bug 1299405 - [jsplugins][UI] Implement presentation mode
-        - basic function works in WIP branch
-        - implemented keyboard and wheel control
+        - done in WIP branch
+        - will request review once all dependencies land
+    - [New] Bug 1302334 - [jsplugins][UI] Implement find-string feature
+        - found an API issue and asked Louis for help
 
 * [Form Autofill]
-    - [WIP] Bug 1016733 - Implement form auto-fill profile storage
-        - waiting for review
+    - [Done] Bug 1016733 - Implement form auto-fill profile storage
+        - r+ and landed
     - [WIP] Bug 1300990 - Implement an API in the parent process to decide which values of an autofill profile would be filled in which field
-        - waiting for feedback
-    - [New] Bug 1019471 - Dialog to add/edit/view an autofill profile
-        - discussed the architecture of nested dialogs with Matt and Steve
+        - f+ and started to write tests
+    - [WIP] Bug 1019471 - Dialog to add/edit/view an autofill profile
+        - follow-up discussions with PM and UX
 
 ### This Week ###
 
 * [Mortar/PDF]
-    - [WIP] Bug 1299401 - [jsplugins][UI] Implement paging features
     - [WIP] Bug 1306221 - [jsplugins][UI] Implement fitting types and the scaling drop-down menu
     - [WIP] Bug 1311256 - [jsplugins] requestFullscreen doesn't work in the plugin window
-    - [WIP] Bug 1299405 - [jsplugins][UI] Implement presentation mode
+    - [WIP] Bug 1302334 - [jsplugins][UI] Implement find-string feature
 
 * [Form Autofill]
-    - [WIP] Bug 1016733 - Implement form auto-fill profile storage
     - [WIP] Bug 1300990 - Implement an API in the parent process to decide which values of an autofill profile would be filled in which field
-    - [WIP] Bug 1019471 - Dialog to add/edit/view an autofill profile
