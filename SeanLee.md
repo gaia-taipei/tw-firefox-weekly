@@ -1,13 +1,8 @@
 ### Last week
 
-* [Downloads Panel]
-  - Go through https://public.etherpad-mozilla.org/p/download-panel and clarify if these bugs are caused by the new design.
-  - [Bug 1022550] Submit a patch for review.
-
 * [Contextual Feedback]
-  - [Bug 1217162] Submit couple patches for review. Wait for reviewer's feedback.
-  - [Bug 1289913] Study the code path of autocomplete for user field.
-    - https://docs.google.com/document/d/1kvswhmtyxRGBPepAQmQcDnk8LAKKbp2seZ510rMR-ps/edit
+  - [Landed][Bug 1217162] Finish the last code review.
+  - [Bug 1289913] Provide a WIP patch and implement the test case.
 
 ### This week
 
