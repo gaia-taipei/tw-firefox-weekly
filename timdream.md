@@ -16,6 +16,11 @@
 * [Bug 1229727](https://bugzil.la/1229727) - Mac OS X full screen warning
  * FIXED in Fx48
 
+## Firefox (contextual insecure password warning)
+
+* [Bug 1314478](https://bugzil.la/1314478) - Contextual Insecure Password Warning should show up for all username fields, even when there are no saved login
+ * Reviewed+'d, but patch resubmitted for review to ensure we don't change the telemetry flags.
+
 ## Firefox
 
 * [Bug 1260276](https://bugzil.la/1260276) - Dead reader mode page in session history
