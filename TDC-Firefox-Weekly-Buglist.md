@@ -131,6 +131,7 @@
      - [Bug 1300990](https://bugzilla.mozilla.org/show_bug.cgi?id=1300990) - Implement an API in the parent process to decide which values of an autofill profile would be filled in which field - **_Luke Chang_**
      - [Bug 1016733](https://bugzilla.mozilla.org/show_bug.cgi?id=1016733) - Implement form auto-fill profile storage - **_Luke Chang_**
      - [Bug 1301544](https://bugzilla.mozilla.org/show_bug.cgi?id=1301544) - Define a schema and storage method for Form Autofill / Web Payment address profiles - **_Luke Chang_**
+     - [Bug 1019483](https://bugzilla.mozilla.org/show_bug.cgi?id=1019483) - (fx-autofill-profile-mgmt) Interface to manage autofill profiles - **_Steve Chung_**
 
 - **_Location Bar_**
   - **Done**
@@ -169,6 +170,8 @@
       - [Bug 1309194](https://bugzilla.mozilla.org/show_bug.cgi?id=1309194) - Implement summary info in Net Panel Toolbar - **_Fred Lin_**
       - [Bug 1312352](https://bugzilla.mozilla.org/show_bug.cgi?id=1312352) - Netmonitor: the "Timeline" column shoud have a text label when the request list is empty - **_Fred Lin_**
       - [Bug 1309496](https://bugzilla.mozilla.org/show_bug.cgi?id=1309496) - Set up mocha testing framework for netmonitor - **_Fred Lin_**
+      - [Bug 1308507](https://bugzilla.mozilla.org/show_bug.cgi?id=1308507) - Remove all usages of nsIURL and NetworkHelper - **_Ricky Chien_**      
+      - [Bug 1308697](https://bugzilla.mozilla.org/show_bug.cgi?id=1308697) - Implement UI for performance statistics - **_Steve Chung_**
 
 - **_Password Manager_**
   - **Done**
@@ -206,6 +209,7 @@
 
 - **_Quality of Experience_**
   - **Done**
+      - [Bug 1173823](https://bugzilla.mozilla.org/show_bug.cgi?id=1173823) - Reader View ignores (base href="...") - **_Evan Tseng_**
       - [Bug 1177619](https://bugzilla.mozilla.org/show_bug.cgi?id=1177619) - Reader mode isn't offered on Blogger/Blogspot based blogs - **_Evan Tseng_**  
       - [Bug 1310074](https://bugzilla.mozilla.org/show_bug.cgi?id=1310074) - Tests for yahoo.com - **_Evan Tseng_**  
       - [Bug 1310073](https://bugzilla.mozilla.org/show_bug.cgi?id=1310073) - Tests for wikipedia.org - **_Evan Tseng_**
@@ -241,6 +245,7 @@
       - [Bug 887934](https://bugzilla.mozilla.org/show_bug.cgi?id=887934) - [webvtt] Update video controls to include options for closed captioning - **_Ray Lin_**
 
   - **Next**
+      - [Bug 1311700](https://bugzilla.mozilla.org/show_bug.cgi?id=1311700) - Add test to confirm that video control show controls in different sizes correctly - **_Ray Lin_**
       - [Bug 1302320](https://bugzilla.mozilla.org/show_bug.cgi?id=1302320) - add a test to confirm that video control show "noaudio" icon when video has no audio - **_Ray Lin_**
       - [Bug 1271765](https://bugzilla.mozilla.org/show_bug.cgi?id=1271765) - Visual refresh of media controls - **_Ray Lin_**
 
@@ -287,7 +292,6 @@
       - [Bug 1266611](https://bugzilla.mozilla.org/show_bug.cgi?id=1266611) - Tab prompts can overlap in the same tab - **_Tim Chien_**
 
   - **Next**
-      - [Bug 1000700](https://bugzilla.mozilla.org/show_bug.cgi?id=1000700) - menu-button dropmarkers aren't inverted with dark LWT - **_Scott Wu_**
       - [Bug 1289913](https://bugzilla.mozilla.org/show_bug.cgi?id=1289913) - Show autocomplete UI on password fields - **_Sean Lee_**
       - [Bug 1217162](https://bugzilla.mozilla.org/show_bug.cgi?id=1217162) - Implement Contextual Feedback on Insecure Passwords - **_Sean Lee_**
 
