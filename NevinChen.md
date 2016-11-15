@@ -7,10 +7,11 @@
     - r?sebastian
 
 - [Bug 1314563](https://bugzilla.mozilla.org/show_bug.cgi?id=1314563) - Showing green lock for manually added certificate exception
-    - wip
+    - wip, waiting for UX team's input
 
 - [Bug 1295018](https://bugzilla.mozilla.org/show_bug.cgi?id=1295018) - Android's Keyboard shouldn't learn new words when Private Tab is opened
     - Fix later until we have plan for Samsung device support plan.
+    - Unassigned for now.
 
 - [Bug 1307621](https://bugzilla.mozilla.org/show_bug.cgi?id=1307621) - To optimize web icon after adding this page to Home Screen
     - Waiting for reviewer's input for implementation
