@@ -1,17 +1,14 @@
-## 11/03 - 11/07
+## 11/07 - 11/11
 
 ###DevTools
 * [Bug 1307892](https://bugzilla.mozilla.org/show_bug.cgi?id=1307892) - Support network event update messages 
- * Move [#196](https://github.com/devtools-html/gecko-dev/issues/196) from github to bugzilla
- * new issue fixed because of missing stubPacket keys for enzyme testing.
  * r?
-* [Bug 1309191](https://bugzilla.mozilla.org/show_bug.cgi?id=1309191) - Implement filter buttons in Net Panel Toolbar
- * This bug is a vital best practice for introducing react + redux into filter buttons. Following reactoring will depend on & reference this one.
- * landed
 * [Bug 1309194](https://bugzilla.mozilla.org/show_bug.cgi?id=1309194) - Implement summary info in Net Panel Toolbar
- * WIP
+ * r+
 * [Bug 1308507](https://bugzilla.mozilla.org/show_bug.cgi?id=1308507) - Remove all usages of nsIURL and NetworkHelper
- * r-
+ * r?
+* [Bug 1316484](https://bugzilla.mozilla.org/show_bug.cgi?id=1316484) - Add empty line between "use strict"; and linter comment and the license header
+ * WIP
 * Netmonitor.html planning
  * High level plan overview [Overview]
  * Refactoring works will stick to bugzilla and replace xul to react component piece by piece
