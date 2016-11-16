@@ -1,36 +1,31 @@
-## 11/01 - 11/04 ##
+## 11/07 - 11/10 ##
 
 ### Last Week ###
 
 * [Mortar/PDF]
-    - [Done] Bug 1299401 - [jsplugins][UI] Implement paging features
-        - updated the patch according to the comments and landed
-    - [Done] Bug 1314253 - [jsplugins][UI] Make polyfill-dropdown support keyboard
-        - wrote the patch, r+ and landed
-    - [WIP] Bug 1306221 - [jsplugins][UI] Implement fitting types and the scaling drop-down menu
-        - waiting for review
+    - [Done] Bug 1306221 - [jsplugins][UI] Implement fitting types and the scaling drop-down menu
+        - landed
     - [WIP] Bug 1311256 - [jsplugins] requestFullscreen doesn't work in the plugin window
-        - waiting for review
-    - [WIP] Bug 1299405 - [jsplugins][UI] Implement presentation mode
-        - done in WIP branch
-        - will request review once all dependencies land
-    - [New] Bug 1302334 - [jsplugins][UI] Implement find-string feature
-        - found an API issue and asked Louis for help
+        - updated according to the review comments and waiting for the next review
+    - [WIP] Bug 1302334 - [jsplugins][UI] Implement find-string feature
+        - patch is ready but waiting for UX's feedback
+    - [New] Bug 1316526 - [jsplugins][UI] Implement download feature
+        - wrote patch and requested the review
 
 * [Form Autofill]
-    - [Done] Bug 1016733 - Implement form auto-fill profile storage
-        - r+ and landed
-    - [WIP] Bug 1300990 - Implement an API in the parent process to decide which values of an autofill profile would be filled in which field
-        - f+ and started to write tests
-    - [WIP] Bug 1019471 - Dialog to add/edit/view an autofill profile
-        - follow-up discussions with PM and UX
+    - [Done] Bug 1300990 - Implement an API in the parent process to decide which values of an autofill profile would be filled in which field
+        - wrote tests, got r+ and landed
+    - Studied Matt's patch of bug 1304634 since we are going to take over it
 
 ### This Week ###
 
 * [Mortar/PDF]
-    - [WIP] Bug 1306221 - [jsplugins][UI] Implement fitting types and the scaling drop-down menu
     - [WIP] Bug 1311256 - [jsplugins] requestFullscreen doesn't work in the plugin window
+    - [WIP] Bug 1299405 - [jsplugins][UI] Implement presentation mode
     - [WIP] Bug 1302334 - [jsplugins][UI] Implement find-string feature
+    - [WIP] Bug 1316526 - [jsplugins][UI] Implement download feature
+    - [WIP] Bug 1299406 - [jsplugins][UI] Implement document outlines
 
 * [Form Autofill]
-    - [WIP] Bug 1300990 - Implement an API in the parent process to decide which values of an autofill profile would be filled in which field
+    - [New] Bug 1300993 - Connect satchel autocomplete to form autofill results instead of form history when appropriate
+    - continue studying Matt's patch and the architecture of the new LoginManager
