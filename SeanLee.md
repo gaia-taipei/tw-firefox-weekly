@@ -1,8 +1,10 @@
 ### Last week
 
 * [Contextual Feedback]
-  - [Landed][Bug 1217162] Finish the last code review.
-  - [Bug 1289913] Provide a WIP patch and implement the test case.
+  - [r+][Bug 1289913] Got 2 r+ since the patch was back-out for the failed test. After fixing the failed test, the patch is ready for landing.
+
+* [Downloads Panel]
+  - [Bug 1282664] This bug is no longer blocked by bug 1301708 after UX provides a new context menu design.
 
 ### This week
 
@@ -14,5 +16,7 @@
   - [Bug 1269958] Pending on UX's feedback.
 
 * [Contextual Feedback]
-  - [Bug 1217162] Working on this bug.
-  - [Bug 1289913] Working on this bug.
+  - Open some follow-up bugs to fix the following items:
+    - "Learn More" link behavior
+    - Incorrect dropdown height at the first time showing.
+    - Improve the visual style.
