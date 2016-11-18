@@ -1,7 +1,3 @@
-# Week of Jul 18, 2016
-
-(Excluding management-related tasks)
-
 ## Firefox QX
 
 * [Bug 1231701](https://bugzil.la/1231701) - Ship an Emoji font in Firefox
