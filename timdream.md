@@ -19,10 +19,18 @@
 ## Firefox (contextual insecure password warning)
 
 * [Bug 1314478](https://bugzil.la/1314478) - Contextual Insecure Password Warning should show up for all username fields, even when there are no saved login
- * Reviewed+'d, but patch resubmitted for review to ensure we don't change the telemetry flags.
+ * Fixed in Fx53, to be uplifted to Fx52
+* [Bug 1318194](https://bugzil.la/1318194) - Saved logins sould be in the dropdown list for HTTP pages.
+ * checkedin-needed
+* [Bug 1317882](https://bugzil.la/1317882) - Incorrect autocomplete dropdown height.
+ * Found a possible cause for Sean, he will submit patch accordingly if the peers agrees.
+* [Bug 1317284](https://bugzil.la/1317284) - Intermittent toolkit/components/passwordmgr/test/mochitest/test_password_field_autocomplete.html
+ * Identified the root cause for Sean and he is waiting for review.
 
 ## Firefox
 
+* [Bug 1316828](https://bugzil.la/1316828) - Drive by fix on reader mode narration speed
+ * FIXED in Fx53 and uplifted to Fx51 & Fx52
 * [Bug 1260276](https://bugzil.la/1260276) - Dead reader mode page in session history
  * FIXED in Fx50
 * [Bug 1277747](https://bugzil.la/1277747) - "Restarting..." label on the about dialog
