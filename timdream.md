@@ -47,6 +47,10 @@
  * FIXED in Fx48
  * Uplifted to Fx45/46/47
 
+## Firefox for Android
+* [Bug 1303993](https://bugzil.la/1303993) - "Save Video" label when the file isn't a video
+ * Quick drive-by fix, in Fx53
+
 ## Build
 
 * [Bug 1292407](https://bugzilla.mozilla.org/show_bug.cgi?id=1292407) - Make sure artifact build finds topsrcdir
