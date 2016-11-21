@@ -44,13 +44,14 @@
 
 - **_Date-time Picker_**
   - **Done**
-      - [Bug 1283385](https://bugzilla.mozilla.org/show_bug.cgi?id=1283385) - Implement UI for `<input type="date">` - **_Scott Wu_**
+      - [Bug 1315911](https://bugzilla.mozilla.org/show_bug.cgi?id=1315911) - [DateTimePicker] Disable time picker UI by making it pref-off by default - **_Scott Wu_**
+      - [Bug 1301284](https://bugzilla.mozilla.org/show_bug.cgi?id=1301284) - Update picker style to match the visual spec for 'input type=time' - **_Scott Wu_**
       - [Bug 1283384](https://bugzilla.mozilla.org/show_bug.cgi?id=1283384) - Implement UI for `<input type="time">` - **_Scott Wu_**
       - [Bug 1306251](https://bugzilla.mozilla.org/show_bug.cgi?id=1306251) - Rename form validation anchor to a more generic name for better reuse - **_Scott Wu_**
 
   - **Next**
-      - [Bug 1301284](https://bugzilla.mozilla.org/show_bug.cgi?id=1301284) - Update picker style to match the visual spec for 'input type=time' - **_Scott Wu_**
       - [Bug 1309471](https://bugzilla.mozilla.org/show_bug.cgi?id=1309471) - [DateTimePicker] Add browser chrome test for time picker - **_Scott Wu_**
+      - [Bug 1283385](https://bugzilla.mozilla.org/show_bug.cgi?id=1283385) - Implement UI for `<input type="date">` - **_Scott Wu_**
 
 - **_DevTools_**
   - **Done**
@@ -160,6 +161,8 @@
 
 - **_NetMonitor_**
   - **Done**
+      - [Bug 1312352](https://bugzilla.mozilla.org/show_bug.cgi?id=1312352) - Netmonitor: the "Timeline" column shoud have a text label when the request list is empty - **_Fred Lin_**
+      - [Bug 1309496](https://bugzilla.mozilla.org/show_bug.cgi?id=1309496) - Set up mocha testing framework for netmonitor - **_Fred Lin_**  
       - [Bug 1309193](https://bugzilla.mozilla.org/show_bug.cgi?id=1309193) - Implement sidebar toggle button in Net Panel Toolbar - **_Fred Lin_**
       - [Bug 1311591](https://bugzilla.mozilla.org/show_bug.cgi?id=1311591) - Implement clear button for Net Panel Toolbar - **_Fred Lin_**
       - [Bug 1268444](https://bugzilla.mozilla.org/show_bug.cgi?id=1268444) - Convert network monitor to use new key shortcut API - **_Fred Lin_**
@@ -168,6 +171,8 @@
       - [Bug 1308500](https://bugzilla.mozilla.org/show_bug.cgi?id=1308500) - Migrate localization strings away from netmonitor.dtd - **_Fred Lin_**
       - [Bug 1309796](https://bugzilla.mozilla.org/show_bug.cgi?id=1309796) - add eslint support for netmonitor - **_Fred Lin_**
       - [Bug 1308503](https://bugzilla.mozilla.org/show_bug.cgi?id=1308503) - Migrate localization strings away from certManager.dtd - **_Fred Lin_**
+      - [Bug 1308507](https://bugzilla.mozilla.org/show_bug.cgi?id=1308507) - Remove all usages of nsIURL and NetworkHelper - **_Ricky Chien_**      
+      - [Bug 1309194](https://bugzilla.mozilla.org/show_bug.cgi?id=1309194) - Implement summary info in Net Panel Toolbar - **_Ricky Chien_**  
       - [Bug 1309192](https://bugzilla.mozilla.org/show_bug.cgi?id=1309192) - Implement search filter in Net Panel Toolbar - **_Ricky Chien_**
       - [Bug 1309191](https://bugzilla.mozilla.org/show_bug.cgi?id=1309191) - Implement filter buttons for Net Panel Toolbar - **_Ricky Chien_**
       - [Bug 1308878](https://bugzilla.mozilla.org/show_bug.cgi?id=1308878) - Implement minimal Redux store for Net panel - **_Ricky Chien_**
@@ -175,10 +180,7 @@
       - [Bug 1308425](https://bugzilla.mozilla.org/show_bug.cgi?id=1308425) - Move Performance Statistics into its own module - **_Steve Chung_**
  
   - **Next**
-      - [Bug 1309194](https://bugzilla.mozilla.org/show_bug.cgi?id=1309194) - Implement summary info in Net Panel Toolbar - **_Fred Lin_**
-      - [Bug 1312352](https://bugzilla.mozilla.org/show_bug.cgi?id=1312352) - Netmonitor: the "Timeline" column shoud have a text label when the request list is empty - **_Fred Lin_**
-      - [Bug 1309496](https://bugzilla.mozilla.org/show_bug.cgi?id=1309496) - Set up mocha testing framework for netmonitor - **_Fred Lin_**
-      - [Bug 1308507](https://bugzilla.mozilla.org/show_bug.cgi?id=1308507) - Remove all usages of nsIURL and NetworkHelper - **_Ricky Chien_**      
+      - [Bug 1307892](https://bugzilla.mozilla.org/show_bug.cgi?id=1307892) - Support network event update messages #196 - **_Ricky Chien_**      
       - [Bug 1308697](https://bugzilla.mozilla.org/show_bug.cgi?id=1308697) - Implement UI for performance statistics - **_Steve Chung_**
 
 - **_Password Manager_**
@@ -217,6 +219,7 @@
 
 - **_Quality of Experience_**
   - **Done**
+      - [Bug 1310075](https://bugzilla.mozilla.org/show_bug.cgi?id=1310075) - Tests for qq.com - **_Evan Tseng_**
       - [Bug 1173823](https://bugzilla.mozilla.org/show_bug.cgi?id=1173823) - Reader View ignores (base href="...") - **_Evan Tseng_**
       - [Bug 1177619](https://bugzilla.mozilla.org/show_bug.cgi?id=1177619) - Reader mode isn't offered on Blogger/Blogspot based blogs - **_Evan Tseng_**  
       - [Bug 1310074](https://bugzilla.mozilla.org/show_bug.cgi?id=1310074) - Tests for yahoo.com - **_Evan Tseng_**  
@@ -234,9 +237,6 @@
       - [Bug 1153393](https://bugzil.la/1153393) - Session restore should restore about:reader page scrolling - **_Tim Chien_**
       - [Bug 1231701](https://bugzilla.mozilla.org/show_bug.cgi?id=1231701) - Ship an emoji font on Windows XP - **_Tim Chien_**
 
-  - **Next**
-      - [Bug 1310075](https://bugzilla.mozilla.org/show_bug.cgi?id=1310075) - Tests for qq.com - **_Evan Tseng_**
-
 - **_Storage Management_**
   - **Next**
       - [Bug 1309123](https://bugzilla.mozilla.org/show_bug.cgi?id=1309123) - Show persist-storage permission request notification - **_Fischer Liu_**
@@ -245,6 +245,7 @@
 
 - **_Video Controls_**
   - **Done**
+      - [Bug 1271765](https://bugzilla.mozilla.org/show_bug.cgi?id=1271765) - Visual refresh of media controls - **_Ray Lin_**
       - [Bug 1312324](https://bugzilla.mozilla.org/show_bug.cgi?id=1312324) - Add test to confirm that fullscreen should(not) be available accordingly when video in an iframe - **_Ray Lin_**
       - [Bug 1303245](https://bugzilla.mozilla.org/show_bug.cgi?id=1303245) - add a test to confirm that video control show closed caption button when video has supported text track - **_Ray Lin_**
       - [Bug 1300805](https://bugzilla.mozilla.org/show_bug.cgi?id=1300805) - Disable WebVTT breaks some controls of the native media player - **_Ray Lin_**
@@ -255,10 +256,10 @@
       - [Bug 887934](https://bugzilla.mozilla.org/show_bug.cgi?id=887934) - [webvtt] Update video controls to include options for closed captioning - **_Ray Lin_**
 
   - **Next**
+      - [Bug 1312334](https://bugzilla.mozilla.org/show_bug.cgi?id=1312334) - add test to confirm that every control work fine when open media directly - **_Ray Lin_**
       - [Bug 1311700](https://bugzilla.mozilla.org/show_bug.cgi?id=1311700) - Add test to confirm that video control show controls in different sizes correctly - **_Ray Lin_**
       - [Bug 1302320](https://bugzilla.mozilla.org/show_bug.cgi?id=1302320) - add a test to confirm that video control show "noaudio" icon when video has no audio - **_Ray Lin_**
-      - [Bug 1271765](https://bugzilla.mozilla.org/show_bug.cgi?id=1271765) - Visual refresh of media controls - **_Ray Lin_**
-
+ 
 - **_Good First Bug/Mentor Bug/Good Next Bug_**
   - **Done**
       - [Bug 1126967](https://bugzilla.mozilla.org/show_bug.cgi?id=1126967) - Improve the loading transition - **_Dan Huang_**
