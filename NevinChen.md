@@ -1,5 +1,5 @@
 ## 11/14 ~ 11/18
-# Plan
+### Plan
 - Bug fixing
     - To work on PWA bugs.
     - To work on [Good Next Bug]
