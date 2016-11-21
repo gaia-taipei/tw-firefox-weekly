@@ -1,8 +1,8 @@
 ## 11/14 ~ 11/18
 # Plan
 - Bug fixing
-- Wokring on PWA bugs.
-- Working on [Good Next Bug]
+    - To work on PWA bugs.
+    - To work on [Good Next Bug]
 
 # In Progress:
 - [Bug 1240560](https://bugzilla.mozilla.org/show_bug.cgi?id=1240560) -  When adding website to homes screen, no notification of success/failure is presented (
