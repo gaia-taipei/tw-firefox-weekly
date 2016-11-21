@@ -1,10 +1,14 @@
 ### Last week
 
 * [Contextual Feedback]
-  - [r+][Bug 1289913] Got 2 r+ since the patch was back-out for the failed test. After fixing the failed test, the patch is ready for landing.
+  - [landed][Bug 1289913] Got 2 r+ since the patch was back-out for the failed test. After fixing the failed test, the patch is ready for landing.
+  - [Bug 1318537] I thought this can be reproduced on Linux only, but I found it can be on MacOSX too.
+  - [Bug 1318203] Wait for UX and MattN's confirmation.
+  - [Bug 1317882] The issue could be relative to couple timers, and it needs more time to investigate.
+  - [r+][Bug 1317284] I am going to rebase and land this after mochitest are all pass.
 
 * [Downloads Panel]
-  - [Bug 1282664] This bug is no longer blocked by bug 1301708 after UX provides a new context menu design.
+  - [Bug 1282664] Provide a WIP patch.
 
 ### This week
 
@@ -16,7 +20,7 @@
   - [Bug 1269958] Pending on UX's feedback.
 
 * [Contextual Feedback]
-  - Open some follow-up bugs to fix the following items:
-    - "Learn More" link behavior
-    - Incorrect dropdown height at the first time showing.
-    - Improve the visual style.
+  - [Bug 1318537] Working on this bug.
+  - [Bug 1318203] Working on this bug.
+  - [Bug 1317882] Working on this bug.
+  - [Bug 1317284] Working on this bug.
