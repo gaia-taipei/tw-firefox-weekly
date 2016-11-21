@@ -1,17 +1,19 @@
-# 11/08 ~ 11/10
+# 11/14 ~ 11/18
 
 - [Video Control]
   - Bug 1271765 - Visual refresh of media controls
-    - target on next release cycle
-    - latest try: https://treeherder.mozilla.org/#/jobs?repo=try&revision=c890fe464ff2a4c13505db9d1e137fe752d90f5e&selectedJob=30963545
+    - landed
+  - Bug 1317909- Add a test to confirm error msg & icon present when open unsupported media
+    - landing
   - Bug 1302320 - add a test to confirm that video control show "noaudio" icon when video has no audio
-    - patch done and pushed. Will add review flag once Bug 1271765 landed
+    - will rebase & ask for review next week (W47)
   - Bug 1311700 - Add test to confirm that video control show controls in different sizes correctly
-    - patch done and pushed. Will add review flag once Bug 1271765 landed
+    - will rebase & ask for review next week (W47)
   - Bug 1312334 - add test to confirm that every control work fine when open media directly
     - WIP
-  - Add a test to confirm error state and error text should display and fit on most video size
-    - discuss with Alastor, our first diagnosis is that we can not produce error state manually. The `mError` is an internal used variable, and not exposed to any API. Since we could not easily to simulate state like network error or decode aborted in test environment, remove this test from plan.
+    - solved the issue about passing DOM object across process. (from content process to chrome process)
+  - Bug 1302310 - Consider make video control's width match the size of video element
+    - WIP
   - Video control test coverage enhancement tracker bug - Bug 1303958
 
 ### Video Control Planning ###
