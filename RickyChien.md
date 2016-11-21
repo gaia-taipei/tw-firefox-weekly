@@ -1,17 +1,27 @@
-## 11/03 - 11/07
+## 11/14 - 11/18
 
-###DevTools
+### DevTools
 * [Bug 1307892](https://bugzilla.mozilla.org/show_bug.cgi?id=1307892) - Support network event update messages 
- * Move [#196](https://github.com/devtools-html/gecko-dev/issues/196) from github to bugzilla
- * new issue fixed because of missing stubPacket keys for enzyme testing.
  * r?
-* [Bug 1309191](https://bugzilla.mozilla.org/show_bug.cgi?id=1309191) - Implement filter buttons in Net Panel Toolbar
- * This bug is a vital best practice for introducing react + redux into filter buttons. Following reactoring will depend on & reference this one.
- * landed
 * [Bug 1309194](https://bugzilla.mozilla.org/show_bug.cgi?id=1309194) - Implement summary info in Net Panel Toolbar
- * WIP
+ * Landed
 * [Bug 1308507](https://bugzilla.mozilla.org/show_bug.cgi?id=1308507) - Remove all usages of nsIURL and NetworkHelper
- * r-
+ * Landed
+* [Bug 1316484](https://bugzilla.mozilla.org/show_bug.cgi?id=1316484) - Add empty line between "use strict"; and linter comment and the license header
+ * Landed
+* [Bug 1317438](https://bugzilla.mozilla.org/show_bug.cgi?id=1317438) - Unnecessary whitespaces added by XHTML code in about:privatebrowsing
+ * Landed
+
+#### Netmonitor technical survey and discussions
+
+* [Flux Standard Action (FSA)](https://groups.google.com/a/mozilla.com/forum/#!msg/netmonitor/CcIgCLLukVc/3lZtlJJgAwAJ)
+* [Pass all state into connect() will kill any performance optimizations](https://groups.google.com/a/mozilla.com/forum/#!topic/netmonitor/Oq8MyZ7tfDk)
+
+
+#### Request to performance tools
+ * Set up a meeting with Taipei performance team and collected a list of features and requirements from them to figure out how to improve performance tools.
+ * Deliver collected requirements to the members of devtools performance tool and figure out the project roadmap.
+
 * Netmonitor.html planning
  * High level plan overview [Overview]
  * Refactoring works will stick to bugzilla and replace xul to react component piece by piece
