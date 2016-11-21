@@ -1,3 +1,13 @@
+- [Bug ]
+
+- [Bug 1318222](https://bugzilla.mozilla.org/show_bug.cgi?id=1318222) - Adding tests to Fennec
+   - r?sebastian
+   - Unit test is passed. UI test is under review
+
+- [Bug 1280540](https://bugzilla.mozilla.org/show_bug.cgi?id=1280540) - # character in URLs is not encoded properly 
+    - r? reporter
+    - Can't reproduce
+
 ## 11/7 ~ 11/10 
 
 - [Bug 1312461](https://bugzilla.mozilla.org/show_bug.cgi?id=1312461) - GeckoAppShell.createShortcut no longer requires background thread
