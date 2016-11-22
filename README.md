@@ -16,6 +16,7 @@ Members
 * Luke Chang
 * Sean Lee
 * Fischer Liu
+* Max Liu
 * Graduated
   - Gary Chen
   - Sherman Chen
