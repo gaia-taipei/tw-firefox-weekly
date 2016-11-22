@@ -1,3 +1,21 @@
+## 11/7 ~ 11/10 
+
+- [Bug 1312461](https://bugzilla.mozilla.org/show_bug.cgi?id=1312461) - GeckoAppShell.createShortcut no longer requires background thread
+    - Closed due to another work in progress
+
+- [Bug 1280184](https://bugzilla.mozilla.org/show_bug.cgi?id=1280184) - Android: uninstalling firefox will delete all downloaded files, very annoying 
+    - r?sebastian
+
+- [Bug 1314563](https://bugzilla.mozilla.org/show_bug.cgi?id=1314563) - Showing green lock for manually added certificate exception
+    - wip, waiting for UX team's input
+
+- [Bug 1295018](https://bugzilla.mozilla.org/show_bug.cgi?id=1295018) - Android's Keyboard shouldn't learn new words when Private Tab is opened
+    - Fix later until we have plan for Samsung device support plan.
+    - Unassigned for now.
+
+- [Bug 1307621](https://bugzilla.mozilla.org/show_bug.cgi?id=1307621) - To optimize web icon after adding this page to Home Screen
+    - Waiting for reviewer's input for implementation
+  
 
 ## 10/31 ~ 11/04
 
