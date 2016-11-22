@@ -5,7 +5,7 @@
 Devtools
 
 - netmonitor.html(deXUL netmonitor)
-  - 2nd iteration starts(till Jan), current project estimate finish date is Fx54
+  - 2nd iteration starts(till Jan), current project estimate finish date is Fx56
   - Project summary in [Project document], [Mana page]
   - Bug solving status available on [Project Wiki]
 
