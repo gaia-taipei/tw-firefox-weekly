@@ -1,13 +1,14 @@
-## 11/07 - 11/11 ##
+## 11/14 ~ 11/18 ##
 
 ### This Week ###
-* [Storgae Management]
+* [Storage Management]
   - [r+] Bug 1313003 - Add Site Data section into Network of Advanced of about:preferences
-  - Bug 1309123 - Show persist-storage permission request notification
-    - Get the feedback from :Gijs
+    - Fixed the merge issue. Now waiting sheriff to land into Central
   - [WIP] Bug 1312361 - Clear all sites data from the Site Data section
+    - Ready to send review request upon the bug 1313003 landed
+  - [WIP] Bug 1312372 - List sites using storage in Settings of Site Data
 
 ### Last Week ###
-* [Storgae Management]
-  - [WIP] Bug 1309123 - Show persist-storage permission request notification
-  - Bug 1312361 - Clear all sites data from the Site Data section
+* [Storage Management]
+  - Bug 1309123 - Show persist-storage permission request notification
+    - Get the feedback from :Gijs, will update after the dependent bug 1286717 is fixed
