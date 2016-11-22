@@ -1,4 +1,4 @@
-## 11/7 ~ 11/10
+## 11/14 ~ 11/18
 
 - [Firefox]
 	- [UI feedback] [Bug 285836](https://bugzilla.mozilla.org/show_bug.cgi?id=285836) - Make "Remove All Cookies Now" undoable
@@ -6,12 +6,13 @@
 
 - [Date-time Picker]
 	- [Bug 1283381](https://bugzilla.mozilla.org/show_bug.cgi?id=1283381) - [meta] Implement UI for date time input types
-		- [landed] [Bug 1301284](https://bugzilla.mozilla.org/show_bug.cgi?id=1301284) - Update picker style to match the visual spec for \<input type="time"\>
-		- [landed] [Bug 1315911](https://bugzilla.mozilla.org/show_bug.cgi?id=1315911) - [DateTimePicker] Disable time picker UI by making it pref-off by default
 		- [WIP] [Bug 1309471](https://bugzilla.mozilla.org/show_bug.cgi?id=1309471) - [DateTimePicker] Add browser chrome test for time picker
-			- WIP is on mozreview
+			- Placing it on lower priority, may include the spinner functionality tests in date picker tests instead
 		- [WIP] [Bug 1283385](https://bugzilla.mozilla.org/show_bug.cgi?id=1283385) -  Implement UI for \<input type="date"\>
-			- Sent current WIP on mozreview
+			- Improved calendar rendering to only update the changes
+			- Stop updating calendar if month year picker is covering the calendar
+			- Stop updating month year spinners if the month year picker is not visible
+			- DateKeeper reuses days, months, years arrays if possible
 
 #### Date Time Pickers Tasks:
 
