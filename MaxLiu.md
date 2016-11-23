@@ -1,21 +1,27 @@
-# Max Liu
-
-## 2016#45 (11/07~11/11)
-* Try to make Localization build for Fennec
-  * Fail, ask for help during taipei work week
-* Bug 702845 - [meta] RTL support for Firefox for Android
-  * Patch ready, push to try next week
-* Work week material prepare
+# [W46] Max Liu: 11/14 ~ 11/18
 
 
-## 2016#44 (11/01~11/04)
-* Bug 1312719 - Sync account avatar still visible after disconnect/logout
-  * root cause/solution found
-  * push to review done
-* Android build pass
-  * 3-android-artifect build fail now
-    * tracking status from Sebastian
-    * https://bugzilla.mozilla.org/show_bug.cgi?id=1314835
-  * 4-android build pass
-* on-board
-  * Laptop setup
+* [Fennec]
+  - Bug 702845 - [meta] RTL support for Firefox for Android
+    - Push try passed, review next week
+
+  - Bug 1311480 - Show Devices in Alphabetical Order on Send to Device
+    - Review+, fix test case build fail, landing next week
+
+  - Bug 1318074 - Crash in java.lang.NullPointerException: at org.mozilla.gecko.MediaPlayerManager.onCreate(MediaPlayerManager.java)
+    - Checking
+
+
+## TODO
+  * Bug 942609 - [meta] Reduce Fennec's storage impact: APK and data
+    - Studying
+  * Bug 1092373 - Heartbeat Tracking
+    - Studying
+  * Bug 1212648 - [Meta] Support of Progressive Apps in Fennec
+    - Studying
+
+
+## Work week
+  - Nanodegree of Fennec anatomy class 101
+  - Triage meeting
+  - Localization build still not fixed yet, ping :ahunt
