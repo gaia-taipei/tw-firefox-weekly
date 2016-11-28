@@ -137,9 +137,10 @@
      - [Bug 1300988](https://bugzilla.mozilla.org/show_bug.cgi?id=1300988) - Implement an API in the content process to fill a form with a specific form autofill profile using @autocomplete - **_Steve Chung_**
      - [Bug 1304322](https://bugzilla.mozilla.org/show_bug.cgi?id=1304322) - Refactor LoginStore.jsm to make it reusable for Form Autofill - **_Luke Chang_**
 
-  - **Next**
+  - **Next**  
      - [Bug 1019471](https://bugzilla.mozilla.org/show_bug.cgi?id=1019471) - (fx-autofill-profile-edit) Dialog to add/edit/view an autofill profile - **_Luke Chang_**
      - [Bug 1301544](https://bugzilla.mozilla.org/show_bug.cgi?id=1301544) - Define a schema and storage method for Form Autofill / Web Payment address profiles - **_Luke Chang_**
+     - [Bug 1304634](https://bugzilla.mozilla.org/show_bug.cgi?id=1304634) - Support populating autocomplete results from form autofill code - **_Steve Chung_**
      - [Bug 1019483](https://bugzilla.mozilla.org/show_bug.cgi?id=1019483) - (fx-autofill-profile-mgmt) Interface to manage autofill profiles - **_Steve Chung_**
 
 - **_Location Bar_**
@@ -164,6 +165,7 @@
 
 - **_NetMonitor_**
   - **Done**
+      - [Bug 1314528](https://bugzilla.mozilla.org/show_bug.cgi?id=1314528) - [webconsole] enable mocha tests on windows - **_Fred Lin_**  
       - [Bug 1312352](https://bugzilla.mozilla.org/show_bug.cgi?id=1312352) - Netmonitor: the "Timeline" column shoud have a text label when the request list is empty - **_Fred Lin_**
       - [Bug 1309496](https://bugzilla.mozilla.org/show_bug.cgi?id=1309496) - Set up mocha testing framework for netmonitor - **_Fred Lin_**  
       - [Bug 1309193](https://bugzilla.mozilla.org/show_bug.cgi?id=1309193) - Implement sidebar toggle button in Net Panel Toolbar - **_Fred Lin_**
@@ -174,6 +176,7 @@
       - [Bug 1308500](https://bugzilla.mozilla.org/show_bug.cgi?id=1308500) - Migrate localization strings away from netmonitor.dtd - **_Fred Lin_**
       - [Bug 1309796](https://bugzilla.mozilla.org/show_bug.cgi?id=1309796) - add eslint support for netmonitor - **_Fred Lin_**
       - [Bug 1308503](https://bugzilla.mozilla.org/show_bug.cgi?id=1308503) - Migrate localization strings away from certManager.dtd - **_Fred Lin_**
+      - [Bug 1316484](https://bugzilla.mozilla.org/show_bug.cgi?id=1316484) - Add empty line between "use strict"; and linter comment and the license header - **_Ricky Chien_**
       - [Bug 1308507](https://bugzilla.mozilla.org/show_bug.cgi?id=1308507) - Remove all usages of nsIURL and NetworkHelper - **_Ricky Chien_**      
       - [Bug 1309194](https://bugzilla.mozilla.org/show_bug.cgi?id=1309194) - Implement summary info in Net Panel Toolbar - **_Ricky Chien_**  
       - [Bug 1309192](https://bugzilla.mozilla.org/show_bug.cgi?id=1309192) - Implement search filter in Net Panel Toolbar - **_Ricky Chien_**
@@ -215,6 +218,7 @@
 
 - **_Private Browsing_**
   - **Done**
+      - [Bug 1317438](https://bugzilla.mozilla.org/show_bug.cgi?id=1317438) - Unnecessary whitespaces added by XHTML code in about:privatebrowsing - **_Ricky Chien_**
       - [Bug 1259340](http://bugzil.la/1259340) - New Private Browsing Window update - **_Ricky Chien_**
       - [Bug 1267434](http://bugzil.la/1267434) - Unnecessary whitespace displayed after aboutPrivateBrowsing.info.saved.emphasize in about:privatebrowing - **_Ricky Chien_**
       - [Bug 1267499](http://bugzil.la/1267499) - New Private Browsing start-page overflows off the window bottom (triggering a scrollbar) for totally-reasonable window sizes - **_Ricky Chien_**
@@ -222,6 +226,7 @@
 
 - **_Quality of Experience_**
   - **Done**
+      - [Bug 1317930](https://bugzilla.mozilla.org/show_bug.cgi?id=1317930) - Tests for msn.com - **_Evan Tseng_**
       - [Bug 1310075](https://bugzilla.mozilla.org/show_bug.cgi?id=1310075) - Tests for qq.com - **_Evan Tseng_**
       - [Bug 1173823](https://bugzilla.mozilla.org/show_bug.cgi?id=1173823) - Reader View ignores (base href="...") - **_Evan Tseng_**
       - [Bug 1177619](https://bugzilla.mozilla.org/show_bug.cgi?id=1177619) - Reader mode isn't offered on Blogger/Blogspot based blogs - **_Evan Tseng_**  
@@ -240,6 +245,11 @@
       - [Bug 1153393](https://bugzil.la/1153393) - Session restore should restore about:reader page scrolling - **_Tim Chien_**
       - [Bug 1231701](https://bugzilla.mozilla.org/show_bug.cgi?id=1231701) - Ship an emoji font on Windows XP - **_Tim Chien_**
 
+  - **Next**
+      - [Bug 1318605](https://bugzilla.mozilla.org/show_bug.cgi?id=1318605) - Do language detection for cases don't obtain a dir attribute - **_Evan Tseng_**
+      - [Bug 1255978](https://bugzilla.mozilla.org/show_bug.cgi?id=1255978) - Reader View displays list of other articles when used on article on www.independent.co.uk - **_Evan Tseng_**
+      - [Bug 1173548](https://bugzilla.mozilla.org/show_bug.cgi?id=1173548) - Reader View picks wrong direction for some RTL pages - **_Evan Tseng_**
+
 - **_Storage Management_**
   - **Next**
       - [Bug 1309123](https://bugzilla.mozilla.org/show_bug.cgi?id=1309123) - Show persist-storage permission request notification - **_Fischer Liu_**
@@ -248,6 +258,8 @@
 
 - **_Video Controls_**
   - **Done**
+      - [Bug 1302310](https://bugzilla.mozilla.org/show_bug.cgi?id=1302310) - Consider make video control's width match the size of video element - **_Ray Lin_**
+      - [Bug 1317909](https://bugzilla.mozilla.org/show_bug.cgi?id=1317909) - add a test to confirm that error overlay and status icon show when open unsupported media source - **_Ray Lin_**
       - [Bug 1271765](https://bugzilla.mozilla.org/show_bug.cgi?id=1271765) - Visual refresh of media controls - **_Ray Lin_**
       - [Bug 1312324](https://bugzilla.mozilla.org/show_bug.cgi?id=1312324) - Add test to confirm that fullscreen should(not) be available accordingly when video in an iframe - **_Ray Lin_**
       - [Bug 1303245](https://bugzilla.mozilla.org/show_bug.cgi?id=1303245) - add a test to confirm that video control show closed caption button when video has supported text track - **_Ray Lin_**
