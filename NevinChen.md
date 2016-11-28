@@ -5,9 +5,6 @@
     - r?antlam
     - Paused for UX/UI deisgn
 
-- [Bug 1307621](https://bugzilla.mozilla.org/show_bug.cgi?id=1307621) - To optimize web icon after adding this page to Home Screen
-    - r?pchen
-    - Paused for UX/UI deisgn
     
 ### Others
 - [Bug 1317191](https://bugzilla.mozilla.org/show_bug.cgi?id=1317191) - Crash in java.lang.IllegalStateException: Expected session to be started before session end is called
