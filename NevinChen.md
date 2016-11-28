@@ -14,7 +14,8 @@
     - WIP
 
 - [Bug 1316547](https://bugzilla.mozilla.org/show_bug.cgi?id=1316547) - big memory leak on firefox aurora for android (edit) 
-    - Looks like an platform bug, info?nchen , flag triage
+    - needinfo?nchen    
+    - Looks like an platform bug, flag triage
 
 - [Bug 1299548](https://bugzilla.mozilla.org/show_bug.cgi?id=1299548) - Firefox for Android URL encodes unsafe characters literally in downloaded file names
     - r?reporter
@@ -24,7 +25,8 @@
     - Samsung specific bug
     
 - [Bug 1319366](https://bugzilla.mozilla.org/show_bug.cgi?id=1319366) - Clicking a link while presenting Google slides makes the navigation bar go black
-    - Looks like an platform bug, info?nchen , flag triage
+    - needinfo?nchen
+    - Looks like an platform bug,  flag triage
 
 - [Bug 1264221](https://bugzilla.mozilla.org/show_bug.cgi?id=1264221) - Androidify home screen shortcut icons 
     - WIP
