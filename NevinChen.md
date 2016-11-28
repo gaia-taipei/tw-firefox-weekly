@@ -43,4 +43,3 @@
 - [Bug 1318222](https://bugzilla.mozilla.org/show_bug.cgi?id=1318222) - Adding tests to Fennec
     - r+
     
-    - r?antlam
