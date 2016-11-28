@@ -10,7 +10,7 @@
     - Paused for UX/UI deisgn
     
 ### Others
-- [Bug 1317191](https://bugzilla.mozilla.org/show_bug.cgi?id=1317191 - Crash in java.lang.IllegalStateException: Expected session to be started before session end is called
+- [Bug 1317191](https://bugzilla.mozilla.org/show_bug.cgi?id=1317191) - Crash in java.lang.IllegalStateException: Expected session to be started before session end is called
     - WIP
 
 - [Bug 1316547](https://bugzilla.mozilla.org/show_bug.cgi?id=1316547) - big memory leak on firefox aurora for android (edit) 
