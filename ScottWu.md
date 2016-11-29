@@ -1,4 +1,4 @@
-## 11/14 ~ 11/18
+## 11/21 ~ 11/25
 
 - [Firefox]
 	- [UI feedback] [Bug 285836](https://bugzilla.mozilla.org/show_bug.cgi?id=285836) - Make "Remove All Cookies Now" undoable
@@ -6,13 +6,13 @@
 
 - [Date-time Picker]
 	- [Bug 1283381](https://bugzilla.mozilla.org/show_bug.cgi?id=1283381) - [meta] Implement UI for date time input types
-		- [WIP] [Bug 1309471](https://bugzilla.mozilla.org/show_bug.cgi?id=1309471) - [DateTimePicker] Add browser chrome test for time picker
-			- Placing it on lower priority, may include the spinner functionality tests in date picker tests instead
-		- [WIP] [Bug 1283385](https://bugzilla.mozilla.org/show_bug.cgi?id=1283385) -  Implement UI for \<input type="date"\>
-			- Improved calendar rendering to only update the changes
-			- Stop updating calendar if month year picker is covering the calendar
-			- Stop updating month year spinners if the month year picker is not visible
-			- DateKeeper reuses days, months, years arrays if possible
+		- [r?] [Bug 1283385](https://bugzilla.mozilla.org/show_bug.cgi?id=1283385) -  Implement UI for \<input type="date"\>
+			- Review under progress
+		- [WIP] [Bug 1320647](https://bugzilla.mozilla.org/show_bug.cgi?id=1320647) -  [DateTimePicker] Add min/max and step support to date picker
+			- Improved styling for month-year button
+			- Added new svg for arrows
+			- Added min/max support
+			- Working on step support
 
 #### Date Time Pickers Tasks:
 
@@ -35,7 +35,7 @@
 	- [Done] Out of range items are displayed but greyed out
 	- [Done] Fix panel arrow position
 - Date picker
-	- [WIP] Basic calendar component
+	- [Done] Basic calendar component
 		- Display calendar in 6 week rows
 		- First day of the week & weekends configurable
 		- Apply basic styling
