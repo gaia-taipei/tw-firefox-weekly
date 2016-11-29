@@ -22,6 +22,7 @@
   - **Next**
       - [Bug 1282664](https://bugzilla.mozilla.org/show_bug.cgi?id=1282664) - Redesign the right-click menu for each item in downloads panel - **_Sean Lee_**
       - [Bug 1269958](https://bugzilla.mozilla.org/show_bug.cgi?id=1269958) - Change the summary section for Multiple Files information in Downloads Panel - **_Sean Lee_**
+      - [Bug 1269957](https://bugzilla.mozilla.org/show_bug.cgi?id=1269957) - Unify the spacing and change the number of maximum download items displayed - **_KM Lee_**
       - [Bug 1301384](https://bugzilla.mozilla.org/show_bug.cgi?id=1301384) - Unify the spacing and the progress bar styling in the Downloads Panel across platforms - **_KM Lee_**
       - [Bug 1269954](https://bugzilla.mozilla.org/show_bug.cgi?id=1269954) - Pop out download starting notification when a new download request is triggered - **_KM Lee_**
 
@@ -31,7 +32,7 @@
       - [Bug 1217162](https://bugzilla.mozilla.org/show_bug.cgi?id=1217162) - Implement Contextual Feedback on Insecure Passwords - **_Sean Lee_**
 
   - **Next**
-
+      - [Bug 1317284](https://bugzilla.mozilla.org/show_bug.cgi?id=1317284) - Intermittent toolkit/components/passwordmgr/test/mochitest/test_password_field_autocomplete.html | Test timed out. - **_Sean Lee_**
 
 - **_Control Center_**
   - **Done** 
@@ -131,13 +132,14 @@
       
 - **_Form Autofill_**
   - **Done**
+     - [Bug 1311256](https://bugzilla.mozilla.org/show_bug.cgi?id=1311256) - [jsplugins] requestFullscreen doesn't work in the plugin window - **_Luke Chang_**
      - [Bug 1300990](https://bugzilla.mozilla.org/show_bug.cgi?id=1300990) - Implement an API in the parent process to decide which values of an autofill profile would be filled in which field - **_Luke Chang_**
      - [Bug 1016733](https://bugzilla.mozilla.org/show_bug.cgi?id=1016733) - Implement form auto-fill profile storage - **_Luke Chang_**
      - [Bug 1309481](https://bugzilla.mozilla.org/show_bug.cgi?id=1309481) - Remove leftover code specific to Logins from JSONFile.jsm and add tests - **_Luke Chang_**
      - [Bug 1300988](https://bugzilla.mozilla.org/show_bug.cgi?id=1300988) - Implement an API in the content process to fill a form with a specific form autofill profile using @autocomplete - **_Steve Chung_**
      - [Bug 1304322](https://bugzilla.mozilla.org/show_bug.cgi?id=1304322) - Refactor LoginStore.jsm to make it reusable for Form Autofill - **_Luke Chang_**
 
-  - **Next**  
+  - **Next**
      - [Bug 1019471](https://bugzilla.mozilla.org/show_bug.cgi?id=1019471) - (fx-autofill-profile-edit) Dialog to add/edit/view an autofill profile - **_Luke Chang_**
      - [Bug 1301544](https://bugzilla.mozilla.org/show_bug.cgi?id=1301544) - Define a schema and storage method for Form Autofill / Web Payment address profiles - **_Luke Chang_**
      - [Bug 1304634](https://bugzilla.mozilla.org/show_bug.cgi?id=1304634) - Support populating autocomplete results from form autofill code - **_Steve Chung_**
@@ -159,10 +161,11 @@
       - [Bug 1299402](https://bugzilla.mozilla.org/show_bug.cgi?id=1299402) - [jsplugins][UI] Implement zoom-in and zoom-out buttons - **_Luke Chang_**
 
   - **Next**
+      - [Bug 1317228](https://bugzilla.mozilla.org/show_bug.cgi?id=1317228) - [jsplugins][UI] Implement mouse control in presentation mode - **_Luke Chang_**
       - [Bug 1299406](https://bugzilla.mozilla.org/show_bug.cgi?id=1299406) - [jsplugins][UI] Implement document outlines - **_Luke Chang_**
       - [Bug 1316526](https://bugzilla.mozilla.org/show_bug.cgi?id=1316526) - [jsplugins][UI] Implement download feature - **_Luke Chang_**
       - [Bug 1299405](https://bugzilla.mozilla.org/show_bug.cgi?id=1299405) - [jsplugins][UI] Implement presentation mode - **_Luke Chang_**
-
+  
 - **_NetMonitor_**
   - **Done**
       - [Bug 1314528](https://bugzilla.mozilla.org/show_bug.cgi?id=1314528) - [webconsole] enable mocha tests on windows - **_Fred Lin_**  
@@ -251,11 +254,14 @@
       - [Bug 1173548](https://bugzilla.mozilla.org/show_bug.cgi?id=1173548) - Reader View picks wrong direction for some RTL pages - **_Evan Tseng_**
 
 - **_Storage Management_**
+  - **Done**
+     - [Bug 1313003](https://bugzilla.mozilla.org/show_bug.cgi?id=1313003) - Add Site Data section into Network of Advanced of about:preferences - **_Fischer Liu_**
+  
   - **Next**
+      - [Bug 1312372](https://bugzilla.mozilla.org/show_bug.cgi?id=1312372) - List sites using storage in Settings of Site Data - **_Fischer Liu_**
       - [Bug 1309123](https://bugzilla.mozilla.org/show_bug.cgi?id=1309123) - Show persist-storage permission request notification - **_Fischer Liu_**
       - [Bug 1312361](https://bugzilla.mozilla.org/show_bug.cgi?id=1312361) - Clear all sites data from the Site Data section - **_Fischer Liu_**
-      - [Bug 1313003](https://bugzilla.mozilla.org/show_bug.cgi?id=1313003) - Add Site Data section into Network of Advanced of about:preferences - **_Fischer Liu_**
-
+ 
 - **_Video Controls_**
   - **Done**
       - [Bug 1302310](https://bugzilla.mozilla.org/show_bug.cgi?id=1302310) - Consider make video control's width match the size of video element - **_Ray Lin_**
