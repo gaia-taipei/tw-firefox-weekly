@@ -1,15 +1,27 @@
-# [W46] Max Liu: 11/14 ~ 11/18
+# [W47] Max Liu: 11/21 ~ 11/25
 
 
 * [Fennec]
-  - Bug 702845 - [meta] RTL support for Firefox for Android
-    - Push try passed, review next week
+  - Bug 1319302 - [Fennec] Turn RTL support on and fix a few oustanding issues for Android >= 4.2
+    - Patch landed
 
   - Bug 1311480 - Show Devices in Alphabetical Order on Send to Device
-    - Review+, fix test case build fail, landing next week
+    - Patch landed
 
   - Bug 1318074 - Crash in java.lang.NullPointerException: at org.mozilla.gecko.MediaPlayerManager.onCreate(MediaPlayerManager.java)
-    - Checking
+    - Dup, fixed by Jim
+
+  - Bug 1291270 - Nightly update notification to download it and to install it look very similar
+    - Patch landed
+
+  - Bug 1319017 - Always default icon shown for custom search engines
+    - Root cause found, Sebastian took it.
+
+  - Bug 1317326 - When headset is unplugged, media playback should be paused.
+    - Patch ready, try pass, review?
+
+  - Bug 1318663 - Tapping on 'New Tab' from Search Activity widget doesn't open a new one if the Restore tab is set to always restore
+    - Root cause found, patch brewing
 
 
 ## TODO
@@ -21,7 +33,10 @@
     - Studying
 
 
-## Work week
-  - Nanodegree of Fennec anatomy class 101
-  - Triage meeting
+## Study
+  - Survey for Hasel on Fennec
   - Localization build still not fixed yet, ping :ahunt
+
+
+## Side Project
+  - Single Hand Mode
