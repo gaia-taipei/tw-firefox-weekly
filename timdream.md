@@ -1,5 +1,7 @@
 ## Firefox QX
 
+* [Bug 1319020](https://bugzil.la/1319020) - Update Emoji font from upstream
+ * FIXED in Fx53, requesting uplift to Fx52/51
 * [Bug 1231701](https://bugzil.la/1231701) - Ship an Emoji font in Firefox
  * FIXED in Fx50
 * [Bug 1266372](https://bugzil.la/1266372) - The close reader mode button on page should behave the same as bug 1184950
@@ -17,11 +19,11 @@
 * [Bug 1314478](https://bugzil.la/1314478) - Contextual Insecure Password Warning should show up for all username fields, even when there are no saved login
  * Fixed in Fx53, to be uplifted to Fx52
 * [Bug 1318194](https://bugzil.la/1318194) - Saved logins sould be in the dropdown list for HTTP pages.
- * checkedin-needed
+ * Fixed in Fx53, to be uplifted to Fx52
 * [Bug 1317882](https://bugzil.la/1317882) - Incorrect autocomplete dropdown height.
- * Found a possible cause for Sean, he will submit patch accordingly if the peers agrees.
+ * Fixed in Fx53, to be uplifted to Fx52
 * [Bug 1317284](https://bugzil.la/1317284) - Intermittent toolkit/components/passwordmgr/test/mochitest/test_password_field_autocomplete.html
- * Identified the root cause for Sean and he is waiting for review.
+ * Fixed in Fx53 by Sean, to be uplifted to Fx52
 
 ## Firefox
 
