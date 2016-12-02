@@ -54,7 +54,7 @@
       - [Bug 1306251](https://bugzilla.mozilla.org/show_bug.cgi?id=1306251) - Rename form validation anchor to a more generic name for better reuse - **_Scott Wu_**
 
   - **Next**
-      - [Bug 1309471](https://bugzilla.mozilla.org/show_bug.cgi?id=1309471) - [DateTimePicker] Add browser chrome test for time picker - **_Scott Wu_**
+      - [Bug 1320647](https://bugzilla.mozilla.org/show_bug.cgi?id=1320647) - [DateTimePicker] Add min/max and step support to date picker - **_Scott Wu_**
       - [Bug 1283385](https://bugzilla.mozilla.org/show_bug.cgi?id=1283385) - Implement UI for `<input type="date">` - **_Scott Wu_**
 
 - **_DevTools_**
@@ -182,6 +182,9 @@
       - [Bug 1308500](https://bugzilla.mozilla.org/show_bug.cgi?id=1308500) - Migrate localization strings away from netmonitor.dtd - **_Fred Lin_**
       - [Bug 1309796](https://bugzilla.mozilla.org/show_bug.cgi?id=1309796) - add eslint support for netmonitor - **_Fred Lin_**
       - [Bug 1308503](https://bugzilla.mozilla.org/show_bug.cgi?id=1308503) - Migrate localization strings away from certManager.dtd - **_Fred Lin_**
+      - [Bug 1319010](https://bugzilla.mozilla.org/show_bug.cgi?id=1319010) - Move NetworkDetailsView and SidebarView to their own modules - **_Ricky Chien_**
+      - [Bug 1317205](https://bugzilla.mozilla.org/show_bug.cgi?id=1317205) - CSS improvement for summary button - **_Ricky Chien_**
+      - [Bug 1308426](https://bugzilla.mozilla.org/show_bug.cgi?id=1308426) - Implement toolbar for netmonitor panel - **_Ricky Chien_**      
       - [Bug 1316484](https://bugzilla.mozilla.org/show_bug.cgi?id=1316484) - Add empty line between "use strict"; and linter comment and the license header - **_Ricky Chien_**
       - [Bug 1308507](https://bugzilla.mozilla.org/show_bug.cgi?id=1308507) - Remove all usages of nsIURL and NetworkHelper - **_Ricky Chien_**      
       - [Bug 1309194](https://bugzilla.mozilla.org/show_bug.cgi?id=1309194) - Implement summary info in Net Panel Toolbar - **_Ricky Chien_**  
@@ -192,17 +195,21 @@
       - [Bug 1308425](https://bugzilla.mozilla.org/show_bug.cgi?id=1308425) - Move Performance Statistics into its own module - **_Steve Chung_**
  
   - **Next**
+      - [Bug 1317649](https://bugzilla.mozilla.org/show_bug.cgi?id=1317649) - Implement Cookies Panel - **_Fred Lin_**  
+      - [Bug 1309188](https://bugzilla.mozilla.org/show_bug.cgi?id=1309188) - Implement Security Panel - **_Ricky Chien_**  
+      - [Bug 1309187](https://bugzilla.mozilla.org/show_bug.cgi?id=1309187) - Implement Timings Panel - **_Ricky Chien_**
+      - [Bug 1317659](https://bugzilla.mozilla.org/show_bug.cgi?id=1317659) - Implement Preview Panel - **_Ricky Chien_** 
       - [Bug 1307892](https://bugzilla.mozilla.org/show_bug.cgi?id=1307892) - Support network event update messages #196 - **_Ricky Chien_**      
       - [Bug 1308697](https://bugzilla.mozilla.org/show_bug.cgi?id=1308697) - Implement UI for performance statistics - **_Steve Chung_**
 
 - **_Password Manager_**
   - **Done**
+      - [Bug 1273871](https://bugzilla.mozilla.org/show_bug.cgi?id=1273871) - Intermittent passwordmgr/test/browser/browser_capture_doorhanger.js | This test exceeded the timeout threshold. It should be rewritten or split up. If that's not possible, use requestLongerTimeout(N), but only as a last resort. - **_Evan Tseng_**
       - [Bug 1302352](https://bugzilla.mozilla.org/show_bug.cgi?id=1302352) - browser_context_menu_iframe.js is skipped in e10s - **_Evan Tseng_**
       - [Bug 1277105](https://bugzilla.mozilla.org/show_bug.cgi?id=1277105) - Intermittent e10s browser_capture_doorhanger.js | Check the password changed - Got pass2, expected notifyp1 or Should only have 1 login - Got 0, expected 1 - **_Evan Tseng_**
       - [Bug 1288558](https://bugzilla.mozilla.org/show_bug.cgi?id=1288558) - Merge passwordManagerCommon.js into passwordManager.js - **_Steve Chung_**
 
   - **Next**
-      - [Bug 1273871](https://bugzilla.mozilla.org/show_bug.cgi?id=1273871) - Intermittent passwordmgr/test/browser/browser_capture_doorhanger.js | This test exceeded the timeout threshold. It should be rewritten or split up. If that's not possible, use requestLongerTimeout(N), but only as a last resort. - **_Evan Tseng_**
       - [Bug 1257078](https://bugzilla.mozilla.org/show_bug.cgi?id=1257078) - Toggle selected password visibility in the manager with a button - **_Sean Lee_**
 
 - **_Preferences_**
@@ -232,6 +239,9 @@
 
 - **_Quality of Experience_**
   - **Done**
+      - [Bug 1318605](https://bugzilla.mozilla.org/show_bug.cgi?id=1318605) - Do language detection for cases don't obtain a dir attribute - **_Evan Tseng_**  
+      - [Bug 1255978](https://bugzilla.mozilla.org/show_bug.cgi?id=1255978) - Reader View displays list of other articles when used on article on www.independent.co.uk - **_Evan Tseng_**  
+      - [Bug 1173548](https://bugzilla.mozilla.org/show_bug.cgi?id=1173548) - Reader View picks wrong direction for some RTL pages - **_Evan Tseng_**
       - [Bug 1317930](https://bugzilla.mozilla.org/show_bug.cgi?id=1317930) - Tests for msn.com - **_Evan Tseng_**
       - [Bug 1310075](https://bugzilla.mozilla.org/show_bug.cgi?id=1310075) - Tests for qq.com - **_Evan Tseng_**
       - [Bug 1173823](https://bugzilla.mozilla.org/show_bug.cgi?id=1173823) - Reader View ignores (base href="...") - **_Evan Tseng_**
@@ -252,9 +262,6 @@
       - [Bug 1231701](https://bugzilla.mozilla.org/show_bug.cgi?id=1231701) - Ship an emoji font on Windows XP - **_Tim Chien_**
 
   - **Next**
-      - [Bug 1318605](https://bugzilla.mozilla.org/show_bug.cgi?id=1318605) - Do language detection for cases don't obtain a dir attribute - **_Evan Tseng_**
-      - [Bug 1255978](https://bugzilla.mozilla.org/show_bug.cgi?id=1255978) - Reader View displays list of other articles when used on article on www.independent.co.uk - **_Evan Tseng_**
-      - [Bug 1173548](https://bugzilla.mozilla.org/show_bug.cgi?id=1173548) - Reader View picks wrong direction for some RTL pages - **_Evan Tseng_**
 
 - **_Storage Management_**
   - **Done**
@@ -267,6 +274,10 @@
  
 - **_Video Controls_**
   - **Done**
+      - [Bug 1313285](https://bugzilla.mozilla.org/show_bug.cgi?id=1313285) - Remove nsVideoFrame::mBorderPadding - **_Ray Lin_**  
+      - [Bug 1311700](https://bugzilla.mozilla.org/show_bug.cgi?id=1311700) - Add test to confirm that video control show controls in different sizes correctly - **_Ray Lin_**
+      - [Bug 1317909](https://bugzilla.mozilla.org/show_bug.cgi?id=1317909) - add a test to confirm that error overlay and status icon show when open unsupported media source - **_Ray Lin_**   
+      - [Bug 1302320](https://bugzilla.mozilla.org/show_bug.cgi?id=1302320) - add a test to confirm that video control show "noaudio" icon when video has no audio - **_Ray Lin_** 
       - [Bug 1302310](https://bugzilla.mozilla.org/show_bug.cgi?id=1302310) - Consider make video control's width match the size of video element - **_Ray Lin_**
       - [Bug 1317909](https://bugzilla.mozilla.org/show_bug.cgi?id=1317909) - add a test to confirm that error overlay and status icon show when open unsupported media source - **_Ray Lin_**
       - [Bug 1271765](https://bugzilla.mozilla.org/show_bug.cgi?id=1271765) - Visual refresh of media controls - **_Ray Lin_**
@@ -280,9 +291,10 @@
       - [Bug 887934](https://bugzilla.mozilla.org/show_bug.cgi?id=887934) - [webvtt] Update video controls to include options for closed captioning - **_Ray Lin_**
 
   - **Next**
+      - [Bug 1319584](https://bugzilla.mozilla.org/show_bug.cgi?id=1319584) - Remove right-border-radius - **_Ray Lin_** 
+      - [Bug 1319569](https://bugzilla.mozilla.org/show_bug.cgi?id=1319569) - Dead code in videocontrols.xml - **_Ray Lin_**
+      - [Bug 1319301](https://bugzilla.mozilla.org/show_bug.cgi?id=1319301) - New video controls have leave a gray overlay over videos - **_Ray Lin_**
       - [Bug 1312334](https://bugzilla.mozilla.org/show_bug.cgi?id=1312334) - add test to confirm that every control work fine when open media directly - **_Ray Lin_**
-      - [Bug 1311700](https://bugzilla.mozilla.org/show_bug.cgi?id=1311700) - Add test to confirm that video control show controls in different sizes correctly - **_Ray Lin_**
-      - [Bug 1302320](https://bugzilla.mozilla.org/show_bug.cgi?id=1302320) - add a test to confirm that video control show "noaudio" icon when video has no audio - **_Ray Lin_**
  
 - **_Good First Bug/Mentor Bug/Good Next Bug_**
   - **Done**
