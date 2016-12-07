@@ -1,4 +1,4 @@
-# [W47] 11/21 - 11/25
+# [W48] 11/28 - 12/02
 
 ## Android Fennec
 
@@ -6,15 +6,9 @@
     - Found root cause, haven't find a proper way to fix it
 
 * [Bug 1318747](https://bugzilla.mozilla.org/show_bug.cgi?id=1318747) - duplicated Read-mode-icon
-    - Reproduced. Still looking for reason
+    - Found root cause and discussed with platform team. This problem should be fixed by another patch.
+    - Waiting for that patch to be merged, and verify again.
 
 * [Bug 1314835](https://bugzilla.mozilla.org/show_bug.cgi?id=1314835) - TelemetryJSONFilePingStore.lockAndReadJSONFromFile exception
-    - Waiting for uplifting to Fx51
-
-* [Bug 1318074](https://bugzilla.mozilla.org/show_bug.cgi?id=1318074) - NPE at MediaPlayerManager.onCreate
-    - Duplicate of Bug 1319173
-    - Found root cause and gave a quick-fix. But already be fixed in Bug 1319173 by Jim.
-
-* [Bug 1308886](https://bugzilla.mozilla.org/show_bug.cgi?id=1308886) - color of searchbox's placeholder
-    - Fixed in Fx51
+    - Patch(to get more debug message) merged. Waiting for incoming crash report.
 
