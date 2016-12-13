@@ -1,23 +1,21 @@
-## 11/21 - 11/25
+## 11/28 - 12/09
+
+### Hawaii all hands
+
+* Netmonitor meetup on Thurday - Clarify the goal for 2017 Q1 and identified any potiential issues after separating codebase to Github.
+* Had a talk with Jason to understand what technologies / mechanisms are used in debugger.html and the strategics to ship code from Github to m-c.
+* Had a discussion with Greg Tatum about how to integrate Cleopatra with devtools performance tool
 
 ### DevTools
 * [Bug 1307892](https://bugzilla.mozilla.org/show_bug.cgi?id=1307892) - Support network event update messages 
  * r?
-* [Bug 1308426](https://bugzilla.mozilla.org/show_bug.cgi?id=1308426) - Implement toolbar for netmonitor panel
- * Landed
-* [Bug 1317205](https://bugzilla.mozilla.org/show_bug.cgi?id=1317205) - CSS improvement for summary button
- * Landed
-* [Bug 1319010](https://bugzilla.mozilla.org/show_bug.cgi?id=1319010) - Move NetworkDetailsView and SidebarView to their own modules
- * Landed
 * [Bug 1317659](https://bugzilla.mozilla.org/show_bug.cgi?id=1317659) - Implement Preview Panel
- * WIP
- * React component is ready but redux integration is blocked by Jarda's patch
+ * r? + f?
+ * Figure out security issues when using iframe sandbox
 * [Bug 1309187](https://bugzilla.mozilla.org/show_bug.cgi?id=1309187) - Implement Timings Panel
- * WIP
- * React component is ready but redux integration is blocked by Jarda's patch
+ * backout - back out due to Jarda's patch [Bug 1309866](https://bugzilla.mozilla.org/show_bug.cgi?id=1309866)
 * [Bug 1309188](https://bugzilla.mozilla.org/show_bug.cgi?id=1317659) - Implement Security Panel
- * WIP
- * React component is ready but redux integration is blocked by Jarda's patch
+ * r?
 
 #### Netmonitor technical survey and discussions
 
