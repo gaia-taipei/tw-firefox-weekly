@@ -1,9 +1,6 @@
 ## 12/13 ~ 12/16
-
-### PWA
-
     
-### Others
+
 - [Bug 1241262](https://bugzilla.mozilla.org/show_bug.cgi?id=1241262) - Send Tab to Device share action
     - r?ahunt
     - WIP
