@@ -1,13 +1,12 @@
-## 12/05 - 12/09 ##
+## 12/12 - 12/16 ##
 
 ### Last Week ###
 
-* [Hawaii All Hands]
-    - Clarified the architecture of Form Autofill with Matt
-    - Attended the discussion of Form Autofill and WebPayment
-    - Gave a lighting talk on Mortar/PDF
+* [PTO]
+    - 12/12 - 12/16
 
 ### This Week ###
 
-* [PTO]
-    - 12/12 - 12/16
+* [Form Autofill]
+    - [WIP] Bug 1300993 - Connect satchel autocomplete to form autofill results instead of form history when appropriate
+    - Refine the diagram of architecture
