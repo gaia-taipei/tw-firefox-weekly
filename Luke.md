@@ -1,29 +1,22 @@
-## 11/21 - 11/25 ##
+## 11/28 - 12/02 ##
 
 ### Last Week ###
 
 * [Mortar/PDF]
     - [WIP] Bug 1317228 - [jsplugins][UI] Implement mouse control in presentation mode
-        - patch is ready
-    - Clean up my WIP branch for demo
+        - couldn't find a proper way to handle left-click so requested UX's feedback
+    - Prepared the demo slides
 
 * [Form Autofill]
-    - [New] Bug 1319995 - Set the substituting handler of the resources of "formautofill" in xpcshell tests
-        - wrote the patch and got r+
-    - [New] Bug 1300993 - Connect satchel autocomplete to form autofill results instead of form history when appropriate
-        - Investigated the bug request
-    - Discussed the architecture of bug 1304634 with Steve
+    - [Done] Bug 1319995 - Set the substituting handler of the resources of "formautofill" in xpcshell tests
+        - landed
+    - [WIP] Bug 1300993 - Connect satchel autocomplete to form autofill results instead of form history when appropriate
+        - wrote a WIP patch and requested the feedback
+    - Helped Steve to find the root cause why bug 1304634 doesn't work under e10s
+        - now we have a workable prototype
+    - Prepared the diagram of architecture for discussing in all hands
 
 ### This Week ###
 
-* [Mortar/PDF]
-    - [WIP] Bug 1299405 - [jsplugins][UI] Implement presentation mode
-    - [WIP] Bug 1302334 - [jsplugins][UI] Implement find-string feature
-    - [WIP] Bug 1316526 - [jsplugins][UI] Implement download feature
-    - [WIP] Bug 1299406 - [jsplugins][UI] Implement document outlines
-    - [WIP] Bug 1317228 - [jsplugins][UI] Implement mouse control in presentation mode
-    - prepare demo slides
-
-* [Form Autofill]
-    - [WIP] Bug 1300993 - Connect satchel autocomplete to form autofill results instead of form history when appropriate
-    - Help on the architecture of bug 1304634
+* [Hawaii All Hands]
+    - Clarify the architecture of Form Autofill with Matt
