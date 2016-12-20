@@ -10,12 +10,14 @@
 * [Bug 1307892](https://bugzilla.mozilla.org/show_bug.cgi?id=1307892) - Support network event update messages 
  * r?
 * [Bug 1317659](https://bugzilla.mozilla.org/show_bug.cgi?id=1317659) - Implement Preview Panel
- * r? + f?
- * Figure out security issues when using iframe sandbox
+ * Landed
 * [Bug 1309187](https://bugzilla.mozilla.org/show_bug.cgi?id=1309187) - Implement Timings Panel
- * backout - back out due to Jarda's patch [Bug 1309866](https://bugzilla.mozilla.org/show_bug.cgi?id=1309866)
+ * Landed
 * [Bug 1309188](https://bugzilla.mozilla.org/show_bug.cgi?id=1317659) - Implement Security Panel
- * r?
+ * Landed
+* [Bug 1317650](https://bugzilla.mozilla.org/show_bug.cgi?id=1317650) - Implement Params Panel
+ * WIP - asking for the first round review, but the current patch is still far from complete
+ * Fred is working on Cookies Panel, most of his work can reference the TreeView approach in Params Panel, so we're able to make all the sidebar panels look the same.
 
 #### Netmonitor technical survey and discussions
 
