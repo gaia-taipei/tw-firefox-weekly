@@ -9,6 +9,8 @@
 # Firefox #
 - **_Content Handling_**
   - **Done**
+      - [Bug 1282664](https://bugzilla.mozilla.org/show_bug.cgi?id=1282664) - Redesign the right-click menu for each item in downloads panel - **_Sean Lee_**
+      - [Bug 1269958](https://bugzilla.mozilla.org/show_bug.cgi?id=1269958) - Change the summary section for Multiple Files information in Downloads Panel - **_Sean Lee_**  
       - [Bug 1022550](https://bugzilla.mozilla.org/show_bug.cgi?id=1022550) - Downloads panel's icons look disabled in High Contrast mode - **_Sean Lee_**
       - [Bug 1289139](https://bugzilla.mozilla.org/show_bug.cgi?id=1289139) - Use SVG for the button icons in the Downloads Panel - **_Sean Lee_**
       - [Bug 1304680](https://bugzilla.mozilla.org/show_bug.cgi?id=1304680) - browser_downloads_panel_footer.js | Test timed out - after beta uplift simulation - **_Sean Lee_**
@@ -17,15 +19,18 @@
       - [Bug 1297657](https://bugzilla.mozilla.org/show_bug.cgi?id=1297657) - Correct the dropmarker design in Downloads Panel for RTL and plain style - **_Sean Lee_**
       - [Bug 1269962](https://bugzilla.mozilla.org/show_bug.cgi?id=1269962) - Implement the new features at "Show All Downloads" in Downloads panel. - **_Sean Lee_**
       - [Bug 1297039](https://bugzilla.mozilla.org/show_bug.cgi?id=1297039) - Implement the preference for showing dropmarker or not in Downloads Panel - **_Sean Lee_**
+      - [Bug 1301384](https://bugzilla.mozilla.org/show_bug.cgi?id=1301384) - Unify the spacing and the progress bar styling in the Downloads Panel across platforms - **_KM Lee_**
       - [Bug 950058](https://bugzilla.mozilla.org/show_bug.cgi?id=950058) - Split each download item so that all of the right part of it activates the action - **_KM Lee_**
       - [Bug 1282689](https://bugzilla.mozilla.org/show_bug.cgi?id=1282689) - Show an alert mark on badges if there are exceptional status to download files. - **_KM Lee_**
 
   - **Next**
+      - [Bug 812894](https://bugzilla.mozilla.org/show_bug.cgi?id=812894) - Shorten time strings, reduce padding and margin in the panel to reintroduce per item download speed - **_Sean Lee_**  
+      - [Bug 1282662](https://bugzilla.mozilla.org/show_bug.cgi?id=1282662) - Redesign the download status information for each hover-item in downloads panel - **_Sean Lee_** 
       - [Bug 1320259](https://bugzilla.mozilla.org/show_bug.cgi?id=1320259) - Enable the dropmarker of Downloads Panel in all Firefox channels - **_Sean Lee_**
-      - [Bug 1282664](https://bugzilla.mozilla.org/show_bug.cgi?id=1282664) - Redesign the right-click menu for each item in downloads panel - **_Sean Lee_**
-      - [Bug 1269958](https://bugzilla.mozilla.org/show_bug.cgi?id=1269958) - Change the summary section for Multiple Files information in Downloads Panel - **_Sean Lee_**
+      - [Bug 1270006](https://bugzilla.mozilla.org/show_bug.cgi?id=1270006) - Replace the downloads remaining time on the downloads button with a downloading icon - **_KM Lee_**
+      - [Bug 1270012](https://bugzilla.mozilla.org/show_bug.cgi?id=1270012) - Visual for download animation on download start whenever a download is started - **_KM Lee_**
+      - [Bug 1270014](https://bugzilla.mozilla.org/show_bug.cgi?id=1270014) - Show an alert icon on the downloads button when a download fails - **_KM Lee_**
       - [Bug 1269957](https://bugzilla.mozilla.org/show_bug.cgi?id=1269957) - Unify the spacing and change the number of maximum download items displayed - **_KM Lee_**
-      - [Bug 1301384](https://bugzilla.mozilla.org/show_bug.cgi?id=1301384) - Unify the spacing and the progress bar styling in the Downloads Panel across platforms - **_KM Lee_**
       - [Bug 1269954](https://bugzilla.mozilla.org/show_bug.cgi?id=1269954) - Pop out download starting notification when a new download request is triggered - **_KM Lee_**
 
 - **_Contextual Feedback_**
@@ -34,6 +39,7 @@
       - [Bug 1217162](https://bugzilla.mozilla.org/show_bug.cgi?id=1217162) - Implement Contextual Feedback on Insecure Passwords - **_Sean Lee_**
 
   - **Next**
+      - [Bug 1325695](https://bugzilla.mozilla.org/show_bug.cgi?id=1325695) - Wrapping width of the insecure login field warning doesn't reflect the <input> width sometimes - **_Sean Lee_**  
       - [Bug 1317284](https://bugzilla.mozilla.org/show_bug.cgi?id=1317284) - Intermittent toolkit/components/passwordmgr/test/mochitest/test_password_field_autocomplete.html | Test timed out. - **_Sean Lee_**
 
 - **_Control Center_**
@@ -210,10 +216,12 @@
       - [Bug 1288558](https://bugzilla.mozilla.org/show_bug.cgi?id=1288558) - Merge passwordManagerCommon.js into passwordManager.js - **_Steve Chung_**
 
   - **Next**
+      - [Bug 451955](https://bugzilla.mozilla.org/show_bug.cgi?id=451955) - Improve password manager selection restoring code after filtering - **_Sean Lee_**  
       - [Bug 1257078](https://bugzilla.mozilla.org/show_bug.cgi?id=1257078) - Toggle selected password visibility in the manager with a button - **_Sean Lee_**
 
 - **_Preferences_**
   - **Done**
+      - [Bug 1044586](https://bugzilla.mozilla.org/show_bug.cgi?id=1044586) - F5 key breaks about:preferences - **_Fischer Liu_**  
       - [Bug 1305407](https://bugzilla.mozilla.org/show_bug.cgi?id=1305407) - Rename accesskeys in sync.dtd as .accesskey instead of .label.accesskey - **_Fischer Liu_**
       - [Bug 1130447](https://bugzilla.mozilla.org/show_bug.cgi?id=1130447) - Hide the password manager timeLastUsed column by default - **_Fischer Liu_**
       - [Bug 1028029](https://bugzilla.mozilla.org/show_bug.cgi?id=1028029) - Improve accesskeys in Sync pane of in-content preferences - **_Fischer Liu_**
@@ -227,7 +235,6 @@
       - [Bug 1036815](https://bugzilla.mozilla.org/show_bug.cgi?id=1036815) - Convert Advanced pane dialogs to be in-content - **_Joseph Yeh_**
 
   - **Next**
-      - [Bug 1044586](https://bugzilla.mozilla.org/show_bug.cgi?id=1044586) - F5 key breaks about:preferences - **_Fischer Liu_**
 
 - **_Private Browsing_**
   - **Done**
@@ -265,12 +272,13 @@
 
 - **_Storage Management_**
   - **Done**
-     - [Bug 1313003](https://bugzilla.mozilla.org/show_bug.cgi?id=1313003) - Add Site Data section into Network of Advanced of about:preferences - **_Fischer Liu_**
+      - [Bug 1312372](https://bugzilla.mozilla.org/show_bug.cgi?id=1312372) - List sites using storage in Settings of Site Data - **_Fischer Liu_**
+      - [Bug 1312361](https://bugzilla.mozilla.org/show_bug.cgi?id=1312361) - Clear all sites data from the Site Data section - **_Fischer Liu_**
+      - [Bug 1313003](https://bugzilla.mozilla.org/show_bug.cgi?id=1313003) - Add Site Data section into Network of Advanced of about:preferences - **_Fischer Liu_**
   
   - **Next**
-      - [Bug 1312372](https://bugzilla.mozilla.org/show_bug.cgi?id=1312372) - List sites using storage in Settings of Site Data - **_Fischer Liu_**
+      - [Bug 1323391](https://bugzilla.mozilla.org/show_bug.cgi?id=1323391) - Sort sites listed in Settings of Site Data by usage - **_Fischer Liu_**  
       - [Bug 1309123](https://bugzilla.mozilla.org/show_bug.cgi?id=1309123) - Show persist-storage permission request notification - **_Fischer Liu_**
-      - [Bug 1312361](https://bugzilla.mozilla.org/show_bug.cgi?id=1312361) - Clear all sites data from the Site Data section - **_Fischer Liu_**
  
 - **_Video Controls_**
   - **Done**
