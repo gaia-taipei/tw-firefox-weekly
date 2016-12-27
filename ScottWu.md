@@ -1,4 +1,4 @@
-## 11/21 ~ 11/25
+## 11/28 ~ 12/16
 
 - [Firefox]
 	- [UI feedback] [Bug 285836](https://bugzilla.mozilla.org/show_bug.cgi?id=285836) - Make "Remove All Cookies Now" undoable
@@ -6,13 +6,17 @@
 
 - [Date-time Picker]
 	- [Bug 1283381](https://bugzilla.mozilla.org/show_bug.cgi?id=1283381) - [meta] Implement UI for date time input types
-		- [r?] [Bug 1283385](https://bugzilla.mozilla.org/show_bug.cgi?id=1283385) -  Implement UI for \<input type="date"\>
-			- Review under progress
-		- [WIP] [Bug 1320647](https://bugzilla.mozilla.org/show_bug.cgi?id=1320647) -  [DateTimePicker] Add min/max and step support to date picker
-			- Improved styling for month-year button
-			- Added new svg for arrows
-			- Added min/max support
-			- Working on step support
+		- [Bug 1283385](https://bugzilla.mozilla.org/show_bug.cgi?id=1283385) -  Implement UI for \<input type="date"\>
+			- Landed
+		- [Bug 1317600](https://bugzilla.mozilla.org/show_bug.cgi?id=1317600) - [DateTimePicker] Spinner arrow buttons shouldn't depend on find bar resources
+			- Landed
+		- [Bug 1323109](https://bugzilla.mozilla.org/show_bug.cgi?id=1323109) - [DateTimePicker] Date time picker popup does not open near input box
+			- Landed
+		- [Bug 1320225](https://bugzilla.mozilla.org/show_bug.cgi?id=1320225) - [DateTimeInput] Integration of input type=date input box with picker
+			- Have a working patch used in demo but needs to be refactored
+		- [Bug 1320647](https://bugzilla.mozilla.org/show_bug.cgi?id=1320647) -  [DateTimePicker] Add min/max and step support to date picker
+			- Added step support for calendar
+			- Working on step support for month & year
 
 #### Date Time Pickers Tasks:
 
@@ -39,7 +43,7 @@
 		- Display calendar in 6 week rows
 		- First day of the week & weekends configurable
 		- Apply basic styling
-	- Add max and min features
+	- [Done] Add max and min features
 		- Dates earlier than min or later than max are greyed out
 		- Out of range years are not displayed, and months are greyed out
 	- Add step features
