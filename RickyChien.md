@@ -1,10 +1,4 @@
-## 11/28 - 12/09
-
-### Hawaii all hands
-
-* Netmonitor meetup on Thurday - Clarify the goal for 2017 Q1 and identified any potiential issues after separating codebase to Github.
-* Had a talk with Jason to understand what technologies / mechanisms are used in debugger.html and the strategics to ship code from Github to m-c.
-* Had a discussion with Greg Tatum about how to integrate Cleopatra with devtools performance tool
+## 12/19 - 12/23
 
 ### DevTools
 * [Bug 1307892](https://bugzilla.mozilla.org/show_bug.cgi?id=1307892) - Support network event update messages 
@@ -16,8 +10,14 @@
 * [Bug 1309188](https://bugzilla.mozilla.org/show_bug.cgi?id=1317659) - Implement Security Panel
  * Landed
 * [Bug 1317650](https://bugzilla.mozilla.org/show_bug.cgi?id=1317650) - Implement Params Panel
- * WIP - asking for the first round review, but the current patch is still far from complete
+ * WIP
+ * Niceee progress update!!! See https://bugzilla.mozilla.org/show_bug.cgi?id=1317650#c46
+ * Asking second round review. I'm solving mochitest failures.
  * Fred is working on Cookies Panel, most of his work can reference the TreeView approach in Params Panel, so we're able to make all the sidebar panels look the same.
+* Review [Bug 1317649](https://bugzilla.mozilla.org/show_bug.cgi?id=1317649) - Implement Cookies Panel
+* Review [Bug 1323933](https://bugzilla.mozilla.org/show_bug.cgi?id=1323933) - rename filter to requestFilter
+* Review [Bug 1308697](https://bugzilla.mozilla.org/show_bug.cgi?id=1308697) - Implement UI for performance statistics 
+* Review [Bug 1324334](https://bugzilla.mozilla.org/show_bug.cgi?id=1324334) - Migrate Chart.jsm to js and remove xul components in the chart
 
 #### Netmonitor technical survey and discussions
 
