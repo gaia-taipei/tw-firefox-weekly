@@ -1,4 +1,4 @@
-## 11/28 ~ 12/16
+## 12/19 ~ 12/23
 
 - [Firefox]
 	- [UI feedback] [Bug 285836](https://bugzilla.mozilla.org/show_bug.cgi?id=285836) - Make "Remove All Cookies Now" undoable
@@ -6,17 +6,13 @@
 
 - [Date-time Picker]
 	- [Bug 1283381](https://bugzilla.mozilla.org/show_bug.cgi?id=1283381) - [meta] Implement UI for date time input types
-		- [Bug 1283385](https://bugzilla.mozilla.org/show_bug.cgi?id=1283385) -  Implement UI for \<input type="date"\>
-			- Landed
-		- [Bug 1317600](https://bugzilla.mozilla.org/show_bug.cgi?id=1317600) - [DateTimePicker] Spinner arrow buttons shouldn't depend on find bar resources
-			- Landed
-		- [Bug 1323109](https://bugzilla.mozilla.org/show_bug.cgi?id=1323109) - [DateTimePicker] Date time picker popup does not open near input box
-			- Landed
 		- [Bug 1320225](https://bugzilla.mozilla.org/show_bug.cgi?id=1320225) - [DateTimeInput] Integration of input type=date input box with picker
-			- Have a working patch used in demo but needs to be refactored
+			- Ready for review, waiting for :mconley to get back from holidays
 		- [Bug 1320647](https://bugzilla.mozilla.org/show_bug.cgi?id=1320647) -  [DateTimePicker] Add min/max and step support to date picker
-			- Added step support for calendar
-			- Working on step support for month & year
+			- Added step support for month & year
+			- Will request for review after Bug 1320225 and Bug 1325922 land
+		- [Bug 1325922](https://bugzilla.mozilla.org/show_bug.cgi?id=1325922) - [DateTimePicker] Add arrows svg file and style month-year button for date picker
+			- Ready for review
 
 #### Date Time Pickers Tasks:
 
