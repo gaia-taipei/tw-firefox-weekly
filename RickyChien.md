@@ -1,23 +1,23 @@
-## 11/21 - 11/25
+## 12/19 - 12/23
 
 ### DevTools
 * [Bug 1307892](https://bugzilla.mozilla.org/show_bug.cgi?id=1307892) - Support network event update messages 
  * r?
-* [Bug 1308426](https://bugzilla.mozilla.org/show_bug.cgi?id=1308426) - Implement toolbar for netmonitor panel
- * Landed
-* [Bug 1317205](https://bugzilla.mozilla.org/show_bug.cgi?id=1317205) - CSS improvement for summary button
- * Landed
-* [Bug 1319010](https://bugzilla.mozilla.org/show_bug.cgi?id=1319010) - Move NetworkDetailsView and SidebarView to their own modules
- * Landed
 * [Bug 1317659](https://bugzilla.mozilla.org/show_bug.cgi?id=1317659) - Implement Preview Panel
- * WIP
- * React component is ready but redux integration is blocked by Jarda's patch
+ * Landed
 * [Bug 1309187](https://bugzilla.mozilla.org/show_bug.cgi?id=1309187) - Implement Timings Panel
- * WIP
- * React component is ready but redux integration is blocked by Jarda's patch
+ * Landed
 * [Bug 1309188](https://bugzilla.mozilla.org/show_bug.cgi?id=1317659) - Implement Security Panel
+ * Landed
+* [Bug 1317650](https://bugzilla.mozilla.org/show_bug.cgi?id=1317650) - Implement Params Panel
  * WIP
- * React component is ready but redux integration is blocked by Jarda's patch
+ * Niceee progress update!!! See https://bugzilla.mozilla.org/show_bug.cgi?id=1317650#c46
+ * Asking second round review. I'm solving mochitest failures.
+ * Fred is working on Cookies Panel, most of his work can reference the TreeView approach in Params Panel, so we're able to make all the sidebar panels look the same.
+* Review [Bug 1317649](https://bugzilla.mozilla.org/show_bug.cgi?id=1317649) - Implement Cookies Panel
+* Review [Bug 1323933](https://bugzilla.mozilla.org/show_bug.cgi?id=1323933) - rename filter to requestFilter
+* Review [Bug 1308697](https://bugzilla.mozilla.org/show_bug.cgi?id=1308697) - Implement UI for performance statistics 
+* Review [Bug 1324334](https://bugzilla.mozilla.org/show_bug.cgi?id=1324334) - Migrate Chart.jsm to js and remove xul components in the chart
 
 #### Netmonitor technical survey and discussions
 
