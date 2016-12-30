@@ -22,3 +22,13 @@
 - [Bug 1249373](https://bugzilla.mozilla.org/show_bug.cgi?id=1249373) -  saved-session ping size and ping frequency are causing bandwidth issues on Android
     - Telemetry API Q&A session with Georg Fritzsche
     - WIP
+    
+    
+ Plain:
+ fix : https://bugzilla.mozilla.org/show_bug.cgi?id=1320900
+ 1320900 : Fix
+ 1314835 : View
+ 1314835 : Test Zenfone 2
+ 1249373 : Add comment
+ 1323952 : Study A/B Testing
+ 
