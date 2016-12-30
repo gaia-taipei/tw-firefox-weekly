@@ -1,4 +1,4 @@
-## 11/21 ~ 11/25
+## 12/19 ~ 12/23
 
 - [Firefox]
 	- [UI feedback] [Bug 285836](https://bugzilla.mozilla.org/show_bug.cgi?id=285836) - Make "Remove All Cookies Now" undoable
@@ -6,13 +6,13 @@
 
 - [Date-time Picker]
 	- [Bug 1283381](https://bugzilla.mozilla.org/show_bug.cgi?id=1283381) - [meta] Implement UI for date time input types
-		- [r?] [Bug 1283385](https://bugzilla.mozilla.org/show_bug.cgi?id=1283385) -  Implement UI for \<input type="date"\>
-			- Review under progress
-		- [WIP] [Bug 1320647](https://bugzilla.mozilla.org/show_bug.cgi?id=1320647) -  [DateTimePicker] Add min/max and step support to date picker
-			- Improved styling for month-year button
-			- Added new svg for arrows
-			- Added min/max support
-			- Working on step support
+		- [Bug 1320225](https://bugzilla.mozilla.org/show_bug.cgi?id=1320225) - [DateTimeInput] Integration of input type=date input box with picker
+			- Ready for review, waiting for :mconley to get back from holidays
+		- [Bug 1320647](https://bugzilla.mozilla.org/show_bug.cgi?id=1320647) -  [DateTimePicker] Add min/max and step support to date picker
+			- Added step support for month & year
+			- Will request for review after Bug 1320225 and Bug 1325922 land
+		- [Bug 1325922](https://bugzilla.mozilla.org/show_bug.cgi?id=1325922) - [DateTimePicker] Add arrows svg file and style month-year button for date picker
+			- Ready for review
 
 #### Date Time Pickers Tasks:
 
@@ -39,7 +39,7 @@
 		- Display calendar in 6 week rows
 		- First day of the week & weekends configurable
 		- Apply basic styling
-	- Add max and min features
+	- [Done] Add max and min features
 		- Dates earlier than min or later than max are greyed out
 		- Out of range years are not displayed, and months are greyed out
 	- Add step features
