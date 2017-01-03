@@ -1,34 +1,20 @@
-# 11/28 - 12/23
+# 12/26 - 12/30
 
 - [Video Control]
-  - Bug 1317909- Add a test to confirm error msg & icon present when open unsupported media
-    - landed
-  - Bug 1311700 - Add test to confirm that video control show controls in different sizes correctly
-    - landed
-  - Bug 1313285 - Remove nsVideoFrame::mBorderPadding
-    - landed
-  - Bug 1319301 - New video controls have leave a gray overlay over videos
-    - landed
-  - Bug 1319569 - Dead code in videocontrols.xml
-    - landed
   - Bug 1319584 - Remove right-border-radius
     - r?jaws
-  - Bug 1321416 - Unnecessary scrollbars appear on video document
-    - landed
-  - Bug 1319598 - Time label for playback position/duration shifts around
-    - reviewed & landed
-    - Jared spotted this issue occurred only on Mac, so setting `Helvetica Neue` for OSX work fine.
-  - Bug 1323640 - refactor head.js -> getAnonElemWithinVideoByAttribute method to avoid using potential undefined variable
-    - landed
-  - Bug 1323767 - Fix the indentation and inconsistent brace-style, and switch to using ES6 method definitions in videocontrols.xml
-    - reviewed & landed
   - Bug 1322512 - \<audio\> with vertical writing mode doesn't render anything visible
-    - r?dholbert
-  - Video control test coverage enhancement tracker bug - Bug 1303958
+    - landed
+
 
 - [Form Autofill]
   - Bug 1324631 - Support multiple column autocomplete popup rich list for form autofill feature
-    - study autocomplete bindings and popup mechanism under the hood.
+    - Bug 1326138 - add a new profile item \<binding\> and make rich-result-popup append item accordingly
+      - f?MattN
+    - Bug 1326139 - Implement two column layout for profile item binding
+      - WIP
+    - Bug 1326141 - Make adjustHeight method adapt profile item list
+
 
 ### Video Control Planning ###
 
@@ -38,4 +24,5 @@
 
 ### Autofill Planning ###
 
+- Q1 
   - Support multiple column
