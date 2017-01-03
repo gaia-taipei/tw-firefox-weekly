@@ -27,6 +27,8 @@
 
 ## Firefox
 
+* [Bug 570893](https://bugzil.la/570893) - Drive by fix on layout state to fix an annoy disabled state
+ * checkin-needed
 * [Bug 1316828](https://bugzil.la/1316828) - Drive by fix on reader mode narration speed
  * FIXED in Fx53 and uplifted to Fx51 & Fx52
 * [Bug 1260276](https://bugzil.la/1260276) - Dead reader mode page in session history
