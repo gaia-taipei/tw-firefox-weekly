@@ -54,14 +54,15 @@
 
 - **_Date-time Picker_**
   - **Done**
+      - [Bug 1283385](https://bugzilla.mozilla.org/show_bug.cgi?id=1283385) - Implement UI for `<input type="date">` - **_Scott Wu_**
       - [Bug 1315911](https://bugzilla.mozilla.org/show_bug.cgi?id=1315911) - [DateTimePicker] Disable time picker UI by making it pref-off by default - **_Scott Wu_**
       - [Bug 1301284](https://bugzilla.mozilla.org/show_bug.cgi?id=1301284) - Update picker style to match the visual spec for 'input type=time' - **_Scott Wu_**
       - [Bug 1283384](https://bugzilla.mozilla.org/show_bug.cgi?id=1283384) - Implement UI for `<input type="time">` - **_Scott Wu_**
       - [Bug 1306251](https://bugzilla.mozilla.org/show_bug.cgi?id=1306251) - Rename form validation anchor to a more generic name for better reuse - **_Scott Wu_**
 
   - **Next**
+      - [Bug 1325922](https://bugzilla.mozilla.org/show_bug.cgi?id=1325922) - [DateTimePicker] Add arrows svg file and style month-year button for date picker - **_Scott Wu_**
       - [Bug 1320647](https://bugzilla.mozilla.org/show_bug.cgi?id=1320647) - [DateTimePicker] Add min/max and step support to date picker - **_Scott Wu_**
-      - [Bug 1283385](https://bugzilla.mozilla.org/show_bug.cgi?id=1283385) - Implement UI for `<input type="date">` - **_Scott Wu_**
 
 - **_DevTools_**
   - **Done**
@@ -146,12 +147,14 @@
      - [Bug 1309481](https://bugzilla.mozilla.org/show_bug.cgi?id=1309481) - Remove leftover code specific to Logins from JSONFile.jsm and add tests - **_Luke Chang_**
      - [Bug 1300988](https://bugzilla.mozilla.org/show_bug.cgi?id=1300988) - Implement an API in the content process to fill a form with a specific form autofill profile using @autocomplete - **_Steve Chung_**
      - [Bug 1304322](https://bugzilla.mozilla.org/show_bug.cgi?id=1304322) - Refactor LoginStore.jsm to make it reusable for Form Autofill - **_Luke Chang_**
+     - [Bug 1304634](https://bugzilla.mozilla.org/show_bug.cgi?id=1304634) - Support populating autocomplete results from form autofill code - **_Steve Chung_**
 
   - **Next**
      - [Bug 1300993](https://bugzilla.mozilla.org/show_bug.cgi?id=1300993) - Connect satchel autocomplete to form autofill results instead of form history when appropriate - **_Luke Chang_**  
      - [Bug 1019471](https://bugzilla.mozilla.org/show_bug.cgi?id=1019471) - (fx-autofill-profile-edit) Dialog to add/edit/view an autofill profile - **_Luke Chang_**
      - [Bug 1301544](https://bugzilla.mozilla.org/show_bug.cgi?id=1301544) - Define a schema and storage method for Form Autofill / Web Payment address profiles - **_Luke Chang_**
-     - [Bug 1304634](https://bugzilla.mozilla.org/show_bug.cgi?id=1304634) - Support populating autocomplete results from form autofill code - **_Steve Chung_**
+     - [Bug 1324631](https://bugzilla.mozilla.org/show_bug.cgi?id=1324631) - Support multiple column autocomplete popup rich list for form autofill feature - **_Ray Lin_**
+     - [Bug 1300992](https://bugzilla.mozilla.org/show_bug.cgi?id=1300992) - Fill the autocomplete result with real profile by using profile storage API - **_Steve Chung_**
      - [Bug 1019483](https://bugzilla.mozilla.org/show_bug.cgi?id=1019483) - (fx-autofill-profile-mgmt) Interface to manage autofill profiles - **_Steve Chung_**
 
 - **_Location Bar_**
@@ -177,6 +180,7 @@
   
 - **_NetMonitor_**
   - **Done**
+      - [Bug 1323933](https://bugzilla.mozilla.org/show_bug.cgi?id=1323933) - rename filter to requestFilter - **_Fred Lin_**
       - [Bug 1314528](https://bugzilla.mozilla.org/show_bug.cgi?id=1314528) - [webconsole] enable mocha tests on windows - **_Fred Lin_**  
       - [Bug 1312352](https://bugzilla.mozilla.org/show_bug.cgi?id=1312352) - Netmonitor: the "Timeline" column shoud have a text label when the request list is empty - **_Fred Lin_**
       - [Bug 1309496](https://bugzilla.mozilla.org/show_bug.cgi?id=1309496) - Set up mocha testing framework for netmonitor - **_Fred Lin_**  
@@ -188,6 +192,9 @@
       - [Bug 1308500](https://bugzilla.mozilla.org/show_bug.cgi?id=1308500) - Migrate localization strings away from netmonitor.dtd - **_Fred Lin_**
       - [Bug 1309796](https://bugzilla.mozilla.org/show_bug.cgi?id=1309796) - add eslint support for netmonitor - **_Fred Lin_**
       - [Bug 1308503](https://bugzilla.mozilla.org/show_bug.cgi?id=1308503) - Migrate localization strings away from certManager.dtd - **_Fred Lin_**
+      - [Bug 1309188](https://bugzilla.mozilla.org/show_bug.cgi?id=1309188) - Implement Security Panel - **_Ricky Chien_**        
+      - [Bug 1309187](https://bugzilla.mozilla.org/show_bug.cgi?id=1309187) - Implement Timings Panel - **_Ricky Chien_**
+      - [Bug 1317659](https://bugzilla.mozilla.org/show_bug.cgi?id=1317659) - Implement Preview Panel - **_Ricky Chien_**  
       - [Bug 1319010](https://bugzilla.mozilla.org/show_bug.cgi?id=1319010) - Move NetworkDetailsView and SidebarView to their own modules - **_Ricky Chien_**
       - [Bug 1317205](https://bugzilla.mozilla.org/show_bug.cgi?id=1317205) - CSS improvement for summary button - **_Ricky Chien_**
       - [Bug 1308426](https://bugzilla.mozilla.org/show_bug.cgi?id=1308426) - Implement toolbar for netmonitor panel - **_Ricky Chien_**      
@@ -198,15 +205,15 @@
       - [Bug 1309191](https://bugzilla.mozilla.org/show_bug.cgi?id=1309191) - Implement filter buttons for Net Panel Toolbar - **_Ricky Chien_**
       - [Bug 1308878](https://bugzilla.mozilla.org/show_bug.cgi?id=1308878) - Implement minimal Redux store for Net panel - **_Ricky Chien_**
       - [Bug 1278923](https://bugzilla.mozilla.org/show_bug.cgi?id=1278923) - Exported HAR format is missing Content-Type and Content-Length headers - **_Ricky Chien_**
+      - [Bug 1308697](https://bugzilla.mozilla.org/show_bug.cgi?id=1308697) - Implement UI for performance statistics - **_Steve Chung_**
       - [Bug 1308425](https://bugzilla.mozilla.org/show_bug.cgi?id=1308425) - Move Performance Statistics into its own module - **_Steve Chung_**
  
   - **Next**
+      - [Bug 1308449](https://bugzilla.mozilla.org/show_bug.cgi?id=1308449) - Implement custom request view - **_Fred Lin_**
       - [Bug 1317649](https://bugzilla.mozilla.org/show_bug.cgi?id=1317649) - Implement Cookies Panel - **_Fred Lin_**  
-      - [Bug 1309188](https://bugzilla.mozilla.org/show_bug.cgi?id=1309188) - Implement Security Panel - **_Ricky Chien_**  
-      - [Bug 1309187](https://bugzilla.mozilla.org/show_bug.cgi?id=1309187) - Implement Timings Panel - **_Ricky Chien_**
-      - [Bug 1317659](https://bugzilla.mozilla.org/show_bug.cgi?id=1317659) - Implement Preview Panel - **_Ricky Chien_** 
+      - [Bug 1317650](https://bugzilla.mozilla.org/show_bug.cgi?id=1317650) - Implement Params Panel - **_Ricky Chien_**
       - [Bug 1307892](https://bugzilla.mozilla.org/show_bug.cgi?id=1307892) - Support network event update messages #196 - **_Ricky Chien_**      
-      - [Bug 1308697](https://bugzilla.mozilla.org/show_bug.cgi?id=1308697) - Implement UI for performance statistics - **_Steve Chung_**
+      - [Bug 1324334](https://bugzilla.mozilla.org/show_bug.cgi?id=1324334) - Migrate Chart.jsm to js and remove xul components in the chart - **_Steve Chung_**
 
 - **_Password Manager_**
   - **Done**
@@ -269,6 +276,7 @@
       - [Bug 1231701](https://bugzilla.mozilla.org/show_bug.cgi?id=1231701) - Ship an emoji font on Windows XP - **_Tim Chien_**
 
   - **Next**
+      - [Bug 1167568](https://bugzilla.mozilla.org/show_bug.cgi?id=1167568) - Reader View displays only the first part of specific articles from ehow.com - **_Evan Tseng_**
 
 - **_Storage Management_**
   - **Done**
@@ -282,6 +290,12 @@
  
 - **_Video Controls_**
   - **Done**
+      - [Bug 1319301](https://bugzilla.mozilla.org/show_bug.cgi?id=1319301) - New video controls have leave a gray overlay over videos - **_Ray Lin_**
+      - [Bug 1322512](https://bugzilla.mozilla.org/show_bug.cgi?id=1322512) - "audio" with vertical writing mode doesn't render anything visible - **_Ray Lin_**
+      - [Bug 1323640](https://bugzilla.mozilla.org/show_bug.cgi?id=1323640) - refactor head.js -> getAnonElemWithinVideoByAttribute method to avoid using potential undefined variable - **_Ray Lin_**
+      - [Bug 1321416](https://bugzilla.mozilla.org/show_bug.cgi?id=1321416) - Unnecessary scrollbars appear on video document - **_Ray Lin_**
+      - [Bug 1319301](https://bugzilla.mozilla.org/show_bug.cgi?id=1319301) - New video controls have leave a gray overlay over videos - **_Ray Lin_**
+      - [Bug 1319569](https://bugzilla.mozilla.org/show_bug.cgi?id=1319569) - Dead code in videocontrols.xml - **_Ray Lin_**  
       - [Bug 1313285](https://bugzilla.mozilla.org/show_bug.cgi?id=1313285) - Remove nsVideoFrame::mBorderPadding - **_Ray Lin_**  
       - [Bug 1311700](https://bugzilla.mozilla.org/show_bug.cgi?id=1311700) - Add test to confirm that video control show controls in different sizes correctly - **_Ray Lin_**
       - [Bug 1317909](https://bugzilla.mozilla.org/show_bug.cgi?id=1317909) - add a test to confirm that error overlay and status icon show when open unsupported media source - **_Ray Lin_**   
@@ -300,8 +314,6 @@
 
   - **Next**
       - [Bug 1319584](https://bugzilla.mozilla.org/show_bug.cgi?id=1319584) - Remove right-border-radius - **_Ray Lin_** 
-      - [Bug 1319569](https://bugzilla.mozilla.org/show_bug.cgi?id=1319569) - Dead code in videocontrols.xml - **_Ray Lin_**
-      - [Bug 1319301](https://bugzilla.mozilla.org/show_bug.cgi?id=1319301) - New video controls have leave a gray overlay over videos - **_Ray Lin_**
       - [Bug 1312334](https://bugzilla.mozilla.org/show_bug.cgi?id=1312334) - add test to confirm that every control work fine when open media directly - **_Ray Lin_**
  
 - **_Good First Bug/Mentor Bug/Good Next Bug_**
