@@ -1,4 +1,4 @@
-## 12/19 ~ 12/23
+## 12/27 ~ 12/30
 
 - [Firefox]
 	- [UI feedback] [Bug 285836](https://bugzilla.mozilla.org/show_bug.cgi?id=285836) - Make "Remove All Cookies Now" undoable
@@ -13,6 +13,13 @@
 			- Will request for review after Bug 1320225 and Bug 1325922 land
 		- [Bug 1325922](https://bugzilla.mozilla.org/show_bug.cgi?id=1325922) - [DateTimePicker] Add arrows svg file and style month-year button for date picker
 			- Ready for review
+- [Form Autofill]
+	-  [Bug 1304306](https://bugzilla.mozilla.org/show_bug.cgi?id=1304306) - Need to have a place in the Preference -> Setting for users to launch the profile list add/edit/remove dialog
+		-  WIP on mozreview
+		-  Asking :MattN for his feedback
+	-  [Bug 1326153](https://bugzilla.mozilla.org/show_bug.cgi?id=1326153) - [Form Autofill] Change the feature flag to browser.formautofill.experimental
+		-  Patch on mozreview
+		-  Addressing question from :MattN
 
 #### Date Time Pickers Tasks:
 
