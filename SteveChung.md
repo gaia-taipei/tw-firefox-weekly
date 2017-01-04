@@ -1,9 +1,9 @@
-## This week 12/19 ~ 12/23
+## This week 12/27 ~ 12/30
 * Autofill
-    - [Bug 1304634](https://bugzilla.mozilla.org/show_bug.cgi?id=1304634) - Support populating autocomplete results from form autofill code
-        - Landed and move the mochitest part into bug 1325538.
-    - [Bug 1325538](https://bugzilla.mozilla.org/show_bug.cgi?id=1325538) -  Add mochitest for form autofill feature
-        - Submit a WIP that was working based on bug 1304634.
+    - [Bug 1300989](https://bugzilla.mozilla.org/show_bug.cgi?id=1300989) - Fill the selected autofill profile when an autocomplete entry is chosen
+        - f?. Gave a patch about adding an API to query the guid for selected index.
+    - [Bug 1300992](https://bugzilla.mozilla.org/show_bug.cgi?id=1300992) -  Fill the autocomplete result with real profile by using profile storage API
+        - f?. Gave a patch about adding the cross process communication for qureying the profile.
 * Devtool:
     - [Bug 1324334](https://bugzilla.mozilla.org/show_bug.cgi?id=1324334) - Migrate Chart.jsm to js and remove xul components in the chart
-        - r-. The refactored components need to be fully rewrited as React component.
+        - r-. Not progress. Still refactoring components to React component.
