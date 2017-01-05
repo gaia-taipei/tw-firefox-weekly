@@ -1,6 +1,6 @@
 [Open bugs assigned to me](https://bugzilla.mozilla.org/buglist.cgi?quicksearch=assignee%3Agasolin%40mozilla.com) (ASSIGNED = current working on; NEW = backlog)
 
-## 12/19 - 12/23
+## 12/26 - 12/30
 
 ### Devtools
 
@@ -14,15 +14,14 @@
 
 - Bug 1317649 - Implement Cookies Panel
   - r?
-  - apply reselect on all selectRequests and cookies requests, UI will only update when request data changed
-  - put requestCookiesLongValue as a separate generator function
-  - update treeview and styles
+  - implement fix + scrollable layout
 
 - Bug 1317650 - Implement Params Panel
   - review Ricky's patch
 
 - 1308449 – Migrate Edit & resend panel
   - WIP
+  - convert Edit&Resend XUL to React component
 
 [Project document]: https://docs.google.com/document/d/19lyV04YtfX9X5ev2rhFeIuQPaVApgl8qdFpe4Rw4Np4/edit
 [Mana page]: https://mana.mozilla.org/wiki/display/PM/Netmonitor+Project+Update
