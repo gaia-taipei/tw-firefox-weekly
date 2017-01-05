@@ -6,7 +6,7 @@ Android
 	- r?wchen
 
 - [Bug 1289690](https://bugzilla.mozilla.org/show_bug.cgi?id=1289690) - Addons icon in url bar display is not normal
-	- needinfo?(alam@mozilla.com)
+	- need info(alam@mozilla.com) for Addons spec to provide various icon densities
 
 - [Bug 1323366](https://bugzilla.mozilla.org/show_bug.cgi?id=1323366) - Crash in java.util.ConcurrentModificationException: at java.util.TreeMap$MapIterator.stepForward(TreeMap.java))
 	- WIP
