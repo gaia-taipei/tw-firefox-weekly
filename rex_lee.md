@@ -1,6 +1,16 @@
-## [W49-51] 11/26 - 12/16 ##
+## [W49-51] 12/19 - 12/30 ##
 
 ### This week ###
+- Bug 1270012 - Visual for download animation on download start whenever a download is started
+  - got f+. Proceeding to r? after reviewer and visual double-checked.
+- Bug 1269957 - Unify the spacing and change the number of maximum download items displayed
+  - Prepare next patch by review result. This will be higher priority than bug 1270006.
+- Bug 1270006 - Replace the downloads remaining time on the downloads button with a downloading icon
+  - Prepare next patch by review result.
+- Bug 1270014 - Show an alert icon on the downloads button when a download fails
+  - Start studying and discuss possible issue with UX and reviewer.
+  
+### Last weeks ###
 - Bug 1270012 - Visual for download animation on download start whenever a download is started
   - Sending r? this week.
 - Bug 1270006 - Replace the downloads remaining time on the downloads button with a downloading icon
@@ -9,9 +19,3 @@
   - Need adding visual refinement on item spacing and margins etc. besides addding items to 5. sending r? this week.
 - Bug 1270014 - Show an alert icon on the downloads button when a download fails
   - Not started. Targeting on 2017 Q1.
-  
-### Last weeks ###
-- Bug 1301384 - Unify the spacing and the progress bar styling in the Downloads Panel across platforms
-  landed.
-- Bug 1269954 - Pop out download starting notification when a new download request is triggered.
-  descoped.
