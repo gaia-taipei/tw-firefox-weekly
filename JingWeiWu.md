@@ -2,7 +2,7 @@
 
 Android
 
-[Bug 1285802](https://bugzilla.mozilla.org/show_bug.cgi?id=1285802) - Cancel fullscreen does not automatically adjust the screen orientation
+- [Bug 1285802](https://bugzilla.mozilla.org/show_bug.cgi?id=1285802) - Cancel fullscreen does not automatically adjust the screen orientation
 	- r?wchen
 
 - [Bug 1289690](https://bugzilla.mozilla.org/show_bug.cgi?id=1289690) - Addons icon in url bar display is not normal
