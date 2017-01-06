@@ -1,18 +1,26 @@
-## 12/26 - 12/30 Ricky Chien
+## 1/3 - 1/6 Ricky Chien
 
 ### DevTools
 * [Bug 1307892](https://bugzilla.mozilla.org/show_bug.cgi?id=1307892) - Support network event update messages 
  * r?
 * [Bug 1317650](https://bugzilla.mozilla.org/show_bug.cgi?id=1317650) - Implement Params Panel
- * r?
- * Niceee progress update!!! See https://bugzilla.mozilla.org/show_bug.cgi?id=1317650#c46
- * Asking second round review. I'm solving mochitest failures.
- * Fred is working on Cookies Panel, most of his work can reference the TreeView approach in Params Panel, so we're able to make all the sidebar panels look the same.
+ * cancel r?
+ * Patch is very big and complicated so I separated it into smaller bugs for reviewing.
 * [Bug 1317651](https://bugzilla.mozilla.org/show_bug.cgi?id=1317651) - Implement Response Panel
+ * cancel r?
+ * All team will focus on PropertiesView.
+* [Bug 1328498](https://bugzilla.mozilla.org/show_bug.cgi?id=1328498) - Sourceeditor appendTo HTML element supports
+ * landed
+* [Bug 1328532](https://bugzilla.mozilla.org/show_bug.cgi?id=1328532) - Refactor updateRequest to fetch full text for responseContent and requestPostData
+ * landed
+* [Bug 1328567](https://bugzilla.mozilla.org/show_bug.cgi?id=1328567) - TreeView expandedNodes should update when props changed
+ * landed
+* [Bug 1328500](https://bugzilla.mozilla.org/show_bug.cgi?id=1328500) - Support input field when user clicks on cell for TreeView
  * r?
- * Asking for first round review
-* [Bug 1317648](https://bugzilla.mozilla.org/show_bug.cgi?id=1317648) - Implement Header Panel
- * WIP
+* [Bug 1328828](https://bugzilla.mozilla.org/show_bug.cgi?id=1328828) - Implement Properties View for reusing in network details panels
+ * r?
+ * An essential shareable component which is reused widely in Headers, Cookies, Params and Response panels.
+ * All bugs will depend on this work (Fred's Cookie Panel and my Params, Response Panel). See also [Focus on Properties View (bug 1328828)](https://groups.google.com/a/mozilla.com/forum/?utm_medium=email&utm_source=footer#!topic/netmonitor/UPK2o_ONsUE)
 * Prepare round table items and questions for GSuite performance tools agenda (next week).
 ```
 Topics - Performance Tool
@@ -36,6 +44,7 @@ Other
 
 * [Flux Standard Action (FSA)](https://groups.google.com/a/mozilla.com/forum/#!msg/netmonitor/CcIgCLLukVc/3lZtlJJgAwAJ)
 * [Pass all state into connect() will kill any performance optimizations](https://groups.google.com/a/mozilla.com/forum/#!topic/netmonitor/Oq8MyZ7tfDk)
+* [Focus on Properties View (bug 1328828)](https://groups.google.com/a/mozilla.com/forum/?utm_medium=email&utm_source=footer#!topic/netmonitor/UPK2o_ONsUE)
 
 #### Request to performance tools
  * Set up a meeting with Taipei performance team and collected a list of features and requirements from them to figure out how to improve performance tools.
