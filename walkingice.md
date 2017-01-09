@@ -1,12 +1,12 @@
-# [W52] 12/27 - 12/30
+# [W01] 01/05 - 01/06
 
 ## Android Fennec
 
-* [ Synced Devices folder is not displayed](https://bugzilla.mozilla.org/show_bug.cgi?id=1314983)
-    - Patch sent, waiting for reviewing
+* [Media control notification's text changes only if "pause" button is tapped](https://bugzilla.mozilla.org/show_bug.cgi?id=1322114)
+    - Found root cause, preparing patch
 
-* [Bug 1320898](https://bugzilla.mozilla.org/show_bug.cgi?id=1320898) -  Notification bar is dimmed even when not in reader view
-    - Patch sent, waiting for reviewing
+* [ Synced Devices folder is not displayed](https://bugzilla.mozilla.org/show_bug.cgi?id=1314983)
+    - Java implementation ready, Waiting for UX confirmation.
 
 * [Bug 1324762](https://bugzilla.mozilla.org/show_bug.cgi?id=1324726) - A clickable list item in History looks disabled
     - Java implementation ready, Waiting for UX confirmation.
