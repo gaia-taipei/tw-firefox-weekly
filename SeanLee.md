@@ -1,18 +1,20 @@
 ### Last week
 
+* [Form Fill]
+  - [Bug 1300989] Working on ProfileAutoCompleteResult redesign.
+
 * [Contextual Feedback]
-  - [review][Bug 1324918] Review this patch and verify it on Linux and MacOSX.
-  - [new bug][Bug 1325869] File this issue when reviewing Bug 1324918.
-  - [r?][Bug 1325695] Fix the height issue of autocomplete popup.
-  - [Bug 1317284] Waiting for review.
+  - [r?][Bug 1317284] Waiting for review.
+  - [r?][Bug 1325695] Waiting for review.
+  - [Bug 1326022] Trace the password leaking behavior.
 
 * [Downloads Panel]
-  - [r?][Bug 812894] The latest patch based on the agreement in All Hands is waiting for review.
-  - [Bug 1282662] Discuss "starting" state and update the comment in the patch.
+  - [Bug 1282662] Waiting for spec discussion.
+  - [r?][Bug 812894] Waiting for review.
 
 * [Password Manager]
   - [Bug 1257078] Pending for waiting Bug 451955.
-  - [r?][Bug 451955] Remove the unnecessary restoring/storing codes and add the relative mochitest.
+  - [r?][Bug 451955] Waiting for review.
 
 ### This week
 
