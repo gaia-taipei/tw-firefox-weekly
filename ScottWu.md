@@ -1,4 +1,4 @@
-## 12/27 ~ 12/30
+## 1/3 ~ 1/6
 
 - [Firefox]
 	- [UI feedback] [Bug 285836](https://bugzilla.mozilla.org/show_bug.cgi?id=285836) - Make "Remove All Cookies Now" undoable
@@ -7,19 +7,21 @@
 - [Date-time Picker]
 	- [Bug 1283381](https://bugzilla.mozilla.org/show_bug.cgi?id=1283381) - [meta] Implement UI for date time input types
 		- [Bug 1320225](https://bugzilla.mozilla.org/show_bug.cgi?id=1320225) - [DateTimeInput] Integration of input type=date input box with picker
-			- Ready for review, waiting for :mconley to get back from holidays
+			- r+, but still need clarification
 		- [Bug 1320647](https://bugzilla.mozilla.org/show_bug.cgi?id=1320647) -  [DateTimePicker] Add min/max and step support to date picker
 			- Added step support for month & year
 			- Will request for review after Bug 1320225 and Bug 1325922 land
 		- [Bug 1325922](https://bugzilla.mozilla.org/show_bug.cgi?id=1325922) - [DateTimePicker] Add arrows svg file and style month-year button for date picker
-			- Ready for review
+			- r+, landed
+		- [Bug 1328219](https://bugzilla.mozilla.org/show_bug.cgi?id=1328219) - [DateTimePicker] Add browser chrome test for date picker
+			- WIP on mozreview
+			- Can be reviewed after Bug 1320225 lands
 - [Form Autofill]
 	-  [Bug 1304306](https://bugzilla.mozilla.org/show_bug.cgi?id=1304306) - Need to have a place in the Preference -> Setting for users to launch the profile list add/edit/remove dialog
 		-  WIP on mozreview
 		-  Asking :MattN for his feedback
 	-  [Bug 1326153](https://bugzilla.mozilla.org/show_bug.cgi?id=1326153) - [Form Autofill] Change the feature flag to browser.formautofill.experimental
-		-  Patch on mozreview
-		-  Addressing question from :MattN
+		-  r+, landed
 
 #### Date Time Pickers Tasks:
 
