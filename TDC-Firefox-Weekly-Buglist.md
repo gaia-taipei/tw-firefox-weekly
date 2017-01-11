@@ -1,5 +1,6 @@
 
 # TDC Bug list by Firefox Programs: #
+ - [TDC Resolved-Fixed for 53](https://mzl.la/2jugY7U)
  - [TDC Resolved-Fixed for 52](https://mzl.la/2egjTCj)
  - [TDC Resolved-Fixed for 51](https://mzl.la/2c6nX6V)
  - [TDC Resolved-Fixed for 50](http://mzl.la/1Ye2Sbk)
