@@ -53,6 +53,7 @@
 
 - **_Date-time Picker_**
   - **Done**
+      - [Bug 1325922](https://bugzilla.mozilla.org/show_bug.cgi?id=1325922) - [DateTimePicker] Add arrows svg file and style month-year button for date picker - **_Scott Wu_**
       - [Bug 1283385](https://bugzilla.mozilla.org/show_bug.cgi?id=1283385) - Implement UI for `<input type="date">` - **_Scott Wu_**
       - [Bug 1315911](https://bugzilla.mozilla.org/show_bug.cgi?id=1315911) - [DateTimePicker] Disable time picker UI by making it pref-off by default - **_Scott Wu_**
       - [Bug 1301284](https://bugzilla.mozilla.org/show_bug.cgi?id=1301284) - Update picker style to match the visual spec for 'input type=time' - **_Scott Wu_**
@@ -60,7 +61,6 @@
       - [Bug 1306251](https://bugzilla.mozilla.org/show_bug.cgi?id=1306251) - Rename form validation anchor to a more generic name for better reuse - **_Scott Wu_**
 
   - **Next**
-      - [Bug 1325922](https://bugzilla.mozilla.org/show_bug.cgi?id=1325922) - [DateTimePicker] Add arrows svg file and style month-year button for date picker - **_Scott Wu_**
       - [Bug 1320647](https://bugzilla.mozilla.org/show_bug.cgi?id=1320647) - [DateTimePicker] Add min/max and step support to date picker - **_Scott Wu_**
 
 - **_DevTools_**
@@ -147,12 +147,16 @@
      - [Bug 1309481](https://bugzilla.mozilla.org/show_bug.cgi?id=1309481) - Remove leftover code specific to Logins from JSONFile.jsm and add tests - **_Luke Chang_**
      - [Bug 1300988](https://bugzilla.mozilla.org/show_bug.cgi?id=1300988) - Implement an API in the content process to fill a form with a specific form autofill profile using @autocomplete - **_Steve Chung_**
      - [Bug 1304322](https://bugzilla.mozilla.org/show_bug.cgi?id=1304322) - Refactor LoginStore.jsm to make it reusable for Form Autofill - **_Luke Chang_**
+     - [Bug 1326153](https://bugzilla.mozilla.org/show_bug.cgi?id=1326153) - [Form Autofill] Change the feature flag to browser.formautofill.experimental - **_Scott Wu_**  
      - [Bug 1304634](https://bugzilla.mozilla.org/show_bug.cgi?id=1304634) - Support populating autocomplete results from form autofill code - **_Steve Chung_**
 
   - **Next**
      - [Bug 1301544](https://bugzilla.mozilla.org/show_bug.cgi?id=1301544) - Define a schema and storage method for Form Autofill / Web Payment address profiles - **_Luke Chang_**
+     - [Bug 1326139](https://bugzilla.mozilla.org/show_bug.cgi?id=1326139) - Implement two column layout for profile item binding - **_Ray Lin_**
+     - [Bug 1326138](https://bugzilla.mozilla.org/show_bug.cgi?id=1326138) - add a new profile item "binding" and make rich-result-popup append item accordingly - **_Ray Lin_**
      - [Bug 1324631](https://bugzilla.mozilla.org/show_bug.cgi?id=1324631) - Support multiple column autocomplete popup rich list for form autofill feature - **_Ray Lin_**
      - [Bug 1300989](https://bugzilla.mozilla.org/show_bug.cgi?id=1300989) - Fill the selected autofill profile when an autocomplete entry is chosen - **_Sean Lee_**
+     - [Bug 1304306](https://bugzilla.mozilla.org/show_bug.cgi?id=1304306) - Need to have a place in the Preference -> Setting for users to launch the profile list add/edit/remove dialog - **_Scott Wu_**     
      - [Bug 1300992](https://bugzilla.mozilla.org/show_bug.cgi?id=1300992) - Fill the autocomplete result with real profile by using profile storage API - **_Steve Chung_**
      - [Bug 1019483](https://bugzilla.mozilla.org/show_bug.cgi?id=1019483) - (fx-autofill-profile-mgmt) Interface to manage autofill profiles - **_Steve Chung_**
 
@@ -192,6 +196,7 @@
       - [Bug 1308500](https://bugzilla.mozilla.org/show_bug.cgi?id=1308500) - Migrate localization strings away from netmonitor.dtd - **_Fred Lin_**
       - [Bug 1309796](https://bugzilla.mozilla.org/show_bug.cgi?id=1309796) - add eslint support for netmonitor - **_Fred Lin_**
       - [Bug 1308503](https://bugzilla.mozilla.org/show_bug.cgi?id=1308503) - Migrate localization strings away from certManager.dtd - **_Fred Lin_**
+      - [Bug 1317650](https://bugzilla.mozilla.org/show_bug.cgi?id=1317650) - Implement Params Panel - **_Ricky Chien_**      
       - [Bug 1309188](https://bugzilla.mozilla.org/show_bug.cgi?id=1309188) - Implement Security Panel - **_Ricky Chien_**        
       - [Bug 1309187](https://bugzilla.mozilla.org/show_bug.cgi?id=1309187) - Implement Timings Panel - **_Ricky Chien_**
       - [Bug 1317659](https://bugzilla.mozilla.org/show_bug.cgi?id=1317659) - Implement Preview Panel - **_Ricky Chien_**  
@@ -211,8 +216,8 @@
   - **Next**
       - [Bug 1308449](https://bugzilla.mozilla.org/show_bug.cgi?id=1308449) - Implement custom request view - **_Fred Lin_**
       - [Bug 1317649](https://bugzilla.mozilla.org/show_bug.cgi?id=1317649) - Implement Cookies Panel - **_Fred Lin_**  
-      - [Bug 1317650](https://bugzilla.mozilla.org/show_bug.cgi?id=1317650) - Implement Params Panel - **_Ricky Chien_**
-      - [Bug 1307892](https://bugzilla.mozilla.org/show_bug.cgi?id=1307892) - Support network event update messages #196 - **_Ricky Chien_**      
+      - [Bug 1317648](https://bugzilla.mozilla.org/show_bug.cgi?id=1317648) - Implement Header Panel - **_Ricky Chien_**
+      - [Bug 1317651](https://bugzilla.mozilla.org/show_bug.cgi?id=1317651) - Implement Response Panel - **_Ricky Chien_**
       - [Bug 1324334](https://bugzilla.mozilla.org/show_bug.cgi?id=1324334) - Migrate Chart.jsm to js and remove xul components in the chart - **_Steve Chung_**
 
 - **_Password Manager_**
