@@ -9,6 +9,7 @@
 # Firefox #
 - **_Content Handling_**
   - **Done**
+      - [Bug 812894](https://bugzilla.mozilla.org/show_bug.cgi?id=812894) - Shorten time strings, reduce padding and margin in the panel to reintroduce per item download speed - **_Sean Lee_**  
       - [Bug 1282664](https://bugzilla.mozilla.org/show_bug.cgi?id=1282664) - Redesign the right-click menu for each item in downloads panel - **_Sean Lee_**
       - [Bug 1269958](https://bugzilla.mozilla.org/show_bug.cgi?id=1269958) - Change the summary section for Multiple Files information in Downloads Panel - **_Sean Lee_**  
       - [Bug 1022550](https://bugzilla.mozilla.org/show_bug.cgi?id=1022550) - Downloads panel's icons look disabled in High Contrast mode - **_Sean Lee_**
@@ -19,27 +20,25 @@
       - [Bug 1297657](https://bugzilla.mozilla.org/show_bug.cgi?id=1297657) - Correct the dropmarker design in Downloads Panel for RTL and plain style - **_Sean Lee_**
       - [Bug 1269962](https://bugzilla.mozilla.org/show_bug.cgi?id=1269962) - Implement the new features at "Show All Downloads" in Downloads panel. - **_Sean Lee_**
       - [Bug 1297039](https://bugzilla.mozilla.org/show_bug.cgi?id=1297039) - Implement the preference for showing dropmarker or not in Downloads Panel - **_Sean Lee_**
+      - [Bug 1269957](https://bugzilla.mozilla.org/show_bug.cgi?id=1269957) - Unify the spacing and change the number of maximum download items displayed - **_KM Lee_**
       - [Bug 1301384](https://bugzilla.mozilla.org/show_bug.cgi?id=1301384) - Unify the spacing and the progress bar styling in the Downloads Panel across platforms - **_KM Lee_**
       - [Bug 950058](https://bugzilla.mozilla.org/show_bug.cgi?id=950058) - Split each download item so that all of the right part of it activates the action - **_KM Lee_**
       - [Bug 1282689](https://bugzilla.mozilla.org/show_bug.cgi?id=1282689) - Show an alert mark on badges if there are exceptional status to download files. - **_KM Lee_**
 
   - **Next**
-      - [Bug 812894](https://bugzilla.mozilla.org/show_bug.cgi?id=812894) - Shorten time strings, reduce padding and margin in the panel to reintroduce per item download speed - **_Sean Lee_**  
       - [Bug 1282662](https://bugzilla.mozilla.org/show_bug.cgi?id=1282662) - Redesign the download status information for each hover-item in downloads panel - **_Sean Lee_** 
       - [Bug 1320259](https://bugzilla.mozilla.org/show_bug.cgi?id=1320259) - Enable the dropmarker of Downloads Panel in all Firefox channels - **_Sean Lee_**
       - [Bug 1270006](https://bugzilla.mozilla.org/show_bug.cgi?id=1270006) - Replace the downloads remaining time on the downloads button with a downloading icon - **_KM Lee_**
       - [Bug 1270012](https://bugzilla.mozilla.org/show_bug.cgi?id=1270012) - Visual for download animation on download start whenever a download is started - **_KM Lee_**
       - [Bug 1270014](https://bugzilla.mozilla.org/show_bug.cgi?id=1270014) - Show an alert icon on the downloads button when a download fails - **_KM Lee_**
-      - [Bug 1269957](https://bugzilla.mozilla.org/show_bug.cgi?id=1269957) - Unify the spacing and change the number of maximum download items displayed - **_KM Lee_**
-      - [Bug 1269954](https://bugzilla.mozilla.org/show_bug.cgi?id=1269954) - Pop out download starting notification when a new download request is triggered - **_KM Lee_**
 
 - **_Contextual Feedback_**
   - **Done**
+      - [Bug 1325695](https://bugzilla.mozilla.org/show_bug.cgi?id=1325695) - Wrapping width of the insecure login field warning doesn't reflect the <input> width sometimes - **_Sean Lee_**  
       - [Bug 1289913](https://bugzilla.mozilla.org/show_bug.cgi?id=1289913) - Show autocomplete UI on password fields - **_Sean Lee_**
       - [Bug 1217162](https://bugzilla.mozilla.org/show_bug.cgi?id=1217162) - Implement Contextual Feedback on Insecure Passwords - **_Sean Lee_**
 
   - **Next**
-      - [Bug 1325695](https://bugzilla.mozilla.org/show_bug.cgi?id=1325695) - Wrapping width of the insecure login field warning doesn't reflect the <input> width sometimes - **_Sean Lee_**  
       - [Bug 1317284](https://bugzilla.mozilla.org/show_bug.cgi?id=1317284) - Intermittent toolkit/components/passwordmgr/test/mochitest/test_password_field_autocomplete.html | Test timed out. - **_Sean Lee_**
 
 - **_Control Center_**
@@ -141,6 +140,7 @@
       
 - **_Form Autofill_**
   - **Done**
+     - [Bug 1300993](https://bugzilla.mozilla.org/show_bug.cgi?id=1300993) - Connect satchel autocomplete to form autofill results instead of form history when appropriate - **_Luke Chang_**  
      - [Bug 1311256](https://bugzilla.mozilla.org/show_bug.cgi?id=1311256) - [jsplugins] requestFullscreen doesn't work in the plugin window - **_Luke Chang_**
      - [Bug 1300990](https://bugzilla.mozilla.org/show_bug.cgi?id=1300990) - Implement an API in the parent process to decide which values of an autofill profile would be filled in which field - **_Luke Chang_**
      - [Bug 1016733](https://bugzilla.mozilla.org/show_bug.cgi?id=1016733) - Implement form auto-fill profile storage - **_Luke Chang_**
@@ -150,10 +150,9 @@
      - [Bug 1304634](https://bugzilla.mozilla.org/show_bug.cgi?id=1304634) - Support populating autocomplete results from form autofill code - **_Steve Chung_**
 
   - **Next**
-     - [Bug 1300993](https://bugzilla.mozilla.org/show_bug.cgi?id=1300993) - Connect satchel autocomplete to form autofill results instead of form history when appropriate - **_Luke Chang_**  
-     - [Bug 1019471](https://bugzilla.mozilla.org/show_bug.cgi?id=1019471) - (fx-autofill-profile-edit) Dialog to add/edit/view an autofill profile - **_Luke Chang_**
      - [Bug 1301544](https://bugzilla.mozilla.org/show_bug.cgi?id=1301544) - Define a schema and storage method for Form Autofill / Web Payment address profiles - **_Luke Chang_**
      - [Bug 1324631](https://bugzilla.mozilla.org/show_bug.cgi?id=1324631) - Support multiple column autocomplete popup rich list for form autofill feature - **_Ray Lin_**
+     - [Bug 1300989](https://bugzilla.mozilla.org/show_bug.cgi?id=1300989) - Fill the selected autofill profile when an autocomplete entry is chosen - **_Sean Lee_**
      - [Bug 1300992](https://bugzilla.mozilla.org/show_bug.cgi?id=1300992) - Fill the autocomplete result with real profile by using profile storage API - **_Steve Chung_**
      - [Bug 1019483](https://bugzilla.mozilla.org/show_bug.cgi?id=1019483) - (fx-autofill-profile-mgmt) Interface to manage autofill profiles - **_Steve Chung_**
 
@@ -163,6 +162,7 @@
 
 - **_Mortar/PDF_**
   - **Done**
+      - [Bug 1306221](https://bugzilla.mozilla.org/show_bug.cgi?id=1306221) - [jsplugins][UI] Implement fitting types and the scaling drop-down menu - **_Luke Chang_**
       - [Bug 1311256](https://bugzilla.mozilla.org/show_bug.cgi?id=1311256) - [jsplugins] requestFullscreen doesn't work in the plugin window - **_Luke Chang_**  
       - [Bug 1306221](https://bugzilla.mozilla.org/show_bug.cgi?id=1306221) - [jsplugins][UI] Implement fitting types and the scaling drop-down menu - **_Luke Chang_**
       - [Bug 1314253](https://bugzilla.mozilla.org/show_bug.cgi?id=1314253) - [jsplugins][UI] Make polyfill-dropdown support keyboard - **_Luke Chang_**  
@@ -280,12 +280,15 @@
 
 - **_Storage Management_**
   - **Done**
+      - [Bug 1325136](https://bugzilla.mozilla.org/show_bug.cgi?id=1325136) - TEST-UNEXPECTED-FAIL | browser/components/preferences/in-content/tests/browser_advanced_siteData.js | leaked 2 window(s) until shutdown [url = about:preferences#advanced]  - **_Fischer Liu_** 
+      - [Bug 1323391](https://bugzilla.mozilla.org/show_bug.cgi?id=1323391) - Sort sites listed in Settings of Site Data by usage - **_Fischer Liu_**  
       - [Bug 1312372](https://bugzilla.mozilla.org/show_bug.cgi?id=1312372) - List sites using storage in Settings of Site Data - **_Fischer Liu_**
       - [Bug 1312361](https://bugzilla.mozilla.org/show_bug.cgi?id=1312361) - Clear all sites data from the Site Data section - **_Fischer Liu_**
       - [Bug 1313003](https://bugzilla.mozilla.org/show_bug.cgi?id=1313003) - Add Site Data section into Network of Advanced of about:preferences - **_Fischer Liu_**
   
   - **Next**
-      - [Bug 1323391](https://bugzilla.mozilla.org/show_bug.cgi?id=1323391) - Sort sites listed in Settings of Site Data by usage - **_Fischer Liu_**  
+      - [Bug 1312374](https://bugzilla.mozilla.org/show_bug.cgi?id=1312374) - Search sites listed in Settings of Site Data on host - **_Fischer Liu_**  
+      - [Bug 1312377](https://bugzilla.mozilla.org/show_bug.cgi?id=1312377) - Remove selected site data in Settings of Site Data - **_Fischer Liu_**  
       - [Bug 1309123](https://bugzilla.mozilla.org/show_bug.cgi?id=1309123) - Show persist-storage permission request notification - **_Fischer Liu_**
  
 - **_Video Controls_**
