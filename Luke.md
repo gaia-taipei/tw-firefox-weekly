@@ -1,24 +1,23 @@
-## 12/27 - 12/30 ##
+## 01/03 - 01/06 ##
 
 ### Last Week ###
 
 * [Form Autofill]
-    - Reviewed milestone 1 and user stories
-    - Synced up the working items with new team members
-    - Broke down tasks from M1 to MVP
-    - Discussed the architecture of nsIAutoCompleteResult with Sean and Steve
+    - [Done] Bug 1300993 - Connect satchel autocomplete to form autofill results instead of form history when appropriate
+        - got r+ and landed
+    - Compared the address schema between PaymentAddress and Autocomplete attribute
+    - Estimated the schedule of MVP
+    - Followed up the discussion about the architecture of nsIAutoCompleteResult
 
 * [Mortar/PDF]
-    - [WIP] Bug 1316526 - [jsplugins][UI] Implement download feature
-        - rebased the patch on mozilla-central and pushed it to mozreview
+    - Rebased my patches on mozilla-central.
 
 ### This Week ###
 
 * [Form Autofill]
-    - [WIP] Bug 1300993 - Connect satchel autocomplete to form autofill results instead of form history when appropriate
-    - Study WebPayment Spec
-    - Estimate the schedule of MVP
+    - Prioritize tasks in MVP
+    - Plan the goals of work week
+    - Follow up WebPayment's current progress
 
 * [Mortar/PDF]
-    - [WIP] Bug 1299405 - [jsplugins][UI] Implement presentation mode
-        - rebase and change to mozreview
+    - [WIP] Bug 1316526 - [jsplugins][UI] Implement download feature
