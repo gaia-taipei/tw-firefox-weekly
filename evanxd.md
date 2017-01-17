@@ -1,22 +1,26 @@
-## 12/23 - 12/23 ##
+## 01/09 - 01/13 ##
 
 * [Firefox]
   - QX
     - Reader Mode
       - Bug 1167568 - Reader View displays only the first part of specific articles from ehow.com
-        - Reviewer agreed with the original idea and implementation in current pull request[1]
-        - Tried reviwer's idea to fix the issue but no good result
-        - Updated patch to fix failed tests
-      - Bug 1324630 - [meta] Readability algorithm improvements for top websites
-        - Added dependency bugs for top websites
-          - Bug 1180900, Bug 1217007, Bug 1177360, Bug 1213602, Bug 1300697, Bug 1323861, and Bug 1320231
-        - Finished Bugzilla part
-        - Need to continue to find out the dependency bugs in GitHub Issues
-      - Bug 1147626 - [meta] Refine isProbablyReaderable algorithm
-        - Added dependency bugs
-          - Bug 1242674, Bug 1167662, and Bug 1260136
+        - Landed in GitHub
+        - Updated patch for review comments for several times
+      - Bug 1300697 - Reader View missed first few paragraphs on New York Times website
+        - Discussing the patch with reviewer now
+        - Wrote WIP patch and tests
+      - Bug 1330931 - Tests for nytimes.com
+        - review?
+      - [Issue 322][issue-332] - Entertainment Weekly hack no longer needed?
+        - Reviewed and merged the patch
+      - Replied comments and set labels for GitHub Issues
+        - [Issue 334][issue-334]
+        - [Issue 333][issue-333]
+        - [Issue 308][issue-308]
+        - [Issue 306][issue-306]
 
-* [Others]
-  - Day off: 12/19 - 12/22
-
-[1]: https://github.com/mozilla/readability/pull/309#issuecomment-268979152
+[issue-332]: https://github.com/mozilla/readability/issues/322
+[issue-333]: https://github.com/mozilla/readability/issues/333
+[issue-334]: https://github.com/mozilla/readability/issues/334
+[issue-308]: https://github.com/mozilla/readability/issues/308
+[issue-306]: https://github.com/mozilla/readability/issues/306
