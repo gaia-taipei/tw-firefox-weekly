@@ -1,44 +1,44 @@
-## 1/3 - 1/6 Ricky Chien
+## 1/9 - 1/13 Ricky Chien
 
 ### DevTools
+* Quantum flow workweek updates
+ * Participated Devtools meeting on Wednesday to ask and confirm my some of questions
+   * (Greg) Cleopatra developers have been taking for a long time to collect feature requests and idea from platform engineers
+   * (Greg) Implemention strategic will focus on delivering new features in Cleopatra and then replace current perf tools.
+   * (Greg) Cleopatra migration will begin in Q3 ideally.
+   * (Markus) There are some deliverable features has been picked up and documentation will be updated.
+   * (Markus) We're looking forward to shipping those features in 2017 H1.
+   * (Bryan) Quantum flow related support is P0.
+   * (Bryan) P1 is aiming for major tooling refactor (Debugger, Network Monitor -> HTML) and Github + System Addon "ship fast"
+   * (Bryan) New devtools UX is in hiring process.
+   * (Jim) Devtools is supporting Chrome RDP and it can benefit Servo as well.
+
+* Netmonitor
+ * All sidebar panels are done. That's a great progress!
+    * [Bug 1317648](https://bugzilla.mozilla.org/show_bug.cgi?id=1317648) Implement Header Panel - Ricky Chien
+    * [Bug 1317649](https://bugzilla.mozilla.org/show_bug.cgi?id=1317649)	Implement Cookies Panel - Fred Lin
+    * [Bug 1317650](https://bugzilla.mozilla.org/show_bug.cgi?id=1317650)	Implement Params Panel - Ricky Chien
+    * [Bug 1317651](https://bugzilla.mozilla.org/show_bug.cgi?id=1317651)	Implement Response Panel - Ricky Chien
+    * [Bug 1309187](https://bugzilla.mozilla.org/show_bug.cgi?id=1309187)	Implement Timings Panel - Ricky Chien
+    * [Bug 1309188](https://bugzilla.mozilla.org/show_bug.cgi?id=1309188) Implement Security Panel - Ricky Chien
+    * [Bug 1317659](https://bugzilla.mozilla.org/show_bug.cgi?id=1317659)	Implement Preview Panel - Ricky Chien
+ * I've picked up next MVP tasks (Bug 1328197 - Implement details view and Bug 1317645 - Implement sidebar view).
+ * I'm looking forward to finishing Sidebar migration on Feb.
+   
 * [Bug 1307892](https://bugzilla.mozilla.org/show_bug.cgi?id=1307892) - Support network event update messages 
  * r?
-* [Bug 1317650](https://bugzilla.mozilla.org/show_bug.cgi?id=1317650) - Implement Params Panel
- * cancel r?
- * Patch is very big and complicated so I separated it into smaller bugs for reviewing.
-* [Bug 1317651](https://bugzilla.mozilla.org/show_bug.cgi?id=1317651) - Implement Response Panel
- * cancel r?
- * All team will focus on PropertiesView.
-* [Bug 1328498](https://bugzilla.mozilla.org/show_bug.cgi?id=1328498) - Sourceeditor appendTo HTML element supports
- * landed
-* [Bug 1328532](https://bugzilla.mozilla.org/show_bug.cgi?id=1328532) - Refactor updateRequest to fetch full text for responseContent and requestPostData
- * landed
-* [Bug 1328567](https://bugzilla.mozilla.org/show_bug.cgi?id=1328567) - TreeView expandedNodes should update when props changed
- * landed
 * [Bug 1328500](https://bugzilla.mozilla.org/show_bug.cgi?id=1328500) - Support input field when user clicks on cell for TreeView
- * r?
+ * landed
 * [Bug 1328828](https://bugzilla.mozilla.org/show_bug.cgi?id=1328828) - Implement Properties View for reusing in network details panels
- * r?
- * An essential shareable component which is reused widely in Headers, Cookies, Params and Response panels.
- * All bugs will depend on this work (Fred's Cookie Panel and my Params, Response Panel). See also [Focus on Properties View (bug 1328828)](https://groups.google.com/a/mozilla.com/forum/?utm_medium=email&utm_source=footer#!topic/netmonitor/UPK2o_ONsUE)
-* Prepare round table items and questions for GSuite performance tools agenda (next week).
-```
-Topics - Performance Tool
-
-- Collect feature requests and idea from platform engineers
-- Determine deliverable features from feature request list
-- Determine the method of implementation to deliver new features
-- Project roadmap
-
-Other
-
-- Ask Bryan about UX resource
-- Priority of new features (box model, animation tab)
-- Devtools 2017 Goals
-```
+ * landed
+* [Bug 1317650](https://bugzilla.mozilla.org/show_bug.cgi?id=1317650) - Implement Params Panel
+ * landed
+* [Bug 1317651](https://bugzilla.mozilla.org/show_bug.cgi?id=1317651) - Implement Response Panel
+ * landed
+* [Bug 1317648](https://bugzilla.mozilla.org/show_bug.cgi?id=1317648) - Implement Header Panel
+ * landed
 
 * Review [Bug 1317649](https://bugzilla.mozilla.org/show_bug.cgi?id=1317649) - Implement Cookies Panel
-* Review [Bug 1325914](https://bugzilla.mozilla.org/show_bug.cgi?id=1325914) - fix react-dev warnings
 
 #### Netmonitor technical survey and discussions
 
