@@ -1,44 +1,16 @@
-## 1/9 - 1/13 Ricky Chien
+## 1/16 - 1/20 Ricky Chien
 
 ### DevTools
-* Quantum flow workweek updates
- * Participated Devtools meeting on Wednesday to ask and confirm my some of questions
-   * (Greg) Cleopatra developers have been taking for a long time to collect feature requests and idea from platform engineers
-   * (Greg) Implemention strategic will focus on delivering new features in Cleopatra and then replace current perf tools.
-   * (Greg) Cleopatra migration will begin in Q3 ideally.
-   * (Markus) There are some deliverable features has been picked up and documentation will be updated.
-   * (Markus) We're looking forward to shipping those features in 2017 H1.
-   * (Bryan) Quantum flow related support is P0.
-   * (Bryan) P1 is aiming for major tooling refactor (Debugger, Network Monitor -> HTML) and Github + System Addon "ship fast"
-   * (Bryan) New devtools UX is in hiring process.
-   * (Jim) Devtools is supporting Chrome RDP and it can benefit Servo as well.
-
 * Netmonitor
- * All sidebar panels are done. That's a great progress!
-    * [Bug 1317648](https://bugzilla.mozilla.org/show_bug.cgi?id=1317648) Implement Header Panel - Ricky Chien
-    * [Bug 1317649](https://bugzilla.mozilla.org/show_bug.cgi?id=1317649)	Implement Cookies Panel - Fred Lin
-    * [Bug 1317650](https://bugzilla.mozilla.org/show_bug.cgi?id=1317650)	Implement Params Panel - Ricky Chien
-    * [Bug 1317651](https://bugzilla.mozilla.org/show_bug.cgi?id=1317651)	Implement Response Panel - Ricky Chien
-    * [Bug 1309187](https://bugzilla.mozilla.org/show_bug.cgi?id=1309187)	Implement Timings Panel - Ricky Chien
-    * [Bug 1309188](https://bugzilla.mozilla.org/show_bug.cgi?id=1309188) Implement Security Panel - Ricky Chien
-    * [Bug 1317659](https://bugzilla.mozilla.org/show_bug.cgi?id=1317659)	Implement Preview Panel - Ricky Chien
- * I've picked up next MVP tasks (Bug 1328197 - Implement details view and Bug 1317645 - Implement sidebar view).
- * I'm looking forward to finishing Sidebar migration on Feb.
-   
+ * Overall status of [Netmonitor MVP scope](https://wiki.mozilla.org/DevTools/Netmonitor)
 * [Bug 1307892](https://bugzilla.mozilla.org/show_bug.cgi?id=1307892) - Support network event update messages 
  * r?
-* [Bug 1328500](https://bugzilla.mozilla.org/show_bug.cgi?id=1328500) - Support input field when user clicks on cell for TreeView
+* [Bug 1329068](https://bugzilla.mozilla.org/show_bug.cgi?id=1329068) - Fix layout issue for PropertiesView
  * landed
-* [Bug 1328828](https://bugzilla.mozilla.org/show_bug.cgi?id=1328828) - Implement Properties View for reusing in network details panels
+* [Bug 1331821](https://bugzilla.mozilla.org/show_bug.cgi?id=1317651) - Details Panel covers most of the Network Monitor when docked on the side.
  * landed
-* [Bug 1317650](https://bugzilla.mozilla.org/show_bug.cgi?id=1317650) - Implement Params Panel
+* [Bug 1332151](https://bugzilla.mozilla.org/show_bug.cgi?id=1332151) - Fix layout issues for network monitor sidebar panels
  * landed
-* [Bug 1317651](https://bugzilla.mozilla.org/show_bug.cgi?id=1317651) - Implement Response Panel
- * landed
-* [Bug 1317648](https://bugzilla.mozilla.org/show_bug.cgi?id=1317648) - Implement Header Panel
- * landed
-
-* Review [Bug 1317649](https://bugzilla.mozilla.org/show_bug.cgi?id=1317649) - Implement Cookies Panel
 
 #### Netmonitor technical survey and discussions
 
