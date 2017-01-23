@@ -1,27 +1,23 @@
-## 01/09 - 01/13 ##
+## 01/16 - 01/20 ##
 
 ### Last Week ###
 
 * [Form Autofill]
-    - Prioritized tasks in MVP
-        - https://goo.gl/NzAR8p
-    - Planed the goals of work week
-        - https://goo.gl/O3SYVJ
-    - Attended WebPayment's discussion
-    - Studied WebPayment UX Spec and confirmed the flow with UX
-    - Discussed the architectural design with Sean and Steve
+    - Came up with 2017 Q1 deliverables
+    - Decided the storage processing flow with WebPayment team
+    - Discussed what prototypes to make during the work week
 
 * [Mortar/PDF]
-    - [WIP] Bug 1316526 - [jsplugins][UI] Implement download feature
-        - got r+
-    - Handed over UI parts to Rex
+    - [Done] Bug 1316526 - [jsplugins][UI] Implement download feature
+        - landed
+    - [Review] Bug 1330932 - [Mortar] Support password-locked PDF file
+    - Prepare demo slides
 
 ### This Week ###
 
 * [Form Autofill]
-    - Follow up the discussion about the architecture
-    - Discuss the storage schema with WebPayment team
+    - Prioritize tasks about metrics and estimate the efforts
+    - Confirm the spec of the credit card part with UX
 
 * [Mortar/PDF]
-    - [WIP] Bug 1316526 - [jsplugins][UI] Implement download feature
-    - Prepare demo slides
+    - [Review] Bug 1330932 - [Mortar] Support password-locked PDF file
