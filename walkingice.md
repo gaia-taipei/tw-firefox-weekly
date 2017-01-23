@@ -1,10 +1,16 @@
-# [W02] 01/09 - 01/13
+# [W03] 01/16 - 01/20
 
 ## Android Fennec
 
+* [Bug 1325955](https://bugzilla.mozilla.org/show_bug.cgi?id=1325955) - hostname of address bar parsing
+    - Root cause found, writing patch
+    - First patch was rejected, trying again.
+
 * [Bug 1322114](https://bugzilla.mozilla.org/show_bug.cgi?id=1322114) - Media control notification's text changes only if "pause" button is tapped
-    - Patch prepared
-    - Writing Test cases
+    - Patch merged
+
+* [Bug 1325030](https://bugzilla.mozilla.org/show_bug.cgi?id=1325030) - Input field is covered by Soft-Keyboard
+    - Looking for root cause, likely found another similar bug.
 
 * [Bug 1314983](https://bugzilla.mozilla.org/show_bug.cgi?id=1314983) - Synced Devices folder is not displayed
     - Java implementation ready, Waiting for UX confirmation.
@@ -14,10 +20,6 @@
 
 * [Bug 1310899](https://bugzilla.mozilla.org/show_bug.cgi?id=1310899) - To add close button to Video Player
     - Java implementation ready. Waiting for UX confirmation.
-
-* [Bug 1323759](https://bugzilla.mozilla.org/show_bug.cgi?id=1323759) - OTA distributions do not apply
-    - Patch merged
-    - Uplift to Aurora, Beta
 
 * [Bug 1318822](https://bugzilla.mozilla.org/show_bug.cgi?id=1318822) -  Search suggestions does not respect language setting
     - Found root cause, haven't find a proper way to fix it
