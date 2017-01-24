@@ -1,4 +1,4 @@
-## 1/9 ~ 1/13
+## 1/16 ~ 1/20
 
 - [Firefox]
 	- [UI feedback] [Bug 285836](https://bugzilla.mozilla.org/show_bug.cgi?id=285836) - Make "Remove All Cookies Now" undoable
@@ -6,19 +6,18 @@
 
 - [Date-time Picker]
 	- [Bug 1283381](https://bugzilla.mozilla.org/show_bug.cgi?id=1283381) - [meta] Implement UI for date time input types
-		- [Bug 1320225](https://bugzilla.mozilla.org/show_bug.cgi?id=1320225) - [DateTimeInput] Integration of input type=date input box with picker
-			- r+, landed
 		- [Bug 1320647](https://bugzilla.mozilla.org/show_bug.cgi?id=1320647) -  [DateTimePicker] Add min/max and step support to date picker
-			- Added step support for month & year
-			- Will request for review after Bug 1320225 and Bug 1325922 land
+			- UX spec changed, editing patch to align with new behaviors before asking for review
 		- [Bug 1328219](https://bugzilla.mozilla.org/show_bug.cgi?id=1328219) - [DateTimePicker] Add browser chrome test for date picker
 			- WIP on mozreview
 			- Can be reviewed after Bug 1320225 lands
 		- [Bug 1329589](https://bugzilla.mozilla.org/show_bug.cgi?id=1329589) - [DateTimePicker] Set calendar variables for date picker using Intl.getCalendarInfo
-			- Have a working patch, will upload to bugzilla and request for feedback from :gandalf
+			- r+ from :mconley, waiting for feedback from :gandalf
+		- [Bug 1331608](https://bugzilla.mozilla.org/show_bug.cgi?id=1331608) - [DateTimePicker] months appear twice or not at all in month picker due to daylight savings time (e.g. March, October)
+			- Someone found a bug and has provided a patch. Helping him to close this bug.
 - [Form Autofill]
 	-  [Bug 1304306](https://bugzilla.mozilla.org/show_bug.cgi?id=1304306) - Need to have a place in the Preference -> Setting for users to launch the profile list add/edit/remove dialog
-		-  New patch on mozreview
+		-  addressed issues raised by :MattN, asking for r? again
 
 #### Date Time Pickers Tasks:
 
