@@ -1,26 +1,22 @@
-## 01/09 - 01/13 ##
+## 01/16 - 01/20 ##
 
 * [Firefox]
   - QX
     - Reader Mode
-      - Bug 1167568 - Reader View displays only the first part of specific articles from ehow.com
-        - Landed in GitHub
-        - Updated patch for review comments for several times
       - Bug 1300697 - Reader View missed first few paragraphs on New York Times website
-        - Discussing the patch with reviewer now
-        - Wrote WIP patch and tests
+        - Landed in GitHub.
+        - Updated the patch for multiple times for review comments.
+      - Bug 1323861 - Reader Mode displays "Failed to load article from page" on all Breitbart articles
+        - Root cause found.
+        - Added tests for the issue.
+      - Bug 1213602 - Reader View on foxnews.com does not show content of the page
+        - RESOLVED WORKSFORME
+      - Bug 1320231 - Missing paragraph from http://www.nytimes.com/2016/11/22/technology/facebook-censorship-tool-china.html
+        - RESOLVED DUPLICATE of Bug 1300697
       - Bug 1330931 - Tests for nytimes.com
-        - review?
-      - [Issue 322][issue-332] - Entertainment Weekly hack no longer needed?
-        - Reviewed and merged the patch
-      - Replied comments and set labels for GitHub Issues
-        - [Issue 334][issue-334]
-        - [Issue 333][issue-333]
-        - [Issue 308][issue-308]
-        - [Issue 306][issue-306]
-
-[issue-332]: https://github.com/mozilla/readability/issues/322
-[issue-333]: https://github.com/mozilla/readability/issues/333
-[issue-334]: https://github.com/mozilla/readability/issues/334
-[issue-308]: https://github.com/mozilla/readability/issues/308
-[issue-306]: https://github.com/mozilla/readability/issues/306
+        - Landed.
+      - Bug 1332236 - Tests for cnet.com
+        - Landed.
+      - Replied comments and set labels for GitHub Issues And Bugzilla bugs
+        - https://bugzil.la/1331981#c1
+        - https://github.com/mozilla/readability/issues/334#issuecomment-274021923
