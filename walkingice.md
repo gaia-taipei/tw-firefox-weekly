@@ -1,13 +1,14 @@
-# [W03] 01/16 - 01/20
+# [W04] 01/23 - 01/26
 
 ## Android Fennec
+
+* [Bug 1329145](https://bugzilla.mozilla.org/show_bug.cgi?id=1329145) - Custom tabs: support custom enter and exit animation
+    - Wrote a simple test app to validate custom-tab feature
+    - Patch submit, as well as unit-tests. Reviewing.
 
 * [Bug 1325955](https://bugzilla.mozilla.org/show_bug.cgi?id=1325955) - hostname of address bar parsing
     - Root cause found, writing patch
     - First patch was rejected, trying again.
-
-* [Bug 1322114](https://bugzilla.mozilla.org/show_bug.cgi?id=1322114) - Media control notification's text changes only if "pause" button is tapped
-    - Patch merged
 
 * [Bug 1325030](https://bugzilla.mozilla.org/show_bug.cgi?id=1325030) - Input field is covered by Soft-Keyboard
     - Looking for root cause, likely found another similar bug.
