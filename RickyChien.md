@@ -1,26 +1,26 @@
-## 1/16 - 1/20 Ricky Chien
+## 1/23 - 1/26 Ricky Chien
 
 ### DevTools
-* Netmonitor
- * Overall status of [Netmonitor MVP scope](https://wiki.mozilla.org/DevTools/Netmonitor)
+* Netmonitor Overall
+ * I did a survey and architecture anaysis for next migration scope. See plan and bug breakdown discussion in [Netmonitor next migration roadmap and breakdown](https://groups.google.com/a/mozilla.com/forum/#!topic/netmonitor/eZ2ROcOmiYI)
+ * Overall status of [Netmonitor MVP scope]
 * [Bug 1307892](https://bugzilla.mozilla.org/show_bug.cgi?id=1307892) - Support network event update messages 
- * r?
-* [Bug 1329068](https://bugzilla.mozilla.org/show_bug.cgi?id=1329068) - Fix layout issue for PropertiesView
+ * landed. Good news! webconsole migration is planing to resume the work this quarter.
+* [Bug 1333004](https://bugzilla.mozilla.org/show_bug.cgi?id=1333004) - Grabbing and scrolling the details panel of a request in the Netmonitor is jerky
  * landed
-* [Bug 1331821](https://bugzilla.mozilla.org/show_bug.cgi?id=1317651) - Details Panel covers most of the Network Monitor when docked on the side.
+* [Bug 1333364](https://bugzilla.mozilla.org/show_bug.cgi?id=1333364) - Introduce id props to tab and panel component in order to be selected by test.
  * landed
-* [Bug 1332151](https://bugzilla.mozilla.org/show_bug.cgi?id=1332151) - Fix layout issues for network monitor sidebar panels
+* [Bug 1328197](https://bugzilla.mozilla.org/show_bug.cgi?id=1328197) - Implement details view
  * landed
+* [Bug 1317645](https://bugzilla.mozilla.org/show_bug.cgi?id=1317645) - Implement NetworkDetailsPanel
+ * WIP
 
 #### Netmonitor technical survey and discussions
 
 * [Flux Standard Action (FSA)](https://groups.google.com/a/mozilla.com/forum/#!msg/netmonitor/CcIgCLLukVc/3lZtlJJgAwAJ)
 * [Pass all state into connect() will kill any performance optimizations](https://groups.google.com/a/mozilla.com/forum/#!topic/netmonitor/Oq8MyZ7tfDk)
 * [Focus on Properties View (bug 1328828)](https://groups.google.com/a/mozilla.com/forum/?utm_medium=email&utm_source=footer#!topic/netmonitor/UPK2o_ONsUE)
-
-#### Request to performance tools
- * Set up a meeting with Taipei performance team and collected a list of features and requirements from them to figure out how to improve performance tools.
- * Deliver collected requirements to the members of devtools performance tool and figure out the project roadmap.
+* [Netmonitor next migration roadmap and breakdown](https://groups.google.com/a/mozilla.com/forum/#!topic/netmonitor/eZ2ROcOmiYI)
 
 #### Netmonitor.html planning
  * High level plan overview [Overview]
@@ -40,6 +40,7 @@
 * [Meta Bug - Migrate Net panel to HTML]
 * [Mana project update]
 * [Wiki]
+* [Netmonitor MVP scope]
 
 [Overview]: https://docs.google.com/document/d/19lyV04YtfX9X5ev2rhFeIuQPaVApgl8qdFpe4Rw4Np4/edit?usp=sharing
 [Meetings]: https://docs.google.com/a/mozilla.com/document/d/1FneFiHkLMJjWFhFYI13IWlr02W5mCRsEqZQPUJHWmSU/edit?usp=sharing
@@ -49,3 +50,4 @@
 [Meta Bug - Migrate Net panel to HTML]: https://bugzilla.mozilla.org/show_bug.cgi?id=1307743
 [Mana project update]: https://mana.mozilla.org/wiki/display/PM/Netmonitor+Project+Update
 [Wiki]: https://wiki.mozilla.org/DevTools/Netmonitor
+[Netmonitor MVP scope]: https://wiki.mozilla.org/DevTools/Netmonitor#MVP_Scope
