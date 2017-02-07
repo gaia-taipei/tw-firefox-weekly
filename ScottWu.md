@@ -1,4 +1,4 @@
-## 1/16 ~ 1/20
+## 1/23 ~ 2/3
 
 - [Firefox]
 	- [UI feedback] [Bug 285836](https://bugzilla.mozilla.org/show_bug.cgi?id=285836) - Make "Remove All Cookies Now" undoable
@@ -12,12 +12,17 @@
 			- WIP on mozreview
 			- Can be reviewed after Bug 1320225 lands
 		- [Bug 1329589](https://bugzilla.mozilla.org/show_bug.cgi?id=1329589) - [DateTimePicker] Set calendar variables for date picker using Intl.getCalendarInfo
-			- r+ from :mconley, waiting for feedback from :gandalf
+			- landed
 		- [Bug 1331608](https://bugzilla.mozilla.org/show_bug.cgi?id=1331608) - [DateTimePicker] months appear twice or not at all in month picker due to daylight savings time (e.g. March, October)
-			- Someone found a bug and has provided a patch. Helping him to close this bug.
+			- landed
+		- [Bug 1334038](https://bugzilla.mozilla.org/show_bug.cgi?id=1334038) - \<input type=date\> seems to show selection pop up even when tab is changed
+			- r+, landed
 - [Form Autofill]
 	-  [Bug 1304306](https://bugzilla.mozilla.org/show_bug.cgi?id=1304306) - Need to have a place in the Preference -> Setting for users to launch the profile list add/edit/remove dialog
 		-  addressed issues raised by :MattN, asking for r? again
+	-  [Bug 1299819](https://bugzilla.mozilla.org/show_bug.cgi?id=1299819) - [Form Autofill] Allow users to manually add form autofill profiles
+		- exploring different options for making nested subdialogs in preferences
+	- Investigating on making profile preview work
 
 #### Date Time Pickers Tasks:
 
