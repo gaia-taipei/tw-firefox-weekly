@@ -1,9 +1,10 @@
-## This week 1/3 ~ 1/6
+## This week 1/16 ~ 2/3
 * Autofill
     - [Bug 1330567](https://bugzilla.mozilla.org/show_bug.cgi?id=1330567) - Fallback to form history if form autofill pref is disabled
-        - f?. The timing for fallback mechanism might change that parent will be responsible for all the state changes and fire a state change event to child.
+        - r?. Apply some suggestions and refactor for another review.
     - [Bug 1300992](https://bugzilla.mozilla.org/show_bug.cgi?id=1300992) -  Fill the autocomplete result with real profile by using profile storage API
-        - r?. Patch updated and still in review.
+        - Landed.
+    - Start to study the master password and how it works in login manager.
 * Devtool:
-    - [Bug 1317646](https://bugzilla.mozilla.org/show_bug.cgi?id=1317646) - Netmonitor: move code for formatting request timings and content sizes to format-utils.js
-        - Landed. Introduce a small refactoring for the const value and utils function.
+    - [Bug 1330967](https://bugzilla.mozilla.org/show_bug.cgi?id=1330967) - Can not open Statistics view after switching between 2 views several times.
+        - Landed. Fix the regression from the last refactoring.
