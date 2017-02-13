@@ -1,23 +1,23 @@
-## 01/03 - 01/06 ##
+## 01/16 - 01/20 ##
 
 ### Last Week ###
 
 * [Form Autofill]
-    - [Done] Bug 1300993 - Connect satchel autocomplete to form autofill results instead of form history when appropriate
-        - got r+ and landed
-    - Compared the address schema between PaymentAddress and Autocomplete attribute
-    - Estimated the schedule of MVP
-    - Followed up the discussion about the architecture of nsIAutoCompleteResult
+    - Came up with 2017 Q1 deliverables
+    - Decided the storage processing flow with WebPayment team
+    - Discussed what prototypes to make during the work week
 
 * [Mortar/PDF]
-    - Rebased my patches on mozilla-central.
+    - [Done] Bug 1316526 - [jsplugins][UI] Implement download feature
+        - landed
+    - [Review] Bug 1330932 - [Mortar] Support password-locked PDF file
+    - Prepare demo slides
 
 ### This Week ###
 
 * [Form Autofill]
-    - Prioritize tasks in MVP
-    - Plan the goals of work week
-    - Follow up WebPayment's current progress
+    - Prioritize tasks about metrics and estimate the efforts
+    - Confirm the spec of the credit card part with UX
 
 * [Mortar/PDF]
-    - [WIP] Bug 1316526 - [jsplugins][UI] Implement download feature
+    - [Review] Bug 1330932 - [Mortar] Support password-locked PDF file
