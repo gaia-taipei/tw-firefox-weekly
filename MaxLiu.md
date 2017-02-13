@@ -1,22 +1,16 @@
-# [W03] Max Liu: 01/16 ~ 01/20
+# [W04~05] Max Liu: 01/23 ~ 02/03
 
 
 * [Fennec]
 
-  - Bug 1320072 - Firefox doesn't integrate with Android's Web Search "Intent"
-    - review+, landed
-
-  - Bug 1029646 - RTL locale support in locale picker
-    - review+, landed
-
-  - Bug 1332258 - [RTL] Faded text sometimes becomes blank after scrolling
-    - review+, landed
-
   - Bug 1326291 - [RTL] Align the domain name in the site info panel to the right
-    - Root cause found, brewing solution
+    - review+, landed
 
   - Bug 1333089 - RTL - The back arrow is pointing left instead of right on Android
-    - Android framework(L:21) specific bug, still investigating root cause.
+    - review+, landed
+
+  - Bug - Integrate SearchActivity with CustomTab
+    - Experiment hack done
 
 
 ## TODO
