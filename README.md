@@ -11,7 +11,6 @@ Members
 * Scott Wu
 * Ray Lin
 * Ricky Chien
-* Nevin Chen
 * Rex Lee
 * Luke Chang
 * Sean Lee
