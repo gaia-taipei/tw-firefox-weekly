@@ -1,10 +1,11 @@
-## This week 1/16 ~ 2/3
-* Autofill
+## This week 2/6 ~ 2/10
+* Autofill(Work week)
     - [Bug 1330567](https://bugzilla.mozilla.org/show_bug.cgi?id=1330567) - Fallback to form history if form autofill pref is disabled
-        - r?. Apply some suggestions and refactor for another review.
-    - [Bug 1300992](https://bugzilla.mozilla.org/show_bug.cgi?id=1300992) -  Fill the autocomplete result with real profile by using profile storage API
-        - Landed.
-    - Start to study the master password and how it works in login manager.
+        - Landed, and created a follow up bug 
+    - [Bug 1337314](https://bugzilla.mozilla.org/show_bug.cgi?id=1337314) - [Form Autofill] Handle credit card number encryption/decryption
+        - Discuss with MattN about the details of master password and how to leverage it with encryption/decryption.
+    - [Bug 1338485](https://bugzilla.mozilla.org/show_bug.cgi?id=1338485) - [Form Autofill] Handle credit card number encryption/decryption
+        - Create a meta bug for all the cases that will need fall back.
+    - Team discussion: Credit card autofill UX [spec](https://mozilla.invisionapp.com/share/7ZA4WEK9W#/screens/215537979) review and possible refactoring for [bug fixing](https://bugzilla.mozilla.org/show_bug.cgi?id=1333682) 
 * Devtool:
-    - [Bug 1330967](https://bugzilla.mozilla.org/show_bug.cgi?id=1330967) - Can not open Statistics view after switching between 2 views several times.
-        - Landed. Fix the regression from the last refactoring.
+    - N/A
