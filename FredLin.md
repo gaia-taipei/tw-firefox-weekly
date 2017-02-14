@@ -1,13 +1,10 @@
 [Open bugs assigned to me](https://bugzilla.mozilla.org/buglist.cgi?quicksearch=assignee%3Agasolin%40mozilla.com) (ASSIGNED = current working on; NEW = backlog)
 
-## 1/23 - 1/26
+## 2/2 - 2/10
 
-### Devtools
+### Devtools#Netmonitor.html
 
-- Devtools Team is planned to hold Taipei Workweek during mid-March
-
-- try devtools-reps devtools-html/devtools-reps and file related issues
-  - [#43 npm start fail due to old launchpad dependency](https://github.com/devtools-html/devtools-reps/issues/43)
+- Honza wil come to Taipei at 3/20~24 to discuss Netmonitor related plan 
 
 - netmonitor.html(deXUL netmonitor)
   - [on track](https://wiki.mozilla.org/DevTools/Netmonitor/Archive), current project estimate finish release is `Fx55`
@@ -16,12 +13,28 @@
   - Most of sidebar panels are landed
 
 - 1308449 – Implement custom request view
-  - identify request form url query issue
-  - Make header editing works correctly
-  - remove preselect action
-  - remove custom-request-view
-  - remove un-direct call from request-menu-view and fix related tests
-  - simplify props to just pass the request obj
+  - r+ & landed
+  - address nits
+  - fix edit & send function
+  - fix button style
+  - fix tests
+  - fix query params construction
+  - use single updateRequest method to update all form values
+
+- Bug 1337015 - show multiple select params correctly
+  - r+ & landed
+
+- Bug 1314921 - Reduce number of top-level files in devtools/client/netmonitor/
+  - WIP
+  - propose treatments
+
+### Devtools#Debugger.html
+  - Treat ltr as default and only render affected styles into rtl rules
+    - [landed](https://github.com/gasolin/postcss-bidirection/issues/6)
+
+Review
+
+- Bug 1317645 - Implement NetworkDetailsPanel
 
 ### Firefox
 
