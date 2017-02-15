@@ -1,19 +1,21 @@
-## 1/23 - 1/26 Ricky Chien
+## 2/02 - 2/10 Ricky Chien
 
 ### DevTools
 * Netmonitor Overall
  * I did a survey and architecture anaysis for next migration scope. See plan and bug breakdown discussion in [Netmonitor next migration roadmap and breakdown](https://groups.google.com/a/mozilla.com/forum/#!topic/netmonitor/eZ2ROcOmiYI)
  * Overall status of [Netmonitor MVP scope]
-* [Bug 1307892](https://bugzilla.mozilla.org/show_bug.cgi?id=1307892) - Support network event update messages 
- * landed. Good news! webconsole migration is planing to resume the work this quarter.
-* [Bug 1333004](https://bugzilla.mozilla.org/show_bug.cgi?id=1333004) - Grabbing and scrolling the details panel of a request in the Netmonitor is jerky
- * landed
-* [Bug 1333364](https://bugzilla.mozilla.org/show_bug.cgi?id=1333364) - Introduce id props to tab and panel component in order to be selected by test.
- * landed
-* [Bug 1328197](https://bugzilla.mozilla.org/show_bug.cgi?id=1328197) - Implement details view
- * landed
 * [Bug 1317645](https://bugzilla.mozilla.org/show_bug.cgi?id=1317645) - Implement NetworkDetailsPanel
- * WIP
+ * Landed
+ * Sidebar refactoring is completed!
+* [Bug 1336383](https://bugzilla.mozilla.org/show_bug.cgi?id=1336383) - Implement RequestList component
+ * Landed
+ * Get rid of requests-menu-view.js which is the most dirtiest legacy UI component in netmonitor.
+* [Bug 1335322](https://bugzilla.mozilla.org/show_bug.cgi?id=1335322) - Add aria-pressed to the filter buttons
+ * Landed
+* [Bug 1336378](https://bugzilla.mozilla.org/show_bug.cgi?id=1336378) - Remove toolbar-view.js
+ * Landed
+* [Bug 1336379](https://bugzilla.mozilla.org/show_bug.cgi?id=1336379) - Implement Statistics Panel component
+ * Landed
 
 #### Netmonitor technical survey and discussions
 
