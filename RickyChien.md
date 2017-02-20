@@ -1,21 +1,23 @@
-## 2/02 - 2/10 Ricky Chien
+## 2/13 - 2/17 Ricky Chien
 
 ### DevTools
 * Netmonitor Overall
  * I did a survey and architecture anaysis for next migration scope. See plan and bug breakdown discussion in [Netmonitor next migration roadmap and breakdown](https://groups.google.com/a/mozilla.com/forum/#!topic/netmonitor/eZ2ROcOmiYI)
  * Overall status of [Netmonitor MVP scope]
-* [Bug 1317645](https://bugzilla.mozilla.org/show_bug.cgi?id=1317645) - Implement NetworkDetailsPanel
+* [Bug 1309183](https://bugzilla.mozilla.org/show_bug.cgi?id=1309183) - Replace XUL Splitter by SplitBox
  * Landed
- * Sidebar refactoring is completed!
-* [Bug 1336383](https://bugzilla.mozilla.org/show_bug.cgi?id=1336383) - Implement RequestList component
+* [Bug 1336384](https://bugzilla.mozilla.org/show_bug.cgi?id=1336384) - Implement top level NetworkMonitor component
  * Landed
- * Get rid of requests-menu-view.js which is the most dirtiest legacy UI component in netmonitor.
-* [Bug 1335322](https://bugzilla.mozilla.org/show_bug.cgi?id=1335322) - Add aria-pressed to the filter buttons
+ * The top level react component in Netmonitor. There is no any static XUL elements in netmonitor.xul.
+* [Bug 1309826](https://bugzilla.mozilla.org/show_bug.cgi?id=1309826) - convert netmonitor xul to xhtml
  * Landed
-* [Bug 1336378](https://bugzilla.mozilla.org/show_bug.cgi?id=1336378) - Remove toolbar-view.js
+ * de-XUL!! Converted netmonitor.xul -> netmonitor.xhtml
+* [Bug 1340366](https://bugzilla.mozilla.org/show_bug.cgi?id=1340366) - Remove privilege APIs for har-builder, har-collector and clipboard
  * Landed
-* [Bug 1336379](https://bugzilla.mozilla.org/show_bug.cgi?id=1336379) - Implement Statistics Panel component
- * Landed
+ * As part of de-chrome netmonitor
+* [Bug 1340368](https://bugzilla.mozilla.org/show_bug.cgi?id=1340368) - Rewrite har-exporter and use WebAPIs instead
+ * r?
+ * As part of de-chrome netmonitor
 
 #### Netmonitor technical survey and discussions
 
