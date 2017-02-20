@@ -1,13 +1,12 @@
-# [W05] 02/02 - 02/03
+# [W06] 02/06 - 02/10
 
 ## Android Fennec
 
 * [Bug 1329144](https://bugzilla.mozilla.org/show_bug.cgi?id=1329144) - Custom tabs: support action button
-    - Implementing and writing test cases
+    - Resolved
 
-* [Bug 1329145](https://bugzilla.mozilla.org/show_bug.cgi?id=1329145) - Custom tabs: support custom enter and exit animation
-    - Revisied patch and test cases
-    - Patch merged
+* [Bug 1337771](https://bugzilla.mozilla.org/show_bug.cgi?id=1337771) - Action button in custom tab not working for some apps
+    - Resolved
 
 * [Bug 1325955](https://bugzilla.mozilla.org/show_bug.cgi?id=1325955) - hostname of address bar parsing
     - Root cause found, writing patch
