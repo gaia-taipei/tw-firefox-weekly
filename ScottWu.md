@@ -1,4 +1,4 @@
-## 2/6 ~ 2/10
+## 2/13 ~ 2/17
 
 - [Firefox]
 	- [UI feedback] [Bug 285836](https://bugzilla.mozilla.org/show_bug.cgi?id=285836) - Make "Remove All Cookies Now" undoable
@@ -11,14 +11,18 @@
 		- [Bug 1328219](https://bugzilla.mozilla.org/show_bug.cgi?id=1328219) - [DateTimePicker] Add browser chrome test for date picker
 			- Based on master schedule plans, will work on this after features have been landed.
 		- [Bug 1329927](https://bugzilla.mozilla.org/show_bug.cgi?id=1329927) - [DateTimePicker] Get localized calendar terms for date picker using Intl.getDisplayNames
-			- r? for :mconley
+			- r+ for :mconley
 			- r+ from :gandalf
+			- landed
 		- [Bug 1337319](https://bugzilla.mozilla.org/show_bug.cgi?id=1337319) - [DateTimePicker] The order of year and month on date picker should depend on locale datetime format
+			- r+ from :mconley
+		- [Bug 1320880](https://bugzilla.mozilla.org/show_bug.cgi?id=1320880) - [DateTimePicker] Add RTL support to date picker
+			- WIP on mozreview
+			- Bug 1312053 (API for getting locale direction) is getting reviewed
 - [Form Autofill]
-	-  [Bug 1304306](https://bugzilla.mozilla.org/show_bug.cgi?id=1304306) - Need to have a place in the Preference -> Setting for users to launch the profile list add/edit/remove dialog
-		-  landed
-	-  [Bug 1299819](https://bugzilla.mozilla.org/show_bug.cgi?id=1299819) - [Form Autofill] Allow users to manually add form autofill profiles
-		- exploring different options for making nested subdialogs in preferences
+	- [Bug 1019471](https://bugzilla.mozilla.org/show_bug.cgi?id=1019471) - (fx-autofill-profile-edit) Dialog to add/edit/view an autofill profile
+		- WIP on mozreview
+	- [Bug 1019483](https://bugzilla.mozilla.org/show_bug.cgi?id=1019483) - (fx-autofill-profile-mgmt) Interface to manage autofill profiles
 	- Investigating on making profile preview work
 
 #### Date Time Pickers Tasks:
