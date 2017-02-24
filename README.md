@@ -6,7 +6,7 @@ Taipei Firefox Team Weekly Report
 Members
 -------
 * Steve Chung
-* Fren Lin
+* Fred Lin
 * Evan Tseng
 * Scott Wu
 * Ray Lin
