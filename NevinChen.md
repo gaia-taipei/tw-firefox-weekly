@@ -1,16 +1,19 @@
-## 2/2 ~ 2/10
-    
-- [Bug 1319366](https://bugzilla.mozilla.org/show_bug.cgi?id=1319366) -  Clicking a link while presenting Google slides makes the navigation bar go black
-    - r+ & landed
+## 2/11 ~ 2/24
 
-- [Bug 1286944](https://bugzilla.mozilla.org/show_bug.cgi?id=1286944) - Build Process for Android partner distributions
-    - Survey distribution code and talk to Mike Kaply.
-    - Mostly release team's work. We just need to check if it still working.
-    - It might be good to know how desktop do the distribution as well.
+- [Bug 1329160](https://bugzilla.mozilla.org/show_bug.cgi?id=1329160) - Custom tabs: Collect information on pre-warming sessions used by 3rd party apps
+    - r?liuche
 
-- [Telemtry Study](https://docs.google.com/document/d/1Eqg2dtEQuo8yjWLWChHQU3LT8wpBsZ88fIQcFAkcevg/edit?usp=sharing
-)
-    - Add new surveys : Tab Queue Study(done) Context Menu Study(WIP)
+- [Bug 1329155](https://bugzilla.mozilla.org/show_bug.cgi?id=1329155) - Custom tabs: Collect information on number of launches (Load_URL) using custom tabs
+    - r?liuche
     
-- [Autofill Study](https://docs.google.com/document/d/1A5QHsODkeSLz0mhz1BgXu8KeAgj29SNE2kBqMe5sJaQ/edit#)
-    - Notes after talked with :mattn, Steve, and Luke
+- [Bug 1329157](https://bugzilla.mozilla.org/show_bug.cgi?id=1329157) - Custom tabs: Collect the source names of 3rd party app that is using custom tabs 
+    - r?liuche
+    
+- [Bug 1337692](https://bugzilla.mozilla.org/show_bug.cgi?id=1337692) - Firefox doesn't ask for camera or audio permission with input type="file"
+    - r?sebastian
+    
+- [Bug 1342354](https://bugzilla.mozilla.org/show_bug.cgi?id=1342354) - Add pref on/off switch for new bookmark features
+    - r?ahunt
+    
+- Flash usage study 
+    - WIP
