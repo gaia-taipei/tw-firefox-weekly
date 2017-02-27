@@ -14,6 +14,9 @@
     
 - [Bug 1342354](https://bugzilla.mozilla.org/show_bug.cgi?id=1342354) - Add pref on/off switch for new bookmark features
     - r?ahunt
-    
+
 - Flash usage study 
     - WIP
+
+- [Bug 1319366](https://bugzilla.mozilla.org/show_bug.cgi?id=1319366) -  Clicking a link while presenting Google slides makes the navigation bar go black
+    - r+ & landed 
