@@ -1,23 +1,28 @@
-## 2/13 - 2/17 Ricky Chien
+## 2/20 - 2/24 Ricky Chien
 
 ### DevTools
 * Netmonitor Overall
  * I did a survey and architecture anaysis for next migration scope. See plan and bug breakdown discussion in [Netmonitor next migration roadmap and breakdown](https://groups.google.com/a/mozilla.com/forum/#!topic/netmonitor/eZ2ROcOmiYI)
  * Overall status of [Netmonitor MVP scope]
-* [Bug 1309183](https://bugzilla.mozilla.org/show_bug.cgi?id=1309183) - Replace XUL Splitter by SplitBox
- * Landed
-* [Bug 1336384](https://bugzilla.mozilla.org/show_bug.cgi?id=1336384) - Implement top level NetworkMonitor component
- * Landed
- * The top level react component in Netmonitor. There is no any static XUL elements in netmonitor.xul.
-* [Bug 1309826](https://bugzilla.mozilla.org/show_bug.cgi?id=1309826) - convert netmonitor xul to xhtml
- * Landed
- * de-XUL!! Converted netmonitor.xul -> netmonitor.xhtml
-* [Bug 1340366](https://bugzilla.mozilla.org/show_bug.cgi?id=1340366) - Remove privilege APIs for har-builder, har-collector and clipboard
- * Landed
- * As part of de-chrome netmonitor
 * [Bug 1340368](https://bugzilla.mozilla.org/show_bug.cgi?id=1340368) - Rewrite har-exporter and use WebAPIs instead
  * r?
  * As part of de-chrome netmonitor
+* [Bug 1308441](https://bugzilla.mozilla.org/show_bug.cgi?id=1308441) - Use react-virtualized for RequestList in NetMonitor panel
+ * r? Part1 - Small refactorings r?honza
+ * r? Part2 - Use react-virtualized for RequestList r?honza
+ * r? Part3 - Fix test cases r?honza
+* [Bug 1340469](https://bugzilla.mozilla.org/show_bug.cgi?id=1340469) - Get licensing signoff on using JSZip for supporting compression HAR log
+ * landed
+* [Bug 1341159](https://bugzilla.mozilla.org/show_bug.cgi?id=1341159) - Use commonLibRequire trick to reuse already loaded libraries
+ * landed
+
+#### Review
+* Bug 1316291 - Rename the "requests-menu" CSS classes in netmonitor.css
+* Bug 1339686 - Convert MDN [learn more] link as a react component
+* Bug 1314921 - Reduce number of top-level files in devtools/client/netmonitor/
+
+#### Survey & Analysis
+* [Netmonitor UI analysis] (https://docs.google.com/document/d/1Z9J8uY4aGRB_BcsLKQCqwBaxXo9MuZEW3ClyVjQ2XfQ/edit)
 
 #### Netmonitor technical survey and discussions
 
