@@ -1,10 +1,11 @@
-## This week 1/16 ~ 2/3
-* Autofill
-    - [Bug 1330567](https://bugzilla.mozilla.org/show_bug.cgi?id=1330567) - Fallback to form history if form autofill pref is disabled
-        - r?. Apply some suggestions and refactor for another review.
-    - [Bug 1300992](https://bugzilla.mozilla.org/show_bug.cgi?id=1300992) -  Fill the autocomplete result with real profile by using profile storage API
-        - Landed.
-    - Start to study the master password and how it works in login manager.
+## This week 2/13 ~ 2/16
+* Autofill(Work week)
+    - [Bug 1325724](https://bugzilla.mozilla.org/show_bug.cgi?id=1325724) - Fallback to form history if there is no form autofill profile saved
+        - Landed, 
+    - [Bug 1339007](https://bugzilla.mozilla.org/show_bug.cgi?id=1339007) - Replace async getEnabledStatus with initialProcessData for content process init
+        - r+, The follow-up bug from bug 1330567
+    - [Bug 1339515](https://bugzilla.mozilla.org/show_bug.cgi?id=1339515) - [Form Autofill] Add built-in debug logging to ease debugging
+        - Code reviewed, it's about adding a new log helper to dump the log for debuging more easily.
+    - Discussed the new credit card UX proposal, phishing issue and metrics.
 * Devtool:
-    - [Bug 1330967](https://bugzilla.mozilla.org/show_bug.cgi?id=1330967) - Can not open Statistics view after switching between 2 views several times.
-        - Landed. Fix the regression from the last refactoring.
+    - N/A
