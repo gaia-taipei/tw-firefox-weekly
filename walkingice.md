@@ -1,12 +1,14 @@
-# [W06] 02/06 - 02/10
+# [W07] 02/13 - 02/17
+
+* New Hire Onboarding
+
+# [W08] 02/20 - 02/24
 
 ## Android Fennec
 
-* [Bug 1329144](https://bugzilla.mozilla.org/show_bug.cgi?id=1329144) - Custom tabs: support action button
-    - Resolved
-
-* [Bug 1337771](https://bugzilla.mozilla.org/show_bug.cgi?id=1337771) - Action button in custom tab not working for some apps
-    - Resolved
+* [Bug 1315937](https://bugzilla.mozilla.org/show_bug.cgi?id=1315937) - Custom tabs: support custom menu items
+    - Use GeckoPopupMenu to build custom menu
+    - Apply theme and add basic components to menu
 
 * [Bug 1325955](https://bugzilla.mozilla.org/show_bug.cgi?id=1325955) - hostname of address bar parsing
     - Root cause found, writing patch
