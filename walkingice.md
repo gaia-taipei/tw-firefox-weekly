@@ -1,14 +1,13 @@
-# [W07] 02/13 - 02/17
-
-* New Hire Onboarding
-
-# [W08] 02/20 - 02/24
+# [W09] 03/01 - 03/03
 
 ## Android Fennec
 
+* [Bug 1332546](https://bugzilla.mozilla.org/show_bug.cgi?id=1332546) - To add site info icon to URL bar
+    - Implemented basic layout
+
 * [Bug 1315937](https://bugzilla.mozilla.org/show_bug.cgi?id=1315937) - Custom tabs: support custom menu items
-    - Use GeckoPopupMenu to build custom menu
-    - Apply theme and add basic components to menu
+    - Handle share action in custom-tabs-activity
+    - Patch sent, waiting review
 
 * [Bug 1325955](https://bugzilla.mozilla.org/show_bug.cgi?id=1325955) - hostname of address bar parsing
     - Root cause found, writing patch
