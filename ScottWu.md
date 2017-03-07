@@ -1,4 +1,4 @@
-## 2/13 ~ 2/17
+## 2/20 ~ 2/24
 
 - [Firefox]
 	- [UI feedback] [Bug 285836](https://bugzilla.mozilla.org/show_bug.cgi?id=285836) - Make "Remove All Cookies Now" undoable
@@ -16,12 +16,16 @@
 			- landed
 		- [Bug 1337319](https://bugzilla.mozilla.org/show_bug.cgi?id=1337319) - [DateTimePicker] The order of year and month on date picker should depend on locale datetime format
 			- r+ from :mconley
+			- landed
 		- [Bug 1320880](https://bugzilla.mozilla.org/show_bug.cgi?id=1320880) - [DateTimePicker] Add RTL support to date picker
 			- WIP on mozreview
-			- Bug 1312053 (API for getting locale direction) is getting reviewed
+			- Bug 1312053 (API for getting locale direction) has landed, will use this API to get locale direction
+		- [Bug 1341190](https://bugzilla.mozilla.org/show_bug.cgi?id=1341190) - Date picker panel and email input validation popup close immediately after opening
+			- r+ from :mconley
+			- landed
 - [Form Autofill]
 	- [Bug 1019471](https://bugzilla.mozilla.org/show_bug.cgi?id=1019471) - (fx-autofill-profile-edit) Dialog to add/edit/view an autofill profile
-		- WIP on mozreview
+		- r? MattN
 	- [Bug 1019483](https://bugzilla.mozilla.org/show_bug.cgi?id=1019483) - (fx-autofill-profile-mgmt) Interface to manage autofill profiles
 	- Investigating on making profile preview work
 
