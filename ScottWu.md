@@ -10,23 +10,15 @@
 			- UX spec changed, editing patch to align with new behaviors before asking for review
 		- [Bug 1328219](https://bugzilla.mozilla.org/show_bug.cgi?id=1328219) - [DateTimePicker] Add browser chrome test for date picker
 			- Based on master schedule plans, will work on this after features have been landed.
-		- [Bug 1329927](https://bugzilla.mozilla.org/show_bug.cgi?id=1329927) - [DateTimePicker] Get localized calendar terms for date picker using Intl.getDisplayNames
-			- r+ for :mconley
-			- r+ from :gandalf
-			- landed
-		- [Bug 1337319](https://bugzilla.mozilla.org/show_bug.cgi?id=1337319) - [DateTimePicker] The order of year and month on date picker should depend on locale datetime format
-			- r+ from :mconley
-			- landed
 		- [Bug 1320880](https://bugzilla.mozilla.org/show_bug.cgi?id=1320880) - [DateTimePicker] Add RTL support to date picker
-			- WIP on mozreview
-			- Bug 1312053 (API for getting locale direction) has landed, will use this API to get locale direction
-		- [Bug 1341190](https://bugzilla.mozilla.org/show_bug.cgi?id=1341190) - Date picker panel and email input validation popup close immediately after opening
 			- r+ from :mconley
 			- landed
 - [Form Autofill]
 	- [Bug 1019471](https://bugzilla.mozilla.org/show_bug.cgi?id=1019471) - (fx-autofill-profile-edit) Dialog to add/edit/view an autofill profile
 		- r? MattN
+		- addressed issues from first review
 	- [Bug 1019483](https://bugzilla.mozilla.org/show_bug.cgi?id=1019483) - (fx-autofill-profile-mgmt) Interface to manage autofill profiles
+		- Working on the manage profiles interface while waiting for Bug 1019471 review
 	- Investigating on making profile preview work
 
 #### Date Time Pickers Tasks:
@@ -68,9 +60,9 @@
 	- Combining date picker and time picker
 
 - Full L10n support
-	- Getting localized strings with Intl API
-	- Get calendar info with Intl API
-	- Spinner orders depend on locale
+	- [done] Getting localized strings with Intl API
+	- [done] Get calendar info with Intl API
+	- [done] Spinner orders depend on locale
 - Full a11y support
 	- Tab focus
 	- Alt text & ARIA
