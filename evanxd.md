@@ -1,13 +1,17 @@
-## 02/16 - 02/17 ##
+## 02/20 - 02/24 ##
 
 * [Firefox]
   - QX
     - Reader Mode
       - Bug 1323861 - Reader Mode displays "Failed to load article from page" on all Breitbart articles
-        - Replied the review comments and fixed the test failures.
+        - Landed in GitHub.
       - Bug 1217007 - using reader mode on medium.com can omit leading paragraphs/sections
-        - Wrote the patch and added tests.
-      - Bug 1338468 - Tests for tumblr.com
-        - Landed.
-      - Bug 1338475 - Tests for pixnet.net
+        - Landed in GitHub.
+      - Bug 1177360 - Amazon pages offer Reader Mode, produce either random review content or Amazon Prime / shipping offers - should work better or not be offered
+        - Found the root cause.
+      - Bug 1322674 - Reader mode doesn't display a table column properly
+        - Landed in m-c.
+      - Bug 1340799 - Add an automated test for clicking hash links in reader mode scrolling to the anchor (rather than exiting reader mode)
+        - review?
+      - Bug 1342355 - Tests for wikia.com
         - Landed.
