@@ -1,25 +1,28 @@
-## 2/20 - 2/24 Ricky Chien
+## 2/27 - 3/03 Ricky Chien
 
 ### DevTools
 * Netmonitor Overall
  * I did a survey and architecture anaysis for next migration scope. See plan and bug breakdown discussion in [Netmonitor next migration roadmap and breakdown](https://groups.google.com/a/mozilla.com/forum/#!topic/netmonitor/eZ2ROcOmiYI)
  * Overall status of [Netmonitor MVP scope]
 * [Bug 1340368](https://bugzilla.mozilla.org/show_bug.cgi?id=1340368) - Rewrite har-exporter and use WebAPIs instead
- * r?
+ * Landed
  * As part of de-chrome netmonitor
 * [Bug 1308441](https://bugzilla.mozilla.org/show_bug.cgi?id=1308441) - Use react-virtualized for RequestList in NetMonitor panel
  * r? Part1 - Small refactorings r?honza
  * r? Part2 - Use react-virtualized for RequestList r?honza
- * r? Part3 - Fix test cases r?honza
-* [Bug 1340469](https://bugzilla.mozilla.org/show_bug.cgi?id=1340469) - Get licensing signoff on using JSZip for supporting compression HAR log
- * landed
-* [Bug 1341159](https://bugzilla.mozilla.org/show_bug.cgi?id=1341159) - Use commonLibRequire trick to reuse already loaded libraries
- * landed
+ * r+ Part3 - Fix test cases r?honza
+ * r+ Part4 - Remove commonLibRequire trick r?honza
+ * Performance is the top priority now. We still see performance issue when loading large website like CNN. I'm going to investigate perf issue with new pref tool (http://perf-html.io).
+* [Bug 1344155](https://bugzilla.mozilla.org/show_bug.cgi?id=1344155) - Remove toolbox in netmonitor
+ * Landed
+* [React Virtualized #596](https://github.com/bvaughn/react-virtualized/pull/596) - Use typeof function instead of instanceof Function
+ * Merged
+ * Fixed the issue of react virtualized which found in bug 1308441.
+* I've done an architecture analysis with Fred about refactoring netmonitor-controller which is useful for integrating wtih devtools-launchpad. Bug breakdown and two bugs are filed. See meeting note March 3, 2017 https://docs.google.com/document/d/1FneFiHkLMJjWFhFYI13IWlr02W5mCRsEqZQPUJHWmSU/edit
 
 #### Review
-* Bug 1316291 - Rename the "requests-menu" CSS classes in netmonitor.css
-* Bug 1339686 - Convert MDN [learn more] link as a react component
-* Bug 1314921 - Reduce number of top-level files in devtools/client/netmonitor/
+* Bug 1343774 - remove unused functions
+* Bug 1340464 - Handle NetMonitorController connection state in util/client
 
 #### Survey & Analysis
 * [Netmonitor UI analysis] (https://docs.google.com/document/d/1Z9J8uY4aGRB_BcsLKQCqwBaxXo9MuZEW3ClyVjQ2XfQ/edit)
