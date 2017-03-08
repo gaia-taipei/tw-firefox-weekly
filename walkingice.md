@@ -1,12 +1,13 @@
-# [W06] 02/06 - 02/10
+# [W09] 03/01 - 03/03
 
 ## Android Fennec
 
-* [Bug 1329144](https://bugzilla.mozilla.org/show_bug.cgi?id=1329144) - Custom tabs: support action button
-    - Resolved
+* [Bug 1332546](https://bugzilla.mozilla.org/show_bug.cgi?id=1332546) - To add site info icon to URL bar
+    - Implemented basic layout
 
-* [Bug 1337771](https://bugzilla.mozilla.org/show_bug.cgi?id=1337771) - Action button in custom tab not working for some apps
-    - Resolved
+* [Bug 1315937](https://bugzilla.mozilla.org/show_bug.cgi?id=1315937) - Custom tabs: support custom menu items
+    - Handle share action in custom-tabs-activity
+    - Patch sent, waiting review
 
 * [Bug 1325955](https://bugzilla.mozilla.org/show_bug.cgi?id=1325955) - hostname of address bar parsing
     - Root cause found, writing patch
