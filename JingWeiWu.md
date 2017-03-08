@@ -1,25 +1,18 @@
-## 2/13 - 2/17
-
-Onboarding
-
-## 2/20 - 2/24
+## 2/27 - 3/3
 
 Android
 
-- [Bug 1323366](https://bugzilla.mozilla.org/show_bug.cgi?id=1323366) - Crash in java.util.ConcurrentModificationException: at java.util.TreeMap$MapIterator.stepForward(TreeMap.java))
-	- Patch landed.
-	
 - [Bug 1232439](https://bugzilla.mozilla.org/show_bug.cgi?id=1232439) - Full-page edit bookmark dialog 
-	- WIP, function completed, visual design is under reviewing.
+	- WIP, Apply UI layout and have discussion with Tori & Peko.
+	- Implementing junit test case
 	
 - [Bug 1329130](https://bugzilla.mozilla.org/show_bug.cgi?id=1329130) - Fennec Bookmark Management: Allow users to created nested folders
-	- WIP, function completed, visual design is under reviewing.
+	- WIP, Apply UI layout and have discussion with Tori & Peko.
 	- Implementing junit test case
 	
 - [Bug 1329128](https://bugzilla.mozilla.org/show_bug.cgi?id=1329128) - Fennec Bookmark Management: Allow users to create, remove and move folders
-	- WIP, function completed, visual design is under reviewing.
+	- WIP, Apply UI layout and have discussion with Tori & Peko.
 	- Implementing junit test case
-
-- Performance Assessment
-	- Study Webpagetest test case
 	
+- [Bug 1339884](https://bugzilla.mozilla.org/show_bug.cgi?id=1339884) - Crash in java.lang.NullPointerException: at org.mozilla.gecko.prompts.PromptInput$DateTimeInput.getValue(PromptInput.java) on Android 4.x
+	- r?grisha
