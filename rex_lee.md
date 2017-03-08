@@ -19,12 +19,10 @@ Content handling
   - landed
 
 ** mortar **
-- Bug 1338092 - [Mortar] Remove de-scoped user features on PDF viewer UI.
-  - Got r+ and landed.
 - Bug 1338094 - [Mortar] Support hotkey for copy selected text in PDF viewer.
   - landed.
 - Bug 1338095 -	[Mortar] Implement "View bookmark" button in PDF viewer.
   - Studying codebase of Mortar required for achieving the asked feature.
   - Inspecting corresponding behavior of PDF.js.
   - first f? finished.
-  
+ 
