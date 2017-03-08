@@ -1,5 +1,7 @@
 ## Firefox QX
 
+* [Bug 1344431](https://bugzil.la/1344431) - Regression on Reader Mode button visibility
+ * r+'d, verifiying try.
 * [Bug 1319020](https://bugzil.la/1319020) - Update Emoji font from upstream
  * FIXED in Fx53, requesting uplift to Fx52/51
 * [Bug 1231701](https://bugzil.la/1231701) - Ship an Emoji font in Firefox
@@ -26,9 +28,12 @@
  * Fixed in Fx53 by Sean, to be uplifted to Fx52
 
 ## Firefox
-
-* [Bug 570893](https://bugzil.la/570893) - Drive by fix on layout state to fix an annoy disabled state
- * checkin-needed
+* [Bug 1273537](https://bugzil.la/1273537)
+ * (see bug)
+* [Bug 1327097](https://bugzil.la/1327097) - Proper fix to the hack below.
+ * Will get to it.
+* [Bug 1338961](https://bugzil.la/1338961) - A hack in DOM event handling so range input works in video control
+ * FIXED in Fx53, uplifted to Fx52
 * [Bug 1316828](https://bugzil.la/1316828) - Drive by fix on reader mode narration speed
  * FIXED in Fx53 and uplifted to Fx51 & Fx52
 * [Bug 1260276](https://bugzil.la/1260276) - Dead reader mode page in session history
@@ -63,3 +68,8 @@
 * [Bug 1252976](https://bugzil.la/1252976) - Offer desktop artifact build in |mach bootstrap|
  * Address review comment on behave of the original contributor, follow-up with update on note
  * FIXED in Fx51
+
+## HTML/Layout/DOM
+
+* [Bug 570893](https://bugzil.la/570893) - Drive by fix on layout state to fix an annoy disabled state
+ * FIXED in Fx53
