@@ -1,6 +1,6 @@
 [Open bugs assigned to me](https://bugzilla.mozilla.org/buglist.cgi?quicksearch=assignee%3Agasolin%40mozilla.com) (ASSIGNED = current working on; NEW = backlog)
 
-## 2/20 - 3/3
+## 3/6 ~ 3/10
 
 ### Devtools#Netmonitor.html
 
@@ -20,53 +20,24 @@
     - Host netmonitor.html on Github
 
 - [Netmonitor UI analysis] (https://docs.google.com/document/d/1Z9J8uY4aGRB_BcsLKQCqwBaxXo9MuZEW3ClyVjQ2XfQ/edit)
-  - triage bugs till bug 1020281 (2009~2013)
-  - add UI improvement proposals
-    - list tooltip reorg
-    - custom request UI validation
-    - Raw Headers
-    - Service worker integration
-    - Cookie management
-    - Timing Panel
-    - Headers Panel Improvements
-
-- make netmonitorController refactor proposal
-  - we'll wrap firefox specific code as module
-
-- Bug 1316291 - Rename the "requests-menu" CSS classes in netmonitor.css
-  - PART 1:Rename the requests-menu CSS classes in netmonitor.css
-  - PART 2:remove request-list elements with fixed IDs
-  - PART 3:Remove toolbar elements with fixed IDs
-  - r+ & landed
-
-Bug 1340464 - handle connection state in util/client
- - trace debugger.html code to have similar call path
- - PART 1: wrap init process into bootstrap function;
- - PART 2: handle connection state in util/client
- - r+ & landed
-
-Bug 1341975 - fix Regression: empty list UI is broken
- - r+ & landed
-
-Bug 1343122 - support multiple params with same name
- - r+ & landed
- - uplift to aurora
-
+  - triage bugs 1020281 ~ 1068546
+  - arrange an internal meeting time (3/21 2pm) for Honza
+  - hold Service worker with Platform team(Sinyi, Ben Hsu, Tom, Ricky, Wesly Huang)
+  - Survey for Chrome/Firefox Service worker support and come out the UI analysis doc
+ 
 Bug 1343774 - remove unused functions
  - r?
+ - port `waitForAllRequestsFinished` function to [devtools-performer](jsnajdr/devtools-performer) to work after bug 1343774 
+
+Bug 1344158 netmonitor-controller 
+ - r? PART 1: wrap webconsole;
+ - r? PART 2: remove gNetwork and move getString to utils/client;
 
 Bug 987975 - edit and resend doesn't properly encode query string values
  - mentor
 
-Review
-
-Bug 1323454 - Network panel: integrate HTTP Status code with MDN
-  * mentor bug
-  * r+ & landed
-
-Bug 1308441 - Use react-virtualized for RequestList in NetMonitor panel
-
-Bug 1338386 - Make it clear if request comes from the browser cache
+Bug 1220758 - "Open in New Tab" on POST requests makes a GET request
+ - mentor
 
 [Project document]: https://docs.google.com/document/d/19lyV04YtfX9X5ev2rhFeIuQPaVApgl8qdFpe4Rw4Np4/edit
 [Mana page]: https://mana.mozilla.org/wiki/display/PM/Netmonitor+Project+Update
