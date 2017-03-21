@@ -1,17 +1,15 @@
-# [W10] 03/06 - 03/10
+# [W11] 03/13 - 03/17
 
 ## Android Fennec
 
 * [Bug 1337238](https://bugzilla.mozilla.org/show_bug.cgi?id=1337238) - Progress bar on the custom bar for loading page
-    - Added basic implementation
+    - Patch sent, waiting review
 
 * [Bug 1332546](https://bugzilla.mozilla.org/show_bug.cgi?id=1332546) - To add site info icon to URL bar
-    - Bugs fixed and completed feature
-    - Patch preared, waiting review
+    - Patch merged
 
 * [Bug 1315937](https://bugzilla.mozilla.org/show_bug.cgi?id=1315937) - Custom tabs: support custom menu items
-    - Handle share action in custom-tabs-activity
-    - Patch sent, waiting review
+    - Patch merged
 
 * [Bug 1325955](https://bugzilla.mozilla.org/show_bug.cgi?id=1325955) - hostname of address bar parsing
     - Revised patches upon review comments
