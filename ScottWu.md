@@ -1,4 +1,4 @@
-## 2/20 ~ 2/24
+## 3/6 ~ 3/17
 
 - [Firefox]
 	- [UI feedback] [Bug 285836](https://bugzilla.mozilla.org/show_bug.cgi?id=285836) - Make "Remove All Cookies Now" undoable
@@ -10,16 +10,21 @@
 			- UX spec changed, editing patch to align with new behaviors before asking for review
 		- [Bug 1328219](https://bugzilla.mozilla.org/show_bug.cgi?id=1328219) - [DateTimePicker] Add browser chrome test for date picker
 			- Based on master schedule plans, will work on this after features have been landed.
-		- [Bug 1320880](https://bugzilla.mozilla.org/show_bug.cgi?id=1320880) - [DateTimePicker] Add RTL support to date picker
+		- [Bug 1343707](https://bugzilla.mozilla.org/show_bug.cgi?id=1343707) - datetimepopup.xml should not be initialized during browser startup
 			- r+ from :mconley
 			- landed
+		- [Bug 1348052](https://bugzilla.mozilla.org/show_bug.cgi?id=1348052) - vertical scroll buttons on the datetime picker are opposed to the natural behavior of scrolling buttons
+			- Had discussion with UX and will make prototype for reversing spinner order if needed
+			- Morpheus will respond to the comments
+
 - [Form Autofill]
 	- [Bug 1019471](https://bugzilla.mozilla.org/show_bug.cgi?id=1019471) - (fx-autofill-profile-edit) Dialog to add/edit/view an autofill profile
-		- r? MattN
-		- addressed issues from first review
+		- r+ MattN
+		- landed
 	- [Bug 1019483](https://bugzilla.mozilla.org/show_bug.cgi?id=1019483) - (fx-autofill-profile-mgmt) Interface to manage autofill profiles
-		- Working on the manage profiles interface while waiting for Bug 1019471 review
-	- Investigating on making profile preview work
+		- r? MattN
+	- [Bug 1347186](https://bugzilla.mozilla.org/show_bug.cgi?id=1347186) - Add mochitest-browser-chrome to test adding and updating profiles from editProfile dialog
+	- [Bug 1340987](https://bugzilla.mozilla.org/show_bug.cgi?id=1340987) - Improve subdialog.js to support multiple dialogs
 
 #### Date Time Pickers Tasks:
 
