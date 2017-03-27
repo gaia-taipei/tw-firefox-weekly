@@ -1,18 +1,21 @@
-# [W11] 03/13 - 03/17
+# [W12] 03/20 - 03/24
 
 ## Android Fennec
 
-* [Bug 1337238](https://bugzilla.mozilla.org/show_bug.cgi?id=1337238) - Progress bar on the custom bar for loading page
-    - Patch sent, waiting review
+* [Bug 1348716](https://bugzilla.mozilla.org/show_bug.cgi?id=1348716) - Copy link in CustomTabsActivity by long-clicking
+    - Patch perpared, waiting for reviewing
 
-* [Bug 1332546](https://bugzilla.mozilla.org/show_bug.cgi?id=1332546) - To add site info icon to URL bar
+* [Bug 1336373](https://bugzilla.mozilla.org/show_bug.cgi?id=1336373) - Custom tabs: Action button icon supports tint
     - Patch merged
 
-* [Bug 1315937](https://bugzilla.mozilla.org/show_bug.cgi?id=1315937) - Custom tabs: support custom menu items
+* [Bug 1346542](https://bugzilla.mozilla.org/show_bug.cgi?id=1346542) - Custom tabs: Back button navigation broken
+    - Bisect-ed to find which patch cause problem
+
+* [Bug 1337238](https://bugzilla.mozilla.org/show_bug.cgi?id=1337238) - Progress bar on the custom bar for loading page
     - Patch merged
 
 * [Bug 1325955](https://bugzilla.mozilla.org/show_bug.cgi?id=1325955) - hostname of address bar parsing
-    - Revised patches upon review comments
+    - Patch merged
 
 * [Bug 1325030](https://bugzilla.mozilla.org/show_bug.cgi?id=1325030) - Input field is covered by Soft-Keyboard
     - Looking for root cause, likely found another similar bug.
