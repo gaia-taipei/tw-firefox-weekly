@@ -1,38 +1,30 @@
-# [W06~09] Max Liu: 02/06 ~ 03/03
+# [W10~12] Max Liu: 03/06 ~ 03/24
 
 
 * [Fennec]
+- Bug 1350661 - Firefox menu button covers the entire URL bar on RTL builds of Firefox beta on a 4.2.2 android device
+  - review?
 
-  - Bug 1331995 - [RTL] On some occasions, the URL on the URL bar disappears
+
+  - Sec-Bug
+    - review+, sec-approval?
+
+
+  - Bug 1347476 - [RTL] LTR closing thumbnails action present on RTL too
     - landed
 
 
   - Bug 1321981 - [RTL] Swiping gesture between Top Sites, Bookmarks and History in a New Tab is reversed
   - Bug 1337440 - [RTL] Top Sites list's items in the Activity Stream should start from the right
-    - Experiment solution A: 3rd party library from Github
-      - https://github.com/lsjwzh/RecyclerViewPager
-      - Result: Failed, scrolling does not support RTL
-    - Experiment solution B: hack on ViewPagerAdapter/TabStrip
-      - Result: Success, but too dirty
-    - Searching for alternative solutions
-
-
-  - Bug - Integrate SearchActivity with CustomTab
-    - Experiment hack part 1 done
-      - Animation, ActionBar color
-    - Experiment hack part 2 in progress
-      - Custom MenuItem
+    - Use third party solution, landed
 
 
   - Bug 1340973 - Developer's note for RTL  Support
-    - Drafting
+    - First draft done
+    - Going to work with Havi for publish on hacks.mozilla.org
 
 
 ## TODO
-  - Bug - [RTL] UrlBar layout abnormal on API 17 RTL context
-    - Solution ready, file a bug for review/landing
-
-
   * Fennec A/B testing
     - Study how other component been A/B tested
       - Bug 1323952 - Add A/B experiment for compact tabs
@@ -42,13 +34,19 @@
   - Research on CI process for Gradle build
     - How Mozilla's build system works
       - https://developer.mozilla.org/en-US/docs/Mozilla/Developer_guide/Build_Instructions/How_Mozilla_s_build_system_works
-    - Upgrade support library to 25.*
-    - Upgrade Android SDK to 25
-    - Enhance gradle build process
+    - Mostly done by Sebastian
+    - Research on verify the diff of two build output
+      - AndroidManifest.xml
+      - classes.dex
+      - resources.arsc
+      - others
+  - Build failed on latest android build tools
+    - Bug 1338629 - No rule to make target `[...]/tools/lib/lint-checks.jar', needed by `annotationProcessors.jar'.
+    - Research to stabilize build environment
 
 
   * Bug 942609 - [meta] Reduce Fennec's storage impact: APK and data
-    - Idle
+    - While working on Gradle build, ArscBlamer output raise alert on resource sparse problem
 
 
   * Bug 1212648 - [Meta] Support of Progressive Apps in Fennec
@@ -65,19 +63,20 @@
 
 
   - Fennec bug monitor process
-   - Config Bugzilla to watch fennec components
+    - Config Bugzilla to watch fennec components
+    - How to monitor more efficiently?
 
 
 ## Side Project
   - Single Hand Mode
-   - Idle
+   - Photon approach, planning prototype before workweek
 
 
-  - Shell Scripting
-    - multiple device deploy
-    - locale switcher
-    - adb wrapper
-    - adbportforward, deploy to remote server
+   - Bug - Integrate SearchActivity with CustomTab
+     - Experiment hack part 1 done
+       - Animation, ActionBar color
+     - Experiment hack part 2 in progress
+       - Custom MenuItem
 
 
   * Development environment setup
