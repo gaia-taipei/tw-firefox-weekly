@@ -1,9 +1,9 @@
 ## Firefox QX
 
 * [Bug 1344431](https://bugzil.la/1344431) - Regression on Reader Mode button visibility
- * r+'d, verifiying try.
+ * FIXED in Fx55, uplifted to Fx54/53
 * [Bug 1319020](https://bugzil.la/1319020) - Update Emoji font from upstream
- * FIXED in Fx53, requesting uplift to Fx52/51
+ * FIXED in Fx53, uplifted to Fx52/51
 * [Bug 1231701](https://bugzil.la/1231701) - Ship an Emoji font in Firefox
  * FIXED in Fx50
 * [Bug 1266372](https://bugzil.la/1266372) - The close reader mode button on page should behave the same as bug 1184950
@@ -28,10 +28,10 @@
  * Fixed in Fx53 by Sean, to be uplifted to Fx52
 
 ## Firefox
-* [Bug 1273537](https://bugzil.la/1273537)
- * (see bug)
 * [Bug 1327097](https://bugzil.la/1327097) - Proper fix to the hack below.
- * Will get to it.
+ * Has a WIP but need to figure out how pointer works in Gecko.
+* [Bug 1273537](https://bugzil.la/1273537)
+ * FIXED in Fx55, uplifted to Fx54/53/52/esr52
 * [Bug 1338961](https://bugzil.la/1338961) - A hack in DOM event handling so range input works in video control
  * FIXED in Fx53, uplifted to Fx52
 * [Bug 1316828](https://bugzil.la/1316828) - Drive by fix on reader mode narration speed
