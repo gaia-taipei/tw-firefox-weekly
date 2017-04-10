@@ -1,18 +1,12 @@
-# [W13] 03/27 - 03/31
+# [W14] 04/05 - 04/07
 
 ## Android Fennec
 
 * [Bug 1348718](https://bugzilla.mozilla.org/show_bug.cgi?id=1348718) - Tweak images of ActionBar in CustomTabsActivity
-    - In progress
-
-* [Bug 1348716](https://bugzilla.mozilla.org/show_bug.cgi?id=1348716) - Copy link in CustomTabsActivity by long-clicking
-    - Patch merged
+    - Patch reviewd, waiting for merge
 
 * [Bug 1351605](https://bugzilla.mozilla.org/show_bug.cgi?id=1351605) - CustomTabsActivity Title becomes blank after resume
-    - Patch sent
-
-* [Bug 1346542](https://bugzilla.mozilla.org/show_bug.cgi?id=1346542) - Custom tabs: Back button navigation broken
-    - Bisect-ed to find which patch cause problem
+    - Patch reviewd and merged
 
 * [Bug 1325030](https://bugzilla.mozilla.org/show_bug.cgi?id=1325030) - Input field is covered by Soft-Keyboard
     - Looking for root cause, likely found another similar bug.
