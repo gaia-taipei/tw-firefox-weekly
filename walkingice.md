@@ -1,21 +1,18 @@
-# [W12] 03/20 - 03/24
+# [W13] 03/27 - 03/31
 
 ## Android Fennec
 
-* [Bug 1348716](https://bugzilla.mozilla.org/show_bug.cgi?id=1348716) - Copy link in CustomTabsActivity by long-clicking
-    - Patch perpared, waiting for reviewing
+* [Bug 1348718](https://bugzilla.mozilla.org/show_bug.cgi?id=1348718) - Tweak images of ActionBar in CustomTabsActivity
+    - In progress
 
-* [Bug 1336373](https://bugzilla.mozilla.org/show_bug.cgi?id=1336373) - Custom tabs: Action button icon supports tint
+* [Bug 1348716](https://bugzilla.mozilla.org/show_bug.cgi?id=1348716) - Copy link in CustomTabsActivity by long-clicking
     - Patch merged
+
+* [Bug 1351605](https://bugzilla.mozilla.org/show_bug.cgi?id=1351605) - CustomTabsActivity Title becomes blank after resume
+    - Patch sent
 
 * [Bug 1346542](https://bugzilla.mozilla.org/show_bug.cgi?id=1346542) - Custom tabs: Back button navigation broken
     - Bisect-ed to find which patch cause problem
-
-* [Bug 1337238](https://bugzilla.mozilla.org/show_bug.cgi?id=1337238) - Progress bar on the custom bar for loading page
-    - Patch merged
-
-* [Bug 1325955](https://bugzilla.mozilla.org/show_bug.cgi?id=1325955) - hostname of address bar parsing
-    - Patch merged
 
 * [Bug 1325030](https://bugzilla.mozilla.org/show_bug.cgi?id=1325030) - Input field is covered by Soft-Keyboard
     - Looking for root cause, likely found another similar bug.
