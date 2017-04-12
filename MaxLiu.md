@@ -1,31 +1,34 @@
-# [W10~12] Max Liu: 03/06 ~ 03/24
+# [W13~14] Max Liu: 03/27 ~ 04/07
 
 
 * [Fennec]
-- Bug 1350661 - Firefox menu button covers the entire URL bar on RTL builds of Firefox beta on a 4.2.2 android device
-  - review?
-
-
   - Sec-Bug
-    - review+, sec-approval?
-
-
-  - Bug 1347476 - [RTL] LTR closing thumbnails action present on RTL too
-    - landed
-
-
-  - Bug 1321981 - [RTL] Swiping gesture between Top Sites, Bookmarks and History in a New Tab is reversed
-  - Bug 1337440 - [RTL] Top Sites list's items in the Activity Stream should start from the right
-    - Use third party solution, landed
+    - review+, sec-approval+, landing
 
 
   - Bug 1340973 - Developer's note for RTL  Support
     - First draft done
-    - Going to work with Havi for publish on hacks.mozilla.org
+    - material collecting, drafting for MDN version.
+
+
+  - Bug 1354973 - IllegalStateException in RtlViewPager
+    - review?
+
+
+  - Bug 1347103 - NullPointerException implicit type conversion
+    - research for real root cause
+
+
+  - Bug 1337425 - RTL activity-stream welcome highlights missing
+    - root cause found, patch brewing
 
 
 ## TODO
-  * Fennec A/B testing
+  - Photon on Android
+    - First mock on tablet
+
+
+  - Fennec A/B testing
     - Study how other component been A/B tested
       - Bug 1323952 - Add A/B experiment for compact tabs
     - Drafting A/B testing process/flow
@@ -42,6 +45,7 @@
       - others
   - Build failed on latest android build tools
     - Bug 1338629 - No rule to make target `[...]/tools/lib/lint-checks.jar', needed by `annotationProcessors.jar'.
+      - fixed by :ahunt
     - Research to stabilize build environment
 
 
