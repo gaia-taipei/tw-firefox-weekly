@@ -1,74 +1,49 @@
 [Open bugs assigned to me](https://bugzilla.mozilla.org/buglist.cgi?quicksearch=assignee%3Agasolin%40mozilla.com) (ASSIGNED = current working on; NEW = backlog)
 
-## 2/20 - 3/3
+## 3/20 ~ 3/24
 
 ### Devtools#Netmonitor.html
 
-- Honza wil come to Taipei at 3/20~24 to discuss Netmonitor related plan 
+- Summary of Netmonitor.html workweek in Taipei
+  - We have Prove-Of-Concept branches to prove we can run netmonitor on browser tab 🎉
+  - We decide to stick on mozilla-central and use similar approach as inspector to run the netmonitor in a browser tab
+  - We stopped Netmonitor.html phase I work immediately (convert XUL to HTML, MVP 100% completed)
+  - We'll start Netmonitor.html phase II (To run Netmonitor on a browser tab, so we can debug Netmonitor with any browser's devtool) from this week
+    - All phase II bugs are filed in [meta-bug]((https://bugzilla.mozilla.org/show_bug.cgi?id=1348737)), some low-hanging good-first-bugs are ready to grab
+    - Have a meeting with jlaster, we'll land Netmonitor.html related share modules into `devtool-module`
+  - We’ve triaged all new Netmonitor bugs 🐞
+    - We agree that we should re-triage webconsole:http-inspector related bugs to Netmonitor
+  - We also discussed about service-worker related UI and features with platform engineers, no recent plan from devtools team yet
 
 - netmonitor.html(deXUL netmonitor)
-  - [on track](https://wiki.mozilla.org/DevTools/Netmonitor/Archive), current project estimate finish release is `Fx55`
-  - Project summary in [Project document], [Mana page]
-  - Bug solving status available on [Project Wiki]
-  - **All MVP bugs completed**
+  - [on track](https://wiki.mozilla.org/DevTools/Netmonitor/Archive)
   - progress:
     - XUL to HTML (done) 
     - Performance improvement (WIP)
     - Refactor for running on browser tab (WIP)
       - remove chrome privillege API
       - wrap firefox specific code as module
-    - Host netmonitor.html on Github
+      - tracked in [bug 1348737](https://bugzilla.mozilla.org/show_bug.cgi?id=1348737)
+    - Host netmonitor.html on Github (The devtools repo will move to github at once)
 
-- [Netmonitor UI analysis] (https://docs.google.com/document/d/1Z9J8uY4aGRB_BcsLKQCqwBaxXo9MuZEW3ClyVjQ2XfQ/edit)
-  - triage bugs till bug 1020281 (2009~2013)
-  - add UI improvement proposals
-    - list tooltip reorg
-    - custom request UI validation
-    - Raw Headers
-    - Service worker integration
-    - Cookie management
-    - Timing Panel
-    - Headers Panel Improvements
-
-- make netmonitorController refactor proposal
-  - we'll wrap firefox specific code as module
-
-- Bug 1316291 - Rename the "requests-menu" CSS classes in netmonitor.css
-  - PART 1:Rename the requests-menu CSS classes in netmonitor.css
-  - PART 2:remove request-list elements with fixed IDs
-  - PART 3:Remove toolbar elements with fixed IDs
-  - r+ & landed
-
-Bug 1340464 - handle connection state in util/client
- - trace debugger.html code to have similar call path
- - PART 1: wrap init process into bootstrap function;
- - PART 2: handle connection state in util/client
- - r+ & landed
-
-Bug 1341975 - fix Regression: empty list UI is broken
- - r+ & landed
-
-Bug 1343122 - support multiple params with same name
- - r+ & landed
- - uplift to aurora
+* Create prove of concept branch to running netmonitor with browser tab
+  - https://github.com/gasolin/devtools-core/tree/netmonitor.html/packages/netmonitor
+  - just works
 
 Bug 1343774 - remove unused functions
  - r?
+ - port `waitForAllRequestsFinished` function to [devtools-performer](jsnajdr/devtools-performer) to work after bug 1343774 
 
-Bug 987975 - edit and resend doesn't properly encode query string values
- - mentor
+Bug 1344158 netmonitor-controller 
+ - r+ & landed PART 1: wrap webconsole;
+ - r+ & landed PART 2: remove gNetwork and move getString to utils/client;
 
-Review
+Bug 1349415 - pass connection data into netmonitorController to run on both toolbar and browser tab
+ - r?
 
-Bug 1323454 - Network panel: integrate HTTP Status code with MDN
-  * mentor bug
-  * r+ & landed
+Bug 1031956 - "Copy as cURL" is building GET when it should be POST
+ - mentor, r+ & landed
 
-Bug 1308441 - Use react-virtualized for RequestList in NetMonitor panel
-
-Bug 1338386 - Make it clear if request comes from the browser cache
-
-[Project document]: https://docs.google.com/document/d/19lyV04YtfX9X5ev2rhFeIuQPaVApgl8qdFpe4Rw4Np4/edit
 [Mana page]: https://mana.mozilla.org/wiki/display/PM/Netmonitor+Project+Update
 [Project Wiki]:  https://wiki.mozilla.org/DevTools/Netmonitor
 
