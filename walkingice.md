@@ -1,17 +1,12 @@
-# [W09] 03/01 - 03/03
+# [W14] 04/05 - 04/07
 
 ## Android Fennec
 
-* [Bug 1332546](https://bugzilla.mozilla.org/show_bug.cgi?id=1332546) - To add site info icon to URL bar
-    - Implemented basic layout
+* [Bug 1348718](https://bugzilla.mozilla.org/show_bug.cgi?id=1348718) - Tweak images of ActionBar in CustomTabsActivity
+    - Patch reviewd, waiting for merge
 
-* [Bug 1315937](https://bugzilla.mozilla.org/show_bug.cgi?id=1315937) - Custom tabs: support custom menu items
-    - Handle share action in custom-tabs-activity
-    - Patch sent, waiting review
-
-* [Bug 1325955](https://bugzilla.mozilla.org/show_bug.cgi?id=1325955) - hostname of address bar parsing
-    - Root cause found, writing patch
-    - First patch was rejected, trying again.
+* [Bug 1351605](https://bugzilla.mozilla.org/show_bug.cgi?id=1351605) - CustomTabsActivity Title becomes blank after resume
+    - Patch reviewd and merged
 
 * [Bug 1325030](https://bugzilla.mozilla.org/show_bug.cgi?id=1325030) - Input field is covered by Soft-Keyboard
     - Looking for root cause, likely found another similar bug.
