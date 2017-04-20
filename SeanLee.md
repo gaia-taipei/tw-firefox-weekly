@@ -1,11 +1,10 @@
 ### Last week
 
 * [Form Fill]
-  - [Bug 1333351] Working on the following items:
-    - Finish the task break-down. [Link](https://docs.google.com/document/d/1yqEKXtJc6b_ixPUCrT8Gr2JtuH2vzLX9sAKp4sMtDCs/edit)
-  - [r?][Bug 1349489] Provide the patch contains the test fixtures of 12 site and very basic xpcshell test.
-  - [r?][Bug 1347176] Refine the logic and based on Bug 1349489 and add the xpcshell test for findLabelElements.
-    - Keep working on the recognition of the different ID forms with prefix/postfix and case insensitive for `for` attr.
+  - [r?][Bug 1349489] The fixtures are updated, but we need to wait for legel review.
+  - [r?][Bug 1347176] Improve findLabelElements function to satisfy W3C spec.
+  - [Bug 1349490] Implement all regexps that we need in M2 and update xpcshell test to satisfy the part of input fields in top 12 sites.
+  - [Bug 1349492] Bug 1349490 includes one part of tasks should be implemented in this one. I will fix more corner cases in this bug then.
 
 * [Password Manager]
   - [Bug 1257078] Pending for waiting Bug 451955.
@@ -16,7 +15,8 @@
 * [Form Fill]
   - [Bug 1333351] Working on this bug.
   - [Bug 1347176] Working on this bug.
-  - [Bug 1349492] The next step is to work on the Email part to verify every test page during waiting for review.
+  - [Bug 1249490] Working on this bug.
+  - [Bug 1349492] Working on this bug.
 
 * [Password Manager]
   - [Bug 1257078] Improve selection restoring feature.
