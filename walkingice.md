@@ -1,20 +1,14 @@
-# [W15] 04/10 - 04/14
+# [W16] 04/17 - 04/21
 
 ## Android Fennec
 
 * [Bug 1352993](https://bugzilla.mozilla.org/show_bug.cgi?id=1352993) - Custom Tab: Action bar is not displayed when selecting a word
-    - WIP
-
-* [Bug 1352999](https://bugzilla.mozilla.org/show_bug.cgi?id=1352999) - Custom Tab: Same page/URL is opened in different tabs in Nightly
     - Patch merged
 
 * [Bug 1329152](https://bugzilla.mozilla.org/show_bug.cgi?id=1329152) - Custom tabs: Enable custom tabs by default
     - Working in progress. need to involve switch-board
 
 * [Bug 1353019](https://bugzilla.mozilla.org/show_bug.cgi?id=1353019) - Custom Tabs should update close/reload button
-    - Patch perpared, waiting for designer's new images
-
-* [Bug 1348718](https://bugzilla.mozilla.org/show_bug.cgi?id=1348718) - Tweak images of ActionBar in CustomTabsActivity
     - Patch merged
 
 * [Bug 1325030](https://bugzilla.mozilla.org/show_bug.cgi?id=1325030) - Input field is covered by Soft-Keyboard
