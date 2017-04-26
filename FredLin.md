@@ -1,8 +1,8 @@
 [Open bugs assigned to me](https://bugzilla.mozilla.org/buglist.cgi?quicksearch=assignee%3Agasolin%40mozilla.com) (ASSIGNED = current working on; NEW = backlog)
 
-## 3/27 ~ 3/31
+## 4/5 ~ 3/14
 
-PTO at Fri.
+- Build Firefox on Windows
 
 ### Devtools#Netmonitor.html
 
@@ -11,39 +11,39 @@ PTO at Fri.
   - progress:
     - XUL to HTML (done) 
     - Performance improvement (WIP)
-    - Refactor for running on browser tab (WIP)
+    - Refactor for running on browser tab (done)
       - remove chrome privillege API
       - wrap firefox specific code as module
       - tracked in [bug 1348737](https://bugzilla.mozilla.org/show_bug.cgi?id=1348737)
     - Host netmonitor.html on Github (The devtools repo will move to github at once)
 
-- [devtools-core] add npm badges for all modules
-  - landed
-
-- Bug 1350219 - Bundle shared UI components into devtools add tree component into devtools-modules
-  - landed
-
-- Bug 1350219 - Bundle shared UI components into devtools-modules add search-box component into sham-modules
- - landed
-
-- Set webpack alias to run with devtools-modules
-  - merged in Bug 1350217
-
 - Bug 1343774 - remove unused functions
-  - r?
+  - Update devtools-signed.xpi;
+  - r+ & landed
 
-- Bug 1349415 - pass connection data into netmonitorController to run on both toolbar and browser tab
-  - r?
+- Bug 1352049 - Network panel documentation
+  - r+ & landed
+  - http://searchfox.org/mozilla-central/source/devtools/client/netmonitor/README.md
 
 - write netmonitor.html refactor post
 https://blog.gasolin.idv.tw/2017/03/28/current-progress-of-netmonitor-html/
 
+- Do performance analysis on bug 1350969
+
+- Bug 1356126 - Move column react component to separate files
+  - r?
+
+- Bug 1350227 - [Performance] fetch data when request is selected
+  - WIP
+
 Review
 
-- Bug 1350215 - Move store.js into utils/store.js
-- Bug 1350215 - Move MC code into src/ and left panel.js, index.xhtml in top level
-- Bug 1350235 - Support Copy submenu in the Context men
-- Bug 1350217 - Introduce webpack.config.js
+- Bug 1353535 - "Copy as cURL" can't copy POST without post data
+- Bug 1350233 - Add [learn more] MDN link for statistics panel
+- Bug 1350224 - Support for loading ContextMenu in Launchpad
+- Bug 1350226 - Support for loading Editor in Launchpad
+- Bug 1356146 - Link webpack alias to m-c shared
+- [devtools-core] Match contextmenu onClick handler to the right menu item #333 
 
 [Mana page]: https://mana.mozilla.org/wiki/display/PM/Netmonitor+Project+Update
 [Project Wiki]:  https://wiki.mozilla.org/DevTools/Netmonitor
