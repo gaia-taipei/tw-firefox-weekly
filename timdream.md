@@ -3,7 +3,7 @@
 * [Bug 1358394](https://bugzil.la/1358394) - preferences re-org - Report title
   * FIXED in Fx55
 * [Bug 1330121](https://bugzil.la/1330121) - preferences re-org - checkbox width
-  * review+'d. Waiting for bug 1356507.
+  * review+'d. Waiting for bug 1357348.
 * [Bug 1356507](https://bugzil.la/1356507) - preferences re-org - updater
   * feedback+'d. Waiting for bug 1330121.
 
