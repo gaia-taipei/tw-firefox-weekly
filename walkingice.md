@@ -1,15 +1,18 @@
-# [W16] 04/17 - 04/21
+# [W17] 04/24 - 04/28
+
+* Meeting with Andrzej
+* offsite meeting
 
 ## Android Fennec
 
-* [Bug 1352993](https://bugzilla.mozilla.org/show_bug.cgi?id=1352993) - Custom Tab: Action bar is not displayed when selecting a word
+* [Bug 1359098](https://bugzilla.mozilla.org/show_bug.cgi?id=1359098) - Custom Tab: fix NoSuchMethodError in ActionBar
     - Patch merged
+
+* [Bug 1352993](https://bugzilla.mozilla.org/show_bug.cgi?id=1352993) - Custom Tab: Action bar is not displayed when selecting a word
+    - Fixed and patch merged
 
 * [Bug 1329152](https://bugzilla.mozilla.org/show_bug.cgi?id=1329152) - Custom tabs: Enable custom tabs by default
-    - Working in progress. need to involve switch-board
-
-* [Bug 1353019](https://bugzilla.mozilla.org/show_bug.cgi?id=1353019) - Custom Tabs should update close/reload button
-    - Patch merged
+    - Patch prepared, involved switch-board
 
 * [Bug 1325030](https://bugzilla.mozilla.org/show_bug.cgi?id=1325030) - Input field is covered by Soft-Keyboard
     - Looking for root cause, likely found another similar bug.
