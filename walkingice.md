@@ -1,15 +1,10 @@
-# [W17] 04/24 - 04/28
+# [W18] 05/02 - 05/05
 
-* Meeting with Andrzej
-* offsite meeting
+## Photon
+
+* work on prototype of new progress bar
 
 ## Android Fennec
-
-* [Bug 1359098](https://bugzilla.mozilla.org/show_bug.cgi?id=1359098) - Custom Tab: fix NoSuchMethodError in ActionBar
-    - Patch merged
-
-* [Bug 1352993](https://bugzilla.mozilla.org/show_bug.cgi?id=1352993) - Custom Tab: Action bar is not displayed when selecting a word
-    - Fixed and patch merged
 
 * [Bug 1329152](https://bugzilla.mozilla.org/show_bug.cgi?id=1329152) - Custom tabs: Enable custom tabs by default
     - Patch prepared, involved switch-board
@@ -32,3 +27,6 @@
 * [Bug 1314835](https://bugzilla.mozilla.org/show_bug.cgi?id=1314835) - TelemetryJSONFilePingStore.lockAndReadJSONFromFile exception
     - Patch(to get more debug message) merged. Waiting for incoming crash report.
 
+## Others
+
+* review tons of patches
