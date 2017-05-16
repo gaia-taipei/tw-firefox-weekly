@@ -1,12 +1,13 @@
-# [W14] 04/05 - 04/07
+# [W19] 05/08 - 05/12
+
+## Photon
+
+* workweek in Vancouver for Photon
 
 ## Android Fennec
 
-* [Bug 1348718](https://bugzilla.mozilla.org/show_bug.cgi?id=1348718) - Tweak images of ActionBar in CustomTabsActivity
-    - Patch reviewd, waiting for merge
-
-* [Bug 1351605](https://bugzilla.mozilla.org/show_bug.cgi?id=1351605) - CustomTabsActivity Title becomes blank after resume
-    - Patch reviewd and merged
+* [Bug 1329152](https://bugzilla.mozilla.org/show_bug.cgi?id=1329152) - Custom tabs: Enable custom tabs by default
+    - Patch prepared, involved switch-board
 
 * [Bug 1325030](https://bugzilla.mozilla.org/show_bug.cgi?id=1325030) - Input field is covered by Soft-Keyboard
     - Looking for root cause, likely found another similar bug.
