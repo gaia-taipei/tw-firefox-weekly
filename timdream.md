@@ -3,9 +3,14 @@
 * [Bug 1358394](https://bugzil.la/1358394) - preferences re-org - Report title
   * FIXED in Fx55
 * [Bug 1330121](https://bugzil.la/1330121) - preferences re-org - checkbox width
-  * review+'d. Waiting for bug 1357348.
+  * FIXED in Fx55
 * [Bug 1356507](https://bugzil.la/1356507) - preferences re-org - updater
-  * feedback+'d. Waiting for bug 1330121.
+  * FIXED in Fx55
+* [Bug 1360500](https://bugzil.la/1360500) - search highlight color
+  * Re-impl by adding `setColors()`/`resetColors()` to DOM Selection (chrome only).
+  * FIXED in Fx55
+* [Bug 1361640](https://bugzil.la/1361640) - adding spinner on the Restarting label in updater.
+  * FIXED in Fx55
 
 ## Firefox QX
 
