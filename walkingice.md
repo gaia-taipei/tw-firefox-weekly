@@ -1,8 +1,8 @@
-# [W18] 05/02 - 05/05
+# [W19] 05/08 - 05/12
 
 ## Photon
 
-* work on prototype of new progress bar
+* workweek in Vancouver for Photon
 
 ## Android Fennec
 
@@ -27,6 +27,3 @@
 * [Bug 1314835](https://bugzilla.mozilla.org/show_bug.cgi?id=1314835) - TelemetryJSONFilePingStore.lockAndReadJSONFromFile exception
     - Patch(to get more debug message) merged. Waiting for incoming crash report.
 
-## Others
-
-* review tons of patches
