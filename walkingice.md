@@ -1,10 +1,12 @@
-# [W19] 05/08 - 05/12
-
-## Photon
-
-* workweek in Vancouver for Photon
+# [W20] 05/15 - 05/19
 
 ## Android Fennec
+
+* [Bug 1357780](https://bugzilla.mozilla.org/show_bug.cgi?id=1357780) - Custom Tab: Different color for Share option from men
+    - Patch merged
+
+* [Bug 1357781](https://bugzilla.mozilla.org/show_bug.cgi?id=1357781) - Custom Tab: Edit Site Settings option not implemented
+    - Patch merged
 
 * [Bug 1329152](https://bugzilla.mozilla.org/show_bug.cgi?id=1329152) - Custom tabs: Enable custom tabs by default
     - Patch prepared, involved switch-board
