@@ -1,12 +1,12 @@
-# [W20] 05/15 - 05/19
+# [W21] 05/22 - 05/24
 
 ## Android Fennec
 
-* [Bug 1357780](https://bugzilla.mozilla.org/show_bug.cgi?id=1357780) - Custom Tab: Different color for Share option from men
+* [Bug 1366648](https://bugzilla.mozilla.org/show_bug.cgi?id=1366648) - Custom tabs: reload button has wrong color
     - Patch merged
 
-* [Bug 1357781](https://bugzilla.mozilla.org/show_bug.cgi?id=1357781) - Custom Tab: Edit Site Settings option not implemented
-    - Patch merged
+* [Bug 1364052](https://bugzilla.mozilla.org/show_bug.cgi?id=1364052) - Web Apps - Some webapps show the internal page url
+    - Helped to investigate this bug
 
 * [Bug 1329152](https://bugzilla.mozilla.org/show_bug.cgi?id=1329152) - Custom tabs: Enable custom tabs by default
     - Patch prepared, involved switch-board
