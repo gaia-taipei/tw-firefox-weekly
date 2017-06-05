@@ -1,15 +1,15 @@
-# [W21] 05/22 - 05/24
+# [W22] 05/31 - 06/02
 
 ## Android Fennec
 
-* [Bug 1366648](https://bugzilla.mozilla.org/show_bug.cgi?id=1366648) - Custom tabs: reload button has wrong color
-    - Patch merged
-
-* [Bug 1364052](https://bugzilla.mozilla.org/show_bug.cgi?id=1364052) - Web Apps - Some webapps show the internal page url
-    - Helped to investigate this bug
+* [Bug 1369681](https://bugzilla.mozilla.org/show_bug.cgi?id=1369681) - Custom tabs: seeing flash when launch Custom Tabs
+    - Patch prepared, waiting for review
 
 * [Bug 1329152](https://bugzilla.mozilla.org/show_bug.cgi?id=1329152) - Custom tabs: Enable custom tabs by default
-    - Patch prepared, involved switch-board
+    - Patch merged
+
+* [Bug 1271998](https://bugzilla.mozilla.org/show_bug.cgi?id=1271998) - Proposal: Scrollable URL in URL bar
+    - Working in progress
 
 * [Bug 1325030](https://bugzilla.mozilla.org/show_bug.cgi?id=1325030) - Input field is covered by Soft-Keyboard
     - Looking for root cause, likely found another similar bug.
