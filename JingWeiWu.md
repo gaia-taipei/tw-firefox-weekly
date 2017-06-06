@@ -1,27 +1,20 @@
-## 4/17 - 5/12
+## 5/15 - 6/02
 
 Android
 
-- [Bug 1232439](https://bugzilla.mozilla.org/show_bug.cgi?id=1232439) - Full-page edit bookmark dialog 
+- [Bug 1359006](https://bugzilla.mozilla.org/show_bug.cgi?id=1359006) - The localized name of Top Sites tab switched from 1 line to 2
 	- patch landed
 	
-- [Bug 1329130](https://bugzilla.mozilla.org/show_bug.cgi?id=1329130) - Fennec Bookmark Management: Allow users to created nested folders
+- [Bug 1329138](https://bugzilla.mozilla.org/show_bug.cgi?id=1329138) - Fennec Bookmark Management: Collect information on how many users manage bookmarks using folders (create folder, remove folder, move bookmarks/folders into folders) 
 	- patch landed
 	
-- [Bug 1329128](https://bugzilla.mozilla.org/show_bug.cgi?id=1329128) - Fennec Bookmark Management: Allow users to create, remove and move folders
-	- patch landed
-	
-- [Bug 1329130](https://bugzilla.mozilla.org/show_bug.cgi?id=1329130) - Fennec Bookmark Management: Allow users to created nested folders
-	- duplicated of [Bug 1329128](https://bugzilla.mozilla.org/show_bug.cgi?id=1329128)
-	
-- [Bug 1329136](https://bugzilla.mozilla.org/show_bug.cgi?id=1329136) - Fennec Bookmark Management: Bookmarks updated with new management features will continue to work with Firefox Sync
-	- Resolved WORKSFORME
-	
-- Study sync behavior in Fennec
-	- FxA & Android-sync
-	- https://hackmd.io/CYNhFME4FYGMEMC014CYBGiAsAGDjIdwtE9YstJh4BmHARmiA===
+- [Bug 1366660](https://bugzilla.mozilla.org/show_bug.cgi?id=1366660) - (photon) Transition for Search suggestion when input keyword into URL bar
+	- r?maliu,walkingice
 
-- Photon on Fennec
-	- Implement tab icon transition animation.
-	- Implement private browsing empty view.
-	- Implement search suggestion UI layout.
+- [Photon on Fennec](https://github.com/idiotmax/gecko)
+	- Apply light weight theme visual design on awesome bar.
+	- Update search suggestion visual design.
+	- Apply awesome bar visual design.
+	- Refactor tab indicator implementation
+	- Support tab icon animation on tablet
+	
