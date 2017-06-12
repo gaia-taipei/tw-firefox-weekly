@@ -1,15 +1,18 @@
-# [W22] 05/31 - 06/02
+# [W23] 06/05 - 06/09
 
 ## Android Fennec
 
 * [Bug 1369681](https://bugzilla.mozilla.org/show_bug.cgi?id=1369681) - Custom tabs: seeing flash when launch Custom Tabs
-    - Patch prepared, waiting for review
-
-* [Bug 1329152](https://bugzilla.mozilla.org/show_bug.cgi?id=1329152) - Custom tabs: Enable custom tabs by default
     - Patch merged
+
+* [Bug 1366681](https://bugzilla.mozilla.org/show_bug.cgi?id=1366681) - Move Add-On to the first level menu
+    - Patch reviewd. Will be merged after soft-code-freeze
 
 * [Bug 1271998](https://bugzilla.mozilla.org/show_bug.cgi?id=1271998) - Proposal: Scrollable URL in URL bar
     - Working in progress
+
+* [Bug 1347037](https://bugzilla.mozilla.org/show_bug.cgi?id=1347037) - Extract toolbar site identity logic into standalone place
+    - Patch reviewd. Will be merged after soft-code-freeze
 
 * [Bug 1325030](https://bugzilla.mozilla.org/show_bug.cgi?id=1325030) - Input field is covered by Soft-Keyboard
     - Looking for root cause, likely found another similar bug.
