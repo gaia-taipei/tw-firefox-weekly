@@ -36,7 +36,7 @@
 
 # Full Screen
 - [Bug 1356596](https://bugzilla.mozilla.org/show_bug.cgi?id=1356596) - sec bug
-    - WIP.
+    - Unassign myself since there's no clear action item
 
 # General
 - [Bug 1366575](https://bugzilla.mozilla.org/show_bug.cgi?id=1366575) - $(...) is null error in about:support on Mozilla Firefox Mobile
