@@ -10,6 +10,13 @@
 
 - [Bug 1369685](https://bugzilla.mozilla.org/show_bug.cgi?id=1369685) - Add a new key on Switchboard "region"
     - r+, code free 
+
+- [Bug 1369279](https://bugzilla.mozilla.org/show_bug.cgi?id=1369279) - Releng work to make Leanplum work on Beta and Release
+    - closed, not needed
+    
+- [Bug 1372091](https://bugzilla.mozilla.org/show_bug.cgi?id=1372091) - Turn off Leanplum on Beta and release
+    - r?maliu, nalexander,nthomas,tomcat
+    
     
 # Telemetry
 
