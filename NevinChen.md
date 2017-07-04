@@ -1,36 +1,41 @@
-## 6/12 ~ 6/18
+## 6/19~ 6/30
 # Photon
 - [Bug 1366674](https://bugzilla.mozilla.org/show_bug.cgi?id=1366674) - (photon) Indicator on splash screen when first time open
-    - r?maliu 	
+    - r+ & landed	
 
 - [Bug 1366680](https://bugzilla.mozilla.org/show_bug.cgi?id=1366680) - (photon) Tab tray UI refresh and consistency
     - WIP
 
 # LeanPlum
 - [Bug 1373174](https://bugzilla.mozilla.org/show_bug.cgi?id=1373174) - ([Leanplum] - Change user identification method and documentation.)
-    - WIP
+    - r+ & landed	
 
 - [Bug 1368629](https://bugzilla.mozilla.org/show_bug.cgi?id=1368629) - Add histogram for Leanplum usage
     - WIP
 
-- [Bug 1369685](https://bugzilla.mozilla.org/show_bug.cgi?id=1369685) - Add a new key on Switchboard "region"
-    - r+, landed
+- [Bug 1377022](https://bugzilla.mozilla.org/show_bug.cgi?id=1377022) - Refine the document for Leanplum    
+    - r+ & landed	
     
-- [Bug 1372091](https://bugzilla.mozilla.org/show_bug.cgi?id=1372091) - Turn off Leanplum on Beta and release
-    - Nick has landed his verison in beta. 
-    
-    
+- [Bug 1374630](https://bugzilla.mozilla.org/show_bug.cgi?id=1374630) - (Leanplum) Campaign : Open New Tab promote New Tab Setting
+    - WIP
+
+- [Bug 1374889](https://bugzilla.mozilla.org/show_bug.cgi?id=1368629) - (Leanplum) Campaign : Log in to FxA - Default Browser Promotion
+    - WIP
+
+- [Bug 1376690](https://bugzilla.mozilla.org/show_bug.cgi?id=1376690) - (Leanplum) Disable Leanplum when users are using private mode.
+    - WIP
+
+
 # Telemetry    
 # Partner Distribution
 # PWA
 # Reader Mode
 # Full Screen
 # General
-- [Bug 1366680](https://bugzilla.mozilla.org/show_bug.cgi?id=1366680) - Using switchboard to change default pref is user not updated.
+SF All Hands
+# DLC
+- [Bug 1353334](https://bugzilla.mozilla.org/show_bug.cgi?id=1353334) - Modify DownloadAction to handle language resources
     - WIP
     
-# Zerda
-- Survey: Replace GeckoView with Webview in Gecko
-- Survey: [CLoud vision API](https://github.com/cnevinc/cloud-vision)
-- Survey: [Lightning Browser](https://github.com/cnevinc/Lightning-Browser)
-- Survey: [Focus for Android](https://github.com/cnevinc/focus-android)
+- [Bug 1347802](https://bugzilla.mozilla.org/show_bug.cgi?id=1347802) - Hook DLC into L10nRegistry for downloading language resources
+    - WIP
