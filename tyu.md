@@ -1,7 +1,5 @@
-[ SF All Hands ]
+[ Non-bug items ]
 
 * Project Z
-  * Study on critical architecural decisions
-  * Meetings and discussions
-
-* Meet around
+  * Study web archives and Android version compatibility.
+  * Study webview behaviour on scheduled jobs.
