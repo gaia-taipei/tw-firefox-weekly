@@ -1,20 +1,40 @@
-## 5/15 - 6/02
+## 6/05 - 7/07
 
 Android
-
-- [Bug 1359006](https://bugzilla.mozilla.org/show_bug.cgi?id=1359006) - The localized name of Top Sites tab switched from 1 line to 2
-	- patch landed
-	
-- [Bug 1329138](https://bugzilla.mozilla.org/show_bug.cgi?id=1329138) - Fennec Bookmark Management: Collect information on how many users manage bookmarks using folders (create folder, remove folder, move bookmarks/folders into folders) 
-	- patch landed
 	
 - [Bug 1366660](https://bugzilla.mozilla.org/show_bug.cgi?id=1366660) - (photon) Transition for Search suggestion when input keyword into URL bar
-	- r?maliu,walkingice
+	- patch landed
+	
+- [Bug 1366659](https://bugzilla.mozilla.org/show_bug.cgi?id=1366659) - (Photon) Follow iOS private tab interaction design
+	- patch landed
+	
+- [Bug 1366673](https://bugzilla.mozilla.org/show_bug.cgi?id=1366673) - (photon) Tab icon motion for adding a new tab
+	- patch landed
 
-- [Photon on Fennec](https://github.com/idiotmax/gecko)
-	- Apply light weight theme visual design on awesome bar.
-	- Update search suggestion visual design.
-	- Apply awesome bar visual design.
-	- Refactor tab indicator implementation
-	- Support tab icon animation on tablet
+- [Bug 1366679](https://bugzilla.mozilla.org/show_bug.cgi?id=1366679) - (photon) Search Suggestions
+	- patch landed
+	
+- [Bug 1366703](https://bugzilla.mozilla.org/show_bug.cgi?id=1366703) - (Photon) Follow up of private tab visual refresh
+	- patch landed
+	
+- [Bug 1366704](https://bugzilla.mozilla.org/show_bug.cgi?id=1366704) - (photon) follow up of search suggestion on the visual refresh of private mode
+	- r+walkingice, r?sebastian
+	
+- [Bug 1369900](https://bugzilla.mozilla.org/show_bug.cgi?id=1369900) - [findbugs] Unnecessary boxing/unboxing in LocalBrowserDB tests
+	- patch landed
+	
+- [Bug 1372486](https://bugzilla.mozilla.org/show_bug.cgi?id=1372486) - (photon) Support photon-only resources with mach/gradle build
+	- patch landed
+	
+- [Bug 1374251](https://bugzilla.mozilla.org/show_bug.cgi?id=1374251) - Fennec Bookmark Management: Name of folder not saved when parent folder is changed as well
+	- patch landed
+
+- [Bug 1374959](https://bugzilla.mozilla.org/show_bug.cgi?id=1374959) - (photon) Support detecting Australis/Photon at runtime in Java frontend
+	- patch landed
+
+- [Bug 1378032](https://bugzilla.mozilla.org/show_bug.cgi?id=1378032) - (photon) Disable setTabsCounterPrivateMode in tablet
+	- patch landed
+	
+- [Bug 1378625](https://bugzilla.mozilla.org/show_bug.cgi?id=1378625) - (photon) Tab strip visual refresh
+	- patch landed
 	
