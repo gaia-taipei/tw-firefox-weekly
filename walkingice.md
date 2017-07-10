@@ -1,13 +1,20 @@
-# [W25] 06/19 - 06/23
+# [W26] 06/26 - 06/30
+
+* 2017 SF All hands
+    * meetings
+    * meetings
+    * another meetings
+    * jet lag
+    * review patches
 
 ## Android Fennec
 
-* [Bug 1375448](https://bugzilla.mozilla.org/show_bug.cgi?id=1375448) - Duplicate resource files to different flavor directory
-    - Discuss to find this way to land patches for Photon before v57
+* [Bug 1366681](https://bugzilla.mozilla.org/show_bug.cgi?id=1366681) - Move Add-On to the first level menu
     - Patch merged
 
-* [Bug 1366681](https://bugzilla.mozilla.org/show_bug.cgi?id=1366681) - Move Add-On to the first level menu
-    - Patch reviewd. Will be merged after soft-code-freeze
+* [Bug 1377294](https://bugzilla.mozilla.org/show_bug.cgi?id=1377294) - Let some toolbar views become theme-able
+    - Preparation for Photon. Separate standalone works into one bug for easier review
+    - Patch merged
 
 * [Bug 1271998](https://bugzilla.mozilla.org/show_bug.cgi?id=1271998) - Proposal: Scrollable URL in URL bar
     - Working in progress
