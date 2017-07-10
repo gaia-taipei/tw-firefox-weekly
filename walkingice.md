@@ -1,20 +1,10 @@
-# [W26] 06/26 - 06/30
-
-* 2017 SF All hands
-    * meetings
-    * meetings
-    * another meetings
-    * jet lag
-    * review patches
+# [W27] 07/04 - 07/07
 
 ## Android Fennec
 
-* [Bug 1366681](https://bugzilla.mozilla.org/show_bug.cgi?id=1366681) - Move Add-On to the first level menu
-    - Patch merged
-
-* [Bug 1377294](https://bugzilla.mozilla.org/show_bug.cgi?id=1377294) - Let some toolbar views become theme-able
-    - Preparation for Photon. Separate standalone works into one bug for easier review
-    - Patch merged
+* [Bug 1379066](https://bugzilla.mozilla.org/show_bug.cgi?id=1379066) - Awesome bar basic visual refresh
+    - Awesomebar changing is huge. This bug is for basic implementation and user can be aware of difference in Photon flavor.
+    - Patch prepared, waiting for review
 
 * [Bug 1271998](https://bugzilla.mozilla.org/show_bug.cgi?id=1271998) - Proposal: Scrollable URL in URL bar
     - Working in progress
