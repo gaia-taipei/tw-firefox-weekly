@@ -15,17 +15,11 @@
 
 
 # LeanPlum
-- [Bug 1373174](https://bugzilla.mozilla.org/show_bug.cgi?id=1373174) - ([Leanplum] - Change user identification method and documentation.)
-    - r+ & landed	
-
 - [Bug 1368629](https://bugzilla.mozilla.org/show_bug.cgi?id=1368629) - Add histogram for Leanplum usage
     - r? sebastian
-
-- [Bug 1377022](https://bugzilla.mozilla.org/show_bug.cgi?id=1377022) - Refine the document for Leanplum    
-    - r+ & landed	
-    
+   
 - [Bug 1374630](https://bugzilla.mozilla.org/show_bug.cgi?id=1374630) - (Leanplum) Campaign : Open New Tab promote New Tab Setting
-    - WIP
+    - r+ & landed
 
 - [Bug 1374889](https://bugzilla.mozilla.org/show_bug.cgi?id=1368629) - (Leanplum) Campaign : Log in to FxA - Default Browser Promotion
     - r+ & landed
@@ -47,6 +41,9 @@
 # PWA
 # Reader Mode
 # Full Screen
+- [Bug 1356596](https://bugzilla.mozilla.org/show_bug.cgi?id=1356596) - Spoof page in full screen mode Firefox Android with "scroll"
+    - WIP
+
 # General
 
 - [Bug 1377742](https://bugzilla.mozilla.org/show_bug.cgi?id=1377742) - about:rights shows XML parsing error
@@ -68,6 +65,7 @@
    - WIP
 
 anything
+
 ## Pause
 # DLC
 - [Bug 1353334](https://bugzilla.mozilla.org/show_bug.cgi?id=1353334) - Modify DownloadAction to handle language resources
