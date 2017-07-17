@@ -61,10 +61,8 @@
 - [Bug 1378445](https://bugzilla.mozilla.org/show_bug.cgi?id=1378445) - notifications on firefox for android are silent    
    - WIP
 
-- [Bug 1378445](https://bugzilla.mozilla.org/show_bug.cgi?id=1378445) - Clicking on some links in about:firefox doesn't do 
+- [Bug 1378445](https://bugzilla.mozilla.org/show_bug.cgi?id=1378445) - Clicking on some links in about:firefox doesn't do anything
    - WIP
-
-anything
 
 ## Pause
 # DLC
