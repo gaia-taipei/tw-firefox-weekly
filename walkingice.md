@@ -1,12 +1,16 @@
-# [W28] 07/10 - 07/14
+# [W29] 07/17 - 07/21
+
+## Zerda
+
+* Code architecture discussion
+* To implement home screen UI
 
 ## Android Fennec
 
-* [Bug 1379551](https://bugzilla.mozilla.org/show_bug.cgi?id=1379551) - Change tab indicator height
-    - patch merged
+* Review patches for Photon
 
-* [Bug 1379066](https://bugzilla.mozilla.org/show_bug.cgi?id=1379066) - Awesome bar basic visual refresh
-    - patch merged
+* [Bug 1379552](https://bugzilla.mozilla.org/show_bug.cgi?id=1379552) - Title URL should be faded out in tail 
+    - Looing for root cause
 
 * [Bug 1271998](https://bugzilla.mozilla.org/show_bug.cgi?id=1271998) - Proposal: Scrollable URL in URL bar
     - Working in progress
