@@ -1,10 +1,12 @@
-# [W27] 07/04 - 07/07
+# [W28] 07/10 - 07/14
 
 ## Android Fennec
 
+* [Bug 1379551](https://bugzilla.mozilla.org/show_bug.cgi?id=1379551) - Change tab indicator height
+    - patch merged
+
 * [Bug 1379066](https://bugzilla.mozilla.org/show_bug.cgi?id=1379066) - Awesome bar basic visual refresh
-    - Awesomebar changing is huge. This bug is for basic implementation and user can be aware of difference in Photon flavor.
-    - Patch prepared, waiting for review
+    - patch merged
 
 * [Bug 1271998](https://bugzilla.mozilla.org/show_bug.cgi?id=1271998) - Proposal: Scrollable URL in URL bar
     - Working in progress
