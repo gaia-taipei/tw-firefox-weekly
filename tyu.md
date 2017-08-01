@@ -1,15 +1,16 @@
 [ Zerda ]
 
-* [Issue 5](https://github.com/mozilla-tw/Zerda/issues/5) - Remove "Open with Firefox" 
-  * Merged
-
-* [Issue 7](https://github.com/mozilla-tw/Zerda/issues/7) - Remove Stealth mode
-  * Merged
-
-* [Issue 9](https://github.com/mozilla-tw/Zerda/issues/9) - Function integration architecture design
-  * Non-code related, proposing an architecture design, and discuss with the team.
-  * Merged
-
 * [Issue 23](https://github.com/mozilla-tw/Zerda/issues/23) - Backout privacy features that does not align to our design
-  * WIP, finished architecture study, remove auto folder cleanup and webview api based cleanup.
-  * Need to test on some more device before merge
+  * Merged
+
+* [Issue 62](https://github.com/mozilla-tw/Zerda/issues/62) - Create Menu skeleton
+  * Merged
+  
+* [Issue 69](https://github.com/mozilla-tw/Zerda/issues/69) - Menu panel follow up: Add icons and texts
+  * Merged
+
+* [Issue 73](https://github.com/mozilla-tw/Zerda/issues/73) - Glue back, next and refresh (Navigation) in menu
+  * Merged
+
+* [Issue 75](https://github.com/mozilla-tw/Zerda/issues/75) - Add an empty bottom sheet panel for History and Download
+  * Merged
