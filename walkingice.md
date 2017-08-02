@@ -1,10 +1,16 @@
-# [W27] 07/04 - 07/07
+# [W29] 07/17 - 07/21
+
+## Zerda
+
+* Code architecture discussion
+* To implement home screen UI
 
 ## Android Fennec
 
-* [Bug 1379066](https://bugzilla.mozilla.org/show_bug.cgi?id=1379066) - Awesome bar basic visual refresh
-    - Awesomebar changing is huge. This bug is for basic implementation and user can be aware of difference in Photon flavor.
-    - Patch prepared, waiting for review
+* Review patches for Photon
+
+* [Bug 1379552](https://bugzilla.mozilla.org/show_bug.cgi?id=1379552) - Title URL should be faded out in tail 
+    - Looing for root cause
 
 * [Bug 1271998](https://bugzilla.mozilla.org/show_bug.cgi?id=1271998) - Proposal: Scrollable URL in URL bar
     - Working in progress
