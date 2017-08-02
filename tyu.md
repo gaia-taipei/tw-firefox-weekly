@@ -1,12 +1,16 @@
 [ Zerda ]
 
-* [Issue 5](https://github.com/mozilla-tw/Zerda/issues/5) - Remove "Open with Firefox" 
-  * Pull request submitted, wait to figure out if review is required.
+* [Issue 23](https://github.com/mozilla-tw/Zerda/issues/23) - Backout privacy features that does not align to our design
+  * Merged
 
-* [Issue 7](https://github.com/mozilla-tw/Zerda/issues/7) - Remove Stealth mode
-  * Drafted, will submit pull request later.
+* [Issue 62](https://github.com/mozilla-tw/Zerda/issues/62) - Create Menu skeleton
+  * Merged
   
-[ Non-bugs ]
+* [Issue 69](https://github.com/mozilla-tw/Zerda/issues/69) - Menu panel follow up: Add icons and texts
+  * Merged
 
-* Study DownloadManager behaviour and others upon request from UX team
-* Study Android view drawing basics and Activity spawning lifecycle from native code
+* [Issue 73](https://github.com/mozilla-tw/Zerda/issues/73) - Glue back, next and refresh (Navigation) in menu
+  * Merged
+
+* [Issue 75](https://github.com/mozilla-tw/Zerda/issues/75) - Add an empty bottom sheet panel for History and Download
+  * Merged
