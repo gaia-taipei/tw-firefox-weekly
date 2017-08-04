@@ -1,16 +1,13 @@
 [ Zerda ]
 
-* [Issue 23](https://github.com/mozilla-tw/Zerda/issues/23) - Backout privacy features that does not align to our design
-  * Merged
-
-* [Issue 62](https://github.com/mozilla-tw/Zerda/issues/62) - Create Menu skeleton
-  * Merged
+* [Issue 47](https://github.com/mozilla-tw/Zerda/issues/47) - [Function] Menu->Share
+  * Merged [Pull Request 124](https://github.com/mozilla-tw/Zerda/pull/124) - Implement share button.
   
-* [Issue 69](https://github.com/mozilla-tw/Zerda/issues/69) - Menu panel follow up: Add icons and texts
-  * Merged
+* [Issue 91](https://github.com/mozilla-tw/Zerda/issues/91) - [string] Some content descriptions already provided by Focus are not utilized. 
+  * Merged [Pull Request 94](https://github.com/mozilla-tw/Zerda/pull/94) - Add content descriptions if we already have strings from Focus.
+  
+* Unlisted issue - Code / String cleanup
+  * Merged [Pull Request 122](https://github.com/mozilla-tw/Zerda/pull/122) - Clean up unused strings and their counterpart codes 
 
-* [Issue 73](https://github.com/mozilla-tw/Zerda/issues/73) - Glue back, next and refresh (Navigation) in menu
-  * Merged
-
-* [Issue 75](https://github.com/mozilla-tw/Zerda/issues/75) - Add an empty bottom sheet panel for History and Download
-  * Merged
+* [Issue 104](https://github.com/mozilla-tw/Zerda/issues/104) - (function) long page screenshot 
+  * WIP: Feasibility and limitation check + Implementation plan.
