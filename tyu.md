@@ -1,13 +1,13 @@
 [ Zerda ]
 
-* [Issue 47](https://github.com/mozilla-tw/Zerda/issues/47) - [Function] Menu->Share
-  * Merged [Pull Request 124](https://github.com/mozilla-tw/Zerda/pull/124) - Implement share button.
+* [Issue 147](https://github.com/mozilla-tw/Zerda/issues/147) - Update menu UI v2
+  * Merged [Pull Request 146](https://github.com/mozilla-tw/Zerda/pull/146) - Menu v2
   
-* [Issue 91](https://github.com/mozilla-tw/Zerda/issues/91) - [string] Some content descriptions already provided by Focus are not utilized. 
-  * Merged [Pull Request 94](https://github.com/mozilla-tw/Zerda/pull/94) - Add content descriptions if we already have strings from Focus.
-  
-* Unlisted issue - Code / String cleanup
-  * Merged [Pull Request 122](https://github.com/mozilla-tw/Zerda/pull/122) - Clean up unused strings and their counterpart codes 
+* [Issue 104](https://github.com/mozilla-tw/Zerda/issues/104) - Long page screenshot: core
+  * Merged [Pull Request 181](https://github.com/mozilla-tw/Zerda/pull/181) - Implement Long Screenshot
 
-* [Issue 104](https://github.com/mozilla-tw/Zerda/issues/104) - (function) long page screenshot 
-  * WIP: Feasibility and limitation check + Implementation plan.
+* [Issue 34](https://github.com/mozilla-tw/Zerda/issues/34) - Download/History Panel UI: list & item layout with BottomSheet in a Fragment
+  * Merged [Pull Request 211](https://github.com/mozilla-tw/Zerda/pull/211) - Create a panel for download/history/screenshots
+  
+* [Issue 198](https://github.com/mozilla-tw/Zerda/issues/198) - Long page screenshot is not immediately shown in the Galleries.
+  * Merged [Pull Request 201](https://github.com/mozilla-tw/Zerda/pull/201) - Notify Media Scanner after screenshot is captured.  
