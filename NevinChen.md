@@ -1,50 +1,46 @@
-## 7/15~ 8/6
+## 8/7~ 8/20
 # Photon
 
 - [Bug 1366680](https://bugzilla.mozilla.org/show_bug.cgi?id=1366680) - (photon) Tab tray UI refresh and consistency
     - r+ & landed	    
 
 - [Bug 1366664](https://bugzilla.mozilla.org/show_bug.cgi?id=1366664) - (photon) (baseline) New onboarding experience to reflect the new look.
-    - WIP
+    - r+ & landed	    
 
 # LeanPlum
 
-- [Bug 1380854](https://bugzilla.mozilla.org/show_bug.cgi?id=1380854) - NEW	Drop an event when User signs in / signs up for FxA 
-    - WIP
-
 - [Bug 1386151](https://bugzilla.mozilla.org/show_bug.cgi?id=1386151) - Enable Push Notification feature for Leanplum
-    - r-, implementation not fixed
+    - r+ & landed	    
     
 - [Bug 1380950](https://bugzilla.mozilla.org/show_bug.cgi?id=1380950) - (Leanplum) Deeplinks should not be triggered through content or other apps
-    - r+
-    
-- [Bug 1386192](https://bugzilla.mozilla.org/show_bug.cgi?id=1386192) - Test Leanplum Custom Message for Onborading
-    - POC, will continue after 57
-    
-- [Bug 1385853](https://bugzilla.mozilla.org/show_bug.cgi?id=1385853) - [LeanPlum] - Default browser is still triggered if app was set as default from another app
-    - WIP
-    
-- [Bug 1385819](https://bugzilla.mozilla.org/show_bug.cgi?id=1385819) - [LeanPlum] Focus promotion still displayed after installing Focus
-    - WIP   
+    - r+, rebase-ing
     
 - [Bug 1384480](https://bugzilla.mozilla.org/show_bug.cgi?id=1384480) - Move MMA event call to UI code and remove from model classes 
+    - r+ & landed	   
+    
+- [Bug 1391575](https://bugzilla.mozilla.org/show_bug.cgi?id=1391575) - Make MMA GCM Sender ID configurable
+    - r+ & landed	   
+    
+- [Bug 1390454](https://bugzilla.mozilla.org/show_bug.cgi?id=1390454) - Update Leanplum SDK for Banner
+    - WIP
+    
+
 
 # Telemetry    
 # Partner Distribution
 # PWA
 # Reader Mode
 # Full Screen
-- [Bug 1356596](https://bugzilla.mozilla.org/show_bug.cgi?id=1356596) - Spoof page in full screen mode Firefox Android with "scroll"
+- [Bug 1356596](https://bugzilla.mozilla.org/show_bug.cgi?id=1356596) - Sec 
     - WIP
 
 # General
-- 7/24 ~ 7/28 - MMA work week
 
 - [Bug 1357377](https://bugzilla.mozilla.org/show_bug.cgi?id=1352133) - Sec
     - WIP
     
-- [Bug 1378445](https://bugzilla.mozilla.org/show_bug.cgi?id=1378445) - Clicking on some links in about:firefox doesn't do anything
-   - landed
+- [Bug 1390038](https://bugzilla.mozilla.org/show_bug.cgi?id=1390038) - about:rights shows XML parsing error again
+    - r+ & landed	   
 
 ## Pause
 # Crash
@@ -63,4 +59,16 @@
     
 - [Bug 1368629](https://bugzilla.mozilla.org/show_bug.cgi?id=1368629) - Add histogram for Leanplum usage
     - r? sebastian
-  
+# MMA
+- [Bug 1380854](https://bugzilla.mozilla.org/show_bug.cgi?id=1380854) - NEW	Drop an event when User signs in / signs up for FxA 
+    - WIP
+
+- [Bug 1386192](https://bugzilla.mozilla.org/show_bug.cgi?id=1386192) - Test Leanplum Custom Message for Onborading
+    - POC, will continue after 57
+    
+- [Bug 1385853](https://bugzilla.mozilla.org/show_bug.cgi?id=1385853) - [LeanPlum] - Default browser is still triggered if app was set as default from another app
+    - WIP
+    
+- [Bug 1385819](https://bugzilla.mozilla.org/show_bug.cgi?id=1385819) - [LeanPlum] Focus promotion still displayed after installing Focus
+    - WIP   
+    
