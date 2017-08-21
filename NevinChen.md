@@ -1,5 +1,5 @@
-## 8/7~ 8/20
-# Photon
+# 8/7~ 8/20
+## Photon
 
 - [Bug 1366680](https://bugzilla.mozilla.org/show_bug.cgi?id=1366680) - (photon) Tab tray UI refresh and consistency
     - r+ & landed	    
@@ -7,7 +7,7 @@
 - [Bug 1366664](https://bugzilla.mozilla.org/show_bug.cgi?id=1366664) - (photon) (baseline) New onboarding experience to reflect the new look.
     - r+ & landed	    
 
-# LeanPlum
+## MMA
 
 - [Bug 1386151](https://bugzilla.mozilla.org/show_bug.cgi?id=1386151) - Enable Push Notification feature for Leanplum
     - r+ & landed	    
@@ -26,15 +26,15 @@
     
 
 
-# Telemetry    
-# Partner Distribution
-# PWA
-# Reader Mode
-# Full Screen
+## Telemetry    
+## Partner Distribution
+## PWA
+## Reader Mode
+## Full Screen
 - [Bug 1356596](https://bugzilla.mozilla.org/show_bug.cgi?id=1356596) - Sec 
     - WIP
 
-# General
+## General
 
 - [Bug 1357377](https://bugzilla.mozilla.org/show_bug.cgi?id=1352133) - Sec
     - WIP
@@ -42,15 +42,15 @@
 - [Bug 1390038](https://bugzilla.mozilla.org/show_bug.cgi?id=1390038) - about:rights shows XML parsing error again
     - r+ & landed	   
 
-## Pause
-# Crash
+# Pause
+## Crash
 - [Bug 1377819](https://bugzilla.mozilla.org/show_bug.cgi?id=1377819) - Crash in java.lang.ClassCastException: interface org.mozilla.gecko.tabs.TabsPanel$TabsLayout cannot be cast to android.view.View at java.lang.Class.asSubclass(Class.java)
     - WIP
 
 - [Bug 1352133](https://bugzilla.mozilla.org/show_bug.cgi?id=1352133) - Crash in java.lang.NullPointerException: Attempt to invoke virtual method ''java.lang.String org.mozilla.gecko.Tab.getMostRecentHomePanel()'' on a null object reference at org.mozilla.gecko.BrowserApp.hideBrowserSearch(BrowserApp.java)
     - r?sebastian
 
-# DLC
+## DLC
 - [Bug 1353334](https://bugzilla.mozilla.org/show_bug.cgi?id=1353334) - Modify DownloadAction to handle language resources
     - WIP
     
@@ -59,7 +59,7 @@
     
 - [Bug 1368629](https://bugzilla.mozilla.org/show_bug.cgi?id=1368629) - Add histogram for Leanplum usage
     - r? sebastian
-# MMA
+## MMA
 - [Bug 1380854](https://bugzilla.mozilla.org/show_bug.cgi?id=1380854) - NEW	Drop an event when User signs in / signs up for FxA 
     - WIP
 
