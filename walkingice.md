@@ -1,12 +1,10 @@
-# [W30] 07/24 - 07/28
+# [W31] 07/31 - 08/04
 
 ## Zerda
 
-* Improve basic home screen UI
-* Refactory MainActivity for fragment management logic
-* Modify UrlInputFragment to match our requirement
-* Impement basic Url bar UI for Zerda
-* change status bar color in run-time
+* Implement a mediator for controlling fragments
+* Improve Floating-action-button visibiility logic and enable its function
+* Update search-input, include its visual and logic of visibility
 
 ## Android Fennec
 
