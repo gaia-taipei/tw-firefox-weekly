@@ -1,30 +1,8 @@
 # 8/7~ 8/20
 ## Photon
 
-- [Bug 1366680](https://bugzilla.mozilla.org/show_bug.cgi?id=1366680) - (photon) Tab tray UI refresh and consistency
-    - r+ & landed	    
-
-- [Bug 1366664](https://bugzilla.mozilla.org/show_bug.cgi?id=1366664) - (photon) (baseline) New onboarding experience to reflect the new look.
-    - r+ & landed	    
-
-## MMA
-
-- [Bug 1386151](https://bugzilla.mozilla.org/show_bug.cgi?id=1386151) - Enable Push Notification feature for Leanplum
-    - r+ & landed	    
-    
-- [Bug 1380950](https://bugzilla.mozilla.org/show_bug.cgi?id=1380950) - (Leanplum) Deeplinks should not be triggered through content or other apps
-    - r+, rebase-ing
-    
-- [Bug 1384480](https://bugzilla.mozilla.org/show_bug.cgi?id=1384480) - Move MMA event call to UI code and remove from model classes 
-    - r+ & landed	   
-    
-- [Bug 1391575](https://bugzilla.mozilla.org/show_bug.cgi?id=1391575) - Make MMA GCM Sender ID configurable
-    - r+ & landed	   
-    
-- [Bug 1390454](https://bugzilla.mozilla.org/show_bug.cgi?id=1390454) - Update Leanplum SDK for Banner
-    - WIP
-    
-
+## MMAasdas
+(photon) (baseline) New onboarding experience to reflect the new look (photon) (baseline) New onboarding experience to reflect the new look asdasd
 
 ## Telemetry    
 ## Partner Distribution
@@ -36,17 +14,19 @@
 
 ## General
 
+- [Bug 1377819](https://bugzilla.mozilla.org/show_bug.cgi?id=1377819) - Crash in java.lang.ClassCastException: interface org.mozilla.gecko.tabs.TabsPanel$TabsLayout cannot be cast to android.view.View at java.lang.Class.asSubclass(Class.java)
+    - WIP. Trace AOSP
+
+  
+
+# Pause
+
+## General
 - [Bug 1357377](https://bugzilla.mozilla.org/show_bug.cgi?id=1352133) - Sec
     - WIP
     
-- [Bug 1390038](https://bugzilla.mozilla.org/show_bug.cgi?id=1390038) - about:rights shows XML parsing error again
-    - r+ & landed	   
 
-# Pause
 ## Crash
-- [Bug 1377819](https://bugzilla.mozilla.org/show_bug.cgi?id=1377819) - Crash in java.lang.ClassCastException: interface org.mozilla.gecko.tabs.TabsPanel$TabsLayout cannot be cast to android.view.View at java.lang.Class.asSubclass(Class.java)
-    - WIP
-
 - [Bug 1352133](https://bugzilla.mozilla.org/show_bug.cgi?id=1352133) - Crash in java.lang.NullPointerException: Attempt to invoke virtual method ''java.lang.String org.mozilla.gecko.Tab.getMostRecentHomePanel()'' on a null object reference at org.mozilla.gecko.BrowserApp.hideBrowserSearch(BrowserApp.java)
     - r?sebastian
 
@@ -70,5 +50,10 @@
     - WIP
     
 - [Bug 1385819](https://bugzilla.mozilla.org/show_bug.cgi?id=1385819) - [LeanPlum] Focus promotion still displayed after installing Focus
-    - WIP   
+    - WIP       
+
+- [Bug 1390454](https://bugzilla.mozilla.org/show_bug.cgi?id=1390454) - Update Leanplum SDK for Banner
+    - WIP
     
+
+
