@@ -1,20 +1,17 @@
-# [W33] 08/14 - 08/18
+# [W34] 08/21 - 08/25
 
 ## Zerda
 
-* Resolve webview history state store and restore issue
-* Rewrite fragment stack logic to match spec
-* Change appearance, includes HomeScreen and Floating action button
-* Implement custom ViewGroup for UI reqirement
-* Update bottom sheet appearance to match spec
-* Implement clear-cache function
+* Update progress bar from upstream - my project
+* To get file picker working for file uploading
+* Implement move-to-sd-card function for file downloading
 
 ## Android Fennec
 
 * Review patches for Photon
 
 * [Bug 1366672](https://bugzilla.mozilla.org/show_bug.cgi?id=1366672) - Page loading indicator
-    - Sent patches for new design of loading progress bar
+    - Patch merged
 
 * [Bug 1379552](https://bugzilla.mozilla.org/show_bug.cgi?id=1379552) - Title URL should be faded out in tail 
     - Looing for root cause
