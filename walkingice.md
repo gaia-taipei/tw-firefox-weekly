@@ -1,10 +1,11 @@
-# [W31] 07/31 - 08/04
+# [W32] 08/07 - 08/11
 
 ## Zerda
 
-* Implement a mediator for controlling fragments
-* Improve Floating-action-button visibiility logic and enable its function
-* Update search-input, include its visual and logic of visibility
+* Add vector drawable and use it in url-input
+* improve site-identity logic in url-input
+* change download logic, implement util functions for file operation between storage
+* fix HomeFragment, BrowserFragment interaction issue
 
 ## Android Fennec
 
