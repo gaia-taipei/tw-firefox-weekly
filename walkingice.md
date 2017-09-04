@@ -1,9 +1,12 @@
-# [W29] 07/17 - 07/21
+# [W30] 07/24 - 07/28
 
 ## Zerda
 
-* Code architecture discussion
-* To implement home screen UI
+* Improve basic home screen UI
+* Refactory MainActivity for fragment management logic
+* Modify UrlInputFragment to match our requirement
+* Impement basic Url bar UI for Zerda
+* change status bar color in run-time
 
 ## Android Fennec
 
