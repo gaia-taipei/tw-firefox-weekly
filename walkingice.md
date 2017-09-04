@@ -1,17 +1,14 @@
-# [W34] 08/21 - 08/25
+# [W35] 08/28 - 09/01
 
 ## Zerda
 
-* Update progress bar from upstream - my project
-* To get file picker working for file uploading
-* Implement move-to-sd-card function for file downloading
+* Implement BroadcastReceiver and Service for file-moving
+* Change logic for warning message of file-moving
+* Implement basic error page for connection-error
 
 ## Android Fennec
 
 * Review patches for Photon
-
-* [Bug 1366672](https://bugzilla.mozilla.org/show_bug.cgi?id=1366672) - Page loading indicator
-    - Patch merged
 
 * [Bug 1379552](https://bugzilla.mozilla.org/show_bug.cgi?id=1379552) - Title URL should be faded out in tail 
     - Looing for root cause
