@@ -1,28 +1,30 @@
 Zerda
 =============
 
-Feature: Search
--------------
-* [Issue 391](https://github.com/mozilla-tw/Zerda/issues/391) - Implement Search suggestion based on user's search engine
-  * Merged [Pull Request 392](https://github.com/mozilla-tw/Zerda/pull/392) - Finetune search suggestion
+* Merged [Pull Request 419](https://github.com/mozilla-tw/Zerda/pull/419) - Finetune refresh when toggle changed
 
-* [Issue 387](https://github.com/mozilla-tw/Zerda/issues/387) - Implement Auto Complete
-  * Merged [Pull Request 389](https://github.com/mozilla-tw/Zerda/pull/389) - Add domain autocomplete
+* Merged [Pull Request 441](https://github.com/mozilla-tw/Zerda/pull/441) - Default blocking resources matching items in other tracker list to off
 
-P0 / Crash / Architectural P1 bugs
--------------
-* [Issue 415](https://github.com/mozilla-tw/Zerda/issues/415) - Speed mode and block image state should be shown
-  * Merged [Pull Request 416](https://github.com/mozilla-tw/Zerda/pull/416) - Update menu toggle state
+* Merged [Pull Request 442](https://github.com/mozilla-tw/Zerda/pull/442) - Rename `Speed Mode` to `Turbo Mode`
 
-* [Issue 268](https://github.com/mozilla-tw/Zerda/issues/268) - menu bar buttons needs to be rearranged
-  * Merged [Pull Request 404](https://github.com/mozilla-tw/Zerda/pull/404) - Provide a different bottom menu layout for small device
+* Merged [Pull Request 445](https://github.com/mozilla-tw/Zerda/pull/445) - Hide menu and show snackbar when toggle is switched
 
-* [Issue 173](https://github.com/mozilla-tw/Zerda/issues/173) - [dogfooding] to gray out back and forward buttons according to current status
-  * Merged [Pull Request 403](https://github.com/mozilla-tw/Zerda/pull/403) - Disable buttons
+* Merged [Pull Request 464](https://github.com/mozilla-tw/Zerda/pull/464) - Fix when exception is fired during saving captured screenshot is treated as a success
 
-* [Issue 322](https://github.com/mozilla-tw/Zerda/issues/322) - [Smoke test] Buttons from the buttom is overlapped with menu bar
-  * Merged [Pull Request 399](https://github.com/mozilla-tw/Zerda/pull/399) - Disable urlbar hiding
+* Merged [Pull Request 468](https://github.com/mozilla-tw/Zerda/pull/468) - Avoid using setTargetFragment() since it is crashing when we're resuming
   
+* Merged [Pull Request 484](https://github.com/mozilla-tw/Zerda/pull/484) - Save screenshot to removable storage if needed and possible 
+
+* Merged [Pull Request 493](https://github.com/mozilla-tw/Zerda/pull/493) - Use new launcher icon
+  
+* Merged [Pull Request 508](https://github.com/mozilla-tw/Zerda/pull/508) - Add background for BrowserFragment
+
 Pull request reviews
 -------------
-  * Reviewed [Pull Request 370](https://github.com/mozilla-tw/Zerda/pull/370) - Implement Speed Mode by enabling tracker blockingbrowser blocking
+* Reviewed [Pull Request 434](https://github.com/mozilla-tw/Zerda/pull/434) - fix #390 : Enable DOM storage and can delete all storage data when click "Clear cache"
+
+* Reviewed [Pull Request 481](https://github.com/mozilla-tw/Zerda/pull/481) - Ann/download
+  
+* Reviewed [Pull Request 514](https://github.com/mozilla-tw/Zerda/pull/514) - Max/feature/screenshot animation
+  
+* Reviewed [Pull Request 539](https://github.com/mozilla-tw/Zerda/pull/539) - Fix screenshot list item should have border with it
