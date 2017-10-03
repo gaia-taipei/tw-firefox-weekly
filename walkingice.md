@@ -1,9 +1,10 @@
-# [W29] 07/17 - 07/21
+# [W35] 08/28 - 09/01
 
 ## Zerda
 
-* Code architecture discussion
-* To implement home screen UI
+* Implement BroadcastReceiver and Service for file-moving
+* Change logic for warning message of file-moving
+* Implement basic error page for connection-error
 
 ## Android Fennec
 
