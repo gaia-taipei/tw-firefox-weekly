@@ -1,60 +1,37 @@
 Zerda
 =============
 
-Feature
--------------
-* [Issue 46](https://github.com/mozilla-tw/Zerda/issues/46) - [Function] Search
-  * WIP
-  * Studied Fennec search suggestion
+* Merged [Pull Request 705](https://github.com/mozilla-tw/Zerda/pull/705) - Restore webview state and filter out unwanted onPageFinished()
 
-Feature: Bottom Sheet Architecure / Protocol
--------------
+* Merged [Pull Request 711](https://github.com/mozilla-tw/Zerda/pull/711) - Rename screenshot folder
 
-* [Issue 256](https://github.com/mozilla-tw/Zerda/issues/256) - Tap on browsing history should close the panel automatically
-  * Merged [Pull Request 305](https://github.com/mozilla-tw/Zerda/pull/305) - Implement PanelFragment as a transaction to close ListPanelDialog from childrens
+* Merged [Pull Request 728](https://github.com/mozilla-tw/Zerda/pull/728) - Fix exist() check is checked aginst wrong path
 
-* [Issue 293](https://github.com/mozilla-tw/Zerda/issues/293) - [Smoke Test] Unable to switch to Screenshots tab
-  * Merged [Pull Request 304](https://github.com/mozilla-tw/Zerda/pull/304) - Add temporary empty fragment as a placeholder for screenshot list
+* Merged [Pull Request 759](https://github.com/mozilla-tw/Zerda/pull/759) - Fix incorrect theme for bottomsheets
 
-* [Issue 279](https://github.com/mozilla-tw/Zerda/issues/279) - [dogfooding] no fling effect on bottom sheet
-  * Merged [Pull Request 299](https://github.com/mozilla-tw/Zerda/pull/299) - Block recyclerview nestedScrolling to enable fling.
+* Merged [Pull Request 768](https://github.com/mozilla-tw/Zerda/pull/768- Make menu canceled when clicked outside again
 
-* [Issue 281](https://github.com/mozilla-tw/Zerda/issues/281) - Align tab to UI spec
-  * Merged [Pull Request 303](https://github.com/mozilla-tw/Zerda/pull/303) - Align panel tab UI with spec.
+* Merged [Pull Request 770](https://github.com/mozilla-tw/Zerda/pull/770) - Search suggestions should rely on userinput but not autocompleted texts
 
-* [Issue 273](https://github.com/mozilla-tw/Zerda/issues/273) - [dogfooding] Full page history list will have white background in the top
-  * Merged [Pull Request 301](https://github.com/mozilla-tw/Zerda/pull/301) - Remove redundant white backgrounds in Browsing History widgets
+* Merged [Pull Request 798](https://github.com/mozilla-tw/Zerda/pull/798) - Notify TrackingProtectionWebViewClient when turbomode is toggled
 
-* [Issue 210](https://github.com/mozilla-tw/Zerda/issues/210) - Move History From own Activity to the shared ListPanelDialog panel
-  * Merged [Pull Request 231](https://github.com/mozilla-tw/Zerda/pull/231) - Merge history into panel
-
-* [Issue 238](https://github.com/mozilla-tw/Zerda/issues/238) - Gap between keyboard and website
-  * Merged [Pull Request 287](https://github.com/mozilla-tw/Zerda/pull/287) - Truncate the Webview margin for toolbar when keyboard is shown
-
-P0 / Crash / Architectural P1 bugs
+Pull request reviews
 -------------
 
-* [Issue 316](https://github.com/mozilla-tw/Zerda/issues/316), [Issue 317](https://github.com/mozilla-tw/Zerda/issues/317), [Issue 318](https://github.com/mozilla-tw/Zerda/issues/318), [Issue 319](https://github.com/mozilla-tw/Zerda/issues/319) - Buddybuild crash report on build #417
-  * Merged [Pull Request 320](https://github.com/mozilla-tw/Zerda/pull/320) - Add empty handler for three unlisted buttons
+* Reviewed [Pull Request 694](https://github.com/mozilla-tw/Zerda/pull/694) - Add HomePanel swipe gesture
 
-* [Issue 312](https://github.com/mozilla-tw/Zerda/issues/312) - icons in menu / panel does not have color on 5.0 devices
-  * Merged [Pull Request 313](https://github.com/mozilla-tw/Zerda/pull/313) - Avoid using the API23 attribute drawableTint
+* Reviewed [Pull Request 706](https://github.com/mozilla-tw/Zerda/pull/706) - add setting clear cache function
+  
+* Reviewed [Pull Request 738](https://github.com/mozilla-tw/Zerda/pull/738) - fix #732: Block image -> Block images
+  
+* Reviewed [Pull Request 746](https://github.com/mozilla-tw/Zerda/pull/746) - Refresh website after toggling block image.
 
-* [Issue 308](https://github.com/mozilla-tw/Zerda/issues/308) - Zerda is crashing Gmail and some other Apps.
-  * Merged [Pull Request 311](https://github.com/mozilla-tw/Zerda/pull/311) - Disable Custom Tab Service completely
+* Reviewed [Pull Request 747](https://github.com/mozilla-tw/Zerda/pull/747) - Remove screenshot viewer info dialog list item default background.tapping download tab quickly.
 
-* [Issue 238](https://github.com/mozilla-tw/Zerda/issues/238) - Gap between keyboard and website
-  * Merged [Pull Request 291](https://github.com/mozilla-tw/Zerda/pull/291) - Restore marginBottom to original value after keyboard is dismissed
+* Reviewed [Pull Request 750](https://github.com/mozilla-tw/Zerda/pull/750) - Fix deleting 4 top sites make other elements slide down a little on s…
+  
+* Reviewed [Pull Request 754](https://github.com/mozilla-tw/Zerda/pull/754) - Fix no top site background color for 5.0 devices
+  
+* Reviewed [Pull Request 757](https://github.com/mozilla-tw/Zerda/pull/757) - logic: change file name of the sreenshot
 
-* [Issue 166](https://github.com/mozilla-tw/Zerda/issues/166), [Issue 255](https://github.com/mozilla-tw/Zerda/issues/255) - WebView resolution is larger than visible area
-  * Merged [Pull Request 263](https://github.com/mozilla-tw/Zerda/pull/263) - Changing webview padding to reflect to new menu bar design
-
-* [Issue 230](https://github.com/mozilla-tw/Zerda/issues/230) - Buddybuild crash report on build #303
-  * Merged [Pull Request 235](https://github.com/mozilla-tw/Zerda/pull/235) - Fix bug #230
-  * Merged [Pull Request 246](https://github.com/mozilla-tw/Zerda/pull/246) - Implement `safeForFragmentTransactions` flag (was `afterResume`) in a safer manner
-
-* [Issue 253](https://github.com/mozilla-tw/Zerda/issues/253) - Missing onClick() for Menu/Download
-  * Merged [Pull Request 254](https://github.com/mozilla-tw/Zerda/pull/254) - Add onClick() for Download button in menu
-
-* [Issue 198](https://github.com/mozilla-tw/Zerda/issues/198) - Long page screenshot is not immediately shown in the Galleries.
-  * Merged [Pull Request 225](https://github.com/mozilla-tw/Zerda/pull/225) - Change to correct parameter sequence in .scanFile()
+* Reviewed [Pull Request 795](https://github.com/mozilla-tw/Zerda/pull/795) - logic: Improve title guessing from domain
