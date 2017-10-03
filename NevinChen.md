@@ -1,73 +1,90 @@
-## 7/3~ 7/14
-# Photon
-
-- [Bug 1366674](https://bugzilla.mozilla.org/show_bug.cgi?id=1366674) - (photon) Indicator on splash screen when first time open
-    - r+ & landed	
-
-- [Bug 1366680](https://bugzilla.mozilla.org/show_bug.cgi?id=1366680) - (photon) Tab tray UI refresh and consistency
-    - WIP. Design Changed.
-
-- [Bug 1366674](https://bugzilla.mozilla.org/show_bug.cgi?id=1366674) - (photon) Indicator on splash screen when first time openasdasd
-    - r+ & landed	
-
-- [Bug 1366674](https://bugzilla.mozilla.org/show_bug.cgi?id=1366674) - (photon) Indicator on splash screen when first time open
-    - r+ & landed	    
-
-
-# LeanPlum
-- [Bug 1368629](https://bugzilla.mozilla.org/show_bug.cgi?id=1368629) - Add histogram for Leanplum usage
-    - r? sebastian
-   
-- [Bug 1374630](https://bugzilla.mozilla.org/show_bug.cgi?id=1374630) - (Leanplum) Campaign : Open New Tab promote New Tab Setting
-    - r+ & landed
-
-- [Bug 1374889](https://bugzilla.mozilla.org/show_bug.cgi?id=1368629) - (Leanplum) Campaign : Log in to FxA - Default Browser Promotion
-    - r+ & landed
-
-- [Bug 1376690](https://bugzilla.mozilla.org/show_bug.cgi?id=1376690) - (Leanplum) Disable Leanplum when users are using private mode.
-    - r+ & landed
-
-- [Bug 1379595](https://bugzilla.mozilla.org/show_bug.cgi?id=1379595) - (Leanplum) Campaign : Launch app - Add-ons promotion.
-    - invalid
-    
-- [Bug 1366664](https://bugzilla.mozilla.org/show_bug.cgi?id=1366664) - (photon) (baseline) New onboarding experience to reflect the new look.
-    - WIP. waiting for UX input
-
-- [Bug 1366664](https://bugzilla.mozilla.org/show_bug.cgi?id=1366664) - Separate Leanplum Nightly and Beta app_id and access_key
+# 8/21 ~ 9/3
+## Photon 
+- [Bug 1390950 	](https://bugzilla.mozilla.org/show_bug.cgi?id=1390950) - (photon) Update brand name string for onboarding 
     - r+ & landed
     
-# Telemetry    
-# Partner Distribution
-# PWA
-# Reader Mode
-# Full Screen
-- [Bug 1356596](https://bugzilla.mozilla.org/show_bug.cgi?id=1356596) - Spoof page in full screen mode Firefox Android with "scroll"
+- [Bug 1392917](https://bugzilla.mozilla.org/show_bug.cgi?id=1392917) - Bug fixing for photon onboarding 
+    - r+ & landed
+
+- [Bug 1394361](https://bugzilla.mozilla.org/show_bug.cgi?id=1394361) - (photon) tab title is cropped and not align to close button
+    - r+ & landed
+    
+- [Bug 1391342](https://bugzilla.mozilla.org/show_bug.cgi?id=1391342) - 
+Toolbar can get stuck partially-visible when focusing a text field in fullscreen mode
+    - r+ 1/2
+    
+## MMA
+- [Bug 1392224](https://bugzilla.mozilla.org/show_bug.cgi?id=1392224) - Make Fennec the default handler for Leanplum Push Notification 
+    - r+ & landed
+    
+- [Bug 1392542](https://bugzilla.mozilla.org/show_bug.cgi?id=1392542) - [Leanplum] Add a new trigger for App Start 
+    - r+ & landed
+
+- [Bug 1392545](https://bugzilla.mozilla.org/show_bug.cgi?id=1392545) - [Leanplum] Add user attribute for Pocket installation
+    - r+ & landed
+
+- [Bug 1395641](https://bugzilla.mozilla.org/show_bug.cgi?id=1395641) - Make MMA GCM Sender ID configurable on Nightly
+    - r+ & landed
+    
+## Telemetry    
+## Partner Distribution
+## PWA
+- [Bug 	1393672](	1393672) - PWA Page Action and Onboarding
     - WIP
-
-# General
-
-- [Bug 1377742](https://bugzilla.mozilla.org/show_bug.cgi?id=1377742) - about:rights shows XML parsing error
+    
+- [Bug 1394356](https://bugzilla.mozilla.org/show_bug.cgi?id=1394356) - [Android O] Temporary disable "Add to Home screen" before we upgrade to API Level 25
+     - r+ & landed
+ 
+## Reader Mode
+## Full Screen
+- [Bug 1356596](https://bugzilla.mozilla.org/show_bug.cgi?id=1356596) - Sec 
     - r+ & landed
+    
+- [Bug 1394347](https://bugzilla.mozilla.org/show_bug.cgi?id=1394347) - Change the string when entering full screen (Beta only) 
+    - r+ & landed
+    
+## General
 
 - [Bug 1377819](https://bugzilla.mozilla.org/show_bug.cgi?id=1377819) - Crash in java.lang.ClassCastException: interface org.mozilla.gecko.tabs.TabsPanel$TabsLayout cannot be cast to android.view.View at java.lang.Class.asSubclass(Class.java)
-    - WIP
+    - WIP. Trace AOSP
 
+  
+
+# Pause
+
+## General
+- [Bug 1357377](https://bugzilla.mozilla.org/show_bug.cgi?id=1352133) - Sec
+    - WIP
+    
+
+## Crash
 - [Bug 1352133](https://bugzilla.mozilla.org/show_bug.cgi?id=1352133) - Crash in java.lang.NullPointerException: Attempt to invoke virtual method ''java.lang.String org.mozilla.gecko.Tab.getMostRecentHomePanel()'' on a null object reference at org.mozilla.gecko.BrowserApp.hideBrowserSearch(BrowserApp.java)
     - r?sebastian
 
-- [Bug 1357377](https://bugzilla.mozilla.org/show_bug.cgi?id=1352133) - Sec
-    - r?dveditz
-    
-- [Bug 1378445](https://bugzilla.mozilla.org/show_bug.cgi?id=1378445) - notifications on firefox for android are silent    
-    - r+ & landed
-
-- [Bug 1378445](https://bugzilla.mozilla.org/show_bug.cgi?id=1378445) - Clicking on some links in about:firefox doesn't do anything
-   - WIP
-
-## Pause
-# DLC
+## DLC
 - [Bug 1353334](https://bugzilla.mozilla.org/show_bug.cgi?id=1353334) - Modify DownloadAction to handle language resources
     - WIP
     
 - [Bug 1347802](https://bugzilla.mozilla.org/show_bug.cgi?id=1347802) - Hook DLC into L10nRegistry for downloading language resources
     - WIP
+    
+- [Bug 1368629](https://bugzilla.mozilla.org/show_bug.cgi?id=1368629) - Add histogram for Leanplum usage
+    - r? sebastian
+## MMA
+- [Bug 1380854](https://bugzilla.mozilla.org/show_bug.cgi?id=1380854) - NEW	Drop an event when User signs in / signs up for FxA 
+    - WIP
+
+- [Bug 1386192](https://bugzilla.mozilla.org/show_bug.cgi?id=1386192) - Test Leanplum Custom Message for Onborading
+    - POC, will continue after 57
+    
+- [Bug 1385853](https://bugzilla.mozilla.org/show_bug.cgi?id=1385853) - [LeanPlum] - Default browser is still triggered if app was set as default from another app
+    - WIP
+    
+- [Bug 1385819](https://bugzilla.mozilla.org/show_bug.cgi?id=1385819) - [LeanPlum] Focus promotion still displayed after installing Focus
+    - WIP       
+
+- [Bug 1390454](https://bugzilla.mozilla.org/show_bug.cgi?id=1390454) - Update Leanplum SDK for Banner
+    - WIP
+    
+
+
