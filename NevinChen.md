@@ -1,3 +1,63 @@
+# 10/26 ~ 11/25
+Leanplum
+-	1421149	[PWA] Icons in the "Add to Home screen" overlay should not have outline & dropshadow - r+landed
+-	1419245	A2HS badge is shown on site with broken HTTPS - r?walkingice
+-	1421946	Make Switchboard accept duplicated experiment names - landed
+-	1420055	[Leanplum] Drop an event when user finish first run on-boarding. - landed
+-	1418193	[Leanplum] Display device id in about:config for easy debugging - landed
+-	1380950	(Leanplum) Deeplinks should not be triggered through content or other apps - landed
+-	1411064	Expand Leanplum to deu and zho locales - landed
+
+
+GeckoView / PWA / Custom Tab
+-	1405236	Custom Tabs Switch under Settings -> General - landed
+-	1403566	Web Apps - Login auto-complete isn't working, with multiple logins saved  - landed
+-	1419320	PWA - icon and onboarding image update - wip
+-	1409264	PWA Badge and Onboarding - Should we hide the badge when the web site is already added ? - open
+-	1390454	Apply Banner fix for Leanplum SDK - landed
+-	1409303	Enable PWA by default - landed
+-	1410343	PWA Badge and Onboarding - Improve pre-fetch/install Manifest mechanism - open
+-	1409191	The "Add to home screen" prompt doesn't appear to use manifest values - landed
+
+
+Testing
+-	1417255	Use Espresso for UI Testing - wip
+-	1420346	[Errno 61] Connection refused when running robocop test - invalide
+
+
+General
+-	1422266	Replace Google Play Service dependency used by Adjust SDK - WIP
+-	1421859	Notification area icon uses old shape - file
+-	1411827	Crash in java.lang.NullPointerException: Attempt to invoke interface method ''android.view.MenuItem android.view.MenuItem.setChecked(boolean)'' on a null object reference at org.mozilla.gecko.BrowserApp.onPrepareOptionsMenu(BrowserApp.java) (Android O) - invalid
+-	1366629	When clicking on a label attached in Gallery or Photos and Camera to a File Upload field, it no longer works to upload a file. - open
+-	1286698	Distribution leaks a Context - open
+-	1401444	write front end test for PWA - open
+-	1402805	Create test for install app shortcut - dup
+-	1397174	Fix scale issue for icons like AdaptiveIconDrawable in Android O - open
+-	1372040	Make Fennec support AdaptiveIconDrawable in Android O - open 
+-	1322973	Adding YouTube as a search engine after opening a video does not work properly - open
+-	1377819	Crash in java.lang.ClassCastException: interface org.mozilla.gecko.tabs.TabsPanel$TabsLayout cannot be cast to android.view.View at java.lang.Class.asSubclass(Class.java) - closed
+-	1357377	Limit intent filters and check incoming intents against whitelist - open
+-	1392538	Remove unused Kinto settings - landed
+-	1382589	Enable hyphenation dictionary runtime download - open
+-	1413240	Support webext language packs in Fennec - wip
+-	1399014	Allow 'enable tracking protection in normal browsing' for release and beta channel. - landed
+-	1413520	Telemetry data upload disabled in about:telemetry - open
+
+Bookmark
+-	1413114	Enable Fennec Bookmark Management - landed
+-	1411607	Should hide Experimental features section when there are no experiments - landed
+-	1421174	Remove old AddToHomeScreenPromotion - open
+-	1412823	Fennec Bookmark Management: wrong message displayed when removing folders - landed
+
+
+Photon
+-	1398362	(Photon) Image/logo size in onboarding screen is incorrect on API 16 & 17 - landed
+-	1410338	[Photon] Incorrect color for History Panel message - landed
+
+
+
+
 # 10/6 ~ 10/25
 Leanplum
 - 1390454	Update Leanplum SDK for Banner	not in sprint, 
