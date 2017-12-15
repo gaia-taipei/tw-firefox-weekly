@@ -6,15 +6,12 @@
 
 Telemetry (follow-up to Photon 57)
 
-* Could query daily overlay usage by new/update user in v57 (done)
-  - https//sql.telemetry.mozilla.org/queries/48942
+* Could [query daily overlay usage by new/update user](https//sql.telemetry.mozilla.org/queries/48942) in v57 (done)
   - Bug 1389424 - Integrate ping-centre in onboarding addon to send ping events
   - Bug 1412164 - add new tour_type and timestamp column for onboarding telemetry
 
-* Discuss new requirements with PM/UX/ENG (done)
-  - https://docs.google.com/spreadsheets/d/1BQzncwklWZvvkLtbLaYO2unMG3Tw9LQX-c6XXqmYTUo/edit#gid=1665623309
-* Get consensus for the new telemetry events/columns (done)
-  - https://docs.google.com/spreadsheets/d/1BQzncwklWZvvkLtbLaYO2unMG3Tw9LQX-c6XXqmYTUo/edit#gid=1665623309
+* Discuss [new requirements](https://docs.google.com/spreadsheets/d/1BQzncwklWZvvkLtbLaYO2unMG3Tw9LQX-c6XXqmYTUo/edit#gid=1665623309) with PM/UX/ENG (done)
+* Get consensus for the [new telemetry events/columns](https://docs.google.com/spreadsheets/d/1BQzncwklWZvvkLtbLaYO2unMG3Tw9LQX-c6XXqmYTUo/edit#gid=1665623309) (done)
 * Coordinate the data review/server side table update (done)
 * Task breakdown and implement onboarding new telemetry (P1/P2, wip)
     * Bug 1418191 - Should not send the CTA telemetry event ping when tours have no CTA button (r+ & landed)
@@ -24,29 +21,27 @@ Telemetry (follow-up to Photon 57)
       - PR ready
     * Bug 1413830 - Data schema change got data review
       - data review+
+      - server side table created
       - r?
 
-* Help Cindy(PM) build the redash board, update queries to do meaningful analytics (done)
-  - https://sql.telemetry.mozilla.org/dashboard/onboarding
+* Help Cindy(PM) build the [redash board](https://sql.telemetry.mozilla.org/dashboard/onboarding), update queries to do meaningful analytics (done)
 
 Modularization
 
-*  Discuss requirements with PM and UX & evaluate the efforts (done)
-  - https://docs.google.com/document/d/1LYx_zy2c4eibwdikxx1IJIv7R-dDqJhwxJ8M9pOw5C4/edit
+*  Discuss [requirements](https://docs.google.com/document/d/1LYx_zy2c4eibwdikxx1IJIv7R-dDqJhwxJ8M9pOw5C4/edit
+) with PM and UX & evaluate the efforts (done)
 * Implemented related Modularization features and document them  (done)
   - Bug 1404193 - make Onboarding more configurable
   - Bug 1404193 - enable customizable logo, speech bubble string, and hide the skip button
   - Bug 1409977 - mark Onboarding tour will set as completed instantly via dataset
   - https://github.com/mozilla/gecko-dev/tree/master/browser/extensions/onboarding#customizable-preferences
-* Cindy agreed we have completed modulization goal for Q4 (allow pref flipping on onboarding elements) (done)
-  - https://docs.google.com/document/d/1LYx_zy2c4eibwdikxx1IJIv7R-dDqJhwxJ8M9pOw5C4/edit?disco=AAAABam-VgY
+* Cindy [agreed](https://docs.google.com/document/d/1LYx_zy2c4eibwdikxx1IJIv7R-dDqJhwxJ8M9pOw5C4/edit?disco=AAAABam-VgY) we have completed modulization goal for Q4 (allow pref flipping on onboarding elements) (done)
 * Come out the proposal to use goFaster for modulization phase II (allow update layout/cta actions off cycle) (wip)
 
 
 Shield studies as needed
 
-* DIscuss with PM & UX to clarify the experiment priority and the required customization - chosen to do the onboarding notification experiment (done)
-  - https://docs.google.com/document/d/1-czDviCKbNIlyHpkuwKm_nz8_GJ8VRRcJ4fjImr_XHU/edit
+* DIscuss with PM & UX to [clarify the experiment priority and the required customization](https://docs.google.com/document/d/1-czDviCKbNIlyHpkuwKm_nz8_GJ8VRRcJ4fjImr_XHU/edit) - chosen to do the onboarding notification experiment (done)
 * Evaluate several experiment possibilities (perf flip, shield study) and choose shield study to fulfill UX requirement to flip the pref within the first 5 minutes (done)
 * Create v57 compatible shield study addon for the experiment (done)
   - https://github.com/mozilla/shield-onboarding/
