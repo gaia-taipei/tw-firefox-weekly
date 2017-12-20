@@ -13,17 +13,16 @@ Telemetry (follow-up to Photon 57)
 * Discuss [new requirements](https://docs.google.com/spreadsheets/d/1BQzncwklWZvvkLtbLaYO2unMG3Tw9LQX-c6XXqmYTUo/edit#gid=1665623309) with PM/UX/ENG (done)
 * Get consensus for the [new telemetry events/columns](https://docs.google.com/spreadsheets/d/1BQzncwklWZvvkLtbLaYO2unMG3Tw9LQX-c6XXqmYTUo/edit#gid=1665623309) (done)
 * Coordinate the data review/server side table update (done)
-* Task breakdown and implement onboarding new telemetry (P1/P2, wip)
+* Task breakdown and implement onboarding new telemetry (P1/P2, wait for review)
     * Bug 1418191 - Should not send the CTA telemetry event ping when tours have no CTA button (r+ & landed)
     * Bug 1418167 - validate data before send for onboarding telemetry (r+ & landed)
-    * Bug 1417769 - collect onboarding-noshow-smallscreen and overlay-disapear-resize event for onboarding telemetry
-      - data review+
-      - PR ready
     * Bug 1413830 - Data schema change got data review
       - data review+
       - server side table created
       - r?
-
+    * Bug 1417769 - collect onboarding-noshow-smallscreen and overlay-disapear-resize event for onboarding telemetry
+      - data review+
+      - PR ready
 * Help Cindy(PM) build the [redash board](https://sql.telemetry.mozilla.org/dashboard/onboarding), update queries to do meaningful analytics (done)
 
 Modularization
@@ -36,7 +35,7 @@ Modularization
   - Bug 1409977 - mark Onboarding tour will set as completed instantly via dataset
   - https://github.com/mozilla/gecko-dev/tree/master/browser/extensions/onboarding#customizable-preferences
 * Cindy [agreed](https://docs.google.com/document/d/1LYx_zy2c4eibwdikxx1IJIv7R-dDqJhwxJ8M9pOw5C4/edit?disco=AAAABam-VgY) we have completed modulization goal for Q4 (allow pref flipping on onboarding elements) (done)
-* Come out the proposal to use goFaster for modulization phase II (allow update layout/cta actions off cycle) (wip)
+* Come out the proposal to use goFaster for modulization phase II (allow update layout/cta actions off cycle) (https://docs.google.com/a/mozilla.com/document/d/1xiYF4SDZBYMn5ViQl1dWnVN96UJNEYuNztPyVakaEug/edit?usp=sharing)
 
 
 Shield studies as needed
@@ -69,7 +68,7 @@ The effors includes
 * Make patches
  - Bug 1408737 - Upgrade reselect in Devtools shared libraries
  - Bug 1404929 - Security info should be loaded lazily, -13% for simple.requestsFinished, -4.7% for complicate.requestsFinished cases
- - Bug 1411855 remove unused and no inline function in toolbar
+ - Bug 1411855 - remove unused and no inline function in toolbar
  - Bug 1386184 - wait all transition end before redirect
  - Bug 1419401 - HTTP status code is missing in raw response headers display
 
