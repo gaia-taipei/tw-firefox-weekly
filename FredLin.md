@@ -49,7 +49,7 @@ Shield studies as needed
 
 ### Devtools#Netmonitor.html
 
-- performance
+#### Improve performance
 
 ![Imgur](https://i.imgur.com/RZBavjh.png)
 We reduced Requests finished time from 9.6s -> 6.7s (from 11/10 to day) for complicated requests (~200 requests)
@@ -60,18 +60,14 @@ We reduced Requests finished time from 9.6s -> 6.7s (from 11/10 to day) for comp
 The effors includes
 
 * run damp tests on tree herder to experiment potertial perf issues, validate and file related bugs
- - test shouldComponentUpdate for SearchBox
- - remove transform in waterfall and do the damp test
- - connect width directly to the waterfall column
- - track reselect recount number via damp
+* found all react component get update when new request is received and file Bug 1411852, test thoroughly and review the fix in Bug 1416194 shouldComponentUpdate for SearchBox
+* Bug 1408737 - Upgrade reselect in Devtools shared libraries (-3~6% for simple.requestsFinished time)
+Experiment lazy load security info panel could -13% for simple.requestsFinished, -4.7% for complicate.requestsFinished time, fixed in   * Bug 1404929 - Security info should be loaded lazily
+Experiment removing content size or transferred size by default can -7% for complicate.requestsFinished time, in discussion the proper treatment in Bug 1421926 - Show one of content size or transferred size by default to reduce the requestsFinished time
 
-Make patches
- - Bug 1408737 - Upgrade reselect in Devtools shared libraries
- - Bug 1404929 - Security info should be loaded lazily, -13% for simple.requestsFinished, -4.7% for complicate.requestsFinished cases
- - Bug 1411855 - remove unused and no inline function in toolbar
- - Bug 1419401 - HTTP status code is missing in raw response headers display
+#### Community Engagement
 
-Mentor bugs
+File and mentor 10 good first bugs
  - Bug 1409651 - Fix security side panel color in netmonitor
  - Bug 1407561 - Lazy loading of tooltip text when user hovers the status column
  - Bug 1407550 - Cache L10N values in security-panel
@@ -82,3 +78,5 @@ Mentor bugs
 file cache l10n string bugs
  - Bug 1406312 - Lazy loading of tooltip text on hover in Waterfall Timing boxes.
  - Bug 1404130- Cache L10N values to improve status bar
+ - Bug 1425036 - Show "response message without body" instead of "response headers" for raw header response title
+ 
