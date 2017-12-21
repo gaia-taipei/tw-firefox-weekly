@@ -65,14 +65,13 @@ The effors includes
  - connect width directly to the waterfall column
  - track reselect recount number via damp
 
-* Make patches
+Make patches
  - Bug 1408737 - Upgrade reselect in Devtools shared libraries
  - Bug 1404929 - Security info should be loaded lazily, -13% for simple.requestsFinished, -4.7% for complicate.requestsFinished cases
  - Bug 1411855 - remove unused and no inline function in toolbar
- - Bug 1386184 - wait all transition end before redirect
  - Bug 1419401 - HTTP status code is missing in raw response headers display
 
-* Mentor bugs
+Mentor bugs
  - Bug 1409651 - Fix security side panel color in netmonitor
  - Bug 1407561 - Lazy loading of tooltip text when user hovers the status column
  - Bug 1407550 - Cache L10N values in security-panel
