@@ -1,3 +1,12 @@
+# 1/3 ~ 2/4
+-	Survey React Native with Native Android Studio repo : https://github.com/cnevinc/ReactNativeHybrid/tree/master
+-   Triage: Metrics. General, AwesomeSceen ~ 40 bugs
+-   1424179 A2HS badge is shown on site with broken HTTPS (Follow Up) - Uplift
+-   1419245 A2HS badge is shown on site with broken HTTPS - Uplift
+-   1417255	Use Espresso for UI Testing - r?maliu
+-   1423587 PWA with expired security certificate should open in browser - r?maliu
+
+
 # 10/26 ~ 11/25
 Leanplum
 -	1421149	[PWA] Icons in the "Add to Home screen" overlay should not have outline & dropshadow - r+landed
