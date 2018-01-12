@@ -1,4 +1,13 @@
-# 1/3 ~ 2/4
+# 1/8 ~ 2/12
+-   A/B Testing Survey https://docs.google.com/document/d/1oMSIboyLEF9iz_zztbXyCJToU6dSltDT5RvKVyPFu8g/edit?usp=sharing
+-   1417255	Use Espresso for UI Testing - r?maliu
+-   1427771	Blank screen when youtube exists from full-screen in custom tabs - ni?snorp
+-   1423587 PWA with expired security certificate should open in browser - landed
+-   1403754 Crash in java.lang.NullPointerException:  - r?maliu
+-   1405192 Crash in java.lang.IllegalStateException:  - r?maliu
+
+
+# 1/3 ~ 2/6
 -	Survey React Native with Native Android Studio repo : https://github.com/cnevinc/ReactNativeHybrid/tree/master
 -   Triage: Metrics. General, AwesomeSceen ~ 40 bugs
 -   1424179 A2HS badge is shown on site with broken HTTPS (Follow Up) - Uplift
