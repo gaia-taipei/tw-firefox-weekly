@@ -1,4 +1,4 @@
-# 1/8 ~ 2/12
+# 1/8 ~ 1/12
 -   A/B Testing Survey https://docs.google.com/document/d/1oMSIboyLEF9iz_zztbXyCJToU6dSltDT5RvKVyPFu8g/edit?usp=sharing
 -   1417255	Use Espresso for UI Testing - r?maliu
 -   1427771	Blank screen when youtube exists from full-screen in custom tabs - ni?snorp
