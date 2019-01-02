@@ -1,38 +1,41 @@
 [Open bugs assigned to me](https://bugzilla.mozilla.org/buglist.cgi?quicksearch=assignee%3Agasolin%40mozilla.com) (ASSIGNED = current working on; NEW = backlog)
 
-## 10/17 - 10/21
+## 4/17 ~ 4/21
 
-Devtools
+### Devtools#Netmonitor.html
 
 - netmonitor.html(deXUL netmonitor)
-  - Project summary in [Project document]
-  - Daily meetings, see [Meeting Notes]
-  - Start the project management process from Tuesday
+  - [on track](https://wiki.mozilla.org/DevTools/Netmonitor/Archive)
+  - progress:
+    - XUL to HTML (done) 
+    - Performance improvement (WIP)
+    - Refactor for running on browser tab (done)
+      - remove chrome privillege API
+      - wrap firefox specific code as module
+      - tracked in [bug 1348737](https://bugzilla.mozilla.org/show_bug.cgi?id=1348737)
+    - Host netmonitor.html on Github (The devtools repo will move to github at once)
 
-- Bug 1308500 - Migrate localization strings away from netmonitor.dtd
+- write netmonitor.html refactor post
+https://blog.gasolin.idv.tw/2017/03/28/current-progress-of-netmonitor-html/
+
+- Do performance analysis on bug 1350969
+
+- Bug 1356126 - Move column react component to separate files
   - r+ & landed
 
-- Bug 1311572 - Remove code associated with comments linking to bug 1265759
-  - r+ & landed
+- Bug 1356957 use promise.all to fetch request data in parallel
+  - r?
 
-- Bug 1311614 - Move CustomRequestView to its own module
-  - r+ & landed
-
-- Bug 1308440 - Migrate Net Panel Context Menu with framework/menu API in NetMonitor panel
-  - r+
-
-- Bug 1268444 - Convert network monitor to use new key shortcut API 
-  - r+
-
-- Bug 1309193 - Implement sidebar toggle button in Net Panel Toolbar
+- Bug 1356957 - combine double updateRequest call while receive event in _onNetworkEventUpdate
   - WIP
-
-- watch https://egghead.io/lessons/javascript-redux-react-counter-example 
 
 Review
 
-- Bug 1309191 - Implement clear/filter buttons for Net Panel Toolbar
-  - feedback+
+- [devtools-core] Remove unused moudles
+- [launchpad] fix menus
+- Bug 1349173 - Use div table layout to reduce reflow
+- Bug 1357447 - Lock down devtools-core package
 
-[Project document]: https://docs.google.com/document/d/19lyV04YtfX9X5ev2rhFeIuQPaVApgl8qdFpe4Rw4Np4/edit
-[Meeting Notes]: https://docs.google.com/document/d/1FneFiHkLMJjWFhFYI13IWlr02W5mCRsEqZQPUJHWmSU/edit#
+[Mana page]: https://mana.mozilla.org/wiki/display/PM/Netmonitor+Project+Update
+[Project Wiki]:  https://wiki.mozilla.org/DevTools/Netmonitor
+

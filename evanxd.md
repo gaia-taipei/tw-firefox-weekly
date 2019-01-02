@@ -1,25 +1,26 @@
-## 10/17 - 10/21 ##
+## 03/20 - 03/24 ##
 
 * [Firefox]
-  - QX
-    - Reader Mode
-      - Bug 1167568 - Reader View displays only the first part of specific articles from ehow.com
-        - Low priority, will work Bug 1177619 first.
-      - Bug 1177619 - Reader mode isn't offered on Blogger/Blogspot based blogs
-        - review?
-        - Updated the patch for review comments.
-        - Did performance experiment. The result is not good enough in our original benchmark tests(run on nodejs).
-        - Next step, we will run the performance test on gecko and need some code modification in mozilla-central.
-      - Bug 1310073 - Tests for wikipedia.org
-        - Cleaning up the HTML source code of the test webpage.
-      - Bug 1310074 - Tests for yahoo.com
-        - Cleaning up the HTML source code of the test webpage.
-      - Priority reader mode bugs
-        - https://public.etherpad-mozilla.org/p/reader-mode-priorities
-  - Location Bar
-    - Bug 1256074 - Always present a 'search' option, even location bar's contents are detected as URLs
-      - Updated the patch for revie comments
-      - Landed
-  - Fix Test
-    - Bug 1273871 - Intermittent passwordmgr/test/browser/browser_capture_doorhanger.js | This test exceeded the timeout threshold. It should be rewritten or split up. If that's not possible, use requestLongerTimeout(N), but only as a last resort.
-      - Need to find the root cause. Splitting up tests might not be the correct solution.
+  - Project Photon
+    - Plan the Preferences work
+      - Discussed the design spec with the UX designer.
+        - Mock-up for discussion: https://mozilla.invisionapp.com/share/5RA0R4HAE#/220667161_Reorg-Privacy_-_Security-Reorg_With_Permissions_1_Mac
+        - Search: https://mozilla.invisionapp.com/share/ZDAGPK3AF#/218928219_1-0_Cover
+        - Reorg: https://mozilla.invisionapp.com/share/P4ACQT1E3#/217167559_1-0_Cover
+      - Figured out what is blocking the preferences telemetry work and asked the status.
+        - The block bug: Bug 1335907 - Re-arrange sections in about:preferences according to updated spec
+        - https://bugzilla.mozilla.org/show_bug.cgi?id=1335907#c57
+      - Made of a breakdown of preferences telemetry work by the design spec.
+        - Bug 1330552 - [Telemetry User Story] Preference
+          - We will hav five main components to work.
+            - Bug 1350267 - Telemetry for General page
+              - Bug 1350284 - Telemetry for Performance settings section
+                - We need to make sure we have all about:config preferences for each (Quantum) performance setting. 
+            - Bug 1350268 - Telemetry for Downloads & Links page
+            - Bug 1350269 - Telemetry for Firefox Account page
+            - Bug 1350270 - Telemetry for Privacy & Security page
+            - Bug 1350272 - Telemetry for Updates page
+    - Figure out the OnBoarding work
+      - Bug 1332774 - Onboarding tour bar for Mar 2017 funnelcake
+        - Had a meeting, realized we will have a new design spec, and commented the situation.
+          - https://bugzilla.mozilla.org/show_bug.cgi?id=1332774#c21

@@ -1,6 +1,6 @@
 
-
 # TDC Bug list by Firefox Programs: #
+ - [TDC Resolved-Fixed for 53](https://mzl.la/2jugY7U)
  - [TDC Resolved-Fixed for 52](https://mzl.la/2egjTCj)
  - [TDC Resolved-Fixed for 51](https://mzl.la/2c6nX6V)
  - [TDC Resolved-Fixed for 50](http://mzl.la/1Ye2Sbk)
@@ -10,6 +10,10 @@
 # Firefox #
 - **_Content Handling_**
   - **Done**
+      - [Bug 812894](https://bugzilla.mozilla.org/show_bug.cgi?id=812894) - Shorten time strings, reduce padding and margin in the panel to reintroduce per item download speed - **_Sean Lee_**  
+      - [Bug 1282664](https://bugzilla.mozilla.org/show_bug.cgi?id=1282664) - Redesign the right-click menu for each item in downloads panel - **_Sean Lee_**
+      - [Bug 1269958](https://bugzilla.mozilla.org/show_bug.cgi?id=1269958) - Change the summary section for Multiple Files information in Downloads Panel - **_Sean Lee_**  
+      - [Bug 1022550](https://bugzilla.mozilla.org/show_bug.cgi?id=1022550) - Downloads panel's icons look disabled in High Contrast mode - **_Sean Lee_**
       - [Bug 1289139](https://bugzilla.mozilla.org/show_bug.cgi?id=1289139) - Use SVG for the button icons in the Downloads Panel - **_Sean Lee_**
       - [Bug 1304680](https://bugzilla.mozilla.org/show_bug.cgi?id=1304680) - browser_downloads_panel_footer.js | Test timed out - after beta uplift simulation - **_Sean Lee_**
       - [Bug 1299712](https://bugzilla.mozilla.org/show_bug.cgi?id=1299712) - Use a new downloadTypeIcon in Summary Section of Downloads Panel - **_Sean Lee_**
@@ -17,14 +21,26 @@
       - [Bug 1297657](https://bugzilla.mozilla.org/show_bug.cgi?id=1297657) - Correct the dropmarker design in Downloads Panel for RTL and plain style - **_Sean Lee_**
       - [Bug 1269962](https://bugzilla.mozilla.org/show_bug.cgi?id=1269962) - Implement the new features at "Show All Downloads" in Downloads panel. - **_Sean Lee_**
       - [Bug 1297039](https://bugzilla.mozilla.org/show_bug.cgi?id=1297039) - Implement the preference for showing dropmarker or not in Downloads Panel - **_Sean Lee_**
+      - [Bug 1269957](https://bugzilla.mozilla.org/show_bug.cgi?id=1269957) - Unify the spacing and change the number of maximum download items displayed - **_KM Lee_**
+      - [Bug 1301384](https://bugzilla.mozilla.org/show_bug.cgi?id=1301384) - Unify the spacing and the progress bar styling in the Downloads Panel across platforms - **_KM Lee_**
       - [Bug 950058](https://bugzilla.mozilla.org/show_bug.cgi?id=950058) - Split each download item so that all of the right part of it activates the action - **_KM Lee_**
       - [Bug 1282689](https://bugzilla.mozilla.org/show_bug.cgi?id=1282689) - Show an alert mark on badges if there are exceptional status to download files. - **_KM Lee_**
 
   - **Next**
-      - [Bug 1282664](https://bugzilla.mozilla.org/show_bug.cgi?id=1282664) - Redesign the right-click menu for each item in downloads panel - **_Sean Lee_**
-      - [Bug 1269958](https://bugzilla.mozilla.org/show_bug.cgi?id=1269958) - Change the summary section for Multiple Files information in Downloads Panel - **_Sean Lee_**
-      - [Bug 1301384](https://bugzilla.mozilla.org/show_bug.cgi?id=1301384) - Unify the spacing and the progress bar styling in the Downloads Panel across platforms - **_KM Lee_**
-      - [Bug 1269954](https://bugzilla.mozilla.org/show_bug.cgi?id=1269954) - Pop out download starting notification when a new download request is triggered - **_KM Lee_**
+      - [Bug 1282662](https://bugzilla.mozilla.org/show_bug.cgi?id=1282662) - Redesign the download status information for each hover-item in downloads panel - **_Sean Lee_** 
+      - [Bug 1320259](https://bugzilla.mozilla.org/show_bug.cgi?id=1320259) - Enable the dropmarker of Downloads Panel in all Firefox channels - **_Sean Lee_**
+      - [Bug 1270006](https://bugzilla.mozilla.org/show_bug.cgi?id=1270006) - Replace the downloads remaining time on the downloads button with a downloading icon - **_KM Lee_**
+      - [Bug 1270012](https://bugzilla.mozilla.org/show_bug.cgi?id=1270012) - Visual for download animation on download start whenever a download is started - **_KM Lee_**
+      - [Bug 1270014](https://bugzilla.mozilla.org/show_bug.cgi?id=1270014) - Show an alert icon on the downloads button when a download fails - **_KM Lee_**
+
+- **_Contextual Feedback_**
+  - **Done**
+      - [Bug 1325695](https://bugzilla.mozilla.org/show_bug.cgi?id=1325695) - Wrapping width of the insecure login field warning doesn't reflect the <input> width sometimes - **_Sean Lee_**  
+      - [Bug 1289913](https://bugzilla.mozilla.org/show_bug.cgi?id=1289913) - Show autocomplete UI on password fields - **_Sean Lee_**
+      - [Bug 1217162](https://bugzilla.mozilla.org/show_bug.cgi?id=1217162) - Implement Contextual Feedback on Insecure Passwords - **_Sean Lee_**
+
+  - **Next**
+      - [Bug 1317284](https://bugzilla.mozilla.org/show_bug.cgi?id=1317284) - Intermittent toolkit/components/passwordmgr/test/mochitest/test_password_field_autocomplete.html | Test timed out. - **_Sean Lee_**
 
 - **_Control Center_**
   - **Done** 
@@ -38,12 +54,15 @@
 
 - **_Date-time Picker_**
   - **Done**
+      - [Bug 1325922](https://bugzilla.mozilla.org/show_bug.cgi?id=1325922) - [DateTimePicker] Add arrows svg file and style month-year button for date picker - **_Scott Wu_**
+      - [Bug 1283385](https://bugzilla.mozilla.org/show_bug.cgi?id=1283385) - Implement UI for `<input type="date">` - **_Scott Wu_**
+      - [Bug 1315911](https://bugzilla.mozilla.org/show_bug.cgi?id=1315911) - [DateTimePicker] Disable time picker UI by making it pref-off by default - **_Scott Wu_**
+      - [Bug 1301284](https://bugzilla.mozilla.org/show_bug.cgi?id=1301284) - Update picker style to match the visual spec for 'input type=time' - **_Scott Wu_**
+      - [Bug 1283384](https://bugzilla.mozilla.org/show_bug.cgi?id=1283384) - Implement UI for `<input type="time">` - **_Scott Wu_**
       - [Bug 1306251](https://bugzilla.mozilla.org/show_bug.cgi?id=1306251) - Rename form validation anchor to a more generic name for better reuse - **_Scott Wu_**
 
   - **Next**
-      - [Bug 1301284](https://bugzilla.mozilla.org/show_bug.cgi?id=1301284) - Update picker style to match the visual spec for 'input type=time' - **_Scott Wu_**
-      - [Bug 1309471](https://bugzilla.mozilla.org/show_bug.cgi?id=1309471) - [DateTimePicker] Add browser chrome test for time picker - **_Scott Wu_**
-      - [Bug 1283384](https://bugzilla.mozilla.org/show_bug.cgi?id=1283384) - Implement UI for `<input type="time">` - **_Scott Wu_**
+      - [Bug 1320647](https://bugzilla.mozilla.org/show_bug.cgi?id=1320647) - [DateTimePicker] Add min/max and step support to date picker - **_Scott Wu_**
 
 - **_DevTools_**
   - **Done**
@@ -58,9 +77,7 @@
       - [Bug 1286892](https://bugzilla.mozilla.org/show_bug.cgi?id=1286892) - Inspector sidebar tabs now have a bigger font-size - **_Evan Tseng_**
       - [Bug 1260382](https://bugzilla.mozilla.org/show_bug.cgi?id=1260382) - Storage inspector incorrectly tries to parse invalid localStorage JSON values - **_Fischer Liu_**
       - [Bug 1264582](https://bugzilla.mozilla.org/show_bug.cgi?id=1264582) - Table headers are not removed when selecting an empty storage - **_Fischer Liu_**
-      - [Bug 1308500](https://bugzilla.mozilla.org/show_bug.cgi?id=1308500) - Migrate localization strings away from netmonitor.dtd - **_Fred Lin_**
-      - [Bug 1309796](https://bugzilla.mozilla.org/show_bug.cgi?id=1309796) - add eslint support for netmonitor - **_Fred Lin_**
-      - [Bug 1308503](https://bugzilla.mozilla.org/show_bug.cgi?id=1308503) - Migrate localization strings away from certManager.dtd - **_Fred Lin_**
+      - [Bug 1311572](https://bugzilla.mozilla.org/show_bug.cgi?id=1311572) - Remove code associated with comments linking to bug 1265759 - **_Fred Lin_**
       - [Bug 1292592](https://bugzilla.mozilla.org/show_bug.cgi?id=1292592) - sourceeditor uses xul - **_Fred Lin_**
       - [Bug 1304262](https://bugzilla.mozilla.org/show_bug.cgi?id=1304262) - Codemirror dialog does not work in inspector and scratchpad  - **_Fred Lin_**
       - [Bug 1291638](https://bugzilla.mozilla.org/show_bug.cgi?id=1291638) - change color theme of box-model view - **_Fred Lin_**
@@ -91,9 +108,7 @@
       - [Bug 1261133](https://bugzilla.mozilla.org/show_bug.cgi?id=1261133) - Style editor doesn't remove ".moz-styleeditor-transitioning" if I close it in the middle of transition, so there're infinite transitions - **_KM Lee_**
       - [Bug 1265686](https://bugzilla.mozilla.org/show_bug.cgi?id=1265686) - Add PgUp+PgDown+Home+End navigation in Performance Profiler treeview? - **_Luke Chang_**
       - [Bug 1263104](https://bugzilla.mozilla.org/show_bug.cgi?id=1263104) - Ctrl+F in Storage Inspector should open search - **_Luke Chang_**
-      - [Bug 1308878](https://bugzilla.mozilla.org/show_bug.cgi?id=1308878) - Implement minimal Redux store for Net panel - **_Ricky Chien_**
       - [Bug 1290437](http://bugzil.la/1290437) - Fix and land the console netlogging tests - **_Ricky Chien_**
-      - [Bug 1278923](https://bugzilla.mozilla.org/show_bug.cgi?id=1278923) - Exported HAR format is missing Content-Type and Content-Length headers - **_Ricky Chien_**
       - [Bug 1291618](https://bugzilla.mozilla.org/show_bug.cgi?id=1291618) - Fix dropmarker position of command-button-frames in RTL locales - **_Ricky Chien_**
       - [Bug 1102269](https://bugzilla.mozilla.org/show_bug.cgi?id=1102269) - [highlighter] infobar can be outside visible area - **_Ricky Chien_**
       - [Bug 1286283](https://bugzilla.mozilla.org/show_bug.cgi?id=1286283) - HTML ToolSidebar should support ARIA - **_Ricky Chien_**
@@ -122,55 +137,111 @@
       - [Bug 1285530](https://bugzilla.mozilla.org/show_bug.cgi?id=1285530) - Reps: Off by one error in grip-array max length - **_Steve Chung_**
 
   - **Next**
-      - [Bug 1308440](https://bugzilla.mozilla.org/show_bug.cgi?id=1308440) - Migrate Net Panel Context Menu with framework/menu API in NetMonitor panel - **_Fred Lin_**
-      - [Bug 1273871](https://bugzilla.mozilla.org/show_bug.cgi?id=1273871) - Intermittent passwordmgr/test/browser/browser_capture_doorhanger.js | This test exceeded the timeout threshold. It should be rewritten or split up. If that's not possible, use requestLongerTimeout(N), but only as a last resort.  - **_Steve Chung_**
+      - [Bug 1307892](https://bugzilla.mozilla.org/show_bug.cgi?id=1307892) - Support network event update messages #196 - **_Ricky Chien_**
       
 - **_Form Autofill_**
   - **Done**
-      - [Bug 1304322](https://bugzilla.mozilla.org/show_bug.cgi?id=1304322) - Refactor LoginStore.jsm to make it reusable for Form Autofill - **_Luke Chang_**
-
-  - **Next**
-     - [Bug 1309481](https://bugzilla.mozilla.org/show_bug.cgi?id=1309481) - Remove leftover code specific to Logins from JSONFile.jsm and add tests - **_Luke Chang_**
+     - [Bug 1300993](https://bugzilla.mozilla.org/show_bug.cgi?id=1300993) - Connect satchel autocomplete to form autofill results instead of form history when appropriate - **_Luke Chang_**  
+     - [Bug 1311256](https://bugzilla.mozilla.org/show_bug.cgi?id=1311256) - [jsplugins] requestFullscreen doesn't work in the plugin window - **_Luke Chang_**
      - [Bug 1300990](https://bugzilla.mozilla.org/show_bug.cgi?id=1300990) - Implement an API in the parent process to decide which values of an autofill profile would be filled in which field - **_Luke Chang_**
      - [Bug 1016733](https://bugzilla.mozilla.org/show_bug.cgi?id=1016733) - Implement form auto-fill profile storage - **_Luke Chang_**
-     - [Bug 1301544](https://bugzilla.mozilla.org/show_bug.cgi?id=1301544) - Define a schema and storage method for Form Autofill / Web Payment address profiles - **_Luke Chang_**
+     - [Bug 1309481](https://bugzilla.mozilla.org/show_bug.cgi?id=1309481) - Remove leftover code specific to Logins from JSONFile.jsm and add tests - **_Luke Chang_**
      - [Bug 1300988](https://bugzilla.mozilla.org/show_bug.cgi?id=1300988) - Implement an API in the content process to fill a form with a specific form autofill profile using @autocomplete - **_Steve Chung_**
+     - [Bug 1304322](https://bugzilla.mozilla.org/show_bug.cgi?id=1304322) - Refactor LoginStore.jsm to make it reusable for Form Autofill - **_Luke Chang_**
+     - [Bug 1326153](https://bugzilla.mozilla.org/show_bug.cgi?id=1326153) - [Form Autofill] Change the feature flag to browser.formautofill.experimental - **_Scott Wu_**  
+     - [Bug 1304634](https://bugzilla.mozilla.org/show_bug.cgi?id=1304634) - Support populating autocomplete results from form autofill code - **_Steve Chung_**
+
+  - **Next**
+     - [Bug 1301544](https://bugzilla.mozilla.org/show_bug.cgi?id=1301544) - Define a schema and storage method for Form Autofill / Web Payment address profiles - **_Luke Chang_**
+     - [Bug 1326139](https://bugzilla.mozilla.org/show_bug.cgi?id=1326139) - Implement two column layout for profile item binding - **_Ray Lin_**
+     - [Bug 1326138](https://bugzilla.mozilla.org/show_bug.cgi?id=1326138) - add a new profile item "binding" and make rich-result-popup append item accordingly - **_Ray Lin_**
+     - [Bug 1324631](https://bugzilla.mozilla.org/show_bug.cgi?id=1324631) - Support multiple column autocomplete popup rich list for form autofill feature - **_Ray Lin_**
+     - [Bug 1300989](https://bugzilla.mozilla.org/show_bug.cgi?id=1300989) - Fill the selected autofill profile when an autocomplete entry is chosen - **_Sean Lee_**
+     - [Bug 1304306](https://bugzilla.mozilla.org/show_bug.cgi?id=1304306) - Need to have a place in the Preference -> Setting for users to launch the profile list add/edit/remove dialog - **_Scott Wu_**     
+     - [Bug 1300992](https://bugzilla.mozilla.org/show_bug.cgi?id=1300992) - Fill the autocomplete result with real profile by using profile storage API - **_Steve Chung_**
+     - [Bug 1019483](https://bugzilla.mozilla.org/show_bug.cgi?id=1019483) - (fx-autofill-profile-mgmt) Interface to manage autofill profiles - **_Steve Chung_**
 
 - **_Location Bar_**
-  - **Next**
-      - [Bug 1273871](https://bugzilla.mozilla.org/show_bug.cgi?id=1273871) - Intermittent passwordmgr/test/browser/browser_capture_doorhanger.js | This test exceeded the timeout threshold. It should be rewritten or split up. If that's not possible, use requestLongerTimeout(N), but only as a last resort. - **_Evan Tseng_**
-      - [Bug 1256074](https://bugzilla.mozilla.org/show_bug.cgi?id=1256074) - Always present a 'search' option when the location bar search is "fixed" to an URL - **_Evan Tseng_**
+  - **Done**
+      - [Bug 1256074](https://bugzilla.mozilla.org/show_bug.cgi?id=1256074) - Always present a 'search' option, even location bar's contents are detected as URLs - **_Evan Tseng_**
 
 - **_Mortar/PDF_**
   - **Done**
+      - [Bug 1306221](https://bugzilla.mozilla.org/show_bug.cgi?id=1306221) - [jsplugins][UI] Implement fitting types and the scaling drop-down menu - **_Luke Chang_**
+      - [Bug 1311256](https://bugzilla.mozilla.org/show_bug.cgi?id=1311256) - [jsplugins] requestFullscreen doesn't work in the plugin window - **_Luke Chang_**  
+      - [Bug 1306221](https://bugzilla.mozilla.org/show_bug.cgi?id=1306221) - [jsplugins][UI] Implement fitting types and the scaling drop-down menu - **_Luke Chang_**
+      - [Bug 1314253](https://bugzilla.mozilla.org/show_bug.cgi?id=1314253) - [jsplugins][UI] Make polyfill-dropdown support keyboard - **_Luke Chang_**  
+      - [Bug 1299401](https://bugzilla.mozilla.org/show_bug.cgi?id=1299401) - [jsplugins][UI] Implement paging features - **_Luke Chang_**  
       - [Bug 1302335](https://bugzilla.mozilla.org/show_bug.cgi?id=1302335) - [jsplugins][UI] Implement a polyfill for drop-down menus - **_Luke Chang_**
       - [Bug 1287017](https://bugzilla.mozilla.org/show_bug.cgi?id=1287017) - [jsplugins][UI] Implement function of rotating PDF document clockwise/counterclockwise - **_Luke Chang_**
       - [Bug 1299399](https://bugzilla.mozilla.org/show_bug.cgi?id=1299399) - [jsplugins][UI] Implement scrolling feature - **_Luke Chang_**
       - [Bug 1299402](https://bugzilla.mozilla.org/show_bug.cgi?id=1299402) - [jsplugins][UI] Implement zoom-in and zoom-out buttons - **_Luke Chang_**
 
   - **Next**
+      - [Bug 1317228](https://bugzilla.mozilla.org/show_bug.cgi?id=1317228) - [jsplugins][UI] Implement mouse control in presentation mode - **_Luke Chang_**
+      - [Bug 1299406](https://bugzilla.mozilla.org/show_bug.cgi?id=1299406) - [jsplugins][UI] Implement document outlines - **_Luke Chang_**
+      - [Bug 1316526](https://bugzilla.mozilla.org/show_bug.cgi?id=1316526) - [jsplugins][UI] Implement download feature - **_Luke Chang_**
       - [Bug 1299405](https://bugzilla.mozilla.org/show_bug.cgi?id=1299405) - [jsplugins][UI] Implement presentation mode - **_Luke Chang_**
-      - [Bug 1306221](https://bugzilla.mozilla.org/show_bug.cgi?id=1306221) - [jsplugins][UI] Implement fitting types and the scaling drop-down menu - **_Luke Chang_**
-      - [Bug 1299401](https://bugzilla.mozilla.org/show_bug.cgi?id=1299401) - [jsplugins][UI] Implement paging features - **_Luke Chang_**
+  
+- **_NetMonitor_**
+  - **Done**
+      - [Bug 1323933](https://bugzilla.mozilla.org/show_bug.cgi?id=1323933) - rename filter to requestFilter - **_Fred Lin_**
+      - [Bug 1314528](https://bugzilla.mozilla.org/show_bug.cgi?id=1314528) - [webconsole] enable mocha tests on windows - **_Fred Lin_**  
+      - [Bug 1312352](https://bugzilla.mozilla.org/show_bug.cgi?id=1312352) - Netmonitor: the "Timeline" column shoud have a text label when the request list is empty - **_Fred Lin_**
+      - [Bug 1309496](https://bugzilla.mozilla.org/show_bug.cgi?id=1309496) - Set up mocha testing framework for netmonitor - **_Fred Lin_**  
+      - [Bug 1309193](https://bugzilla.mozilla.org/show_bug.cgi?id=1309193) - Implement sidebar toggle button in Net Panel Toolbar - **_Fred Lin_**
+      - [Bug 1311591](https://bugzilla.mozilla.org/show_bug.cgi?id=1311591) - Implement clear button for Net Panel Toolbar - **_Fred Lin_**
+      - [Bug 1268444](https://bugzilla.mozilla.org/show_bug.cgi?id=1268444) - Convert network monitor to use new key shortcut API - **_Fred Lin_**
+      - [Bug 1308440](https://bugzilla.mozilla.org/show_bug.cgi?id=1308440) - Migrate Net Panel Context Menu with framework/menu API in NetMonitor panel - **_Fred Lin_**
+      - [Bug 1311614](https://bugzilla.mozilla.org/show_bug.cgi?id=1311614) - Move CustomRequestView to its own module - **_Fred Lin_**
+      - [Bug 1308500](https://bugzilla.mozilla.org/show_bug.cgi?id=1308500) - Migrate localization strings away from netmonitor.dtd - **_Fred Lin_**
+      - [Bug 1309796](https://bugzilla.mozilla.org/show_bug.cgi?id=1309796) - add eslint support for netmonitor - **_Fred Lin_**
+      - [Bug 1308503](https://bugzilla.mozilla.org/show_bug.cgi?id=1308503) - Migrate localization strings away from certManager.dtd - **_Fred Lin_**
+      - [Bug 1317650](https://bugzilla.mozilla.org/show_bug.cgi?id=1317650) - Implement Params Panel - **_Ricky Chien_**      
+      - [Bug 1309188](https://bugzilla.mozilla.org/show_bug.cgi?id=1309188) - Implement Security Panel - **_Ricky Chien_**        
+      - [Bug 1309187](https://bugzilla.mozilla.org/show_bug.cgi?id=1309187) - Implement Timings Panel - **_Ricky Chien_**
+      - [Bug 1317659](https://bugzilla.mozilla.org/show_bug.cgi?id=1317659) - Implement Preview Panel - **_Ricky Chien_**  
+      - [Bug 1319010](https://bugzilla.mozilla.org/show_bug.cgi?id=1319010) - Move NetworkDetailsView and SidebarView to their own modules - **_Ricky Chien_**
+      - [Bug 1317205](https://bugzilla.mozilla.org/show_bug.cgi?id=1317205) - CSS improvement for summary button - **_Ricky Chien_**
+      - [Bug 1308426](https://bugzilla.mozilla.org/show_bug.cgi?id=1308426) - Implement toolbar for netmonitor panel - **_Ricky Chien_**      
+      - [Bug 1316484](https://bugzilla.mozilla.org/show_bug.cgi?id=1316484) - Add empty line between "use strict"; and linter comment and the license header - **_Ricky Chien_**
+      - [Bug 1308507](https://bugzilla.mozilla.org/show_bug.cgi?id=1308507) - Remove all usages of nsIURL and NetworkHelper - **_Ricky Chien_**      
+      - [Bug 1309194](https://bugzilla.mozilla.org/show_bug.cgi?id=1309194) - Implement summary info in Net Panel Toolbar - **_Ricky Chien_**  
+      - [Bug 1309192](https://bugzilla.mozilla.org/show_bug.cgi?id=1309192) - Implement search filter in Net Panel Toolbar - **_Ricky Chien_**
+      - [Bug 1309191](https://bugzilla.mozilla.org/show_bug.cgi?id=1309191) - Implement filter buttons for Net Panel Toolbar - **_Ricky Chien_**
+      - [Bug 1308878](https://bugzilla.mozilla.org/show_bug.cgi?id=1308878) - Implement minimal Redux store for Net panel - **_Ricky Chien_**
+      - [Bug 1278923](https://bugzilla.mozilla.org/show_bug.cgi?id=1278923) - Exported HAR format is missing Content-Type and Content-Length headers - **_Ricky Chien_**
+      - [Bug 1308697](https://bugzilla.mozilla.org/show_bug.cgi?id=1308697) - Implement UI for performance statistics - **_Steve Chung_**
+      - [Bug 1308425](https://bugzilla.mozilla.org/show_bug.cgi?id=1308425) - Move Performance Statistics into its own module - **_Steve Chung_**
+ 
+  - **Next**
+      - [Bug 1308449](https://bugzilla.mozilla.org/show_bug.cgi?id=1308449) - Implement custom request view - **_Fred Lin_**
+      - [Bug 1317649](https://bugzilla.mozilla.org/show_bug.cgi?id=1317649) - Implement Cookies Panel - **_Fred Lin_**  
+      - [Bug 1317648](https://bugzilla.mozilla.org/show_bug.cgi?id=1317648) - Implement Header Panel - **_Ricky Chien_**
+      - [Bug 1317651](https://bugzilla.mozilla.org/show_bug.cgi?id=1317651) - Implement Response Panel - **_Ricky Chien_**
+      - [Bug 1324334](https://bugzilla.mozilla.org/show_bug.cgi?id=1324334) - Migrate Chart.jsm to js and remove xul components in the chart - **_Steve Chung_**
 
 - **_Password Manager_**
   - **Done**
+      - [Bug 1273871](https://bugzilla.mozilla.org/show_bug.cgi?id=1273871) - Intermittent passwordmgr/test/browser/browser_capture_doorhanger.js | This test exceeded the timeout threshold. It should be rewritten or split up. If that's not possible, use requestLongerTimeout(N), but only as a last resort. - **_Evan Tseng_**
       - [Bug 1302352](https://bugzilla.mozilla.org/show_bug.cgi?id=1302352) - browser_context_menu_iframe.js is skipped in e10s - **_Evan Tseng_**
       - [Bug 1277105](https://bugzilla.mozilla.org/show_bug.cgi?id=1277105) - Intermittent e10s browser_capture_doorhanger.js | Check the password changed - Got pass2, expected notifyp1 or Should only have 1 login - Got 0, expected 1 - **_Evan Tseng_**
       - [Bug 1288558](https://bugzilla.mozilla.org/show_bug.cgi?id=1288558) - Merge passwordManagerCommon.js into passwordManager.js - **_Steve Chung_**
 
   - **Next**
-      - [Bug 1273871](https://bugzilla.mozilla.org/show_bug.cgi?id=1273871) - Intermittent passwordmgr/test/browser/browser_capture_doorhanger.js | This test exceeded the timeout threshold. It should be rewritten or split up. If that's not possible, use requestLongerTimeout(N), but only as a last resort. - **_Evan Tseng_**
+      - [Bug 451955](https://bugzilla.mozilla.org/show_bug.cgi?id=451955) - Improve password manager selection restoring code after filtering - **_Sean Lee_**  
       - [Bug 1257078](https://bugzilla.mozilla.org/show_bug.cgi?id=1257078) - Toggle selected password visibility in the manager with a button - **_Sean Lee_**
 
 - **_Preferences_**
   - **Done**
+      - [Bug 1044586](https://bugzilla.mozilla.org/show_bug.cgi?id=1044586) - F5 key breaks about:preferences - **_Fischer Liu_**  
       - [Bug 1305407](https://bugzilla.mozilla.org/show_bug.cgi?id=1305407) - Rename accesskeys in sync.dtd as .accesskey instead of .label.accesskey - **_Fischer Liu_**
       - [Bug 1130447](https://bugzilla.mozilla.org/show_bug.cgi?id=1130447) - Hide the password manager timeLastUsed column by default - **_Fischer Liu_**
       - [Bug 1028029](https://bugzilla.mozilla.org/show_bug.cgi?id=1028029) - Improve accesskeys in Sync pane of in-content preferences - **_Fischer Liu_**
       - [Bug 1120967](https://bugzilla.mozilla.org/show_bug.cgi?id=1120967) - Broken middle/right click on links via about:preferences pages - **_Fischer Liu_**
       - [Bug 1037166](https://bugzilla.mozilla.org/show_bug.cgi?id=1037166) - Convert the "Show Update History" dialog on advanced pane to be in-content - **_Fischer Liu_**
       - [Bug 1169704](https://bugzilla.mozilla.org/show_bug.cgi?id=1169704) - In-content preferences - Search tab - "One-click search engines" table remains highlighted after clicking elsewhere on the page - **_Fischer Liu_**
+      - [Bug 1036595](https://bugzilla.mozilla.org/show_bug.cgi?id=1036595) - Convert the "Clear recent history" dialog on privacy page to be in-content - **_Joseph Yeh_**
       - [Bug 1298872](https://bugzilla.mozilla.org/show_bug.cgi?id=1298872) - Text cropped and overflowed in advanced pane in-content dialogs - **_Joseph Yeh_**
       - [Bug 1049001](https://bugzilla.mozilla.org/show_bug.cgi?id=1049001) - Convert the certManager dialog to in-content - **_Joseph Yeh_**
       - [Bug 1184989](https://bugzilla.mozilla.org/show_bug.cgi?id=1184989) - Flipping preference through keyboard scrolls the tab as well - **_Joseph Yeh_**
@@ -178,11 +249,9 @@
 
   - **Next**
 
-      - [Bug 1044586](https://bugzilla.mozilla.org/show_bug.cgi?id=1044586) - F5 key breaks about:preferences - **_Joseph Yeh_**
-      - [Bug 1036595](https://bugzilla.mozilla.org/show_bug.cgi?id=1036595) - Convert the "Clear recent history" dialog on privacy page to be in-content - **_Joseph Yeh_**
-
 - **_Private Browsing_**
   - **Done**
+      - [Bug 1317438](https://bugzilla.mozilla.org/show_bug.cgi?id=1317438) - Unnecessary whitespaces added by XHTML code in about:privatebrowsing - **_Ricky Chien_**
       - [Bug 1259340](http://bugzil.la/1259340) - New Private Browsing Window update - **_Ricky Chien_**
       - [Bug 1267434](http://bugzil.la/1267434) - Unnecessary whitespace displayed after aboutPrivateBrowsing.info.saved.emphasize in about:privatebrowing - **_Ricky Chien_**
       - [Bug 1267499](http://bugzil.la/1267499) - New Private Browsing start-page overflows off the window bottom (triggering a scrollbar) for totally-reasonable window sizes - **_Ricky Chien_**
@@ -190,6 +259,15 @@
 
 - **_Quality of Experience_**
   - **Done**
+      - [Bug 1318605](https://bugzilla.mozilla.org/show_bug.cgi?id=1318605) - Do language detection for cases don't obtain a dir attribute - **_Evan Tseng_**  
+      - [Bug 1255978](https://bugzilla.mozilla.org/show_bug.cgi?id=1255978) - Reader View displays list of other articles when used on article on www.independent.co.uk - **_Evan Tseng_**  
+      - [Bug 1173548](https://bugzilla.mozilla.org/show_bug.cgi?id=1173548) - Reader View picks wrong direction for some RTL pages - **_Evan Tseng_**
+      - [Bug 1317930](https://bugzilla.mozilla.org/show_bug.cgi?id=1317930) - Tests for msn.com - **_Evan Tseng_**
+      - [Bug 1310075](https://bugzilla.mozilla.org/show_bug.cgi?id=1310075) - Tests for qq.com - **_Evan Tseng_**
+      - [Bug 1173823](https://bugzilla.mozilla.org/show_bug.cgi?id=1173823) - Reader View ignores (base href="...") - **_Evan Tseng_**
+      - [Bug 1177619](https://bugzilla.mozilla.org/show_bug.cgi?id=1177619) - Reader mode isn't offered on Blogger/Blogspot based blogs - **_Evan Tseng_**  
+      - [Bug 1310074](https://bugzilla.mozilla.org/show_bug.cgi?id=1310074) - Tests for yahoo.com - **_Evan Tseng_**  
+      - [Bug 1310073](https://bugzilla.mozilla.org/show_bug.cgi?id=1310073) - Tests for wikipedia.org - **_Evan Tseng_**
       - [Bug 1151200](https://bugzil.la/1151200) - User should be able to set margins widths in Reader mode **_Dan Huang_**
       - [Bug 1269521](https://bugzil.la/1269521) -  User should be able to set line height in Reader mode - **_Dan Huang_**
       - [Bug 1203481](https://bugzilla.mozilla.org/show_bug.cgi?id=1203481) - All dividers in the URL bar should have the same style - **_Ray Lin_**
@@ -204,12 +282,37 @@
       - [Bug 1231701](https://bugzilla.mozilla.org/show_bug.cgi?id=1231701) - Ship an emoji font on Windows XP - **_Tim Chien_**
 
   - **Next**
-      - [Bug 1310075](https://bugzilla.mozilla.org/show_bug.cgi?id=1310075) - Tests for qq.com - **_Evan Tseng_**
-      - [Bug 1177619](https://bugzilla.mozilla.org/show_bug.cgi?id=1177619) - Reader mode isn't offered on Blogger/Blogspot based blogs - **_Evan Tseng_**
       - [Bug 1167568](https://bugzilla.mozilla.org/show_bug.cgi?id=1167568) - Reader View displays only the first part of specific articles from ehow.com - **_Evan Tseng_**
 
+- **_Storage Management_**
+  - **Done**
+      - [Bug 1325136](https://bugzilla.mozilla.org/show_bug.cgi?id=1325136) - TEST-UNEXPECTED-FAIL | browser/components/preferences/in-content/tests/browser_advanced_siteData.js | leaked 2 window(s) until shutdown [url = about:preferences#advanced]  - **_Fischer Liu_** 
+      - [Bug 1323391](https://bugzilla.mozilla.org/show_bug.cgi?id=1323391) - Sort sites listed in Settings of Site Data by usage - **_Fischer Liu_**  
+      - [Bug 1312372](https://bugzilla.mozilla.org/show_bug.cgi?id=1312372) - List sites using storage in Settings of Site Data - **_Fischer Liu_**
+      - [Bug 1312361](https://bugzilla.mozilla.org/show_bug.cgi?id=1312361) - Clear all sites data from the Site Data section - **_Fischer Liu_**
+      - [Bug 1313003](https://bugzilla.mozilla.org/show_bug.cgi?id=1313003) - Add Site Data section into Network of Advanced of about:preferences - **_Fischer Liu_**
+  
+  - **Next**
+      - [Bug 1312374](https://bugzilla.mozilla.org/show_bug.cgi?id=1312374) - Search sites listed in Settings of Site Data on host - **_Fischer Liu_**  
+      - [Bug 1312377](https://bugzilla.mozilla.org/show_bug.cgi?id=1312377) - Remove selected site data in Settings of Site Data - **_Fischer Liu_**  
+      - [Bug 1309123](https://bugzilla.mozilla.org/show_bug.cgi?id=1309123) - Show persist-storage permission request notification - **_Fischer Liu_**
+ 
 - **_Video Controls_**
   - **Done**
+      - [Bug 1319301](https://bugzilla.mozilla.org/show_bug.cgi?id=1319301) - New video controls have leave a gray overlay over videos - **_Ray Lin_**
+      - [Bug 1322512](https://bugzilla.mozilla.org/show_bug.cgi?id=1322512) - "audio" with vertical writing mode doesn't render anything visible - **_Ray Lin_**
+      - [Bug 1323640](https://bugzilla.mozilla.org/show_bug.cgi?id=1323640) - refactor head.js -> getAnonElemWithinVideoByAttribute method to avoid using potential undefined variable - **_Ray Lin_**
+      - [Bug 1321416](https://bugzilla.mozilla.org/show_bug.cgi?id=1321416) - Unnecessary scrollbars appear on video document - **_Ray Lin_**
+      - [Bug 1319301](https://bugzilla.mozilla.org/show_bug.cgi?id=1319301) - New video controls have leave a gray overlay over videos - **_Ray Lin_**
+      - [Bug 1319569](https://bugzilla.mozilla.org/show_bug.cgi?id=1319569) - Dead code in videocontrols.xml - **_Ray Lin_**  
+      - [Bug 1313285](https://bugzilla.mozilla.org/show_bug.cgi?id=1313285) - Remove nsVideoFrame::mBorderPadding - **_Ray Lin_**  
+      - [Bug 1311700](https://bugzilla.mozilla.org/show_bug.cgi?id=1311700) - Add test to confirm that video control show controls in different sizes correctly - **_Ray Lin_**
+      - [Bug 1317909](https://bugzilla.mozilla.org/show_bug.cgi?id=1317909) - add a test to confirm that error overlay and status icon show when open unsupported media source - **_Ray Lin_**   
+      - [Bug 1302320](https://bugzilla.mozilla.org/show_bug.cgi?id=1302320) - add a test to confirm that video control show "noaudio" icon when video has no audio - **_Ray Lin_** 
+      - [Bug 1302310](https://bugzilla.mozilla.org/show_bug.cgi?id=1302310) - Consider make video control's width match the size of video element - **_Ray Lin_**
+      - [Bug 1317909](https://bugzilla.mozilla.org/show_bug.cgi?id=1317909) - add a test to confirm that error overlay and status icon show when open unsupported media source - **_Ray Lin_**
+      - [Bug 1271765](https://bugzilla.mozilla.org/show_bug.cgi?id=1271765) - Visual refresh of media controls - **_Ray Lin_**
+      - [Bug 1312324](https://bugzilla.mozilla.org/show_bug.cgi?id=1312324) - Add test to confirm that fullscreen should(not) be available accordingly when video in an iframe - **_Ray Lin_**
       - [Bug 1303245](https://bugzilla.mozilla.org/show_bug.cgi?id=1303245) - add a test to confirm that video control show closed caption button when video has supported text track - **_Ray Lin_**
       - [Bug 1300805](https://bugzilla.mozilla.org/show_bug.cgi?id=1300805) - Disable WebVTT breaks some controls of the native media player - **_Ray Lin_**
       - [Bug 1293601](https://bugzilla.mozilla.org/show_bug.cgi?id=1293601) - [Fennec] The video controls are missing the time slider and show a random number at the start of video playback on YouTube - **_Ray Lin_**
@@ -219,9 +322,9 @@
       - [Bug 887934](https://bugzilla.mozilla.org/show_bug.cgi?id=887934) - [webvtt] Update video controls to include options for closed captioning - **_Ray Lin_**
 
   - **Next**
-      - [Bug 1302320](https://bugzilla.mozilla.org/show_bug.cgi?id=1302320) - add a test to confirm that video control show "noaudio" icon when video has no audio - **_Ray Lin_**
-      - [Bug 1271765](https://bugzilla.mozilla.org/show_bug.cgi?id=1271765) - Visual refresh of media controls - **_Ray Lin_**
-
+      - [Bug 1319584](https://bugzilla.mozilla.org/show_bug.cgi?id=1319584) - Remove right-border-radius - **_Ray Lin_** 
+      - [Bug 1312334](https://bugzilla.mozilla.org/show_bug.cgi?id=1312334) - add test to confirm that every control work fine when open media directly - **_Ray Lin_**
+ 
 - **_Good First Bug/Mentor Bug/Good Next Bug_**
   - **Done**
       - [Bug 1126967](https://bugzilla.mozilla.org/show_bug.cgi?id=1126967) - Improve the loading transition - **_Dan Huang_**
@@ -263,11 +366,6 @@
       - [Bug 1260276](https://bugzilla.mozilla.org/show_bug.cgi?id=1260276) - Reader mode messes with tab history when I navigate to article in reader mode (on facebook articles) - **_Tim Chien_**
       - [Bug 1277747](https://bugzilla.mozilla.org/show_bug.cgi?id=1277747) - Firefox freezes before restarting when I clicked the [Restart to Update...] button in about dialog - **_Tim Chien_**
       - [Bug 1266611](https://bugzilla.mozilla.org/show_bug.cgi?id=1266611) - Tab prompts can overlap in the same tab - **_Tim Chien_**
-
-  - **Next**
-      - [Bug 1256074](https://bugzilla.mozilla.org/show_bug.cgi?id=1256074) - Always present a 'search' option, even location bar's contents are detected as URLs - **_Evan Tseng_**
-      - [Bug 1000700](https://bugzilla.mozilla.org/show_bug.cgi?id=1000700) - menu-button dropmarkers aren't inverted with dark LWT - **_Scott Wu_**
-      - [Bug 1217162](https://bugzilla.mozilla.org/show_bug.cgi?id=1217162) - Implement Contextual Feedback on Insecure Passwords - **_Sean Lee_**
 
 # Fennec #
 

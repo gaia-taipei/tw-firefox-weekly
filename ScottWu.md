@@ -1,20 +1,30 @@
-## 10/11 ~ 10/14
+## 3/6 ~ 3/17
 
 - [Firefox]
-	- [r-] [Bug 1000700](https://bugzilla.mozilla.org/show_bug.cgi?id=1000700) - menu-button dropmarkers aren't inverted with dark LWT
-		- Reviewer asked me to take a different direction
 	- [UI feedback] [Bug 285836](https://bugzilla.mozilla.org/show_bug.cgi?id=285836) - Make "Remove All Cookies Now" undoable
 		- Got UX feedback, will make a few changes to the patch
 
 - [Date-time Picker]
 	- [Bug 1283381](https://bugzilla.mozilla.org/show_bug.cgi?id=1283381) - [meta] Implement UI for date time input types
-		- [r+] [Bug 1283384](https://bugzilla.mozilla.org/show_bug.cgi?id=1283384) - Implement UI for \<input type="time"\>
-			- Followed up on the issue
-		- [Bug 1301284](https://bugzilla.mozilla.org/show_bug.cgi?id=1301284) - Update picker style to match the visual spec for \<input type="time"\>
-			- Patch is on mozreview, ready for review once Bug 1283384 lands
-		- [WIP] [Bug 1309471](https://bugzilla.mozilla.org/show_bug.cgi?id=1309471) - [DateTimePicker] Add browser chrome test for time picker
-			- WIP is on mozreview
-		- [WIP] [Bug 1283385](https://bugzilla.mozilla.org/show_bug.cgi?id=1283385) -  Implement UI for \<input type="date"\>
+		- [Bug 1320647](https://bugzilla.mozilla.org/show_bug.cgi?id=1320647) -  [DateTimePicker] Add min/max and step support to date picker
+			- UX spec changed, editing patch to align with new behaviors before asking for review
+		- [Bug 1328219](https://bugzilla.mozilla.org/show_bug.cgi?id=1328219) - [DateTimePicker] Add browser chrome test for date picker
+			- Based on master schedule plans, will work on this after features have been landed.
+		- [Bug 1343707](https://bugzilla.mozilla.org/show_bug.cgi?id=1343707) - datetimepopup.xml should not be initialized during browser startup
+			- r+ from :mconley
+			- landed
+		- [Bug 1348052](https://bugzilla.mozilla.org/show_bug.cgi?id=1348052) - vertical scroll buttons on the datetime picker are opposed to the natural behavior of scrolling buttons
+			- Had discussion with UX and will make prototype for reversing spinner order if needed
+			- Morpheus will respond to the comments
+
+- [Form Autofill]
+	- [Bug 1019471](https://bugzilla.mozilla.org/show_bug.cgi?id=1019471) - (fx-autofill-profile-edit) Dialog to add/edit/view an autofill profile
+		- r+ MattN
+		- landed
+	- [Bug 1019483](https://bugzilla.mozilla.org/show_bug.cgi?id=1019483) - (fx-autofill-profile-mgmt) Interface to manage autofill profiles
+		- r? MattN
+	- [Bug 1347186](https://bugzilla.mozilla.org/show_bug.cgi?id=1347186) - Add mochitest-browser-chrome to test adding and updating profiles from editProfile dialog
+	- [Bug 1340987](https://bugzilla.mozilla.org/show_bug.cgi?id=1340987) - Improve subdialog.js to support multiple dialogs
 
 #### Date Time Pickers Tasks:
 
@@ -37,11 +47,11 @@
 	- [Done] Out of range items are displayed but greyed out
 	- [Done] Fix panel arrow position
 - Date picker
-	- [WIP] Basic calendar component
+	- [Done] Basic calendar component
 		- Display calendar in 6 week rows
 		- First day of the week & weekends configurable
 		- Apply basic styling
-	- Add max and min features
+	- [Done] Add max and min features
 		- Dates earlier than min or later than max are greyed out
 		- Out of range years are not displayed, and months are greyed out
 	- Add step features
@@ -55,9 +65,9 @@
 	- Combining date picker and time picker
 
 - Full L10n support
-	- Getting localized strings with Intl API
-	- Get calendar info with Intl API
-	- Spinner orders depend on locale
+	- [done] Getting localized strings with Intl API
+	- [done] Get calendar info with Intl API
+	- [done] Spinner orders depend on locale
 - Full a11y support
 	- Tab focus
 	- Alt text & ARIA

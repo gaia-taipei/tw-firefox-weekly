@@ -1,41 +1,44 @@
-# 10/17 ~ 10/21
+# 04/17 - 05/12
 
 - [Video Control]
-  - Bug 1271765 - Visual refresh of media controls
-    - review:
-      - Part 1: Layout reflow fix    r?dholbert
-    - layout:
-      - issues fixed -> revision 2
-      - dholbert PTO 10/21 - 10/25
-    - a11y:
-      - accessible tree fixed
-
-  - Bug 1302320 - add a test to confirm that video control show "noaudio" icon when video has no audio
-    - patch done and pushed. Will add review flag once Bug 1271765 landed
-
-  - Bug 1311700 - Add test to confirm that video control show controls in different sizes correctly
-    - have problem probing style(size, display) in mochitest, looking for similar UI test case as reference
-
-  - Bug 1312324 - Add test to confirm that fullscreen should(not) be available accordingly when video in an iframe
+  - Bug 1352686 - Video doesn't play normally when I try to scroll the page
+    - r-jaws
+    - WIP, try to fix in DOM
+  - Bug 1270983 - Intermittent browser_contextmenu.js | Test timed out | Found a tab after previous test timed out: subtst_contextmenu.html -
+    - landed
+  - Bug 1325591 - Videos are not displayed correctly with high contrast themes
+    - re-landed, as media query in content process has been fixed
+  - Bug 1346432 - Regression Firefox hides all video frames but still plays audio without a way to disable it (sometimes)
+    - landed
+  - Bug 1352724 - Seeking in video unexpectedly starts the playback, and video controls don't display current time
     - r?jaws
+  - Bug 1359815 - Spinning loading UI is not used when resuming video element's video decoder takes longer than 250ms
+    - landed, r=me
+  - Bug 1362146 - html5 audio player controls not present
+    - got feedback from Jared, will back to this once got free time
 
-  - Video control test coverage enhancement tracker bug - Bug 1303958
+- [Form Autofill]
+  - Bug 1329628 - Address phishing danger concerns about \[Form Autofill\]
+    - on hold
+  - Bug 1340483 - Add a chrome-only API to preview the text to be auto-filled in an \<input\>
+    - landed
+  - Bug 1340488 - Add a chrome-only API to preview the option to be auto-selected in a \<select\>
+    - landed
+  - Bug 1361244 - \[Form Autofill\] Add a new pseudo class for preview which highlight and change text color of form elements.
+    - landed
+  - Bug 1300996 - Show a preview of what would be filled when a form autofill autocomplete result is highlighted
+    - WIP
+    - part1, r+adw
+    - part2, r?MattN
 
-### Video Control Planning ###
-
-- [after visual refresh ~]
-	- Test coverage improvement:
-		- CC button and its menu, and CC should correspond with selected one - fixed
-		- should show "noaudio" icon if video has no audio - Bug 1302320
-		- the appearance of small size video - Bug 1311700
-		- should show error state and error text should fit on most video size
-		- should show fullscreen button accordingly when video in an iframe - Bug 1312324
-		- top level synthetic media - buttons such as play, pause, mute, CC, fullscreen should work - Bug 1312334
-- [deferred]
-  - Split mobile/desktop bindings - bug 1292083
-  - [De-XUL] Andriod - bug 1310907
 
 ### Autofill Planning ###
 
-  - [November ~]
-    - Discuss/Work together with Steve on two preference dialogs.
+- Q2
+  - Dropdown menu
+    - Notify add-on for preview
+    - Phishing layout
+  - Preview
+    - Preview API for <input>
+    - Preview API for <select>
+    - Integration preview & highlight

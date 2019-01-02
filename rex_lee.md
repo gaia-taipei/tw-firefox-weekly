@@ -1,17 +1,28 @@
-## [W42] 10/16 - 10/20 ##
+
+## [W07-W08] Rex 2/20 - 3/3 ##
 
 ### This week ###
-- Bug 1301384 - Unify the spacing and the progress bar styling in the Downloads Panel across platforms
-  - f+, sending r?
-- Bug 1269954 - Pop out download starting notification when a new download request is triggered.
-  - Pending due to priority for bug 1301384. Would try make patch during bug 1301384's reviewing.
+** mortar **
+- Bug 1338095 -	[Mortar] Implement "View bookmark" button in PDF viewer.
+  - Modifying patch based on feedback gotten
+  - Strenthen input sanitizing
+  
 
+### Last weeks ###
+** content handling **
+Content handling
+- Bug 1338984 - The "attention" state of the Downloads Indicator does not have enough contrast for the "arrow" style progress
+  - landed
+- Bug 1270006 - Replace the downloads remaining time on the downloads button with a downloading icon
+  - landed
+- Bug 1270012 - Visual for download animation on download start whenever a download is started
+  - landed
 
-
-### Last week ###
-- Bug 1301384 - Unify the spacing and the progress bar styling in the Downloads Panel across platforms
-  - Start working.
-- Bug 950058 - Split each download item so that all of the right part of it activates the action
-  - Landed.
-- Bug 1269954 - Pop out download starting notification when a new download request is triggered.
-  - Pending due to priority for bug 1301384.
+** mortar **
+- Bug 1338094 - [Mortar] Support hotkey for copy selected text in PDF viewer.
+  - landed.
+- Bug 1338095 -	[Mortar] Implement "View bookmark" button in PDF viewer.
+  - Studying codebase of Mortar required for achieving the asked feature.
+  - Inspecting corresponding behavior of PDF.js.
+  - first f? finished.
+ 
