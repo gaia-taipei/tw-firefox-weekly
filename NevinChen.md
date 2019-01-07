@@ -1,3 +1,10 @@
+# 2019 12/31-1/4
+- Study [NPE](https://github.com/mozilla-tw/Rocket/issues/3042#issuecomment-450817911) , [bsack out](https://github.com/mozilla-tw/Rocket/pull/3046)
+- Fix exit private mode [wip](https://github.com/mozilla-tw/Rocket/pull/3020)
+- Session refactoring estimation [wip](https://github.com/mozilla-tw/Rocket/issues/3034#issuecomment-450548131)
+- [E-Commerce survey](https://github.com/mozilla-tw/Rocket/issues/3034#issuecomment-450771970)
+- [Review Download Manager](https://github.com/mozilla-tw/Rocket/pull/3021)
+
 # 2018 12/24-12/30
 - Fix exit private mode [wip](https://github.com/mozilla-tw/Rocket/pull/3020)
 - Session refactoring [wip](https://github.com/mozilla-tw/Rocket/issues/3034#issuecomment-450548131)
