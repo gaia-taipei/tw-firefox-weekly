@@ -1,3 +1,9 @@
+# 2019 1/7~1/11
+- [spike for #2537 (multitab for private browsing)](https://github.com/mozilla-tw/Rocket/issues/3008#issuecomment-453017344)
+- [Spike for e-commerce portal](https://github.com/mozilla-tw/Rocket/issues/3034#issuecomment-453016571)
+- [Review Download enhancement](https://github.com/mozilla-tw/Rocket/pull/3021) / [discussion](https://github.com/mozilla-tw/Rocket/pull/3059)
+- [Change back Language to English doesn't work in Give Feedback area](https://github.com/mozilla-tw/Rocket/issues/2794)
+
 # 2019 12/31-1/4
 - Study [NPE](https://github.com/mozilla-tw/Rocket/issues/3042#issuecomment-450817911) , [bsack out](https://github.com/mozilla-tw/Rocket/pull/3046)
 - Fix exit private mode [wip](https://github.com/mozilla-tw/Rocket/pull/3020)
