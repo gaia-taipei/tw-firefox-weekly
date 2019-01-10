@@ -3,6 +3,7 @@
 - [Spike for e-commerce portal](https://github.com/mozilla-tw/Rocket/issues/3034#issuecomment-453016571)
 - [Review Download enhancement](https://github.com/mozilla-tw/Rocket/pull/3021) / [discussion](https://github.com/mozilla-tw/Rocket/pull/3059)
 - [Change back Language to English doesn't work in Give Feedback area](https://github.com/mozilla-tw/Rocket/issues/2794)
+- [Content Portal Widget](https://github.com/mozilla-tw/Rocket/pull/2878#pullrequestreview-191139439)
 
 # 2019 12/31-1/4
 - Study [NPE](https://github.com/mozilla-tw/Rocket/issues/3042#issuecomment-450817911) , [bsack out](https://github.com/mozilla-tw/Rocket/pull/3046)
