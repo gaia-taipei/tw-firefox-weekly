@@ -1,3 +1,12 @@
+# 2019 1/14~1/18
+- [Test:Make sure our default search engine is Google for all locales](https://github.com/mozilla-tw/FirefoxLite/pull/3078)
+- [Fix:Default search engine not set to Google in ID](https://github.com/mozilla-tw/FirefoxLite/issues/3067)
+- [Fix AnimatedProgressBar CPU usage and NPE problem](https://github.com/mozilla-tw/FirefoxLite/pull/3077)
+- [Session IdlingResouce done right](https://github.com/mozilla-tw/FirefoxLite/pull/3064)
+- [Review: Donwload Enhancement](https://github.com/mozilla-tw/FirefoxLite/pull/3021)
+- Review: UITest fixes by Daisy
+- Content Portal and e-commerce POC disucssion
+
 # 2019 1/7~1/11
 - [spike for #2537 (multitab for private browsing)](https://github.com/mozilla-tw/Rocket/issues/3008#issuecomment-453017344)
 - [Spike for e-commerce portal](https://github.com/mozilla-tw/Rocket/issues/3034#issuecomment-453016571)
