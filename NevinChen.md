@@ -1,3 +1,11 @@
+# 2019 1/21~1/25
+- [Dynamic Delivery with AC feature-sync](https://github.com/mozilla-tw/FirefoxLite/pull/3116)
+- Download enhancement - [Bug](https://github.com/mozilla-tw/FirefoxLite/pull/3107)
+- [Contentl Portal](https://github.com/mozilla-tw/FirefoxLite/pull/3104)
+- [RemteConfig Ping](https://github.com/mozilla-tw/FirefoxLite/pull/3081)
+- Review: UITest fixes by Daisy
+
+
 # 2019 1/14~1/18
 - [Test:Make sure our default search engine is Google for all locales](https://github.com/mozilla-tw/FirefoxLite/pull/3078)
 - [Fix:Default search engine not set to Google in ID](https://github.com/mozilla-tw/FirefoxLite/issues/3067)
