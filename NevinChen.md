@@ -1,3 +1,7 @@
+Moved work report to here.
+https://docs.google.com/document/d/1FM7cTdQrvQvjemRzS1lbVO-oI9SDH5lfUcNBZw9iy0w/edit?usp=sharing
+
+
 # 2019 1/21~1/25
 - [Dynamic Delivery with AC feature-sync](https://github.com/mozilla-tw/FirefoxLite/pull/3116)
 - Download enhancement - [Bug](https://github.com/mozilla-tw/FirefoxLite/pull/3107)
